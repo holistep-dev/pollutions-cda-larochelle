@@ -241,5 +241,7 @@
     "code_rapportage_ue": "FRFR5321709M017047",
     "sous_controle_sanitaire": true
   },
-  "origine_trace": "Estran sableux de la BD TOPO de l'IGN dans un rayon de 250 m autour du point de contrôle de l'ARS. La zone de baignade réglementaire n'est pas publiée sous forme de tracé."
+  "origine_trace": "Estran sableux de la BD TOPO de l'IGN dans un rayon de 250 m autour du point de contrôle de l'ARS. La zone de baignade réglementaire n'est pas publiée sous forme de tracé.",
+  "accroche": "Eau de baignade insuffisante en 2025",
+  "resume_court": "Classement de l'ARS sur deux bactéries d'origine fécale. Un prélèvement du 29 août 2025 a mesuré 19 000 entérocoques pour 100 mL."
 }

@@ -66,5 +66,8 @@
     }
   ],
   "derniere_verification": "2026-11-08",
-  "visible_par_defaut": true
+  "visible_par_defaut": true,
+  "accroche": "50 000 m³ de remblai radioactif dans le port",
+  "resume_court": "L'Andra recense un remblai mêlé de résidus de l'usine de Chef-de-Baie. Le résidu atteint en moyenne 48 Bq/g en thorium 232.",
+  "pictogramme": "radioactif"
 }

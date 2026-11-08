@@ -184,5 +184,7 @@
       "relation": "voisin"
     }
   ],
-  "origine_trace": "Estran sableux de la BD TOPO de l'IGN dans un rayon de 250 m autour du point de contrôle de l'ARS. La zone de baignade réglementaire n'est pas publiée sous forme de tracé."
+  "origine_trace": "Estran sableux de la BD TOPO de l'IGN dans un rayon de 250 m autour du point de contrôle de l'ARS. La zone de baignade réglementaire n'est pas publiée sous forme de tracé.",
+  "accroche": "Eau excellente depuis 2013, plage fermée en août 2026",
+  "resume_court": "Le classement ne porte que sur les bactéries fécales. La plage a été fermée du 13 au 18 août 2026 après un panache d'origine non déterminée."
 }

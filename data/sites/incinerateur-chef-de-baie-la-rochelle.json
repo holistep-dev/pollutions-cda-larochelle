@@ -1,0 +1,59 @@
+{
+  "milieux": [
+    "air",
+    "eau_souterraine"
+  ],
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": true,
+  "procedure_en_cours": true,
+  "id": "incinerateur-chef-de-baie-la-rochelle",
+  "nom": "Unité de valorisation énergétique (incinérateur) de Chef-de-Baie",
+  "commune": "La Rochelle",
+  "code_insee": "17300",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -1.193868,
+      46.153044
+    ]
+  },
+  "precision_geo": "localisation_indicative",
+  "rayon_m": 120,
+  "origine_trace": "Coordonnées de l'installation publiées par Géorisques.",
+  "categorie": "air",
+  "pictogramme": "cheminee",
+  "substances": [
+    {
+      "libelle": "oxydes d'azote, dépassements des valeurs limites d'émission liés à l'encrassement des catalyseurs",
+      "milieu": "air",
+      "source": "dreal-inspection-uve-2025-12-09"
+    },
+    {
+      "libelle": "ammoniac, dépassement des valeurs limites d'émission pendant plusieurs jours en novembre 2025",
+      "milieu": "air",
+      "source": "dreal-inspection-uve-2025-12-09"
+    }
+  ],
+  "periode": {
+    "debut": "1987",
+    "debut_statut": "datee",
+    "fin": null,
+    "fin_statut": "en_cours",
+    "note": "Autorisation préfectorale du 24 juin 1987, installation en activité."
+  },
+  "resume": "L'installation incinère les ordures de l'agglomération dans deux fours, sous autorisation préfectorale de 1987, et vend sa chaleur à l'usine voisine et à un réseau de chaleur. Le rapport d'inspection du 9 décembre 2025 relève un encrassement persistant des catalyseurs, responsable de dépassements des valeurs limites d'émission en oxydes d'azote, et des dépassements en ammoniac pendant plusieurs jours en novembre 2025, signalés par l'exploitant. Il demande aussi un suivi des eaux souterraines sous les zones de stockage, à l'étude depuis février 2025, et un contrôle de l'étanchéité des plateformes de mâchefers.",
+  "accroche": "Dépassements des limites d'émission de l'incinérateur",
+  "resume_court": "L'inspection de décembre 2025 relève des dépassements des limites d'émission en oxydes d'azote et en ammoniac. Un suivi des eaux souterraines sous le site est demandé.",
+  "statut_preuve": "diagnostic_administratif",
+  "statut_traitement": "sous_surveillance",
+  "sources": [
+    "dreal-inspection-uve-2025-12-09",
+    "dreal-inspection-uve-2024-06-26"
+  ],
+  "ce_qui_manque": [
+    {
+      "piece": "Les durées et valeurs des dépassements, et les mesures de dioxines",
+      "ou_chercher": "Rapports annuels d'autosurveillance de l'exploitant, commission de suivi de site, IREP"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "milieux": [
+    "sediment_marin"
+  ],
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": true,
+  "procedure_en_cours": false,
+  "id": "radioactivite-port-neuf-la-rochelle",
+  "nom": "Sédiments radioactifs à l'ancien émissaire de Port-Neuf",
+  "commune": "La Rochelle",
+  "code_insee": "17300",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -1.1875,
+      46.1515
+    ]
+  },
+  "precision_geo": "localisation_indicative",
+  "rayon_m": 300,
+  "origine_trace": "Position approximative de la plage de Port-Neuf et de l'ancien émissaire de l'usine. La source ne donne pas de coordonnées.",
+  "categorie": "sediment_marin",
+  "pictogramme": "radioactif",
+  "substances": [
+    {
+      "libelle": "activité totale des sédiments, prélèvement d'août 1988",
+      "milieu": "sediment_marin",
+      "valeur": 500000,
+      "unite": "Bq/kg",
+      "date_mesure": "1988-08",
+      "source": "criirad-tu108-2026-04"
+    },
+    {
+      "libelle": "thorium 228 des sédiments, prélèvement d'août 1988",
+      "milieu": "sediment_marin",
+      "valeur": 100000,
+      "unite": "Bq/kg",
+      "date_mesure": "1988-08",
+      "source": "criirad-tu108-2026-04"
+    }
+  ],
+  "periode": {
+    "debut": "1947",
+    "debut_statut": "datee",
+    "fin": "1985",
+    "fin_statut": "datee",
+    "note": "Rejets d'effluents de l'usine en mer selon l'inventaire."
+  },
+  "resume": "Le laboratoire de la CRIIRAD a mesuré en août 1988 des boulettes de sédiments prélevées à 50 à 100 m de l'émissaire de l'usine de Chef-de-Baie : activité totale supérieure à 500 000 Bq/kg, thorium 228 supérieur à 100 000 Bq/kg. En avril 2002, le flux gamma au contact de l'ancienne canalisation atteignait 5 000 coups par seconde, contre 50 pour le niveau naturel local. Ces mesures viennent d'une association et n'ont pas été reprises dans un document administratif retrouvé.",
+  "accroche": "Sédiments radioactifs mesurés près de l'ancien rejet en mer",
+  "resume_court": "En 1988, la CRIIRAD a mesuré plus de 500 000 Bq/kg dans des sédiments près de l'émissaire de l'usine. En 2002, le rayonnement au contact de la canalisation valait cent fois le niveau naturel.",
+  "statut_preuve": "signalement_non_instruit",
+  "statut_traitement": "inconnu",
+  "sources": [
+    "criirad-tu108-2026-04"
+  ],
+  "ce_qui_manque": [
+    {
+      "piece": "Une mesure récente par un organisme public (ASNR) ou un document administratif",
+      "ou_chercher": "ASNR, réseau national de mesures de la radioactivité de l'environnement ; DREAL Nouvelle-Aquitaine"
+    }
+  ]
+}

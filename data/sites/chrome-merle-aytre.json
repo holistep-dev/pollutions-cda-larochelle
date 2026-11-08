@@ -104,5 +104,7 @@
     }
   ],
   "derniere_verification": "2026-11-08",
-  "visible_par_defaut": true
+  "visible_par_defaut": true,
+  "accroche": "Chrome dans la nappe d'une zone d'activités",
+  "resume_court": "Un forage a mesuré 4 mg/L de chrome dans la nappe en 1999, attribué à un atelier de traitement de surfaces. Des terres ont été excavées et la nappe est surveillée."
 }

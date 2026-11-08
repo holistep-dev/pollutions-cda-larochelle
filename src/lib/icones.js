@@ -15,6 +15,7 @@ export const COULEURS = {
   prairie: "#d9e4a6",
   gel: "#cbd5e1",
   bio: "#15803d",
+  nature: "#0f766e",
 };
 
 // Tracés sur une grille de 24 × 24, trait blanc.
@@ -28,6 +29,9 @@ const GLYPHES = {
   vent: '<path d="M3 8.5h10.5a2.8 2.8 0 1 0-2.8-2.8"/><path d="M3 12.5h15a3 3 0 1 1-3 3"/><path d="M3 16.5h6"/>',
   vague: '<path d="M3 9c1.5-1.2 3-1.2 4.5 0s3 1.2 4.5 0 3-1.2 4.5 0 3 1.2 4.5 0"/><path d="M3 14c1.5-1.2 3-1.2 4.5 0s3 1.2 4.5 0 3-1.2 4.5 0 3 1.2 4.5 0"/>',
   coche: '<path d="M5 12.5 10 17.5 19 7.5"/>',
+  radioactif: '<circle cx="12" cy="12" r="1.6"/><path d="M12 10.4 9.2 5.5a7.5 7.5 0 0 1 5.6 0z"/><path d="M13.4 12.8l2.8 4.9a7.5 7.5 0 0 0 2.8-4.9z"/><path d="M10.6 12.8 7.8 17.7a7.5 7.5 0 0 1-2.8-4.9z"/>',
+  cheminee: '<path d="M5 21V11h4v10"/><path d="M9 21v-6l5 3v-3l5 3v3"/><path d="M4 21h16"/><path d="M7 8c0-1.5 1.5-1.5 1.5-3S10 3.5 10 2.5"/>',
+  feuille: '<path d="M5 19c0-8 5-13 14-14-1 9-6 14-14 14z"/><path d="M5 19 13 11"/>',
 };
 
 export function svgIcone({ glyphe, fond, creux = false, pointille = false, carre = false, taille = 64 }) {
@@ -51,6 +55,12 @@ export const urlIcone = (o) => "data:image/svg+xml;charset=utf-8," + encodeURICo
 // Description d'icône à partir des propriétés d'un repère de site.
 export function iconeSite(p) {
   const creux = p.preuve === "signalement_non_instruit";
+  // Site réhabilité : même pictogramme, fond vert.
+  if (p.rehabilite) return { glyphe: p.pictogramme ?? (p.categorie === "decharge" ? "decharge" : "usine"), fond: COULEURS.vert };
+  if (p.pictogramme && p.type !== "baignade") {
+    const fond = p.type === "air" ? COULEURS.air : p.type === "projets" ? COULEURS.projets : p.type === "eau" ? COULEURS.eau : COULEURS.sols;
+    return { glyphe: p.pictogramme, fond, creux, pointille: p.type === "projets" };
+  }
   if (p.type === "baignade") return { glyphe: "plage", fond: COULEURS[p.baignade_couleur] ?? COULEURS.gris };
   if (p.type === "projets") return { glyphe: "decharge", fond: COULEURS.projets, pointille: true, creux };
   if (p.type === "air") return { glyphe: "vent", fond: COULEURS.air, creux };

@@ -29,7 +29,9 @@
         "rgcpc-2026-03-st-rogatien-perigny",
         "rgcpc-2025-03-pediatrie-aja-17"
       ],
-      "niveau_source": "etude_publiee"
+      "niveau_source": "etude_publiee",
+      "accroche": "7 cancers chez les 0-24 ans à Saint-Rogatien, pour 1,8 attendus",
+      "resume_court": "Excès statistiquement significatif de 2008 à 2022 selon le registre des cancers. Aucune cause n'est identifiée."
     },
     {
       "id": "cancers-0-24-ans-saint-vivien",
@@ -58,7 +60,9 @@
       "sources": [
         "rgcpc-2025-03-pediatrie-aja-17"
       ],
-      "niveau_source": "etude_publiee"
+      "niveau_source": "etude_publiee",
+      "accroche": "5 cancers chez les 0-24 ans à Saint-Vivien, pour 1,1 attendu",
+      "resume_court": "Excès non significatif une fois les données lissées, selon le registre des cancers. Aucune cause n'est identifiée."
     },
     {
       "id": "cancers-0-24-ans-lhoumeau",
@@ -89,7 +93,9 @@
       "sources": [
         "afp-linfodurable-2025-03-27",
         "lemonde-2026-09-10-lhoumeau"
-      ]
+      ],
+      "accroche": "5 cancers chez les 0-24 ans à L'Houmeau, pour 1,8 attendus, selon la presse",
+      "resume_court": "Chiffre rapporté par l'AFP en 2025. Le registre le dit non significatif à cause des faibles effectifs."
     },
     {
       "id": "cancers-quartiers-ouest-la-rochelle",
@@ -125,7 +131,9 @@
         "Mireuil le Parc",
         "Rossignolette-Saint-Maurice"
       ],
-      "note_trace": "Zone tracée comme la réunion des IRIS 2023 dont l'étude donne les noms. Le découpage IRIS a pu évoluer depuis la période étudiée."
+      "note_trace": "Zone tracée comme la réunion des IRIS 2023 dont l'étude donne les noms. Le découpage IRIS a pu évoluer depuis la période étudiée.",
+      "accroche": "27 % de cancers du poumon en plus chez les hommes, ouest de La Rochelle",
+      "resume_court": "Écart mesuré de 2008 à 2019 par rapport à la moyenne de la Charente-Maritime. Chez les hommes, les cancers de la bouche, de la gorge et de l'œsophage y sont 33 % plus fréquents."
     }
   ]
 }

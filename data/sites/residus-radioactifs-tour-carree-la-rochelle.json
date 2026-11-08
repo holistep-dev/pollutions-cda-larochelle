@@ -1,0 +1,39 @@
+{
+  "milieux": [
+    "sol"
+  ],
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": true,
+  "procedure_en_cours": false,
+  "id": "residus-radioactifs-tour-carree-la-rochelle",
+  "nom": "Résidus radioactifs découverts sur un chantier de logements",
+  "commune": "La Rochelle",
+  "code_insee": "17300",
+  "geometry": null,
+  "motif_absence_geometrie": "La presse situe le terrain « non loin » de l'ancienne décharge de Chef-de-Baie, sans adresse.",
+  "precision_geo": null,
+  "categorie": "friche_sol_pollue",
+  "pictogramme": "radioactif",
+  "substances": [],
+  "periode": {
+    "debut": "2017",
+    "debut_statut": "datee",
+    "fin": null,
+    "fin_statut": "inconnue",
+    "note": "Année de la découverte rapportée."
+  },
+  "resume": "Selon Sud Ouest du 22 novembre 2017, des résidus radioactifs ont été découverts dans les mois précédents par un promoteur sur un terrain proche de Chef-de-Baie, dans le cadre d'un programme de 70 logements dit de la Tour carrée. Aucun document public n'en précise la nature, la quantité ni le devenir.",
+  "accroche": "Résidus radioactifs trouvés sur un chantier, selon la presse",
+  "resume_court": "Découverte rapportée en 2017 sur un programme de 70 logements près de Chef-de-Baie. Nature et devenir des résidus inconnus.",
+  "statut_preuve": "signalement_non_instruit",
+  "statut_traitement": "inconnu",
+  "sources": [
+    "sudouest-2017-11-22-decharge-chef-de-baie"
+  ],
+  "ce_qui_manque": [
+    {
+      "piece": "L'adresse du terrain, le rapport de découverte et la filière d'élimination",
+      "ou_chercher": "Permis de construire du programme, ASNR, Andra"
+    }
+  ]
+}

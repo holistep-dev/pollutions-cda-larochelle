@@ -266,13 +266,18 @@
       "code_insee": "17300",
       "nom": "La Rochelle",
       "slug": "la-rochelle",
-      "nb_sites": 19,
-      "nb_sans_localisation": 1,
+      "nb_sites": 24,
+      "nb_sans_localisation": 2,
       "sans_localisation": [
         {
           "id": "remblai-radioactif-la-pallice",
           "nom": "Remblai contenant des résidus radioactifs, port de La Pallice",
           "motif": "L'Andra situe le remblai dans les installations du port de La Pallice sans en publier l'emprise. Le Grand Port maritime ou l'Andra pourraient la fournir."
+        },
+        {
+          "id": "residus-radioactifs-tour-carree-la-rochelle",
+          "nom": "Résidus radioactifs découverts sur un chantier de logements",
+          "motif": "La presse situe le terrain « non loin » de l'ancienne décharge de Chef-de-Baie, sans adresse."
         }
       ],
       "sites": [
@@ -365,6 +370,14 @@
           "localise": true
         },
         {
+          "id": "incinerateur-chef-de-baie-la-rochelle",
+          "nom": "Unité de valorisation énergétique (incinérateur) de Chef-de-Baie",
+          "categorie": "air",
+          "statut_preuve": "diagnostic_administratif",
+          "statut_traitement": "sous_surveillance",
+          "localise": true
+        },
+        {
           "id": "marchand-metaux-protection-la-rochelle",
           "nom": "Ancien atelier de traitement de surface, rue de la Mare-à-la-Besse",
           "categorie": "friche_sol_pollue",
@@ -381,10 +394,42 @@
           "localise": true
         },
         {
+          "id": "radioactivite-avenue-wilson-la-rochelle",
+          "nom": "Rayonnement gamma le long de l'avenue du Président-Wilson",
+          "categorie": "friche_sol_pollue",
+          "statut_preuve": "signalement_non_instruit",
+          "statut_traitement": "inconnu",
+          "localise": true
+        },
+        {
+          "id": "radioactivite-minimes-la-rochelle",
+          "nom": "Remblais radioactifs sous le quartier des Minimes",
+          "categorie": "friche_sol_pollue",
+          "statut_preuve": "signalement_non_instruit",
+          "statut_traitement": "inconnu",
+          "localise": true
+        },
+        {
+          "id": "radioactivite-port-neuf-la-rochelle",
+          "nom": "Sédiments radioactifs à l'ancien émissaire de Port-Neuf",
+          "categorie": "sediment_marin",
+          "statut_preuve": "signalement_non_instruit",
+          "statut_traitement": "inconnu",
+          "localise": true
+        },
+        {
           "id": "remblai-radioactif-la-pallice",
           "nom": "Remblai contenant des résidus radioactifs, port de La Pallice",
           "categorie": "friche_sol_pollue",
           "statut_preuve": "mesure_publiee",
+          "statut_traitement": "inconnu",
+          "localise": false
+        },
+        {
+          "id": "residus-radioactifs-tour-carree-la-rochelle",
+          "nom": "Résidus radioactifs découverts sur un chantier de logements",
+          "categorie": "friche_sol_pollue",
+          "statut_preuve": "signalement_non_instruit",
           "statut_traitement": "inconnu",
           "localise": false
         },

@@ -366,6 +366,29 @@
     "origine_trace": {
       "type": "string",
       "description": "Origine du tracé quand il ne vient pas de la source de la fiche : objet de la BD TOPO, relief, toponyme. Le tracé décrit l'objet nommé par la source, pas une emprise de pollution."
+    },
+    "accroche": {
+      "type": "string",
+      "maxLength": 90,
+      "description": "Titre de lecture rapide : le fait principal, chiffré si possible, sans adjectif d'importance."
+    },
+    "resume_court": {
+      "type": "string",
+      "maxLength": 320,
+      "description": "Deux phrases au plus. Ce qui est établi et par qui."
+    },
+    "pictogramme": {
+      "enum": [
+        "usine",
+        "decharge",
+        "radioactif",
+        "cheminee",
+        "vent",
+        "goutte",
+        "plage",
+        "vague"
+      ],
+      "description": "Pictogramme de la carte quand la catégorie ne suffit pas."
     }
   }
 }

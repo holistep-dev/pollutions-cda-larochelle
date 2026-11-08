@@ -5,25 +5,31 @@ import maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import { COULEURS, cleIcone, iconeSite, svgIcone, urlIcone } from "../lib/icones";
 import {
-  Definition, ETATS_EAU, ETATS_PLAGE, PanneauAgri, PanneauCaptage, PanneauCommune, PanneauRobinet, PanneauSignal, PanneauSite, nb,
+  Definition, ETATS_EAU, ETATS_PLAGE, PanneauAgri, PanneauCaptage, PanneauCommune, PanneauNature, PanneauRobinet, PanneauSignal, PanneauSite, nb,
 } from "./Panneaux";
 
-const TYPES = [
-  { id: "sols", libelle: "Sols pollués et décharges", icone: { glyphe: "usine", fond: COULEURS.sols },
-    def: "Sites où une pollution du sol ou de la nappe est mesurée, diagnostiquée ou instruite par l'administration, et anciennes décharges." },
-  { id: "baignade", libelle: "Plages", icone: { glyphe: "plage", fond: COULEURS.vert },
-    def: "Points de contrôle sanitaire des plages. Vert : bonne qualité. Orange : qualité suffisante. Rouge : qualité insuffisante ou baignade interdite." },
-  { id: "eau", libelle: "Eau du robinet et captages", icone: { glyphe: "robinet", fond: COULEURS.eau, carre: true },
-    def: "Un robinet par commune, coloré selon les analyses de l'eau distribuée sur douze mois, et les captages d'eau potable de l'agglomération." },
-  { id: "agriculture", libelle: "Pesticides agricoles", carre: COULEURS.conventionnel,
-    def: "Parcelles cultivées en conventionnel, où les pesticides de synthèse sont autorisés, et parcelles en agriculture biologique, d'après les déclarations PAC 2023." },
-  { id: "air", libelle: "Pesticides dans l'air", icone: { glyphe: "vent", fond: COULEURS.air },
-    def: "Points de mesure d'Atmo Nouvelle-Aquitaine. Il n'existe pas de valeur sanitaire pour les pesticides dans l'air ambiant." },
-  { id: "projets", libelle: "Projets de décharge", icone: { glyphe: "decharge", fond: COULEURS.projets, pointille: true },
-    def: "Projets d'enfouissement de déchets. Aucune pollution n'y est constatée : c'est un projet, pas un site pollué." },
-  { id: "signaux", libelle: "Signaux sanitaires", hachure: true,
-    def: "Résultats d'études épidémiologiques. Ce ne sont pas des pollutions. Aucun lien de cause à effet n'est établi avec les éléments de la carte." },
+// Classement par milieu. Chaque groupe réunit plusieurs types de repères.
+const GROUPES = [
+  { id: "sol", libelle: "Sol", types: ["sols", "projets"], icone: { glyphe: "usine", fond: COULEURS.sols },
+    def: "Sols et nappes pollués, anciennes décharges, radioactivité, projets de décharge." },
+  { id: "eau", libelle: "Eau", types: ["baignade", "eau"], icone: { glyphe: "robinet", fond: COULEURS.eau, carre: true },
+    def: "Eau du robinet par commune sur douze mois, captages d'eau potable, qualité des plages." },
+  { id: "air", libelle: "Air", types: ["air"], icone: { glyphe: "vent", fond: COULEURS.air },
+    def: "Pesticides mesurés dans l'air par Atmo Nouvelle-Aquitaine, émissions de l'incinérateur." },
+  { id: "agriculture", libelle: "Agriculture", types: [], bicolore: true,
+    def: "Parcelles conventionnelles, où les pesticides de synthèse sont autorisés, et parcelles bio, d'après les déclarations PAC 2023." },
+  { id: "sante", libelle: "Santé", types: [], hachure: true,
+    def: "Signaux sanitaires issus d'études épidémiologiques. Ce ne sont pas des pollutions. Aucun lien de cause à effet n'est établi avec la carte." },
+  { id: "nature", libelle: "Nature protégée", types: [], icone: { glyphe: "feuille", fond: COULEURS.nature },
+    def: "Réserves naturelles, Natura 2000, arrêtés de biotope, Conservatoire du littoral, parc naturel régional. Contexte, pas pollution." },
 ];
+const sansAccent = (t) => t.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[-']/g, " ").trim();
+function emprise(geoms) {
+  let b = [180, 90, -180, -90];
+  const visite = (c) => (typeof c[0] === "number" ? (b = [Math.min(b[0], c[0]), Math.min(b[1], c[1]), Math.max(b[2], c[0]), Math.max(b[3], c[1])]) : c.forEach(visite));
+  geoms.forEach((g) => visite(g.coordinates));
+  return b;
+}
 const PREUVES = ["mesure_publiee", "diagnostic_administratif", "procedure_en_cours", "signalement_non_instruit"];
 
 const typeDe = (p) => {
@@ -64,7 +70,10 @@ export default function Carte({ bandeau }) {
   const survol = useRef(null);
   const [donnees, setDonnees] = useState(null);
   const [agri, setAgri] = useState(null);
-  const [actifs, setActifs] = useState({ sols: true, baignade: true, eau: true, agriculture: true, air: true, projets: true, signaux: true });
+  const [actifs, setActifs] = useState({ sol: true, eau: true, air: true, agriculture: true, sante: true, nature: false });
+  const [nature, setNature] = useState(null);
+  const [recherche, setRecherche] = useState("");
+  const [messageRecherche, setMessageRecherche] = useState("");
   const [preuves, setPreuves] = useState(Object.fromEntries(PREUVES.map((p) => [p, true])));
   const [rehabilites, setRehabilites] = useState(false);
   const [selection, setSelection] = useState(null);
@@ -145,6 +154,10 @@ export default function Carte({ bandeau }) {
       m.addLayer({ id: "agri-bio-fond", type: "fill", source: "agriculture", filter: ["==", ["get", "couche"], "bio"], paint: { "fill-color": "#86efac", "fill-opacity": 0.45 } });
       m.addLayer({ id: "agri-bio", type: "fill", source: "agriculture", filter: ["==", ["get", "couche"], "bio"], paint: { "fill-pattern": "hachure-bio" } });
 
+      m.addSource("nature", { type: "geojson", data: { type: "FeatureCollection", features: [] } });
+      m.addLayer({ id: "nature-fond", type: "fill", source: "nature", layout: { visibility: "none" }, paint: { "fill-color": COULEURS.nature, "fill-opacity": 0.14 } });
+      m.addLayer({ id: "nature-trait", type: "line", source: "nature", layout: { visibility: "none" }, paint: { "line-color": COULEURS.nature, "line-width": 1.4, "line-dasharray": [3, 2] } });
+
       m.addLayer({ id: "communes-fond", type: "fill", source: "communes", paint: { "fill-color": "#ffffff", "fill-opacity": 0.01 } });
       m.addLayer({ id: "communes-trait", type: "line", source: "communes", paint: { "line-color": "#0d2b45", "line-width": 1, "line-opacity": 0.45 } });
 
@@ -166,6 +179,14 @@ export default function Carte({ bandeau }) {
       m.addLayer({
         id: "captages", type: "symbol", source: "captages",
         layout: { "icon-image": "captage", "icon-size": ["interpolate", ["linear"], ["zoom"], 9, 0.45, 10.5, 0.65, 14, 0.9], "icon-allow-overlap": true },
+      });
+      m.addLayer({
+        id: "captages-selection", type: "circle", source: "captages", filter: ["in", ["get", "code"], ["literal", []]],
+        paint: { "circle-radius": 26, "circle-color": "rgba(3,105,161,0.18)", "circle-stroke-color": COULEURS.eau, "circle-stroke-width": 3 },
+      });
+      m.addLayer({
+        id: "captages-grands", type: "symbol", source: "captages", filter: ["in", ["get", "code"], ["literal", []]],
+        layout: { "icon-image": "captage", "icon-size": 1.5, "icon-allow-overlap": true },
       });
       m.addLayer({
         id: "reperes", type: "symbol", source: "reperes",
@@ -210,6 +231,8 @@ export default function Carte({ bandeau }) {
         }
         const sig = m.queryRenderedFeatures(e.point, { layers: visibles(["signaux-fond"]) });
         if (sig.length) return setSelection({ genre: "signal", id: sig[0].properties.id });
+        const nat = m.queryRenderedFeatures(e.point, { layers: visibles(["nature-fond"]) });
+        if (nat.length) return setSelection({ genre: "nature", props: nat[0].properties });
         const com = m.queryRenderedFeatures(e.point, { layers: ["communes-fond"] });
         const ag = m.queryRenderedFeatures(e.point, { layers: visibles(["agri-bio", "agri-conv"]) });
         if (ag.length) return setSelection({ genre: "agri", props: ag[0].properties, commune: com[0]?.properties?.nom });
@@ -219,6 +242,7 @@ export default function Carte({ bandeau }) {
       setPret(true);
     });
     carte.current = m;
+    if (typeof window !== "undefined") window.__carte = m;
     return () => {
       m.remove();
       carte.current = null;
@@ -230,29 +254,68 @@ export default function Carte({ bandeau }) {
   }, [agri, pret]);
 
   useEffect(() => {
+    if (!actifs.nature || nature) return;
+    fetch("/data/nature.json").then((r) => r.json()).then(setNature).catch(() => {});
+  }, [actifs.nature, nature]);
+  useEffect(() => {
+    if (carte.current && pret && nature) carte.current.getSource("nature").setData(nature);
+  }, [nature, pret]);
+
+  useEffect(() => {
     const m = carte.current;
     if (!m || !pret) return;
-    const types = ["sols", "baignade", "eau", "air", "projets"].filter((t) => actifs[t]);
+    const types = GROUPES.filter((g) => actifs[g.id]).flatMap((g) => g.types);
     const niv = PREUVES.filter((p) => preuves[p]);
     const filtre = ["all", ["in", ["get", "type"], ["literal", types]], ["in", ["get", "preuve"], ["literal", niv]]];
     if (!rehabilites) filtre.push(["!", ["get", "rehabilite"]]);
     for (const id of ["surfaces-fond", "surfaces-trait", "reperes"]) m.setFilter(id, filtre);
     const vis = (ids, on) => ids.forEach((id) => m.setLayoutProperty(id, "visibility", on ? "visible" : "none"));
-    vis(["signaux-fond", "signaux-trait"], actifs.signaux);
-    vis(["robinets", "captages"], actifs.eau);
+    vis(["signaux-fond", "signaux-trait"], actifs.sante);
+    vis(["robinets", "captages", "captages-selection", "captages-grands"], actifs.eau);
     vis(["agri-conv", "agri-bio-fond", "agri-bio"], actifs.agriculture);
+    vis(["nature-fond", "nature-trait"], actifs.nature);
   }, [actifs, preuves, rehabilites, pret]);
 
   useEffect(() => {
-    if (carte.current && pret) carte.current.setFilter("selection", ["==", ["get", "id"], selection?.genre === "site" ? selection.id : ""]);
-  }, [selection, pret]);
+    const m = carte.current;
+    if (!m || !pret) return;
+    m.setFilter("selection", ["==", ["get", "id"], selection?.genre === "site" ? selection.id : ""]);
+    // Robinet : on met en avant les captages reliés et on cadre commune et captages ensemble.
+    let codes = [];
+    if (selection?.genre === "robinet" && donnees?.robinets) {
+      const reseaux = donnees.robinets.communes[selection.code]?.reseaux ?? [];
+      codes = reseaux.flatMap((k) => (donnees.installations?.[k]?.installations ?? []).flatMap((i) => i.captages));
+      const com = donnees.communes.features.find((f) => f.properties.code_insee === selection.code);
+      const caps = (donnees.captages?.features ?? []).filter((f) => codes.includes(f.properties.code));
+      if (com) m.fitBounds(emprise([com.geometry, ...caps.map((f) => f.geometry)]), { padding: 70, maxZoom: 13, duration: 900 });
+    }
+    m.setFilter("captages-selection", ["in", ["get", "code"], ["literal", codes]]);
+    m.setFilter("captages-grands", ["in", ["get", "code"], ["literal", codes]]);
+  }, [selection, pret, donnees]);
+
+  const chercher = (e) => {
+    e.preventDefault();
+    if (!donnees) return;
+    const q = sansAccent(recherche.replace(/\(.*\)/, ""));
+    if (!q) return;
+    const cps = donnees.codes_postaux ?? {};
+    const toutes = donnees.communes.features;
+    let trouvees = /^\d{5}$/.test(q)
+      ? toutes.filter((f) => (cps[f.properties.code_insee] ?? []).includes(q))
+      : toutes.filter((f) => sansAccent(f.properties.nom) === q);
+    if (!trouvees.length && !/^\d/.test(q)) trouvees = toutes.filter((f) => sansAccent(f.properties.nom).includes(q));
+    if (!trouvees.length) return setMessageRecherche("Hors des 28 communes ou introuvable.");
+    setMessageRecherche(trouvees.length > 1 ? `${trouvees.length} communes : ${trouvees.map((f) => f.properties.nom).join(", ")}` : "");
+    carte.current?.fitBounds(emprise(trouvees.map((f) => f.geometry)), { padding: 50, duration: 900 });
+    if (trouvees.length === 1) setSelection({ genre: "commune", code: trouvees[0].properties.code_insee });
+  };
 
   const proprietes = useMemo(() => (donnees?.reperes?.features ?? []).map((f) => f.properties), [donnees]);
-  const compte = (id) => {
-    if (id === "signaux") return donnees?.signaux_liste?.length ?? 0;
-    if (id === "eau") return (donnees?.robinets?.points.features.length ?? 0) + (donnees?.captages?.features.length ?? 0);
-    if (id === "agriculture") return null;
-    return proprietes.filter((p) => p.type === id && (rehabilites || !p.rehabilite)).length;
+  const compte = (g) => {
+    if (g.id === "sante") return donnees?.signaux_liste?.length ?? 0;
+    if (g.id === "agriculture" || g.id === "nature") return null;
+    const n = proprietes.filter((p) => g.types.includes(p.type) && (rehabilites || !p.rehabilite)).length;
+    return g.id === "eau" ? n + (donnees?.robinets?.points.features.length ?? 0) + (donnees?.captages?.features.length ?? 0) : n;
   };
   const comptePreuve = (id) => proprietes.filter((p) => p.preuve === id && (rehabilites || !p.rehabilite)).length;
   const nbRehabilites = proprietes.filter((p) => p.rehabilite).length;
@@ -271,7 +334,7 @@ export default function Carte({ bandeau }) {
     if (p) panneau = <PanneauSite p={p} d={donnees.details[p.id]} libelles={lib} fermer={fermer} icone={p.iconeUrl} />;
   } else if (selection?.genre === "robinet") {
     const c = donnees.communes.features.find((f) => f.properties.code_insee === selection.code)?.properties;
-    if (c) panneau = <PanneauRobinet key={c.code_insee} commune={c} robinets={donnees.robinets} eau={donnees.eau} fermer={fermer} />;
+    if (c) panneau = <PanneauRobinet key={c.code_insee} commune={c} robinets={donnees.robinets} eau={donnees.eau} installations={donnees.installations} captages={donnees.captages} fermer={fermer} />;
   } else if (selection?.genre === "captage") {
     panneau = <PanneauCaptage p={selection.props} fermer={fermer} />;
   } else if (selection?.genre === "commune") {
@@ -280,6 +343,8 @@ export default function Carte({ bandeau }) {
   } else if (selection?.genre === "signal") {
     const s = donnees.signaux_liste.find((x) => x.id === selection.id);
     if (s) panneau = <PanneauSignal s={s} bandeau={bandeau} fermer={fermer} />;
+  } else if (selection?.genre === "nature") {
+    panneau = <PanneauNature p={selection.props} fermer={fermer} />;
   } else if (selection?.genre === "agri") {
     panneau = <PanneauAgri p={selection.props} agri={agri} achats={donnees.achats} codePostal={codePostalDe(selection.commune)} fermer={fermer} />;
   }
@@ -297,19 +362,32 @@ export default function Carte({ bandeau }) {
           <a href="/restrictions">Restrictions d&apos;usage</a>
           <a href="/mentions-legales">Méthode</a>
         </nav>
+        <form className="recherche" onSubmit={chercher} role="search">
+          <input
+            type="search" list="liste-communes" value={recherche} onChange={(e) => { setRecherche(e.target.value); setMessageRecherche(""); }}
+            placeholder="Commune ou code postal" aria-label="Rechercher une commune ou un code postal"
+          />
+          <datalist id="liste-communes">
+            {(donnees?.communes?.features ?? []).map((f) => (
+              <option key={f.properties.code_insee} value={`${f.properties.nom} (${(donnees.codes_postaux?.[f.properties.code_insee] ?? []).join(", ")})`} />
+            ))}
+          </datalist>
+          <button type="submit">Aller</button>
+          {messageRecherche ? <span className="recherche-message">{messageRecherche}</span> : null}
+        </form>
       </header>
 
       <div className="filtres" role="group" aria-label="Filtres de la carte">
         <div className="filtres-ligne">
-          {TYPES.map((t) => {
-            const n = compte(t.id);
+          {GROUPES.map((g) => {
+            const n = compte(g);
             return (
-              <button key={t.id} type="button" className={`puce ${actifs[t.id] ? "active" : ""}`} aria-pressed={actifs[t.id]}
-                onClick={() => setActifs({ ...actifs, [t.id]: !actifs[t.id] })}>
-                {t.icone ? <img src={urlIcone(t.icone)} alt="" width="22" height="22" /> : t.hachure ? <span className="pastille-couleur hachure" /> : <span className="pastille-couleur bicolore" />}
-                {t.libelle}
+              <button key={g.id} type="button" className={`puce ${actifs[g.id] ? "active" : ""} ${g.id === "nature" ? "contexte" : ""}`} aria-pressed={actifs[g.id]}
+                onClick={() => setActifs({ ...actifs, [g.id]: !actifs[g.id] })}>
+                {g.icone ? <img src={urlIcone(g.icone)} alt="" width="22" height="22" /> : g.hachure ? <span className="pastille-couleur hachure" /> : <span className="pastille-couleur bicolore" />}
+                {g.libelle}
                 {n != null ? <em>{n}</em> : null}
-                <Definition titre={t.libelle}>{t.def}</Definition>
+                <Definition titre={g.libelle}>{g.def}</Definition>
               </button>
             );
           })}
@@ -336,7 +414,7 @@ export default function Carte({ bandeau }) {
       <div className="corps">
         <div className="carte-zone">
           <div ref={conteneur} className="carte-fond" role="region" aria-label="Carte des pollutions documentées" />
-          {actifs.signaux ? (
+          {actifs.sante ? (
             <p className="bandeau-carte">
               Hachures roses : signaux sanitaires, sans lien de cause établi avec la carte. <a href="/signaux-sanitaires">Les études</a>
             </p>
@@ -365,12 +443,15 @@ export default function Carte({ bandeau }) {
                 ))}
                 <li><img src={urlIcone({ glyphe: "captage", fond: COULEURS.eau })} alt="" width="24" height="24" />Captage d&apos;eau potable</li>
               </ul>
-              <h3>Sols, décharges, air</h3>
+              <h3>Sol et air</h3>
               <ul className="legende">
                 <li><img src={urlIcone({ glyphe: "usine", fond: COULEURS.sols })} alt="" width="24" height="24" />Sol ou nappe pollué, mesuré ou diagnostiqué</li>
                 <li><img src={urlIcone({ glyphe: "decharge", fond: COULEURS.sols })} alt="" width="24" height="24" />Ancienne décharge</li>
                 <li><img src={urlIcone({ glyphe: "usine", fond: COULEURS.sols, creux: true })} alt="" width="24" height="24" />Pictogramme creux : signalé, jamais instruit</li>
+                <li><img src={urlIcone({ glyphe: "radioactif", fond: COULEURS.sols })} alt="" width="24" height="24" />Radioactivité</li>
+                <li><img src={urlIcone({ glyphe: "usine", fond: COULEURS.vert })} alt="" width="24" height="24" />Site réhabilité, affiché à la demande</li>
                 <li><img src={urlIcone({ glyphe: "vent", fond: COULEURS.air })} alt="" width="24" height="24" />Pesticides mesurés dans l&apos;air</li>
+                <li><img src={urlIcone({ glyphe: "cheminee", fond: COULEURS.air })} alt="" width="24" height="24" />Émissions industrielles</li>
               </ul>
               <h3>Parcelles agricoles en 2023</h3>
               <ul className="legende">

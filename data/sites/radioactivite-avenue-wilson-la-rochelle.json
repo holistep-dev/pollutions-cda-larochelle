@@ -1,0 +1,71 @@
+{
+  "milieux": [
+    "sol"
+  ],
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": true,
+  "procedure_en_cours": false,
+  "id": "radioactivite-avenue-wilson-la-rochelle",
+  "nom": "Rayonnement gamma le long de l'avenue du Président-Wilson",
+  "commune": "La Rochelle",
+  "code_insee": "17300",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -1.1905,
+      46.1548
+    ]
+  },
+  "precision_geo": "localisation_indicative",
+  "rayon_m": 250,
+  "origine_trace": "Avenue du Président-Wilson et boulevard Aristide-Rondeau, d'après la BD TOPO. Les points de mesure exacts ne sont pas publiés.",
+  "categorie": "friche_sol_pollue",
+  "pictogramme": "radioactif",
+  "substances": [
+    {
+      "libelle": "flux gamma à la clôture de l'usine, mars 2025",
+      "milieu": "sol",
+      "valeur": 2000,
+      "unite": "coups/s",
+      "date_mesure": "2025-03",
+      "source": "criirad-tu108-2026-04"
+    },
+    {
+      "libelle": "flux gamma aux courts de tennis, mars 2025",
+      "milieu": "sol",
+      "valeur": 700,
+      "unite": "coups/s",
+      "date_mesure": "2025-03",
+      "source": "criirad-tu108-2026-04"
+    },
+    {
+      "libelle": "flux gamma boulevard Aristide-Rondeau, à plus de 100 m de la clôture",
+      "milieu": "sol",
+      "valeur": 300,
+      "unite": "coups/s",
+      "date_mesure": "2025-03",
+      "source": "criirad-tu108-2026-04"
+    }
+  ],
+  "periode": {
+    "debut": "2025-03",
+    "debut_statut": "datee",
+    "fin": "2025-03",
+    "fin_statut": "datee",
+    "note": "Date des mesures."
+  },
+  "resume": "En mars 2025, des mesures au scintillomètre attribuées à la CRIIRAD, et réalisées selon une note du bulletin par son ancien président, relèvent 2 000 coups par seconde à la clôture de l'usine de Chef-de-Baie, 700 aux courts de tennis et 300 boulevard Aristide-Rondeau, pour un niveau naturel local de 60 à 75. Le flux gamma en coups par seconde dépend de l'appareil et ne se convertit pas directement en dose.",
+  "accroche": "Rayonnement gamma élevé mesuré près de l'usine en 2025",
+  "resume_court": "Mesures de mars 2025 : jusqu'à 2 000 coups par seconde à la clôture de l'usine et 300 boulevard Aristide-Rondeau, contre 60 à 75 en niveau naturel. Aucune mesure officielle publiée ne les reprend.",
+  "statut_preuve": "signalement_non_instruit",
+  "statut_traitement": "inconnu",
+  "sources": [
+    "criirad-tu108-2026-04"
+  ],
+  "ce_qui_manque": [
+    {
+      "piece": "Une mesure de débit de dose par un organisme public",
+      "ou_chercher": "ASNR ; commission de suivi de site de l'usine ; mairie de La Rochelle"
+    }
+  ]
+}

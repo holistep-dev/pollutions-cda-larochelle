@@ -1,0 +1,174 @@
+{
+ "source": "Hub'Eau qualite_eau_potable, champ installation amont",
+ "debut": "2025-11-08",
+ "reseaux": {
+  "017000322": {
+   "nom": "R. D'ANGOULINS",
+   "installations": [
+    {
+     "code": "017000709",
+     "nom": "STATION DU THOU",
+     "captages": []
+    }
+   ]
+  },
+  "017000219": {
+   "nom": "R. D'AYTRE-PERIGNY-ST-ROGATIEN",
+   "installations": [
+    {
+     "code": "017000747",
+     "nom": "STOCKAGES DU PRE CARRE",
+     "captages": []
+    }
+   ]
+  },
+  "017000213": {
+   "nom": "R. DE BOURGNEUF",
+   "installations": [
+    {
+     "code": "017000207",
+     "nom": "MELANGE DE FRAISE",
+     "captages": [
+      "OPR0000081286"
+     ]
+    }
+   ]
+  },
+  "017000016": {
+   "nom": "R. DE CHATELAILLON",
+   "installations": [
+    {
+     "code": "017000015",
+     "nom": "LOIN DU BRUIT",
+     "captages": []
+    }
+   ]
+  },
+  "017000212": {
+   "nom": "R. DE LA JARRIE",
+   "installations": [
+    {
+     "code": "017000205",
+     "nom": "CROIX-FORT",
+     "captages": []
+    }
+   ]
+  },
+  "017000344": {
+   "nom": "R. D'ANDILLY-PUILBOREAU",
+   "installations": [
+    {
+     "code": "017000715",
+     "nom": "STATION DU MOINDREAU",
+     "captages": []
+    }
+   ]
+  },
+  "017000342": {
+   "nom": "R. DE ESNANDES-LAGORD",
+   "installations": [
+    {
+     "code": "017000715",
+     "nom": "STATION DU MOINDREAU",
+     "captages": []
+    }
+   ]
+  },
+  "017000216": {
+   "nom": "R. DE LA ROCHELLE CENTRE",
+   "installations": [
+    {
+     "code": "017000209",
+     "nom": "MELANGE DE ST-ELOI",
+     "captages": []
+    }
+   ]
+  },
+  "017000215": {
+   "nom": "R. DE LA ROCHELLE NORD-SUD",
+   "installations": [
+    {
+     "code": "017000747",
+     "nom": "STOCKAGES DU PRE CARRE",
+     "captages": []
+    }
+   ]
+  },
+  "017000343": {
+   "nom": "R. DE CHARRON",
+   "installations": [
+    {
+     "code": "017000712",
+     "nom": "PONT DU BRAULT",
+     "captages": []
+    }
+   ]
+  },
+  "017001085": {
+   "nom": "R. DE ZAC DE BEAULIEU",
+   "installations": [
+    {
+     "code": "017000747",
+     "nom": "STOCKAGES DU PRE CARRE",
+     "captages": []
+    }
+   ]
+  },
+  "017000881": {
+   "nom": "R. DE PERIGNY-MAIRIE",
+   "installations": [
+    {
+     "code": "017000880",
+     "nom": "MELANGE DE VARAIZE",
+     "captages": [
+      "OPR0000173812"
+     ]
+    }
+   ]
+  },
+  "017000770": {
+   "nom": "R. DE PERIGNY-ROMPSAY SUD",
+   "installations": []
+  },
+  "017000122": {
+   "nom": "R. DE ST-SAUVEUR",
+   "installations": [
+    {
+     "code": "017000710",
+     "nom": "ANAIS EAU17",
+     "captages": []
+    }
+   ]
+  },
+  "017000345": {
+   "nom": "R. DE ST-MEDARD-STE-SOULLE",
+   "installations": [
+    {
+     "code": "017000710",
+     "nom": "ANAIS EAU17",
+     "captages": []
+    }
+   ]
+  },
+  "017000300": {
+   "nom": "R. DE AIGREFEUILLE-LE THOU",
+   "installations": [
+    {
+     "code": "017000709",
+     "nom": "STATION DU THOU",
+     "captages": []
+    }
+   ]
+  },
+  "017000251": {
+   "nom": "R. DE ST-LAURENT-YVES",
+   "installations": [
+    {
+     "code": "017000708",
+     "nom": "BEAUREGARD",
+     "captages": []
+    }
+   ]
+  }
+ }
+}

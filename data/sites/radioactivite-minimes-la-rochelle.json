@@ -1,0 +1,63 @@
+{
+  "milieux": [
+    "sol",
+    "air"
+  ],
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": true,
+  "procedure_en_cours": false,
+  "id": "radioactivite-minimes-la-rochelle",
+  "nom": "Remblais radioactifs sous le quartier des Minimes",
+  "commune": "La Rochelle",
+  "code_insee": "17300",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -1.1625,
+      46.1455
+    ]
+  },
+  "precision_geo": "localisation_indicative",
+  "rayon_m": 500,
+  "origine_trace": "Centre du quartier des Minimes. Les points de carottage de 2010 ne sont pas publiés.",
+  "categorie": "friche_sol_pollue",
+  "pictogramme": "radioactif",
+  "substances": [
+    {
+      "libelle": "activité totale des remblais, carottages de 2010, maximum",
+      "milieu": "sol",
+      "valeur": 300000,
+      "unite": "Bq/kg",
+      "date_mesure": "2010",
+      "source": "criirad-tu108-2026-04"
+    },
+    {
+      "libelle": "radon 222 dans l'air d'un trou de sondage",
+      "milieu": "air",
+      "valeur": 139000,
+      "unite": "Bq/m³",
+      "source": "criirad-tu108-2026-04"
+    }
+  ],
+  "periode": {
+    "debut": "2010",
+    "debut_statut": "datee",
+    "fin": "2010",
+    "fin_statut": "datee",
+    "note": "Date des carottages."
+  },
+  "resume": "Selon le rapport CRIIRAD n° 10-149 du 15 décembre 2010, repris dans le bulletin d'avril 2026, des carottages ont rencontré des remblais chargés en uranium et thorium d'une activité totale de plus de 100 000 Bq/kg, jusqu'à 300 000 Bq/kg. Le radon 222 atteignait 139 000 Bq/m³ dans l'air d'un trou de sondage. Un rapport de l'IRSN de novembre 2004 porte sur ce secteur ; la CRIIRAD lui reproche de ne rien recommander sur l'air des bâtiments.",
+  "accroche": "Remblais radioactifs mesurés sous les Minimes en 2010",
+  "resume_court": "Des carottages de la CRIIRAD ont trouvé des remblais de 100 000 à 300 000 Bq/kg. Le radon atteignait 139 000 Bq/m³ dans un trou de sondage.",
+  "statut_preuve": "signalement_non_instruit",
+  "statut_traitement": "inconnu",
+  "sources": [
+    "criirad-tu108-2026-04"
+  ],
+  "ce_qui_manque": [
+    {
+      "piece": "Le rapport IRSN DEI/SIAR n° 04-0588 de novembre 2004 et toute mesure de radon dans les bâtiments",
+      "ou_chercher": "ASNR (ex-IRSN), demande d'accès aux documents administratifs ; mairie de La Rochelle"
+    }
+  ]
+}

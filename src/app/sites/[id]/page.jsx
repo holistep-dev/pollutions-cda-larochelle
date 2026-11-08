@@ -10,6 +10,7 @@ import {
   libelles,
   serieBaignade,
   communes,
+  restrictions,
   dateLisible,
   periodeLisible,
 } from "../../../lib/donnees";
@@ -26,8 +27,8 @@ export async function generateMetadata({ params }) {
   const s = lireSite(id);
   if (!s) return {};
   return {
-    title: `${s.nom}, ${s.commune}`,
-    description: s.resume.slice(0, 160),
+    title: `${s.accroche ?? s.nom}, ${s.commune}`,
+    description: (s.resume_court ?? s.resume).slice(0, 160),
     alternates: { canonical: `/sites/${s.id}` },
   };
 }
@@ -123,13 +124,33 @@ export default async function FicheSite({ params }) {
         <a href="/">Carte</a> / <a href="/fiches">Fiches</a> / <a href={`/communes/${commune.slug}`}>{s.commune}</a>
       </p>
       <p className="categorie">{L.categorie[s.categorie]}</p>
-      <h1>{s.nom}</h1>
+      <h1>{s.accroche ?? s.nom}</h1>
+      {s.accroche ? <p className="nom-site">{s.nom}</p> : null}
+      {s.resume_court ? <p className="chapeau">{s.resume_court}</p> : null}
       <p className="sous-titre">
         {s.commune}. Période : {periodeLisible(s.periode)}. Dernière vérification le {dateLisible(s.derniere_verification)}.
       </p>
       {s.periode?.note ? <p className="note">{s.periode.note}</p> : null}
 
       <Statuts site={s} />
+
+      {(() => {
+        const liees = restrictions().filter((r) => (r.sites_lies ?? []).includes(s.id));
+        return liees.length ? (
+          <section className="pan-restrictions">
+            <h2>Restrictions d&apos;usage</h2>
+            {liees.map((r) => (
+              <div key={r.id} className={`restriction ${r.nature}`}>
+                <p className="restriction-titre">{r.libelle}</p>
+                <p className="note">
+                  {r.autorite}
+                  {r.date_debut ? `, depuis le ${dateLisible(r.date_debut)}` : ""}.{r.portee?.libelle_zone ? ` ${r.portee.libelle_zone}.` : ""}
+                </p>
+              </div>
+            ))}
+          </section>
+        ) : null;
+      })()}
 
       <h2>Résumé</h2>
       <p>{s.resume}</p>

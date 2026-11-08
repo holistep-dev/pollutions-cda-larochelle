@@ -50,5 +50,7 @@
   ],
   "notes_internes": "L'inventaire donnait mesure_publiee avec 64,2 mg/L de nitrates. Aucune source publiée de ce chiffre retrouvée le 08/11/2026 : déclassé en signalement.",
   "derniere_verification": "2026-11-08",
-  "visible_par_defaut": true
+  "visible_par_defaut": true,
+  "accroche": "Nitrates et pesticides signalés dans la nappe à L'Houmeau",
+  "resume_court": "Selon la presse, des forages de 2023 ont trouvé une eau polluée sous le groupe scolaire. Les analyses n'ont pas été publiées. Ce n'est pas l'eau du robinet."
 }

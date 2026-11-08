@@ -131,5 +131,7 @@
   ],
   "notes_internes": "Commune de rattachement et description divergent. Polygone situé vers la Grande Borde. À vérifier sur le cadastre.",
   "derniere_verification": "2026-11-08",
-  "visible_par_defaut": false
+  "visible_par_defaut": false,
+  "accroche": "Ancienne usine à gaz dépolluée",
+  "resume_court": "Travaux de dépollution réalisés, instruction close. Le terrain reste en secteur d'information sur les sols."
 }

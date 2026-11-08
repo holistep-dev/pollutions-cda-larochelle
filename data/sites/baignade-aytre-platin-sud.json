@@ -352,5 +352,7 @@
       "relation": "meme_dossier"
     }
   ],
-  "origine_trace": "Estran sableux de la BD TOPO de l'IGN dans un rayon de 250 m autour du point de contrôle de l'ARS. La zone de baignade réglementaire n'est pas publiée sous forme de tracé."
+  "origine_trace": "Estran sableux de la BD TOPO de l'IGN dans un rayon de 250 m autour du point de contrôle de l'ARS. La zone de baignade réglementaire n'est pas publiée sous forme de tracé.",
+  "accroche": "Baignade interdite depuis 2018",
+  "resume_court": "Cinq saisons de qualité insuffisante de 2013 à 2017, à cause de bactéries d'origine fécale. Le maire a interdit la baignade le 27 avril 2018."
 }

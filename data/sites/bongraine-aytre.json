@@ -70,5 +70,7 @@
   ],
   "notes_internes": "Point recalé le 08/11/2026 sur le lieu-dit Bongraine du fond OSM, rayon 400 m. Remplacer par le périmètre de la ZAC.",
   "derniere_verification": "2026-11-08",
-  "visible_par_defaut": true
+  "visible_par_defaut": true,
+  "accroche": "Hydrocarbures et mâchefers sous le futur écoquartier",
+  "resume_court": "L'autorité environnementale relève en 2019 des sols pollués aux hydrocarbures et des remblais chargés en métaux. Environ 48 000 m³ de mâchefers doivent être confinés sur place."
 }

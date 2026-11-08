@@ -99,6 +99,14 @@
     },
     "note_trace": {
       "type": "string"
+    },
+    "accroche": {
+      "type": "string",
+      "maxLength": 100
+    },
+    "resume_court": {
+      "type": "string",
+      "maxLength": 320
     }
   }
 }

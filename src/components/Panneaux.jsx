@@ -147,6 +147,34 @@ function Substances({ liste, libelles }) {
   );
 }
 
+export function Restrictions({ liste, titre = "Restrictions d'usage" }) {
+  if (!liste?.length) return null;
+  return (
+    <section className="pan-restrictions">
+      <h3>{titre}</h3>
+      {liste.map((r) => (
+        <div key={r.id} className={`restriction ${r.nature}`}>
+          <p className="restriction-titre">{r.libelle}</p>
+          <p className="note">
+            {r.autorite}
+            {r.date_debut ? `, depuis le ${dateLisible(r.date_debut)}` : ""}.{r.zone ? ` ${r.zone}.` : ""}
+            {r.statut === "inconnue" ? " Statut actuel non confirmé." : ""}
+          </p>
+        </div>
+      ))}
+    </section>
+  );
+}
+
+function Statuts({ p, libelles }) {
+  return (
+    <dl className="pan-statuts compact">
+      <Statut nom="Preuve" valeur={p.preuve} libelles={libelles?.statut_preuve} />
+      <Statut nom="Traitement" valeur={p.traitement} libelles={libelles?.statut_traitement} />
+    </dl>
+  );
+}
+
 export function PanneauSite({ p, d, libelles, fermer, icone }) {
   const plage = p.type === "baignade" ? ETATS_PLAGE[p.baignade_couleur] : null;
   return (
@@ -156,48 +184,53 @@ export function PanneauSite({ p, d, libelles, fermer, icone }) {
         {icone ? <img src={icone} alt="" width="26" height="26" /> : null}
         {p.categorie_libelle} · {p.commune}
       </p>
-      <h2>{p.nom}</h2>
+      <h2>{p.accroche}</h2>
+      <p className="pan-nom">{p.nom}</p>
       {plage ? (
         <p className="pan-etat">
           <Pastille couleur={COULEURS[p.baignade_couleur]}>{plage.libelle}</Pastille>
-          <span>
-            {p.baignade_etat === "hors_controle_sanitaire" ? "Baignade interdite, site sorti du contrôle sanitaire." : `Classement 2025 : ${p.baignade_dernier}.`}
-          </span>
         </p>
       ) : null}
-      <dl className="pan-statuts">
-        <Statut nom="Preuve" valeur={p.preuve} libelles={libelles?.statut_preuve} />
-        <Statut nom="Traitement" valeur={p.traitement} libelles={libelles?.statut_traitement} />
-      </dl>
-      {d?.procedure_en_cours && p.preuve !== "procedure_en_cours" ? <p className="note">Une procédure administrative est en cours.</p> : null}
-      {d?.periode ? <p className="pan-periode">Période : {periodeLisible(d.periode)}</p> : null}
-      {d?.resume ? <p className="pan-resume">{d.resume}</p> : null}
-      <Substances liste={d?.substances} libelles={libelles} />
-      <section className="pan-bloc">
-        <h3>Sources</h3>
-        <ul className="pan-sources">
-          {d?.sources?.map((s, i) => (
-            <li key={i}>
-              {s.url ? (
-                <a href={s.url} rel="noopener noreferrer" target="_blank">
-                  {s.titre}
-                </a>
-              ) : (
-                s.titre
-              )}
-              <span>
-                {s.auteur}, {dateLisible(s.date)}
-              </span>
-            </li>
-          ))}
-        </ul>
-        {d?.nb_sources > (d?.sources?.length ?? 0) ? <p className="note">{d.nb_sources - d.sources.length} autre(s) dans la fiche.</p> : null}
-      </section>
-      <p className="pan-trace">
-        Tracé : {libelles?.precision_geo?.[p.precision_geo]?.libelle?.toLowerCase()}.{d?.origine_trace ? ` ${d.origine_trace}` : ""}
-      </p>
+      {p.rehabilite ? (
+        <p className="pan-etat">
+          <Pastille couleur={COULEURS.vert}>Site réhabilité</Pastille>
+        </p>
+      ) : null}
+      {d?.resume_court ? <p className="pan-court">{d.resume_court}</p> : null}
+      <Statuts p={p} libelles={libelles} />
+      <Restrictions liste={d?.restrictions} />
+      <details className="pan-detail">
+        <summary>Détail, mesures et sources</summary>
+        {d?.periode ? <p className="pan-periode">Période : {periodeLisible(d.periode)}</p> : null}
+        {d?.procedure_en_cours && p.preuve !== "procedure_en_cours" ? <p className="note">Une procédure administrative est en cours.</p> : null}
+        {d?.resume ? <p className="pan-resume">{d.resume}</p> : null}
+        <Substances liste={d?.substances} libelles={libelles} />
+        <section className="pan-bloc">
+          <h3>Sources</h3>
+          <ul className="pan-sources">
+            {d?.sources?.map((s, i) => (
+              <li key={i}>
+                {s.url ? (
+                  <a href={s.url} rel="noopener noreferrer" target="_blank">
+                    {s.titre}
+                  </a>
+                ) : (
+                  s.titre
+                )}
+                <span>
+                  {s.auteur}, {dateLisible(s.date)}
+                </span>
+              </li>
+            ))}
+          </ul>
+          {d?.nb_sources > (d?.sources?.length ?? 0) ? <p className="note">{d.nb_sources - d.sources.length} autre(s) dans la fiche.</p> : null}
+        </section>
+        <p className="pan-trace">
+          Tracé : {libelles?.precision_geo?.[p.precision_geo]?.libelle?.toLowerCase()}.{d?.origine_trace ? ` ${d.origine_trace}` : ""}
+        </p>
+      </details>
       <a className="pan-lien" href={`/sites/${encodeURIComponent(p.id)}`}>
-        Lire la fiche complète
+        Fiche complète
       </a>
     </article>
   );
@@ -291,7 +324,40 @@ export function BlocRobinet({ code, robinets, eauHisto }) {
   );
 }
 
-export function PanneauRobinet({ commune, robinets, eau, fermer }) {
+function Provenance({ code, robinets, installations, captages }) {
+  const c = robinets?.communes?.[code];
+  if (!c) return null;
+  const lignes = c.reseaux.map((k) => ({ reseau: robinets.reseaux[k]?.nom ?? k, inst: installations?.[k]?.installations ?? [] }));
+  const nomCaptage = (id) => captages?.features?.find((f) => f.properties.code === id)?.properties;
+  return (
+    <section className="pan-bloc">
+      <h3>D&apos;où vient l&apos;eau</h3>
+      <ul className="pan-liste">
+        {lignes.map((l) => (
+          <li key={l.reseau}>
+            <span>
+              <b>{l.reseau}</b> :{" "}
+              {l.inst.length
+                ? l.inst.map((i) => {
+                    const cap = i.captages.map(nomCaptage).filter(Boolean);
+                    return cap.length
+                      ? `${i.nom.toLowerCase()}, captage ${cap.map((x) => `${x.nom} à ${x.commune}`).join(", ")}`
+                      : `${i.nom.toLowerCase()}, origine non publiée`;
+                  }).join(" ; ")
+                : "installation amont non renseignée"}
+            </span>
+          </li>
+        ))}
+      </ul>
+      <p className="note">
+        Installation amont déclarée dans le contrôle sanitaire. Le lien vers un captage n&apos;est fait que quand les noms concordent. Une
+        partie de l&apos;eau de l&apos;agglomération vient d&apos;usines situées hors de son territoire.
+      </p>
+    </section>
+  );
+}
+
+export function PanneauRobinet({ commune, robinets, eau, installations, captages, fermer }) {
   return (
     <article className="pan-fiche">
       <Fermer fermer={fermer} />
@@ -300,6 +366,7 @@ export function PanneauRobinet({ commune, robinets, eau, fermer }) {
         Eau du robinet
       </p>
       <h2>{commune.nom}</h2>
+      <Provenance code={commune.code_insee} robinets={robinets} installations={installations} captages={captages} />
       <BlocRobinet code={commune.code_insee} robinets={robinets} eauHisto={eau?.communes?.[commune.code_insee]} />
     </article>
   );
@@ -336,14 +403,44 @@ export function PanneauSignal({ s, bandeau, fermer }) {
   return (
     <article className="pan-fiche">
       <Fermer fermer={fermer} />
-      <p className="pan-cat">Signal sanitaire{s.niveau_source === "presse" ? ", chiffre rapporté par la presse" : ""}</p>
-      <h2>{s.libelle}</h2>
+      <p className="pan-cat">
+        <span className="pastille-couleur hachure" />
+        Signal sanitaire{s.niveau_source === "presse" ? ", chiffre de presse" : ""}
+      </p>
+      <h2>{s.accroche}</h2>
+      {s.resume_court ? <p className="pan-court">{s.resume_court}</p> : null}
       <p className="bandeau">{bandeau}</p>
-      {s.zone ? <p className="note">{s.zone}</p> : null}
-      <p>{s.resultat}</p>
+      <details className="pan-detail">
+        <summary>Détail de l&apos;étude</summary>
+        {s.zone ? <p className="note">{s.zone}</p> : null}
+        <p>{s.resultat}</p>
+      </details>
       <a className="pan-lien" href={`/signaux-sanitaires#${s.id}`}>
-        Lire l&apos;étude et les enquêtes en cours
+        Études et enquêtes en cours
       </a>
+    </article>
+  );
+}
+
+export function PanneauNature({ p, fermer }) {
+  return (
+    <article className="pan-fiche">
+      <Fermer fermer={fermer} />
+      <p className="pan-cat">
+        <img src={urlIcone({ glyphe: "feuille", fond: COULEURS.nature })} alt="" width="26" height="26" />
+        Espace naturel protégé
+      </p>
+      <h2>{p.nom}</h2>
+      <p className="pan-court">{p.type}{p.identifiant ? `, ${p.identifiant}` : ""}.</p>
+      <p className="note">
+        Couche de contexte, découpée sur les 28 communes. Une protection ne dit rien de l&apos;état de pollution du milieu. Source : INPN
+        (PatriNat) et IGN.
+      </p>
+      {p.identifiant ? (
+        <a href={`https://inpn.mnhn.fr/espace/protege/${p.identifiant}`} rel="noopener noreferrer" target="_blank">
+          Fiche INPN
+        </a>
+      ) : null}
     </article>
   );
 }
@@ -411,6 +508,7 @@ export function PanneauCommune({ c, donnees, actifs, fermer }) {
       <Fermer fermer={fermer} />
       <p className="pan-cat">Commune</p>
       <h2>{c.nom}</h2>
+      <Restrictions liste={(donnees?.restrictions ?? []).filter((r) => r.communes.includes(c.code_insee))} titre="Restrictions d'usage sur la commune" />
       {donnees?.robinets ? <BlocRobinet code={c.code_insee} robinets={donnees.robinets} eauHisto={donnees?.eau?.communes?.[c.code_insee]} /> : null}
       <section className="pan-bloc">
         <h3>Fiches</h3>
@@ -428,7 +526,7 @@ export function PanneauCommune({ c, donnees, actifs, fermer }) {
         )}
         {c.nb_sans_localisation ? <p className="note">Connu sans localisation : {c.sans_localisation}.</p> : null}
       </section>
-      {signaux.length && actifs.signaux ? (
+      {signaux.length && actifs.sante ? (
         <section className="pan-bloc">
           <h3>Signaux sanitaires</h3>
           <ul className="pan-liste">

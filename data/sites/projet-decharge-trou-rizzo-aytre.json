@@ -326,5 +326,7 @@
   "notes_internes": "La motion et le jugement figurent dans l'inventaire du projet sans source primaire retrouvée. Ne pas les afficher comme faits tant qu'ils ne sont pas sourcés. Le nom de l'entreprise n'est pas affiché : aucun document administratif public le nommant n'a été retrouvé.",
   "derniere_verification": "2026-11-08",
   "visible_par_defaut": true,
-  "origine_trace": "Plan d'eau de l'ancienne carrière, BD TOPO de l'IGN. Le périmètre exact du projet n'a pas été retrouvé."
+  "origine_trace": "Plan d'eau de l'ancienne carrière, BD TOPO de l'IGN. Le périmètre exact du projet n'a pas été retrouvé.",
+  "accroche": "Projet de remblayer l'ancienne carrière avec des déchets",
+  "resume_court": "Un projet de 2020 prévoyait d'y déposer environ 750 000 tonnes de déchets présentés comme inertes. Aucune pollution n'y est documentée."
 }

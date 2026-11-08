@@ -145,5 +145,8 @@
   ],
   "notes_internes": "L'inventaire du projet nomme aussi Péchiney-Saint-Gobain et Solvay. Seuls les noms portés par la fiche Infosols et l'Andra sont affichés.",
   "derniere_verification": "2026-11-08",
-  "visible_par_defaut": true
+  "visible_par_defaut": true,
+  "accroche": "Résidus radioactifs et métaux sur l'usine de terres rares",
+  "resume_court": "L'Andra recense 35 000 m³ de remblais contaminés en uranium et thorium sur le site. Arsenic, mercure, nickel et plomb sont relevés et la nappe est surveillée.",
+  "pictogramme": "radioactif"
 }

@@ -651,6 +651,58 @@
       "reference": "17-2026-03-26-00008, recueil des actes administratifs spécial n° 17-2026-107 du 2 avril 2026",
       "acces": "libre",
       "consulte_le": "2026-09-12"
+    },
+    {
+      "id": "criirad-tu108-2026-04",
+      "type": "publication_associative",
+      "auteur": "CRIIRAD",
+      "titre": "Trait d'Union n° 108, Extractivisme : quels risques radiologiques ?, dossier sur l'usine de La Rochelle",
+      "date": "2026-04",
+      "url": "https://www.criirad.org/tu-n108-04-2026-extractivisme-quels-risques-radiologiques/",
+      "reference": "Reprend les mesures CRIIRAD de 1988 (Le Cri du Rad n° 10), du 14 mai 2002 et du 15 décembre 2010 (rapport n° 10-149), et des mesures de mars 2025",
+      "acces": "libre",
+      "consulte_le": "2026-11-08"
+    },
+    {
+      "id": "dreal-inspection-uve-2025-12-09",
+      "type": "avis_administratif",
+      "auteur": "Inspection des installations classées, DREAL Nouvelle-Aquitaine",
+      "titre": "Rapport de l'inspection des installations classées, visite du 9 décembre 2025, UVE/UIOM CDA de La Rochelle, partie publiable",
+      "date": "2025-12-09",
+      "url": "https://www.georisques.gouv.fr/webappReport/ws/installations/inspection/TE1MEPTWaUJ9a1ztCKJ8S6ld2aSW4beW",
+      "reference": "Code AIOT 0007203654",
+      "acces": "libre",
+      "consulte_le": "2026-11-08"
+    },
+    {
+      "id": "dreal-inspection-uve-2024-06-26",
+      "type": "avis_administratif",
+      "auteur": "Inspection des installations classées, DREAL Nouvelle-Aquitaine",
+      "titre": "Rapport de l'inspection des installations classées, visite du 26 juin 2024, UVE/UIOM CDA de La Rochelle, partie publiable",
+      "date": "2024-06-26",
+      "url": "https://www.georisques.gouv.fr/webappReport/ws/installations/inspection/6zeyLqBxzpa4AChmdybQthk3A0MLpnHu",
+      "reference": "Code AIOT 0007203654",
+      "acces": "libre",
+      "consulte_le": "2026-11-08"
+    },
+    {
+      "id": "inpn-zones-protegees",
+      "type": "base_publique",
+      "auteur": "PatriNat (OFB, MNHN) et IGN",
+      "titre": "Espaces protégés : réserves naturelles, arrêtés de biotope, Natura 2000, Conservatoire du littoral, parcs naturels régionaux, service WFS",
+      "date": "2026",
+      "url": "https://inpn.mnhn.fr/telechargement/cartes-et-information-geographique",
+      "acces": "libre",
+      "consulte_le": "2026-11-08"
+    },
+    {
+      "id": "rgc-pc-2025-pediatrie-aja",
+      "type": "etude_scientifique",
+      "auteur": "Registre général des cancers de Poitou-Charentes",
+      "titre": "Étude exploratoire du risque de cancers pédiatriques et adolescents, jeunes adultes (AJA) en Charente-Maritime",
+      "date": "2025-03",
+      "acces": "libre",
+      "consulte_le": "2026-11-08"
     }
   ]
 }

@@ -18,6 +18,10 @@ export default function SignauxSanitaires() {
       <h1>Signaux sanitaires</h1>
       <p className="bandeau">{libelles().bandeau_signaux_sanitaires}</p>
       <p>
+        Les cancers « pédiatriques » des études du registre portent sur les 0 à 24 ans : enfants, adolescents et jeunes adultes. La
+        tranche a été choisie avec la Ligue contre le cancer.
+      </p>
+      <p>
         Cette page rassemble des résultats d&apos;études épidémiologiques portant sur la population de
         l&apos;agglomération. Ce ne sont pas des pollutions. Ils sont présentés séparément des fiches de sites, sans
         rapprochement géographique, parce qu&apos;aucune des études citées n&apos;établit de lien entre une source de
@@ -28,7 +32,8 @@ export default function SignauxSanitaires() {
           {s.niveau_source === "presse" ? (
             <p className="categorie">Chiffre connu par la presse seulement</p>
           ) : null}
-          <h2>{s.libelle}</h2>
+          <h2>{s.accroche ?? s.libelle}</h2>
+          {s.resume_court ? <p className="chapeau">{s.resume_court}</p> : null}
           <p className="sous-titre">
             {s.zone_libelle ?? (s.communes ?? []).map((c) => nomCommune.get(c)).join(", ")}. Période étudiée :{" "}
             {periodeLisible(s.periode)}.

@@ -165,6 +165,8 @@ for (const s of sites.filter((x) => x.geometry)) {
     baignade_dernier: b ? (b.classements[Object.keys(b.classements).sort().pop()] ?? null) : null,
     // Trois couleurs : vert (excellent ou bon), orange (suffisant), rouge (insuffisant, ou baignade interdite après
     // des classements insuffisants et sortie du contrôle sanitaire).
+    pictogramme: s.pictogramme ?? null,
+    accroche: s.accroche ?? s.nom,
     baignade_couleur: !b ? null : b.etat === "hors_controle_sanitaire" ? "rouge"
       : { excellent: "vert", bon: "vert", suffisant: "orange", insuffisant: "rouge" }[b.etat] ?? null,
   };
@@ -218,9 +220,17 @@ for (const s of signauxData) {
 // Une teneur n'est rapprochée que d'une valeur de même milieu et d'unité convertible.
 const references = read("data/references.json");
 const sourcesIndex = new Map(read("data/sources.json").sources.map((s) => [s.id, s]));
+const restrictionsData = existsSync(join(ROOT, "data/restrictions-usage.json")) ? read("data/restrictions-usage.json").restrictions : [];
+const restrictionLisible = (r) => ({
+  id: r.id, libelle: r.libelle, nature: r.nature, autorite: r.autorite, statut: r.statut, date_debut: r.date_debut,
+  zone: r.portee?.libelle_zone ?? null, communes: r.portee?.communes ?? [], motif: r.motif_declare ?? null,
+  source: sourcesIndex.get(r.sources[0])?.titre ?? null, source_url: sourcesIndex.get(r.sources[0])?.url ?? null,
+});
 const details = {};
 for (const s of sites) {
   details[s.id] = {
+    resume_court: s.resume_court ?? null,
+    restrictions: restrictionsData.filter((r) => (r.sites_lies ?? []).includes(s.id)).map(restrictionLisible),
     resume: s.resume,
     periode: s.periode,
     origine_trace: s.origine_trace ?? null,
@@ -319,7 +329,10 @@ writeFileSync(
     reperes: { type: "FeatureCollection", features: reperes },
     communes: { type: "FeatureCollection", features: communesCarte },
     signaux: { type: "FeatureCollection", features: signauxCarte },
-    signaux_liste: signauxData.map((s) => ({ id: s.id, libelle: s.libelle, resultat: s.resultat, niveau_source: s.niveau_source ?? "etude_publiee", communes: s.communes ?? [], zone: s.zone_libelle ?? null })),
+    restrictions: restrictionsData.map(restrictionLisible),
+    codes_postaux: existsSync(join(ROOT, "data/communes-codes-postaux.json")) ? read("data/communes-codes-postaux.json") : {},
+    installations: existsSync(join(ROOT, "data/collecte/eau-installations.json")) ? read("data/collecte/eau-installations.json").reseaux : {},
+    signaux_liste: signauxData.map((s) => ({ id: s.id, libelle: s.libelle, accroche: s.accroche ?? s.libelle, resume_court: s.resume_court ?? null, resultat: s.resultat, niveau_source: s.niveau_source ?? "etude_publiee", communes: s.communes ?? [], zone: s.zone_libelle ?? null })),
     signaux_non_cartographies: signauxNonCartographies,
     sans_localisation: index.filter((c) => c.nb_sans_localisation).map((c) => ({ commune: c.nom, slug: c.slug, sites: c.sans_localisation })),
     details,
@@ -336,6 +349,9 @@ writeFileSync(
     },
   })
 );
+if (existsSync(join(ROOT, "data/collecte/zones-protegees.geojson"))) {
+  writeFileSync(join(ROOT, "public/data/nature.json"), readFileSync(join(ROOT, "data/collecte/zones-protegees.geojson")));
+}
 if (existsSync(join(ROOT, "data/agriculture/rpg-2023.geojson"))) {
   writeFileSync(join(ROOT, "public/data/agriculture.json"), readFileSync(join(ROOT, "data/agriculture/rpg-2023.geojson")));
 }

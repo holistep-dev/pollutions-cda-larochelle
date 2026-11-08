@@ -214,5 +214,7 @@
   "notes_internes": "Point placé sur le port de pêche, rayon large. À remplacer par un contour quand la photographie aérienne aura été lue.",
   "derniere_verification": "2026-11-08",
   "visible_par_defaut": true,
-  "origine_trace": "Emprise du port de pêche de Chef-de-Baie, BD TOPO de l'IGN, que la source désigne comme l'emplacement de l'ancienne décharge. L'emprise réelle des dépôts n'est pas documentée."
+  "origine_trace": "Emprise du port de pêche de Chef-de-Baie, BD TOPO de l'IGN, que la source désigne comme l'emplacement de l'ancienne décharge. L'emprise réelle des dépôts n'est pas documentée.",
+  "accroche": "Ancienne décharge sous le port de pêche, jamais étudiée",
+  "resume_court": "Une vidéo de 1992 montre des camions déversant dans une fosse. Aucun document administratif sur cette décharge n'a été retrouvé."
 }

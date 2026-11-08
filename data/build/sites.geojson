@@ -4059,6 +4059,31 @@
     },
     {
       "type": "Feature",
+      "id": "incinerateur-chef-de-baie-la-rochelle",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.193868,
+          46.153044
+        ]
+      },
+      "properties": {
+        "id": "incinerateur-chef-de-baie-la-rochelle",
+        "nom": "Unité de valorisation énergétique (incinérateur) de Chef-de-Baie",
+        "commune": "La Rochelle",
+        "code_insee": "17300",
+        "categorie": "air",
+        "theme": "air",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 120,
+        "statut_preuve": "diagnostic_administratif",
+        "procedure_en_cours": true,
+        "statut_traitement": "sous_surveillance",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
       "id": "laboratoire-fujifilm-aytre",
       "geometry": {
         "type": "Point",
@@ -4683,6 +4708,81 @@
         "theme": "pollution_chimique",
         "precision_geo": "perimetre_approximatif",
         "rayon_m": null,
+        "statut_preuve": "signalement_non_instruit",
+        "procedure_en_cours": false,
+        "statut_traitement": "inconnu",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "radioactivite-avenue-wilson-la-rochelle",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1905,
+          46.1548
+        ]
+      },
+      "properties": {
+        "id": "radioactivite-avenue-wilson-la-rochelle",
+        "nom": "Rayonnement gamma le long de l'avenue du Président-Wilson",
+        "commune": "La Rochelle",
+        "code_insee": "17300",
+        "categorie": "friche_sol_pollue",
+        "theme": "pollution_chimique",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 250,
+        "statut_preuve": "signalement_non_instruit",
+        "procedure_en_cours": false,
+        "statut_traitement": "inconnu",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "radioactivite-minimes-la-rochelle",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1625,
+          46.1455
+        ]
+      },
+      "properties": {
+        "id": "radioactivite-minimes-la-rochelle",
+        "nom": "Remblais radioactifs sous le quartier des Minimes",
+        "commune": "La Rochelle",
+        "code_insee": "17300",
+        "categorie": "friche_sol_pollue",
+        "theme": "pollution_chimique",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 500,
+        "statut_preuve": "signalement_non_instruit",
+        "procedure_en_cours": false,
+        "statut_traitement": "inconnu",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "radioactivite-port-neuf-la-rochelle",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1875,
+          46.1515
+        ]
+      },
+      "properties": {
+        "id": "radioactivite-port-neuf-la-rochelle",
+        "nom": "Sédiments radioactifs à l'ancien émissaire de Port-Neuf",
+        "commune": "La Rochelle",
+        "code_insee": "17300",
+        "categorie": "sediment_marin",
+        "theme": "pollution_chimique",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 300,
         "statut_preuve": "signalement_non_instruit",
         "procedure_en_cours": false,
         "statut_traitement": "inconnu",
