@@ -282,8 +282,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.1213,
-          46.1375
+          -1.139,
+          46.138
         ]
       },
       "properties": {
@@ -294,7 +294,7 @@
         "categorie": "friche_sol_pollue",
         "theme": "pollution_chimique",
         "precision_geo": "localisation_indicative",
-        "rayon_m": 450,
+        "rayon_m": 400,
         "statut_preuve": "diagnostic_administratif",
         "procedure_en_cours": false,
         "statut_traitement": "travaux_en_cours",

@@ -150,3 +150,57 @@ h3 { font-size: 0.95rem; font-weight: 600; margin: 1.6rem 0 0.5rem; color: var(-
   h1 { font-size: 1.7rem; }
 }
 .liste-sites .traitement { font-size: 0.8rem; color: var(--encre-pale); white-space: nowrap; }
+
+/* ------------------------------------------------------------ carte */
+.carte-page { display: flex; height: 100vh; height: 100dvh; width: 100%; overflow: hidden; }
+.carte-fond { flex: 1 1 auto; min-width: 0; height: 100%; }
+.carte-panneau { flex: 0 0 22rem; height: 100%; overflow-y: auto; background: var(--pierre); border-right: 1px solid var(--trait); font-size: 0.92rem; line-height: 1.45; }
+.carte-panneau .panneau-tete { display: flex; justify-content: space-between; align-items: center; gap: 0.5rem; padding: 0.8rem 1.1rem; border-bottom: 1px solid var(--trait); position: sticky; top: 0; background: var(--pierre); z-index: 1; }
+.carte-panneau .replier { font: inherit; font-size: 0.85rem; background: none; border: 1px solid var(--trait); padding: 0.15rem 0.5rem; cursor: pointer; color: var(--encre); display: none; }
+.carte-panneau .panneau-corps { padding: 0.4rem 1.1rem 2rem; }
+.carte-panneau h1 { font-size: 1.35rem; margin: 0.8rem 0 0.5rem; max-width: none; }
+.carte-panneau h2 { font-size: 0.9rem; margin: 1.6rem 0 0.5rem; }
+.carte-panneau p { max-width: none; }
+.themes { border: 0; padding: 0; margin: 1.2rem 0 0; }
+.themes legend { font-weight: 600; font-size: 0.9rem; margin-bottom: 0.4rem; padding: 0; }
+.themes label { display: flex; align-items: center; gap: 0.55rem; padding: 0.32rem 0; border-bottom: 1px solid var(--pierre-creuse); cursor: pointer; }
+.themes label em { margin-left: auto; font-style: normal; color: var(--encre-pale); font-variant-numeric: tabular-nums; }
+.themes label.option { margin-top: 0.6rem; border-bottom: 0; color: var(--encre-pale); }
+.themes input { accent-color: var(--mesure); margin: 0; }
+.pastille-couleur { width: 0.85rem; height: 0.85rem; border-radius: 2px; flex: 0 0 auto; }
+.carte-panneau .bandeau { margin: 1.2rem 0 0; font-size: 0.86rem; }
+.carte-panneau .bandeau p { margin: 0 0 0.5rem; }
+.legende { list-style: none; margin: 0; padding: 0; }
+.legende li { display: flex; align-items: center; gap: 0.6rem; padding: 0.2rem 0; }
+.ech { width: 1.4rem; height: 0.9rem; flex: 0 0 auto; border: 1.5px solid #8a4b2f; }
+.ech.aplat { background: rgba(138, 75, 47, 0.45); }
+.ech.flou { background: rgba(138, 75, 47, 0.14); border-style: dashed; border-radius: 50%; }
+.ech.hachure { border-color: #7a7f7c; background: repeating-linear-gradient(45deg, transparent 0 3px, #7a7f7c 3px 4.5px); }
+.ech.pale { width: 0.75rem; height: 0.75rem; border-radius: 50%; border: 1.5px solid #fff; background: rgba(138, 75, 47, 0.55); box-shadow: 0 0 0 1px var(--trait); }
+.legende .ech[style] { border-color: transparent; }
+
+.maplibregl-popup-content { font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif; font-size: 0.88rem; line-height: 1.4; padding: 0.8rem 1rem; color: var(--encre); }
+.maplibregl-popup-content p { margin: 0 0 0.4rem; }
+.pop-cat { color: var(--mesure); font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.04em; }
+.pop-nom { font-weight: 600; font-size: 0.98rem; }
+.pop-statuts { display: grid; grid-template-columns: auto 1fr; gap: 0.1rem 0.6rem; margin: 0.4rem 0 0.6rem; font-size: 0.84rem; }
+.pop-statuts dt { color: var(--encre-pale); }
+.pop-statuts dd { margin: 0; }
+
+.lien-carte { display: inline-block; margin: 0.4rem 0 0; padding: 0.45rem 0.9rem; border: 1px solid var(--mesure); text-decoration: none; }
+
+@media (max-width: 48rem) {
+  .carte-page { flex-direction: column; }
+  .carte-panneau { flex: 0 0 auto; max-height: 48vh; height: auto; border-right: 0; border-bottom: 1px solid var(--trait); }
+  .carte-panneau.replie { max-height: none; }
+  .carte-panneau.replie .panneau-corps { display: none; }
+  .carte-panneau .replier { display: inline-block; }
+  .carte-fond { flex: 1 1 auto; min-height: 50vh; }
+}
+.carte-zone { position: relative; flex: 1 1 auto; min-width: 0; height: 100%; display: flex; }
+.carte-zone .carte-fond { width: 100%; }
+.bandeau-carte { position: absolute; left: 0.6rem; bottom: 2.2rem; max-width: 22rem; margin: 0; padding: 0.5rem 0.7rem; background: #f3e9d6; border-left: 3px solid #9a6b1f; font-size: 0.8rem; line-height: 1.35; box-shadow: 0 1px 3px rgba(0,0,0,0.15); z-index: 2; }
+@media (max-width: 48rem) {
+  .carte-zone { flex: 1 1 auto; min-height: 50vh; }
+  .bandeau-carte { left: 0.4rem; right: 3.2rem; bottom: 2rem; max-width: none; }
+}

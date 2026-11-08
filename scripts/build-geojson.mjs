@@ -114,6 +114,107 @@ write("data/build/baignade-synthese.json", {
   sites: baignade,
 });
 
+// ------------------------------------------------------------ carte publique
+// Un seul fichier servi au navigateur. La géométrie dessinée suit precision_geo :
+// un point indicatif devient un disque du rayon déclaré, jamais un polygone net.
+const libelles = read("data/libelles.json");
+const etatBaignade = new Map(baignade.map((b) => [b.site, b]));
+
+function disque([lon, lat], rayon, n = 48) {
+  const R = 6371008.8;
+  const dLat = (rayon / R) * (180 / Math.PI);
+  const dLon = dLat / Math.cos((lat * Math.PI) / 180);
+  const anneau = [];
+  for (let i = 0; i <= n; i++) {
+    const a = (2 * Math.PI * i) / n;
+    anneau.push([+(lon + dLon * Math.cos(a)).toFixed(6), +(lat + dLat * Math.sin(a)).toFixed(6)]);
+  }
+  return { type: "Polygon", coordinates: [anneau] };
+}
+
+function centre(g) {
+  if (g.type === "Point") return g.coordinates;
+  const pts = [];
+  const collecte = (c) => (typeof c[0] === "number" ? pts.push(c) : c.forEach(collecte));
+  collecte(g.coordinates);
+  const lon = pts.reduce((s, p) => s + p[0], 0) / pts.length;
+  const lat = pts.reduce((s, p) => s + p[1], 0) / pts.length;
+  return [+lon.toFixed(6), +lat.toFixed(6)];
+}
+
+const surfaces = [];
+const reperes = [];
+for (const s of sites.filter((x) => x.geometry)) {
+  const b = etatBaignade.get(s.id);
+  const props = {
+    id: s.id,
+    nom: s.nom,
+    commune: s.commune,
+    categorie: s.categorie,
+    categorie_libelle: libelles.categorie[s.categorie],
+    theme: THEME[s.categorie],
+    precision_geo: s.precision_geo,
+    precision_libelle: libelles.precision_geo[s.precision_geo].libelle,
+    preuve: s.statut_preuve,
+    preuve_libelle: libelles.statut_preuve[s.statut_preuve].libelle,
+    traitement: s.statut_traitement,
+    traitement_libelle: libelles.statut_traitement[s.statut_traitement].libelle,
+    rehabilite: s.statut_traitement === "rehabilite",
+    baignade_etat: b ? b.etat : null,
+    baignade_dernier: b ? (b.classements[Object.keys(b.classements).sort().pop()] ?? null) : null,
+  };
+  const geom = s.geometry.type === "Point" ? disque(s.geometry.coordinates, s.rayon_m ?? 100) : s.geometry;
+  surfaces.push({ type: "Feature", id: s.id, geometry: geom, properties: props });
+  reperes.push({ type: "Feature", id: s.id, geometry: { type: "Point", coordinates: centre(s.geometry) }, properties: props });
+}
+
+const contours = read("data/communes-contours.geojson");
+const parCode = new Map(index.map((c) => [c.code_insee, c]));
+const communesCarte = contours.features.map((f) => {
+  const c = parCode.get(f.properties.code);
+  return {
+    type: "Feature",
+    geometry: f.geometry,
+    properties: {
+      code_insee: f.properties.code,
+      nom: c.nom,
+      slug: c.slug,
+      nb_sites: c.nb_sites,
+      nb_sans_localisation: c.nb_sans_localisation,
+      sans_localisation: c.sans_localisation.map((x) => x.nom).join(" ; "),
+    },
+  };
+});
+
+// Signaux : contour communal seulement quand l'étude porte sur la commune entière.
+const signauxData = existsSync(join(ROOT, "data/signaux-sanitaires.json")) ? read("data/signaux-sanitaires.json").signaux : [];
+const contourParCode = new Map(contours.features.map((f) => [f.properties.code, f.geometry]));
+const signauxCarte = [];
+const signauxNonCartographies = [];
+for (const s of signauxData) {
+  if (s.zone_libelle || !s.communes?.length) {
+    signauxNonCartographies.push({ id: s.id, libelle: s.libelle, zone: s.zone_libelle ?? null });
+    continue;
+  }
+  for (const code of s.communes) {
+    signauxCarte.push({ type: "Feature", geometry: contourParCode.get(code), properties: { id: s.id, libelle: s.libelle } });
+  }
+}
+
+mkdirSync(join(ROOT, "public/data"), { recursive: true });
+writeFileSync(
+  join(ROOT, "public/data/carte.json"),
+  JSON.stringify({
+    genere_le: new Date().toISOString().slice(0, 10),
+    surfaces: { type: "FeatureCollection", features: surfaces },
+    reperes: { type: "FeatureCollection", features: reperes },
+    communes: { type: "FeatureCollection", features: communesCarte },
+    signaux: { type: "FeatureCollection", features: signauxCarte },
+    signaux_non_cartographies: signauxNonCartographies,
+    sans_localisation: index.filter((c) => c.nb_sans_localisation).map((c) => ({ commune: c.nom, slug: c.slug, sites: c.sans_localisation })),
+  })
+);
+
 console.log(
   `${features.length} objets cartographiés, ${sites.length - features.length} sites sans localisation, ` +
     `${index.filter((c) => c.nb_sites).length} communes peuplées, ${baignade.length} séries baignade.`

@@ -6,12 +6,12 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -1.1213,
-      46.1375
+      -1.139,
+      46.138
     ]
   },
   "precision_geo": "localisation_indicative",
-  "rayon_m": 450,
+  "rayon_m": 400,
   "categorie": "friche_sol_pollue",
   "milieux": [
     "sol",
@@ -68,7 +68,7 @@
       "ou_chercher": "CDA de La Rochelle, direction de l'aménagement"
     }
   ],
-  "notes_internes": "Point placé au centre approximatif du secteur. Remplacer par le périmètre de la ZAC.",
+  "notes_internes": "Point recalé le 08/11/2026 sur le lieu-dit Bongraine du fond OSM, rayon 400 m. Remplacer par le périmètre de la ZAC.",
   "derniere_verification": "2026-11-08",
   "visible_par_defaut": true
 }

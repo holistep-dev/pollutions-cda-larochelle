@@ -14,7 +14,11 @@ export default function Accueil() {
       <h1>Ce qui est documenté sous l&apos;agglomération de La Rochelle</h1>
       <p className="sous-titre">
         Recensement des pollutions documentées sur les 28 communes de la Communauté d&apos;agglomération. Le site
-        est en construction. Les fiches sont en ligne au fil de leur saisie, la carte suivra.
+        est en construction. Les fiches sont en ligne au fil de leur saisie.
+      </p>
+
+      <p>
+        <a className="lien-carte" href="/carte">Voir la carte</a>
       </p>
 
       <p className="regle">
