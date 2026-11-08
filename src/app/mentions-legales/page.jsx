@@ -83,6 +83,30 @@ export default function MentionsLegales() {
         postal de l&apos;acheteur. Thairé et Vérines partagent leur code postal avec des communes extérieures et ne sont pas comptés.
       </p>
 
+      <h2 id="nappes-canaux">Nappes et canaux</h2>
+      <p>
+        Les points de mesure des eaux souterraines (ADES) et des cours d&apos;eau et canaux (Naïades) entrent sur la carte quand une analyse
+        publiée depuis 2015 dépasse 50 mg/l de nitrates, norme de qualité des eaux souterraines et seuil du bon état des cours d&apos;eau. Pour
+        les captages, il s&apos;agit de l&apos;eau brute, avant traitement et mélange : ce n&apos;est pas l&apos;eau du robinet. Les métabolites
+        de pesticides classés non pertinents par l&apos;ANSES, comme le chlorothalonil R471811 ou les métabolites ESA et NOA du métolachlore,
+        sont affichés quand ils sont quantifiés, sans verdict de dépassement. Les piézomètres des sites industriels déclarés dans ADES n&apos;ont
+        pas de résultat publié.
+      </p>
+
+      <h2 id="air">Air ambiant</h2>
+      <p>
+        L&apos;air de fond n&apos;est pas une entrée de la carte. Aux stations d&apos;Atmo Nouvelle-Aquitaine de La Pallice et du centre-ville, les
+        particules fines respectent en 2023 et 2024 les valeurs limites réglementaires : 7 µg/m³ de PM2,5 en moyenne annuelle pour une limite
+        de 25. Elles dépassent les lignes directrices de l&apos;OMS de 2021, qui recommandent 5 µg/m³ en moyenne annuelle et pas plus de trois à
+        quatre jours par an au-dessus de 15 µg/m³ ; on en a compté 13 à 29 selon l&apos;année et la station. Les lignes directrices de
+        l&apos;OMS ne sont pas des valeurs réglementaires. Seuls figurent sur la carte des émissions industrielles ayant fait l&apos;objet
+        d&apos;un constat de l&apos;inspection et des pesticides mesurés dans l&apos;air.
+      </p>
+      <p className="note">
+        Sources : Atmo Nouvelle-Aquitaine, synthèses annuelles 2023 et 2024 de la station La Rochelle La Pallice, publiées par Port Atlantique
+        La Rochelle.
+      </p>
+
       <h2 id="couleurs">Codes couleur</h2>
       <p>
         Plages : vert pour un classement excellent ou bon, orange pour suffisant, rouge pour insuffisant ou pour une baignade interdite par

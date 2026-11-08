@@ -31,6 +31,12 @@ export function comparer(sub, references) {
     out.reperes.push(rep);
   }
   if (!ref) return fin();
+  // Métabolite non pertinent : quantifié, sans verdict de dépassement.
+  if (ref.non_pertinent) {
+    out.reperes.push({ libelle: ref.note_non_pertinent, nature: "aucune", source: references.sources[ref.effets_source]?.titre ?? null });
+    out.verdict = "non_pertinent";
+    return out;
+  }
   const u = UNITES[sub.unite];
   for (const v of ref.valeurs.filter((x) => x.milieu === sub.milieu)) {
     const repere = { libelle: v.libelle, nature: v.nature, source: references.sources[v.source]?.titre ?? null, source_url: references.sources[v.source]?.url ?? null };
@@ -43,7 +49,7 @@ export function comparer(sub, references) {
     if (v.note) repere.note = v.note;
     if (v.non_comparable) repere.non_comparable = true;
     if (v.serie) repere.note = "Seuil calculé sur une série de prélèvements. Une valeur isolée ne s'y compare pas directement.";
-    if (sub.milieu === "eau_souterraine" && v.nature === "limite_de_qualite")
+    if (sub.milieu === "eau_souterraine" && v.nature === "limite_de_qualite" && !v.norme_milieu)
       repere.note = "Repère seulement : une nappe polluée n'est pas forcément utilisée pour l'eau potable.";
     if (sub.valeur != null && u && uv && u[0] === uv[0] && !v.serie && !v.non_comparable) {
       const mesure = (sub.valeur * u[1]) / uv[1];
@@ -76,5 +82,6 @@ export const VERDICTS = {
   au_dessus_habituel: { libelle: "Au-dessus du niveau habituel", couleur: "#f59e0b" },
   dans_la_norme: { libelle: "Dans les valeurs habituelles", couleur: "#16a34a" },
   non_comparable: { libelle: "Pas directement comparable", couleur: "#94a3b8" },
+  non_pertinent: { libelle: "Métabolite non pertinent", couleur: "#94a3b8" },
   sans_repere: { libelle: "Pas de repère publié", couleur: "#94a3b8" },
 };

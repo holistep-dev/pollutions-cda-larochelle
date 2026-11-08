@@ -4276,6 +4276,456 @@
     },
     {
       "type": "Feature",
+      "id": "nitrates-04161110",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.118937355,
+          46.116951074
+        ]
+      },
+      "properties": {
+        "id": "nitrates-04161110",
+        "nom": "Canal principal d'Aytré",
+        "commune": "Aytré",
+        "code_insee": "17028",
+        "categorie": "ressource_eau",
+        "theme": "ressource_eau",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 150,
+        "statut_preuve": "mesure_publiee",
+        "procedure_en_cours": false,
+        "statut_traitement": "sous_surveillance",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nitrates-04782003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.108831948,
+          46.166974575
+        ]
+      },
+      "properties": {
+        "id": "nitrates-04782003",
+        "nom": "Canal de Marans à La Rochelle, à Périgny",
+        "commune": "Périgny",
+        "code_insee": "17274",
+        "categorie": "ressource_eau",
+        "theme": "ressource_eau",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 150,
+        "statut_preuve": "mesure_publiee",
+        "procedure_en_cours": false,
+        "statut_traitement": "sous_surveillance",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nitrates-04782008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.150466139,
+          46.158237437
+        ]
+      },
+      "properties": {
+        "id": "nitrates-04782008",
+        "nom": "Canal de Marans à La Rochelle, à La Rochelle",
+        "commune": "La Rochelle",
+        "code_insee": "17300",
+        "categorie": "ressource_eau",
+        "theme": "ressource_eau",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 150,
+        "statut_preuve": "mesure_publiee",
+        "procedure_en_cours": false,
+        "statut_traitement": "sous_surveillance",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nitrates-04782009",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.140242433,
+          46.154237383
+        ]
+      },
+      "properties": {
+        "id": "nitrates-04782009",
+        "nom": "Canal de la Moulinette à La Rochelle",
+        "commune": "La Rochelle",
+        "code_insee": "17300",
+        "categorie": "ressource_eau",
+        "theme": "ressource_eau",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 150,
+        "statut_preuve": "mesure_publiee",
+        "procedure_en_cours": false,
+        "statut_traitement": "sous_surveillance",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nitrates-04782013",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.068348831,
+          46.217871411
+        ]
+      },
+      "properties": {
+        "id": "nitrates-04782013",
+        "nom": "Chenaue à Saint-Xandre",
+        "commune": "Saint-Xandre",
+        "code_insee": "17414",
+        "categorie": "ressource_eau",
+        "theme": "ressource_eau",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 150,
+        "statut_preuve": "mesure_publiee",
+        "procedure_en_cours": false,
+        "statut_traitement": "sous_surveillance",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nitrates-04782015",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.12314873,
+          46.111946845
+        ]
+      },
+      "properties": {
+        "id": "nitrates-04782015",
+        "nom": "Grand canal à Angoulins",
+        "commune": "Angoulins",
+        "code_insee": "17010",
+        "categorie": "ressource_eau",
+        "theme": "ressource_eau",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 150,
+        "statut_preuve": "mesure_publiee",
+        "procedure_en_cours": false,
+        "statut_traitement": "sous_surveillance",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nitrates-04782017",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.049149284,
+          46.206474703
+        ]
+      },
+      "properties": {
+        "id": "nitrates-04782017",
+        "nom": "Canal de Marans à La Rochelle, à Sainte-Soulle",
+        "commune": "Sainte-Soulle",
+        "code_insee": "17407",
+        "categorie": "ressource_eau",
+        "theme": "ressource_eau",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 150,
+        "statut_preuve": "mesure_publiee",
+        "procedure_en_cours": false,
+        "statut_traitement": "sous_surveillance",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nitrates-04782018",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.056277457,
+          46.183128619
+        ]
+      },
+      "properties": {
+        "id": "nitrates-04782018",
+        "nom": "Canal de Marans à La Rochelle, à Dompierre-sur-Mer",
+        "commune": "Dompierre-sur-Mer",
+        "code_insee": "17142",
+        "categorie": "ressource_eau",
+        "theme": "ressource_eau",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 150,
+        "statut_preuve": "mesure_publiee",
+        "procedure_en_cours": false,
+        "statut_traitement": "sous_surveillance",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nitrates-04782020",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.165417538,
+          46.208277383
+        ]
+      },
+      "properties": {
+        "id": "nitrates-04782020",
+        "nom": "Le Go à Nieul-sur-Mer",
+        "commune": "Nieul-sur-Mer",
+        "code_insee": "17264",
+        "categorie": "ressource_eau",
+        "theme": "ressource_eau",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 150,
+        "statut_preuve": "mesure_publiee",
+        "procedure_en_cours": false,
+        "statut_traitement": "sous_surveillance",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nitrates-04782022",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.202876737,
+          46.187636385
+        ]
+      },
+      "properties": {
+        "id": "nitrates-04782022",
+        "nom": "Marais de Pampin à La Rochelle",
+        "commune": "La Rochelle",
+        "code_insee": "17300",
+        "categorie": "ressource_eau",
+        "theme": "ressource_eau",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 150,
+        "statut_preuve": "mesure_publiee",
+        "procedure_en_cours": false,
+        "statut_traitement": "sous_surveillance",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nitrates-04782023",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.107964892,
+          46.149413661
+        ]
+      },
+      "properties": {
+        "id": "nitrates-04782023",
+        "nom": "La Moulinette à Périgny",
+        "commune": "Périgny",
+        "code_insee": "17274",
+        "categorie": "ressource_eau",
+        "theme": "ressource_eau",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 150,
+        "statut_preuve": "mesure_publiee",
+        "procedure_en_cours": false,
+        "statut_traitement": "sous_surveillance",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nitrates-04782024",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.086143297,
+          46.124521034
+        ]
+      },
+      "properties": {
+        "id": "nitrates-04782024",
+        "nom": "L'Otus à La Jarne",
+        "commune": "La Jarne",
+        "code_insee": "17193",
+        "categorie": "ressource_eau",
+        "theme": "ressource_eau",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 150,
+        "statut_preuve": "mesure_publiee",
+        "procedure_en_cours": false,
+        "statut_traitement": "sous_surveillance",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nitrates-05000220",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.016050386,
+          46.057920773
+        ]
+      },
+      "properties": {
+        "id": "nitrates-05000220",
+        "nom": "Canal d'amenée de l'UNIMA à Thairé",
+        "commune": "Thairé",
+        "code_insee": "17443",
+        "categorie": "ressource_eau",
+        "theme": "ressource_eau",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 150,
+        "statut_preuve": "mesure_publiee",
+        "procedure_en_cours": false,
+        "statut_traitement": "sous_surveillance",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nitrates-nappe-clavette",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.0276996323256196,
+          46.139085200114316
+        ]
+      },
+      "properties": {
+        "id": "nitrates-nappe-clavette",
+        "nom": "Nappe au captage de Cassemortier, Clavette",
+        "commune": "Clavette",
+        "code_insee": "17109",
+        "categorie": "ressource_eau",
+        "theme": "ressource_eau",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 150,
+        "statut_preuve": "mesure_publiee",
+        "procedure_en_cours": false,
+        "statut_traitement": "sous_surveillance",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nitrates-nappe-marsilly",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.15156736545725,
+          46.2244014142151
+        ]
+      },
+      "properties": {
+        "id": "nitrates-nappe-marsilly",
+        "nom": "Nappe à Marsilly, point de surveillance 06334X0021/F",
+        "commune": "Marsilly",
+        "code_insee": "17222",
+        "categorie": "ressource_eau",
+        "theme": "ressource_eau",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 150,
+        "statut_preuve": "mesure_publiee",
+        "procedure_en_cours": false,
+        "statut_traitement": "sous_surveillance",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nitrates-nappe-perigny",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.096359409528933,
+          46.152689658723574
+        ]
+      },
+      "properties": {
+        "id": "nitrates-nappe-perigny",
+        "nom": "Nappe au captage de Varaize, Périgny",
+        "commune": "Périgny",
+        "code_insee": "17274",
+        "categorie": "ressource_eau",
+        "theme": "ressource_eau",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 150,
+        "statut_preuve": "mesure_publiee",
+        "procedure_en_cours": false,
+        "statut_traitement": "sous_surveillance",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nitrates-nappe-salles-sur-mer",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.0551415675440154,
+          46.104539451189865
+        ]
+      },
+      "properties": {
+        "id": "nitrates-nappe-salles-sur-mer",
+        "nom": "Nappe au captage de la Ragotterie, Salles-sur-Mer",
+        "commune": "Salles-sur-Mer",
+        "code_insee": "17420",
+        "categorie": "ressource_eau",
+        "theme": "ressource_eau",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 150,
+        "statut_preuve": "mesure_publiee",
+        "procedure_en_cours": false,
+        "statut_traitement": "sous_surveillance",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nitrates-nappe-verines",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.9669069947119215,
+          46.19390003923568
+        ]
+      },
+      "properties": {
+        "id": "nitrates-nappe-verines",
+        "nom": "Nappe au captage de la Fraise, Vérines",
+        "commune": "Vérines",
+        "code_insee": "17466",
+        "categorie": "ressource_eau",
+        "theme": "ressource_eau",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 150,
+        "statut_preuve": "mesure_publiee",
+        "procedure_en_cours": false,
+        "statut_traitement": "sous_surveillance",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
       "id": "phospho-guano-la-rochelle",
       "geometry": {
         "type": "MultiPolygon",

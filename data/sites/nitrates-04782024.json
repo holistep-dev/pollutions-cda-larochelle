@@ -1,0 +1,57 @@
+{
+  "id": "nitrates-04782024",
+  "nom": "L'Otus à La Jarne",
+  "commune": "La Jarne",
+  "code_insee": "17193",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -1.086143297,
+      46.124521034
+    ]
+  },
+  "precision_geo": "localisation_indicative",
+  "rayon_m": 150,
+  "origine_trace": "Position de la station de mesure publiée par Naïades. La mesure vaut pour le cours d'eau à cet endroit.",
+  "categorie": "ressource_eau",
+  "pictogramme": "goutte",
+  "milieux": [
+    "eau_superficielle"
+  ],
+  "substances": [
+    {
+      "libelle": "nitrates, maximum depuis 2015 (15 mai 2024)",
+      "milieu": "eau_superficielle",
+      "valeur": 80.0,
+      "unite": "mg/L",
+      "date_mesure": "2024-05-15",
+      "source": "naiades-04782024"
+    },
+    {
+      "libelle": "nitrates, dernière mesure (22 mai 2025)",
+      "milieu": "eau_superficielle",
+      "valeur": 73.0,
+      "unite": "mg/L",
+      "date_mesure": "2025-05-22",
+      "source": "naiades-04782024"
+    }
+  ],
+  "periode": {
+    "debut": "2024-01-15",
+    "debut_statut": "datee",
+    "fin": null,
+    "fin_statut": "en_cours",
+    "note": "Analyses depuis 2015 retenues."
+  },
+  "resume": "La station 04782024 mesure la qualité de l'eau de l'Otus. Sur 7 analyses de nitrates depuis 2015, 6 dépassent 50 mg/l, seuil du bon état des eaux. Le maximum est de 80 mg/l le 15 mai 2024 ; la dernière mesure publiée donne 73 mg/l le 22 mai 2025.",
+  "accroche": "Nitrates au-dessus de 50 mg/l dans l'Otus à La Jarne",
+  "resume_court": "Jusqu'à 80 mg/l de nitrates, pour un seuil de bon état de 50 mg/l. Dernière mesure : 73 mg/l en 2025.",
+  "statut_preuve": "mesure_publiee",
+  "procedure_en_cours": false,
+  "statut_traitement": "sous_surveillance",
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": true,
+  "sources": [
+    "naiades-04782024"
+  ]
+}

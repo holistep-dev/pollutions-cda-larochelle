@@ -1,0 +1,57 @@
+{
+  "id": "nitrates-04782020",
+  "nom": "Le Go à Nieul-sur-Mer",
+  "commune": "Nieul-sur-Mer",
+  "code_insee": "17264",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -1.165417538,
+      46.208277383
+    ]
+  },
+  "precision_geo": "localisation_indicative",
+  "rayon_m": 150,
+  "origine_trace": "Position de la station de mesure publiée par Naïades. La mesure vaut pour le cours d'eau à cet endroit.",
+  "categorie": "ressource_eau",
+  "pictogramme": "goutte",
+  "milieux": [
+    "eau_superficielle"
+  ],
+  "substances": [
+    {
+      "libelle": "nitrates, maximum depuis 2015 (25 mars 2025)",
+      "milieu": "eau_superficielle",
+      "valeur": 75.0,
+      "unite": "mg/L",
+      "date_mesure": "2025-03-25",
+      "source": "naiades-04782020"
+    },
+    {
+      "libelle": "nitrates, dernière mesure (3 octobre 2025)",
+      "milieu": "eau_superficielle",
+      "valeur": 25.0,
+      "unite": "mg/L",
+      "date_mesure": "2025-10-03",
+      "source": "naiades-04782020"
+    }
+  ],
+  "periode": {
+    "debut": "2024-01-15",
+    "debut_statut": "datee",
+    "fin": null,
+    "fin_statut": "en_cours",
+    "note": "Analyses depuis 2015 retenues."
+  },
+  "resume": "La station 04782020 mesure la qualité de l'eau de le Go. Sur 10 analyses de nitrates depuis 2015, 1 dépassent 50 mg/l, seuil du bon état des eaux. Le maximum est de 75 mg/l le 25 mars 2025 ; la dernière mesure publiée donne 25 mg/l le 3 octobre 2025.",
+  "accroche": "Nitrates au-dessus de 50 mg/l dans le Go à Nieul-sur-Mer",
+  "resume_court": "Jusqu'à 75 mg/l de nitrates, pour un seuil de bon état de 50 mg/l. Dernière mesure : 25 mg/l en 2025.",
+  "statut_preuve": "mesure_publiee",
+  "procedure_en_cours": false,
+  "statut_traitement": "sous_surveillance",
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": true,
+  "sources": [
+    "naiades-04782020"
+  ]
+}

@@ -789,6 +789,226 @@
       "reference": "Code AIOT 0007203864",
       "acces": "libre",
       "consulte_le": "2026-11-08"
+    },
+    {
+      "id": "ades-bss001qgta",
+      "type": "base_publique",
+      "auteur": "BRGM et OFB, ADES, via Hub'Eau",
+      "titre": "Qualité des eaux souterraines, point 06345X0026/F (BSS001QGTA), Salles-sur-Mer",
+      "date": "2025-10-23",
+      "url": "https://ades.eaufrance.fr/Fiche/PtEau?Code=BSS001QGTA",
+      "acces": "libre",
+      "licence": "Licence Ouverte",
+      "consulte_le": "2026-11-08"
+    },
+    {
+      "id": "ades-bss001qgtb",
+      "type": "base_publique",
+      "auteur": "BRGM et OFB, ADES, via Hub'Eau",
+      "titre": "Qualité des eaux souterraines, point 06345X0027/F2 (BSS001QGTB), Salles-sur-Mer",
+      "date": "2025-12-08",
+      "url": "https://ades.eaufrance.fr/Fiche/PtEau?Code=BSS001QGTB",
+      "acces": "libre",
+      "licence": "Licence Ouverte",
+      "consulte_le": "2026-11-08"
+    },
+    {
+      "id": "ades-bss001qgsc",
+      "type": "base_publique",
+      "auteur": "BRGM et OFB, ADES, via Hub'Eau",
+      "titre": "Qualité des eaux souterraines, point 06345X0001/S.POMP (BSS001QGSC), Clavette",
+      "date": "2025-12-08",
+      "url": "https://ades.eaufrance.fr/Fiche/PtEau?Code=BSS001QGSC",
+      "acces": "libre",
+      "licence": "Licence Ouverte",
+      "consulte_le": "2026-11-08"
+    },
+    {
+      "id": "ades-bss001qffg",
+      "type": "base_publique",
+      "auteur": "BRGM et OFB, ADES, via Hub'Eau",
+      "titre": "Qualité des eaux souterraines, point 06338X0012/P (BSS001QFFG), Périgny",
+      "date": "2025-11-03",
+      "url": "https://ades.eaufrance.fr/Fiche/PtEau?Code=BSS001QFFG",
+      "acces": "libre",
+      "licence": "Licence Ouverte",
+      "consulte_le": "2026-11-08"
+    },
+    {
+      "id": "ades-bss001qevs",
+      "type": "base_publique",
+      "auteur": "BRGM et OFB, ADES, via Hub'Eau",
+      "titre": "Qualité des eaux souterraines, point 06334X0021/F (BSS001QEVS), Marsilly",
+      "date": "2026-09-15",
+      "url": "https://ades.eaufrance.fr/Fiche/PtEau?Code=BSS001QEVS",
+      "acces": "libre",
+      "licence": "Licence Ouverte",
+      "consulte_le": "2026-11-08"
+    },
+    {
+      "id": "ades-bss001qfvt",
+      "type": "base_publique",
+      "auteur": "BRGM et OFB, ADES, via Hub'Eau",
+      "titre": "Qualité des eaux souterraines, point 06342X0019/P (BSS001QFVT), Vérines",
+      "date": "2024-09-17",
+      "url": "https://ades.eaufrance.fr/Fiche/PtEau?Code=BSS001QFVT",
+      "acces": "libre",
+      "licence": "Licence Ouverte",
+      "consulte_le": "2026-11-08"
+    },
+    {
+      "id": "ades-bss001qfuz",
+      "type": "base_publique",
+      "auteur": "BRGM et OFB, ADES, via Hub'Eau",
+      "titre": "Qualité des eaux souterraines, point 06342X0001/S.POMP (BSS001QFUZ), Vérines",
+      "date": "2025-12-05",
+      "url": "https://ades.eaufrance.fr/Fiche/PtEau?Code=BSS001QFUZ",
+      "acces": "libre",
+      "licence": "Licence Ouverte",
+      "consulte_le": "2026-11-08"
+    },
+    {
+      "id": "naiades-04161110",
+      "type": "base_publique",
+      "auteur": "OFB et agences de l'eau, Naïades, via Hub'Eau",
+      "titre": "Qualité physico-chimique des eaux de surface, station 04161110, CANAL PRINCIPAL à AYTRE",
+      "date": "2025-10-03",
+      "url": "https://naiades.eaufrance.fr/acces-donnees#/physicochimie/resultats?stations=04161110",
+      "acces": "libre",
+      "licence": "Licence Ouverte",
+      "consulte_le": "2026-11-08"
+    },
+    {
+      "id": "naiades-04782003",
+      "type": "base_publique",
+      "auteur": "OFB et agences de l'eau, Naïades, via Hub'Eau",
+      "titre": "Qualité physico-chimique des eaux de surface, station 04782003, CANAL DE MARANS LA ROCHELLE À PERIGNY",
+      "date": "2026-06-18",
+      "url": "https://naiades.eaufrance.fr/acces-donnees#/physicochimie/resultats?stations=04782003",
+      "acces": "libre",
+      "licence": "Licence Ouverte",
+      "consulte_le": "2026-11-08"
+    },
+    {
+      "id": "naiades-04782008",
+      "type": "base_publique",
+      "auteur": "OFB et agences de l'eau, Naïades, via Hub'Eau",
+      "titre": "Qualité physico-chimique des eaux de surface, station 04782008, CANAL DE MARANS A LA ROCHELLE A LA ROCHELLE",
+      "date": "2015-11-10",
+      "url": "https://naiades.eaufrance.fr/acces-donnees#/physicochimie/resultats?stations=04782008",
+      "acces": "libre",
+      "licence": "Licence Ouverte",
+      "consulte_le": "2026-11-08"
+    },
+    {
+      "id": "naiades-04782009",
+      "type": "base_publique",
+      "auteur": "OFB et agences de l'eau, Naïades, via Hub'Eau",
+      "titre": "Qualité physico-chimique des eaux de surface, station 04782009, CANAL DE LA MOULINETTE A LA ROCHELLE",
+      "date": "2015-11-10",
+      "url": "https://naiades.eaufrance.fr/acces-donnees#/physicochimie/resultats?stations=04782009",
+      "acces": "libre",
+      "licence": "Licence Ouverte",
+      "consulte_le": "2026-11-08"
+    },
+    {
+      "id": "naiades-04782013",
+      "type": "base_publique",
+      "auteur": "OFB et agences de l'eau, Naïades, via Hub'Eau",
+      "titre": "Qualité physico-chimique des eaux de surface, station 04782013, CHENAUE A SAINT-XANDRE",
+      "date": "2015-11-10",
+      "url": "https://naiades.eaufrance.fr/acces-donnees#/physicochimie/resultats?stations=04782013",
+      "acces": "libre",
+      "licence": "Licence Ouverte",
+      "consulte_le": "2026-11-08"
+    },
+    {
+      "id": "naiades-04782015",
+      "type": "base_publique",
+      "auteur": "OFB et agences de l'eau, Naïades, via Hub'Eau",
+      "titre": "Qualité physico-chimique des eaux de surface, station 04782015, GRAND CANAL A ANGOULINS",
+      "date": "2015-11-10",
+      "url": "https://naiades.eaufrance.fr/acces-donnees#/physicochimie/resultats?stations=04782015",
+      "acces": "libre",
+      "licence": "Licence Ouverte",
+      "consulte_le": "2026-11-08"
+    },
+    {
+      "id": "naiades-04782017",
+      "type": "base_publique",
+      "auteur": "OFB et agences de l'eau, Naïades, via Hub'Eau",
+      "titre": "Qualité physico-chimique des eaux de surface, station 04782017, CANAL MARANS LA ROCHELLE A SAINTE SOULLE",
+      "date": "2021-12-08",
+      "url": "https://naiades.eaufrance.fr/acces-donnees#/physicochimie/resultats?stations=04782017",
+      "acces": "libre",
+      "licence": "Licence Ouverte",
+      "consulte_le": "2026-11-08"
+    },
+    {
+      "id": "naiades-04782018",
+      "type": "base_publique",
+      "auteur": "OFB et agences de l'eau, Naïades, via Hub'Eau",
+      "titre": "Qualité physico-chimique des eaux de surface, station 04782018, CANAL MARANS LA ROCHELLE A DOMPIERRE SUR MER",
+      "date": "2026-06-18",
+      "url": "https://naiades.eaufrance.fr/acces-donnees#/physicochimie/resultats?stations=04782018",
+      "acces": "libre",
+      "licence": "Licence Ouverte",
+      "consulte_le": "2026-11-08"
+    },
+    {
+      "id": "naiades-04782020",
+      "type": "base_publique",
+      "auteur": "OFB et agences de l'eau, Naïades, via Hub'Eau",
+      "titre": "Qualité physico-chimique des eaux de surface, station 04782020, LE GO A NIEUL-SUR-MER",
+      "date": "2025-10-03",
+      "url": "https://naiades.eaufrance.fr/acces-donnees#/physicochimie/resultats?stations=04782020",
+      "acces": "libre",
+      "licence": "Licence Ouverte",
+      "consulte_le": "2026-11-08"
+    },
+    {
+      "id": "naiades-04782022",
+      "type": "base_publique",
+      "auteur": "OFB et agences de l'eau, Naïades, via Hub'Eau",
+      "titre": "Qualité physico-chimique des eaux de surface, station 04782022, MARAIS DE PAMPIN A LA ROCHELLE",
+      "date": "2025-10-03",
+      "url": "https://naiades.eaufrance.fr/acces-donnees#/physicochimie/resultats?stations=04782022",
+      "acces": "libre",
+      "licence": "Licence Ouverte",
+      "consulte_le": "2026-11-08"
+    },
+    {
+      "id": "naiades-04782023",
+      "type": "base_publique",
+      "auteur": "OFB et agences de l'eau, Naïades, via Hub'Eau",
+      "titre": "Qualité physico-chimique des eaux de surface, station 04782023, LA MOULINETTE A PERIGNY",
+      "date": "2025-10-03",
+      "url": "https://naiades.eaufrance.fr/acces-donnees#/physicochimie/resultats?stations=04782023",
+      "acces": "libre",
+      "licence": "Licence Ouverte",
+      "consulte_le": "2026-11-08"
+    },
+    {
+      "id": "naiades-04782024",
+      "type": "base_publique",
+      "auteur": "OFB et agences de l'eau, Naïades, via Hub'Eau",
+      "titre": "Qualité physico-chimique des eaux de surface, station 04782024, L'OTUS A LA JARNE",
+      "date": "2025-10-03",
+      "url": "https://naiades.eaufrance.fr/acces-donnees#/physicochimie/resultats?stations=04782024",
+      "acces": "libre",
+      "licence": "Licence Ouverte",
+      "consulte_le": "2026-11-08"
+    },
+    {
+      "id": "naiades-05000220",
+      "type": "base_publique",
+      "auteur": "OFB et agences de l'eau, Naïades, via Hub'Eau",
+      "titre": "Qualité physico-chimique des eaux de surface, station 05000220, Le Canal d'amenée de l'UNIMA à Yves",
+      "date": "2025-12-09",
+      "url": "https://naiades.eaufrance.fr/acces-donnees#/physicochimie/resultats?stations=05000220",
+      "acces": "libre",
+      "licence": "Licence Ouverte",
+      "consulte_le": "2026-11-08"
     }
   ]
 }

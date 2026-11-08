@@ -577,6 +577,8 @@ export default function Carte({ bandeau }) {
                   <li key={k}><img src={urlIcone({ glyphe: "robinet", fond: COULEURS[k] ?? COULEURS.gris, carre: true })} alt="" width="24" height="24" />{e.libelle}</li>
                 ))}
                 <li><img src={urlIcone({ glyphe: "captage", fond: COULEURS.eau })} alt="" width="24" height="24" />Captage d&apos;eau potable</li>
+                <li><img src={urlIcone({ glyphe: "goutte", fond: COULEURS.eau })} alt="" width="24" height="24" />Nappe ou canal : nitrates au-dessus de 50 mg/l</li>
+                <li><img src={urlIcone({ glyphe: "usine", fond: COULEURS.eau })} alt="" width="24" height="24" />Rejets d&apos;eaux industrielles au-dessus des limites</li>
               </ul>
               <p className="note">Les pictogrammes trop proches sont écartés ; un trait les relie à leur position réelle, marquée d&apos;un point.</p>
               <h3>Sol et air</h3>

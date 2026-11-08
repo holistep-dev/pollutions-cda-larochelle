@@ -1,0 +1,57 @@
+{
+  "id": "nitrates-05000220",
+  "nom": "Canal d'amenée de l'UNIMA à Thairé",
+  "commune": "Thairé",
+  "code_insee": "17443",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -1.016050386,
+      46.057920773
+    ]
+  },
+  "precision_geo": "localisation_indicative",
+  "rayon_m": 150,
+  "origine_trace": "Position de la station de mesure publiée par Naïades. La mesure vaut pour le cours d'eau à cet endroit.",
+  "categorie": "ressource_eau",
+  "pictogramme": "goutte",
+  "milieux": [
+    "eau_superficielle"
+  ],
+  "substances": [
+    {
+      "libelle": "nitrates, maximum depuis 2015 (22 janvier 2020)",
+      "milieu": "eau_superficielle",
+      "valeur": 68.5,
+      "unite": "mg/L",
+      "date_mesure": "2020-01-22",
+      "source": "naiades-05000220"
+    },
+    {
+      "libelle": "nitrates, dernière mesure (9 décembre 2025)",
+      "milieu": "eau_superficielle",
+      "valeur": 43.5,
+      "unite": "mg/L",
+      "date_mesure": "2025-12-09",
+      "source": "naiades-05000220"
+    }
+  ],
+  "periode": {
+    "debut": "2015-01-19",
+    "debut_statut": "datee",
+    "fin": null,
+    "fin_statut": "en_cours",
+    "note": "Analyses depuis 2015 retenues."
+  },
+  "resume": "La station 05000220 mesure la qualité de l'eau de le canal d'amenée de l'UNIMA. Sur 134 analyses de nitrates depuis 2015, 19 dépassent 50 mg/l, seuil du bon état des eaux. Le maximum est de 68,5 mg/l le 22 janvier 2020 ; la dernière mesure publiée donne 43,5 mg/l le 9 décembre 2025.",
+  "accroche": "Nitrates au-dessus de 50 mg/l dans le canal d'amenée de l'UNIMA à Thairé",
+  "resume_court": "Jusqu'à 68,5 mg/l de nitrates, pour un seuil de bon état de 50 mg/l. Dernière mesure : 43,5 mg/l en 2025.",
+  "statut_preuve": "mesure_publiee",
+  "procedure_en_cours": false,
+  "statut_traitement": "sous_surveillance",
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": true,
+  "sources": [
+    "naiades-05000220"
+  ]
+}

@@ -76,7 +76,7 @@ function Fermer({ fermer }) {
   );
 }
 
-const RANG = ["au_dessus_seuil", "au_dessus_habituel", "dans_la_norme", "non_comparable", "sans_repere"];
+const RANG = ["au_dessus_seuil", "au_dessus_habituel", "dans_la_norme", "non_comparable", "non_pertinent", "sans_repere"];
 
 function Verdict({ v }) {
   const x = VERDICTS[v] ?? VERDICTS.sans_repere;

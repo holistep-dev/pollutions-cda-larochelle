@@ -1,0 +1,57 @@
+{
+  "id": "nitrates-04782013",
+  "nom": "Chenaue à Saint-Xandre",
+  "commune": "Saint-Xandre",
+  "code_insee": "17414",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -1.068348831,
+      46.217871411
+    ]
+  },
+  "precision_geo": "localisation_indicative",
+  "rayon_m": 150,
+  "origine_trace": "Position de la station de mesure publiée par Naïades. La mesure vaut pour le cours d'eau à cet endroit.",
+  "categorie": "ressource_eau",
+  "pictogramme": "goutte",
+  "milieux": [
+    "eau_superficielle"
+  ],
+  "substances": [
+    {
+      "libelle": "nitrates, maximum depuis 2015 (3 mars 2015)",
+      "milieu": "eau_superficielle",
+      "valeur": 54.0,
+      "unite": "mg/L",
+      "date_mesure": "2015-03-03",
+      "source": "naiades-04782013"
+    },
+    {
+      "libelle": "nitrates, dernière mesure (10 novembre 2015)",
+      "milieu": "eau_superficielle",
+      "valeur": 36.0,
+      "unite": "mg/L",
+      "date_mesure": "2015-11-10",
+      "source": "naiades-04782013"
+    }
+  ],
+  "periode": {
+    "debut": "2015-01-19",
+    "debut_statut": "datee",
+    "fin": "2015-11-10",
+    "fin_statut": "datee",
+    "note": "Analyses depuis 2015 retenues. Pas de mesure publiée depuis 2015."
+  },
+  "resume": "La station 04782013 mesure la qualité de l'eau de la Chenaue. Sur 6 analyses de nitrates depuis 2015, 1 dépassent 50 mg/l, seuil du bon état des eaux. Le maximum est de 54 mg/l le 3 mars 2015 ; la dernière mesure publiée donne 36 mg/l le 10 novembre 2015.",
+  "accroche": "Nitrates au-dessus de 50 mg/l dans la Chenaue à Saint-Xandre",
+  "resume_court": "Jusqu'à 54 mg/l de nitrates, pour un seuil de bon état de 50 mg/l. Dernière mesure : 36 mg/l en 2015.",
+  "statut_preuve": "mesure_publiee",
+  "procedure_en_cours": false,
+  "statut_traitement": "sous_surveillance",
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": true,
+  "sources": [
+    "naiades-04782013"
+  ]
+}

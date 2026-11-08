@@ -1,0 +1,89 @@
+{
+  "id": "nitrates-04782018",
+  "nom": "Canal de Marans à La Rochelle, à Dompierre-sur-Mer",
+  "commune": "Dompierre-sur-Mer",
+  "code_insee": "17142",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -1.056277457,
+      46.183128619
+    ]
+  },
+  "precision_geo": "localisation_indicative",
+  "rayon_m": 150,
+  "origine_trace": "Position de la station de mesure publiée par Naïades. La mesure vaut pour le cours d'eau à cet endroit.",
+  "categorie": "ressource_eau",
+  "pictogramme": "goutte",
+  "milieux": [
+    "eau_superficielle"
+  ],
+  "substances": [
+    {
+      "libelle": "nitrates, maximum depuis 2015 (16 juin 2021)",
+      "milieu": "eau_superficielle",
+      "valeur": 64.4,
+      "unite": "mg/L",
+      "date_mesure": "2021-06-16",
+      "source": "naiades-04782018"
+    },
+    {
+      "libelle": "nitrates, dernière mesure (18 juin 2026)",
+      "milieu": "eau_superficielle",
+      "valeur": 35.0,
+      "unite": "mg/L",
+      "date_mesure": "2026-06-18",
+      "source": "naiades-04782018"
+    },
+    {
+      "libelle": "Chlorothalonil-R471811, maximum (20 août 2024)",
+      "milieu": "eau_superficielle",
+      "valeur": 1.8,
+      "unite": "µg/L",
+      "date_mesure": "2024-08-20",
+      "source": "naiades-04782018"
+    },
+    {
+      "libelle": "Tétrachloroéthylène, maximum (19 juin 2023)",
+      "milieu": "eau_superficielle",
+      "valeur": 0.58,
+      "unite": "µg/L",
+      "date_mesure": "2023-06-19",
+      "source": "naiades-04782018"
+    },
+    {
+      "libelle": "Glyphosate, maximum (13 décembre 2023)",
+      "milieu": "eau_superficielle",
+      "valeur": 0.24,
+      "unite": "µg/L",
+      "date_mesure": "2023-12-13",
+      "source": "naiades-04782018"
+    },
+    {
+      "libelle": "AMPA, maximum (11 décembre 2024)",
+      "milieu": "eau_superficielle",
+      "valeur": 0.17,
+      "unite": "µg/L",
+      "date_mesure": "2024-12-11",
+      "source": "naiades-04782018"
+    }
+  ],
+  "periode": {
+    "debut": "2019-02-21",
+    "debut_statut": "datee",
+    "fin": null,
+    "fin_statut": "en_cours",
+    "note": "Analyses depuis 2015 retenues."
+  },
+  "resume": "La station 04782018 mesure la qualité de l'eau de le canal de Marans à La Rochelle. Sur 39 analyses de nitrates depuis 2015, 14 dépassent 50 mg/l, seuil du bon état des eaux. Le maximum est de 64,4 mg/l le 16 juin 2021 ; la dernière mesure publiée donne 35 mg/l le 18 juin 2026. D'autres substances y sont quantifiées, listées dans les mesures.",
+  "accroche": "Nitrates au-dessus de 50 mg/l dans le canal de Marans à La Rochelle à Dompierre-sur-Mer",
+  "resume_court": "Jusqu'à 64,4 mg/l de nitrates, pour un seuil de bon état de 50 mg/l. Dernière mesure : 35 mg/l en 2026.",
+  "statut_preuve": "mesure_publiee",
+  "procedure_en_cours": false,
+  "statut_traitement": "sous_surveillance",
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": true,
+  "sources": [
+    "naiades-04782018"
+  ]
+}

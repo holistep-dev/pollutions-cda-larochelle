@@ -1,0 +1,80 @@
+{
+  "id": "nitrates-nappe-salles-sur-mer",
+  "nom": "Nappe au captage de la Ragotterie, Salles-sur-Mer",
+  "commune": "Salles-sur-Mer",
+  "code_insee": "17420",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -1.0551415675440154,
+      46.104539451189865
+    ]
+  },
+  "precision_geo": "localisation_indicative",
+  "rayon_m": 150,
+  "origine_trace": "Position du point de mesure publiée par ADES. La mesure vaut pour la nappe à cet endroit, pas pour une surface délimitée.",
+  "categorie": "ressource_eau",
+  "pictogramme": "goutte",
+  "milieux": [
+    "eau_souterraine"
+  ],
+  "substances": [
+    {
+      "libelle": "nitrates, maximum depuis 2015 (8 décembre 2025)",
+      "milieu": "eau_souterraine",
+      "valeur": 72.0,
+      "unite": "mg/L",
+      "date_mesure": "2025-12-08",
+      "source": "ades-bss001qgta"
+    },
+    {
+      "libelle": "nitrates, dernière mesure (8 décembre 2025)",
+      "milieu": "eau_souterraine",
+      "valeur": 72.0,
+      "unite": "mg/L",
+      "date_mesure": "2025-12-08",
+      "source": "ades-bss001qgta"
+    },
+    {
+      "libelle": "Chlorothalonil-R471811, maximum (29 janvier 2025)",
+      "milieu": "eau_souterraine",
+      "valeur": 3.5,
+      "unite": "µg/L",
+      "date_mesure": "2025-01-29",
+      "source": "ades-bss001qgta"
+    },
+    {
+      "libelle": "Chlortoluron, maximum (8 décembre 2025)",
+      "milieu": "eau_souterraine",
+      "valeur": 0.11,
+      "unite": "µg/L",
+      "date_mesure": "2025-12-08",
+      "source": "ades-bss001qgta"
+    }
+  ],
+  "periode": {
+    "debut": "2015-03-30",
+    "debut_statut": "datee",
+    "fin": null,
+    "fin_statut": "en_cours",
+    "note": "Analyses depuis 2015 retenues. La pollution par les nitrates est diffuse, d'origine principalement agricole selon les états des lieux de l'agence de l'eau."
+  },
+  "resume": "Le captage de la Ragotterie prélève l'eau d'une nappe pour l'eau potable. Sur 45 analyses de nitrates depuis 2015, 18 dépassent 50 mg/l, la norme de qualité des eaux souterraines. Le maximum est de 72 mg/l le 8 décembre 2025 ; la dernière mesure publiée donne 72 mg/l le 8 décembre 2025. Il s'agit de l'eau brute, avant traitement et mélange : la qualité de l'eau du robinet se lit sur le pictogramme robinet de chaque commune. D'autres substances y sont quantifiées, listées dans les mesures.",
+  "accroche": "Nitrates au-dessus de 50 mg/l dans la nappe du captage de la Ragotterie à Salles-sur-Mer",
+  "resume_court": "Jusqu'à 72 mg/l de nitrates, pour une norme de 50 mg/l. Dernière mesure : 72 mg/l en 2025.",
+  "statut_preuve": "mesure_publiee",
+  "procedure_en_cours": false,
+  "statut_traitement": "sous_surveillance",
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": true,
+  "sources": [
+    "ades-bss001qgta",
+    "ades-bss001qgtb"
+  ],
+  "ce_qui_manque": [
+    {
+      "piece": "L'origine précise des nitrates sur l'aire d'alimentation",
+      "ou_chercher": "Études d'aire d'alimentation de captage de la CDA et du syndicat Eau 17, état des lieux de l'agence de l'eau Loire-Bretagne"
+    }
+  ]
+}

@@ -5,7 +5,7 @@
       "code_insee": "17010",
       "nom": "Angoulins",
       "slug": "angoulins",
-      "nb_sites": 1,
+      "nb_sites": 2,
       "nb_sans_localisation": 0,
       "sans_localisation": [],
       "sites": [
@@ -16,6 +16,14 @@
           "statut_preuve": "mesure_publiee",
           "statut_traitement": "sous_surveillance",
           "localise": true
+        },
+        {
+          "id": "nitrates-04782015",
+          "nom": "Grand canal à Angoulins",
+          "categorie": "ressource_eau",
+          "statut_preuve": "mesure_publiee",
+          "statut_traitement": "sous_surveillance",
+          "localise": true
         }
       ]
     },
@@ -23,7 +31,7 @@
       "code_insee": "17028",
       "nom": "Aytré",
       "slug": "aytre",
-      "nb_sites": 10,
+      "nb_sites": 11,
       "nb_sans_localisation": 0,
       "sans_localisation": [],
       "sites": [
@@ -89,6 +97,14 @@
           "categorie": "friche_sol_pollue",
           "statut_preuve": "diagnostic_administratif",
           "statut_traitement": "rehabilite",
+          "localise": true
+        },
+        {
+          "id": "nitrates-04161110",
+          "nom": "Canal principal d'Aytré",
+          "categorie": "ressource_eau",
+          "statut_preuve": "mesure_publiee",
+          "statut_traitement": "sous_surveillance",
           "localise": true
         },
         {
@@ -172,10 +188,19 @@
       "code_insee": "17109",
       "nom": "Clavette",
       "slug": "clavette",
-      "nb_sites": 0,
+      "nb_sites": 1,
       "nb_sans_localisation": 0,
       "sans_localisation": [],
-      "sites": []
+      "sites": [
+        {
+          "id": "nitrates-nappe-clavette",
+          "nom": "Nappe au captage de Cassemortier, Clavette",
+          "categorie": "ressource_eau",
+          "statut_preuve": "mesure_publiee",
+          "statut_traitement": "sous_surveillance",
+          "localise": true
+        }
+      ]
     },
     {
       "code_insee": "17136",
@@ -190,10 +215,19 @@
       "code_insee": "17142",
       "nom": "Dompierre-sur-Mer",
       "slug": "dompierre-sur-mer",
-      "nb_sites": 0,
+      "nb_sites": 1,
       "nb_sans_localisation": 0,
       "sans_localisation": [],
-      "sites": []
+      "sites": [
+        {
+          "id": "nitrates-04782018",
+          "nom": "Canal de Marans à La Rochelle, à Dompierre-sur-Mer",
+          "categorie": "ressource_eau",
+          "statut_preuve": "mesure_publiee",
+          "statut_traitement": "sous_surveillance",
+          "localise": true
+        }
+      ]
     },
     {
       "code_insee": "17153",
@@ -248,10 +282,19 @@
       "code_insee": "17193",
       "nom": "La Jarne",
       "slug": "la-jarne",
-      "nb_sites": 0,
+      "nb_sites": 1,
       "nb_sans_localisation": 0,
       "sans_localisation": [],
-      "sites": []
+      "sites": [
+        {
+          "id": "nitrates-04782024",
+          "nom": "L'Otus à La Jarne",
+          "categorie": "ressource_eau",
+          "statut_preuve": "mesure_publiee",
+          "statut_traitement": "sous_surveillance",
+          "localise": true
+        }
+      ]
     },
     {
       "code_insee": "17194",
@@ -266,7 +309,7 @@
       "code_insee": "17300",
       "nom": "La Rochelle",
       "slug": "la-rochelle",
-      "nb_sites": 28,
+      "nb_sites": 31,
       "nb_sans_localisation": 2,
       "sans_localisation": [
         {
@@ -383,6 +426,30 @@
           "categorie": "friche_sol_pollue",
           "statut_preuve": "diagnostic_administratif",
           "statut_traitement": "rehabilite",
+          "localise": true
+        },
+        {
+          "id": "nitrates-04782008",
+          "nom": "Canal de Marans à La Rochelle, à La Rochelle",
+          "categorie": "ressource_eau",
+          "statut_preuve": "mesure_publiee",
+          "statut_traitement": "sous_surveillance",
+          "localise": true
+        },
+        {
+          "id": "nitrates-04782009",
+          "nom": "Canal de la Moulinette à La Rochelle",
+          "categorie": "ressource_eau",
+          "statut_preuve": "mesure_publiee",
+          "statut_traitement": "sous_surveillance",
+          "localise": true
+        },
+        {
+          "id": "nitrates-04782022",
+          "nom": "Marais de Pampin à La Rochelle",
+          "categorie": "ressource_eau",
+          "statut_preuve": "mesure_publiee",
+          "statut_traitement": "sous_surveillance",
           "localise": true
         },
         {
@@ -520,10 +587,19 @@
       "code_insee": "17222",
       "nom": "Marsilly",
       "slug": "marsilly",
-      "nb_sites": 0,
+      "nb_sites": 1,
       "nb_sans_localisation": 0,
       "sans_localisation": [],
-      "sites": []
+      "sites": [
+        {
+          "id": "nitrates-nappe-marsilly",
+          "nom": "Nappe à Marsilly, point de surveillance 06334X0021/F",
+          "categorie": "ressource_eau",
+          "statut_preuve": "mesure_publiee",
+          "statut_traitement": "sous_surveillance",
+          "localise": true
+        }
+      ]
     },
     {
       "code_insee": "17245",
@@ -547,10 +623,19 @@
       "code_insee": "17264",
       "nom": "Nieul-sur-Mer",
       "slug": "nieul-sur-mer",
-      "nb_sites": 0,
+      "nb_sites": 1,
       "nb_sans_localisation": 0,
       "sans_localisation": [],
-      "sites": []
+      "sites": [
+        {
+          "id": "nitrates-04782020",
+          "nom": "Le Go à Nieul-sur-Mer",
+          "categorie": "ressource_eau",
+          "statut_preuve": "mesure_publiee",
+          "statut_traitement": "sous_surveillance",
+          "localise": true
+        }
+      ]
     },
     {
       "code_insee": "17291",
@@ -565,7 +650,7 @@
       "code_insee": "17274",
       "nom": "Périgny",
       "slug": "perigny",
-      "nb_sites": 4,
+      "nb_sites": 7,
       "nb_sans_localisation": 0,
       "sans_localisation": [],
       "sites": [
@@ -575,6 +660,30 @@
           "categorie": "friche_sol_pollue",
           "statut_preuve": "mesure_publiee",
           "statut_traitement": "rehabilite",
+          "localise": true
+        },
+        {
+          "id": "nitrates-04782003",
+          "nom": "Canal de Marans à La Rochelle, à Périgny",
+          "categorie": "ressource_eau",
+          "statut_preuve": "mesure_publiee",
+          "statut_traitement": "sous_surveillance",
+          "localise": true
+        },
+        {
+          "id": "nitrates-04782023",
+          "nom": "La Moulinette à Périgny",
+          "categorie": "ressource_eau",
+          "statut_preuve": "mesure_publiee",
+          "statut_traitement": "sous_surveillance",
+          "localise": true
+        },
+        {
+          "id": "nitrates-nappe-perigny",
+          "nom": "Nappe au captage de Varaize, Périgny",
+          "categorie": "ressource_eau",
+          "statut_preuve": "mesure_publiee",
+          "statut_traitement": "sous_surveillance",
           "localise": true
         },
         {
@@ -661,46 +770,91 @@
       "code_insee": "17414",
       "nom": "Saint-Xandre",
       "slug": "saint-xandre",
-      "nb_sites": 0,
+      "nb_sites": 1,
       "nb_sans_localisation": 0,
       "sans_localisation": [],
-      "sites": []
+      "sites": [
+        {
+          "id": "nitrates-04782013",
+          "nom": "Chenaue à Saint-Xandre",
+          "categorie": "ressource_eau",
+          "statut_preuve": "mesure_publiee",
+          "statut_traitement": "sous_surveillance",
+          "localise": true
+        }
+      ]
     },
     {
       "code_insee": "17407",
       "nom": "Sainte-Soulle",
       "slug": "sainte-soulle",
-      "nb_sites": 0,
+      "nb_sites": 1,
       "nb_sans_localisation": 0,
       "sans_localisation": [],
-      "sites": []
+      "sites": [
+        {
+          "id": "nitrates-04782017",
+          "nom": "Canal de Marans à La Rochelle, à Sainte-Soulle",
+          "categorie": "ressource_eau",
+          "statut_preuve": "mesure_publiee",
+          "statut_traitement": "sous_surveillance",
+          "localise": true
+        }
+      ]
     },
     {
       "code_insee": "17420",
       "nom": "Salles-sur-Mer",
       "slug": "salles-sur-mer",
-      "nb_sites": 0,
+      "nb_sites": 1,
       "nb_sans_localisation": 0,
       "sans_localisation": [],
-      "sites": []
+      "sites": [
+        {
+          "id": "nitrates-nappe-salles-sur-mer",
+          "nom": "Nappe au captage de la Ragotterie, Salles-sur-Mer",
+          "categorie": "ressource_eau",
+          "statut_preuve": "mesure_publiee",
+          "statut_traitement": "sous_surveillance",
+          "localise": true
+        }
+      ]
     },
     {
       "code_insee": "17443",
       "nom": "Thairé",
       "slug": "thaire",
-      "nb_sites": 0,
+      "nb_sites": 1,
       "nb_sans_localisation": 0,
       "sans_localisation": [],
-      "sites": []
+      "sites": [
+        {
+          "id": "nitrates-05000220",
+          "nom": "Canal d'amenée de l'UNIMA à Thairé",
+          "categorie": "ressource_eau",
+          "statut_preuve": "mesure_publiee",
+          "statut_traitement": "sous_surveillance",
+          "localise": true
+        }
+      ]
     },
     {
       "code_insee": "17466",
       "nom": "Vérines",
       "slug": "verines",
-      "nb_sites": 0,
+      "nb_sites": 1,
       "nb_sans_localisation": 0,
       "sans_localisation": [],
-      "sites": []
+      "sites": [
+        {
+          "id": "nitrates-nappe-verines",
+          "nom": "Nappe au captage de la Fraise, Vérines",
+          "categorie": "ressource_eau",
+          "statut_preuve": "mesure_publiee",
+          "statut_traitement": "sous_surveillance",
+          "localise": true
+        }
+      ]
     },
     {
       "code_insee": "17483",

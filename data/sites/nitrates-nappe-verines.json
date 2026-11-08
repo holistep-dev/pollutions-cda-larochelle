@@ -1,0 +1,112 @@
+{
+  "id": "nitrates-nappe-verines",
+  "nom": "Nappe au captage de la Fraise, Vérines",
+  "commune": "Vérines",
+  "code_insee": "17466",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -0.9669069947119215,
+      46.19390003923568
+    ]
+  },
+  "precision_geo": "localisation_indicative",
+  "rayon_m": 150,
+  "origine_trace": "Position du point de mesure publiée par ADES. La mesure vaut pour la nappe à cet endroit, pas pour une surface délimitée.",
+  "categorie": "ressource_eau",
+  "pictogramme": "goutte",
+  "milieux": [
+    "eau_souterraine"
+  ],
+  "substances": [
+    {
+      "libelle": "nitrates, maximum depuis 2015 (20 novembre 2023)",
+      "milieu": "eau_souterraine",
+      "valeur": 81.0,
+      "unite": "mg/L",
+      "date_mesure": "2023-11-20",
+      "source": "ades-bss001qfvt"
+    },
+    {
+      "libelle": "nitrates, dernière mesure (5 décembre 2025)",
+      "milieu": "eau_souterraine",
+      "valeur": 45.0,
+      "unite": "mg/L",
+      "date_mesure": "2025-12-05",
+      "source": "ades-bss001qfvt"
+    },
+    {
+      "libelle": "Hydrocarbures dissous, maximum (9 décembre 2022)",
+      "milieu": "eau_souterraine",
+      "valeur": 370.0,
+      "unite": "µg/L",
+      "date_mesure": "2022-12-09",
+      "source": "ades-bss001qfvt"
+    },
+    {
+      "libelle": "Chlorothalonil-R471811, maximum (10 novembre 2023)",
+      "milieu": "eau_souterraine",
+      "valeur": 2.5,
+      "unite": "µg/L",
+      "date_mesure": "2023-11-10",
+      "source": "ades-bss001qfvt"
+    },
+    {
+      "libelle": "Chloridazone desphényl, maximum (5 septembre 2025)",
+      "milieu": "eau_souterraine",
+      "valeur": 0.47,
+      "unite": "µg/L",
+      "date_mesure": "2025-09-05",
+      "source": "ades-bss001qfvt"
+    },
+    {
+      "libelle": "10,11-dihydro-10,11-dihydroxy-carbamazépine, maximum (18 septembre 2023)",
+      "milieu": "eau_souterraine",
+      "valeur": 0.368,
+      "unite": "µg/L",
+      "date_mesure": "2023-09-18",
+      "source": "ades-bss001qfvt"
+    },
+    {
+      "libelle": "Metolachlor ESA, maximum (4 juin 2020)",
+      "milieu": "eau_souterraine",
+      "valeur": 0.356,
+      "unite": "µg/L",
+      "date_mesure": "2020-06-04",
+      "source": "ades-bss001qfvt"
+    },
+    {
+      "libelle": "Tramadol, maximum (18 septembre 2023)",
+      "milieu": "eau_souterraine",
+      "valeur": 0.346,
+      "unite": "µg/L",
+      "date_mesure": "2023-09-18",
+      "source": "ades-bss001qfvt"
+    }
+  ],
+  "periode": {
+    "debut": "2015-02-20",
+    "debut_statut": "datee",
+    "fin": null,
+    "fin_statut": "en_cours",
+    "note": "Analyses depuis 2015 retenues. La pollution par les nitrates est diffuse, d'origine principalement agricole selon les états des lieux de l'agence de l'eau."
+  },
+  "resume": "Le captage de la Fraise prélève l'eau d'une nappe pour l'eau potable. Sur 92 analyses de nitrates depuis 2015, 6 dépassent 50 mg/l, la norme de qualité des eaux souterraines. Le maximum est de 81 mg/l le 20 novembre 2023 ; la dernière mesure publiée donne 45 mg/l le 5 décembre 2025. Il s'agit de l'eau brute, avant traitement et mélange : la qualité de l'eau du robinet se lit sur le pictogramme robinet de chaque commune. D'autres substances y sont quantifiées, listées dans les mesures.",
+  "accroche": "Nitrates au-dessus de 50 mg/l dans la nappe du captage de la Fraise à Vérines",
+  "resume_court": "Jusqu'à 81 mg/l de nitrates, pour une norme de 50 mg/l. Dernière mesure : 45 mg/l en 2025.",
+  "statut_preuve": "mesure_publiee",
+  "procedure_en_cours": false,
+  "statut_traitement": "sous_surveillance",
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": true,
+  "sources": [
+    "ades-bss001qfvt",
+    "ades-bss001qfuz"
+  ],
+  "ce_qui_manque": [
+    {
+      "piece": "L'origine précise des nitrates sur l'aire d'alimentation",
+      "ou_chercher": "Études d'aire d'alimentation de captage de la CDA et du syndicat Eau 17, état des lieux de l'agence de l'eau Loire-Bretagne"
+    }
+  ]
+}

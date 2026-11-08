@@ -77,6 +77,31 @@
       "auteur": "CRIIRAD",
       "date": "2026-04",
       "url": "https://www.criirad.org/tu-n108-04-2026-extractivisme-quels-risques-radiologiques/"
+    },
+    "arrete-2008-12-17": {
+      "titre": "Arrêté du 17 décembre 2008 établissant les critères d'évaluation et les modalités de détermination de l'état des eaux souterraines",
+      "auteur": "Ministère chargé de l'environnement",
+      "date": "2008-12-17"
+    },
+    "arrete-2010-01-25": {
+      "titre": "Arrêté du 25 janvier 2010 relatif aux méthodes et critères d'évaluation de l'état écologique, de l'état chimique et du potentiel écologique des eaux de surface",
+      "auteur": "Ministère chargé de l'environnement",
+      "date": "2010-01-25"
+    },
+    "arrete-2007-01-11": {
+      "titre": "Arrêté du 11 janvier 2007 relatif aux limites et références de qualité des eaux brutes et des eaux destinées à la consommation humaine, modifié en 2023 (valeur indicative de 0,9 µg/l pour les métabolites non pertinents)",
+      "auteur": "Ministère chargé de la santé",
+      "date": "2023"
+    },
+    "anses-metolachlore-2022": {
+      "titre": "Avis de l'ANSES du 30 septembre 2022 sur la pertinence des métabolites ESA et NOA du S-métolachlore dans les eaux destinées à la consommation humaine",
+      "auteur": "ANSES",
+      "date": "2022-09-30"
+    },
+    "anses-r471811-2024": {
+      "titre": "Avis de l'ANSES du 29 avril 2024 sur la pertinence du métabolite R471811 du chlorothalonil dans les eaux destinées à la consommation humaine",
+      "auteur": "ANSES",
+      "date": "2024-04-29"
     }
   },
   "circ_groupes": {
@@ -86,6 +111,62 @@
     "3": "inclassable quant à sa cancérogénicité"
   },
   "substances": [
+    {
+      "cle": "nitrates",
+      "motifs": [
+        "^nitrates"
+      ],
+      "effets": "Au-delà de 50 mg/l, l'eau n'est pas recommandée aux nourrissons et aux femmes enceintes. Dans les cours d'eau et la mer, les nitrates favorisent la prolifération d'algues.",
+      "effets_source": "arrete-2007-01-11",
+      "valeurs": [
+        {
+          "milieu": "eau_souterraine",
+          "nature": "limite_de_qualite",
+          "libelle": "Norme de qualité des eaux souterraines",
+          "valeur": 50,
+          "unite": "mg/L",
+          "source": "arrete-2008-12-17",
+          "norme_milieu": true
+        },
+        {
+          "milieu": "eau_superficielle",
+          "nature": "limite_de_qualite",
+          "libelle": "Seuil du bon état des cours d'eau",
+          "valeur": 50,
+          "unite": "mg/L",
+          "source": "arrete-2010-01-25",
+          "norme_milieu": true
+        },
+        {
+          "milieu": "eau_distribuee",
+          "nature": "limite_de_qualite",
+          "libelle": "Limite de qualité de l'eau du robinet",
+          "valeur": 50,
+          "unite": "mg/L",
+          "source": "arrete-2007-01-11"
+        }
+      ]
+    },
+    {
+      "cle": "chlorothalonil R471811",
+      "motifs": [
+        "r471811"
+      ],
+      "non_pertinent": true,
+      "note_non_pertinent": "Métabolite classé non pertinent pour l'eau potable : la limite de 0,1 µg/l ne s'applique pas, une valeur indicative de 0,9 µg/l est retenue pour l'eau distribuée.",
+      "effets_source": "anses-r471811-2024",
+      "valeurs": []
+    },
+    {
+      "cle": "métolachlore ESA ou NOA",
+      "motifs": [
+        "m[ée]tolachlor(e)? (esa|noa)"
+      ],
+      "non_pertinent": true,
+      "note_non_pertinent": "Métabolite classé non pertinent pour l'eau potable : la limite de 0,1 µg/l ne s'applique pas, une valeur indicative de 0,9 µg/l est retenue pour l'eau distribuée.",
+      "effets_source": "anses-metolachlore-2022",
+      "valeurs": []
+    },
     {
       "cle": "thorium 228",
       "motifs": [

@@ -1,0 +1,111 @@
+{
+  "id": "nitrates-nappe-marsilly",
+  "nom": "Nappe à Marsilly, point de surveillance 06334X0021/F",
+  "commune": "Marsilly",
+  "code_insee": "17222",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -1.15156736545725,
+      46.2244014142151
+    ]
+  },
+  "precision_geo": "localisation_indicative",
+  "rayon_m": 150,
+  "origine_trace": "Position du point de mesure publiée par ADES. La mesure vaut pour la nappe à cet endroit, pas pour une surface délimitée.",
+  "categorie": "ressource_eau",
+  "pictogramme": "goutte",
+  "milieux": [
+    "eau_souterraine"
+  ],
+  "substances": [
+    {
+      "libelle": "nitrates, maximum depuis 2015 (11 mars 2024)",
+      "milieu": "eau_souterraine",
+      "valeur": 68.0,
+      "unite": "mg/L",
+      "date_mesure": "2024-03-11",
+      "source": "ades-bss001qevs"
+    },
+    {
+      "libelle": "nitrates, dernière mesure (15 septembre 2026)",
+      "milieu": "eau_souterraine",
+      "valeur": 56.0,
+      "unite": "mg/L",
+      "date_mesure": "2026-09-15",
+      "source": "ades-bss001qevs"
+    },
+    {
+      "libelle": "Acide trifluoroacétique, maximum (15 septembre 2026)",
+      "milieu": "eau_souterraine",
+      "valeur": 3.21,
+      "unite": "µg/L",
+      "date_mesure": "2026-09-15",
+      "source": "ades-bss001qevs"
+    },
+    {
+      "libelle": "Chlorothalonil-R471811, maximum (11 mars 2024)",
+      "milieu": "eau_souterraine",
+      "valeur": 2.302,
+      "unite": "µg/L",
+      "date_mesure": "2024-03-11",
+      "source": "ades-bss001qevs"
+    },
+    {
+      "libelle": "N-Butylbenzenesulfonamide, maximum (13 mars 2025)",
+      "milieu": "eau_souterraine",
+      "valeur": 0.853,
+      "unite": "µg/L",
+      "date_mesure": "2025-03-13",
+      "source": "ades-bss001qevs"
+    },
+    {
+      "libelle": "Di(2-ethylhexyl)phtalate, maximum (3 octobre 2019)",
+      "milieu": "eau_souterraine",
+      "valeur": 0.53,
+      "unite": "µg/L",
+      "date_mesure": "2019-10-03",
+      "source": "ades-bss001qevs"
+    },
+    {
+      "libelle": "Perchlorate, maximum (24 mars 2023)",
+      "milieu": "eau_souterraine",
+      "valeur": 0.46,
+      "unite": "µg/L",
+      "date_mesure": "2023-03-24",
+      "source": "ades-bss001qevs"
+    },
+    {
+      "libelle": "Benzotriazole, maximum (24 mars 2023)",
+      "milieu": "eau_souterraine",
+      "valeur": 0.398,
+      "unite": "µg/L",
+      "date_mesure": "2023-03-24",
+      "source": "ades-bss001qevs"
+    }
+  ],
+  "periode": {
+    "debut": "2015-04-29",
+    "debut_statut": "datee",
+    "fin": null,
+    "fin_statut": "en_cours",
+    "note": "Analyses depuis 2015 retenues. La pollution par les nitrates est diffuse, d'origine principalement agricole selon les états des lieux de l'agence de l'eau."
+  },
+  "resume": "Ce forage mesure l'eau d'une nappe suivie par les réseaux de surveillance de l'état des eaux. Sur 42 analyses de nitrates depuis 2015, 22 dépassent 50 mg/l, la norme de qualité des eaux souterraines. Le maximum est de 68 mg/l le 11 mars 2024 ; la dernière mesure publiée donne 56 mg/l le 15 septembre 2026.  D'autres substances y sont quantifiées, listées dans les mesures.",
+  "accroche": "Nitrates au-dessus de 50 mg/l dans la nappe à Marsilly",
+  "resume_court": "Jusqu'à 68 mg/l de nitrates, pour une norme de 50 mg/l. Dernière mesure : 56 mg/l en 2026.",
+  "statut_preuve": "mesure_publiee",
+  "procedure_en_cours": false,
+  "statut_traitement": "sous_surveillance",
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": true,
+  "sources": [
+    "ades-bss001qevs"
+  ],
+  "ce_qui_manque": [
+    {
+      "piece": "L'origine précise des nitrates sur l'aire d'alimentation",
+      "ou_chercher": "Études d'aire d'alimentation de captage de la CDA et du syndicat Eau 17, état des lieux de l'agence de l'eau Loire-Bretagne"
+    }
+  ]
+}

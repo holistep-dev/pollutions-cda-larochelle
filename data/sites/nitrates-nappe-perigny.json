@@ -1,0 +1,79 @@
+{
+  "id": "nitrates-nappe-perigny",
+  "nom": "Nappe au captage de Varaize, Périgny",
+  "commune": "Périgny",
+  "code_insee": "17274",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -1.096359409528933,
+      46.152689658723574
+    ]
+  },
+  "precision_geo": "localisation_indicative",
+  "rayon_m": 150,
+  "origine_trace": "Position du point de mesure publiée par ADES. La mesure vaut pour la nappe à cet endroit, pas pour une surface délimitée.",
+  "categorie": "ressource_eau",
+  "pictogramme": "goutte",
+  "milieux": [
+    "eau_souterraine"
+  ],
+  "substances": [
+    {
+      "libelle": "nitrates, maximum depuis 2015 (10 juillet 2015)",
+      "milieu": "eau_souterraine",
+      "valeur": 88.0,
+      "unite": "mg/L",
+      "date_mesure": "2015-07-10",
+      "source": "ades-bss001qffg"
+    },
+    {
+      "libelle": "nitrates, dernière mesure (3 novembre 2025)",
+      "milieu": "eau_souterraine",
+      "valeur": 74.0,
+      "unite": "mg/L",
+      "date_mesure": "2025-11-03",
+      "source": "ades-bss001qffg"
+    },
+    {
+      "libelle": "Chlorothalonil-R471811, maximum (23 octobre 2024)",
+      "milieu": "eau_souterraine",
+      "valeur": 2.2,
+      "unite": "µg/L",
+      "date_mesure": "2024-10-23",
+      "source": "ades-bss001qffg"
+    },
+    {
+      "libelle": "Métazachlore ESA, maximum (21 mars 2018)",
+      "milieu": "eau_souterraine",
+      "valeur": 0.18,
+      "unite": "µg/L",
+      "date_mesure": "2018-03-21",
+      "source": "ades-bss001qffg"
+    }
+  ],
+  "periode": {
+    "debut": "2015-02-24",
+    "debut_statut": "datee",
+    "fin": null,
+    "fin_statut": "en_cours",
+    "note": "Analyses depuis 2015 retenues. La pollution par les nitrates est diffuse, d'origine principalement agricole selon les états des lieux de l'agence de l'eau."
+  },
+  "resume": "Le captage de Varaize prélève l'eau d'une nappe pour l'eau potable. Sur 37 analyses de nitrates depuis 2015, 37 dépassent 50 mg/l, la norme de qualité des eaux souterraines. Le maximum est de 88 mg/l le 10 juillet 2015 ; la dernière mesure publiée donne 74 mg/l le 3 novembre 2025. Il s'agit de l'eau brute, avant traitement et mélange : la qualité de l'eau du robinet se lit sur le pictogramme robinet de chaque commune. D'autres substances y sont quantifiées, listées dans les mesures.",
+  "accroche": "Nitrates au-dessus de 50 mg/l dans la nappe du captage de Varaize à Périgny",
+  "resume_court": "Jusqu'à 88 mg/l de nitrates, pour une norme de 50 mg/l. Dernière mesure : 74 mg/l en 2025.",
+  "statut_preuve": "mesure_publiee",
+  "procedure_en_cours": false,
+  "statut_traitement": "sous_surveillance",
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": true,
+  "sources": [
+    "ades-bss001qffg"
+  ],
+  "ce_qui_manque": [
+    {
+      "piece": "L'origine précise des nitrates sur l'aire d'alimentation",
+      "ou_chercher": "Études d'aire d'alimentation de captage de la CDA et du syndicat Eau 17, état des lieux de l'agence de l'eau Loire-Bretagne"
+    }
+  ]
+}

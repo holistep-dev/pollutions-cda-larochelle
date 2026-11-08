@@ -7,8 +7,6 @@
    "libelle": "CANAL PRINCIPAL à AYTRE",
    "commune": "Aytré",
    "code_insee": "17028",
-   "lon": -1.118937355,
-   "lat": 46.116951074,
    "cours_eau": null,
    "mesures_depuis_2015": 288,
    "premiere": "2024-01-15",
@@ -204,28 +202,28 @@
      "date_max": "2024-07-11",
      "derniere": "2025-10-03"
     }
-   ]
+   ],
+   "lon_reel": -1.118937355,
+   "lat_reel": 46.116951074
   },
   {
    "code_station": "04782000",
    "libelle": "CANAL DE MARANS LA ROCHELLE À LA ROCHELLE",
    "commune": "La Rochelle",
    "code_insee": "17300",
-   "lon": -1.147241678,
-   "lat": 46.158788107,
    "cours_eau": null,
    "mesures_depuis_2015": 0,
    "premiere": null,
    "derniere": null,
-   "quantifies": []
+   "quantifies": [],
+   "lon_reel": -1.147241678,
+   "lat_reel": 46.158788107
   },
   {
    "code_station": "04782003",
    "libelle": "CANAL DE MARANS LA ROCHELLE À PERIGNY",
    "commune": "Périgny",
    "code_insee": "17274",
-   "lon": -1.108831948,
-   "lat": 46.166974575,
    "cours_eau": null,
    "mesures_depuis_2015": 1543,
    "premiere": "2015-01-19",
@@ -461,15 +459,15 @@
      "date_max": "2021-08-13",
      "derniere": "2026-06-18"
     }
-   ]
+   ],
+   "lon_reel": -1.108831948,
+   "lat_reel": 46.166974575
   },
   {
    "code_station": "04782005",
    "libelle": "CANAUX DE MARANS A DOMPIERRE-SUR-MER",
    "commune": "Dompierre-sur-Mer",
    "code_insee": "17142",
-   "lon": -1.048526669,
-   "lat": 46.207398556,
    "cours_eau": null,
    "mesures_depuis_2015": 5376,
    "premiere": "2022-02-24",
@@ -1075,15 +1073,15 @@
      "date_max": "2022-11-02",
      "derniere": "2022-12-01"
     }
-   ]
+   ],
+   "lon_reel": -1.048526669,
+   "lat_reel": 46.207398556
   },
   {
    "code_station": "04782006",
    "libelle": "CANAL DE SALLES A CHATELAILLON A CHATELAILLON-PLAGE",
    "commune": "Châtelaillon-Plage",
    "code_insee": "17094",
-   "lon": -1.098884052,
-   "lat": 46.094512646,
    "cours_eau": null,
    "mesures_depuis_2015": 125,
    "premiere": "2015-01-19",
@@ -1299,15 +1297,15 @@
      "date_max": "2015-08-27",
      "derniere": "2015-11-10"
     }
-   ]
+   ],
+   "lon_reel": -1.098884052,
+   "lat_reel": 46.094512646
   },
   {
    "code_station": "04782007",
    "libelle": "FOSSÉ A SAINT-VIVIEN",
    "commune": "Saint-Vivien",
    "code_insee": "17413",
-   "lon": -1.062071083,
-   "lat": 46.066830176,
    "cours_eau": null,
    "mesures_depuis_2015": 104,
    "premiere": "2015-01-19",
@@ -1523,15 +1521,15 @@
      "date_max": "2015-08-27",
      "derniere": "2015-11-10"
     }
-   ]
+   ],
+   "lon_reel": -1.062071083,
+   "lat_reel": 46.066830176
   },
   {
    "code_station": "04782008",
    "libelle": "CANAL DE MARANS A LA ROCHELLE A LA ROCHELLE",
    "commune": "La Rochelle",
    "code_insee": "17300",
-   "lon": -1.150466139,
-   "lat": 46.158237437,
    "cours_eau": null,
    "mesures_depuis_2015": 125,
    "premiere": "2015-01-19",
@@ -1747,15 +1745,15 @@
      "date_max": "2015-01-19",
      "derniere": "2015-11-10"
     }
-   ]
+   ],
+   "lon_reel": -1.150466139,
+   "lat_reel": 46.158237437
   },
   {
    "code_station": "04782009",
    "libelle": "CANAL DE LA MOULINETTE A LA ROCHELLE",
    "commune": "La Rochelle",
    "code_insee": "17300",
-   "lon": -1.140242433,
-   "lat": 46.154237383,
    "cours_eau": null,
    "mesures_depuis_2015": 124,
    "premiere": "2015-01-19",
@@ -1971,15 +1969,15 @@
      "date_max": "2015-01-19",
      "derniere": "2015-11-10"
     }
-   ]
+   ],
+   "lon_reel": -1.140242433,
+   "lat_reel": 46.154237383
   },
   {
    "code_station": "04782010",
    "libelle": "CANAL DE MARANS À LA ROCHELLE À LA ROCHELLE",
    "commune": "La Rochelle",
    "code_insee": "17300",
-   "lon": -1.139707512,
-   "lat": 46.156844843,
    "cours_eau": null,
    "mesures_depuis_2015": 124,
    "premiere": "2015-01-19",
@@ -2195,15 +2193,15 @@
      "date_max": "2015-01-19",
      "derniere": "2015-11-10"
     }
-   ]
+   ],
+   "lon_reel": -1.139707512,
+   "lat_reel": 46.156844843
   },
   {
    "code_station": "04782012",
    "libelle": "FOSSÉ À ESNANDES",
    "commune": "Esnandes",
    "code_insee": "17153",
-   "lon": -1.111710087,
-   "lat": 46.251657698,
    "cours_eau": null,
    "mesures_depuis_2015": 124,
    "premiere": "2015-01-19",
@@ -2419,15 +2417,15 @@
      "date_max": "2015-01-19",
      "derniere": "2015-11-10"
     }
-   ]
+   ],
+   "lon_reel": -1.111710087,
+   "lat_reel": 46.251657698
   },
   {
    "code_station": "04782013",
    "libelle": "CHENAUE A SAINT-XANDRE",
    "commune": "Saint-Xandre",
    "code_insee": "17414",
-   "lon": -1.068348831,
-   "lat": 46.217871411,
    "cours_eau": null,
    "mesures_depuis_2015": 124,
    "premiere": "2015-01-19",
@@ -2643,15 +2641,15 @@
      "date_max": "2015-01-19",
      "derniere": "2015-11-10"
     }
-   ]
+   ],
+   "lon_reel": -1.068348831,
+   "lat_reel": 46.217871411
   },
   {
    "code_station": "04782014",
    "libelle": "LE GO A NIEUL-SUR-MER",
    "commune": "Nieul-sur-Mer",
    "code_insee": "17264",
-   "lon": -1.174633268,
-   "lat": 46.208795831,
    "cours_eau": null,
    "mesures_depuis_2015": 124,
    "premiere": "2015-01-19",
@@ -2867,15 +2865,15 @@
      "date_max": "2015-01-19",
      "derniere": "2015-11-10"
     }
-   ]
+   ],
+   "lon_reel": -1.174633268,
+   "lat_reel": 46.208795831
   },
   {
    "code_station": "04782015",
    "libelle": "GRAND CANAL A ANGOULINS",
    "commune": "Angoulins",
    "code_insee": "17010",
-   "lon": -1.12314873,
-   "lat": 46.111946845,
    "cours_eau": null,
    "mesures_depuis_2015": 124,
    "premiere": "2015-01-19",
@@ -3091,15 +3089,15 @@
      "date_max": "2015-05-15",
      "derniere": "2015-11-10"
     }
-   ]
+   ],
+   "lon_reel": -1.12314873,
+   "lat_reel": 46.111946845
   },
   {
    "code_station": "04782017",
    "libelle": "CANAL MARANS LA ROCHELLE A SAINTE SOULLE",
    "commune": "Sainte-Soulle",
    "code_insee": "17407",
-   "lon": -1.049149284,
-   "lat": 46.206474703,
    "cours_eau": null,
    "mesures_depuis_2015": 368,
    "premiere": "2019-02-21",
@@ -3335,15 +3333,15 @@
      "date_max": "2019-12-11",
      "derniere": "2021-12-08"
     }
-   ]
+   ],
+   "lon_reel": -1.049149284,
+   "lat_reel": 46.206474703
   },
   {
    "code_station": "04782018",
    "libelle": "CANAL MARANS LA ROCHELLE A DOMPIERRE SUR MER",
    "commune": "Dompierre-sur-Mer",
    "code_insee": "17142",
-   "lon": -1.056277457,
-   "lat": 46.183128619,
    "cours_eau": null,
    "mesures_depuis_2015": 5372,
    "premiere": "2019-02-21",
@@ -3829,15 +3827,15 @@
      "date_max": "2023-06-19",
      "derniere": "2023-06-19"
     }
-   ]
+   ],
+   "lon_reel": -1.056277457,
+   "lat_reel": 46.183128619
   },
   {
    "code_station": "04782019",
    "libelle": "LE GO DANS LE MARAIS GATINEAU A NIEUL-SUR-MER",
    "commune": "Nieul-sur-Mer",
    "code_insee": "17264",
-   "lon": -1.186860524,
-   "lat": 46.209049317,
    "cours_eau": null,
    "mesures_depuis_2015": 180,
    "premiere": "2024-01-15",
@@ -4033,15 +4031,15 @@
      "date_max": "2024-07-11",
      "derniere": "2025-10-03"
     }
-   ]
+   ],
+   "lon_reel": -1.186860524,
+   "lat_reel": 46.209049317
   },
   {
    "code_station": "04782020",
    "libelle": "LE GO A NIEUL-SUR-MER",
    "commune": "Nieul-sur-Mer",
    "code_insee": "17264",
-   "lon": -1.165417538,
-   "lat": 46.208277383,
    "cours_eau": null,
    "mesures_depuis_2015": 180,
    "premiere": "2024-01-15",
@@ -4227,15 +4225,15 @@
      "date_max": "2024-07-11",
      "derniere": "2025-10-03"
     }
-   ]
+   ],
+   "lon_reel": -1.165417538,
+   "lat_reel": 46.208277383
   },
   {
    "code_station": "04782021",
    "libelle": "LE GO DANS LE MARAIS DE LAUZIERES A NIEUL-SUR-MER",
    "commune": "Nieul-sur-Mer",
    "code_insee": "17264",
-   "lon": -1.200012155,
-   "lat": 46.201503189,
    "cours_eau": null,
    "mesures_depuis_2015": 180,
    "premiere": "2024-01-15",
@@ -4431,15 +4429,15 @@
      "date_max": "2024-07-11",
      "derniere": "2025-10-03"
     }
-   ]
+   ],
+   "lon_reel": -1.200012155,
+   "lat_reel": 46.201503189
   },
   {
    "code_station": "04782022",
    "libelle": "MARAIS DE PAMPIN A LA ROCHELLE",
    "commune": "La Rochelle",
    "code_insee": "17300",
-   "lon": -1.202876737,
-   "lat": 46.187636385,
    "cours_eau": null,
    "mesures_depuis_2015": 180,
    "premiere": "2024-01-15",
@@ -4635,15 +4633,15 @@
      "date_max": "2024-07-11",
      "derniere": "2025-10-03"
     }
-   ]
+   ],
+   "lon_reel": -1.202876737,
+   "lat_reel": 46.187636385
   },
   {
    "code_station": "04782023",
    "libelle": "LA MOULINETTE A PERIGNY",
    "commune": "Périgny",
    "code_insee": "17274",
-   "lon": -1.107964892,
-   "lat": 46.149413661,
    "cours_eau": null,
    "mesures_depuis_2015": 180,
    "premiere": "2024-01-15",
@@ -4829,15 +4827,15 @@
      "date_max": "2024-07-11",
      "derniere": "2025-10-03"
     }
-   ]
+   ],
+   "lon_reel": -1.107964892,
+   "lat_reel": 46.149413661
   },
   {
    "code_station": "04782024",
    "libelle": "L'OTUS A LA JARNE",
    "commune": "La Jarne",
    "code_insee": "17193",
-   "lon": -1.086143297,
-   "lat": 46.124521034,
    "cours_eau": null,
    "mesures_depuis_2015": 180,
    "premiere": "2024-01-15",
@@ -5023,15 +5021,15 @@
      "date_max": "2024-07-11",
      "derniere": "2025-05-22"
     }
-   ]
+   ],
+   "lon_reel": -1.086143297,
+   "lat_reel": 46.124521034
   },
   {
    "code_station": "04782025",
    "libelle": "MARAIS DU CHAY A ANGOULINS",
    "commune": "Angoulins",
    "code_insee": "17010",
-   "lon": -1.126273909,
-   "lat": 46.107937774,
    "cours_eau": null,
    "mesures_depuis_2015": 180,
    "premiere": "2024-01-15",
@@ -5227,15 +5225,15 @@
      "date_max": "2024-07-11",
      "derniere": "2025-10-03"
     }
-   ]
+   ],
+   "lon_reel": -1.126273909,
+   "lat_reel": 46.107937774
   },
   {
    "code_station": "05000210",
    "libelle": "Le Canal des Roseaux à Yves",
    "commune": "Yves",
    "code_insee": "17483",
-   "lon": -0.99910129,
-   "lat": 46.025249363,
    "cours_eau": null,
    "mesures_depuis_2015": 496,
    "premiere": "2015-03-30",
@@ -5451,15 +5449,15 @@
      "date_max": "2025-04-09",
      "derniere": "2025-12-10"
     }
-   ]
+   ],
+   "lon_reel": -0.99910129,
+   "lat_reel": 46.025249363
   },
   {
    "code_station": "05000220",
    "libelle": "Le Canal d'amenée de l'UNIMA à Yves",
    "commune": "Thairé",
    "code_insee": "17443",
-   "lon": -1.016050386,
-   "lat": 46.057920773,
    "cours_eau": null,
    "mesures_depuis_2015": 3229,
    "premiere": "2015-01-19",
@@ -5895,20 +5893,22 @@
      "date_max": "2015-01-19",
      "derniere": "2015-11-16"
     }
-   ]
+   ],
+   "lon_reel": -1.016050386,
+   "lat_reel": 46.057920773
   },
   {
    "code_station": "05000230",
    "libelle": "Le Canal de Soucheneau à Voutron",
    "commune": "Yves",
    "code_insee": "17483",
-   "lon": -1.019424144,
-   "lat": 46.054645356,
    "cours_eau": null,
    "mesures_depuis_2015": 0,
    "premiere": null,
    "derniere": null,
-   "quantifies": []
+   "quantifies": [],
+   "lon_reel": -1.019424144,
+   "lat_reel": 46.054645356
   }
  ]
 }
