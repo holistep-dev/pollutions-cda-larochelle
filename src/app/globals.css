@@ -99,3 +99,53 @@ footer {
 
 a { color: var(--mesure); text-underline-offset: 0.16em; }
 a:focus-visible { outline: 2px solid var(--mesure); outline-offset: 3px; }
+
+h3 { font-size: 0.95rem; font-weight: 600; margin: 1.6rem 0 0.5rem; color: var(--encre-pale); }
+
+.fil { font-size: 0.9rem; color: var(--encre-pale); margin-bottom: 1.6rem; }
+.categorie { font-size: 0.85rem; letter-spacing: 0.04em; text-transform: uppercase; color: var(--mesure); margin: 0 0 0.3rem; }
+.note { color: var(--encre-pale); font-size: 0.92rem; }
+.bandeau { background: #f3e9d6; border-left: 3px solid #9a6b1f; padding: 0.8rem 1rem; }
+
+.statuts { display: grid; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); gap: 1rem; margin: 1.6rem 0; padding: 0; }
+.statuts div { background: var(--mesure-pale); padding: 0.8rem 1rem; }
+.statuts dt { font-size: 0.8rem; color: var(--encre-pale); text-transform: uppercase; letter-spacing: 0.04em; }
+.statuts dd { margin: 0.2rem 0 0; line-height: 1.35; }
+.statuts b { display: block; }
+.statuts span { display: block; font-size: 0.86rem; color: var(--encre-pale); margin-top: 0.2rem; }
+.statuts .pastille { display: inline-block; margin-top: 0.5rem; color: var(--encre); border: 1px solid var(--trait); padding: 0 0.4rem; }
+
+.liste-sites, .simple, .sources, .chronologie { padding: 0; margin: 0; list-style: none; }
+.liste-sites li { display: flex; flex-wrap: wrap; gap: 0.3rem 0.8rem; align-items: baseline; padding: 0.45rem 0; border-bottom: 1px solid var(--pierre-creuse); }
+.liste-sites a { flex: 1 1 16rem; }
+.liste-sites .commune { color: var(--encre-pale); font-size: 0.9rem; }
+.preuve { font-size: 0.8rem; padding: 0 0.45rem; border: 1px solid var(--trait); white-space: nowrap; }
+.preuve.mesure_publiee, .preuve.diagnostic_administratif { background: var(--mesure-pale); border-color: var(--mesure); }
+.preuve.signalement_non_instruit { border-style: dashed; color: var(--encre-pale); }
+
+.simple li { padding: 0.35rem 0; border-bottom: 1px solid var(--pierre-creuse); max-width: var(--mesure-max); }
+.chronologie li { display: grid; grid-template-columns: 9.5rem 1fr; gap: 1rem; padding: 0.45rem 0; border-bottom: 1px solid var(--pierre-creuse); }
+.chronologie time { color: var(--encre-pale); font-variant-numeric: tabular-nums; font-size: 0.92rem; }
+.renvoi { font-size: 0.78rem; margin-left: 0.15rem; text-decoration: none; }
+.sources li { display: grid; grid-template-columns: 8rem 1fr; gap: 1rem; padding: 0.45rem 0; border-bottom: 1px solid var(--pierre-creuse); font-size: 0.92rem; }
+.sources .type { color: var(--encre-pale); font-size: 0.82rem; }
+
+.mesures { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+.mesures th, .mesures td { text-align: left; padding: 0.4rem 0.5rem 0.4rem 0; border-bottom: 1px solid var(--pierre-creuse); vertical-align: top; }
+.mesures th { font-weight: 600; color: var(--encre-pale); font-size: 0.82rem; }
+
+.frise { display: grid; grid-template-columns: repeat(auto-fill, minmax(4.6rem, 1fr)); gap: 0.3rem; margin: 0.8rem 0 1rem; }
+.frise .case { padding: 0.35rem 0.4rem; font-size: 0.78rem; line-height: 1.25; border: 1px solid var(--trait); }
+.frise .case span { display: block; color: var(--encre-pale); font-variant-numeric: tabular-nums; }
+.frise .excellent { background: #d6e8de; }
+.frise .bon { background: #e6efe0; }
+.frise .suffisant { background: #f3ecd2; }
+.frise .insuffisant { background: #efd9d2; }
+.frise .aucun { background: repeating-linear-gradient(45deg, transparent 0 4px, var(--pierre-creuse) 4px 8px); }
+
+.signal { margin-top: 2.5rem; }
+
+@media (max-width: 34rem) {
+  .chronologie li, .sources li { grid-template-columns: 1fr; gap: 0.1rem; }
+  h1 { font-size: 1.7rem; }
+}

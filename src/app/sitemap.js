@@ -1,9 +1,12 @@
 import { site } from "../lib/site";
+import { sites, communes } from "../lib/donnees";
 
 export default function sitemap() {
   const maintenant = new Date();
+  const pages = ["", "/mentions-legales", "/signaux-sanitaires", "/restrictions"];
   return [
-    { url: site.url, lastModified: maintenant },
-    { url: `${site.url}/mentions-legales`, lastModified: maintenant },
+    ...pages.map((p) => ({ url: `${site.url}${p}`, lastModified: maintenant })),
+    ...communes().map((c) => ({ url: `${site.url}/communes/${c.slug}`, lastModified: maintenant })),
+    ...sites().map((s) => ({ url: `${site.url}/sites/${s.id}`, lastModified: new Date(s.derniere_verification) })),
   ];
 }

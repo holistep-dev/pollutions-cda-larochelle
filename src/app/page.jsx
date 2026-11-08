@@ -1,22 +1,20 @@
 import { site } from "../lib/site";
-import { readFileSync } from "node:fs";
-import { join } from "node:path";
-
-const lire = (chemin) => JSON.parse(readFileSync(join(process.cwd(), chemin), "utf8"));
+import ListeSites from "../components/ListeSites";
+import { sites, indexCommunes, recherches, signaux, restrictions } from "../lib/donnees";
 
 export default function Accueil() {
-  const communes = lire("data/build/communes-index.json").communes;
-  const sitesGeo = lire("data/build/sites.geojson");
-  const recherches = lire("data/recherches-infructueuses.json");
-  const nbSites = communes.reduce((n, c) => n + c.nb_sites, 0);
-  const nbLocalises = sitesGeo.features.length;
+  const communes = indexCommunes();
+  const liste = sites().filter((s) => s.visible_par_defaut !== false);
+  const nbLocalises = liste.filter((s) => s.geometry).length;
+  const sig = signaux();
+  const res = restrictions();
 
   return (
     <main>
       <h1>Ce qui est documenté sous l&apos;agglomération de La Rochelle</h1>
       <p className="sous-titre">
         Recensement des pollutions documentées sur les 28 communes de la Communauté d&apos;agglomération. Le site
-        est en construction. Les premières fiches sont en ligne, la carte suit.
+        est en construction. Les fiches sont en ligne au fil de leur saisie, la carte suivra.
       </p>
 
       <p className="regle">
@@ -28,7 +26,7 @@ export default function Accueil() {
       <h2>État du recensement</h2>
       <div className="etat">
         <div>
-          <b>{nbSites}</b>
+          <b>{liste.length}</b>
           <span>fiches publiées</span>
         </div>
         <div>
@@ -36,16 +34,36 @@ export default function Accueil() {
           <span>sites localisés</span>
         </div>
         <div>
-          <b>{recherches.recherches.length}</b>
+          <b>{recherches().length}</b>
           <span>recherches documentées, abouties ou non</span>
         </div>
       </div>
 
-      <h2>Communes couvertes</h2>
+      <h2>Fiches</h2>
+      <ListeSites sites={liste} />
+
+      {res.length || sig.length ? <h2>Autres rubriques</h2> : null}
+      <ul className="simple">
+        {res.length ? (
+          <li>
+            <a href="/restrictions">Restrictions d&apos;usage</a>, {res.length} décision
+            {res.length > 1 ? "s" : ""} d&apos;une autorité : ce qui est interdit ou déconseillé.
+          </li>
+        ) : null}
+        {sig.length ? (
+          <li>
+            <a href="/signaux-sanitaires">Signaux sanitaires</a>, {sig.length} résultat
+            {sig.length > 1 ? "s" : ""} d&apos;études épidémiologiques, présentés à part, sans lien de cause établi
+            avec les sites.
+          </li>
+        ) : null}
+      </ul>
+
+      <h2>Par commune</h2>
       <ul className="communes">
         {communes.map((c) => (
           <li key={c.code_insee}>
-            <span>{c.nom}</span>
+            <a href={`/communes/${c.slug}`}>{c.nom}</a>
             <em>{c.nb_sites || "—"}</em>
           </li>
         ))}
