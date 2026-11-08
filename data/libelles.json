@@ -1,0 +1,70 @@
+{
+  "note": "Libellés publics et définitions affichées au survol. Les valeurs techniques ne sont jamais montrées à l'habitant.",
+  "statut_preuve": {
+    "mesure_publiee": {
+      "libelle": "Pollution mesurée",
+      "definition": "Des analyses publiées donnent des concentrations relevées sur ce site."
+    },
+    "diagnostic_administratif": {
+      "libelle": "Pollution constatée par l'administration",
+      "definition": "L'État a inscrit ce site dans une base ou un acte qui constate la pollution."
+    },
+    "procedure_en_cours": {
+      "libelle": "Dossier ouvert par l'administration",
+      "definition": "Une procédure vise ce site, sans que des mesures aient été publiées."
+    },
+    "signalement_non_instruit": {
+      "libelle": "Signalé, jamais instruit",
+      "definition": "Le site est documenté par la presse, une association ou un témoin, et par aucun acte public."
+    }
+  },
+  "procedure_en_cours": {
+    "libelle": "Procédure en cours",
+    "definition": "Une procédure administrative ou judiciaire est ouverte à la date de dernière vérification."
+  },
+  "statut_traitement": {
+    "non_traite": { "libelle": "Aucun traitement", "definition": "Aucun travail de dépollution n'est engagé à ce jour." },
+    "sous_surveillance": { "libelle": "Sous surveillance", "definition": "Le site fait l'objet d'un suivi, sans travaux en cours." },
+    "travaux_en_cours": { "libelle": "Travaux en cours", "definition": "Des travaux de dépollution sont engagés." },
+    "rehabilite": { "libelle": "Réhabilité", "definition": "Les travaux sont achevés et réceptionnés par l'administration." },
+    "inconnu": { "libelle": "Non documenté", "definition": "Aucune source ne dit ce qui a été fait sur ce site." }
+  },
+  "precision_geo": {
+    "emprise_cadastrale": { "libelle": "Limites parcellaires", "definition": "Le tracé suit les parcelles citées par un acte." },
+    "perimetre_approximatif": { "libelle": "Périmètre approximatif", "definition": "Le contour est reconstitué, ses limites exactes ne sont pas connues." },
+    "localisation_indicative": { "libelle": "Localisation indicative", "definition": "Seul un point est connu. Le cercle indique l'incertitude, pas l'étendue de la pollution." },
+    "null": { "libelle": "Localisation inconnue", "definition": "Le site est documenté mais aucune source ne le situe. Il est listé, pas cartographié." }
+  },
+  "categorie": {
+    "decharge": "Décharge",
+    "projet_decharge": "Projet de décharge",
+    "friche_sol_pollue": "Friche ou sol pollué",
+    "ressource_eau": "Ressource en eau",
+    "eau_baignade": "Eau de baignade",
+    "sediment_marin": "Sédiment marin",
+    "air": "Air",
+    "inventaire_historique": "Mémoire industrielle"
+  },
+  "type_source": {
+    "arrete_prefectoral": "Arrêté préfectoral",
+    "arrete_municipal": "Arrêté municipal",
+    "decision_justice": "Décision de justice",
+    "deliberation": "Délibération",
+    "base_publique": "Base de données publique",
+    "etude_scientifique": "Étude scientifique",
+    "communication_institutionnelle": "Communication d'une institution",
+    "presse": "Presse",
+    "publication_associative": "Publication associative",
+    "temoignage": "Témoignage"
+  },
+  "themes_carte": {
+    "pollution_chimique": "Pollution chimique",
+    "eaux_baignade": "Qualité des eaux de baignade",
+    "ressource_eau": "Ressource en eau",
+    "air": "Air",
+    "memoire_industrielle": "Mémoire industrielle",
+    "signaux_sanitaires": "Signaux sanitaires",
+    "restrictions_usage": "Restrictions d'usage"
+  },
+  "bandeau_signaux_sanitaires": "Ces signaux sont des résultats d'études épidémiologiques. Aucun lien de cause à effet n'est établi entre eux et les sites figurant sur cette carte. Les enquêtes officielles en cours sont listées ci-dessous, avec leur pilote et leur échéance."
+}

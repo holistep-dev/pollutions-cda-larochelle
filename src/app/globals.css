@@ -1,0 +1,101 @@
+:root {
+  --pierre: #edefec;
+  --pierre-creuse: #e2e5e0;
+  --encre: #1b1f1d;
+  --encre-pale: #5c6560;
+  --trait: #c6ccc4;
+  --mesure: #2f5d50;
+  --mesure-pale: #dfe9e4;
+  --mesure-max: 64ch;
+}
+
+* { box-sizing: border-box; }
+
+html {
+  background: var(--pierre);
+  color: var(--encre);
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+body { margin: 0; }
+
+main {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 3.5rem 1.5rem 6rem;
+}
+
+h1 {
+  font-size: 2.1rem;
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: -0.012em;
+  margin: 0 0 0.6rem;
+  max-width: 22ch;
+}
+
+h2 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  margin: 3rem 0 0.8rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--trait);
+}
+
+p { max-width: var(--mesure-max); margin: 0 0 1.1rem; }
+
+.sous-titre { color: var(--encre-pale); max-width: 52ch; }
+
+.regle {
+  border-left: 3px solid var(--mesure);
+  padding: 0.1rem 0 0.1rem 1rem;
+  margin: 2rem 0;
+  color: var(--encre);
+}
+
+.etat {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.2rem;
+  margin: 1.2rem 0 0;
+  padding: 1.1rem 1.3rem;
+  background: var(--mesure-pale);
+}
+
+.etat div { line-height: 1.3; }
+.etat b { display: block; font-size: 1.7rem; font-weight: 600; font-variant-numeric: tabular-nums; }
+.etat span { color: var(--encre-pale); font-size: 0.9rem; }
+
+.communes {
+  columns: 3 12rem;
+  column-gap: 2rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.communes li {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.6rem;
+  padding: 0.28rem 0;
+  border-bottom: 1px solid var(--pierre-creuse);
+  break-inside: avoid;
+}
+
+.communes em { font-style: normal; color: var(--encre-pale); font-variant-numeric: tabular-nums; }
+
+footer {
+  margin-top: 4rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--trait);
+  color: var(--encre-pale);
+  font-size: 0.9rem;
+}
+
+a { color: var(--mesure); text-underline-offset: 0.16em; }
+a:focus-visible { outline: 2px solid var(--mesure); outline-offset: 3px; }

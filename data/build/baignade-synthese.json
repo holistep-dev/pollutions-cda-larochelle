@@ -1,0 +1,70 @@
+{
+  "genere_le": "2026-11-08",
+  "methode": "Moyenne des cinq derniers classements annuels disponibles, Excellent 4 à Insuffisant 1. Un site sans classement récent est en état hors_controle_sanitaire et n'est pas moyenné.",
+  "sites": [
+    {
+      "site": "baignade-aytre-platin-nord",
+      "id_site_sise": "017000589",
+      "classements": {
+        "2013": "Insuffisant",
+        "2014": "Insuffisant",
+        "2015": "Insuffisant",
+        "2016": "Insuffisant",
+        "2017": "Insuffisant",
+        "2018": null,
+        "2019": null,
+        "2020": null,
+        "2021": null,
+        "2022": null,
+        "2023": null,
+        "2024": null,
+        "2025": null
+      },
+      "saisons_retenues": [
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017"
+      ],
+      "moyenne_5_saisons": 1,
+      "etat": "hors_controle_sanitaire",
+      "motif_absence_classement": "Site retiré du contrôle sanitaire réglementaire après l'arrêté municipal d'interdiction de baignade du 27 avril 2018. Aucun classement annuel n'est produit depuis la saison 2018.",
+      "nb_prelevements": 109,
+      "nb_evenements_declares": 9,
+      "nb_fermetures": 0
+    },
+    {
+      "site": "baignade-aytre-platin-sud",
+      "id_site_sise": "017000590",
+      "classements": {
+        "2013": "Insuffisant",
+        "2014": "Insuffisant",
+        "2015": "Insuffisant",
+        "2016": "Insuffisant",
+        "2017": "Insuffisant",
+        "2018": null,
+        "2019": null,
+        "2020": null,
+        "2021": null,
+        "2022": null,
+        "2023": null,
+        "2024": null,
+        "2025": null
+      },
+      "saisons_retenues": [
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017"
+      ],
+      "moyenne_5_saisons": 1,
+      "etat": "hors_controle_sanitaire",
+      "motif_absence_classement": "Site retiré du contrôle sanitaire réglementaire après l'arrêté municipal d'interdiction de baignade du 27 avril 2018. Aucun classement annuel n'est produit depuis la saison 2018.",
+      "nb_prelevements": 112,
+      "nb_evenements_declares": 5,
+      "nb_fermetures": 0
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "perimetre": "Communauté d'agglomération de La Rochelle",
+  "code_epci": "241700434",
+  "source": "geo.api.gouv.fr, endpoint /epcis/241700434/communes, extraction du 13/09/2026",
+  "nb": 28,
+  "communes": [
+    {
+      "code_insee": "17010",
+      "nom": "Angoulins",
+      "slug": "angoulins"
+    },
+    {
+      "code_insee": "17028",
+      "nom": "Aytré",
+      "slug": "aytre"
+    },
+    {
+      "code_insee": "17059",
+      "nom": "Bourgneuf",
+      "slug": "bourgneuf"
+    },
+    {
+      "code_insee": "17094",
+      "nom": "Châtelaillon-Plage",
+      "slug": "chatelaillon-plage"
+    },
+    {
+      "code_insee": "17109",
+      "nom": "Clavette",
+      "slug": "clavette"
+    },
+    {
+      "code_insee": "17136",
+      "nom": "Croix-Chapeau",
+      "slug": "croix-chapeau"
+    },
+    {
+      "code_insee": "17142",
+      "nom": "Dompierre-sur-Mer",
+      "slug": "dompierre-sur-mer"
+    },
+    {
+      "code_insee": "17153",
+      "nom": "Esnandes",
+      "slug": "esnandes"
+    },
+    {
+      "code_insee": "17190",
+      "nom": "L'Houmeau",
+      "slug": "l-houmeau"
+    },
+    {
+      "code_insee": "17193",
+      "nom": "La Jarne",
+      "slug": "la-jarne"
+    },
+    {
+      "code_insee": "17194",
+      "nom": "La Jarrie",
+      "slug": "la-jarrie"
+    },
+    {
+      "code_insee": "17300",
+      "nom": "La Rochelle",
+      "slug": "la-rochelle"
+    },
+    {
+      "code_insee": "17200",
+      "nom": "Lagord",
+      "slug": "lagord"
+    },
+    {
+      "code_insee": "17222",
+      "nom": "Marsilly",
+      "slug": "marsilly"
+    },
+    {
+      "code_insee": "17245",
+      "nom": "Montroy",
+      "slug": "montroy"
+    },
+    {
+      "code_insee": "17264",
+      "nom": "Nieul-sur-Mer",
+      "slug": "nieul-sur-mer"
+    },
+    {
+      "code_insee": "17291",
+      "nom": "Puilboreau",
+      "slug": "puilboreau"
+    },
+    {
+      "code_insee": "17274",
+      "nom": "Périgny",
+      "slug": "perigny"
+    },
+    {
+      "code_insee": "17315",
+      "nom": "Saint-Christophe",
+      "slug": "saint-christophe"
+    },
+    {
+      "code_insee": "17373",
+      "nom": "Saint-Médard-d'Aunis",
+      "slug": "saint-medard-d-aunis"
+    },
+    {
+      "code_insee": "17391",
+      "nom": "Saint-Rogatien",
+      "slug": "saint-rogatien"
+    },
+    {
+      "code_insee": "17413",
+      "nom": "Saint-Vivien",
+      "slug": "saint-vivien"
+    },
+    {
+      "code_insee": "17414",
+      "nom": "Saint-Xandre",
+      "slug": "saint-xandre"
+    },
+    {
+      "code_insee": "17407",
+      "nom": "Sainte-Soulle",
+      "slug": "sainte-soulle"
+    },
+    {
+      "code_insee": "17420",
+      "nom": "Salles-sur-Mer",
+      "slug": "salles-sur-mer"
+    },
+    {
+      "code_insee": "17443",
+      "nom": "Thairé",
+      "slug": "thaire"
+    },
+    {
+      "code_insee": "17466",
+      "nom": "Vérines",
+      "slug": "verines"
+    },
+    {
+      "code_insee": "17483",
+      "nom": "Yves",
+      "slug": "yves"
+    }
+  ]
+}

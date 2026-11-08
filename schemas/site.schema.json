@@ -1,0 +1,209 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pollutions-cda.fr/schemas/site.schema.json",
+  "title": "Site",
+  "type": "object",
+  "required": [
+    "id",
+    "nom",
+    "commune",
+    "code_insee",
+    "geometry",
+    "precision_geo",
+    "categorie",
+    "milieux",
+    "periode",
+    "resume",
+    "statut_preuve",
+    "procedure_en_cours",
+    "statut_traitement",
+    "derniere_verification",
+    "sources"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "$ref": "defs.schema.json#/$defs/slug" },
+    "nom": { "type": "string", "minLength": 3, "maxLength": 120 },
+    "commune": { "type": "string" },
+    "code_insee": { "$ref": "defs.schema.json#/$defs/code_insee" },
+    "communes_secondaires": {
+      "type": "array",
+      "items": { "$ref": "defs.schema.json#/$defs/code_insee" },
+      "description": "Pour un objet qui déborde d'une commune. La fiche reste rattachée à code_insee."
+    },
+    "geometry": { "$ref": "defs.schema.json#/$defs/geometry" },
+    "precision_geo": { "$ref": "defs.schema.json#/$defs/precision_geo" },
+    "rayon_m": {
+      "type": "number",
+      "minimum": 10,
+      "description": "Obligatoire si precision_geo vaut localisation_indicative. Rayon du cercle tracé autour du point."
+    },
+    "motif_absence_geometrie": {
+      "type": "string",
+      "description": "Obligatoire si geometry est null. Une phrase, ce qui est ignoré et où le chercher."
+    },
+    "categorie": { "$ref": "defs.schema.json#/$defs/categorie" },
+    "milieux": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "defs.schema.json#/$defs/milieu" }
+    },
+    "substances": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["libelle"],
+        "additionalProperties": false,
+        "properties": {
+          "libelle": { "type": "string" },
+          "valeur": { "type": "number" },
+          "unite": { "type": "string" },
+          "milieu": { "$ref": "defs.schema.json#/$defs/milieu" },
+          "date_mesure": { "$ref": "defs.schema.json#/$defs/date_floue" },
+          "reference_reglementaire": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "libelle": { "type": "string" },
+              "valeur": { "type": "number" },
+              "nature": {
+                "enum": ["limite_de_qualite", "valeur_indicative", "seuil_sanitaire", "valeur_de_gestion", "aucune"],
+                "description": "Ne jamais présenter un dépassement de limite de qualité comme un dépassement de seuil sanitaire."
+              }
+            }
+          },
+          "source": { "$ref": "defs.schema.json#/$defs/slug" }
+        }
+      }
+    },
+    "periode": { "$ref": "defs.schema.json#/$defs/periode" },
+    "resume": {
+      "type": "string",
+      "minLength": 40,
+      "maxLength": 700,
+      "description": "Deux à quatre phrases, neutres, datées."
+    },
+    "chronologie": {
+      "type": "array",
+      "description": "Champ distinct du résumé. Aucune limite de longueur utile.",
+      "items": {
+        "type": "object",
+        "required": ["date", "fait"],
+        "additionalProperties": false,
+        "properties": {
+          "date": { "$ref": "defs.schema.json#/$defs/date_floue" },
+          "fait": { "type": "string", "minLength": 5 },
+          "sources": { "type": "array", "items": { "$ref": "defs.schema.json#/$defs/slug" } }
+        }
+      }
+    },
+    "exploitants": {
+      "type": "array",
+      "description": "Uniquement ceux qu'un document administratif public ou une décision de justice nomme. Le validateur le vérifie.",
+      "items": {
+        "type": "object",
+        "required": ["nom", "source"],
+        "additionalProperties": false,
+        "properties": {
+          "nom": { "type": "string" },
+          "role": { "type": "string" },
+          "debut": { "oneOf": [{ "$ref": "defs.schema.json#/$defs/date_floue" }, { "type": "null" }] },
+          "fin": { "oneOf": [{ "$ref": "defs.schema.json#/$defs/date_floue" }, { "type": "null" }] },
+          "source": { "$ref": "defs.schema.json#/$defs/slug" }
+        }
+      }
+    },
+    "statut_preuve": { "$ref": "defs.schema.json#/$defs/statut_preuve" },
+    "procedure_en_cours": { "type": "boolean" },
+    "statut_traitement": { "$ref": "defs.schema.json#/$defs/statut_traitement" },
+    "visible_par_defaut": {
+      "type": "boolean",
+      "default": true,
+      "description": "false imposé pour statut_traitement = rehabilite."
+    },
+    "derniere_verification": { "$ref": "defs.schema.json#/$defs/date" },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "defs.schema.json#/$defs/slug" }
+    },
+    "revue_presse": {
+      "type": "array",
+      "description": "Articles rattachés à la fiche, sans valeur probante. Les qualifications divergentes vont ici, attribuées à leur auteur.",
+      "items": {
+        "type": "object",
+        "required": ["source"],
+        "additionalProperties": false,
+        "properties": {
+          "source": { "$ref": "defs.schema.json#/$defs/slug" },
+          "angle": { "type": "string", "maxLength": 300 }
+        }
+      }
+    },
+    "temoignages": {
+      "type": "array",
+      "description": "Affichés comme témoignages, jamais convertis en fait établi.",
+      "items": {
+        "type": "object",
+        "required": ["propos", "source"],
+        "additionalProperties": false,
+        "properties": {
+          "auteur": { "type": "string" },
+          "propos": { "type": "string" },
+          "date": { "$ref": "defs.schema.json#/$defs/date_floue" },
+          "source": { "$ref": "defs.schema.json#/$defs/slug" },
+          "anonymise": { "type": "boolean", "default": false }
+        }
+      }
+    },
+    "ce_qui_manque": {
+      "type": "array",
+      "description": "Pièce absente, et où la chercher. Publié tel quel sur la fiche.",
+      "items": {
+        "type": "object",
+        "required": ["piece", "ou_chercher"],
+        "additionalProperties": false,
+        "properties": {
+          "piece": { "type": "string" },
+          "ou_chercher": { "type": "string" },
+          "statut_vise": { "$ref": "defs.schema.json#/$defs/statut_preuve" }
+        }
+      }
+    },
+    "baignade": {
+      "type": "object",
+      "description": "Obligatoire si categorie vaut eau_baignade.",
+      "required": ["id_site_sise", "sous_controle_sanitaire"],
+      "additionalProperties": false,
+      "properties": {
+        "id_site_sise": { "type": "string" },
+        "code_rapportage_ue": { "type": "string" },
+        "sous_controle_sanitaire": { "type": "boolean" },
+        "interdiction": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "en_vigueur": { "type": "boolean" },
+            "depuis": { "$ref": "defs.schema.json#/$defs/date" },
+            "acte": { "type": "string" },
+            "source": { "$ref": "defs.schema.json#/$defs/slug" }
+          }
+        }
+      }
+    },
+    "liens": {
+      "type": "array",
+      "description": "Renvois entre fiches voisines ou issues du même dossier.",
+      "items": {
+        "type": "object",
+        "required": ["site", "relation"],
+        "additionalProperties": false,
+        "properties": {
+          "site": { "$ref": "defs.schema.json#/$defs/slug" },
+          "relation": { "enum": ["meme_dossier", "voisin", "objet_distinct_du_meme_site", "succede_a"] }
+        }
+      }
+    },
+    "notes_internes": { "type": "string", "description": "Non publié." }
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "genere_le": "2026-11-08",
+  "communes": [
+    {
+      "code_insee": "17010",
+      "nom": "Angoulins",
+      "slug": "angoulins",
+      "nb_sites": 0,
+      "nb_sans_localisation": 0,
+      "sans_localisation": [],
+      "sites": []
+    },
+    {
+      "code_insee": "17028",
+      "nom": "Aytré",
+      "slug": "aytre",
+      "nb_sites": 2,
+      "nb_sans_localisation": 0,
+      "sans_localisation": [],
+      "sites": [
+        {
+          "id": "baignade-aytre-platin-nord",
+          "nom": "Plage du Platin Nord",
+          "categorie": "eau_baignade",
+          "statut_preuve": "mesure_publiee",
+          "statut_traitement": "sous_surveillance",
+          "localise": true
+        },
+        {
+          "id": "baignade-aytre-platin-sud",
+          "nom": "Plage du Platin Sud",
+          "categorie": "eau_baignade",
+          "statut_preuve": "mesure_publiee",
+          "statut_traitement": "sous_surveillance",
+          "localise": true
+        }
+      ]
+    },
+    {
+      "code_insee": "17059",
+      "nom": "Bourgneuf",
+      "slug": "bourgneuf",
+      "nb_sites": 0,
+      "nb_sans_localisation": 0,
+      "sans_localisation": [],
+      "sites": []
+    },
+    {
+      "code_insee": "17094",
+      "nom": "Châtelaillon-Plage",
+      "slug": "chatelaillon-plage",
+      "nb_sites": 0,
+      "nb_sans_localisation": 0,
+      "sans_localisation": [],
+      "sites": []
+    },
+    {
+      "code_insee": "17109",
+      "nom": "Clavette",
+      "slug": "clavette",
+      "nb_sites": 0,
+      "nb_sans_localisation": 0,
+      "sans_localisation": [],
+      "sites": []
+    },
+    {
+      "code_insee": "17136",
+      "nom": "Croix-Chapeau",
+      "slug": "croix-chapeau",
+      "nb_sites": 0,
+      "nb_sans_localisation": 0,
+      "sans_localisation": [],
+      "sites": []
+    },
+    {
+      "code_insee": "17142",
+      "nom": "Dompierre-sur-Mer",
+      "slug": "dompierre-sur-mer",
+      "nb_sites": 0,
+      "nb_sans_localisation": 0,
+      "sans_localisation": [],
+      "sites": []
+    },
+    {
+      "code_insee": "17153",
+      "nom": "Esnandes",
+      "slug": "esnandes",
+      "nb_sites": 0,
+      "nb_sans_localisation": 0,
+      "sans_localisation": [],
+      "sites": []
+    },
+    {
+      "code_insee": "17190",
+      "nom": "L'Houmeau",
+      "slug": "l-houmeau",
+      "nb_sites": 0,
+      "nb_sans_localisation": 0,
+      "sans_localisation": [],
+      "sites": []
+    },
+    {
+      "code_insee": "17193",
+      "nom": "La Jarne",
+      "slug": "la-jarne",
+      "nb_sites": 0,
+      "nb_sans_localisation": 0,
+      "sans_localisation": [],
+      "sites": []
+    },
+    {
+      "code_insee": "17194",
+      "nom": "La Jarrie",
+      "slug": "la-jarrie",
+      "nb_sites": 0,
+      "nb_sans_localisation": 0,
+      "sans_localisation": [],
+      "sites": []
+    },
+    {
+      "code_insee": "17300",
+      "nom": "La Rochelle",
+      "slug": "la-rochelle",
+      "nb_sites": 0,
+      "nb_sans_localisation": 0,
+      "sans_localisation": [],
+      "sites": []
+    },
+    {
+      "code_insee": "17200",
+      "nom": "Lagord",
+      "slug": "lagord",
+      "nb_sites": 0,
+      "nb_sans_localisation": 0,
+      "sans_localisation": [],
+      "sites": []
+    },
+    {
+      "code_insee": "17222",
+      "nom": "Marsilly",
+      "slug": "marsilly",
+      "nb_sites": 0,
+      "nb_sans_localisation": 0,
+      "sans_localisation": [],
+      "sites": []
+    },
+    {
+      "code_insee": "17245",
+      "nom": "Montroy",
+      "slug": "montroy",
+      "nb_sites": 0,
+      "nb_sans_localisation": 0,
+      "sans_localisation": [],
+      "sites": []
+    },
+    {
+      "code_insee": "17264",
+      "nom": "Nieul-sur-Mer",
+      "slug": "nieul-sur-mer",
+      "nb_sites": 0,
+      "nb_sans_localisation": 0,
+      "sans_localisation": [],
+      "sites": []
+    },
+    {
+      "code_insee": "17291",
+      "nom": "Puilboreau",
+      "slug": "puilboreau",
+      "nb_sites": 0,
+      "nb_sans_localisation": 0,
+      "sans_localisation": [],
+      "sites": []
+    },
+    {
+      "code_insee": "17274",
+      "nom": "Périgny",
+      "slug": "perigny",
+      "nb_sites": 0,
+      "nb_sans_localisation": 0,
+      "sans_localisation": [],
+      "sites": []
+    },
+    {
+      "code_insee": "17315",
+      "nom": "Saint-Christophe",
+      "slug": "saint-christophe",
+      "nb_sites": 0,
+      "nb_sans_localisation": 0,
+      "sans_localisation": [],
+      "sites": []
+    },
+    {
+      "code_insee": "17373",
+      "nom": "Saint-Médard-d'Aunis",
+      "slug": "saint-medard-d-aunis",
+      "nb_sites": 0,
+      "nb_sans_localisation": 0,
+      "sans_localisation": [],
+      "sites": []
+    },
+    {
+      "code_insee": "17391",
+      "nom": "Saint-Rogatien",
+      "slug": "saint-rogatien",
+      "nb_sites": 0,
+      "nb_sans_localisation": 0,
+      "sans_localisation": [],
+      "sites": []
+    },
+    {
+      "code_insee": "17413",
+      "nom": "Saint-Vivien",
+      "slug": "saint-vivien",
+      "nb_sites": 0,
+      "nb_sans_localisation": 0,
+      "sans_localisation": [],
+      "sites": []
+    },
+    {
+      "code_insee": "17414",
+      "nom": "Saint-Xandre",
+      "slug": "saint-xandre",
+      "nb_sites": 0,
+      "nb_sans_localisation": 0,
+      "sans_localisation": [],
+      "sites": []
+    },
+    {
+      "code_insee": "17407",
+      "nom": "Sainte-Soulle",
+      "slug": "sainte-soulle",
+      "nb_sites": 0,
+      "nb_sans_localisation": 0,
+      "sans_localisation": [],
+      "sites": []
+    },
+    {
+      "code_insee": "17420",
+      "nom": "Salles-sur-Mer",
+      "slug": "salles-sur-mer",
+      "nb_sites": 0,
+      "nb_sans_localisation": 0,
+      "sans_localisation": [],
+      "sites": []
+    },
+    {
+      "code_insee": "17443",
+      "nom": "Thairé",
+      "slug": "thaire",
+      "nb_sites": 0,
+      "nb_sans_localisation": 0,
+      "sans_localisation": [],
+      "sites": []
+    },
+    {
+      "code_insee": "17466",
+      "nom": "Vérines",
+      "slug": "verines",
+      "nb_sites": 0,
+      "nb_sans_localisation": 0,
+      "sans_localisation": [],
+      "sites": []
+    },
+    {
+      "code_insee": "17483",
+      "nom": "Yves",
+      "slug": "yves",
+      "nb_sites": 0,
+      "nb_sans_localisation": 0,
+      "sans_localisation": [],
+      "sites": []
+    }
+  ]
+}

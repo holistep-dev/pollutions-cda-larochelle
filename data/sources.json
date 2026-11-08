@@ -1,0 +1,79 @@
+{
+  "note": "Référentiel unique des sources. Toute fiche pointe vers un id de ce fichier.",
+  "sources": [
+    {
+      "id": "aytre-arrete-35-2018",
+      "type": "arrete_municipal",
+      "auteur": "Ville d'Aytré",
+      "titre": "Arrêté municipal n° 35 portant interdiction de baignade sur les plages du Platin Nord et du Platin Sud",
+      "date": "2018-04-27",
+      "url": "https://www.aytre.fr/wp-content/uploads/2020/05/35-arr%C3%AAt%C3%A9-municipal-interdiction-de-baignade.pdf",
+      "reference": "AR préfecture 017-211700281-20180427-35-AR, reçu le 7 mai 2018",
+      "acces": "libre",
+      "consulte_le": "2026-09-13"
+    },
+    {
+      "id": "rapportage-baignade-datagouv",
+      "type": "base_publique",
+      "auteur": "Ministère chargé de la Santé",
+      "titre": "Données de rapportage de la saison balnéaire",
+      "date": "2026",
+      "url": "https://www.data.gouv.fr/fr/datasets/57fce28ac751df0e4079df72/",
+      "reference": "jeu 57fce28ac751df0e4079df72, fichiers nationaux annuels 2013-2019 et CSV 2020-2021",
+      "acces": "libre",
+      "licence": "Licence Ouverte",
+      "consulte_le": "2026-09-13"
+    },
+    {
+      "id": "ars17-bilan-baignade-2017",
+      "type": "base_publique",
+      "auteur": "ARS Nouvelle-Aquitaine, délégation départementale de la Charente-Maritime, Sophie Pinchon",
+      "titre": "Qualité des eaux de baignades en Charente-Maritime, bilan de la saison 2017",
+      "date": "2017-11",
+      "url": "https://www.nouvelle-aquitaine.ars.sante.fr/media/23093/download",
+      "page": "22",
+      "acces": "libre",
+      "consulte_le": "2026-09-13"
+    },
+    {
+      "id": "ars17-bilan-baignade-2019",
+      "type": "base_publique",
+      "auteur": "ARS Nouvelle-Aquitaine, délégation départementale de la Charente-Maritime",
+      "titre": "Qualité des eaux de baignades en Charente-Maritime, bilan de la saison 2019",
+      "date": "2019",
+      "url": "https://www.nouvelle-aquitaine.ars.sante.fr/media/60271/download",
+      "acces": "libre",
+      "consulte_le": "2026-09-13"
+    },
+    {
+      "id": "these-ndione-2022",
+      "type": "etude_scientifique",
+      "auteur": "Méry Ndione, La Rochelle Université, laboratoire LIENSs, direction Hélène Agogué et Luc Vacher",
+      "titre": "Dynamique et identification des sources de contamination fécale dans un espace littoral connaissant des pratiques de tourisme et de loisirs : l'exemple de la baie d'Aytré",
+      "date": "2022-01-21",
+      "url": "https://theses.fr/2022LAROS006",
+      "acces": "libre",
+      "consulte_le": "2026-09-13"
+    },
+    {
+      "id": "aytre-page-baignade-2026",
+      "type": "communication_institutionnelle",
+      "auteur": "Ville d'Aytré",
+      "titre": "Baignade à Aytré : la municipalité mobilisée",
+      "date": "2026-07",
+      "url": "https://www.aytre.fr/actualite/baignade-a-aytre/",
+      "acces": "libre",
+      "consulte_le": "2026-09-13"
+    },
+    {
+      "id": "reflets-2023-baignade-aytre",
+      "type": "presse",
+      "auteur": "Reflets",
+      "titre": "Baignade interdite à Aytré",
+      "date": "2023-06-21",
+      "url": "https://reflets.info/articles/baignade-interdite-a-aytre-4-tous-a-la-plage",
+      "acces": "payant",
+      "consulte_le": "2026-09-13"
+    }
+  ]
+}

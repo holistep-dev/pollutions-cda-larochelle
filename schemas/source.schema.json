@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pollutions-cda.fr/schemas/source.schema.json",
+  "title": "Source",
+  "type": "object",
+  "required": ["id", "type", "auteur", "titre", "date", "acces"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "$ref": "defs.schema.json#/$defs/slug" },
+    "type": { "$ref": "defs.schema.json#/$defs/type_source" },
+    "auteur": { "type": "string" },
+    "titre": { "type": "string" },
+    "date": { "$ref": "defs.schema.json#/$defs/date_floue" },
+    "url": { "type": "string", "format": "uri" },
+    "page": { "type": "string", "description": "Numéro ou plage de pages quand la source est un PDF." },
+    "reference": { "type": "string", "description": "Numéro d'arrêté, identifiant BASOL, SIS, accusé de réception." },
+    "acces": { "enum": ["libre", "payant", "sur_demande", "non_publie"] },
+    "licence": { "type": "string", "description": "Licence de republication quand elle existe, par exemple Licence Ouverte 2.0." },
+    "copie_locale": { "type": "string", "description": "Chemin dans /public/sources quand le document est archivé dans le dépôt." },
+    "consulte_le": { "$ref": "defs.schema.json#/$defs/date" }
+  }
+}

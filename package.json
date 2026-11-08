@@ -1,0 +1,23 @@
+{
+  "name": "pollutions-cda-larochelle",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "build:data": "node scripts/build-geojson.mjs",
+    "dev": "next dev",
+    "build": "npm run validate && npm run build:data && next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "maplibre-gl": "^5.0.0",
+    "next": "^15.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1"
+  }
+}

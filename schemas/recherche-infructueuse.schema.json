@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pollutions-cda.fr/schemas/recherche-infructueuse.schema.json",
+  "title": "Recherche infructueuse",
+  "description": "Résultat négatif versionné et publié. Ce qui a été cherché, où, avec quelle requête, et ce qui reste.",
+  "type": "object",
+  "required": ["id", "objet", "volet", "date", "bases_interrogees", "resultat", "statut"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "pattern": "^RI-[0-9]{2,4}$" },
+    "objet": { "type": "string" },
+    "volet": { "enum": ["eau_baignade", "sols", "eau_potable", "air", "sediment_marin", "sante", "transverse"] },
+    "date": { "$ref": "defs.schema.json#/$defs/date" },
+    "bases_interrogees": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+    "requetes": { "type": "array", "items": { "type": "string" } },
+    "resultat": { "type": "string" },
+    "statut": { "enum": ["non_trouve", "resolu", "partiellement_resolu", "identifie_non_recupere", "sans_objet", "correction"] },
+    "consequence": { "type": "string", "description": "Ce que ce résultat interdit d'écrire." },
+    "ou_chercher_ensuite": { "type": "string" },
+    "sites_lies": { "type": "array", "items": { "$ref": "defs.schema.json#/$defs/slug" } }
+  }
+}

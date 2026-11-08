@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pollutions-cda.fr/schemas/baignade-serie.schema.json",
+  "title": "Série baignade",
+  "description": "Classements annuels et prélèvements d'un site de baignade. Une entrée par site, rattachée à une fiche site de catégorie eau_baignade.",
+  "type": "object",
+  "required": ["site", "id_site_sise", "classements", "sources"],
+  "additionalProperties": false,
+  "properties": {
+    "site": { "$ref": "defs.schema.json#/$defs/slug" },
+    "id_site_sise": { "type": "string" },
+    "code_rapportage_ue": { "type": "string" },
+    "classements": {
+      "type": "object",
+      "description": "Clé = saison. null = pas de classement cette saison, motif obligatoire.",
+      "patternProperties": {
+        "^(19|20)[0-9]{2}$": {
+          "oneOf": [
+            { "enum": ["Excellent", "Bon", "Suffisant", "Insuffisant"] },
+            { "type": "null" }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "motif_absence_classement": {
+      "type": "string",
+      "description": "Obligatoire dès qu'un classement vaut null. Par exemple : site retiré du contrôle sanitaire après interdiction de baignade."
+    },
+    "classements_source_alternative": {
+      "type": "object",
+      "description": "Seconde série quand deux sources officielles divergent. La divergence est affichée, pas arbitrée en silence.",
+      "additionalProperties": true
+    },
+    "evenements_declares": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["saison", "type", "debut", "fin"],
+        "additionalProperties": false,
+        "properties": {
+          "saison": { "type": "integer" },
+          "type": { "enum": ["pollution à court terme", "situation anormale"] },
+          "debut": { "$ref": "defs.schema.json#/$defs/date" },
+          "fin": { "$ref": "defs.schema.json#/$defs/date" }
+        }
+      }
+    },
+    "prelevements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["date"],
+        "additionalProperties": false,
+        "properties": {
+          "date": { "$ref": "defs.schema.json#/$defs/date" },
+          "saison": { "type": "integer" },
+          "enterocoques_ufc_100ml": { "type": ["number", "null"] },
+          "escherichia_coli_ufc_100ml": { "type": ["number", "null"] },
+          "commentaire": { "type": "string" }
+        }
+      }
+    },
+    "fermetures": {
+      "type": "array",
+      "description": "Arrêtés de fermeture temporaire, distincts des classements.",
+      "items": {
+        "type": "object",
+        "required": ["debut", "source"],
+        "additionalProperties": false,
+        "properties": {
+          "debut": { "$ref": "defs.schema.json#/$defs/date" },
+          "fin": { "oneOf": [{ "$ref": "defs.schema.json#/$defs/date" }, { "type": "null" }] },
+          "motif_declare": { "type": "string" },
+          "conclusion_analyses": { "type": "string" },
+          "source": { "$ref": "defs.schema.json#/$defs/slug" }
+        }
+      }
+    },
+    "sources": { "type": "array", "minItems": 1, "items": { "$ref": "defs.schema.json#/$defs/slug" } }
+  }
+}

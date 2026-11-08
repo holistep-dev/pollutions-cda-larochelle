@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pollutions-cda.fr/schemas/restriction-usage.schema.json",
+  "title": "Restriction d'usage",
+  "description": "Ce qu'un habitant n'a pas le droit de faire, ou ce qui lui est déconseillé par une autorité. N'est pas un site pollué.",
+  "type": "object",
+  "required": ["id", "libelle", "nature", "autorite", "portee", "statut", "date_debut", "sources"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "$ref": "defs.schema.json#/$defs/slug" },
+    "libelle": { "type": "string" },
+    "nature": { "enum": ["interdiction", "recommandation", "classement_sanitaire"] },
+    "objet": { "enum": ["peche_coquillages", "baignade", "culture_potagere", "consommation_eau", "acces_site", "autre"] },
+    "autorite": { "type": "string" },
+    "portee": {
+      "type": "object",
+      "required": ["communes"],
+      "additionalProperties": false,
+      "properties": {
+        "communes": { "type": "array", "items": { "$ref": "defs.schema.json#/$defs/code_insee" } },
+        "libelle_zone": { "type": "string" },
+        "geometry": { "$ref": "defs.schema.json#/$defs/geometry" },
+        "precision_geo": { "$ref": "defs.schema.json#/$defs/precision_geo" }
+      }
+    },
+    "motif_declare": { "type": "string", "description": "Motif écrit dans l'acte. Microbiologique, chimique, phycotoxines. Jamais déduit." },
+    "statut": { "enum": ["en_vigueur", "levee", "inconnue"] },
+    "date_debut": { "$ref": "defs.schema.json#/$defs/date_floue" },
+    "date_fin": { "oneOf": [{ "$ref": "defs.schema.json#/$defs/date_floue" }, { "type": "null" }] },
+    "sources": { "type": "array", "minItems": 1, "items": { "$ref": "defs.schema.json#/$defs/slug" } },
+    "sites_lies": { "type": "array", "items": { "$ref": "defs.schema.json#/$defs/slug" } }
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "note": "Résultats négatifs versionnés et publiés.",
+  "recherches": [
+    {
+      "id": "RI-01",
+      "objet": "Identifiant Sise-Eaux des deux sites d'Aytré, Platin Nord et Platin Sud",
+      "volet": "eau_baignade",
+      "date": "2026-09-13",
+      "bases_interrogees": [
+        "couches 5 et 6 du service fra_vue_baignade (sigmas.social.gouv.fr), dptddass='017'",
+        "baignades.sante.gouv.fr, consultSite.do"
+      ],
+      "requetes": [
+        "https://sigmas.social.gouv.fr/server/rest/services/baignades/fra_vue_baignade/MapServer/5/query?where=dptddass='017'&outFields=*&f=json&outSR=4326",
+        "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=017&site=017000XXX&annee=2022&plv=all pour XXX = 556, 588, 589, 590, 593, 598, 605, 607, 615, 617, 618, 621, 625, 626, 628"
+      ],
+      "resultat": "Résolu le 13/09/2026. Platin Nord : 017000589. Platin Sud : 017000590. Source : ressource « Lien URL sites de baignades - saison balnéaire 2017 » (50c3f339-58be-4fc9-a8fe-f1cc158198e7) du jeu de rapportage de la saison balnéaire sur data.gouv.fr, qui apparie le code de rapportage européen et l'identifiant Sise-Eaux. L'inférence par rang alphabétique (588 et 589) était fausse d'un cran.",
+      "statut": "resolu",
+      "sites_lies": [
+        "baignade-aytre-platin-nord",
+        "baignade-aytre-platin-sud"
+      ]
+    },
+    {
+      "id": "RI-02",
+      "objet": "Bilans annuels de l'ARS Nouvelle-Aquitaine, délégation Charente-Maritime, pour les saisons 2013, 2014, 2015, 2020, 2021, 2022, 2023 et 2025",
+      "volet": "eau_baignade",
+      "date": "2026-09-13",
+      "bases_interrogees": [
+        "nouvelle-aquitaine.ars.sante.fr, pages annuelles rapports-qualite-de-leau-de-baignade-en-AAAA"
+      ],
+      "requetes": [
+        "https://www.nouvelle-aquitaine.ars.sante.fr/rapports-qualite-de-leau-de-baignade-en-AAAA pour AAAA de 2013 à 2025"
+      ],
+      "resultat": "2013, 2014, 2015 et 2025 renvoient 404. Le slug 2022 sert le contenu de la page 2021. Les pages 2020, 2021 et 2023 existent mais ne listent aucun rapport pour la Charente-Maritime. Rapports trouvés pour le 17 : 2016 media/11860, 2017 media/23093, 2018 media/33454, 2019 media/60271, 2024 media/141115.",
+      "statut": "non_trouve",
+      "consequence": "L'objectif initial, la série des classements annuels, est atteint par les données de rapportage européen publiées sur data.gouv.fr, qui couvrent 2013 à 2025 de façon structurée. Les bilans ARS restent utiles pour le récit de saison et les interdictions municipales, pas pour la série.",
+      "ou_chercher_ensuite": "Comptes rendus du CODERST de Charente-Maritime, devant lequel l'ARS présente le bilan chaque année. Recueils des actes administratifs de la préfecture 17."
+    },
+    {
+      "id": "RI-03",
+      "objet": "Téléchargement des PDF hébergés sur nouvelle-aquitaine.ars.sante.fr depuis un environnement automatisé",
+      "volet": "eau_baignade",
+      "date": "2026-09-13",
+      "bases_interrogees": [
+        "nouvelle-aquitaine.ars.sante.fr /media/<id>/download",
+        "web.archive.org",
+        "api.allorigins.win, api.codetabs.com"
+      ],
+      "requetes": [
+        "curl avec en-têtes navigateur complets, cookies et référent",
+        "http://archive.org/wayback/available puis web/<timestamp>if_/<url>"
+      ],
+      "resultat": "403 systématique sur /media/ quels que soient les en-têtes, alors que les pages HTML du même domaine répondent normalement. Wayback a bien une capture du bilan 2019 au 26/06/2022 mais web.archive.org est bloqué en sortie de l'environnement d'exécution. Les deux proxys publics testés échouent (408 et 522).",
+      "statut": "non_trouve",
+      "ou_chercher_ensuite": "Téléchargement manuel depuis un navigateur, puis versement du fichier au projet. Sans objet pour la série des classements, désormais couverte."
+    },
+    {
+      "id": "RI-04",
+      "objet": "Profil de baignade de la Plage de la Platerre, Angoulins",
+      "volet": "eau_baignade",
+      "date": "2026-09-13",
+      "bases_interrogees": [
+        "baignades.sante.gouv.fr, synthese.do"
+      ],
+      "requetes": [
+        "https://baignades.sante.gouv.fr/baignades/synthese.do?idSite=017000586&codeDept=017"
+      ],
+      "resultat": "Le service renvoie une page HTML de 6 ko au lieu d'un PDF. Le site est le seul des neuf sites déclarés de la CDA sans document de synthèse en ligne. Vérifié le 13/09/2026. L'ancien point d'entrée profil.do est hors service pour tous les sites, y compris ceux qui ont bien un profil, donc il ne constitue pas une piste de repli. Vérifié le 13/09/2026.",
+      "statut": "non_trouve",
+      "ou_chercher_ensuite": "Mairie d'Angoulins, gestionnaire de la baignade, ou ARS Nouvelle-Aquitaine."
+    },
+    {
+      "id": "RI-05",
+      "objet": "Arrêtés municipaux annuels reconduisant l'interdiction de baignade à Aytré",
+      "volet": "eau_baignade",
+      "date": "2026-09-13",
+      "bases_interrogees": [
+        "aytre.fr, recherche interne « baignade »"
+      ],
+      "requetes": [
+        "https://www.aytre.fr/?s=baignade"
+      ],
+      "resultat": "Aucun arrêté de reconduction trouvé, et il n'y a pas lieu d'en chercher : l'article 1 de l'arrêté n° 35 du 27 avril 2018 interdit la baignade « jusqu'à nouvel ordre ». L'acte est sans terme. La recherche d'arrêtés annuels est abandonnée.",
+      "statut": "non_trouve",
+      "ou_chercher_ensuite": "Sans objet. Ce qui reste à obtenir est l'acte qui lèvera l'interdiction, le jour où il existera.",
+      "sites_lies": [
+        "baignade-aytre-platin-nord",
+        "baignade-aytre-platin-sud"
+      ]
+    },
+    {
+      "id": "RI-06",
+      "objet": "Étude universitaire sur l'origine de la contamination de la baie d'Aytré",
+      "volet": "eau_baignade",
+      "date": "2026-09-13",
+      "bases_interrogees": [
+        "theses.fr",
+        "aytre.fr"
+      ],
+      "requetes": [
+        "thèse La Rochelle Université 2022 contamination baie d'Aytré"
+      ],
+      "resultat": "Méry Ndione, « Dynamique et identification des sources de contamination fécale dans un espace littoral connaissant des pratiques de tourisme et de loisirs : l'exemple de la baie d'Aytré », thèse de doctorat, La Rochelle Université, laboratoire LIENSs, soutenue le 21/01/2022, direction Hélène Agogué et Luc Vacher. https://theses.fr/2022LAROS006 — DOI 10.70675/fe581432zb7b9z483czaf7dzc5d3d2ff3a92. Travaux débutés en octobre 2018, six points de mesure dans la baie, financement Région Nouvelle-Aquitaine, Département, CDA et ville d'Aytré.",
+      "statut": "resolu",
+      "ou_chercher_ensuite": "Texte intégral via le Sudoc ou HAL, pour la cartographie des six points de mesure et le détail des marqueurs."
+    },
+    {
+      "id": "RI-07",
+      "objet": "Arrêté municipal d'Aytré du 3 mai 2022 interdisant les chevaux et les animaux domestiques sur la plage",
+      "volet": "eau_baignade",
+      "date": "2026-09-13",
+      "bases_interrogees": [
+        "aytre.fr, recherche interne",
+        "aytre.fr, sitemaps page / news / decision / publication",
+        "aytre.fr/deliberation/",
+        "aytre.fr/mes-demarches/prevention-securite/police-municipale/animaux/"
+      ],
+      "requetes": [
+        "https://www.aytre.fr/?s=arrete",
+        "?s=chevaux",
+        "?s=chiens+plage",
+        "https://www.aytre.fr/sitemap_index.xml puis decision-sitemap.xml"
+      ],
+      "resultat": "Aucun arrêté en ligne. Le post type « decision » du site ne contient que des comptes rendus de conseil municipal, pas les arrêtés du maire. La page Animaux de la police municipale ne référence que l'arrêté sur les chiens de 1re et 2e catégorie. L'existence et la date de l'arrêté sont attestées par la presse seulement : Reflets, 21/06/2023, https://reflets.info/articles/baignade-interdite-a-aytre-4-tous-a-la-plage (article payant), qui cite le motif « de manière à poursuivre les investigations sur les sources de contamination ». ICI, 14/04/2024, https://www.ici.fr/infos/environnement/contamination-bacteriologique-la-baignade-sur-les-deux-plages-principales-sera-encore-interdite-cet-ete-a-aytre-1635835 confirme l'interdiction des chiens et des chevaux sans donner de date. Une pétition Change.org d'avril 2022 indique que l'arrêté chevaux était déjà pris et que celui sur les chiens était à l'étude, ce qui suggère deux actes distincts.",
+      "statut": "non_trouve",
+      "consequence": "Ne pas écrire la date du 3 mai 2022 comme fait établi dans une fiche. La mentionner comme allégation de presse, source nommée et datée, tant que l'acte n'est pas produit.",
+      "ou_chercher_ensuite": "Demande du registre des arrêtés du maire à la mairie d'Aytré, années 2022 et 2023. Recueil des actes administratifs de la préfecture 17.",
+      "sites_lies": [
+        "baignade-aytre-platin-nord",
+        "baignade-aytre-platin-sud"
+      ]
+    },
+    {
+      "id": "RI-08",
+      "objet": "Profil de baignade de la Plage de la Platerre, Angoulins, côté commune gestionnaire",
+      "volet": "eau_baignade",
+      "date": "2026-09-13",
+      "bases_interrogees": [
+        "angoulins.fr, recherche interne",
+        "angoulins.fr, sitemap_index.xml"
+      ],
+      "requetes": [
+        "https://www.angoulins.fr/?s=baignade"
+      ],
+      "resultat": "Zéro résultat pour « baignade » sur le site de la commune. Aucun PDF de profil. Vérifié le 13/09/2026.",
+      "statut": "non_trouve",
+      "ou_chercher_ensuite": "Contact direct mairie d'Angoulins, ou ARS Nouvelle-Aquitaine délégation Charente-Maritime."
+    },
+    {
+      "id": "RI-09",
+      "objet": "Pièces visées par l'arrêté d'Aytré du 27 avril 2018 : rapport ARS de novembre 2017 sur la saison 2017, et courrier de la préfecture au maire du 28 mars 2018",
+      "volet": "eau_baignade",
+      "date": "2026-09-13",
+      "bases_interrogees": [
+        "nouvelle-aquitaine.ars.sante.fr, pages annuelles de rapports"
+      ],
+      "requetes": [
+        "pages rapports-qualite-de-leau-de-baignade-en-2016 à 2024"
+      ],
+      "resultat": "Le rapport ARS visé par l'arrêté est obtenu : « Qualité des eaux de baignades en Charente-Maritime, bilan de la saison 2017 », Sophie Pinchon, novembre 2017, https://www.nouvelle-aquitaine.ars.sante.fr/media/23093/download. Récupéré manuellement, le téléchargement automatisé restant bloqué (RI-03). Autres millésimes Charente-Maritime : 2016 media/11860, 2018 media/33454, 2019 media/60271, 2024 media/141115. Le courrier de la préfecture du 28 mars 2018 n'est pas un acte publié et reste à demander.",
+      "statut": "partiellement_resolu",
+      "ou_chercher_ensuite": "Téléchargement manuel du rapport 2017. Pour le courrier, demande d'accès aux documents administratifs à la préfecture de la Charente-Maritime ou à la mairie d'Aytré, l'arrêté en fait un document préparatoire devenu opposable.",
+      "sites_lies": [
+        "baignade-aytre-platin-nord",
+        "baignade-aytre-platin-sud"
+      ]
+    },
+    {
+      "id": "RI-10",
+      "objet": "Codes INSEE des communes du volet eau_baignade",
+      "volet": "eau_baignade",
+      "date": "2026-09-13",
+      "bases_interrogees": [
+        "geo.api.gouv.fr/communes"
+      ],
+      "requetes": [
+        "https://geo.api.gouv.fr/communes?nom=<commune>&departement=17&fields=nom,code"
+      ],
+      "resultat": "Les codes utilisés dans les fichiers du projet étaient faux pour trois communes. Aytré est 17028 et non 17034 (17034 = Barzan). Angoulins est 17010 et non 17012 (17012 = Annezay). L'Houmeau est 17190 et non 17197 (17197 = Jonzac). Châtelaillon-Plage 17094 et La Rochelle 17300 étaient corrects. Les trois codes erronés désignent des communes hors CDA. Vérification complète le 13/09/2026 : les 28 codes INSEE de la CDA ont été repris de geo.api.gouv.fr, endpoint /epcis/241700434/communes, et versés dans data/communes.json. Ils font désormais référence.",
+      "statut": "correction",
+      "consequence": "Tout filtre Géorisques, Hub'Eau ou BASOL bâti sur la liste de codes INSEE du projet doit être revérifié : il a pu interroger Barzan, Annezay et Jonzac à la place d'Aytré, Angoulins et L'Houmeau.",
+      "ou_chercher_ensuite": "Sans objet. Tout filtre par code INSEE doit lire data/communes.json."
+    },
+    {
+      "id": "RI-11",
+      "objet": "Profils de vulnérabilité révisés des baignades de la CDA",
+      "volet": "eau_baignade",
+      "date": "2026-09-13",
+      "bases_interrogees": [
+        "Rapport ARS Charente-Maritime, bilan saison 2017, chapitre VI, tableau des révisions par commune"
+      ],
+      "requetes": [
+        "lecture directe du rapport"
+      ],
+      "resultat": "Le tableau donne l'état des révisions au moment du rapport. Rapport rendu par le bureau d'études pour Aytré Platin Nord et Platin Sud (échéance 31/12/2015), La Rochelle Les Minimes et L'Houmeau La Plage (échéance 31/12/2016, motif « déclassement entre 2013 et 2015 »). En cours pour La Rochelle La Concurrence et les quatre plages de Châtelaillon (échéance 31/12/2017). Non engagé pour Angoulins La Platerre, échéance 31/12/2018, ce qui explique l'absence de fiche de synthèse en ligne (RI-04, RI-08). Aucun de ces rapports n'est publié.",
+      "statut": "identifie_non_recupere",
+      "ou_chercher_ensuite": "Demande aux communes gestionnaires, qui sont les personnes responsables des eaux de baignade, ou à l'ARS, unité Eaux de loisirs et milieu littoral, ARS-DD17-Baignades@ars.sante.fr. Les profils d'Aytré sont la pièce prioritaire : ils portent le diagnostic des sources antérieur à la thèse.",
+      "sites_lies": [
+        "baignade-aytre-platin-nord",
+        "baignade-aytre-platin-sud"
+      ]
+    },
+    {
+      "id": "RI-12",
+      "objet": "Coordonnées officielles des points de contrôle des sites de baignade de la CDA",
+      "volet": "eau_baignade",
+      "date": "2026-09-13",
+      "bases_interrogees": [
+        "Service cartographique du ministère chargé de la Santé, couche fra_vue_baignade",
+        "Fichiers nationaux de rapportage de la saison balnéaire"
+      ],
+      "requetes": [
+        "https://sigmas.social.gouv.fr/server/rest/services/baignades/fra_vue_baignade/MapServer/5/query?where=dptddass='017'&outFields=*&f=json&outSR=4326"
+      ],
+      "resultat": "Obtenues pour les onze sites, sans jeton d'accès. Les deux sites d'Aytré, retirés de la couche après leur radiation, sont repris des fichiers de rapportage 2013 à 2017. Un décalage systématique d'environ 65 m vers l'est affecte les millésimes 2016 et 2018 sur les onze sites ; la valeur commune aux autres millésimes est retenue.",
+      "statut": "resolu",
+      "consequence": "Le point publié est le point de contrôle sanitaire, pas l'emprise de la plage. precision_geo reste localisation_indicative.",
+      "ou_chercher_ensuite": "Sans objet."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "baignade-aytre-platin-nord",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.127114,
+          46.125193
+        ]
+      },
+      "properties": {
+        "id": "baignade-aytre-platin-nord",
+        "nom": "Plage du Platin Nord",
+        "commune": "Aytré",
+        "code_insee": "17028",
+        "categorie": "eau_baignade",
+        "theme": "eaux_baignade",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 150,
+        "statut_preuve": "mesure_publiee",
+        "procedure_en_cours": true,
+        "statut_traitement": "sous_surveillance",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "baignade-aytre-platin-sud",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.123804,
+          46.116694
+        ]
+      },
+      "properties": {
+        "id": "baignade-aytre-platin-sud",
+        "nom": "Plage du Platin Sud",
+        "commune": "Aytré",
+        "code_insee": "17028",
+        "categorie": "eau_baignade",
+        "theme": "eaux_baignade",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 150,
+        "statut_preuve": "mesure_publiee",
+        "procedure_en_cours": true,
+        "statut_traitement": "sous_surveillance",
+        "visible_par_defaut": true
+      }
+    }
+  ]
+}

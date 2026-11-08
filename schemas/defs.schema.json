@@ -1,0 +1,138 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pollutions-cda.fr/schemas/defs.schema.json",
+  "title": "Définitions partagées",
+  "$defs": {
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "minLength": 3,
+      "maxLength": 80
+    },
+    "code_insee": {
+      "type": "string",
+      "pattern": "^17[0-9]{3}$",
+      "description": "Contrôlé contre data/communes.json par le validateur, pas par le schéma."
+    },
+    "date": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "date_floue": {
+      "type": "string",
+      "pattern": "^([0-9]{4}|[0-9]{3}X|[0-9]{4}-[0-9]{2}|[0-9]{4}-[0-9]{2}-[0-9]{2})$",
+      "description": "EDTF allégé. 1899 = année. 196X = décennie 1960. 2024-07 = mois. 2024-07-12 = jour."
+    },
+    "periode": {
+      "type": "object",
+      "description": "Bornes floues autorisées. Une borne nulle doit être qualifiée par son statut.",
+      "properties": {
+        "debut": {
+          "oneOf": [{ "$ref": "#/$defs/date_floue" }, { "type": "null" }]
+        },
+        "debut_statut": {
+          "enum": ["datee", "inconnue"]
+        },
+        "fin": {
+          "oneOf": [{ "$ref": "#/$defs/date_floue" }, { "type": "null" }]
+        },
+        "fin_statut": {
+          "enum": ["datee", "en_cours", "inconnue"]
+        },
+        "note": { "type": "string", "maxLength": 300 }
+      },
+      "required": ["debut", "debut_statut", "fin", "fin_statut"],
+      "additionalProperties": false
+    },
+    "precision_geo": {
+      "enum": ["emprise_cadastrale", "perimetre_approximatif", "localisation_indicative", null],
+      "description": "null seulement si geometry est null."
+    },
+    "categorie": {
+      "enum": [
+        "decharge",
+        "projet_decharge",
+        "friche_sol_pollue",
+        "ressource_eau",
+        "eau_baignade",
+        "sediment_marin",
+        "air",
+        "inventaire_historique"
+      ]
+    },
+    "milieu": {
+      "enum": ["sol", "eau_souterraine", "eau_superficielle", "eau_distribuee", "sediment_marin", "air"]
+    },
+    "statut_preuve": {
+      "enum": ["mesure_publiee", "diagnostic_administratif", "procedure_en_cours", "signalement_non_instruit"],
+      "description": "Valeur unique, la plus forte que les sources justifient."
+    },
+    "statut_traitement": {
+      "enum": ["non_traite", "sous_surveillance", "travaux_en_cours", "rehabilite", "inconnu"]
+    },
+    "type_source": {
+      "enum": [
+        "arrete_prefectoral",
+        "arrete_municipal",
+        "decision_justice",
+        "deliberation",
+        "base_publique",
+        "etude_scientifique",
+        "communication_institutionnelle",
+        "presse",
+        "publication_associative",
+        "temoignage"
+      ]
+    },
+    "geometry": {
+      "description": "GeoJSON restreint. null accepté pour un site connu sans localisation.",
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "properties": {
+            "type": { "enum": ["Point"] },
+            "coordinates": {
+              "type": "array",
+              "items": { "type": "number" },
+              "minItems": 2,
+              "maxItems": 2
+            }
+          },
+          "required": ["type", "coordinates"],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": { "enum": ["Polygon"] },
+            "coordinates": {
+              "type": "array",
+              "items": {
+                "type": "array",
+                "minItems": 4,
+                "items": {
+                  "type": "array",
+                  "items": { "type": "number" },
+                  "minItems": 2,
+                  "maxItems": 2
+                }
+              }
+            }
+          },
+          "required": ["type", "coordinates"],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": { "enum": ["MultiPolygon"] },
+            "coordinates": { "type": "array" }
+          },
+          "required": ["type", "coordinates"],
+          "additionalProperties": false
+        }
+      ]
+    }
+  }
+}
