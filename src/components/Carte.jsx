@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
-import { COULEURS, cleIcone, iconeSite, svgGrappe, svgIcone, urlIcone } from "../lib/icones";
+import { COULEURS, cleIcone, iconeSite, svgIcone, urlIcone } from "../lib/icones";
 import {
   Definition, ETATS_EAU, ETATS_PLAGE, PanneauAgri, PanneauCaptage, PanneauCommune, PanneauNature, PanneauRobinet, PanneauSignal, PanneauSite, nb,
 } from "./Panneaux";
@@ -65,24 +65,50 @@ async function chargerSvg(m, cle, svg) {
 }
 const chargerIcone = (m, cle, o) => chargerSvg(m, cle, svgIcone(o));
 
-// Repères presque superposés (moins de 50 m) : écartés en cercle autour de leur position moyenne.
-function ecarter(features) {
-  const groupes = [];
-  for (const f of features) {
-    const [x, y] = f.geometry.coordinates;
-    const g = groupes.find((g) => Math.hypot((g.x - x) * 77000, (g.y - y) * 111000) < 50);
-    if (g) g.f.push(f);
-    else groupes.push({ x, y, f: [f] });
+// Taille affichée d'un pictogramme selon le zoom, en pixels (image de 48 px à l'échelle 1).
+const TAILLES = [[9, 0.6], [12, 0.7], [15, 0.85]];
+// Sur petit écran, pictogrammes réduits pour que la vue d'ensemble reste lisible.
+const facteur = (m) => (m.getContainer().clientWidth < 600 ? 0.72 : 1);
+const tailleExpr = (f) => ["interpolate", ["linear"], ["zoom"], ...TAILLES.flatMap(([z, s]) => [z, s * f])];
+function echelle(z) {
+  if (z <= TAILLES[0][0]) return TAILLES[0][1];
+  for (let k = 1; k < TAILLES.length; k++) {
+    const [z0, s0] = TAILLES[k - 1], [z1, s1] = TAILLES[k];
+    if (z <= z1) return s0 + ((s1 - s0) * (z - z0)) / (z1 - z0);
   }
-  for (const g of groupes) {
-    if (g.f.length < 2) continue;
-    const r = 30 + 6 * g.f.length;
-    g.f.forEach((f, i) => {
-      const a = (2 * Math.PI * i) / g.f.length - Math.PI / 2;
-      f.geometry = { type: "Point", coordinates: [g.x + (r * Math.cos(a)) / 77000, g.y + (r * Math.sin(a)) / 111000] };
-    });
+  return TAILLES.at(-1)[1];
+}
+
+// Écarte les pictogrammes qui se chevauchent à l'écran, au zoom courant, et relie chacun à sa vraie position.
+function etaler(m, features) {
+  const d = 48 * echelle(m.getZoom()) * facteur(m) * 0.95;
+  const pts = features.map((f, i) => {
+    const q = m.project(f.geometry.coordinates);
+    return { f, x0: q.x, y0: q.y, x: q.x + Math.cos(i * 2.4) * 0.01, y: q.y + Math.sin(i * 2.4) * 0.01 };
+  });
+  for (let it = 0; it < 80; it++) {
+    let bouge = false;
+    for (let a = 0; a < pts.length; a++) for (let b = a + 1; b < pts.length; b++) {
+      const A = pts[a], B = pts[b];
+      const dx = B.x - A.x, dy = B.y - A.y, l = Math.hypot(dx, dy);
+      if (l >= d) continue;
+      const k = (d - l) / 2 / (l || 1);
+      A.x -= dx * k; A.y -= dy * k; B.x += dx * k; B.y += dy * k;
+      bouge = true;
+    }
+    for (const P of pts) { P.x += (P.x0 - P.x) * 0.02; P.y += (P.y0 - P.y) * 0.02; }
+    if (!bouge) break;
   }
-  return features;
+  const points = [], liens = [];
+  for (const P of pts) {
+    const ll = m.unproject([P.x, P.y]).toArray();
+    points.push({ ...P.f, geometry: { type: "Point", coordinates: ll } });
+    if (Math.hypot(P.x - P.x0, P.y - P.y0) > 6) {
+      liens.push({ type: "Feature", properties: {}, geometry: { type: "LineString", coordinates: [P.f.geometry.coordinates, ll] } });
+      liens.push({ type: "Feature", properties: { origine: true }, geometry: P.f.geometry });
+    }
+  }
+  return { points: { type: "FeatureCollection", features: points }, liens: { type: "FeatureCollection", features: liens } };
 }
 
 // Monde moins la commune : voile blanc qui isole la commune choisie.
@@ -108,6 +134,8 @@ export default function Carte({ bandeau }) {
   const [actifs, setActifs] = useState({ sol: true, eau: true, air: true, sante: true, agriculture: false, nature: false });
   const [focus, setFocus] = useState(null);
   const focusRef = useRef(null);
+  const visiblesRef = useRef([]);
+  const redessiner = useRef(null);
   focusRef.current = focus;
   const [nature, setNature] = useState(null);
   const [recherche, setRecherche] = useState("");
@@ -137,7 +165,7 @@ export default function Carte({ bandeau }) {
         }
         // Une seule source pour tous les pictogrammes, regroupés quand ils se chevauchent.
         const pt = (f, couche, extra) => ({ type: "Feature", geometry: f.geometry, properties: { ...f.properties, iconeDef: undefined, couche, ...extra } });
-        d.points = ecarter([
+        d.points = ([
           ...d.reperes.features.map((f) => pt(f, "site")),
           ...(d.robinets?.points.features ?? []).map((f) => pt(f, "robinet", { communes: f.properties.code_insee })),
           ...(d.captages?.features ?? []).map((f) => pt(f, "captage", { icone: "captage" })),
@@ -184,18 +212,10 @@ export default function Carte({ bandeau }) {
       m.addSource("communes", { type: "geojson", data: donnees.communes });
       m.addSource("signaux", { type: "geojson", data: donnees.signaux });
       m.addSource("surfaces", { type: "geojson", data: donnees.surfaces });
-      m.addSource("points", { type: "geojson", data: { type: "FeatureCollection", features: [] }, cluster: true, clusterRadius: 40, clusterMaxZoom: 15 });
+      m.addSource("points", { type: "geojson", data: { type: "FeatureCollection", features: [] } });
+      m.addSource("liens", { type: "geojson", data: { type: "FeatureCollection", features: [] } });
       m.addSource("captages", { type: "geojson", data: donnees.captages ?? { type: "FeatureCollection", features: [] } });
       m.addSource("masque", { type: "geojson", data: { type: "FeatureCollection", features: [] } });
-      m.on("styleimagemissing", (e) => {
-        const n = /^grappe-(\d+)$/.exec(e.id);
-        if (!n) return;
-        // Image provisoire synchrone, remplacée dès que le SVG est décodé.
-        m.addImage(e.id, { width: 1, height: 1, data: new Uint8Array(4) });
-        const img = new Image(96, 96);
-        img.src = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(svgGrappe(+n[1]));
-        img.decode().then(() => { m.removeImage(e.id); m.addImage(e.id, img, { pixelRatio: 2 }); });
-      });
 
       const famille = ["get", "famille"];
       m.addLayer({
@@ -237,15 +257,13 @@ export default function Carte({ bandeau }) {
         id: "captages-selection", type: "circle", source: "captages", filter: ["in", ["get", "code"], ["literal", []]],
         paint: { "circle-radius": 34, "circle-color": "rgba(3,105,161,0.18)", "circle-stroke-color": COULEURS.eau, "circle-stroke-width": 3 },
       });
-      const taille = ["interpolate", ["linear"], ["zoom"], 9, 0.62, 12, 0.72, 15, 0.85];
+      const taille = tailleExpr(facteur(m));
+      m.addLayer({ id: "liens", type: "line", source: "liens", filter: ["!", ["has", "origine"]], paint: { "line-color": "#0d2b45", "line-width": 1.3, "line-opacity": 0.55 } });
+      m.addLayer({ id: "liens-origine", type: "circle", source: "liens", filter: ["has", "origine"], paint: { "circle-radius": 3, "circle-color": "#0d2b45", "circle-stroke-color": "#fff", "circle-stroke-width": 1 } });
       m.addLayer({
-        id: "points", type: "symbol", source: "points", filter: ["!", ["has", "point_count"]],
+        id: "points", type: "symbol", source: "points", 
         layout: { "icon-image": ["get", "icone"], "icon-size": taille, "icon-allow-overlap": true, "icon-ignore-placement": true },
         paint: { "icon-opacity": ["case", ["==", ["get", "preuve"], "procedure_en_cours"], 0.8, 1] },
-      });
-      m.addLayer({
-        id: "grappes", type: "symbol", source: "points", filter: ["has", "point_count"],
-        layout: { "icon-image": ["concat", "grappe-", ["to-string", ["get", "point_count"]]], "icon-size": taille, "icon-allow-overlap": true, "icon-ignore-placement": true },
       });
       m.addLayer({
         id: "captages-grands", type: "symbol", source: "captages", filter: ["in", ["get", "code"], ["literal", []]],
@@ -256,18 +274,28 @@ export default function Carte({ bandeau }) {
         paint: { "circle-radius": ["interpolate", ["linear"], ["zoom"], 9, 17, 15, 23], "circle-color": "rgba(0,0,0,0)", "circle-stroke-color": "#0d2b45", "circle-stroke-width": 3 },
       });
 
+      redessiner.current = () => {
+        const r = etaler(m, visiblesRef.current);
+        m.getSource("points").setData(r.points);
+        m.getSource("liens").setData(r.liens);
+      };
+      m.on("zoomend", () => redessiner.current());
+      m.on("resize", () => {
+        m.setLayoutProperty("points", "icon-size", tailleExpr(facteur(m)));
+        redessiner.current();
+      });
+
       survol.current = new maplibregl.Popup({ closeButton: false, closeOnClick: false, className: "survol", offset: 16 });
       const visibles = (ids) => ids.filter((id) => m.getLayer(id) && m.getLayoutProperty(id, "visibility") !== "none");
-      const cliquables = () => visibles(["grappes", "points", "surfaces-fond"]);
+      const cliquables = () => visibles(["points", "surfaces-fond"]);
 
       m.on("mousemove", (e) => {
         const f = m.queryRenderedFeatures(e.point, { layers: cliquables() });
         m.getCanvas().style.cursor = f.length ? "pointer" : "";
         if (!f.length) return survol.current.remove();
         const p = f[0].properties;
-        const grappe = f[0].layer.id === "grappes";
-        const titre = grappe ? `${p.point_count} éléments proches` : p.couche === "robinet" ? `Eau du robinet, ${p.nom}` : p.accroche ?? p.nom;
-        const sous = grappe ? "cliquer pour zoomer" : p.couche === "robinet" ? ETATS_EAU[p.etat]?.libelle : p.couche === "captage" ? "captage d'eau potable" : p.type === "baignade" ? ETATS_PLAGE[p.baignade_couleur]?.libelle : p.preuve_libelle;
+        const titre = p.couche === "robinet" ? `Eau du robinet, ${p.nom}` : p.accroche ?? p.nom;
+        const sous = p.couche === "robinet" ? ETATS_EAU[p.etat]?.libelle : p.couche === "captage" ? "captage d'eau potable" : p.type === "baignade" ? ETATS_PLAGE[p.baignade_couleur]?.libelle : p.preuve_libelle;
         survol.current.setLngLat(e.lngLat).setHTML("<b></b><span></span>").addTo(m);
         const el = survol.current.getElement();
         el.querySelector("b").textContent = titre;
@@ -280,11 +308,6 @@ export default function Carte({ bandeau }) {
         const f = m.queryRenderedFeatures(e.point, { layers: cliquables() });
         if (f.length) {
           const p = f[0].properties;
-          if (f[0].layer.id === "grappes") {
-            const geo = f[0].geometry.coordinates;
-            m.getSource("points").getClusterExpansionZoom(p.cluster_id).then((z) => m.easeTo({ center: geo, zoom: Math.min(z + 0.3, 17), duration: 600 }));
-            return;
-          }
           if (p.couche === "robinet") return setSelection({ genre: "robinet", code: p.code_insee });
           if (p.couche === "captage") return setSelection({ genre: "captage", props: p });
           return setSelection({ genre: "site", id: p.id });
@@ -344,7 +367,8 @@ export default function Carte({ bandeau }) {
       if (p.couche === "robinet" || p.couche === "captage") return actifs.eau;
       return types.includes(p.type) && niv.includes(p.preuve) && (rehabilites || !p.rehabilite);
     };
-    m.getSource("points").setData({ type: "FeatureCollection", features: donnees.points.filter((f) => garde(f.properties)) });
+    visiblesRef.current = donnees.points.filter((f) => garde(f.properties));
+    redessiner.current?.();
     const filtre = ["all", ["in", ["get", "type"], ["literal", types]], ["in", ["get", "preuve"], ["literal", niv]]];
     if (!rehabilites) filtre.push(["!", ["get", "rehabilite"]]);
     if (focus) filtre.push(["in", focus, ["get", "communes"]]);
@@ -554,9 +578,7 @@ export default function Carte({ bandeau }) {
                 ))}
                 <li><img src={urlIcone({ glyphe: "captage", fond: COULEURS.eau })} alt="" width="24" height="24" />Captage d&apos;eau potable</li>
               </ul>
-              <ul className="legende">
-                <li><img src={"data:image/svg+xml;charset=utf-8," + encodeURIComponent(svgGrappe(5))} alt="" width="30" height="30" />Plusieurs éléments proches : cliquer pour zoomer</li>
-              </ul>
+              <p className="note">Les pictogrammes trop proches sont écartés ; un trait les relie à leur position réelle, marquée d&apos;un point.</p>
               <h3>Sol et air</h3>
               <ul className="legende">
                 <li><img src={urlIcone({ glyphe: "usine", fond: COULEURS.sols })} alt="" width="24" height="24" />Sol ou nappe pollué, mesuré ou diagnostiqué</li>
