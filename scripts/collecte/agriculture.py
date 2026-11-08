@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Couche de contexte agricole : cultures déclarées à la PAC et parcelles en agriculture biologique.
+"""Couche agricole : parcelles conventionnelles et parcelles en agriculture biologique, par groupe de cultures.
 
-Ce n'est pas une couche de pollution. Elle dit ce qui est cultivé et comment, pas ce qui est mesuré.
-Aucun exploitant n'est nommé : le RPG publié par l'IGN est anonyme, le jeu bio de l'Agence Bio aussi.
+Règle du site (décision du 8 novembre 2026) : une parcelle déclarée à la PAC et absente du jeu bio de l'Agence Bio est
+dite conventionnelle, c'est-à-dire autorisée à recevoir des pesticides de synthèse. Ce n'est pas une mesure de ce qui
+a été épandu sur la parcelle. Aucun exploitant n'est nommé : le RPG publié par l'IGN est anonyme, le jeu bio aussi.
 
 Sources :
   IGN, Registre parcellaire graphique 2023, couche RPG.2023:parcelles_graphiques (WFS data.geopf.fr)
@@ -87,14 +88,33 @@ for blob, grp, ha in con.execute("select geom, grp_culture, surface_ha from code
     surf_bio[grp] += ha
 
 simplifie = lambda g: mapping(transform(lambda x, y, z=None: (round(x, 5), round(y, 5)), g.simplify(0.00004, preserve_topology=True)))
+PRAIRIES = {"Prairies permanentes", "Prairies temporaires", "Fourrage", "Estives et landes"}
+GEL = {"Gel (surfaces gelées sans production)"}
+bio_union = unary_union(bio).buffer(0)
+bio_par_groupe = collections.defaultdict(list)
 features = []
 for code, geoms in sorted(par_groupe.items(), key=lambda kv: -surf[kv[0]]):
-    features.append({"type": "Feature", "geometry": simplifie(unary_union(geoms)),
-                     "properties": {"couche": "culture", "code_groupe": code, "libelle": groupes.get(code, code),
-                                    "surface_ha": round(surf[code])}})
-features.append({"type": "Feature", "geometry": simplifie(unary_union(bio)),
-                 "properties": {"couche": "bio", "libelle": "Parcelles déclarées en agriculture biologique",
-                                "surface_ha": round(sum(surf_bio.values()))}})
+    lib = groupes.get(code, code)
+    famille = "prairies" if lib in PRAIRIES else "gel" if lib in GEL else "cultures"
+    tout = unary_union(geoms).buffer(0)
+    conv = tout.difference(bio_union)
+    biog = tout.intersection(bio_union)
+    if not conv.is_empty:
+        features.append({"type": "Feature", "geometry": simplifie(conv),
+                         "properties": {"couche": "conventionnel", "famille": famille, "code_groupe": code, "libelle": lib,
+                                        "surface_ha": round(surf[code] - surf_bio.get(lib, 0))}})
+    if not biog.is_empty and biog.area > 0:
+        features.append({"type": "Feature", "geometry": simplifie(biog),
+                         "properties": {"couche": "bio", "famille": famille, "code_groupe": code, "libelle": lib,
+                                        "surface_ha": round(surf_bio.get(lib, 0))}})
+
+surf_par_famille = collections.Counter()
+for code, sha in surf.items():
+    lib = groupes.get(code, code)
+    surf_par_famille["prairies" if lib in PRAIRIES else "gel" if lib in GEL else "cultures"] += sha
+bio_par_famille = collections.Counter()
+for lib, ha in surf_bio.items():
+    bio_par_famille["prairies" if lib in PRAIRIES else "gel" if lib in GEL else "cultures"] += ha
 
 (ROOT / "data/agriculture").mkdir(exist_ok=True)
 sortie = {
@@ -104,12 +124,13 @@ sortie = {
         "Agence Bio, Parcelles en agriculture biologique déclarées à la PAC, Nouvelle-Aquitaine, 2023, data.gouv.fr",
     ],
     "annee": 2023,
+    "regle": "Conventionnel : parcelle déclarée à la PAC, hors agriculture biologique. Usage de pesticides de synthèse autorisé. Ce n'est pas une mesure d'épandage.",
     "surface_declaree_ha": round(sum(surf.values())),
     "surface_bio_ha": round(sum(surf_bio.values())),
+    "surface_par_famille_ha": {k: round(v) for k, v in surf_par_famille.items()},
+    "bio_par_famille_ha": {k: round(v) for k, v in bio_par_famille.items()},
     "bio_par_groupe_ha": {k: round(v, 1) for k, v in surf_bio.most_common()},
     "features": features,
 }
 json.dump(sortie, open(ROOT / "data/agriculture/rpg-2023.geojson", "w"), ensure_ascii=False, separators=(",", ":"))
-print("surface déclarée", round(sum(surf.values())), "ha ; bio", round(sum(surf_bio.values())), "ha")
-for code, s in surf.most_common(): print(f"  {groupes.get(code, code)}: {round(s)} ha")
-print(dict(surf_bio.most_common()))
+print(sortie["surface_par_famille_ha"], sortie["bio_par_famille_ha"])

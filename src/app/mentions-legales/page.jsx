@@ -70,11 +70,31 @@ export default function MentionsLegales() {
         d&apos;intervention du Haut Conseil de la santé publique.
       </p>
 
-      <h2>Couche agricole</h2>
+      <h2 id="pesticides">Pesticides agricoles</h2>
       <p>
-        La carte peut afficher les cultures déclarées à la PAC en 2023 et les parcelles en agriculture biologique. C&apos;est une
-        couche de contexte, désactivée par défaut. Elle ne mesure aucune pollution et ne nomme aucun exploitant. Sources : IGN,
-        registre parcellaire graphique 2023 ; Agence Bio, parcelles en agriculture biologique déclarées à la PAC, 2023.
+        Le site traite l&apos;usage de pesticides de synthèse comme une pollution diffuse. La carte montre chaque parcelle déclarée à la PAC
+        en 2023 avec son groupe de cultures. Une parcelle absente du jeu de l&apos;Agence Bio est dite conventionnelle : l&apos;usage de
+        pesticides de synthèse y est autorisé. La carte ne dit pas ce qui a été épandu sur une parcelle donnée, ni quand. En agriculture
+        biologique, les pesticides de synthèse sont interdits, mais certains produits comme le cuivre ou le soufre restent autorisés. Aucun
+        exploitant n&apos;est nommé.
+      </p>
+      <p>
+        Les quantités achetées viennent de la banque nationale des ventes de produits phytopharmaceutiques (BNV-D) de l&apos;OFB, par code
+        postal de l&apos;acheteur. Thairé et Vérines partagent leur code postal avec des communes extérieures et ne sont pas comptés.
+      </p>
+
+      <h2 id="couleurs">Codes couleur</h2>
+      <p>
+        Plages : vert pour un classement excellent ou bon, orange pour suffisant, rouge pour insuffisant ou pour une baignade interdite par
+        arrêté après des saisons insuffisantes. Le classement porte sur deux bactéries d&apos;origine fécale.
+      </p>
+      <p>
+        Eau du robinet : l&apos;état est calculé sur les douze derniers mois de contrôle sanitaire, réseau par réseau, et chaque commune
+        prend l&apos;état le plus défavorable de ses réseaux. Rouge : au moins un résultat au-delà d&apos;une limite de qualité. Orange :
+        aucun dépassement, mais une substance de synthèse quantifiée sous sa limite (pesticide ou métabolite, PFAS, chlorure de vinyle,
+        solvant chloré). Vert : ni l&apos;un ni l&apos;autre, alors que des pesticides ont été recherchés. Gris : pesticides non recherchés
+        sur la période. Les sous-produits de la chloration, les métaux et les nitrates ne changent pas la couleur. Une limite de qualité
+        n&apos;est pas un seuil sanitaire.
       </p>
 
       <h2>Données republiées</h2>

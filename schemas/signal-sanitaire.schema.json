@@ -89,6 +89,16 @@
         "presse"
       ],
       "description": "etude_publiee : le chiffre est lu dans l'étude. presse : le chiffre n'est connu que par la presse, qui cite l'étude ou ses auteurs."
+    },
+    "iris": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Noms des IRIS de La Rochelle qui composent la zone d'étude. Permet de tracer une zone infra-communale."
+    },
+    "note_trace": {
+      "type": "string"
     }
   }
 }

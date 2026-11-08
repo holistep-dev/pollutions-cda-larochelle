@@ -1,5 +1,12 @@
 import Source from "../../components/Source";
-import { eauPotable, communes, sources, dateLisible } from "../../lib/donnees";
+import { eauPotable, etatRobinets, communes, sources, dateLisible } from "../../lib/donnees";
+
+const ETATS = {
+  rouge: ["Au-dessus d'une limite légale", "#dc2626"],
+  orange: ["Polluée sous les limites légales", "#f59e0b"],
+  vert: ["Aucune pollution détectée", "#16a34a"],
+  non_analyse: ["Pesticides non recherchés", "#94a3b8"],
+};
 
 export const metadata = {
   title: "Eau du robinet",
@@ -12,6 +19,7 @@ const date = (d) => d.split("-").reverse().join("/");
 
 export default function EauDuRobinet() {
   const eau = eauPotable();
+  const etat = etatRobinets();
   const src = sources();
   const liste = communes()
     .map((c) => ({ ...c, eau: eau?.communes?.[c.code_insee] }))
@@ -37,7 +45,17 @@ export default function EauDuRobinet() {
         consommation n&apos;est recensée sur ce site pour l&apos;agglomération.
       </p>
 
-      <h2>Ce que montrent les données</h2>
+      <h2>La couleur de chaque commune</h2>
+      <p>
+        Sur la carte, chaque commune porte un robinet coloré selon les douze derniers mois de contrôle sanitaire
+        {etat ? `, du ${dateLisible(etat.debut)} au ${dateLisible(etat.fin)}` : ""}. L&apos;état est calculé réseau par réseau, et la commune
+        prend l&apos;état le plus défavorable des réseaux qui la desservent. Rouge : au moins un résultat au-delà d&apos;une limite de
+        qualité. Orange : aucun dépassement, mais une substance de synthèse quantifiée sous sa limite, comme un pesticide, un métabolite de
+        pesticide, un PFAS ou le chlorure de vinyle. Vert : rien de tel, alors que des pesticides ont été recherchés. Gris : pesticides non
+        recherchés sur la période, on ne sait pas.
+      </p>
+
+      <h2>Depuis 2016</h2>
       <p>
         {total} résultats d&apos;analyse dépassent une limite de qualité depuis 2016, répartis sur {avec} des 28 communes. La liste
         commune par commune figure plus bas.
@@ -70,7 +88,14 @@ export default function EauDuRobinet() {
       <h2>Par commune</h2>
       {liste.map((c) => (
         <section key={c.code_insee} id={c.code_insee} className="eau-commune">
-          <h3>{c.nom}</h3>
+          <h3>
+            {c.nom}{" "}
+            {etat?.communes?.[c.code_insee] ? (
+              <span className="pastille-etat" style={{ background: ETATS[etat.communes[c.code_insee].etat][1] }}>
+                {ETATS[etat.communes[c.code_insee].etat][0]}, douze derniers mois
+              </span>
+            ) : null}
+          </h3>
           {c.eau ? (
             <>
               <p className="note">

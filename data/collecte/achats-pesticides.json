@@ -1,0 +1,540 @@
+{
+ "source": "OFB, BNV-D Traçabilité, achats par code postal de l'acheteur, version du 25 novembre 2025",
+ "codes_postaux": {
+  "17000": "La Rochelle",
+  "17137": "Esnandes, L'Houmeau, Marsilly, Nieul-sur-Mer",
+  "17138": "Puilboreau, Saint-Xandre",
+  "17139": "Dompierre-sur-Mer",
+  "17140": "Lagord",
+  "17180": "Périgny",
+  "17220": "Bourgneuf, Clavette, Croix-Chapeau, La Jarne, La Jarrie, Montroy, Saint-Christophe, Saint-Médard-d'Aunis, Saint-Rogatien, Sainte-Soulle, Saint-Vivien, Salles-sur-Mer",
+  "17340": "Châtelaillon-Plage, Yves",
+  "17440": "Aytré",
+  "17690": "Angoulins"
+ },
+ "exclus": {
+  "17290": "Thairé et neuf communes hors CDA",
+  "17540": "Vérines et six communes hors CDA"
+ },
+ "annees": {
+  "2020": {
+   "total_kg": 56357,
+   "par_code_postal_kg": {
+    "17000": 3962,
+    "17137": 3360,
+    "17138": 4936,
+    "17139": 4036,
+    "17140": 220,
+    "17180": 963,
+    "17220": 35720,
+    "17340": 2553,
+    "17440": 609
+   },
+   "par_classification_kg": {
+    "Env A": 33215,
+    "CMR": 11341,
+    "Autre": 5581,
+    "Santé A": 3653,
+    "Env B": 2567
+   },
+   "substances": [
+    {
+     "substance": "glyphosate",
+     "kg": 14725,
+     "fonction": "Herbicide",
+     "classification": "Env A"
+    },
+    {
+     "substance": "prosulfocarbe",
+     "kg": 8488,
+     "fonction": "Herbicide",
+     "classification": "Env A"
+    },
+    {
+     "substance": "pendimethaline",
+     "kg": 3161,
+     "fonction": "Herbicide",
+     "classification": "Env A"
+    },
+    {
+     "substance": "chlortoluron",
+     "kg": 2767,
+     "fonction": "Herbicide",
+     "classification": "CMR"
+    },
+    {
+     "substance": "phosphure d'aluminium",
+     "kg": 2730,
+     "fonction": "Insecticide",
+     "classification": "Santé A"
+    },
+    {
+     "substance": "aclonifen",
+     "kg": 2085,
+     "fonction": "Herbicide",
+     "classification": "CMR"
+    },
+    {
+     "substance": "dimethenamide-p (dmta-p)",
+     "kg": 1256,
+     "fonction": "Herbicide",
+     "classification": "Env A"
+    },
+    {
+     "substance": "soufre sublime",
+     "kg": 1238,
+     "fonction": "Fongicide",
+     "classification": "Autre"
+    },
+    {
+     "substance": "soufre",
+     "kg": 1206,
+     "fonction": "Fongicide",
+     "classification": "Autre"
+    },
+    {
+     "substance": "propyzamide",
+     "kg": 1190,
+     "fonction": "Herbicide",
+     "classification": "CMR"
+    },
+    {
+     "substance": "chlorothalonil",
+     "kg": 1055,
+     "fonction": "Fongicide",
+     "classification": "CMR"
+    },
+    {
+     "substance": "flufenacet",
+     "kg": 1018,
+     "fonction": "Herbicide",
+     "classification": "Env A"
+    },
+    {
+     "substance": "s-metolachlore",
+     "kg": 996,
+     "fonction": "Herbicide",
+     "classification": "Env A"
+    },
+    {
+     "substance": "diflufenicanil",
+     "kg": 854,
+     "fonction": "Herbicide",
+     "classification": "Env B"
+    },
+    {
+     "substance": "metazachlore",
+     "kg": 820,
+     "fonction": "Herbicide",
+     "classification": "CMR"
+    },
+    {
+     "substance": "tebuconazole",
+     "kg": 636,
+     "fonction": "Fongicide",
+     "classification": "CMR"
+    },
+    {
+     "substance": "prothioconazole",
+     "kg": 627,
+     "fonction": "Fongicide",
+     "classification": "CMR"
+    },
+    {
+     "substance": "chlormequat chlorure",
+     "kg": 570,
+     "fonction": "Régulateur de croissance",
+     "classification": "Autre"
+    },
+    {
+     "substance": "metobromuron",
+     "kg": 512,
+     "fonction": "Herbicide",
+     "classification": "CMR"
+    },
+    {
+     "substance": "alcools terpeniques",
+     "kg": 491,
+     "fonction": "Autre usage – Adjuvant",
+     "classification": "Autre"
+    },
+    {
+     "substance": "soufre pour pulverisation (micronise)",
+     "kg": 413,
+     "fonction": "Fongicide",
+     "classification": "Autre"
+    },
+    {
+     "substance": "cyprodinil",
+     "kg": 388,
+     "fonction": "Fongicide",
+     "classification": "Env A"
+    },
+    {
+     "substance": "mepiquat-chlorure",
+     "kg": 381,
+     "fonction": "Régulateur de croissance",
+     "classification": "Env B"
+    },
+    {
+     "substance": "flurochloridone",
+     "kg": 376,
+     "fonction": "Herbicide",
+     "classification": "CMR"
+    },
+    {
+     "substance": "cypermethrine",
+     "kg": 368,
+     "fonction": "Insecticide",
+     "classification": "Env A"
+    }
+   ]
+  },
+  "2022": {
+   "total_kg": 52047,
+   "par_code_postal_kg": {
+    "17000": 4360,
+    "17137": 3558,
+    "17138": 4880,
+    "17139": 2564,
+    "17140": 196,
+    "17180": 1575,
+    "17220": 32891,
+    "17340": 1510,
+    "17440": 513
+   },
+   "par_classification_kg": {
+    "Env A": 27233,
+    "CMR": 11814,
+    "Autre": 5999,
+    "Santé A": 4756,
+    "Env B": 2245
+   },
+   "substances": [
+    {
+     "substance": "prosulfocarbe",
+     "kg": 8064,
+     "fonction": "Herbicide",
+     "classification": "Env A"
+    },
+    {
+     "substance": "glyphosate",
+     "kg": 7589,
+     "fonction": "Herbicide",
+     "classification": "Env A"
+    },
+    {
+     "substance": "aclonifen",
+     "kg": 3956,
+     "fonction": "Herbicide",
+     "classification": "CMR"
+    },
+    {
+     "substance": "pendimethaline",
+     "kg": 3165,
+     "fonction": "Herbicide",
+     "classification": "Env A"
+    },
+    {
+     "substance": "chlortoluron",
+     "kg": 2648,
+     "fonction": "Herbicide",
+     "classification": "CMR"
+    },
+    {
+     "substance": "phosphure d'aluminium",
+     "kg": 2296,
+     "fonction": "Insecticide",
+     "classification": "Santé A"
+    },
+    {
+     "substance": "soufre",
+     "kg": 2135,
+     "fonction": "Fongicide",
+     "classification": "Autre"
+    },
+    {
+     "substance": "propyzamide",
+     "kg": 1455,
+     "fonction": "Herbicide",
+     "classification": "CMR"
+    },
+    {
+     "substance": "dimethenamide-p (dmta-p)",
+     "kg": 1270,
+     "fonction": "Herbicide",
+     "classification": "Env A"
+    },
+    {
+     "substance": "flufenacet",
+     "kg": 1217,
+     "fonction": "Herbicide",
+     "classification": "Env A"
+    },
+    {
+     "substance": "pyrimiphos-methyl",
+     "kg": 1015,
+     "fonction": "Insecticide",
+     "classification": "Santé A"
+    },
+    {
+     "substance": "tebuconazole",
+     "kg": 943,
+     "fonction": "Fongicide",
+     "classification": "CMR"
+    },
+    {
+     "substance": "s-metolachlore",
+     "kg": 942,
+     "fonction": "Herbicide",
+     "classification": "Env A"
+    },
+    {
+     "substance": "diflufenicanil",
+     "kg": 907,
+     "fonction": "Herbicide",
+     "classification": "Env B"
+    },
+    {
+     "substance": "prothioconazole",
+     "kg": 828,
+     "fonction": "Fongicide",
+     "classification": "Env A"
+    },
+    {
+     "substance": "metazachlore",
+     "kg": 735,
+     "fonction": "Herbicide",
+     "classification": "CMR"
+    },
+    {
+     "substance": "monopotassium phosphonate",
+     "kg": 678,
+     "fonction": "Fongicide",
+     "classification": "Autre"
+    },
+    {
+     "substance": "soufre sublime",
+     "kg": 520,
+     "fonction": "Fongicide",
+     "classification": "Autre"
+    },
+    {
+     "substance": "soufre pour pulverisation (micronise)",
+     "kg": 500,
+     "fonction": "Fongicide",
+     "classification": "Autre"
+    },
+    {
+     "substance": "cypermethrine",
+     "kg": 473,
+     "fonction": "Insecticide",
+     "classification": "Env A"
+    },
+    {
+     "substance": "metobromuron",
+     "kg": 459,
+     "fonction": "Herbicide",
+     "classification": "CMR"
+    },
+    {
+     "substance": "alcools terpeniques",
+     "kg": 418,
+     "fonction": "Autre usage – Adjuvant",
+     "classification": "Autre"
+    },
+    {
+     "substance": "mepiquat-chlorure",
+     "kg": 405,
+     "fonction": "Régulateur de croissance",
+     "classification": "Env B"
+    },
+    {
+     "substance": "prochloraze",
+     "kg": 365,
+     "fonction": "Fongicide",
+     "classification": "Env A"
+    },
+    {
+     "substance": "chlormequat chlorure",
+     "kg": 345,
+     "fonction": "Régulateur de croissance",
+     "classification": "Autre"
+    }
+   ]
+  },
+  "2024": {
+   "total_kg": 51200,
+   "par_code_postal_kg": {
+    "17000": 4333,
+    "17137": 2643,
+    "17138": 4806,
+    "17139": 3013,
+    "17140": 144,
+    "17180": 1351,
+    "17220": 33106,
+    "17340": 1191,
+    "17440": 612
+   },
+   "par_classification_kg": {
+    "Env A": 28291,
+    "CMR": 13501,
+    "Santé A": 5064,
+    "Autre": 3329,
+    "Env B": 1015
+   },
+   "substances": [
+    {
+     "substance": "glyphosate",
+     "kg": 14014,
+     "fonction": "Herbicide",
+     "classification": "Env A"
+    },
+    {
+     "substance": "prosulfocarbe",
+     "kg": 5235,
+     "fonction": "Herbicide",
+     "classification": "Env A"
+    },
+    {
+     "substance": "aclonifen",
+     "kg": 3448,
+     "fonction": "Herbicide",
+     "classification": "CMR"
+    },
+    {
+     "substance": "chlortoluron",
+     "kg": 3429,
+     "fonction": "Herbicide",
+     "classification": "CMR"
+    },
+    {
+     "substance": "pendimethaline",
+     "kg": 2520,
+     "fonction": "Herbicide",
+     "classification": "CMR"
+    },
+    {
+     "substance": "dimethenamide-p (dmta-p)",
+     "kg": 1917,
+     "fonction": "Herbicide",
+     "classification": "Env A"
+    },
+    {
+     "substance": "phosphure d'aluminium",
+     "kg": 1773,
+     "fonction": "Insecticide",
+     "classification": "Santé A"
+    },
+    {
+     "substance": "pyrimiphos-methyl",
+     "kg": 1602,
+     "fonction": "Insecticide",
+     "classification": "Santé A"
+    },
+    {
+     "substance": "thirame",
+     "kg": 1288,
+     "fonction": "Fongicide",
+     "classification": "Env A"
+    },
+    {
+     "substance": "propyzamide",
+     "kg": 1090,
+     "fonction": "Herbicide",
+     "classification": "CMR"
+    },
+    {
+     "substance": "phosphonates de potassium",
+     "kg": 1005,
+     "fonction": "Fongicide",
+     "classification": "Autre"
+    },
+    {
+     "substance": "flufenacet",
+     "kg": 1004,
+     "fonction": "Herbicide",
+     "classification": "Env A"
+    },
+    {
+     "substance": "prothioconazole",
+     "kg": 913,
+     "fonction": "Fongicide",
+     "classification": "Env A"
+    },
+    {
+     "substance": "diflufenicanil",
+     "kg": 764,
+     "fonction": "Herbicide",
+     "classification": "Env A"
+    },
+    {
+     "substance": "tebuconazole",
+     "kg": 550,
+     "fonction": "Fongicide",
+     "classification": "CMR"
+    },
+    {
+     "substance": "azoxystrobine",
+     "kg": 497,
+     "fonction": "Fongicide",
+     "classification": "Santé A"
+    },
+    {
+     "substance": "pyraclostrobine",
+     "kg": 490,
+     "fonction": "Fongicide",
+     "classification": "Santé A"
+    },
+    {
+     "substance": "metazachlore",
+     "kg": 488,
+     "fonction": "Herbicide",
+     "classification": "CMR"
+    },
+    {
+     "substance": "chlormequat chlorure",
+     "kg": 475,
+     "fonction": "Régulateur de croissance",
+     "classification": "Autre"
+    },
+    {
+     "substance": "cypermethrine",
+     "kg": 435,
+     "fonction": "Insecticide",
+     "classification": "Env A"
+    },
+    {
+     "substance": "2,4-d",
+     "kg": 372,
+     "fonction": "Herbicide",
+     "classification": "Env B"
+    },
+    {
+     "substance": "soufre",
+     "kg": 366,
+     "fonction": "Fongicide",
+     "classification": "Autre"
+    },
+    {
+     "substance": "phosphate ferrique",
+     "kg": 331,
+     "fonction": "Molluscicide",
+     "classification": "Autre"
+    },
+    {
+     "substance": "cyprodinil",
+     "kg": 322,
+     "fonction": "Fongicide",
+     "classification": "Env A"
+    },
+    {
+     "substance": "triallate",
+     "kg": 319,
+     "fonction": "Herbicide",
+     "classification": "Env A"
+    }
+   ]
+  }
+ }
+}

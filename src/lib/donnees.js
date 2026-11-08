@@ -10,6 +10,7 @@ const listeJson = (d) =>
 
 export const libelles = () => lire("data/libelles.json");
 export const references = () => lire("data/references.json");
+export const etatRobinets = () => lireSiExiste("data/collecte/eau-robinet-etat.json", null);
 export const eauPotable = () => lireSiExiste("data/build/eau-potable.json", null);
 export const communes = () => lire("data/communes.json").communes;
 export const indexCommunes = () => lire("data/build/communes-index.json").communes;

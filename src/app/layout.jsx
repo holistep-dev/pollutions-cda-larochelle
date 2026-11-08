@@ -1,3 +1,4 @@
+import "@fontsource-variable/figtree";
 import "./globals.css";
 import { site } from "../lib/site";
 

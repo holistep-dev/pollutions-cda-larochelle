@@ -1,0 +1,929 @@
+{
+ "source": "Hub'Eau qualite_eau_potable (ARS, SISE-Eaux)",
+ "debut": "2025-11-08",
+ "fin": "2026-11-08",
+ "regle": "État de l'eau du robinet par commune sur les douze derniers mois, pour l'icône de la carte.\n\nRègle, appliquée à tous les résultats du contrôle sanitaire publiés par Hub'Eau sur la période :\n  rouge  : au moins un résultat au-delà d'une limite de qualité réglementaire ;\n  orange : aucun dépassement, mais au moins une substance de synthèse quantifiée sous sa limite\n           (pesticide ou métabolite de pesticide, PFAS, chlorure de vinyle, solvant chloré) ;\n  vert   : ni dépassement, ni substance de synthèse quantifiée, alors que des pesticides ont été recherchés ;\n  gris   : aucune recherche de substance de synthèse sur la période, on ne sait pas.\nL'état est calculé par réseau de distribution (UDI), puis chaque commune prend l'état le plus défavorable des réseaux\nqui la desservent. Le rattachement d'un prélèvement à une seule commune n'introduit donc pas de faux vert.\nLes sous-produits de la chloration, les métaux et les nitrates ne déclenchent pas l'orange : ils sont listés à part.",
+ "reseaux": {
+  "017000322": {
+   "code": "017000322",
+   "nom": "R. D'ANGOULINS",
+   "analyses_synthese": 0,
+   "depassements": [],
+   "etat": "non_analyse",
+   "nb_prelevements": 13,
+   "substances_quantifiees": []
+  },
+  "017000219": {
+   "code": "017000219",
+   "nom": "R. D'AYTRE-PERIGNY-ST-ROGATIEN",
+   "analyses_synthese": 412,
+   "depassements": [],
+   "etat": "orange",
+   "nb_prelevements": 27,
+   "substances_quantifiees": [
+    {
+     "parametre": "Chlorothalonil R471811",
+     "nb": 9,
+     "max": 0.35,
+     "unite": "µg/L",
+     "limite": null,
+     "date_max": "2026-05-07"
+    },
+    {
+     "parametre": "ESA metolachlore",
+     "nb": 2,
+     "max": 0.029,
+     "unite": "µg/L",
+     "limite": null,
+     "date_max": "2026-01-08"
+    },
+    {
+     "parametre": "Fosetyl",
+     "nb": 1,
+     "max": 0.053,
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "date_max": "2026-06-02"
+    },
+    {
+     "parametre": "Total des pesticides analysés",
+     "nb": 1,
+     "max": 0.053,
+     "unite": "µg/L",
+     "limite": "<=0,5 µg/L",
+     "date_max": "2026-06-02"
+    },
+    {
+     "parametre": "Acide perfluoroheptanoïque (PFHPA)",
+     "nb": 1,
+     "max": 0.0013,
+     "unite": "µg/L",
+     "limite": null,
+     "date_max": "2026-01-08"
+    },
+    {
+     "parametre": "Acide sulfonique de perfluorobutane (PFBS)",
+     "nb": 1,
+     "max": 0.0013,
+     "unite": "µg/L",
+     "limite": null,
+     "date_max": "2026-01-08"
+    },
+    {
+     "parametre": "Somme de 20 substances perfluoroalkylées (PFAS)",
+     "nb": 1,
+     "max": 0.0042,
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "date_max": "2026-01-08"
+    },
+    {
+     "parametre": "Acide sulfonique de perfluorooctane (PFOS)",
+     "nb": 1,
+     "max": 0.0016,
+     "unite": "µg/L",
+     "limite": null,
+     "date_max": "2026-01-08"
+    }
+   ]
+  },
+  "017000213": {
+   "code": "017000213",
+   "nom": "R. DE BOURGNEUF",
+   "analyses_synthese": 179,
+   "depassements": [],
+   "etat": "orange",
+   "nb_prelevements": 17,
+   "substances_quantifiees": [
+    {
+     "parametre": "Chlorothalonil R471811",
+     "nb": 8,
+     "max": 2.2,
+     "unite": "µg/L",
+     "limite": null,
+     "date_max": "2026-01-12"
+    },
+    {
+     "parametre": "CGA 369873",
+     "nb": 2,
+     "max": 0.025,
+     "unite": "µg/L",
+     "limite": null,
+     "date_max": "2026-05-11"
+    },
+    {
+     "parametre": "ESA metolachlore",
+     "nb": 2,
+     "max": 0.029,
+     "unite": "µg/L",
+     "limite": null,
+     "date_max": "2026-05-11"
+    },
+    {
+     "parametre": "Total des pesticides analysés",
+     "nb": 1,
+     "max": 0.075,
+     "unite": "µg/L",
+     "limite": "<=0,5 µg/L",
+     "date_max": "2025-11-21"
+    },
+    {
+     "parametre": "Chloridazone desphényl",
+     "nb": 1,
+     "max": 0.075,
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "date_max": "2025-11-21"
+    }
+   ]
+  },
+  "017000016": {
+   "code": "017000016",
+   "nom": "R. DE CHATELAILLON",
+   "analyses_synthese": 242,
+   "depassements": [],
+   "etat": "orange",
+   "nb_prelevements": 21,
+   "substances_quantifiees": [
+    {
+     "parametre": "Chlorothalonil R471811",
+     "nb": 8,
+     "max": 1.1,
+     "unite": "µg/L",
+     "limite": null,
+     "date_max": "2026-07-28"
+    },
+    {
+     "parametre": "ESA metolachlore",
+     "nb": 1,
+     "max": 0.027,
+     "unite": "µg/L",
+     "limite": null,
+     "date_max": "2026-08-25"
+    },
+    {
+     "parametre": "Total des pesticides analysés",
+     "nb": 1,
+     "max": 0.022,
+     "unite": "µg/L",
+     "limite": "<=0,5 µg/L",
+     "date_max": "2025-12-08"
+    }
+   ]
+  },
+  "017000212": {
+   "code": "017000212",
+   "nom": "R. DE LA JARRIE",
+   "analyses_synthese": 203,
+   "depassements": [
+    {
+     "date": "2026-05-13",
+     "parametre": "Fosetyl",
+     "valeur": 0.28,
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L"
+    },
+    {
+     "date": "2026-06-10",
+     "parametre": "Fosetyl",
+     "valeur": 0.14,
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L"
+    }
+   ],
+   "etat": "rouge",
+   "nb_prelevements": 19,
+   "substances_quantifiees": [
+    {
+     "parametre": "Chlorothalonil R471811",
+     "nb": 4,
+     "max": 0.18,
+     "unite": "µg/L",
+     "limite": null,
+     "date_max": "2026-02-04"
+    },
+    {
+     "parametre": "Total des pesticides analysés",
+     "nb": 1,
+     "max": 0.295,
+     "unite": "µg/L",
+     "limite": "<=0,5 µg/L",
+     "date_max": "2026-05-13"
+    },
+    {
+     "parametre": "Somme de 20 substances perfluoroalkylées (PFAS)",
+     "nb": 1,
+     "max": 0.0012,
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "date_max": "2026-04-21"
+    },
+    {
+     "parametre": "Acide perfluorohexanoïque (PFHXA)",
+     "nb": 1,
+     "max": 0.0012,
+     "unite": "µg/L",
+     "limite": null,
+     "date_max": "2026-04-21"
+    },
+    {
+     "parametre": "ESA metolachlore",
+     "nb": 1,
+     "max": 0.028,
+     "unite": "µg/L",
+     "limite": null,
+     "date_max": "2026-02-04"
+    }
+   ]
+  },
+  "017000344": {
+   "code": "017000344",
+   "nom": "R. D'ANDILLY-PUILBOREAU",
+   "analyses_synthese": 233,
+   "depassements": [],
+   "etat": "orange",
+   "nb_prelevements": 19,
+   "substances_quantifiees": [
+    {
+     "parametre": "Chlorothalonil R471811",
+     "nb": 4,
+     "max": 0.12,
+     "unite": "µg/L",
+     "limite": null,
+     "date_max": "2026-01-26"
+    },
+    {
+     "parametre": "ESA metolachlore",
+     "nb": 3,
+     "max": 0.033,
+     "unite": "µg/L",
+     "limite": null,
+     "date_max": "2026-01-26"
+    }
+   ]
+  },
+  "017000342": {
+   "code": "017000342",
+   "nom": "R. DE ESNANDES-LAGORD",
+   "analyses_synthese": 231,
+   "depassements": [],
+   "etat": "orange",
+   "nb_prelevements": 23,
+   "substances_quantifiees": [
+    {
+     "parametre": "Chlorothalonil R471811",
+     "nb": 4,
+     "max": 0.12,
+     "unite": "µg/L",
+     "limite": null,
+     "date_max": "2026-01-26"
+    },
+    {
+     "parametre": "ESA metolachlore",
+     "nb": 3,
+     "max": 0.033,
+     "unite": "µg/L",
+     "limite": null,
+     "date_max": "2026-01-26"
+    }
+   ]
+  },
+  "017000216": {
+   "code": "017000216",
+   "nom": "R. DE LA ROCHELLE CENTRE",
+   "analyses_synthese": 208,
+   "depassements": [],
+   "etat": "orange",
+   "nb_prelevements": 48,
+   "substances_quantifiees": [
+    {
+     "parametre": "Chlorothalonil R471811",
+     "nb": 10,
+     "max": 1.7,
+     "unite": "µg/L",
+     "limite": null,
+     "date_max": "2026-01-09"
+    },
+    {
+     "parametre": "Total des pesticides analysés",
+     "nb": 4,
+     "max": 0.028,
+     "unite": "µg/L",
+     "limite": "<=0,5 µg/L",
+     "date_max": "2026-08-13"
+    },
+    {
+     "parametre": "CGA 369873",
+     "nb": 2,
+     "max": 0.027,
+     "unite": "µg/L",
+     "limite": null,
+     "date_max": "2026-05-28"
+    },
+    {
+     "parametre": "ESA metolachlore",
+     "nb": 2,
+     "max": 0.04,
+     "unite": "µg/L",
+     "limite": null,
+     "date_max": "2026-08-13"
+    },
+    {
+     "parametre": "ESA alachlore",
+     "nb": 1,
+     "max": 0.026,
+     "unite": "µg/L",
+     "limite": null,
+     "date_max": "2026-08-13"
+    },
+    {
+     "parametre": "OXA metolachlore",
+     "nb": 1,
+     "max": 0.02,
+     "unite": "µg/L",
+     "limite": null,
+     "date_max": "2026-08-13"
+    }
+   ]
+  },
+  "017000215": {
+   "code": "017000215",
+   "nom": "R. DE LA ROCHELLE NORD-SUD",
+   "analyses_synthese": 412,
+   "depassements": [],
+   "etat": "orange",
+   "nb_prelevements": 52,
+   "substances_quantifiees": [
+    {
+     "parametre": "Chlorothalonil R471811",
+     "nb": 9,
+     "max": 0.35,
+     "unite": "µg/L",
+     "limite": null,
+     "date_max": "2026-05-07"
+    },
+    {
+     "parametre": "ESA metolachlore",
+     "nb": 2,
+     "max": 0.029,
+     "unite": "µg/L",
+     "limite": null,
+     "date_max": "2026-01-08"
+    },
+    {
+     "parametre": "Fosetyl",
+     "nb": 1,
+     "max": 0.053,
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "date_max": "2026-06-02"
+    },
+    {
+     "parametre": "Total des pesticides analysés",
+     "nb": 1,
+     "max": 0.053,
+     "unite": "µg/L",
+     "limite": "<=0,5 µg/L",
+     "date_max": "2026-06-02"
+    },
+    {
+     "parametre": "Acide perfluoroheptanoïque (PFHPA)",
+     "nb": 1,
+     "max": 0.0013,
+     "unite": "µg/L",
+     "limite": null,
+     "date_max": "2026-01-08"
+    },
+    {
+     "parametre": "Acide sulfonique de perfluorobutane (PFBS)",
+     "nb": 1,
+     "max": 0.0013,
+     "unite": "µg/L",
+     "limite": null,
+     "date_max": "2026-01-08"
+    },
+    {
+     "parametre": "Somme de 20 substances perfluoroalkylées (PFAS)",
+     "nb": 1,
+     "max": 0.0042,
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "date_max": "2026-01-08"
+    },
+    {
+     "parametre": "Acide sulfonique de perfluorooctane (PFOS)",
+     "nb": 1,
+     "max": 0.0016,
+     "unite": "µg/L",
+     "limite": null,
+     "date_max": "2026-01-08"
+    }
+   ]
+  },
+  "017000343": {
+   "code": "017000343",
+   "nom": "R. DE CHARRON",
+   "analyses_synthese": 179,
+   "depassements": [],
+   "etat": "orange",
+   "nb_prelevements": 4,
+   "substances_quantifiees": [
+    {
+     "parametre": "ESA metolachlore",
+     "nb": 4,
+     "max": 0.055,
+     "unite": "µg/L",
+     "limite": null,
+     "date_max": "2026-08-05"
+    },
+    {
+     "parametre": "Chlorothalonil R471811",
+     "nb": 4,
+     "max": 0.095,
+     "unite": "µg/L",
+     "limite": null,
+     "date_max": "2026-02-03"
+    },
+    {
+     "parametre": "Total des pesticides analysés",
+     "nb": 1,
+     "max": 0.025,
+     "unite": "µg/L",
+     "limite": "<=0,5 µg/L",
+     "date_max": "2025-12-24"
+    },
+    {
+     "parametre": "Flufenacet ESA",
+     "nb": 1,
+     "max": 0.025,
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "date_max": "2025-12-24"
+    }
+   ]
+  },
+  "017001085": {
+   "code": "017001085",
+   "nom": "R. DE ZAC DE BEAULIEU",
+   "analyses_synthese": 411,
+   "depassements": [],
+   "etat": "orange",
+   "nb_prelevements": 19,
+   "substances_quantifiees": [
+    {
+     "parametre": "Chlorothalonil R471811",
+     "nb": 9,
+     "max": 0.35,
+     "unite": "µg/L",
+     "limite": null,
+     "date_max": "2026-05-07"
+    },
+    {
+     "parametre": "ESA metolachlore",
+     "nb": 2,
+     "max": 0.029,
+     "unite": "µg/L",
+     "limite": null,
+     "date_max": "2026-01-08"
+    },
+    {
+     "parametre": "Fosetyl",
+     "nb": 1,
+     "max": 0.053,
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "date_max": "2026-06-02"
+    },
+    {
+     "parametre": "Total des pesticides analysés",
+     "nb": 1,
+     "max": 0.053,
+     "unite": "µg/L",
+     "limite": "<=0,5 µg/L",
+     "date_max": "2026-06-02"
+    },
+    {
+     "parametre": "Acide perfluoroheptanoïque (PFHPA)",
+     "nb": 1,
+     "max": 0.0013,
+     "unite": "µg/L",
+     "limite": null,
+     "date_max": "2026-01-08"
+    },
+    {
+     "parametre": "Acide sulfonique de perfluorobutane (PFBS)",
+     "nb": 1,
+     "max": 0.0013,
+     "unite": "µg/L",
+     "limite": null,
+     "date_max": "2026-01-08"
+    },
+    {
+     "parametre": "Somme de 20 substances perfluoroalkylées (PFAS)",
+     "nb": 1,
+     "max": 0.0042,
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "date_max": "2026-01-08"
+    },
+    {
+     "parametre": "Acide sulfonique de perfluorooctane (PFOS)",
+     "nb": 1,
+     "max": 0.0016,
+     "unite": "µg/L",
+     "limite": null,
+     "date_max": "2026-01-08"
+    }
+   ]
+  },
+  "017000881": {
+   "code": "017000881",
+   "nom": "R. DE PERIGNY-MAIRIE",
+   "analyses_synthese": 181,
+   "depassements": [
+    {
+     "date": "2026-05-28",
+     "parametre": "Fosetyl",
+     "valeur": 0.13,
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L"
+    }
+   ],
+   "etat": "rouge",
+   "nb_prelevements": 14,
+   "substances_quantifiees": [
+    {
+     "parametre": "Chlorothalonil R471811",
+     "nb": 9,
+     "max": 0.41,
+     "unite": "µg/L",
+     "limite": null,
+     "date_max": "2026-08-25"
+    },
+    {
+     "parametre": "ESA metolachlore",
+     "nb": 3,
+     "max": 0.026,
+     "unite": "µg/L",
+     "limite": null,
+     "date_max": "2026-03-26"
+    },
+    {
+     "parametre": "CGA 369873",
+     "nb": 2,
+     "max": 0.024,
+     "unite": "µg/L",
+     "limite": null,
+     "date_max": "2026-08-25"
+    },
+    {
+     "parametre": "Total des pesticides analysés",
+     "nb": 1,
+     "max": 0.16,
+     "unite": "µg/L",
+     "limite": "<=0,5 µg/L",
+     "date_max": "2026-05-28"
+    }
+   ]
+  },
+  "017000770": {
+   "code": "017000770",
+   "nom": "R. DE PERIGNY-ROMPSAY SUD",
+   "analyses_synthese": 2,
+   "depassements": [
+    {
+     "date": "2026-07-16",
+     "parametre": "Chlorure de vinyl monomère",
+     "valeur": 0.74,
+     "unite": "µg/L",
+     "limite": "<=0.5 µg/L"
+    }
+   ],
+   "etat": "rouge",
+   "nb_prelevements": 6,
+   "substances_quantifiees": []
+  },
+  "017000122": {
+   "code": "017000122",
+   "nom": "R. DE ST-SAUVEUR",
+   "analyses_synthese": 1,
+   "depassements": [],
+   "etat": "vert",
+   "nb_prelevements": 4,
+   "substances_quantifiees": []
+  },
+  "017000345": {
+   "code": "017000345",
+   "nom": "R. DE ST-MEDARD-STE-SOULLE",
+   "analyses_synthese": 2,
+   "depassements": [],
+   "etat": "vert",
+   "nb_prelevements": 13,
+   "substances_quantifiees": []
+  },
+  "017000300": {
+   "code": "017000300",
+   "nom": "R. DE AIGREFEUILLE-LE THOU",
+   "analyses_synthese": 0,
+   "depassements": [],
+   "etat": "non_analyse",
+   "nb_prelevements": 2,
+   "substances_quantifiees": []
+  },
+  "017000251": {
+   "code": "017000251",
+   "nom": "R. DE ST-LAURENT-YVES",
+   "analyses_synthese": 0,
+   "depassements": [],
+   "etat": "non_analyse",
+   "nb_prelevements": 5,
+   "substances_quantifiees": []
+  }
+ },
+ "communes": {
+  "17010": {
+   "etat": "non_analyse",
+   "reseaux": [
+    "017000322"
+   ],
+   "noms_reseaux": [
+    "R. D'ANGOULINS"
+   ]
+  },
+  "17028": {
+   "etat": "orange",
+   "reseaux": [
+    "017000219"
+   ],
+   "noms_reseaux": [
+    "R. D'AYTRE-PERIGNY-ST-ROGATIEN"
+   ]
+  },
+  "17059": {
+   "etat": "orange",
+   "reseaux": [
+    "017000213"
+   ],
+   "noms_reseaux": [
+    "R. DE BOURGNEUF"
+   ]
+  },
+  "17094": {
+   "etat": "orange",
+   "reseaux": [
+    "017000016"
+   ],
+   "noms_reseaux": [
+    "R. DE CHATELAILLON"
+   ]
+  },
+  "17109": {
+   "etat": "rouge",
+   "reseaux": [
+    "017000212"
+   ],
+   "noms_reseaux": [
+    "R. DE LA JARRIE"
+   ]
+  },
+  "17136": {
+   "etat": "rouge",
+   "reseaux": [
+    "017000212"
+   ],
+   "noms_reseaux": [
+    "R. DE LA JARRIE"
+   ]
+  },
+  "17142": {
+   "etat": "orange",
+   "reseaux": [
+    "017000344"
+   ],
+   "noms_reseaux": [
+    "R. D'ANDILLY-PUILBOREAU"
+   ]
+  },
+  "17153": {
+   "etat": "orange",
+   "reseaux": [
+    "017000342"
+   ],
+   "noms_reseaux": [
+    "R. DE ESNANDES-LAGORD"
+   ]
+  },
+  "17190": {
+   "etat": "orange",
+   "reseaux": [
+    "017000342"
+   ],
+   "noms_reseaux": [
+    "R. DE ESNANDES-LAGORD"
+   ]
+  },
+  "17193": {
+   "etat": "non_analyse",
+   "reseaux": [
+    "017000322"
+   ],
+   "noms_reseaux": [
+    "R. D'ANGOULINS"
+   ]
+  },
+  "17194": {
+   "etat": "rouge",
+   "reseaux": [
+    "017000212"
+   ],
+   "noms_reseaux": [
+    "R. DE LA JARRIE"
+   ]
+  },
+  "17300": {
+   "etat": "orange",
+   "reseaux": [
+    "017000215",
+    "017000216"
+   ],
+   "noms_reseaux": [
+    "R. DE LA ROCHELLE NORD-SUD",
+    "R. DE LA ROCHELLE CENTRE"
+   ]
+  },
+  "17200": {
+   "etat": "orange",
+   "reseaux": [
+    "017000342"
+   ],
+   "noms_reseaux": [
+    "R. DE ESNANDES-LAGORD"
+   ]
+  },
+  "17222": {
+   "etat": "orange",
+   "reseaux": [
+    "017000342",
+    "017000343",
+    "017000344"
+   ],
+   "noms_reseaux": [
+    "R. DE ESNANDES-LAGORD",
+    "R. DE CHARRON",
+    "R. D'ANDILLY-PUILBOREAU"
+   ]
+  },
+  "17245": {
+   "etat": "orange",
+   "reseaux": [
+    "017000213"
+   ],
+   "noms_reseaux": [
+    "R. DE BOURGNEUF"
+   ]
+  },
+  "17264": {
+   "etat": "orange",
+   "reseaux": [
+    "017000342"
+   ],
+   "noms_reseaux": [
+    "R. DE ESNANDES-LAGORD"
+   ]
+  },
+  "17291": {
+   "etat": "orange",
+   "reseaux": [
+    "017000344",
+    "017001085"
+   ],
+   "noms_reseaux": [
+    "R. D'ANDILLY-PUILBOREAU",
+    "R. DE ZAC DE BEAULIEU"
+   ]
+  },
+  "17274": {
+   "etat": "rouge",
+   "reseaux": [
+    "017000215",
+    "017000219",
+    "017000344",
+    "017000770",
+    "017000881",
+    "017001085"
+   ],
+   "noms_reseaux": [
+    "R. DE LA ROCHELLE NORD-SUD",
+    "R. D'AYTRE-PERIGNY-ST-ROGATIEN",
+    "R. D'ANDILLY-PUILBOREAU",
+    "R. DE PERIGNY-ROMPSAY SUD",
+    "R. DE PERIGNY-MAIRIE",
+    "R. DE ZAC DE BEAULIEU"
+   ]
+  },
+  "17315": {
+   "etat": "rouge",
+   "reseaux": [
+    "017000122",
+    "017000212"
+   ],
+   "noms_reseaux": [
+    "R. DE ST-SAUVEUR",
+    "R. DE LA JARRIE"
+   ]
+  },
+  "17373": {
+   "etat": "orange",
+   "reseaux": [
+    "017000122",
+    "017000213",
+    "017000344",
+    "017000345"
+   ],
+   "noms_reseaux": [
+    "R. DE ST-SAUVEUR",
+    "R. DE BOURGNEUF",
+    "R. D'ANDILLY-PUILBOREAU",
+    "R. DE ST-MEDARD-STE-SOULLE"
+   ]
+  },
+  "17391": {
+   "etat": "orange",
+   "reseaux": [
+    "017000219"
+   ],
+   "noms_reseaux": [
+    "R. D'AYTRE-PERIGNY-ST-ROGATIEN"
+   ]
+  },
+  "17413": {
+   "etat": "orange",
+   "reseaux": [
+    "017000016",
+    "017000322"
+   ],
+   "noms_reseaux": [
+    "R. DE CHATELAILLON",
+    "R. D'ANGOULINS"
+   ]
+  },
+  "17414": {
+   "etat": "orange",
+   "reseaux": [
+    "017000344"
+   ],
+   "noms_reseaux": [
+    "R. D'ANDILLY-PUILBOREAU"
+   ]
+  },
+  "17407": {
+   "etat": "vert",
+   "reseaux": [
+    "017000345"
+   ],
+   "noms_reseaux": [
+    "R. DE ST-MEDARD-STE-SOULLE"
+   ]
+  },
+  "17420": {
+   "etat": "rouge",
+   "reseaux": [
+    "017000212",
+    "017000322"
+   ],
+   "noms_reseaux": [
+    "R. DE LA JARRIE",
+    "R. D'ANGOULINS"
+   ]
+  },
+  "17443": {
+   "etat": "non_analyse",
+   "reseaux": [
+    "017000300"
+   ],
+   "noms_reseaux": [
+    "R. DE AIGREFEUILLE-LE THOU"
+   ]
+  },
+  "17466": {
+   "etat": "orange",
+   "reseaux": [
+    "017000213",
+    "017000345"
+   ],
+   "noms_reseaux": [
+    "R. DE BOURGNEUF",
+    "R. DE ST-MEDARD-STE-SOULLE"
+   ]
+  },
+  "17483": {
+   "etat": "non_analyse",
+   "reseaux": [
+    "017000251"
+   ],
+   "noms_reseaux": [
+    "R. DE ST-LAURENT-YVES"
+   ]
+  }
+ }
+}

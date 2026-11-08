@@ -98,7 +98,7 @@
         "17300"
       ],
       "zone_libelle": "Zone 5a de l'étude : Laleu, La Pallice, Chef-de-Baie, Port-Neuf, Mireuil, Rossignolette, 23 027 habitants en 2018",
-      "population": "Résidents de la zone 5a, comparés à la Charente-Maritime.",
+      "population": "Résidents de la zone 5a, comparés à la moyenne de la Charente-Maritime, pas à la moyenne nationale.",
       "periode": {
         "debut": "2008",
         "debut_statut": "datee",
@@ -111,7 +111,21 @@
       "sources": [
         "rgcpc-2023-cartographie-cda"
       ],
-      "niveau_source": "etude_publiee"
+      "niveau_source": "etude_publiee",
+      "iris": [
+        "Laleu",
+        "La Pallice",
+        "Chef de Baie",
+        "Port Neuf Est",
+        "Port Neuf Ouest",
+        "Mireuil Château d'Eau",
+        "Mireuil Est",
+        "Mireuil Europe",
+        "Mireuil Ouest",
+        "Mireuil le Parc",
+        "Rossignolette-Saint-Maurice"
+      ],
+      "note_trace": "Zone tracée comme la réunion des IRIS 2023 dont l'étude donne les noms. Le découpage IRIS a pu évoluer depuis la période étudiée."
     }
   ]
 }

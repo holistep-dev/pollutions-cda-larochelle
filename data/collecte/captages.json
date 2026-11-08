@@ -1,0 +1,81 @@
+{
+ "source": "BNPE via Hub'Eau prelevements, usage AEP",
+ "collecte_le": "2026-11-08",
+ "ouvrages": [
+  {
+   "code_ouvrage": "OPR0000081285",
+   "nom": "CASSEMORTIER-P",
+   "commune": "Clavette",
+   "code_insee": "17109",
+   "coordonnees": [
+    -1.038347,
+    46.144428
+   ],
+   "uri": "https://id.eaufrance.fr/OuvragePrel/OPR0000081285",
+   "premiere_annee": 2008,
+   "derniere_annee": 2024,
+   "derniere_annee_volume": 2020,
+   "dernier_volume_m3": 61479
+  },
+  {
+   "code_ouvrage": "OPR0000173812",
+   "nom": "VARAIZE-P",
+   "commune": "Périgny",
+   "code_insee": "17274",
+   "coordonnees": [
+    -1.094297,
+    46.155905
+   ],
+   "uri": "https://id.eaufrance.fr/OuvragePrel/OPR0000173812",
+   "premiere_annee": 2008,
+   "derniere_annee": 2024,
+   "derniere_annee_volume": 2024,
+   "dernier_volume_m3": 298467
+  },
+  {
+   "code_ouvrage": "OPR0000586281",
+   "nom": "LA RAGOTTERIE-F",
+   "commune": "Salles-sur-Mer",
+   "code_insee": "17420",
+   "coordonnees": [
+    -1.04868,
+    46.103064
+   ],
+   "uri": "https://id.eaufrance.fr/OuvragePrel/OPR0000586281",
+   "premiere_annee": 2016,
+   "derniere_annee": 2024,
+   "derniere_annee_volume": 2024,
+   "dernier_volume_m3": 606
+  },
+  {
+   "code_ouvrage": "OPR0000081288",
+   "nom": "LA RAGOTTERIE-F2",
+   "commune": "Salles-sur-Mer",
+   "code_insee": "17420",
+   "coordonnees": [
+    -1.04868,
+    46.103064
+   ],
+   "uri": "https://id.eaufrance.fr/OuvragePrel/OPR0000081288",
+   "premiere_annee": 2008,
+   "derniere_annee": 2024,
+   "derniere_annee_volume": 2024,
+   "dernier_volume_m3": 135027
+  },
+  {
+   "code_ouvrage": "OPR0000081286",
+   "nom": "FRAISE-P2",
+   "commune": "Vérines",
+   "code_insee": "17466",
+   "coordonnees": [
+    -0.976665,
+    46.198441
+   ],
+   "uri": "https://id.eaufrance.fr/OuvragePrel/OPR0000081286",
+   "premiere_annee": 2008,
+   "derniere_annee": 2015,
+   "derniere_annee_volume": 2015,
+   "dernier_volume_m3": 1714367
+  }
+ ]
+}

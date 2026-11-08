@@ -163,6 +163,10 @@ for (const s of sites.filter((x) => x.geometry)) {
     rehabilite: s.statut_traitement === "rehabilite",
     baignade_etat: b ? b.etat : null,
     baignade_dernier: b ? (b.classements[Object.keys(b.classements).sort().pop()] ?? null) : null,
+    // Trois couleurs : vert (excellent ou bon), orange (suffisant), rouge (insuffisant, ou baignade interdite après
+    // des classements insuffisants et sortie du contrôle sanitaire).
+    baignade_couleur: !b ? null : b.etat === "hors_controle_sanitaire" ? "rouge"
+      : { excellent: "vert", bon: "vert", suffisant: "orange", insuffisant: "rouge" }[b.etat] ?? null,
   };
   const geom = s.geometry.type === "Point" ? disque(s.geometry.coordinates, s.rayon_m ?? 100) : s.geometry;
   surfaces.push({ type: "Feature", id: s.id, geometry: geom, properties: props });
@@ -192,7 +196,15 @@ const signauxData = existsSync(join(ROOT, "data/signaux-sanitaires.json")) ? rea
 const contourParCode = new Map(contours.features.map((f) => [f.properties.code, f.geometry]));
 const signauxCarte = [];
 const signauxNonCartographies = [];
+const zonesSignaux = existsSync(join(ROOT, "data/collecte/zones-signaux.geojson"))
+  ? new Map(read("data/collecte/zones-signaux.geojson").features.map((f) => [f.properties.id, f.geometry]))
+  : new Map();
 for (const s of signauxData) {
+  // Zone infra-communale tracée par ses IRIS quand l'étude les nomme.
+  if (zonesSignaux.has(s.id)) {
+    signauxCarte.push({ type: "Feature", geometry: zonesSignaux.get(s.id), properties: { id: s.id, libelle: s.libelle, infra: true } });
+    continue;
+  }
   if (s.zone_libelle || !s.communes?.length) {
     signauxNonCartographies.push({ id: s.id, libelle: s.libelle, zone: s.zone_libelle ?? null });
     continue;
@@ -266,6 +278,38 @@ for (const f of signauxCarte) {
   f.properties.niveau_source = s?.niveau_source ?? "etude_publiee";
 }
 
+// ------------------------------------------------------------ robinets et captages
+const reperesCommunes = read("data/communes-reperes.json");
+let robinets = null;
+if (existsSync(join(ROOT, "data/collecte/eau-robinet-etat.json"))) {
+  const e = read("data/collecte/eau-robinet-etat.json");
+  robinets = {
+    debut: e.debut,
+    fin: e.fin,
+    reseaux: e.reseaux,
+    points: {
+      type: "FeatureCollection",
+      features: communes.map((c) => ({
+        type: "Feature",
+        geometry: { type: "Point", coordinates: reperesCommunes[c.code_insee] },
+        properties: { code_insee: c.code_insee, nom: c.nom, etat: e.communes[c.code_insee]?.etat ?? "non_analyse", reseaux: (e.communes[c.code_insee]?.reseaux ?? []).join(",") },
+      })),
+    },
+    communes: e.communes,
+  };
+}
+const captages = existsSync(join(ROOT, "data/collecte/captages.json"))
+  ? {
+      type: "FeatureCollection",
+      features: read("data/collecte/captages.json").ouvrages.map((o) => ({
+        type: "Feature",
+        geometry: { type: "Point", coordinates: o.coordonnees },
+        properties: { code: o.code_ouvrage, nom: o.nom, commune: o.commune, derniere_annee: o.derniere_annee_volume, volume: o.dernier_volume_m3, uri: o.uri },
+      })),
+    }
+  : null;
+const achats = existsSync(join(ROOT, "data/collecte/achats-pesticides.json")) ? read("data/collecte/achats-pesticides.json") : null;
+
 mkdirSync(join(ROOT, "public/data"), { recursive: true });
 writeFileSync(
   join(ROOT, "public/data/carte.json"),
@@ -280,6 +324,9 @@ writeFileSync(
     sans_localisation: index.filter((c) => c.nb_sans_localisation).map((c) => ({ commune: c.nom, slug: c.slug, sites: c.sans_localisation })),
     details,
     eau,
+    robinets,
+    captages,
+    achats,
     libelles: {
       statut_preuve: libelles.statut_preuve,
       statut_traitement: libelles.statut_traitement,
