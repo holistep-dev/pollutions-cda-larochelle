@@ -21,7 +21,7 @@ export default function Restrictions() {
   return (
     <main>
       <p className="fil">
-        <a href="/">Accueil</a>
+        <a href="/">Carte</a> / <a href="/fiches">Fiches</a>
       </p>
       <h1>Restrictions d&apos;usage</h1>
       <p className="sous-titre">

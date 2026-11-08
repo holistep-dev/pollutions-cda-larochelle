@@ -1,7 +1,9 @@
 import { notFound } from "next/navigation";
 import Statuts from "../../../components/Statuts";
 import Source from "../../../components/Source";
+import { comparer } from "../../../lib/comparaison";
 import {
+  references,
   sites,
   site as lireSite,
   sources as lireSources,
@@ -13,6 +15,7 @@ import {
 } from "../../../lib/donnees";
 
 export const dynamicParams = false;
+const refs = references();
 
 export function generateStaticParams() {
   return sites().map((s) => ({ id: s.id }));
@@ -117,7 +120,7 @@ export default async function FicheSite({ params }) {
   return (
     <main className="fiche">
       <p className="fil">
-        <a href="/">Accueil</a> / <a href={`/communes/${commune.slug}`}>{s.commune}</a>
+        <a href="/">Carte</a> / <a href="/fiches">Fiches</a> / <a href={`/communes/${commune.slug}`}>{s.commune}</a>
       </p>
       <p className="categorie">{L.categorie[s.categorie]}</p>
       <h1>{s.nom}</h1>
@@ -139,27 +142,50 @@ export default async function FicheSite({ params }) {
               <tr>
                 <th>Substance</th>
                 <th>Valeur</th>
-                <th>Référence</th>
+                <th>Comparée à</th>
                 <th>Date</th>
               </tr>
             </thead>
             <tbody>
-              {s.substances.map((m, i) => (
-                <tr key={i}>
-                  <td>{m.libelle}</td>
-                  <td>{m.valeur !== undefined ? `${m.valeur.toLocaleString("fr-FR")} ${m.unite ?? ""}` : "non chiffré"}</td>
-                  <td>
-                    {m.reference_reglementaire
-                      ? `${m.reference_reglementaire.libelle}${
-                          m.reference_reglementaire.nature ? ` (${NATURE_REF[m.reference_reglementaire.nature]})` : ""
-                        }`
-                      : "aucune"}
-                  </td>
-                  <td>{m.date_mesure ? dateLisible(m.date_mesure) : ""}</td>
-                </tr>
-              ))}
+              {s.substances.map((m, i) => {
+                const c = comparer(m, refs);
+                return (
+                  <tr key={i}>
+                    <td>{m.libelle}</td>
+                    <td>{m.valeur !== undefined ? `${m.valeur.toLocaleString("fr-FR")} ${m.unite ?? ""}` : "non chiffré"}</td>
+                    <td>
+                      {c.reperes.length
+                        ? c.reperes.map((r, j) => (
+                            <span key={j} className="repere-fiche">
+                              {r.libelle}
+                              {r.valeur != null ? ` : ${r.valeur.toLocaleString("fr-FR")} ${r.unite}` : r.max != null ? ` : ${r.min.toLocaleString("fr-FR")} à ${r.max.toLocaleString("fr-FR")} ${r.unite}` : ""}
+                              {r.texte ? `. Mesure : ${r.texte}.` : "."}
+                              {r.note ? ` ${r.note}` : ""}
+                            </span>
+                          ))
+                        : m.reference_reglementaire
+                          ? `${m.reference_reglementaire.libelle}${m.reference_reglementaire.nature ? ` (${NATURE_REF[m.reference_reglementaire.nature]})` : ""}`
+                          : "aucune valeur retenue"}
+                    </td>
+                    <td>{m.date_mesure ? dateLisible(m.date_mesure) : ""}</td>
+                  </tr>
+                );
+              })}
             </tbody>
           </table>
+          {(() => {
+            const circ = [...new Map(s.substances.map((m) => comparer(m, refs)).filter((c) => c.circ).map((c) => [c.cle, c])).values()];
+            return circ.length ? (
+              <p className="note">
+                Classement du Centre international de recherche sur le cancer, qui décrit un danger et non un risque :{" "}
+                {circ.map((c) => `${c.cle}, groupe ${c.circ.groupe} (${refs.circ_groupes[c.circ.groupe]}${c.circ.precision ? `, ${c.circ.precision}` : ""})`).join(" ; ")}.
+              </p>
+            ) : null;
+          })()}
+          <p className="note">
+            Les valeurs de comparaison sont décrites sur la page <a href="/mentions-legales#references">méthode</a>. Aucune ne dit à elle
+            seule qu&apos;un risque sanitaire existe : il dépend de l&apos;exposition.
+          </p>
         </>
       ) : null}
 

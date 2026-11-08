@@ -266,7 +266,7 @@
       "code_insee": "17300",
       "nom": "La Rochelle",
       "slug": "la-rochelle",
-      "nb_sites": 17,
+      "nb_sites": 19,
       "nb_sans_localisation": 1,
       "sans_localisation": [
         {
@@ -276,6 +276,22 @@
         }
       ],
       "sites": [
+        {
+          "id": "air-pesticides-la-rochelle-nord",
+          "nom": "Pesticides dans l'air, point de mesure de La Rochelle nord",
+          "categorie": "air",
+          "statut_preuve": "mesure_publiee",
+          "statut_traitement": "inconnu",
+          "localise": true
+        },
+        {
+          "id": "air-pesticides-la-rochelle-ouest",
+          "nom": "Pesticides dans l'air, point de mesure de La Rochelle ouest",
+          "categorie": "air",
+          "statut_preuve": "mesure_publiee",
+          "statut_traitement": "inconnu",
+          "localise": true
+        },
         {
           "id": "baignade-chef-de-baie-la-rochelle",
           "nom": "Plage de Chef de Baie",
@@ -436,10 +452,19 @@
       "code_insee": "17245",
       "nom": "Montroy",
       "slug": "montroy",
-      "nb_sites": 0,
+      "nb_sites": 1,
       "nb_sans_localisation": 0,
       "sans_localisation": [],
-      "sites": []
+      "sites": [
+        {
+          "id": "air-pesticides-montroy",
+          "nom": "Pesticides dans l'air, point de mesure de Montroy",
+          "categorie": "air",
+          "statut_preuve": "mesure_publiee",
+          "statut_traitement": "sous_surveillance",
+          "localise": true
+        }
+      ]
     },
     {
       "code_insee": "17264",
@@ -505,10 +530,19 @@
       "code_insee": "17315",
       "nom": "Saint-Christophe",
       "slug": "saint-christophe",
-      "nb_sites": 0,
+      "nb_sites": 1,
       "nb_sans_localisation": 0,
       "sans_localisation": [],
-      "sites": []
+      "sites": [
+        {
+          "id": "air-pesticides-saint-christophe",
+          "nom": "Pesticides dans l'air, point de mesure de Saint-Christophe",
+          "categorie": "air",
+          "statut_preuve": "mesure_publiee",
+          "statut_traitement": "inconnu",
+          "localise": true
+        }
+      ]
     },
     {
       "code_insee": "17373",

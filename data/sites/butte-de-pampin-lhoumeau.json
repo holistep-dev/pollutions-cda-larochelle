@@ -6,12 +6,12 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -1.1975,
-      46.1935
+      -1.2009,
+      46.1851
     ]
   },
   "precision_geo": "localisation_indicative",
-  "rayon_m": 300,
+  "rayon_m": 150,
   "categorie": "decharge",
   "milieux": [
     "sol"
@@ -47,9 +47,14 @@
     {
       "piece": "Datation par photographie aérienne",
       "ou_chercher": "remonterletemps.ign.fr"
+    },
+    {
+      "piece": "Une délimitation de l'ancienne décharge",
+      "ou_chercher": "Plan de gestion du site naturel de Pampin, cadastre napoléonien et photographies aériennes antérieures à 1969 sur remonterletemps.ign.fr"
     }
   ],
   "notes_internes": "La date de 1969 vient de l'inventaire du projet, qui la dit institutionnelle sans citer l'acte. Source institutionnelle à retrouver.",
   "derniere_verification": "2026-11-08",
-  "visible_par_defaut": true
+  "visible_par_defaut": true,
+  "origine_trace": "Point placé sur le relief boisé de 16 à 19 m d'altitude qui domine le marais de Pampin au sud, repéré sur le modèle de terrain RGE ALTI de l'IGN et l'orthophotographie. Aucune source ne délimite la butte."
 }

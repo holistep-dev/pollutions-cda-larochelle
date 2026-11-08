@@ -28,7 +28,7 @@ export default async function Commune({ params }) {
   return (
     <main>
       <p className="fil">
-        <a href="/">Accueil</a>
+        <a href="/">Carte</a> / <a href="/fiches">Fiches</a>
       </p>
       <h1>{c.nom}</h1>
       <p className="sous-titre">

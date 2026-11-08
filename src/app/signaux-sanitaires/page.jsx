@@ -13,7 +13,7 @@ export default function SignauxSanitaires() {
   return (
     <main>
       <p className="fil">
-        <a href="/">Accueil</a>
+        <a href="/">Carte</a> / <a href="/fiches">Fiches</a>
       </p>
       <h1>Signaux sanitaires</h1>
       <p className="bandeau">{libelles().bandeau_signaux_sanitaires}</p>
@@ -23,8 +23,11 @@ export default function SignauxSanitaires() {
         rapprochement géographique, parce qu&apos;aucune des études citées n&apos;établit de lien entre une source de
         pollution et les cas observés.
       </p>
-      {liste.map((s) => (
-        <section key={s.id} id={s.id} className="signal">
+      {[...liste.filter((s) => s.niveau_source !== "presse"), ...liste.filter((s) => s.niveau_source === "presse")].map((s) => (
+        <section key={s.id} id={s.id} className={`signal ${s.niveau_source === "presse" ? "signal-presse" : ""}`}>
+          {s.niveau_source === "presse" ? (
+            <p className="categorie">Chiffre connu par la presse seulement</p>
+          ) : null}
           <h2>{s.libelle}</h2>
           <p className="sous-titre">
             {s.zone_libelle ?? (s.communes ?? []).map((c) => nomCommune.get(c)).join(", ")}. Période étudiée :{" "}

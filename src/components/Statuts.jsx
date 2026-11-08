@@ -30,6 +30,7 @@ export default function Statuts({ site }) {
         <dd>
           <b>{precision.libelle}</b>
           <span>{precision.definition}</span>
+          {site.origine_trace ? <span>{site.origine_trace}</span> : null}
         </dd>
       </div>
     </dl>

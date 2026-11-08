@@ -1,0 +1,140 @@
+{
+  "id": "air-pesticides-la-rochelle-nord",
+  "nom": "Pesticides dans l'air, point de mesure de La Rochelle nord",
+  "commune": "La Rochelle",
+  "code_insee": "17300",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -1.15372,
+      46.16265
+    ]
+  },
+  "precision_geo": "localisation_indicative",
+  "rayon_m": 100,
+  "origine_trace": "Coordonnées du point de prélèvement publiées par Atmo Nouvelle-Aquitaine. Le prélèvement mesure l'air ambiant du secteur, pas une emprise.",
+  "categorie": "air",
+  "milieux": [
+    "air"
+  ],
+  "substances": [
+    {
+      "libelle": "Lindane, maximum mesuré, quantifié dans 27 prélèvements sur 27",
+      "milieu": "air",
+      "valeur": 0.74,
+      "unite": "ng/m³",
+      "date_mesure": "2002-12-17",
+      "reference_reglementaire": {
+        "libelle": "Aucune valeur sanitaire pour l'air ambiant",
+        "nature": "aucune"
+      },
+      "source": "atmo-na-pesticides-air-2001-2024"
+    },
+    {
+      "libelle": "Trifluraline, maximum mesuré, quantifié dans 17 prélèvements sur 27",
+      "milieu": "air",
+      "valeur": 3.59,
+      "unite": "ng/m³",
+      "date_mesure": "2002-08-29",
+      "reference_reglementaire": {
+        "libelle": "Aucune valeur sanitaire pour l'air ambiant",
+        "nature": "aucune"
+      },
+      "source": "atmo-na-pesticides-air-2001-2024"
+    },
+    {
+      "libelle": "Pendimethaline, maximum mesuré, quantifié dans 15 prélèvements sur 27",
+      "milieu": "air",
+      "valeur": 1.529,
+      "unite": "ng/m³",
+      "date_mesure": "2023-11-27",
+      "reference_reglementaire": {
+        "libelle": "Aucune valeur sanitaire pour l'air ambiant",
+        "nature": "aucune"
+      },
+      "source": "atmo-na-pesticides-air-2001-2024"
+    },
+    {
+      "libelle": "Cyprodinil, maximum mesuré, quantifié dans 11 prélèvements sur 27",
+      "milieu": "air",
+      "valeur": 1.06,
+      "unite": "ng/m³",
+      "date_mesure": "2002-04-09",
+      "reference_reglementaire": {
+        "libelle": "Aucune valeur sanitaire pour l'air ambiant",
+        "nature": "aucune"
+      },
+      "source": "atmo-na-pesticides-air-2001-2024"
+    },
+    {
+      "libelle": "Endosulfan, maximum mesuré, quantifié dans 11 prélèvements sur 21",
+      "milieu": "air",
+      "valeur": 0.23,
+      "unite": "ng/m³",
+      "date_mesure": "2002-08-29",
+      "reference_reglementaire": {
+        "libelle": "Aucune valeur sanitaire pour l'air ambiant",
+        "nature": "aucune"
+      },
+      "source": "atmo-na-pesticides-air-2001-2024"
+    },
+    {
+      "libelle": "Chlorothalonil, maximum mesuré, quantifié dans 10 prélèvements sur 27",
+      "milieu": "air",
+      "valeur": 1.46,
+      "unite": "ng/m³",
+      "date_mesure": "2002-05-15",
+      "reference_reglementaire": {
+        "libelle": "Aucune valeur sanitaire pour l'air ambiant",
+        "nature": "aucune"
+      },
+      "source": "atmo-na-pesticides-air-2001-2024"
+    },
+    {
+      "libelle": "Atrazine, maximum mesuré, quantifié dans 10 prélèvements sur 18",
+      "milieu": "air",
+      "valeur": 0.54,
+      "unite": "ng/m³",
+      "date_mesure": "2002-05-15",
+      "reference_reglementaire": {
+        "libelle": "Aucune valeur sanitaire pour l'air ambiant",
+        "nature": "aucune"
+      },
+      "source": "atmo-na-pesticides-air-2001-2024"
+    },
+    {
+      "libelle": "Chlorpyriphos ethyl, maximum mesuré, quantifié dans 10 prélèvements sur 21",
+      "milieu": "air",
+      "valeur": 0.1,
+      "unite": "ng/m³",
+      "date_mesure": "2002-11-26",
+      "reference_reglementaire": {
+        "libelle": "Aucune valeur sanitaire pour l'air ambiant",
+        "nature": "aucune"
+      },
+      "source": "atmo-na-pesticides-air-2001-2024"
+    }
+  ],
+  "periode": {
+    "debut": "2002",
+    "debut_statut": "datee",
+    "fin": "2023",
+    "fin_statut": "datee",
+    "note": "Bornes des campagnes de mesure, pas de la présence des substances."
+  },
+  "resume": "Point de prélèvement d'Atmo Nouvelle-Aquitaine. Campagnes : 2002 (18 prélèvements), 2023 (9 prélèvements). Sur 121 substances actives recherchées, 29 ont été quantifiées au moins une fois. Le lindane, insecticide interdit en agriculture en France depuis 1998, est quantifié dans 27 prélèvements sur 27. La concentration la plus élevée relevée est celle du prosulfocarbe, un herbicide, à 20 ng/m³ dans le prélèvement du 27 novembre 2023. Il n'existe pas de valeur sanitaire réglementaire pour les pesticides dans l'air ambiant.",
+  "statut_preuve": "mesure_publiee",
+  "procedure_en_cours": false,
+  "statut_traitement": "inconnu",
+  "sources": [
+    "atmo-na-pesticides-air-2001-2024"
+  ],
+  "ce_qui_manque": [
+    {
+      "piece": "Les rapports de campagne d'Atmo Nouvelle-Aquitaine qui commentent ces mesures",
+      "ou_chercher": "atmo-nouvelleaquitaine.org, rubrique publications, pesticides"
+    }
+  ],
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": true
+}

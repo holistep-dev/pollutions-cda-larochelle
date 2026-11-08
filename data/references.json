@@ -1,0 +1,459 @@
+{
+  "note": "Valeurs de comparaison affichées à côté des teneurs mesurées. Chaque valeur garde sa nature : un fond géochimique dit ce qui est courant dans les sols, une valeur de gestion dit à partir de quand un matériau change de filière, une limite de qualité est une norme de potabilité. Aucune ne dit à elle seule qu'un risque sanitaire existe ou n'existe pas. Le risque dépend de l'exposition, que seule une étude de site évalue.",
+  "natures": {
+    "fond_geochimique": "Teneur couramment observée dans des sols non pollués. Un dépassement indique une anomalie, naturelle ou non, pas un risque.",
+    "valeur_de_gestion": "Seuil administratif qui déclenche une action ou change la filière d'un matériau. Ce n'est pas un seuil de toxicité.",
+    "limite_de_qualite": "Norme de l'eau distribuée. Elle intègre des marges de sécurité. Un dépassement oblige le distributeur à agir mais ne signifie pas un danger immédiat.",
+    "seuil_sanitaire": "Valeur au-delà de laquelle l'autorité sanitaire restreint un usage.",
+    "aucune": "Il n'existe pas de valeur réglementaire pour ce milieu."
+  },
+  "sources": {
+    "aspitet": {
+      "titre": "Teneurs totales en « métaux lourds » dans les sols français, résultats généraux du programme ASPITET",
+      "auteur": "Denis Baize, INRA",
+      "date": "2000",
+      "publication": "Le Courrier de l'environnement de l'INRA, n° 39"
+    },
+    "hcsp-plomb-2014": {
+      "titre": "Expositions au plomb : détermination de nouveaux objectifs de gestion",
+      "auteur": "Haut Conseil de la santé publique",
+      "date": "2014-06"
+    },
+    "isdi-2014": {
+      "titre": "Arrêté du 12 décembre 2014 relatif aux conditions d'admission des déchets inertes dans les installations de stockage, annexe II",
+      "auteur": "Ministère de l'Écologie",
+      "date": "2014-12-12",
+      "url": "https://aida.ineris.fr/reglementation/arrete-121214-relatif-conditions-dadmission-dechets-inertes-installations-relevant"
+    },
+    "eau-potable-2007": {
+      "titre": "Arrêté du 11 janvier 2007 relatif aux limites et références de qualité des eaux brutes et des eaux destinées à la consommation humaine",
+      "auteur": "Ministère de la Santé",
+      "date": "2007-01-11",
+      "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000465574"
+    },
+    "baignade-2006": {
+      "titre": "Directive 2006/7/CE concernant la gestion de la qualité des eaux de baignade, annexe I",
+      "auteur": "Parlement européen et Conseil",
+      "date": "2006-02-15",
+      "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32006L0007"
+    },
+    "euratom-2013": {
+      "titre": "Directive 2013/59/Euratom, annexe VII, valeurs d'exemption pour les radionucléides naturels",
+      "auteur": "Conseil de l'Union européenne",
+      "date": "2013-12-05",
+      "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32013L0059"
+    },
+    "atmo-pesticides": {
+      "titre": "Données de mesure des pesticides dans l'air en Nouvelle-Aquitaine 2001-2024, notice",
+      "auteur": "Atmo France et Atmo Nouvelle-Aquitaine",
+      "date": "2025-12-04",
+      "url": "https://www.data.gouv.fr/datasets/donnees-de-mesure-des-pesticides-dans-lair-nouvelle-aquitaine"
+    },
+    "circ": {
+      "titre": "Agents classés par les Monographies du CIRC",
+      "auteur": "Centre international de recherche sur le cancer",
+      "date": "2026",
+      "url": "https://monographs.iarc.who.int/list-of-classifications"
+    }
+  },
+  "circ_groupes": {
+    "1": "cancérogène pour l'homme",
+    "2A": "probablement cancérogène pour l'homme",
+    "2B": "peut-être cancérogène pour l'homme",
+    "3": "inclassable quant à sa cancérogénicité"
+  },
+  "substances": [
+    {
+      "cle": "plomb",
+      "motifs": [
+        "^plomb"
+      ],
+      "circ": {
+        "groupe": "2A",
+        "precision": "composés inorganiques du plomb"
+      },
+      "valeurs": [
+        {
+          "milieu": "sol",
+          "nature": "fond_geochimique",
+          "libelle": "Sols ordinaires en France",
+          "min": 9,
+          "max": 50,
+          "unite": "mg/kg",
+          "source": "aspitet"
+        },
+        {
+          "milieu": "sol",
+          "nature": "valeur_de_gestion",
+          "libelle": "Seuil de vigilance du HCSP",
+          "valeur": 100,
+          "unite": "mg/kg",
+          "source": "hcsp-plomb-2014"
+        },
+        {
+          "milieu": "sol",
+          "nature": "valeur_de_gestion",
+          "libelle": "Seuil d'intervention du HCSP",
+          "valeur": 300,
+          "unite": "mg/kg",
+          "source": "hcsp-plomb-2014"
+        },
+        {
+          "milieu": "eau_souterraine",
+          "nature": "limite_de_qualite",
+          "libelle": "Limite de qualité de l'eau potable",
+          "valeur": 10,
+          "unite": "µg/L",
+          "source": "eau-potable-2007"
+        }
+      ]
+    },
+    {
+      "cle": "cadmium",
+      "motifs": [
+        "^cadmium"
+      ],
+      "circ": {
+        "groupe": "1"
+      },
+      "valeurs": [
+        {
+          "milieu": "sol",
+          "nature": "fond_geochimique",
+          "libelle": "Sols ordinaires en France",
+          "min": 0.05,
+          "max": 0.45,
+          "unite": "mg/kg",
+          "source": "aspitet"
+        }
+      ]
+    },
+    {
+      "cle": "chrome",
+      "motifs": [
+        "^chrome$"
+      ],
+      "circ": {
+        "groupe": "1",
+        "precision": "pour le chrome hexavalent seulement ; le chrome trivalent est classé 3"
+      },
+      "valeurs": [
+        {
+          "milieu": "sol",
+          "nature": "fond_geochimique",
+          "libelle": "Sols ordinaires en France",
+          "min": 10,
+          "max": 90,
+          "unite": "mg/kg",
+          "source": "aspitet"
+        },
+        {
+          "milieu": "eau_souterraine",
+          "nature": "limite_de_qualite",
+          "libelle": "Limite de qualité de l'eau potable",
+          "valeur": 50,
+          "unite": "µg/L",
+          "source": "eau-potable-2007"
+        }
+      ]
+    },
+    {
+      "cle": "chrome hexavalent",
+      "motifs": [
+        "^chrome hexavalent"
+      ],
+      "circ": {
+        "groupe": "1"
+      },
+      "valeurs": []
+    },
+    {
+      "cle": "cuivre",
+      "motifs": [
+        "^cuivre"
+      ],
+      "valeurs": [
+        {
+          "milieu": "sol",
+          "nature": "fond_geochimique",
+          "libelle": "Sols ordinaires en France",
+          "min": 2,
+          "max": 20,
+          "unite": "mg/kg",
+          "source": "aspitet"
+        }
+      ]
+    },
+    {
+      "cle": "zinc",
+      "motifs": [
+        "^zinc"
+      ],
+      "valeurs": [
+        {
+          "milieu": "sol",
+          "nature": "fond_geochimique",
+          "libelle": "Sols ordinaires en France",
+          "min": 10,
+          "max": 100,
+          "unite": "mg/kg",
+          "source": "aspitet"
+        }
+      ]
+    },
+    {
+      "cle": "nickel",
+      "motifs": [
+        "^nickel"
+      ],
+      "circ": {
+        "groupe": "1",
+        "precision": "composés du nickel"
+      },
+      "valeurs": [
+        {
+          "milieu": "sol",
+          "nature": "fond_geochimique",
+          "libelle": "Sols ordinaires en France",
+          "min": 2,
+          "max": 60,
+          "unite": "mg/kg",
+          "source": "aspitet"
+        }
+      ]
+    },
+    {
+      "cle": "arsenic",
+      "motifs": [
+        "^arsenic"
+      ],
+      "circ": {
+        "groupe": "1",
+        "precision": "arsenic et composés inorganiques"
+      },
+      "valeurs": [
+        {
+          "milieu": "eau_souterraine",
+          "nature": "limite_de_qualite",
+          "libelle": "Limite de qualité de l'eau potable",
+          "valeur": 10,
+          "unite": "µg/L",
+          "source": "eau-potable-2007"
+        }
+      ]
+    },
+    {
+      "cle": "mercure",
+      "motifs": [
+        "^mercure"
+      ],
+      "valeurs": [
+        {
+          "milieu": "eau_souterraine",
+          "nature": "limite_de_qualite",
+          "libelle": "Limite de qualité de l'eau potable",
+          "valeur": 1,
+          "unite": "µg/L",
+          "source": "eau-potable-2007"
+        }
+      ]
+    },
+    {
+      "cle": "hydrocarbures",
+      "motifs": [
+        "^hydrocarbures"
+      ],
+      "valeurs": [
+        {
+          "milieu": "sol",
+          "nature": "valeur_de_gestion",
+          "libelle": "Admission en stockage de déchets inertes, hydrocarbures C10-C40",
+          "valeur": 500,
+          "unite": "mg/kg",
+          "source": "isdi-2014"
+        }
+      ]
+    },
+    {
+      "cle": "BTEX",
+      "motifs": [
+        "^btex"
+      ],
+      "circ": {
+        "groupe": "1",
+        "precision": "pour le benzène, l'un des quatre composés"
+      },
+      "valeurs": [
+        {
+          "milieu": "sol",
+          "nature": "valeur_de_gestion",
+          "libelle": "Admission en stockage de déchets inertes",
+          "valeur": 6,
+          "unite": "mg/kg",
+          "source": "isdi-2014"
+        }
+      ]
+    },
+    {
+      "cle": "PCB",
+      "motifs": [
+        "^pcb"
+      ],
+      "circ": {
+        "groupe": "1"
+      },
+      "valeurs": [
+        {
+          "milieu": "sol",
+          "nature": "valeur_de_gestion",
+          "libelle": "Admission en stockage de déchets inertes, 7 congénères",
+          "valeur": 1,
+          "unite": "mg/kg",
+          "source": "isdi-2014"
+        }
+      ]
+    },
+    {
+      "cle": "HAP",
+      "motifs": [
+        "^hap"
+      ],
+      "circ": {
+        "groupe": "1",
+        "precision": "pour le benzo[a]pyrène, l'un des seize composés"
+      },
+      "valeurs": [
+        {
+          "milieu": "sol",
+          "nature": "valeur_de_gestion",
+          "libelle": "Admission en stockage de déchets inertes, 16 HAP",
+          "valeur": 50,
+          "unite": "mg/kg",
+          "source": "isdi-2014"
+        }
+      ]
+    },
+    {
+      "cle": "chlorure de vinyle",
+      "motifs": [
+        "^chlorure de vinyle"
+      ],
+      "circ": {
+        "groupe": "1"
+      },
+      "valeurs": [
+        {
+          "milieu": "eau_souterraine",
+          "nature": "limite_de_qualite",
+          "libelle": "Limite de qualité de l'eau potable",
+          "valeur": 0.5,
+          "unite": "µg/L",
+          "source": "eau-potable-2007"
+        }
+      ]
+    },
+    {
+      "cle": "trichloroéthylène",
+      "motifs": [
+        "^trichloro"
+      ],
+      "circ": {
+        "groupe": "1"
+      },
+      "valeurs": []
+    },
+    {
+      "cle": "tétrachloroéthylène",
+      "motifs": [
+        "^t[ée]trachloro"
+      ],
+      "circ": {
+        "groupe": "2A"
+      },
+      "valeurs": []
+    },
+    {
+      "cle": "thorium et uranium",
+      "motifs": [
+        "thorium",
+        "uranium"
+      ],
+      "valeurs": [
+        {
+          "milieu": "sol",
+          "nature": "valeur_de_gestion",
+          "libelle": "Valeur d'exemption pour chaque radionucléide des chaînes de l'uranium 238 et du thorium 232",
+          "valeur": 1,
+          "unite": "Bq/g",
+          "source": "euratom-2013"
+        }
+      ]
+    },
+    {
+      "cle": "Escherichia coli",
+      "motifs": [
+        "^escherichia coli"
+      ],
+      "valeurs": [
+        {
+          "milieu": "eau_superficielle",
+          "nature": "seuil_sanitaire",
+          "libelle": "Seuil d'une qualité suffisante en eaux côtières, au 90e centile d'une série de quatre saisons",
+          "valeur": 500,
+          "unite": "UFC/100 mL",
+          "source": "baignade-2006",
+          "serie": true
+        }
+      ]
+    },
+    {
+      "cle": "entérocoques intestinaux",
+      "motifs": [
+        "^ent[ée]rocoques"
+      ],
+      "valeurs": [
+        {
+          "milieu": "eau_superficielle",
+          "nature": "seuil_sanitaire",
+          "libelle": "Seuil d'une qualité suffisante en eaux côtières, au 90e centile d'une série de quatre saisons",
+          "valeur": 185,
+          "unite": "UFC/100 mL",
+          "source": "baignade-2006",
+          "serie": true
+        }
+      ]
+    },
+    {
+      "cle": "lindane",
+      "motifs": [
+        "^lindane"
+      ],
+      "circ": {
+        "groupe": "1"
+      },
+      "valeurs": []
+    },
+    {
+      "cle": "chlorothalonil",
+      "motifs": [
+        "^chlorothalonil"
+      ],
+      "circ": {
+        "groupe": "2B"
+      },
+      "valeurs": []
+    },
+    {
+      "cle": "pesticides dans l'air",
+      "motifs": [],
+      "valeurs": [
+        {
+          "milieu": "air",
+          "nature": "aucune",
+          "libelle": "Il n'existe pas de valeur sanitaire sur l'exposition aux pesticides dans l'air ambiant",
+          "source": "atmo-pesticides"
+        }
+      ]
+    }
+  ]
+}

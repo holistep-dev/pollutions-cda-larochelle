@@ -1,0 +1,1163 @@
+{
+ "source": "Atmo France et Atmo Nouvelle-Aquitaine, DataPesticides_AtmoNA_2001-2024, version du 4 décembre 2025",
+ "unite": "ng/m3",
+ "stations": [
+  {
+   "commune": "La Rochelle",
+   "lambert93": [
+    375189,
+    6571089
+   ],
+   "coordonnees": [
+    -1.21127,
+    46.16165
+   ],
+   "annees": {
+    "2016": 29
+   },
+   "nb_prelevements": 29,
+   "nb_substances_recherchees": 60,
+   "nb_substances_quantifiees": 21,
+   "substances_quantifiees": [
+    {
+     "substance": "Lindane",
+     "analyses": 29,
+     "quantifiees": 29,
+     "max": 0.167,
+     "date_max": "2016-09-05",
+     "moyenne_quantifiees": 0.093,
+     "annees": [
+      2016
+     ]
+    },
+    {
+     "substance": "Pyrimiphos methyl",
+     "analyses": 29,
+     "quantifiees": 24,
+     "max": 0.912,
+     "date_max": "2016-06-27",
+     "moyenne_quantifiees": 0.385,
+     "annees": [
+      2016
+     ]
+    },
+    {
+     "substance": "Chlorothalonil",
+     "analyses": 29,
+     "quantifiees": 15,
+     "max": 3.353,
+     "date_max": "2016-04-18",
+     "moyenne_quantifiees": 0.755,
+     "annees": [
+      2016
+     ]
+    },
+    {
+     "substance": "Pendimethaline",
+     "analyses": 29,
+     "quantifiees": 14,
+     "max": 1.557,
+     "date_max": "2016-12-05",
+     "moyenne_quantifiees": 0.354,
+     "annees": [
+      2016
+     ]
+    },
+    {
+     "substance": "Triallate",
+     "analyses": 29,
+     "quantifiees": 8,
+     "max": 3.589,
+     "date_max": "2016-10-24",
+     "moyenne_quantifiees": 0.651,
+     "annees": [
+      2016
+     ]
+    },
+    {
+     "substance": "Metolachlore(-s)",
+     "analyses": 29,
+     "quantifiees": 8,
+     "max": 0.441,
+     "date_max": "2016-05-09",
+     "moyenne_quantifiees": 0.174,
+     "annees": [
+      2016
+     ]
+    },
+    {
+     "substance": "Folpel",
+     "analyses": 29,
+     "quantifiees": 7,
+     "max": 1.506,
+     "date_max": "2016-07-18",
+     "moyenne_quantifiees": 0.492,
+     "annees": [
+      2016
+     ]
+    },
+    {
+     "substance": "Prosulfocarbe",
+     "analyses": 29,
+     "quantifiees": 6,
+     "max": 30.977,
+     "date_max": "2016-12-05",
+     "moyenne_quantifiees": 9.283,
+     "annees": [
+      2016
+     ]
+    },
+    {
+     "substance": "Propyzamide",
+     "analyses": 29,
+     "quantifiees": 4,
+     "max": 0.414,
+     "date_max": "2016-12-05",
+     "moyenne_quantifiees": 0.249,
+     "annees": [
+      2016
+     ]
+    },
+    {
+     "substance": "Piperonyl butoxide (PBO)",
+     "analyses": 29,
+     "quantifiees": 4,
+     "max": 0.167,
+     "date_max": "2016-12-05",
+     "moyenne_quantifiees": 0.112,
+     "annees": [
+      2016
+     ]
+    },
+    {
+     "substance": "Chlorpyriphos methyl",
+     "analyses": 29,
+     "quantifiees": 3,
+     "max": 0.174,
+     "date_max": "2016-05-17",
+     "moyenne_quantifiees": 0.143,
+     "annees": [
+      2016
+     ]
+    },
+    {
+     "substance": "Chlorpyriphos ethyl",
+     "analyses": 29,
+     "quantifiees": 3,
+     "max": 0.143,
+     "date_max": "2016-10-24",
+     "moyenne_quantifiees": 0.082,
+     "annees": [
+      2016
+     ]
+    },
+    {
+     "substance": "Diflufenicanil",
+     "analyses": 29,
+     "quantifiees": 3,
+     "max": 0.069,
+     "date_max": "2016-12-05",
+     "moyenne_quantifiees": 0.043,
+     "annees": [
+      2016
+     ]
+    },
+    {
+     "substance": "Mecoprop (ester de butylglycol)",
+     "analyses": 29,
+     "quantifiees": 2,
+     "max": 0.126,
+     "date_max": "2016-12-05",
+     "moyenne_quantifiees": 0.093,
+     "annees": [
+      2016
+     ]
+    },
+    {
+     "substance": "Cyprodinil",
+     "analyses": 29,
+     "quantifiees": 2,
+     "max": 0.116,
+     "date_max": "2016-03-21",
+     "moyenne_quantifiees": 0.084,
+     "annees": [
+      2016
+     ]
+    },
+    {
+     "substance": "2,4-D (ESTERS)",
+     "analyses": 29,
+     "quantifiees": 2,
+     "max": 0.099,
+     "date_max": "2016-04-04",
+     "moyenne_quantifiees": 0.075,
+     "annees": [
+      2016
+     ]
+    },
+    {
+     "substance": "Tebuconazole",
+     "analyses": 29,
+     "quantifiees": 1,
+     "max": 0.32,
+     "date_max": "2016-05-23",
+     "moyenne_quantifiees": 0.32,
+     "annees": [
+      2016
+     ]
+    },
+    {
+     "substance": "Aclonifen",
+     "analyses": 29,
+     "quantifiees": 1,
+     "max": 0.208,
+     "date_max": "2016-05-17",
+     "moyenne_quantifiees": 0.208,
+     "annees": [
+      2016
+     ]
+    },
+    {
+     "substance": "Pyrimethanil",
+     "analyses": 29,
+     "quantifiees": 1,
+     "max": 0.086,
+     "date_max": "2016-05-23",
+     "moyenne_quantifiees": 0.086,
+     "annees": [
+      2016
+     ]
+    },
+    {
+     "substance": "Quinoxyfen",
+     "analyses": 29,
+     "quantifiees": 1,
+     "max": 0.036,
+     "date_max": "2016-07-18",
+     "moyenne_quantifiees": 0.036,
+     "annees": [
+      2016
+     ]
+    },
+    {
+     "substance": "Oxadiazon",
+     "analyses": 29,
+     "quantifiees": 1,
+     "max": 0.029,
+     "date_max": "2016-02-08",
+     "moyenne_quantifiees": 0.029,
+     "annees": [
+      2016
+     ]
+    }
+   ]
+  },
+  {
+   "commune": "La Rochelle",
+   "lambert93": [
+    379629,
+    6570965
+   ],
+   "coordonnees": [
+    -1.15372,
+    46.16265
+   ],
+   "annees": {
+    "2002": 18,
+    "2023": 9
+   },
+   "nb_prelevements": 27,
+   "nb_substances_recherchees": 121,
+   "nb_substances_quantifiees": 29,
+   "substances_quantifiees": [
+    {
+     "substance": "Lindane",
+     "analyses": 27,
+     "quantifiees": 27,
+     "max": 0.74,
+     "date_max": "2002-12-17",
+     "moyenne_quantifiees": 0.376,
+     "annees": [
+      2002,
+      2023
+     ]
+    },
+    {
+     "substance": "Trifluraline",
+     "analyses": 27,
+     "quantifiees": 17,
+     "max": 3.59,
+     "date_max": "2002-08-29",
+     "moyenne_quantifiees": 0.823,
+     "annees": [
+      2002
+     ]
+    },
+    {
+     "substance": "Pendimethaline",
+     "analyses": 27,
+     "quantifiees": 15,
+     "max": 1.529,
+     "date_max": "2023-11-27",
+     "moyenne_quantifiees": 0.228,
+     "annees": [
+      2002,
+      2023
+     ]
+    },
+    {
+     "substance": "Cyprodinil",
+     "analyses": 27,
+     "quantifiees": 11,
+     "max": 1.06,
+     "date_max": "2002-04-09",
+     "moyenne_quantifiees": 0.189,
+     "annees": [
+      2002
+     ]
+    },
+    {
+     "substance": "Endosulfan",
+     "analyses": 21,
+     "quantifiees": 11,
+     "max": 0.23,
+     "date_max": "2002-08-29",
+     "moyenne_quantifiees": 0.145,
+     "annees": [
+      2002
+     ]
+    },
+    {
+     "substance": "Chlorothalonil",
+     "analyses": 27,
+     "quantifiees": 10,
+     "max": 1.46,
+     "date_max": "2002-05-15",
+     "moyenne_quantifiees": 0.332,
+     "annees": [
+      2002
+     ]
+    },
+    {
+     "substance": "Atrazine",
+     "analyses": 18,
+     "quantifiees": 10,
+     "max": 0.54,
+     "date_max": "2002-05-15",
+     "moyenne_quantifiees": 0.133,
+     "annees": [
+      2002
+     ]
+    },
+    {
+     "substance": "Chlorpyriphos ethyl",
+     "analyses": 21,
+     "quantifiees": 10,
+     "max": 0.1,
+     "date_max": "2002-11-26",
+     "moyenne_quantifiees": 0.043,
+     "annees": [
+      2002
+     ]
+    },
+    {
+     "substance": "Alachlore",
+     "analyses": 18,
+     "quantifiees": 9,
+     "max": 0.5,
+     "date_max": "2002-07-06",
+     "moyenne_quantifiees": 0.184,
+     "annees": [
+      2002
+     ]
+    },
+    {
+     "substance": "Tebutame",
+     "analyses": 18,
+     "quantifiees": 7,
+     "max": 2.52,
+     "date_max": "2002-09-10",
+     "moyenne_quantifiees": 0.694,
+     "annees": [
+      2002
+     ]
+    },
+    {
+     "substance": "Oxadiazon",
+     "analyses": 27,
+     "quantifiees": 7,
+     "max": 0.04,
+     "date_max": "2002-04-22",
+     "moyenne_quantifiees": 0.019,
+     "annees": [
+      2002
+     ]
+    },
+    {
+     "substance": "Fenpropimorphe",
+     "analyses": 27,
+     "quantifiees": 6,
+     "max": 0.5,
+     "date_max": "2002-05-15",
+     "moyenne_quantifiees": 0.188,
+     "annees": [
+      2002
+     ]
+    },
+    {
+     "substance": "Prosulfocarbe",
+     "analyses": 9,
+     "quantifiees": 5,
+     "max": 20.0,
+     "date_max": "2023-11-27",
+     "moyenne_quantifiees": 5.182,
+     "annees": [
+      2023
+     ]
+    },
+    {
+     "substance": "Aclonifen",
+     "analyses": 27,
+     "quantifiees": 5,
+     "max": 0.2,
+     "date_max": "2023-11-27",
+     "moyenne_quantifiees": 0.116,
+     "annees": [
+      2002,
+      2023
+     ]
+    },
+    {
+     "substance": "Metolachlore(-s)",
+     "analyses": 27,
+     "quantifiees": 5,
+     "max": 0.2,
+     "date_max": "2002-04-22",
+     "moyenne_quantifiees": 0.1,
+     "annees": [
+      2002
+     ]
+    },
+    {
+     "substance": "Flusilazole",
+     "analyses": 18,
+     "quantifiees": 5,
+     "max": 0.17,
+     "date_max": "2002-05-15",
+     "moyenne_quantifiees": 0.1,
+     "annees": [
+      2002
+     ]
+    },
+    {
+     "substance": "Carbaryl",
+     "analyses": 6,
+     "quantifiees": 4,
+     "max": 0.1,
+     "date_max": "2002-05-15",
+     "moyenne_quantifiees": 0.058,
+     "annees": [
+      2002
+     ]
+    },
+    {
+     "substance": "Epoxiconazole",
+     "analyses": 27,
+     "quantifiees": 4,
+     "max": 0.1,
+     "date_max": "2002-07-06",
+     "moyenne_quantifiees": 0.085,
+     "annees": [
+      2002
+     ]
+    },
+    {
+     "substance": "Metazachlore",
+     "analyses": 27,
+     "quantifiees": 4,
+     "max": 0.09,
+     "date_max": "2002-09-16",
+     "moyenne_quantifiees": 0.052,
+     "annees": [
+      2002
+     ]
+    },
+    {
+     "substance": "Triallate",
+     "analyses": 9,
+     "quantifiees": 3,
+     "max": 0.659,
+     "date_max": "2023-11-20",
+     "moyenne_quantifiees": 0.493,
+     "annees": [
+      2023
+     ]
+    },
+    {
+     "substance": "Propyzamide",
+     "analyses": 9,
+     "quantifiees": 3,
+     "max": 0.235,
+     "date_max": "2023-11-27",
+     "moyenne_quantifiees": 0.137,
+     "annees": [
+      2023
+     ]
+    },
+    {
+     "substance": "Diflufenicanil",
+     "analyses": 27,
+     "quantifiees": 3,
+     "max": 0.052,
+     "date_max": "2023-11-27",
+     "moyenne_quantifiees": 0.034,
+     "annees": [
+      2002,
+      2023
+     ]
+    },
+    {
+     "substance": "Terbuthylazine",
+     "analyses": 27,
+     "quantifiees": 2,
+     "max": 0.09,
+     "date_max": "2002-05-15",
+     "moyenne_quantifiees": 0.08,
+     "annees": [
+      2002
+     ]
+    },
+    {
+     "substance": "Carbofuran",
+     "analyses": 6,
+     "quantifiees": 2,
+     "max": 0.02,
+     "date_max": "2002-06-18",
+     "moyenne_quantifiees": 0.02,
+     "annees": [
+      2002
+     ]
+    },
+    {
+     "substance": "Flufenacet",
+     "analyses": 9,
+     "quantifiees": 1,
+     "max": 0.153,
+     "date_max": "2023-11-27",
+     "moyenne_quantifiees": 0.153,
+     "annees": [
+      2023
+     ]
+    },
+    {
+     "substance": "Hexaconazole",
+     "analyses": 18,
+     "quantifiees": 1,
+     "max": 0.09,
+     "date_max": "2002-05-15",
+     "moyenne_quantifiees": 0.09,
+     "annees": [
+      2002
+     ]
+    },
+    {
+     "substance": "Dichlorvos",
+     "analyses": 12,
+     "quantifiees": 1,
+     "max": 0.06,
+     "date_max": "2002-09-10",
+     "moyenne_quantifiees": 0.06,
+     "annees": [
+      2002
+     ]
+    },
+    {
+     "substance": "Malathion",
+     "analyses": 12,
+     "quantifiees": 1,
+     "max": 0.03,
+     "date_max": "2002-10-28",
+     "moyenne_quantifiees": 0.03,
+     "annees": [
+      2002
+     ]
+    },
+    {
+     "substance": "Simazine",
+     "analyses": 18,
+     "quantifiees": 1,
+     "max": 0.02,
+     "date_max": "2002-06-18",
+     "moyenne_quantifiees": 0.02,
+     "annees": [
+      2002
+     ]
+    }
+   ]
+  },
+  {
+   "commune": "Montroy",
+   "lambert93": [
+    390411,
+    6569717
+   ],
+   "coordonnees": [
+    -1.01336,
+    46.15645
+   ],
+   "annees": {
+    "2019": 30,
+    "2021": 31,
+    "2022": 32,
+    "2023": 32,
+    "2024": 30
+   },
+   "nb_prelevements": 155,
+   "nb_substances_recherchees": 114,
+   "nb_substances_quantifiees": 32,
+   "substances_quantifiees": [
+    {
+     "substance": "Lindane",
+     "analyses": 155,
+     "quantifiees": 143,
+     "max": 0.263,
+     "date_max": "2022-09-05",
+     "moyenne_quantifiees": 0.074,
+     "annees": [
+      2019,
+      2021,
+      2022,
+      2023,
+      2024
+     ]
+    },
+    {
+     "substance": "Pendimethaline",
+     "analyses": 155,
+     "quantifiees": 132,
+     "max": 16.547,
+     "date_max": "2023-03-07",
+     "moyenne_quantifiees": 1.765,
+     "annees": [
+      2019,
+      2021,
+      2022,
+      2023,
+      2024
+     ]
+    },
+    {
+     "substance": "Triallate",
+     "analyses": 155,
+     "quantifiees": 58,
+     "max": 2.814,
+     "date_max": "2019-10-28",
+     "moyenne_quantifiees": 0.483,
+     "annees": [
+      2019,
+      2021,
+      2022,
+      2023,
+      2024
+     ]
+    },
+    {
+     "substance": "Metolachlore(-s)",
+     "analyses": 155,
+     "quantifiees": 55,
+     "max": 0.714,
+     "date_max": "2019-04-01",
+     "moyenne_quantifiees": 0.222,
+     "annees": [
+      2019,
+      2021,
+      2022,
+      2023,
+      2024
+     ]
+    },
+    {
+     "substance": "Prosulfocarbe",
+     "analyses": 155,
+     "quantifiees": 52,
+     "max": 267.974,
+     "date_max": "2021-11-02",
+     "moyenne_quantifiees": 25.348,
+     "annees": [
+      2019,
+      2021,
+      2022,
+      2023,
+      2024
+     ]
+    },
+    {
+     "substance": "Propyzamide",
+     "analyses": 155,
+     "quantifiees": 35,
+     "max": 1.598,
+     "date_max": "2024-11-25",
+     "moyenne_quantifiees": 0.538,
+     "annees": [
+      2019,
+      2021,
+      2022,
+      2023,
+      2024
+     ]
+    },
+    {
+     "substance": "Aclonifen",
+     "analyses": 155,
+     "quantifiees": 23,
+     "max": 1.617,
+     "date_max": "2022-11-07",
+     "moyenne_quantifiees": 0.522,
+     "annees": [
+      2019,
+      2021,
+      2022,
+      2023,
+      2024
+     ]
+    },
+    {
+     "substance": "Folpel",
+     "analyses": 155,
+     "quantifiees": 23,
+     "max": 1.018,
+     "date_max": "2022-07-25",
+     "moyenne_quantifiees": 0.393,
+     "annees": [
+      2019,
+      2021,
+      2022,
+      2023,
+      2024
+     ]
+    },
+    {
+     "substance": "Diflufenicanil",
+     "analyses": 155,
+     "quantifiees": 21,
+     "max": 0.132,
+     "date_max": "2021-11-15",
+     "moyenne_quantifiees": 0.073,
+     "annees": [
+      2019,
+      2021,
+      2022,
+      2023,
+      2024
+     ]
+    },
+    {
+     "substance": "Chlorothalonil",
+     "analyses": 155,
+     "quantifiees": 14,
+     "max": 6.25,
+     "date_max": "2019-04-15",
+     "moyenne_quantifiees": 2.005,
+     "annees": [
+      2019,
+      2022
+     ]
+    },
+    {
+     "substance": "Cyprodinil",
+     "analyses": 155,
+     "quantifiees": 13,
+     "max": 0.237,
+     "date_max": "2021-03-22",
+     "moyenne_quantifiees": 0.133,
+     "annees": [
+      2019,
+      2021,
+      2022,
+      2023,
+      2024
+     ]
+    },
+    {
+     "substance": "Trifluraline",
+     "analyses": 155,
+     "quantifiees": 11,
+     "max": 0.161,
+     "date_max": "2019-05-20",
+     "moyenne_quantifiees": 0.064,
+     "annees": [
+      2019
+     ]
+    },
+    {
+     "substance": "Dimethenamide(-p)",
+     "analyses": 154,
+     "quantifiees": 10,
+     "max": 0.571,
+     "date_max": "2024-04-22",
+     "moyenne_quantifiees": 0.318,
+     "annees": [
+      2019,
+      2021,
+      2022,
+      2023,
+      2024
+     ]
+    },
+    {
+     "substance": "Terbuthylazine",
+     "analyses": 155,
+     "quantifiees": 8,
+     "max": 0.12,
+     "date_max": "2023-06-05",
+     "moyenne_quantifiees": 0.086,
+     "annees": [
+      2021,
+      2022,
+      2023,
+      2024
+     ]
+    },
+    {
+     "substance": "Flurochloridone",
+     "analyses": 155,
+     "quantifiees": 7,
+     "max": 0.118,
+     "date_max": "2022-04-19",
+     "moyenne_quantifiees": 0.086,
+     "annees": [
+      2021,
+      2022,
+      2023
+     ]
+    },
+    {
+     "substance": "Fenpropidine",
+     "analyses": 155,
+     "quantifiees": 6,
+     "max": 4.444,
+     "date_max": "2022-04-19",
+     "moyenne_quantifiees": 1.362,
+     "annees": [
+      2021,
+      2022
+     ]
+    },
+    {
+     "substance": "Flufenacet",
+     "analyses": 62,
+     "quantifiees": 5,
+     "max": 1.302,
+     "date_max": "2024-11-25",
+     "moyenne_quantifiees": 0.643,
+     "annees": [
+      2024
+     ]
+    },
+    {
+     "substance": "Tebuconazole",
+     "analyses": 155,
+     "quantifiees": 5,
+     "max": 0.251,
+     "date_max": "2023-05-15",
+     "moyenne_quantifiees": 0.209,
+     "annees": [
+      2022,
+      2023
+     ]
+    },
+    {
+     "substance": "Chlorpyriphos methyl",
+     "analyses": 155,
+     "quantifiees": 4,
+     "max": 1.845,
+     "date_max": "2019-12-02",
+     "moyenne_quantifiees": 0.614,
+     "annees": [
+      2019,
+      2024
+     ]
+    },
+    {
+     "substance": "Metazachlore",
+     "analyses": 155,
+     "quantifiees": 4,
+     "max": 0.248,
+     "date_max": "2024-09-02",
+     "moyenne_quantifiees": 0.145,
+     "annees": [
+      2021,
+      2023,
+      2024
+     ]
+    },
+    {
+     "substance": "Pyrimethanil",
+     "analyses": 155,
+     "quantifiees": 4,
+     "max": 0.174,
+     "date_max": "2021-05-31",
+     "moyenne_quantifiees": 0.146,
+     "annees": [
+      2019,
+      2021
+     ]
+    },
+    {
+     "substance": "Mecoprop (ester de butylglycol)",
+     "analyses": 155,
+     "quantifiees": 3,
+     "max": 0.175,
+     "date_max": "2022-05-16",
+     "moyenne_quantifiees": 0.098,
+     "annees": [
+      2019,
+      2022,
+      2023
+     ]
+    },
+    {
+     "substance": "2,4-MCPA (ESTERS)",
+     "analyses": 155,
+     "quantifiees": 3,
+     "max": 0.156,
+     "date_max": "2021-06-07",
+     "moyenne_quantifiees": 0.144,
+     "annees": [
+      2021
+     ]
+    },
+    {
+     "substance": "Fenpropimorphe",
+     "analyses": 155,
+     "quantifiees": 2,
+     "max": 0.774,
+     "date_max": "2019-04-01",
+     "moyenne_quantifiees": 0.486,
+     "annees": [
+      2019
+     ]
+    },
+    {
+     "substance": "Chlortoluron",
+     "analyses": 125,
+     "quantifiees": 2,
+     "max": 0.494,
+     "date_max": "2021-11-08",
+     "moyenne_quantifiees": 0.356,
+     "annees": [
+      2021,
+      2024
+     ]
+    },
+    {
+     "substance": "Procymidone",
+     "analyses": 155,
+     "quantifiees": 2,
+     "max": 0.168,
+     "date_max": "2022-05-09",
+     "moyenne_quantifiees": 0.135,
+     "annees": [
+      2021,
+      2022
+     ]
+    },
+    {
+     "substance": "Anthraquinone",
+     "analyses": 1,
+     "quantifiees": 1,
+     "max": 1.006,
+     "date_max": "2019-02-20",
+     "moyenne_quantifiees": 1.006,
+     "annees": [
+      2019
+     ]
+    },
+    {
+     "substance": "Oryzalin",
+     "analyses": 155,
+     "quantifiees": 1,
+     "max": 0.299,
+     "date_max": "2021-06-28",
+     "moyenne_quantifiees": 0.299,
+     "annees": [
+      2021
+     ]
+    },
+    {
+     "substance": "Fluopyram",
+     "analyses": 155,
+     "quantifiees": 1,
+     "max": 0.237,
+     "date_max": "2019-04-29",
+     "moyenne_quantifiees": 0.237,
+     "annees": [
+      2019
+     ]
+    },
+    {
+     "substance": "Pyrimicarbe",
+     "analyses": 155,
+     "quantifiees": 1,
+     "max": 0.208,
+     "date_max": "2023-05-02",
+     "moyenne_quantifiees": 0.208,
+     "annees": [
+      2023
+     ]
+    },
+    {
+     "substance": "Clomazone",
+     "analyses": 155,
+     "quantifiees": 1,
+     "max": 0.203,
+     "date_max": "2021-04-06",
+     "moyenne_quantifiees": 0.203,
+     "annees": [
+      2021
+     ]
+    },
+    {
+     "substance": "2,4-D (ESTERS)",
+     "analyses": 155,
+     "quantifiees": 1,
+     "max": 0.033,
+     "date_max": "2024-08-12",
+     "moyenne_quantifiees": 0.033,
+     "annees": [
+      2024
+     ]
+    }
+   ]
+  },
+  {
+   "commune": "Saint-Christophe",
+   "lambert93": [
+    395444,
+    6568280
+   ],
+   "coordonnees": [
+    -0.94729,
+    46.14581
+   ],
+   "annees": {
+    "2023": 9
+   },
+   "nb_prelevements": 9,
+   "nb_substances_recherchees": 109,
+   "nb_substances_quantifiees": 10,
+   "substances_quantifiees": [
+    {
+     "substance": "Lindane",
+     "analyses": 9,
+     "quantifiees": 9,
+     "max": 0.206,
+     "date_max": "2023-10-09",
+     "moyenne_quantifiees": 0.108,
+     "annees": [
+      2023
+     ]
+    },
+    {
+     "substance": "Prosulfocarbe",
+     "analyses": 9,
+     "quantifiees": 6,
+     "max": 35.233,
+     "date_max": "2023-12-18",
+     "moyenne_quantifiees": 15.036,
+     "annees": [
+      2023
+     ]
+    },
+    {
+     "substance": "Pendimethaline",
+     "analyses": 9,
+     "quantifiees": 6,
+     "max": 5.799,
+     "date_max": "2023-11-27",
+     "moyenne_quantifiees": 1.718,
+     "annees": [
+      2023
+     ]
+    },
+    {
+     "substance": "Propyzamide",
+     "analyses": 9,
+     "quantifiees": 6,
+     "max": 0.829,
+     "date_max": "2023-12-18",
+     "moyenne_quantifiees": 0.376,
+     "annees": [
+      2023
+     ]
+    },
+    {
+     "substance": "Triallate",
+     "analyses": 9,
+     "quantifiees": 5,
+     "max": 0.515,
+     "date_max": "2023-10-09",
+     "moyenne_quantifiees": 0.323,
+     "annees": [
+      2023
+     ]
+    },
+    {
+     "substance": "Aclonifen",
+     "analyses": 9,
+     "quantifiees": 3,
+     "max": 0.337,
+     "date_max": "2023-11-27",
+     "moyenne_quantifiees": 0.264,
+     "annees": [
+      2023
+     ]
+    },
+    {
+     "substance": "Diflufenicanil",
+     "analyses": 9,
+     "quantifiees": 3,
+     "max": 0.09,
+     "date_max": "2023-11-20",
+     "moyenne_quantifiees": 0.066,
+     "annees": [
+      2023
+     ]
+    },
+    {
+     "substance": "Flufenacet",
+     "analyses": 9,
+     "quantifiees": 2,
+     "max": 0.308,
+     "date_max": "2023-11-27",
+     "moyenne_quantifiees": 0.247,
+     "annees": [
+      2023
+     ]
+    },
+    {
+     "substance": "Chlorpyriphos methyl",
+     "analyses": 9,
+     "quantifiees": 1,
+     "max": 0.829,
+     "date_max": "2023-12-18",
+     "moyenne_quantifiees": 0.829,
+     "annees": [
+      2023
+     ]
+    },
+    {
+     "substance": "Pentachlorophenol",
+     "analyses": 9,
+     "quantifiees": 1,
+     "max": 0.335,
+     "date_max": "2023-11-13",
+     "moyenne_quantifiees": 0.335,
+     "annees": [
+      2023
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -28,7 +28,8 @@
       "sources": [
         "rgcpc-2026-03-st-rogatien-perigny",
         "rgcpc-2025-03-pediatrie-aja-17"
-      ]
+      ],
+      "niveau_source": "etude_publiee"
     },
     {
       "id": "cancers-0-24-ans-saint-vivien",
@@ -56,6 +57,38 @@
       ],
       "sources": [
         "rgcpc-2025-03-pediatrie-aja-17"
+      ],
+      "niveau_source": "etude_publiee"
+    },
+    {
+      "id": "cancers-0-24-ans-lhoumeau",
+      "libelle": "Cancers chez les 0 à 24 ans à L'Houmeau, chiffre rapporté par la presse",
+      "niveau_source": "presse",
+      "communes": [
+        "17190"
+      ],
+      "population": "Résidents de L'Houmeau âgés de 0 à 24 ans. La population de référence n'est pas précisée par les articles.",
+      "periode": {
+        "debut": "2008",
+        "debut_statut": "datee",
+        "fin": "2022",
+        "fin_statut": "datee",
+        "note": "Période de l'étude départementale citée par l'AFP. Les articles ne la rattachent pas explicitement au chiffre de L'Houmeau."
+      },
+      "auteur_etude": "Registre général des cancers de Poitou-Charentes, rapport de mars 2025, cité par l'AFP d'après Le Parisien, puis par Le Monde en septembre 2026",
+      "resultat": "Selon l'AFP, la commune apparaît en rouge sur la carte du rapport avec cinq cancers observés pour 1,8 attendus. Le Dr Thomas Systchenko, cité par l'AFP, précise que la faiblesse des effectifs ne permet pas de parler d'excès de risque statistiquement significatif. Le chiffre n'a pas été retrouvé dans le texte du rapport consulté pour ce site.",
+      "facteurs_de_risque_connus": "Aucun intervalle de confiance publié. Aucune mesure d'exposition.",
+      "enquetes_en_cours": [
+        {
+          "nom": "EXPOSCAN, expositions environnementales et spatialisation du sur-risque de cancers pédiatriques",
+          "pilote": "Laboratoire public Qualyse, comité de pilotage présidé par le préfet de la Charente-Maritime",
+          "echeance": "2028",
+          "source": "prefecture17-2026-03-exposcan"
+        }
+      ],
+      "sources": [
+        "afp-linfodurable-2025-03-27",
+        "lemonde-2026-09-10-lhoumeau"
       ]
     },
     {
@@ -77,7 +110,8 @@
       "facteurs_de_risque_connus": "Les auteurs rattachent l'excès de cancers du poumon et des voies aérodigestives supérieures principalement à la consommation de tabac et d'alcool, et écrivent que des facteurs professionnels ou environnementaux peuvent coexister sans que leur part soit mesurable.",
       "sources": [
         "rgcpc-2023-cartographie-cda"
-      ]
+      ],
+      "niveau_source": "etude_publiee"
     }
   ]
 }

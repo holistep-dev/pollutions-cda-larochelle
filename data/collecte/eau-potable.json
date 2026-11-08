@@ -1,0 +1,2246 @@
+{
+ "source": "Hub'Eau qualite_eau_potable (ARS, SISE-Eaux)",
+ "periode_debut": "2016-01-01",
+ "collecte_le": "2026-11-08",
+ "communes": [
+  {
+   "code_insee": "17010",
+   "nom": "Angoulins",
+   "reseaux": [
+    {
+     "code": "017000322",
+     "nom": "R. D'ANGOULINS",
+     "annees": [
+      2016,
+      2026
+     ]
+    }
+   ],
+   "nb_prelevements_ph": 97,
+   "dernier_prelevement": "2026-08-24",
+   "depassements_limite": [
+    {
+     "date": "2017-08-25",
+     "prelevement": "01700097095",
+     "parametre": "Chlorure de vinyl monomère",
+     "code_parametre": "1753",
+     "cas": "75-01-4",
+     "valeur": 0.61,
+     "resultat": "0,61",
+     "unite": "µg/L",
+     "limite_qualite": "<=0.5 µg/L",
+     "reseaux": [
+      "R. D'ANGOULINS"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité et conforme aux références de qualité."
+    },
+    {
+     "date": "2017-09-12",
+     "prelevement": "01700097265",
+     "parametre": "Chlorure de vinyl monomère",
+     "code_parametre": "1753",
+     "cas": "75-01-4",
+     "valeur": 0.9,
+     "resultat": "0,9",
+     "unite": "µg/L",
+     "limite_qualite": "<=0.5 µg/L",
+     "reseaux": [
+      "R. D'ANGOULINS"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité et conforme aux références de qualité."
+    },
+    {
+     "date": "2017-09-28",
+     "prelevement": "01700097420",
+     "parametre": "Chlorure de vinyl monomère",
+     "code_parametre": "1753",
+     "cas": "75-01-4",
+     "valeur": 1.0,
+     "resultat": "1",
+     "unite": "µg/L",
+     "limite_qualite": "<=0.5 µg/L",
+     "reseaux": [
+      "R. D'ANGOULINS"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité et conforme aux références de qualité."
+    },
+    {
+     "date": "2017-10-19",
+     "prelevement": "01700097588",
+     "parametre": "Escherichia coli /100ml - MF",
+     "code_parametre": "1449",
+     "cas": null,
+     "valeur": 1.0,
+     "resultat": "1",
+     "unite": "n/(100mL)",
+     "limite_qualite": "<=0 n/(100mL)",
+     "reseaux": [
+      "R. D'ANGOULINS"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux exigences de qualité."
+    }
+   ]
+  },
+  {
+   "code_insee": "17028",
+   "nom": "Aytré",
+   "reseaux": [
+    {
+     "code": "017000219",
+     "nom": "R. D'AYTRE-PERIGNY-ST-ROGATIEN",
+     "annees": [
+      2016,
+      2026
+     ]
+    }
+   ],
+   "nb_prelevements_ph": 130,
+   "dernier_prelevement": "2026-08-13",
+   "depassements_limite": [
+    {
+     "date": "2021-11-02",
+     "prelevement": "01700127467",
+     "parametre": "Entérocoques /100ml-MS",
+     "code_parametre": "6455",
+     "cas": null,
+     "valeur": 1.0,
+     "resultat": "1",
+     "unite": "n/(100mL)",
+     "limite_qualite": "<=0 n/(100mL)",
+     "reseaux": [
+      "R. D'AYTRE-PERIGNY-ST-ROGATIEN"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité et conforme aux références de qualité."
+    }
+   ]
+  },
+  {
+   "code_insee": "17059",
+   "nom": "Bourgneuf",
+   "reseaux": [
+    {
+     "code": "017000213",
+     "nom": "R. DE BOURGNEUF",
+     "annees": [
+      2016,
+      2026
+     ]
+    }
+   ],
+   "nb_prelevements_ph": 36,
+   "dernier_prelevement": "2026-08-06",
+   "depassements_limite": []
+  },
+  {
+   "code_insee": "17094",
+   "nom": "Châtelaillon-Plage",
+   "reseaux": [
+    {
+     "code": "017000016",
+     "nom": "R. DE CHATELAILLON",
+     "annees": [
+      2016,
+      2026
+     ]
+    }
+   ],
+   "nb_prelevements_ph": 207,
+   "dernier_prelevement": "2026-08-24",
+   "depassements_limite": []
+  },
+  {
+   "code_insee": "17109",
+   "nom": "Clavette",
+   "reseaux": [
+    {
+     "code": "017000212",
+     "nom": "R. DE LA JARRIE",
+     "annees": [
+      2016,
+      2026
+     ]
+    }
+   ],
+   "nb_prelevements_ph": 84,
+   "dernier_prelevement": "2026-07-29",
+   "depassements_limite": [
+    {
+     "date": "2018-02-13",
+     "prelevement": "01700098921",
+     "parametre": "ESA metazachlore",
+     "code_parametre": "6895",
+     "cas": "172960-62-2",
+     "valeur": 0.24,
+     "resultat": "0,24",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE LA JARRIE"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité et conforme aux références de qualité."
+    },
+    {
+     "date": "2020-12-29",
+     "prelevement": "01700124204",
+     "parametre": "Chlortoluron",
+     "code_parametre": "1136",
+     "cas": "15545-48-9",
+     "valeur": 1.0,
+     "resultat": "1",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE LA JARRIE"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité et conforme aux références de qualité."
+    },
+    {
+     "date": "2020-12-29",
+     "prelevement": "01700124204",
+     "parametre": "ESA metolachlore",
+     "code_parametre": "6854",
+     "cas": "171118-09-5",
+     "valeur": 0.22,
+     "resultat": "0,22",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE LA JARRIE"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité et conforme aux références de qualité."
+    },
+    {
+     "date": "2020-12-29",
+     "prelevement": "01700124204",
+     "parametre": "Total des pesticides analysés",
+     "code_parametre": "6276",
+     "cas": null,
+     "valeur": 1.259,
+     "resultat": "1,259",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,5 µg/L",
+     "reseaux": [
+      "R. DE LA JARRIE"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité et conforme aux références de qualité."
+    },
+    {
+     "date": "2023-11-30",
+     "prelevement": "01700141844",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.17,
+     "resultat": "0,17",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE LA JARRIE"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité et conforme aux références de qualité. Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à lui seul de risque sanitaire, en l’état actuel des connaissances scientifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont été avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2023-12-01",
+     "prelevement": "01700141961",
+     "parametre": "Bromates",
+     "code_parametre": "1751",
+     "cas": "15541-45-4",
+     "valeur": 12.0,
+     "resultat": "12",
+     "unite": "µg/L",
+     "limite_qualite": "<=10 µg/L",
+     "reseaux": [
+      "R. DE LA JARRIE"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité et conforme aux références de qualité. La teneur en bromate est supérieure à la limite de qualité (10 µg/L). Un recontrôle est programmé. La teneur en R471811 Chlorothalonil (métabolite du pesticide Chlorotha lonil)est supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à lui seul de risque sanitaire, en l’état actuel des connaissances scientifiques. Toutefois, toutes les dispositions nécess aires pour remédier à cette situation doivent être prises. Les exploit ants du réseau ont été avertis. Un suivi renforcé est mis en place pou r suivre l’évolution de la situation."
+    },
+    {
+     "date": "2023-12-01",
+     "prelevement": "01700141961",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.13,
+     "resultat": "0,13",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE LA JARRIE"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité et conforme aux références de qualité. La teneur en bromate est supérieure à la limite de qualité (10 µg/L). Un recontrôle est programmé. La teneur en R471811 Chlorothalonil (métabolite du pesticide Chlorotha lonil)est supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à lui seul de risque sanitaire, en l’état actuel des connaissances scientifiques. Toutefois, toutes les dispositions nécess aires pour remédier à cette situation doivent être prises. Les exploit ants du réseau ont été avertis. Un suivi renforcé est mis en place pou r suivre l’évolution de la situation."
+    },
+    {
+     "date": "2024-01-08",
+     "prelevement": "01700142226",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.16,
+     "resultat": "0,16",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE LA JARRIE"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à lui seul de risque sanitaire, en l’état actuel des connaissances scientifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont été avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2024-02-19",
+     "prelevement": "01700143040",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.13,
+     "resultat": "0,13",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE LA JARRIE"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à lui seul de risque sanitaire, en l’état actuel des connaissances scientifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont été avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation. On note une teneur en Carbone Organique Total supérieure à la valeur maximale de référence. Cette présence est due à la présence de matière organique dans l'eau apportée probablement par le lessivage des sols lors d'événements pluvieux importants."
+    },
+    {
+     "date": "2024-03-29",
+     "prelevement": "01700143492",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.15,
+     "resultat": "0,15",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE LA JARRIE"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à lui seul de risque sanitaire, en l’état actuel des connaissances scientifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont été avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2024-04-12",
+     "prelevement": "01700143785",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.13,
+     "resultat": "0,13",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE LA JARRIE"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à lui seul de risque sanitaire, en l’état actuel des connaissances scientifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont été avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2026-05-13",
+     "prelevement": "01700158230",
+     "parametre": "Fosetyl",
+     "code_parametre": "1816",
+     "cas": "15845-66-6",
+     "valeur": 0.28,
+     "resultat": "0,28",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE LA JARRIE"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité et conforme aux références de qualité. La valeur en fosetyl est supérieure à la limite de qualité. Toutefois, cette valeur respecte les limites fixées par l’arrêté préfectoral de dérogation du 26 Mars 2026. Selon les avis sanitaires et scientifiques de l’Organisation Mondiale de la Santé et de l'ANSES, la consommation de cette eau ne présente pas de risque pour la santé aux teneurs retr ouvées. Un suivi renforcé est mis en place."
+    },
+    {
+     "date": "2026-06-10",
+     "prelevement": "01700158311",
+     "parametre": "Fosetyl",
+     "code_parametre": "1816",
+     "cas": "15845-66-6",
+     "valeur": 0.14,
+     "resultat": "0,14",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE LA JARRIE"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité et conforme aux références de qualité. La valeur en fosetyl est supérieure à la limite de qualité. Toutefois, cette valeur respecte les limites fixées par l’arrêté préfectoral de dérogation du 26 Mars 2026. Selon les avis sanitaires et scientifiques de l’Organisation Mondiale de la Santé et de l'ANSES, la consommation de cette eau ne présente pas de risque pour la santé aux teneurs retrouvées. Un suivi renforcé est mis en place."
+    }
+   ]
+  },
+  {
+   "code_insee": "17136",
+   "nom": "Croix-Chapeau",
+   "reseaux": [
+    {
+     "code": "017000212",
+     "nom": "R. DE LA JARRIE",
+     "annees": [
+      2016,
+      2026
+     ]
+    }
+   ],
+   "nb_prelevements_ph": 26,
+   "dernier_prelevement": "2026-06-12",
+   "depassements_limite": []
+  },
+  {
+   "code_insee": "17142",
+   "nom": "Dompierre-sur-Mer",
+   "reseaux": [
+    {
+     "code": "017000344",
+     "nom": "R. D'ANDILLY-PUILBOREAU",
+     "annees": [
+      2016,
+      2026
+     ]
+    }
+   ],
+   "nb_prelevements_ph": 104,
+   "dernier_prelevement": "2026-08-10",
+   "depassements_limite": []
+  },
+  {
+   "code_insee": "17153",
+   "nom": "Esnandes",
+   "reseaux": [
+    {
+     "code": "017000342",
+     "nom": "R. DE ESNANDES-LAGORD",
+     "annees": [
+      2016,
+      2026
+     ]
+    }
+   ],
+   "nb_prelevements_ph": 62,
+   "dernier_prelevement": "2026-08-11",
+   "depassements_limite": []
+  },
+  {
+   "code_insee": "17190",
+   "nom": "L'Houmeau",
+   "reseaux": [
+    {
+     "code": "017000342",
+     "nom": "R. DE ESNANDES-LAGORD",
+     "annees": [
+      2016,
+      2026
+     ]
+    }
+   ],
+   "nb_prelevements_ph": 62,
+   "dernier_prelevement": "2026-08-11",
+   "depassements_limite": []
+  },
+  {
+   "code_insee": "17193",
+   "nom": "La Jarne",
+   "reseaux": [
+    {
+     "code": "017000322",
+     "nom": "R. D'ANGOULINS",
+     "annees": [
+      2016,
+      2026
+     ]
+    }
+   ],
+   "nb_prelevements_ph": 40,
+   "dernier_prelevement": "2026-07-29",
+   "depassements_limite": []
+  },
+  {
+   "code_insee": "17194",
+   "nom": "La Jarrie",
+   "reseaux": [
+    {
+     "code": "017000212",
+     "nom": "R. DE LA JARRIE",
+     "annees": [
+      2016,
+      2026
+     ]
+    }
+   ],
+   "nb_prelevements_ph": 37,
+   "dernier_prelevement": "2026-08-24",
+   "depassements_limite": []
+  },
+  {
+   "code_insee": "17300",
+   "nom": "La Rochelle",
+   "reseaux": [
+    {
+     "code": "017000215",
+     "nom": "R. DE LA ROCHELLE NORD-SUD",
+     "annees": [
+      2016,
+      2026
+     ]
+    },
+    {
+     "code": "017000216",
+     "nom": "R. DE LA ROCHELLE CENTRE",
+     "annees": [
+      2016,
+      2026
+     ]
+    }
+   ],
+   "nb_prelevements_ph": 2374,
+   "dernier_prelevement": "2026-08-31",
+   "depassements_limite": [
+    {
+     "date": "2016-08-05",
+     "prelevement": "01700092360",
+     "parametre": "Escherichia coli /100ml - MF",
+     "code_parametre": "1449",
+     "cas": null,
+     "valeur": 7.0,
+     "resultat": "7",
+     "unite": "n/(100mL)",
+     "limite_qualite": "<=0 n/(100mL)",
+     "reseaux": [
+      "R. DE LA ROCHELLE CENTRE"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux exigences de qualité."
+    },
+    {
+     "date": "2017-09-28",
+     "prelevement": "01700097524",
+     "parametre": "Entérocoques /100ml-MS",
+     "code_parametre": "6455",
+     "cas": null,
+     "valeur": 1.0,
+     "resultat": "1",
+     "unite": "n/(100mL)",
+     "limite_qualite": "<=0 n/(100mL)",
+     "reseaux": [
+      "R. DE LA ROCHELLE NORD-SUD"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité et conforme aux références de qualité."
+    },
+    {
+     "date": "2017-12-14",
+     "prelevement": "01700098172",
+     "parametre": "Plomb",
+     "code_parametre": "1382",
+     "cas": "7439-92-1",
+     "valeur": 13.3,
+     "resultat": "13,3",
+     "unite": "µg/L",
+     "limite_qualite": "<=10 µg/L",
+     "reseaux": [
+      "R. DE LA ROCHELLE NORD-SUD"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité et conforme aux références de qualité."
+    },
+    {
+     "date": "2021-01-29",
+     "prelevement": "01700124773",
+     "parametre": "Chlorure de vinyl monomère",
+     "code_parametre": "1753",
+     "cas": "75-01-4",
+     "valeur": 1.2,
+     "resultat": "1,2",
+     "unite": "µg/L",
+     "limite_qualite": "<=0.5 µg/L",
+     "reseaux": [
+      "R. DE LA ROCHELLE NORD-SUD"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité et conforme aux références de qualité."
+    },
+    {
+     "date": "2023-08-07",
+     "prelevement": "01700139799",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 1.3,
+     "resultat": "1,3",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE LA ROCHELLE CENTRE"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471 811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à l ui seul de risque sanitaire, en l’état actuel des connaissances scient ifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont é té avertis. Un nouveau contrôle a été programmé."
+    },
+    {
+     "date": "2023-08-07",
+     "prelevement": "01700139799",
+     "parametre": "Total des pesticides analysés",
+     "code_parametre": "6276",
+     "cas": null,
+     "valeur": 1.321,
+     "resultat": "1,321",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,5 µg/L",
+     "reseaux": [
+      "R. DE LA ROCHELLE CENTRE"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471 811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à l ui seul de risque sanitaire, en l’état actuel des connaissances scient ifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont é té avertis. Un nouveau contrôle a été programmé."
+    },
+    {
+     "date": "2023-08-24",
+     "prelevement": "01700140342",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 1.1,
+     "resultat": "1,1",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE LA ROCHELLE CENTRE"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471 811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à l ui seul de risque sanitaire, en l’état actuel des connaissances scient ifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont é té avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2023-09-19",
+     "prelevement": "01700140677",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 1.7,
+     "resultat": "1,7",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE LA ROCHELLE CENTRE"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471 811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à l ui seul de risque sanitaire, en l’état actuel des connaissances scient ifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont é té avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2023-10-04",
+     "prelevement": "01700141089",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 1.09,
+     "resultat": "1,09",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE LA ROCHELLE CENTRE"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à lui seul de risque sanitaire, en l’état actuel des connaissances scientifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont été avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2023-11-09",
+     "prelevement": "01700141671",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.16,
+     "resultat": "0,16",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE LA ROCHELLE CENTRE"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à lui seul de risque sanitaire, en l’état actuel des connaissances scientifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont été avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2023-12-28",
+     "prelevement": "01700142171",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.21,
+     "resultat": "0,21",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE LA ROCHELLE CENTRE"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à lui seul de risque sanitaire, en l’état actuel des connaissances scientifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont été avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2024-01-05",
+     "prelevement": "01700142195",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.17,
+     "resultat": "0,17",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE LA ROCHELLE CENTRE"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à lui seul de risque sanitaire, en l’état actuel des connaissances scientifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont été avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2024-02-05",
+     "prelevement": "01700142741",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.14,
+     "resultat": "0,14",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE LA ROCHELLE CENTRE"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à lui seul de risque sanitaire, en l’état actuel des connaissances scientifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont été avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2024-03-08",
+     "prelevement": "01700143284",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.11,
+     "resultat": "0,11",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE LA ROCHELLE CENTRE"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à lui seul de risque sanitaire, en l’état actuel des connaissances scientifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont été avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2024-04-16",
+     "prelevement": "01700143787",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.13,
+     "resultat": "0,13",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE LA ROCHELLE CENTRE"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à lui seul de risque sanitaire, en l’état actuel des connaissances scientifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont été avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    }
+   ]
+  },
+  {
+   "code_insee": "17200",
+   "nom": "Lagord",
+   "reseaux": [
+    {
+     "code": "017000342",
+     "nom": "R. DE ESNANDES-LAGORD",
+     "annees": [
+      2016,
+      2026
+     ]
+    }
+   ],
+   "nb_prelevements_ph": 92,
+   "dernier_prelevement": "2026-06-08",
+   "depassements_limite": []
+  },
+  {
+   "code_insee": "17222",
+   "nom": "Marsilly",
+   "reseaux": [
+    {
+     "code": "017000342",
+     "nom": "R. DE ESNANDES-LAGORD",
+     "annees": [
+      2016,
+      2026
+     ]
+    }
+   ],
+   "nb_prelevements_ph": 242,
+   "dernier_prelevement": "2026-08-05",
+   "depassements_limite": [
+    {
+     "date": "2017-05-26",
+     "prelevement": "01700095968",
+     "parametre": "ESA metolachlore",
+     "code_parametre": "6854",
+     "cas": "171118-09-5",
+     "valeur": 0.19,
+     "resultat": "0,19",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE CHARRON"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité et conforme aux références de qualité."
+    },
+    {
+     "date": "2017-09-15",
+     "prelevement": "01700097393",
+     "parametre": "ESA metolachlore",
+     "code_parametre": "6854",
+     "cas": "171118-09-5",
+     "valeur": 0.12,
+     "resultat": "0,12",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE CHARRON"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité et conforme aux références de qualité."
+    },
+    {
+     "date": "2021-10-12",
+     "prelevement": "01700127267",
+     "parametre": "Turbidité néphélométrique NFU",
+     "code_parametre": "1295",
+     "cas": null,
+     "valeur": 3.1,
+     "resultat": "3,1",
+     "unite": "NFU",
+     "limite_qualite": "<=1 NFU",
+     "reseaux": [
+      "R. D'ANDILLY-PUILBOREAU",
+      "R. DE ESNANDES-LAGORD"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux exigences de qualité."
+    },
+    {
+     "date": "2023-09-01",
+     "prelevement": "01700140577",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.15,
+     "resultat": "0,15",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE CHARRON"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471 811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à l ui seul de risque sanitaire, en l’état actuel des connaissances scient ifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont é té avertis. Un nouveau contrôle a été programmé."
+    },
+    {
+     "date": "2023-09-15",
+     "prelevement": "01700140674",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.13,
+     "resultat": "0,13",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE CHARRON"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471 811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à l ui seul de risque sanitaire, en l’état actuel des connaissances scient ifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont é té avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2023-11-16",
+     "prelevement": "01700141804",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.13,
+     "resultat": "0,13",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE CHARRON"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité et conforme aux références de qualité. Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à lui seul de risque sanitaire, en l’état actuel des connaissances scientifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont été avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2023-12-13",
+     "prelevement": "01700141861",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.13,
+     "resultat": "0,13",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE CHARRON"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité et conforme aux références de qualité. Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à lui seul de risque sanitaire, en l’état actuel des connaissances scientifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont été avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2023-12-13",
+     "prelevement": "01700141860",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.15,
+     "resultat": "0,15",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE ESNANDES-LAGORD",
+      "R. D'ANDILLY-PUILBOREAU"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité et conforme aux références de qualité. Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à lui seul de risque sanitaire, en l’état actuel des connaissances scientifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont été avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2024-02-02",
+     "prelevement": "01700142871",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.13,
+     "resultat": "0,13",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE CHARRON"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à lui seul de risque sanitaire, en l’état actuel des connaissances scientifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont été avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2024-02-08",
+     "prelevement": "01700142849",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.12,
+     "resultat": "0,12",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE ESNANDES-LAGORD",
+      "R. D'ANDILLY-PUILBOREAU"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à lui seul de risque sanitaire, en l’état actuel des connaissances scientifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont été avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2024-03-06",
+     "prelevement": "01700143250",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.13,
+     "resultat": "0,13",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE CHARRON"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à lui seul de risque sanitaire, en l’état actuel des connaissances scientifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont été avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2024-04-12",
+     "prelevement": "01700143800",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.18,
+     "resultat": "0,18",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE CHARRON"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à lui seul de risque sanitaire, en l’état actuel des connaissances scientifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont été avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2024-04-12",
+     "prelevement": "01700143783",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.12,
+     "resultat": "0,12",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. D'ANDILLY-PUILBOREAU",
+      "R. DE ESNANDES-LAGORD"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à lui seul de risque sanitaire, en l’état actuel des connaissances scientifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont été avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    }
+   ]
+  },
+  {
+   "code_insee": "17245",
+   "nom": "Montroy",
+   "reseaux": [
+    {
+     "code": "017000213",
+     "nom": "R. DE BOURGNEUF",
+     "annees": [
+      2016,
+      2026
+     ]
+    }
+   ],
+   "nb_prelevements_ph": 34,
+   "dernier_prelevement": "2026-07-29",
+   "depassements_limite": []
+  },
+  {
+   "code_insee": "17264",
+   "nom": "Nieul-sur-Mer",
+   "reseaux": [
+    {
+     "code": "017000342",
+     "nom": "R. DE ESNANDES-LAGORD",
+     "annees": [
+      2016,
+      2026
+     ]
+    }
+   ],
+   "nb_prelevements_ph": 82,
+   "dernier_prelevement": "2026-07-02",
+   "depassements_limite": [
+    {
+     "date": "2016-11-17",
+     "prelevement": "01700093692",
+     "parametre": "Plomb",
+     "code_parametre": "1382",
+     "cas": "7439-92-1",
+     "valeur": 24.1,
+     "resultat": "24,1",
+     "unite": "µg/L",
+     "limite_qualite": "<=10 µg/L",
+     "reseaux": [
+      "R. DE ESNANDES-LAGORD"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité et conforme aux références de qualité."
+    }
+   ]
+  },
+  {
+   "code_insee": "17291",
+   "nom": "Puilboreau",
+   "reseaux": [
+    {
+     "code": "017000344",
+     "nom": "R. D'ANDILLY-PUILBOREAU",
+     "annees": [
+      2016,
+      2026
+     ]
+    },
+    {
+     "code": "017001085",
+     "nom": "R. DE ZAC DE BEAULIEU",
+     "annees": [
+      2016,
+      2026
+     ]
+    }
+   ],
+   "nb_prelevements_ph": 153,
+   "dernier_prelevement": "2026-08-13",
+   "depassements_limite": []
+  },
+  {
+   "code_insee": "17274",
+   "nom": "Périgny",
+   "reseaux": [
+    {
+     "code": "017000219",
+     "nom": "R. D'AYTRE-PERIGNY-ST-ROGATIEN",
+     "annees": [
+      2016,
+      2026
+     ]
+    },
+    {
+     "code": "017000344",
+     "nom": "R. D'ANDILLY-PUILBOREAU",
+     "annees": [
+      2016,
+      2026
+     ]
+    },
+    {
+     "code": "017000770",
+     "nom": "R. DE PERIGNY-ROMPSAY SUD",
+     "annees": [
+      2016,
+      2026
+     ]
+    },
+    {
+     "code": "017000881",
+     "nom": "R. DE PERIGNY-MAIRIE",
+     "annees": [
+      2016,
+      2026
+     ]
+    }
+   ],
+   "nb_prelevements_ph": 541,
+   "dernier_prelevement": "2026-08-25",
+   "depassements_limite": [
+    {
+     "date": "2022-07-12",
+     "prelevement": "01700132200",
+     "parametre": "Fosetyl",
+     "code_parametre": "1816",
+     "cas": "15845-66-6",
+     "valeur": 0.18,
+     "resultat": "0,18",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE LA ROCHELLE NORD-SUD",
+      "R. DE ZAC DE BEAULIEU",
+      "R. D'AYTRE-PERIGNY-ST-ROGATIEN"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux exigences de qualité. Teneur en pesticides Fosetyl supérieure à la limite de qualité (valeur maximale  autorisée de 0,1 µg/l par substance individualisée). Eau non conforme. Toutes les dispositions nécessaires pour remédier à cette situation doivent être prises."
+    },
+    {
+     "date": "2023-07-25",
+     "prelevement": "01700139437",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.34,
+     "resultat": "0,34",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. D'AYTRE-PERIGNY-ST-ROGATIEN",
+      "R. DE ZAC DE BEAULIEU",
+      "R. DE LA ROCHELLE NORD-SUD"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471 811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à l ui seul de risque sanitaire, en l’état actuel des connaissances scient ifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont é té avertis. un nouveau contrôle a été programmé."
+    },
+    {
+     "date": "2023-08-11",
+     "prelevement": "01700139918",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.37,
+     "resultat": "0,37",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE PERIGNY-MAIRIE"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471 811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à l ui seul de risque sanitaire, en l’état actuel des connaissances scient ifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont é té avertis. Un nouveau contrôle a été programmé."
+    },
+    {
+     "date": "2023-08-24",
+     "prelevement": "01700140436",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.35,
+     "resultat": "0,35",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE ZAC DE BEAULIEU",
+      "R. DE LA ROCHELLE NORD-SUD",
+      "R. D'AYTRE-PERIGNY-ST-ROGATIEN"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471 811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à l ui seul de risque sanitaire, en l’état actuel des connaissances scient ifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont é té avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2023-08-28",
+     "prelevement": "01700140445",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.4,
+     "resultat": "0,4",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE LA ROCHELLE NORD-SUD",
+      "R. DE ZAC DE BEAULIEU",
+      "R. D'AYTRE-PERIGNY-ST-ROGATIEN"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471 811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à l ui seul de risque sanitaire, en l’état actuel des connaissances scient ifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont é té avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2023-08-31",
+     "prelevement": "01700140442",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.3,
+     "resultat": "0,3",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE PERIGNY-MAIRIE"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471 811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à l ui seul de risque sanitaire, en l’état actuel des connaissances scient ifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont é té avertis. Un nouveau contrôle a été programmé."
+    },
+    {
+     "date": "2023-09-06",
+     "prelevement": "01700140575",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.38,
+     "resultat": "0,38",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE ZAC DE BEAULIEU",
+      "R. DE LA ROCHELLE NORD-SUD",
+      "R. D'AYTRE-PERIGNY-ST-ROGATIEN"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471 811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à l ui seul de risque sanitaire, en l’état actuel des connaissances scient ifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont é té avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2023-10-04",
+     "prelevement": "01700140996",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.3,
+     "resultat": "0,30",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE ZAC DE BEAULIEU",
+      "R. DE LA ROCHELLE NORD-SUD",
+      "R. D'AYTRE-PERIGNY-ST-ROGATIEN"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471 811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à l ui seul de risque sanitaire, en l’état actuel des connaissances scient ifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont é té avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2023-10-04",
+     "prelevement": "01700140995",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.3,
+     "resultat": "0,30",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE PERIGNY-MAIRIE"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471 811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à l ui seul de risque sanitaire, en l’état actuel des connaissances scient ifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont é té avertis. Un nouveau contrôle a été programmé."
+    },
+    {
+     "date": "2023-11-20",
+     "prelevement": "01700141628",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.16,
+     "resultat": "0,16",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE PERIGNY-MAIRIE"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à lui seul de risque sanitaire, en l’état actuel des connaissances scientifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont été avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2023-12-06",
+     "prelevement": "01700142044",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.23,
+     "resultat": "0,23",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. D'AYTRE-PERIGNY-ST-ROGATIEN",
+      "R. DE ZAC DE BEAULIEU",
+      "R. DE LA ROCHELLE NORD-SUD"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à lui seul de risque sanitaire, en l’état actuel des connaissances scientifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont été avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2023-12-07",
+     "prelevement": "01700142071",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.21,
+     "resultat": "0,21",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. D'AYTRE-PERIGNY-ST-ROGATIEN",
+      "R. DE ZAC DE BEAULIEU",
+      "R. DE LA ROCHELLE NORD-SUD"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à lui seul de risque sanitaire, en l’état actuel des connaissances scientifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont été avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2023-12-18",
+     "prelevement": "01700141950",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.18,
+     "resultat": "0,18",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE PERIGNY-MAIRIE"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux exigences de qualité. On note une teneur en Carbone Organique Total supérieure à la valeur maximale de référence. Cette présence est due à la présence de matière organique dans l'eau apportée probablement par le lessivage des sols lors d'événements pluvieux importants. Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à lui seul de risque sanitaire, en l’état actuel des connaissances scientifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont été avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2023-12-22",
+     "prelevement": "01700142166",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.17,
+     "resultat": "0,17",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE ZAC DE BEAULIEU",
+      "R. D'AYTRE-PERIGNY-ST-ROGATIEN",
+      "R. DE LA ROCHELLE NORD-SUD"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à lui seul de risque sanitaire, en l’état actuel des connaissances scientifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont été avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2024-01-12",
+     "prelevement": "01700142635",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.19,
+     "resultat": "0,19",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE ZAC DE BEAULIEU",
+      "R. D'AYTRE-PERIGNY-ST-ROGATIEN",
+      "R. DE LA ROCHELLE NORD-SUD"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à lui seul de risque sanitaire, en l’état actuel des connaissances scientifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont été avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2024-01-12",
+     "prelevement": "01700142651",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.21,
+     "resultat": "0,21",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE PERIGNY-MAIRIE"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à lui seul de risque sanitaire, en l’état actuel des connaissances scientifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont été avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2024-02-05",
+     "prelevement": "01700142743",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.4,
+     "resultat": "0,40",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE PERIGNY-MAIRIE"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à lui seul de risque sanitaire, en l’état actuel des connaissances scientifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont été avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2024-02-05",
+     "prelevement": "01700142869",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.17,
+     "resultat": "0,17",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE LA ROCHELLE NORD-SUD",
+      "R. D'AYTRE-PERIGNY-ST-ROGATIEN",
+      "R. DE ZAC DE BEAULIEU"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à lui seul de risque sanitaire, en l’état actuel des connaissances scientifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont été avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2024-03-08",
+     "prelevement": "01700143254",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.12,
+     "resultat": "0,12",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE PERIGNY-MAIRIE"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à lui seul de risque sanitaire, en l’état actuel des connaissances scientifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont été avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2024-03-29",
+     "prelevement": "01700143490",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.15,
+     "resultat": "0,15",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE LA ROCHELLE NORD-SUD",
+      "R. D'AYTRE-PERIGNY-ST-ROGATIEN",
+      "R. DE ZAC DE BEAULIEU"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à lui seul de risque sanitaire, en l’état actuel des connaissances scientifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont été avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2024-04-03",
+     "prelevement": "01700143645",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.17,
+     "resultat": "0,17",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE PERIGNY-MAIRIE"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à lui seul de risque sanitaire, en l’état actuel des connaissances scientifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont été avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2024-04-16",
+     "prelevement": "01700143820",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.19,
+     "resultat": "0,19",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE LA ROCHELLE NORD-SUD",
+      "R. D'AYTRE-PERIGNY-ST-ROGATIEN",
+      "R. DE ZAC DE BEAULIEU"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à lui seul de risque sanitaire, en l’état actuel des connaissances scientifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont été avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2024-06-03",
+     "prelevement": "01700144918",
+     "parametre": "Fosetyl",
+     "code_parametre": "1816",
+     "cas": "15845-66-6",
+     "valeur": 0.23,
+     "resultat": "0,23",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE ZAC DE BEAULIEU",
+      "R. DE LA ROCHELLE NORD-SUD",
+      "R. D'AYTRE-PERIGNY-ST-ROGATIEN"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité et conforme aux références de qualité. Teneur en pesticides Fosétyl supérieure à la limite de qualité (valeur maximale  autorisée de 0,1 µg/l par substance individualisée). Eau non conforme. Toutes les dispositions nécessaires pour remédier à cette situation doivent être prises."
+    },
+    {
+     "date": "2024-07-01",
+     "prelevement": "01700146185",
+     "parametre": "Fosetyl",
+     "code_parametre": "1816",
+     "cas": "15845-66-6",
+     "valeur": 0.25,
+     "resultat": "0,25",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE ZAC DE BEAULIEU",
+      "R. DE LA ROCHELLE NORD-SUD",
+      "R. D'AYTRE-PERIGNY-ST-ROGATIEN"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité et conforme aux références de qualité."
+    },
+    {
+     "date": "2025-06-06",
+     "prelevement": "01700151984",
+     "parametre": "Fosetyl",
+     "code_parametre": "1816",
+     "cas": "15845-66-6",
+     "valeur": 0.11,
+     "resultat": "0,11",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE LA ROCHELLE NORD-SUD",
+      "R. D'AYTRE-PERIGNY-ST-ROGATIEN",
+      "R. DE ZAC DE BEAULIEU"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité et conforme aux références de qualité."
+    },
+    {
+     "date": "2026-05-28",
+     "prelevement": "01700158015",
+     "parametre": "Fosetyl",
+     "code_parametre": "1816",
+     "cas": "15845-66-6",
+     "valeur": 0.13,
+     "resultat": "0,13",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE PERIGNY-MAIRIE"
+     ],
+     "conclusion": "La valeur en fosetyl est supérieure à la limite de qualité. Toutefois, cette valeur respecte les limites fixées par l’arrêté préfectoral de dérogation du 26 Mars 2026. Selon les avis sanitaires et scientifiques de l’Organisation Mondiale de la Santé et de l'ANSES, la consommation de cette eau ne présente pas de risque pour la santé aux teneurs retr ouvées. Un suivi renforcé est mis en place."
+    },
+    {
+     "date": "2026-07-16",
+     "prelevement": "01700159359",
+     "parametre": "Chlorure de vinyl monomère",
+     "code_parametre": "1753",
+     "cas": "75-01-4",
+     "valeur": 0.74,
+     "resultat": "0,74",
+     "unite": "µg/L",
+     "limite_qualite": "<=0.5 µg/L",
+     "reseaux": [
+      "R. DE PERIGNY-ROMPSAY SUD"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux exigences de qualité."
+    }
+   ]
+  },
+  {
+   "code_insee": "17315",
+   "nom": "Saint-Christophe",
+   "reseaux": [
+    {
+     "code": "017000122",
+     "nom": "R. DE ST-SAUVEUR",
+     "annees": [
+      2016,
+      2026
+     ]
+    },
+    {
+     "code": "017000212",
+     "nom": "R. DE LA JARRIE",
+     "annees": [
+      2016,
+      2026
+     ]
+    }
+   ],
+   "nb_prelevements_ph": 46,
+   "dernier_prelevement": "2026-08-26",
+   "depassements_limite": [
+    {
+     "date": "2021-01-07",
+     "prelevement": "01700124292",
+     "parametre": "Chlortoluron",
+     "code_parametre": "1136",
+     "cas": "15545-48-9",
+     "valeur": 0.18,
+     "resultat": "0,18",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE LA JARRIE"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité et conforme aux références de qualité."
+    }
+   ]
+  },
+  {
+   "code_insee": "17373",
+   "nom": "Saint-Médard-d'Aunis",
+   "reseaux": [
+    {
+     "code": "017000122",
+     "nom": "R. DE ST-SAUVEUR",
+     "annees": [
+      2016,
+      2026
+     ]
+    },
+    {
+     "code": "017000213",
+     "nom": "R. DE BOURGNEUF",
+     "annees": [
+      2016,
+      2026
+     ]
+    },
+    {
+     "code": "017000344",
+     "nom": "R. D'ANDILLY-PUILBOREAU",
+     "annees": [
+      2016,
+      2026
+     ]
+    },
+    {
+     "code": "017000345",
+     "nom": "R. DE ST-MEDARD-STE-SOULLE",
+     "annees": [
+      2016,
+      2026
+     ]
+    }
+   ],
+   "nb_prelevements_ph": 131,
+   "dernier_prelevement": "2026-08-10",
+   "depassements_limite": [
+    {
+     "date": "2018-10-04",
+     "prelevement": "01700115166",
+     "parametre": "Chlorure de vinyl monomère",
+     "code_parametre": "1753",
+     "cas": "75-01-4",
+     "valeur": 0.51,
+     "resultat": "0,51",
+     "unite": "µg/L",
+     "limite_qualite": "<=0.5 µg/L",
+     "reseaux": [
+      "R. D'ANDILLY-PUILBOREAU"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité et conforme aux références de qualité."
+    },
+    {
+     "date": "2019-06-03",
+     "prelevement": "01700117725",
+     "parametre": "Entérocoques /100ml-MS",
+     "code_parametre": "6455",
+     "cas": null,
+     "valeur": 2.0,
+     "resultat": "2",
+     "unite": "n/(100mL)",
+     "limite_qualite": "<=0 n/(100mL)",
+     "reseaux": [
+      "R. DE ST-MEDARD-STE-SOULLE"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité et conforme aux références de qualité."
+    },
+    {
+     "date": "2023-06-20",
+     "prelevement": "01700137557",
+     "parametre": "Chlorure de vinyl monomère",
+     "code_parametre": "1753",
+     "cas": "75-01-4",
+     "valeur": 0.53,
+     "resultat": "0,53",
+     "unite": "µg/L",
+     "limite_qualite": "<=0.5 µg/L",
+     "reseaux": [
+      "R. DE BOURGNEUF"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité et conforme aux références de qualité. Teneur en chlorure de vinyle non conforme. Il a été demandé à l'exploitant de réaliser une purge des réseaux et de vérifier la nature des matériaux du réseau. Un nouveau contrôle a été programmé."
+    },
+    {
+     "date": "2023-07-18",
+     "prelevement": "01700138692",
+     "parametre": "Chlorure de vinyl monomère",
+     "code_parametre": "1753",
+     "cas": "75-01-4",
+     "valeur": 1.7,
+     "resultat": "1,7",
+     "unite": "µg/L",
+     "limite_qualite": "<=0.5 µg/L",
+     "reseaux": [
+      "R. D'ANDILLY-PUILBOREAU"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité et conforme aux références de qualité. Teneur en chlorure de vinyle non conforme. Il a été demandé à l'exploitant de réaliser une purge des réseaux et de vérifier la nature des matériaux du réseau. Un nouveau contrôle a été programmé."
+    },
+    {
+     "date": "2023-07-28",
+     "prelevement": "01700139049",
+     "parametre": "Chlorure de vinyl monomère",
+     "code_parametre": "1753",
+     "cas": "75-01-4",
+     "valeur": 0.92,
+     "resultat": "0,92",
+     "unite": "µg/L",
+     "limite_qualite": "<=0.5 µg/L",
+     "reseaux": [
+      "R. D'ANDILLY-PUILBOREAU"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité et conforme aux références de qualité. Teneur en chlorure de vinyle non conforme. Il a été demandé à l'exploitant de réaliser une purge des réseaux et de vérifier la nature des matériaux du réseau. Un nouveau contrôle a été programmé."
+    },
+    {
+     "date": "2023-10-04",
+     "prelevement": "01700140849",
+     "parametre": "Chlorure de vinyl monomère",
+     "code_parametre": "1753",
+     "cas": "75-01-4",
+     "valeur": 0.75,
+     "resultat": "0,75",
+     "unite": "µg/L",
+     "limite_qualite": "<=0.5 µg/L",
+     "reseaux": [
+      "R. D'ANDILLY-PUILBOREAU"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité et conforme aux références de qualité. Teneur en chlorure de vinyle non conforme. Il a été demandé à l'exploitant de réaliser une purge des réseaux et de vérifier la nature des matériaux du réseau. Un nouveau contrôle a été programmé."
+    },
+    {
+     "date": "2023-10-19",
+     "prelevement": "01700141052",
+     "parametre": "Chlorure de vinyl monomère",
+     "code_parametre": "1753",
+     "cas": "75-01-4",
+     "valeur": 1.1,
+     "resultat": "1,1",
+     "unite": "µg/L",
+     "limite_qualite": "<=0.5 µg/L",
+     "reseaux": [
+      "R. D'ANDILLY-PUILBOREAU"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité et conforme aux références de qualité. Teneur en chlorure de vinyle non conforme. Il a été demandé à l'exploitant de réaliser une purge des réseaux et de vérifier la nature des matériaux du réseau. Un nouveau contrôle a été programmé."
+    },
+    {
+     "date": "2023-10-26",
+     "prelevement": "01700141134",
+     "parametre": "Chlorure de vinyl monomère",
+     "code_parametre": "1753",
+     "cas": "75-01-4",
+     "valeur": 0.73,
+     "resultat": "0,73",
+     "unite": "µg/L",
+     "limite_qualite": "<=0.5 µg/L",
+     "reseaux": [
+      "R. D'ANDILLY-PUILBOREAU"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité et conforme aux références de qualité. Teneur en chlorure de vinyle non conforme. Il a été demandé à l'exploitant de réaliser une purge des réseaux et de vérifier la nature des matériaux du réseau. Un nouveau contrôle a été programmé."
+    },
+    {
+     "date": "2024-08-01",
+     "prelevement": "01700146811",
+     "parametre": "Chlorure de vinyl monomère",
+     "code_parametre": "1753",
+     "cas": "75-01-4",
+     "valeur": 2.0,
+     "resultat": "2,0",
+     "unite": "µg/L",
+     "limite_qualite": "<=0.5 µg/L",
+     "reseaux": [
+      "R. D'ANDILLY-PUILBOREAU"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux exigences de qualité. Teneur en chlorure de vinyle non conforme. Il a été demandé à l'exploitant de réaliser une purge des réseaux et de vérifier la nature des matériaux du réseau. Un nouveau contrôle a été programmé."
+    },
+    {
+     "date": "2024-11-08",
+     "prelevement": "01700148339",
+     "parametre": "Chlorure de vinyl monomère",
+     "code_parametre": "1753",
+     "cas": "75-01-4",
+     "valeur": 0.76,
+     "resultat": "0,76",
+     "unite": "µg/L",
+     "limite_qualite": "<=0.5 µg/L",
+     "reseaux": [
+      "R. D'ANDILLY-PUILBOREAU"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité et conforme aux références de qualité. Teneur en chlorure de vinyle non conforme. Il a été demandé à l'exploitant de réaliser une purge des réseaux et de vérifier la nature des matériaux du réseau. Un nouveau contrôle a été programmé."
+    },
+    {
+     "date": "2025-01-10",
+     "prelevement": "01700149097",
+     "parametre": "Chlorure de vinyl monomère",
+     "code_parametre": "1753",
+     "cas": "75-01-4",
+     "valeur": 0.61,
+     "resultat": "0,61",
+     "unite": "µg/L",
+     "limite_qualite": "<=0.5 µg/L",
+     "reseaux": [
+      "R. D'ANDILLY-PUILBOREAU"
+     ],
+     "conclusion": "Teneur en chlorure de vinyle non conforme. Il a été demandé à l'exploi tant de réaliser une purge des réseaux et de vérifier la nature des ma tériaux du réseau. Un nouveau contrôle a été  programmé. Cette non-conformité ne touche pas toute la commune, elle se situe sur une partie du Hameau de Machet"
+    },
+    {
+     "date": "2025-04-04",
+     "prelevement": "01700150210",
+     "parametre": "Chlorure de vinyl monomère",
+     "code_parametre": "1753",
+     "cas": "75-01-4",
+     "valeur": 0.58,
+     "resultat": "0,58",
+     "unite": "µg/L",
+     "limite_qualite": "<=0.5 µg/L",
+     "reseaux": [
+      "R. D'ANDILLY-PUILBOREAU"
+     ],
+     "conclusion": "Teneur en chlorure de vinyle non conforme. Il a été demandé à l'exploitant de réaliser une purge des réseaux et de vérifier la nature des matériaux du réseau. Un nouveau contrôle a été programmé. Cette non-conformité ne touche pas toute la commune, elle se situe sur une partie du Hameau de Machet"
+    }
+   ]
+  },
+  {
+   "code_insee": "17391",
+   "nom": "Saint-Rogatien",
+   "reseaux": [
+    {
+     "code": "017000219",
+     "nom": "R. D'AYTRE-PERIGNY-ST-ROGATIEN",
+     "annees": [
+      2016,
+      2026
+     ]
+    }
+   ],
+   "nb_prelevements_ph": 56,
+   "dernier_prelevement": "2026-06-09",
+   "depassements_limite": []
+  },
+  {
+   "code_insee": "17413",
+   "nom": "Saint-Vivien",
+   "reseaux": [
+    {
+     "code": "017000322",
+     "nom": "R. D'ANGOULINS",
+     "annees": [
+      2016,
+      2026
+     ]
+    }
+   ],
+   "nb_prelevements_ph": 117,
+   "dernier_prelevement": "2026-08-25",
+   "depassements_limite": [
+    {
+     "date": "2019-08-21",
+     "prelevement": "01700118728",
+     "parametre": "Propiconazole",
+     "code_parametre": "1257",
+     "cas": "60207-90-1",
+     "valeur": 0.12,
+     "resultat": "0,12",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE CHATELAILLON"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité et conforme aux références de qualité."
+    },
+    {
+     "date": "2023-08-28",
+     "prelevement": "01700140578",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 1.6,
+     "resultat": "1,6",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE CHATELAILLON"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471 811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à l ui seul de risque sanitaire, en l’état actuel des connaissances scient ifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont é té avertis. un nouveau contrôle a été programmé."
+    },
+    {
+     "date": "2023-08-28",
+     "prelevement": "01700140578",
+     "parametre": "Total des pesticides analysés",
+     "code_parametre": "6276",
+     "cas": null,
+     "valeur": 1.6,
+     "resultat": "1,6",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,5 µg/L",
+     "reseaux": [
+      "R. DE CHATELAILLON"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471 811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à l ui seul de risque sanitaire, en l’état actuel des connaissances scient ifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont é té avertis. un nouveau contrôle a été programmé."
+    },
+    {
+     "date": "2023-09-29",
+     "prelevement": "01700140795",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 1.6,
+     "resultat": "1,6",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE CHATELAILLON"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471 811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à l ui seul de risque sanitaire, en l’état actuel des connaissances scient ifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont é té avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2023-10-20",
+     "prelevement": "01700141123",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.89,
+     "resultat": "0,89",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE CHATELAILLON"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à lui seul de risque sanitaire, en l’état actuel des connaissances scientifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont été avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2023-10-20",
+     "prelevement": "01700141123",
+     "parametre": "Total des pesticides analysés",
+     "code_parametre": "6276",
+     "cas": null,
+     "valeur": 0.89,
+     "resultat": "0,89",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,5 µg/L",
+     "reseaux": [
+      "R. DE CHATELAILLON"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à lui seul de risque sanitaire, en l’état actuel des connaissances scientifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont été avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2023-11-06",
+     "prelevement": "01700141454",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.14,
+     "resultat": "0,14",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE CHATELAILLON"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à lui seul de risque sanitaire, en l’état actuel des connaissances scientifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont été avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2023-12-12",
+     "prelevement": "01700141859",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.18,
+     "resultat": "0,18",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE CHATELAILLON"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité et conforme aux références de qualité. Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à lui seul de risque sanitaire, en l’état actuel des connaissances scientifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont été avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2024-01-22",
+     "prelevement": "01700142474",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.17,
+     "resultat": "0,17",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE CHATELAILLON"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à lui seul de risque sanitaire, en l’état actuel des connaissances scientifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont été avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2024-02-09",
+     "prelevement": "01700142863",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.21,
+     "resultat": "0,21",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE CHATELAILLON"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à lui seul de risque sanitaire, en l’état actuel des connaissances scientifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont été avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2024-03-28",
+     "prelevement": "01700143489",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.13,
+     "resultat": "0,13",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE CHATELAILLON"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à lui seul de risque sanitaire, en l’état actuel des connaissances scientifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont été avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2024-06-25",
+     "prelevement": "01700145681",
+     "parametre": "Fosetyl",
+     "code_parametre": "1816",
+     "cas": "15845-66-6",
+     "valeur": 0.43,
+     "resultat": "0,43",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE CHATELAILLON"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité et conforme aux références de qualité. Teneur en pesticides Fosétyl supérieure à la limite de qualité (valeur maximale  autorisée de 0,1 µg/l par substance individualisée). Eau non conforme. Toutes les dispositions nécessaires pour remédier à cette situation doivent être prises."
+    }
+   ]
+  },
+  {
+   "code_insee": "17414",
+   "nom": "Saint-Xandre",
+   "reseaux": [
+    {
+     "code": "017000344",
+     "nom": "R. D'ANDILLY-PUILBOREAU",
+     "annees": [
+      2016,
+      2026
+     ]
+    }
+   ],
+   "nb_prelevements_ph": 61,
+   "dernier_prelevement": "2026-08-05",
+   "depassements_limite": []
+  },
+  {
+   "code_insee": "17407",
+   "nom": "Sainte-Soulle",
+   "reseaux": [
+    {
+     "code": "017000345",
+     "nom": "R. DE ST-MEDARD-STE-SOULLE",
+     "annees": [
+      2016,
+      2026
+     ]
+    }
+   ],
+   "nb_prelevements_ph": 66,
+   "dernier_prelevement": "2026-08-04",
+   "depassements_limite": []
+  },
+  {
+   "code_insee": "17420",
+   "nom": "Salles-sur-Mer",
+   "reseaux": [
+    {
+     "code": "017000212",
+     "nom": "R. DE LA JARRIE",
+     "annees": [
+      2016,
+      2026
+     ]
+    },
+    {
+     "code": "017000322",
+     "nom": "R. D'ANGOULINS",
+     "annees": [
+      2016,
+      2026
+     ]
+    }
+   ],
+   "nb_prelevements_ph": 77,
+   "dernier_prelevement": "2026-06-09",
+   "depassements_limite": [
+    {
+     "date": "2016-07-01",
+     "prelevement": "01700091935",
+     "parametre": "Nitrates (en NO3)",
+     "code_parametre": "1340",
+     "cas": null,
+     "valeur": 51.0,
+     "resultat": "51",
+     "unite": "mg/L",
+     "limite_qualite": "<=50 mg/L",
+     "reseaux": [
+      "R. DE LA JARRIE"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité et conforme aux références de qualité."
+    },
+    {
+     "date": "2021-01-12",
+     "prelevement": "01700124470",
+     "parametre": "ESA metolachlore",
+     "code_parametre": "6854",
+     "cas": "171118-09-5",
+     "valeur": 0.11,
+     "resultat": "0,11",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE LA JARRIE"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité et conforme aux références de qualité."
+    }
+   ]
+  },
+  {
+   "code_insee": "17443",
+   "nom": "Thairé",
+   "reseaux": [
+    {
+     "code": "017000300",
+     "nom": "R. DE AIGREFEUILLE-LE THOU",
+     "annees": [
+      2016,
+      2026
+     ]
+    }
+   ],
+   "nb_prelevements_ph": 30,
+   "dernier_prelevement": "2026-04-29",
+   "depassements_limite": []
+  },
+  {
+   "code_insee": "17466",
+   "nom": "Vérines",
+   "reseaux": [
+    {
+     "code": "017000345",
+     "nom": "R. DE ST-MEDARD-STE-SOULLE",
+     "annees": [
+      2016,
+      2026
+     ]
+    }
+   ],
+   "nb_prelevements_ph": 100,
+   "dernier_prelevement": "2026-07-08",
+   "depassements_limite": [
+    {
+     "date": "2021-06-18",
+     "prelevement": "01700125840",
+     "parametre": "Entérocoques /100ml-MS",
+     "code_parametre": "6455",
+     "cas": null,
+     "valeur": 1.0,
+     "resultat": "1",
+     "unite": "n/(100mL)",
+     "limite_qualite": "<=0 n/(100mL)",
+     "reseaux": [
+      "R. DE BOURGNEUF"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité et conforme aux références de qualité."
+    },
+    {
+     "date": "2023-08-25",
+     "prelevement": "01700140579",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 1.9,
+     "resultat": "1,9",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE BOURGNEUF"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471 811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à l ui seul de risque sanitaire, en l’état actuel des connaissances scient ifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont é té avertis. un nouveau contrôle a été programmé."
+    },
+    {
+     "date": "2023-08-25",
+     "prelevement": "01700140579",
+     "parametre": "Total des pesticides analysés",
+     "code_parametre": "6276",
+     "cas": null,
+     "valeur": 1.9,
+     "resultat": "1,9",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,5 µg/L",
+     "reseaux": [
+      "R. DE BOURGNEUF"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471 811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à l ui seul de risque sanitaire, en l’état actuel des connaissances scient ifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont é té avertis. un nouveau contrôle a été programmé."
+    },
+    {
+     "date": "2023-09-19",
+     "prelevement": "01700140676",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 1.9,
+     "resultat": "1,9",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE BOURGNEUF"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471 811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à l ui seul de risque sanitaire, en l’état actuel des connaissances scient ifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont é té avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2023-10-03",
+     "prelevement": "01700140963",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 2.2,
+     "resultat": "2,2",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE BOURGNEUF"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471 811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à l ui seul de risque sanitaire, en l’état actuel des connaissances scient ifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont é té avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2023-11-10",
+     "prelevement": "01700141556",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.16,
+     "resultat": "0,16",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE BOURGNEUF"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité et conforme aux références de qualité. Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à lui seul de risque sanitaire, en l’état actuel des connaissances scientifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont été avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2023-12-06",
+     "prelevement": "01700142048",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.13,
+     "resultat": "0,13",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE BOURGNEUF"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à lui seul de risque sanitaire, en l’état actuel des connaissances scientifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont été avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    },
+    {
+     "date": "2024-03-06",
+     "prelevement": "01700143253",
+     "parametre": "Chlorothalonil R471811",
+     "code_parametre": "8865",
+     "cas": null,
+     "valeur": 0.11,
+     "resultat": "0,11",
+     "unite": "µg/L",
+     "limite_qualite": "<=0,1 µg/L",
+     "reseaux": [
+      "R. DE BOURGNEUF"
+     ],
+     "conclusion": "Eau d'alimentation non-conforme aux limites de qualité. Teneur en R471811 Chlorothalonil (métabolite du pesticide Chlorothalonil) supérieure à la limite de qualité (0,1 µg/L). Ce dépassement ne présente pas à lui seul de risque sanitaire, en l’état actuel des connaissances scientifiques. Toutefois, toutes les dispositions nécessaires pour remédier à cette situation doivent être prises. Les exploitants du réseau ont été avertis. Un suivi renforcé est mis en place pour suivre l’évolution de la situation."
+    }
+   ]
+  },
+  {
+   "code_insee": "17483",
+   "nom": "Yves",
+   "reseaux": [
+    {
+     "code": "017000251",
+     "nom": "R. DE ST-LAURENT-YVES",
+     "annees": [
+      2016,
+      2026
+     ]
+    }
+   ],
+   "nb_prelevements_ph": 39,
+   "dernier_prelevement": "2026-08-20",
+   "depassements_limite": []
+  }
+ ]
+}

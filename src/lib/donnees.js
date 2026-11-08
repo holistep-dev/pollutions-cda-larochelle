@@ -9,6 +9,8 @@ const listeJson = (d) =>
   existsSync(join(ROOT, d)) ? readdirSync(join(ROOT, d)).filter((f) => f.endsWith(".json")).sort() : [];
 
 export const libelles = () => lire("data/libelles.json");
+export const references = () => lire("data/references.json");
+export const eauPotable = () => lireSiExiste("data/build/eau-potable.json", null);
 export const communes = () => lire("data/communes.json").communes;
 export const indexCommunes = () => lire("data/build/communes-index.json").communes;
 export const sources = () => new Map(lire("data/sources.json").sources.map((s) => [s.id, s]));

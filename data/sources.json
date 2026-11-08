@@ -565,6 +565,92 @@
       "url": "https://france3-regions.franceinfo.fr/nouvelle-aquitaine/charente-maritime/la-rochelle/les-potagers-sont-formellement-deconseilles-par-une-elue-les-habitants-inquiets-pour-leur-sante",
       "acces": "libre",
       "consulte_le": "2026-09-12"
+    },
+    {
+      "id": "atmo-na-pesticides-air-2001-2024",
+      "type": "base_publique",
+      "auteur": "Atmo France et Atmo Nouvelle-Aquitaine",
+      "titre": "Données de mesure des pesticides dans l'air Nouvelle-Aquitaine, fichier DataPesticides_AtmoNA_2001-2024",
+      "date": "2025-12-04",
+      "url": "https://www.data.gouv.fr/datasets/donnees-de-mesure-des-pesticides-dans-lair-nouvelle-aquitaine",
+      "reference": "Version du 4 décembre 2025, mesure totale des fractions gazeuse et particulaire",
+      "acces": "libre",
+      "consulte_le": "2026-11-08"
+    },
+    {
+      "id": "hubeau-qualite-eau-potable",
+      "type": "base_publique",
+      "auteur": "OFB, Hub'Eau, à partir de la base SISE-Eaux du ministère chargé de la santé et des ARS",
+      "titre": "API Qualité de l'eau potable, résultats du contrôle sanitaire de l'eau distribuée par commune",
+      "date": "2026-11-08",
+      "url": "https://hubeau.eaufrance.fr/page/api-qualite-eau-potable",
+      "acces": "libre",
+      "licence": "Licence Ouverte",
+      "consulte_le": "2026-11-08"
+    },
+    {
+      "id": "ign-rpg-2023",
+      "type": "base_publique",
+      "auteur": "IGN et Agence de services et de paiement",
+      "titre": "Registre parcellaire graphique 2023, parcelles graphiques",
+      "date": "2024",
+      "url": "https://geoservices.ign.fr/rpg",
+      "acces": "libre",
+      "licence": "Licence Ouverte",
+      "consulte_le": "2026-11-08"
+    },
+    {
+      "id": "agencebio-rpg-bio-2023",
+      "type": "base_publique",
+      "auteur": "Agence Bio",
+      "titre": "Parcelles en agriculture biologique déclarées à la PAC, région Nouvelle-Aquitaine, année 2023",
+      "date": "2024-11-29",
+      "url": "https://www.data.gouv.fr/datasets/parcelles-en-agriculture-biologique-ab-declarees-a-la-pac",
+      "acces": "libre",
+      "consulte_le": "2026-11-08"
+    },
+    {
+      "id": "ign-bdtopo-2026",
+      "type": "base_publique",
+      "auteur": "IGN",
+      "titre": "BD TOPO V3, surfaces hydrographiques, équipements de transport et zones d'estran, service WFS",
+      "date": "2026",
+      "url": "https://geoservices.ign.fr/bdtopo",
+      "acces": "libre",
+      "licence": "Licence Ouverte",
+      "consulte_le": "2026-11-08"
+    },
+    {
+      "id": "afp-linfodurable-2025-03-27",
+      "type": "presse",
+      "auteur": "AFP, repris par L'Info Durable",
+      "titre": "Cancers pédiatriques : de nouveaux foyers identifiés en Charente-Maritime",
+      "date": "2025-03-27",
+      "url": "https://www.linfodurable.fr/cancers-pediatriques-de-nouveaux-foyers-identifies-en-charente-maritime-50114",
+      "reference": "Dépêche citant le rapport du registre dévoilé par Le Parisien et des propos du Dr Thomas Systchenko",
+      "acces": "libre",
+      "consulte_le": "2026-11-08"
+    },
+    {
+      "id": "cda-larochelle-chlorothalonil-faq",
+      "type": "communication_institutionnelle",
+      "auteur": "Communauté d'agglomération de La Rochelle",
+      "titre": "Présence de chlorothalonil R471811 dans l'eau : les réponses à vos questions",
+      "date": "2026",
+      "url": "https://www.agglo-larochelle.fr/presence-de-chlorothalonil-r471811-dans-l-eau-les-reponses-a-vos-questions",
+      "reference": "Page non datée, consultée le 8 novembre 2026. Arrêt des captages d'Aunis du 25 octobre 2023 au 18 juin 2024, avis de l'ANSES du 29 avril 2024 classant le métabolite non pertinent.",
+      "acces": "libre",
+      "consulte_le": "2026-11-08"
+    },
+    {
+      "id": "ars17-arrete-2026-03-edch-01",
+      "type": "arrete_prefectoral",
+      "auteur": "Préfet de la Charente-Maritime, ARS Nouvelle-Aquitaine délégation de la Charente-Maritime",
+      "titre": "Arrêté préfectoral n° 2026-03-EDCH-01 du 26 mars 2026 portant dérogation aux limites de qualité des eaux destinées à la consommation humaine pour le paramètre pesticide « fosétyl » et somme des pesticides concernant 9 unités de distribution desservies par l'usine de Coulonge prélevant l'eau du fleuve Charente à Saint-Savinien",
+      "date": "2026-03-26",
+      "reference": "17-2026-03-26-00008, recueil des actes administratifs spécial n° 17-2026-107 du 2 avril 2026",
+      "acces": "libre",
+      "consulte_le": "2026-09-12"
     }
   ]
 }

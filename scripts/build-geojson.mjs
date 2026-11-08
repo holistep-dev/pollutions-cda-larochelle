@@ -5,6 +5,7 @@
 import { readFileSync, writeFileSync, readdirSync, existsSync, mkdirSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
+import { comparer } from "../src/lib/comparaison.js";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const read = (p) => JSON.parse(readFileSync(join(ROOT, p), "utf8"));
@@ -201,6 +202,70 @@ for (const s of signauxData) {
   }
 }
 
+// ------------------------------------------------------------ comparaisons
+// Une teneur n'est rapprochée que d'une valeur de même milieu et d'unité convertible.
+const references = read("data/references.json");
+const sourcesIndex = new Map(read("data/sources.json").sources.map((s) => [s.id, s]));
+const details = {};
+for (const s of sites) {
+  details[s.id] = {
+    resume: s.resume,
+    periode: s.periode,
+    origine_trace: s.origine_trace ?? null,
+    procedure_en_cours: s.procedure_en_cours,
+    substances: (s.substances ?? []).map((x) => ({ libelle: x.libelle, milieu: x.milieu ?? null, valeur: x.valeur ?? null, unite: x.unite ?? null, date: x.date_mesure ?? null, comparaison: comparer(x, references) })),
+    sources: s.sources.slice(0, 4).map((id) => {
+      const src = sourcesIndex.get(id);
+      return { titre: src.titre, auteur: src.auteur, date: src.date, url: src.url ?? null, type: src.type };
+    }),
+    nb_sources: s.sources.length,
+  };
+}
+
+// ------------------------------------------------------------ eau du robinet
+// Synthèse par commune tirée de la collecte Hub'Eau. Sans collecte, la couche n'est pas produite.
+let eau = null;
+if (existsSync(join(ROOT, "data/collecte/eau-potable.json"))) {
+  const brut = read("data/collecte/eau-potable.json");
+  const MICRO = /coli|entérocoque|enterocoque|bactéri|bacteri|coliforme|clostridium/i;
+  eau = {
+    source: brut.source,
+    collecte_le: brut.collecte_le,
+    periode_debut: brut.periode_debut,
+    communes: Object.fromEntries(
+      brut.communes.map((c) => {
+        const dep = c.depassements_limite;
+        const micro = dep.filter((d) => MICRO.test(d.parametre));
+        const chimie = dep.filter((d) => !MICRO.test(d.parametre));
+        const parametres = [...new Set(chimie.map((d) => d.parametre))];
+        return [c.code_insee, {
+          reseaux: c.reseaux.map((r) => r.nom),
+          nb_prelevements: c.nb_prelevements_ph,
+          dernier_prelevement: c.dernier_prelevement,
+          nb_depassements: dep.length,
+          nb_microbiologiques: micro.length,
+          nb_physico_chimiques: chimie.length,
+          parametres_physico_chimiques: parametres,
+          dernier_depassement: dep.length ? dep.map((d) => d.date).sort().pop() : null,
+          depassements: dep.map((d) => ({ date: d.date, parametre: d.parametre, valeur: d.valeur, resultat: d.resultat, unite: d.unite, limite: d.limite_qualite, reseau: d.reseaux.join(", ") })),
+        }];
+      })
+    ),
+  };
+  writeFileSync(join(ROOT, "data/build/eau-potable.json"), JSON.stringify(eau, null, 1) + "\n");
+  for (const f of communesCarte) {
+    const e = eau.communes[f.properties.code_insee];
+    f.properties.eau_depassements = e ? e.nb_depassements : -1;
+    f.properties.eau_pc = e ? e.nb_physico_chimiques : -1;
+  }
+}
+
+// Signaux : niveau de la source, pour un tracé plus léger quand le chiffre ne vient que de la presse.
+for (const f of signauxCarte) {
+  const s = signauxData.find((x) => x.id === f.properties.id);
+  f.properties.niveau_source = s?.niveau_source ?? "etude_publiee";
+}
+
 mkdirSync(join(ROOT, "public/data"), { recursive: true });
 writeFileSync(
   join(ROOT, "public/data/carte.json"),
@@ -210,10 +275,23 @@ writeFileSync(
     reperes: { type: "FeatureCollection", features: reperes },
     communes: { type: "FeatureCollection", features: communesCarte },
     signaux: { type: "FeatureCollection", features: signauxCarte },
+    signaux_liste: signauxData.map((s) => ({ id: s.id, libelle: s.libelle, resultat: s.resultat, niveau_source: s.niveau_source ?? "etude_publiee", communes: s.communes ?? [], zone: s.zone_libelle ?? null })),
     signaux_non_cartographies: signauxNonCartographies,
     sans_localisation: index.filter((c) => c.nb_sans_localisation).map((c) => ({ commune: c.nom, slug: c.slug, sites: c.sans_localisation })),
+    details,
+    eau,
+    libelles: {
+      statut_preuve: libelles.statut_preuve,
+      statut_traitement: libelles.statut_traitement,
+      precision_geo: libelles.precision_geo,
+      natures_reference: references.natures,
+      circ_groupes: references.circ_groupes,
+    },
   })
 );
+if (existsSync(join(ROOT, "data/agriculture/rpg-2023.geojson"))) {
+  writeFileSync(join(ROOT, "public/data/agriculture.json"), readFileSync(join(ROOT, "data/agriculture/rpg-2023.geojson")));
+}
 
 console.log(
   `${features.length} objets cartographiés, ${sites.length - features.length} sites sans localisation, ` +

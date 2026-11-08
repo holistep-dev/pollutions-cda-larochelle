@@ -4,14 +4,89 @@
   "commune": "La Rochelle",
   "code_insee": "17300",
   "geometry": {
-    "type": "Point",
+    "type": "Polygon",
     "coordinates": [
-      -1.210514,
-      46.147441
+      [
+        [
+          -1.210049,
+          46.145449
+        ],
+        [
+          -1.21038,
+          46.145671
+        ],
+        [
+          -1.210447,
+          46.145782
+        ],
+        [
+          -1.21131,
+          46.146629
+        ],
+        [
+          -1.211903,
+          46.147027
+        ],
+        [
+          -1.212471,
+          46.147548
+        ],
+        [
+          -1.211313,
+          46.148032
+        ],
+        [
+          -1.210842,
+          46.148249
+        ],
+        [
+          -1.210591,
+          46.148121
+        ],
+        [
+          -1.209926,
+          46.147567
+        ],
+        [
+          -1.209227,
+          46.147056
+        ],
+        [
+          -1.209195,
+          46.147016
+        ],
+        [
+          -1.209235,
+          46.14697
+        ],
+        [
+          -1.209745,
+          46.146604
+        ],
+        [
+          -1.210097,
+          46.146559
+        ],
+        [
+          -1.210298,
+          46.146301
+        ],
+        [
+          -1.210025,
+          46.145742
+        ],
+        [
+          -1.209823,
+          46.145406
+        ],
+        [
+          -1.210049,
+          46.145449
+        ]
+      ]
     ]
   },
-  "precision_geo": "localisation_indicative",
-  "rayon_m": 150,
+  "precision_geo": "perimetre_approximatif",
   "categorie": "eau_baignade",
   "milieux": [
     "eau_superficielle"
@@ -108,5 +183,6 @@
       "site": "decharge-chef-de-baie-la-rochelle",
       "relation": "voisin"
     }
-  ]
+  ],
+  "origine_trace": "Estran sableux de la BD TOPO de l'IGN dans un rayon de 250 m autour du point de contrôle de l'ARS. La zone de baignade réglementaire n'est pas publiée sous forme de tracé."
 }

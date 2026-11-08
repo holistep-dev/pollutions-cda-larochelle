@@ -1,0 +1,1414 @@
+{
+ "source": "Hub'Eau qualite_eau_potable (ARS, SISE-Eaux)",
+ "collecte_le": "2026-11-08",
+ "periode_debut": "2016-01-01",
+ "communes": {
+  "17010": {
+   "reseaux": [
+    "R. D'ANGOULINS"
+   ],
+   "nb_prelevements": 97,
+   "dernier_prelevement": "2026-08-24",
+   "nb_depassements": 4,
+   "nb_microbiologiques": 1,
+   "nb_physico_chimiques": 3,
+   "parametres_physico_chimiques": [
+    "Chlorure de vinyl monomère"
+   ],
+   "dernier_depassement": "2017-10-19",
+   "depassements": [
+    {
+     "date": "2017-08-25",
+     "parametre": "Chlorure de vinyl monomère",
+     "valeur": 0.61,
+     "resultat": "0,61",
+     "unite": "µg/L",
+     "limite": "<=0.5 µg/L",
+     "reseau": "R. D'ANGOULINS"
+    },
+    {
+     "date": "2017-09-12",
+     "parametre": "Chlorure de vinyl monomère",
+     "valeur": 0.9,
+     "resultat": "0,9",
+     "unite": "µg/L",
+     "limite": "<=0.5 µg/L",
+     "reseau": "R. D'ANGOULINS"
+    },
+    {
+     "date": "2017-09-28",
+     "parametre": "Chlorure de vinyl monomère",
+     "valeur": 1,
+     "resultat": "1",
+     "unite": "µg/L",
+     "limite": "<=0.5 µg/L",
+     "reseau": "R. D'ANGOULINS"
+    },
+    {
+     "date": "2017-10-19",
+     "parametre": "Escherichia coli /100ml - MF",
+     "valeur": 1,
+     "resultat": "1",
+     "unite": "n/(100mL)",
+     "limite": "<=0 n/(100mL)",
+     "reseau": "R. D'ANGOULINS"
+    }
+   ]
+  },
+  "17028": {
+   "reseaux": [
+    "R. D'AYTRE-PERIGNY-ST-ROGATIEN"
+   ],
+   "nb_prelevements": 130,
+   "dernier_prelevement": "2026-08-13",
+   "nb_depassements": 1,
+   "nb_microbiologiques": 1,
+   "nb_physico_chimiques": 0,
+   "parametres_physico_chimiques": [],
+   "dernier_depassement": "2021-11-02",
+   "depassements": [
+    {
+     "date": "2021-11-02",
+     "parametre": "Entérocoques /100ml-MS",
+     "valeur": 1,
+     "resultat": "1",
+     "unite": "n/(100mL)",
+     "limite": "<=0 n/(100mL)",
+     "reseau": "R. D'AYTRE-PERIGNY-ST-ROGATIEN"
+    }
+   ]
+  },
+  "17059": {
+   "reseaux": [
+    "R. DE BOURGNEUF"
+   ],
+   "nb_prelevements": 36,
+   "dernier_prelevement": "2026-08-06",
+   "nb_depassements": 0,
+   "nb_microbiologiques": 0,
+   "nb_physico_chimiques": 0,
+   "parametres_physico_chimiques": [],
+   "dernier_depassement": null,
+   "depassements": []
+  },
+  "17094": {
+   "reseaux": [
+    "R. DE CHATELAILLON"
+   ],
+   "nb_prelevements": 207,
+   "dernier_prelevement": "2026-08-24",
+   "nb_depassements": 0,
+   "nb_microbiologiques": 0,
+   "nb_physico_chimiques": 0,
+   "parametres_physico_chimiques": [],
+   "dernier_depassement": null,
+   "depassements": []
+  },
+  "17109": {
+   "reseaux": [
+    "R. DE LA JARRIE"
+   ],
+   "nb_prelevements": 84,
+   "dernier_prelevement": "2026-07-29",
+   "nb_depassements": 13,
+   "nb_microbiologiques": 0,
+   "nb_physico_chimiques": 13,
+   "parametres_physico_chimiques": [
+    "ESA metazachlore",
+    "Chlortoluron",
+    "ESA metolachlore",
+    "Total des pesticides analysés",
+    "Chlorothalonil R471811",
+    "Bromates",
+    "Fosetyl"
+   ],
+   "dernier_depassement": "2026-06-10",
+   "depassements": [
+    {
+     "date": "2018-02-13",
+     "parametre": "ESA metazachlore",
+     "valeur": 0.24,
+     "resultat": "0,24",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE LA JARRIE"
+    },
+    {
+     "date": "2020-12-29",
+     "parametre": "Chlortoluron",
+     "valeur": 1,
+     "resultat": "1",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE LA JARRIE"
+    },
+    {
+     "date": "2020-12-29",
+     "parametre": "ESA metolachlore",
+     "valeur": 0.22,
+     "resultat": "0,22",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE LA JARRIE"
+    },
+    {
+     "date": "2020-12-29",
+     "parametre": "Total des pesticides analysés",
+     "valeur": 1.259,
+     "resultat": "1,259",
+     "unite": "µg/L",
+     "limite": "<=0,5 µg/L",
+     "reseau": "R. DE LA JARRIE"
+    },
+    {
+     "date": "2023-11-30",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.17,
+     "resultat": "0,17",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE LA JARRIE"
+    },
+    {
+     "date": "2023-12-01",
+     "parametre": "Bromates",
+     "valeur": 12,
+     "resultat": "12",
+     "unite": "µg/L",
+     "limite": "<=10 µg/L",
+     "reseau": "R. DE LA JARRIE"
+    },
+    {
+     "date": "2023-12-01",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.13,
+     "resultat": "0,13",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE LA JARRIE"
+    },
+    {
+     "date": "2024-01-08",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.16,
+     "resultat": "0,16",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE LA JARRIE"
+    },
+    {
+     "date": "2024-02-19",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.13,
+     "resultat": "0,13",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE LA JARRIE"
+    },
+    {
+     "date": "2024-03-29",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.15,
+     "resultat": "0,15",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE LA JARRIE"
+    },
+    {
+     "date": "2024-04-12",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.13,
+     "resultat": "0,13",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE LA JARRIE"
+    },
+    {
+     "date": "2026-05-13",
+     "parametre": "Fosetyl",
+     "valeur": 0.28,
+     "resultat": "0,28",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE LA JARRIE"
+    },
+    {
+     "date": "2026-06-10",
+     "parametre": "Fosetyl",
+     "valeur": 0.14,
+     "resultat": "0,14",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE LA JARRIE"
+    }
+   ]
+  },
+  "17136": {
+   "reseaux": [
+    "R. DE LA JARRIE"
+   ],
+   "nb_prelevements": 26,
+   "dernier_prelevement": "2026-06-12",
+   "nb_depassements": 0,
+   "nb_microbiologiques": 0,
+   "nb_physico_chimiques": 0,
+   "parametres_physico_chimiques": [],
+   "dernier_depassement": null,
+   "depassements": []
+  },
+  "17142": {
+   "reseaux": [
+    "R. D'ANDILLY-PUILBOREAU"
+   ],
+   "nb_prelevements": 104,
+   "dernier_prelevement": "2026-08-10",
+   "nb_depassements": 0,
+   "nb_microbiologiques": 0,
+   "nb_physico_chimiques": 0,
+   "parametres_physico_chimiques": [],
+   "dernier_depassement": null,
+   "depassements": []
+  },
+  "17153": {
+   "reseaux": [
+    "R. DE ESNANDES-LAGORD"
+   ],
+   "nb_prelevements": 62,
+   "dernier_prelevement": "2026-08-11",
+   "nb_depassements": 0,
+   "nb_microbiologiques": 0,
+   "nb_physico_chimiques": 0,
+   "parametres_physico_chimiques": [],
+   "dernier_depassement": null,
+   "depassements": []
+  },
+  "17190": {
+   "reseaux": [
+    "R. DE ESNANDES-LAGORD"
+   ],
+   "nb_prelevements": 62,
+   "dernier_prelevement": "2026-08-11",
+   "nb_depassements": 0,
+   "nb_microbiologiques": 0,
+   "nb_physico_chimiques": 0,
+   "parametres_physico_chimiques": [],
+   "dernier_depassement": null,
+   "depassements": []
+  },
+  "17193": {
+   "reseaux": [
+    "R. D'ANGOULINS"
+   ],
+   "nb_prelevements": 40,
+   "dernier_prelevement": "2026-07-29",
+   "nb_depassements": 0,
+   "nb_microbiologiques": 0,
+   "nb_physico_chimiques": 0,
+   "parametres_physico_chimiques": [],
+   "dernier_depassement": null,
+   "depassements": []
+  },
+  "17194": {
+   "reseaux": [
+    "R. DE LA JARRIE"
+   ],
+   "nb_prelevements": 37,
+   "dernier_prelevement": "2026-08-24",
+   "nb_depassements": 0,
+   "nb_microbiologiques": 0,
+   "nb_physico_chimiques": 0,
+   "parametres_physico_chimiques": [],
+   "dernier_depassement": null,
+   "depassements": []
+  },
+  "17200": {
+   "reseaux": [
+    "R. DE ESNANDES-LAGORD"
+   ],
+   "nb_prelevements": 92,
+   "dernier_prelevement": "2026-06-08",
+   "nb_depassements": 0,
+   "nb_microbiologiques": 0,
+   "nb_physico_chimiques": 0,
+   "parametres_physico_chimiques": [],
+   "dernier_depassement": null,
+   "depassements": []
+  },
+  "17222": {
+   "reseaux": [
+    "R. DE ESNANDES-LAGORD"
+   ],
+   "nb_prelevements": 242,
+   "dernier_prelevement": "2026-08-05",
+   "nb_depassements": 13,
+   "nb_microbiologiques": 0,
+   "nb_physico_chimiques": 13,
+   "parametres_physico_chimiques": [
+    "ESA metolachlore",
+    "Turbidité néphélométrique NFU",
+    "Chlorothalonil R471811"
+   ],
+   "dernier_depassement": "2024-04-12",
+   "depassements": [
+    {
+     "date": "2017-05-26",
+     "parametre": "ESA metolachlore",
+     "valeur": 0.19,
+     "resultat": "0,19",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE CHARRON"
+    },
+    {
+     "date": "2017-09-15",
+     "parametre": "ESA metolachlore",
+     "valeur": 0.12,
+     "resultat": "0,12",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE CHARRON"
+    },
+    {
+     "date": "2021-10-12",
+     "parametre": "Turbidité néphélométrique NFU",
+     "valeur": 3.1,
+     "resultat": "3,1",
+     "unite": "NFU",
+     "limite": "<=1 NFU",
+     "reseau": "R. D'ANDILLY-PUILBOREAU, R. DE ESNANDES-LAGORD"
+    },
+    {
+     "date": "2023-09-01",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.15,
+     "resultat": "0,15",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE CHARRON"
+    },
+    {
+     "date": "2023-09-15",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.13,
+     "resultat": "0,13",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE CHARRON"
+    },
+    {
+     "date": "2023-11-16",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.13,
+     "resultat": "0,13",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE CHARRON"
+    },
+    {
+     "date": "2023-12-13",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.13,
+     "resultat": "0,13",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE CHARRON"
+    },
+    {
+     "date": "2023-12-13",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.15,
+     "resultat": "0,15",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE ESNANDES-LAGORD, R. D'ANDILLY-PUILBOREAU"
+    },
+    {
+     "date": "2024-02-02",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.13,
+     "resultat": "0,13",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE CHARRON"
+    },
+    {
+     "date": "2024-02-08",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.12,
+     "resultat": "0,12",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE ESNANDES-LAGORD, R. D'ANDILLY-PUILBOREAU"
+    },
+    {
+     "date": "2024-03-06",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.13,
+     "resultat": "0,13",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE CHARRON"
+    },
+    {
+     "date": "2024-04-12",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.18,
+     "resultat": "0,18",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE CHARRON"
+    },
+    {
+     "date": "2024-04-12",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.12,
+     "resultat": "0,12",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. D'ANDILLY-PUILBOREAU, R. DE ESNANDES-LAGORD"
+    }
+   ]
+  },
+  "17245": {
+   "reseaux": [
+    "R. DE BOURGNEUF"
+   ],
+   "nb_prelevements": 34,
+   "dernier_prelevement": "2026-07-29",
+   "nb_depassements": 0,
+   "nb_microbiologiques": 0,
+   "nb_physico_chimiques": 0,
+   "parametres_physico_chimiques": [],
+   "dernier_depassement": null,
+   "depassements": []
+  },
+  "17264": {
+   "reseaux": [
+    "R. DE ESNANDES-LAGORD"
+   ],
+   "nb_prelevements": 82,
+   "dernier_prelevement": "2026-07-02",
+   "nb_depassements": 1,
+   "nb_microbiologiques": 0,
+   "nb_physico_chimiques": 1,
+   "parametres_physico_chimiques": [
+    "Plomb"
+   ],
+   "dernier_depassement": "2016-11-17",
+   "depassements": [
+    {
+     "date": "2016-11-17",
+     "parametre": "Plomb",
+     "valeur": 24.1,
+     "resultat": "24,1",
+     "unite": "µg/L",
+     "limite": "<=10 µg/L",
+     "reseau": "R. DE ESNANDES-LAGORD"
+    }
+   ]
+  },
+  "17274": {
+   "reseaux": [
+    "R. D'AYTRE-PERIGNY-ST-ROGATIEN",
+    "R. D'ANDILLY-PUILBOREAU",
+    "R. DE PERIGNY-ROMPSAY SUD",
+    "R. DE PERIGNY-MAIRIE"
+   ],
+   "nb_prelevements": 541,
+   "dernier_prelevement": "2026-08-25",
+   "nb_depassements": 27,
+   "nb_microbiologiques": 0,
+   "nb_physico_chimiques": 27,
+   "parametres_physico_chimiques": [
+    "Fosetyl",
+    "Chlorothalonil R471811",
+    "Chlorure de vinyl monomère"
+   ],
+   "dernier_depassement": "2026-07-16",
+   "depassements": [
+    {
+     "date": "2022-07-12",
+     "parametre": "Fosetyl",
+     "valeur": 0.18,
+     "resultat": "0,18",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE LA ROCHELLE NORD-SUD, R. DE ZAC DE BEAULIEU, R. D'AYTRE-PERIGNY-ST-ROGATIEN"
+    },
+    {
+     "date": "2023-07-25",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.34,
+     "resultat": "0,34",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. D'AYTRE-PERIGNY-ST-ROGATIEN, R. DE ZAC DE BEAULIEU, R. DE LA ROCHELLE NORD-SUD"
+    },
+    {
+     "date": "2023-08-11",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.37,
+     "resultat": "0,37",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE PERIGNY-MAIRIE"
+    },
+    {
+     "date": "2023-08-24",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.35,
+     "resultat": "0,35",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE ZAC DE BEAULIEU, R. DE LA ROCHELLE NORD-SUD, R. D'AYTRE-PERIGNY-ST-ROGATIEN"
+    },
+    {
+     "date": "2023-08-28",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.4,
+     "resultat": "0,4",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE LA ROCHELLE NORD-SUD, R. DE ZAC DE BEAULIEU, R. D'AYTRE-PERIGNY-ST-ROGATIEN"
+    },
+    {
+     "date": "2023-08-31",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.3,
+     "resultat": "0,3",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE PERIGNY-MAIRIE"
+    },
+    {
+     "date": "2023-09-06",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.38,
+     "resultat": "0,38",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE ZAC DE BEAULIEU, R. DE LA ROCHELLE NORD-SUD, R. D'AYTRE-PERIGNY-ST-ROGATIEN"
+    },
+    {
+     "date": "2023-10-04",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.3,
+     "resultat": "0,30",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE ZAC DE BEAULIEU, R. DE LA ROCHELLE NORD-SUD, R. D'AYTRE-PERIGNY-ST-ROGATIEN"
+    },
+    {
+     "date": "2023-10-04",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.3,
+     "resultat": "0,30",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE PERIGNY-MAIRIE"
+    },
+    {
+     "date": "2023-11-20",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.16,
+     "resultat": "0,16",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE PERIGNY-MAIRIE"
+    },
+    {
+     "date": "2023-12-06",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.23,
+     "resultat": "0,23",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. D'AYTRE-PERIGNY-ST-ROGATIEN, R. DE ZAC DE BEAULIEU, R. DE LA ROCHELLE NORD-SUD"
+    },
+    {
+     "date": "2023-12-07",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.21,
+     "resultat": "0,21",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. D'AYTRE-PERIGNY-ST-ROGATIEN, R. DE ZAC DE BEAULIEU, R. DE LA ROCHELLE NORD-SUD"
+    },
+    {
+     "date": "2023-12-18",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.18,
+     "resultat": "0,18",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE PERIGNY-MAIRIE"
+    },
+    {
+     "date": "2023-12-22",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.17,
+     "resultat": "0,17",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE ZAC DE BEAULIEU, R. D'AYTRE-PERIGNY-ST-ROGATIEN, R. DE LA ROCHELLE NORD-SUD"
+    },
+    {
+     "date": "2024-01-12",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.19,
+     "resultat": "0,19",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE ZAC DE BEAULIEU, R. D'AYTRE-PERIGNY-ST-ROGATIEN, R. DE LA ROCHELLE NORD-SUD"
+    },
+    {
+     "date": "2024-01-12",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.21,
+     "resultat": "0,21",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE PERIGNY-MAIRIE"
+    },
+    {
+     "date": "2024-02-05",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.4,
+     "resultat": "0,40",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE PERIGNY-MAIRIE"
+    },
+    {
+     "date": "2024-02-05",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.17,
+     "resultat": "0,17",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE LA ROCHELLE NORD-SUD, R. D'AYTRE-PERIGNY-ST-ROGATIEN, R. DE ZAC DE BEAULIEU"
+    },
+    {
+     "date": "2024-03-08",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.12,
+     "resultat": "0,12",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE PERIGNY-MAIRIE"
+    },
+    {
+     "date": "2024-03-29",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.15,
+     "resultat": "0,15",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE LA ROCHELLE NORD-SUD, R. D'AYTRE-PERIGNY-ST-ROGATIEN, R. DE ZAC DE BEAULIEU"
+    },
+    {
+     "date": "2024-04-03",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.17,
+     "resultat": "0,17",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE PERIGNY-MAIRIE"
+    },
+    {
+     "date": "2024-04-16",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.19,
+     "resultat": "0,19",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE LA ROCHELLE NORD-SUD, R. D'AYTRE-PERIGNY-ST-ROGATIEN, R. DE ZAC DE BEAULIEU"
+    },
+    {
+     "date": "2024-06-03",
+     "parametre": "Fosetyl",
+     "valeur": 0.23,
+     "resultat": "0,23",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE ZAC DE BEAULIEU, R. DE LA ROCHELLE NORD-SUD, R. D'AYTRE-PERIGNY-ST-ROGATIEN"
+    },
+    {
+     "date": "2024-07-01",
+     "parametre": "Fosetyl",
+     "valeur": 0.25,
+     "resultat": "0,25",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE ZAC DE BEAULIEU, R. DE LA ROCHELLE NORD-SUD, R. D'AYTRE-PERIGNY-ST-ROGATIEN"
+    },
+    {
+     "date": "2025-06-06",
+     "parametre": "Fosetyl",
+     "valeur": 0.11,
+     "resultat": "0,11",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE LA ROCHELLE NORD-SUD, R. D'AYTRE-PERIGNY-ST-ROGATIEN, R. DE ZAC DE BEAULIEU"
+    },
+    {
+     "date": "2026-05-28",
+     "parametre": "Fosetyl",
+     "valeur": 0.13,
+     "resultat": "0,13",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE PERIGNY-MAIRIE"
+    },
+    {
+     "date": "2026-07-16",
+     "parametre": "Chlorure de vinyl monomère",
+     "valeur": 0.74,
+     "resultat": "0,74",
+     "unite": "µg/L",
+     "limite": "<=0.5 µg/L",
+     "reseau": "R. DE PERIGNY-ROMPSAY SUD"
+    }
+   ]
+  },
+  "17291": {
+   "reseaux": [
+    "R. D'ANDILLY-PUILBOREAU",
+    "R. DE ZAC DE BEAULIEU"
+   ],
+   "nb_prelevements": 153,
+   "dernier_prelevement": "2026-08-13",
+   "nb_depassements": 0,
+   "nb_microbiologiques": 0,
+   "nb_physico_chimiques": 0,
+   "parametres_physico_chimiques": [],
+   "dernier_depassement": null,
+   "depassements": []
+  },
+  "17300": {
+   "reseaux": [
+    "R. DE LA ROCHELLE NORD-SUD",
+    "R. DE LA ROCHELLE CENTRE"
+   ],
+   "nb_prelevements": 2374,
+   "dernier_prelevement": "2026-08-31",
+   "nb_depassements": 15,
+   "nb_microbiologiques": 2,
+   "nb_physico_chimiques": 13,
+   "parametres_physico_chimiques": [
+    "Plomb",
+    "Chlorure de vinyl monomère",
+    "Chlorothalonil R471811",
+    "Total des pesticides analysés"
+   ],
+   "dernier_depassement": "2024-04-16",
+   "depassements": [
+    {
+     "date": "2016-08-05",
+     "parametre": "Escherichia coli /100ml - MF",
+     "valeur": 7,
+     "resultat": "7",
+     "unite": "n/(100mL)",
+     "limite": "<=0 n/(100mL)",
+     "reseau": "R. DE LA ROCHELLE CENTRE"
+    },
+    {
+     "date": "2017-09-28",
+     "parametre": "Entérocoques /100ml-MS",
+     "valeur": 1,
+     "resultat": "1",
+     "unite": "n/(100mL)",
+     "limite": "<=0 n/(100mL)",
+     "reseau": "R. DE LA ROCHELLE NORD-SUD"
+    },
+    {
+     "date": "2017-12-14",
+     "parametre": "Plomb",
+     "valeur": 13.3,
+     "resultat": "13,3",
+     "unite": "µg/L",
+     "limite": "<=10 µg/L",
+     "reseau": "R. DE LA ROCHELLE NORD-SUD"
+    },
+    {
+     "date": "2021-01-29",
+     "parametre": "Chlorure de vinyl monomère",
+     "valeur": 1.2,
+     "resultat": "1,2",
+     "unite": "µg/L",
+     "limite": "<=0.5 µg/L",
+     "reseau": "R. DE LA ROCHELLE NORD-SUD"
+    },
+    {
+     "date": "2023-08-07",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 1.3,
+     "resultat": "1,3",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE LA ROCHELLE CENTRE"
+    },
+    {
+     "date": "2023-08-07",
+     "parametre": "Total des pesticides analysés",
+     "valeur": 1.321,
+     "resultat": "1,321",
+     "unite": "µg/L",
+     "limite": "<=0,5 µg/L",
+     "reseau": "R. DE LA ROCHELLE CENTRE"
+    },
+    {
+     "date": "2023-08-24",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 1.1,
+     "resultat": "1,1",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE LA ROCHELLE CENTRE"
+    },
+    {
+     "date": "2023-09-19",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 1.7,
+     "resultat": "1,7",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE LA ROCHELLE CENTRE"
+    },
+    {
+     "date": "2023-10-04",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 1.09,
+     "resultat": "1,09",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE LA ROCHELLE CENTRE"
+    },
+    {
+     "date": "2023-11-09",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.16,
+     "resultat": "0,16",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE LA ROCHELLE CENTRE"
+    },
+    {
+     "date": "2023-12-28",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.21,
+     "resultat": "0,21",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE LA ROCHELLE CENTRE"
+    },
+    {
+     "date": "2024-01-05",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.17,
+     "resultat": "0,17",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE LA ROCHELLE CENTRE"
+    },
+    {
+     "date": "2024-02-05",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.14,
+     "resultat": "0,14",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE LA ROCHELLE CENTRE"
+    },
+    {
+     "date": "2024-03-08",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.11,
+     "resultat": "0,11",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE LA ROCHELLE CENTRE"
+    },
+    {
+     "date": "2024-04-16",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.13,
+     "resultat": "0,13",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE LA ROCHELLE CENTRE"
+    }
+   ]
+  },
+  "17315": {
+   "reseaux": [
+    "R. DE ST-SAUVEUR",
+    "R. DE LA JARRIE"
+   ],
+   "nb_prelevements": 46,
+   "dernier_prelevement": "2026-08-26",
+   "nb_depassements": 1,
+   "nb_microbiologiques": 0,
+   "nb_physico_chimiques": 1,
+   "parametres_physico_chimiques": [
+    "Chlortoluron"
+   ],
+   "dernier_depassement": "2021-01-07",
+   "depassements": [
+    {
+     "date": "2021-01-07",
+     "parametre": "Chlortoluron",
+     "valeur": 0.18,
+     "resultat": "0,18",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE LA JARRIE"
+    }
+   ]
+  },
+  "17373": {
+   "reseaux": [
+    "R. DE ST-SAUVEUR",
+    "R. DE BOURGNEUF",
+    "R. D'ANDILLY-PUILBOREAU",
+    "R. DE ST-MEDARD-STE-SOULLE"
+   ],
+   "nb_prelevements": 131,
+   "dernier_prelevement": "2026-08-10",
+   "nb_depassements": 12,
+   "nb_microbiologiques": 1,
+   "nb_physico_chimiques": 11,
+   "parametres_physico_chimiques": [
+    "Chlorure de vinyl monomère"
+   ],
+   "dernier_depassement": "2025-04-04",
+   "depassements": [
+    {
+     "date": "2018-10-04",
+     "parametre": "Chlorure de vinyl monomère",
+     "valeur": 0.51,
+     "resultat": "0,51",
+     "unite": "µg/L",
+     "limite": "<=0.5 µg/L",
+     "reseau": "R. D'ANDILLY-PUILBOREAU"
+    },
+    {
+     "date": "2019-06-03",
+     "parametre": "Entérocoques /100ml-MS",
+     "valeur": 2,
+     "resultat": "2",
+     "unite": "n/(100mL)",
+     "limite": "<=0 n/(100mL)",
+     "reseau": "R. DE ST-MEDARD-STE-SOULLE"
+    },
+    {
+     "date": "2023-06-20",
+     "parametre": "Chlorure de vinyl monomère",
+     "valeur": 0.53,
+     "resultat": "0,53",
+     "unite": "µg/L",
+     "limite": "<=0.5 µg/L",
+     "reseau": "R. DE BOURGNEUF"
+    },
+    {
+     "date": "2023-07-18",
+     "parametre": "Chlorure de vinyl monomère",
+     "valeur": 1.7,
+     "resultat": "1,7",
+     "unite": "µg/L",
+     "limite": "<=0.5 µg/L",
+     "reseau": "R. D'ANDILLY-PUILBOREAU"
+    },
+    {
+     "date": "2023-07-28",
+     "parametre": "Chlorure de vinyl monomère",
+     "valeur": 0.92,
+     "resultat": "0,92",
+     "unite": "µg/L",
+     "limite": "<=0.5 µg/L",
+     "reseau": "R. D'ANDILLY-PUILBOREAU"
+    },
+    {
+     "date": "2023-10-04",
+     "parametre": "Chlorure de vinyl monomère",
+     "valeur": 0.75,
+     "resultat": "0,75",
+     "unite": "µg/L",
+     "limite": "<=0.5 µg/L",
+     "reseau": "R. D'ANDILLY-PUILBOREAU"
+    },
+    {
+     "date": "2023-10-19",
+     "parametre": "Chlorure de vinyl monomère",
+     "valeur": 1.1,
+     "resultat": "1,1",
+     "unite": "µg/L",
+     "limite": "<=0.5 µg/L",
+     "reseau": "R. D'ANDILLY-PUILBOREAU"
+    },
+    {
+     "date": "2023-10-26",
+     "parametre": "Chlorure de vinyl monomère",
+     "valeur": 0.73,
+     "resultat": "0,73",
+     "unite": "µg/L",
+     "limite": "<=0.5 µg/L",
+     "reseau": "R. D'ANDILLY-PUILBOREAU"
+    },
+    {
+     "date": "2024-08-01",
+     "parametre": "Chlorure de vinyl monomère",
+     "valeur": 2,
+     "resultat": "2,0",
+     "unite": "µg/L",
+     "limite": "<=0.5 µg/L",
+     "reseau": "R. D'ANDILLY-PUILBOREAU"
+    },
+    {
+     "date": "2024-11-08",
+     "parametre": "Chlorure de vinyl monomère",
+     "valeur": 0.76,
+     "resultat": "0,76",
+     "unite": "µg/L",
+     "limite": "<=0.5 µg/L",
+     "reseau": "R. D'ANDILLY-PUILBOREAU"
+    },
+    {
+     "date": "2025-01-10",
+     "parametre": "Chlorure de vinyl monomère",
+     "valeur": 0.61,
+     "resultat": "0,61",
+     "unite": "µg/L",
+     "limite": "<=0.5 µg/L",
+     "reseau": "R. D'ANDILLY-PUILBOREAU"
+    },
+    {
+     "date": "2025-04-04",
+     "parametre": "Chlorure de vinyl monomère",
+     "valeur": 0.58,
+     "resultat": "0,58",
+     "unite": "µg/L",
+     "limite": "<=0.5 µg/L",
+     "reseau": "R. D'ANDILLY-PUILBOREAU"
+    }
+   ]
+  },
+  "17391": {
+   "reseaux": [
+    "R. D'AYTRE-PERIGNY-ST-ROGATIEN"
+   ],
+   "nb_prelevements": 56,
+   "dernier_prelevement": "2026-06-09",
+   "nb_depassements": 0,
+   "nb_microbiologiques": 0,
+   "nb_physico_chimiques": 0,
+   "parametres_physico_chimiques": [],
+   "dernier_depassement": null,
+   "depassements": []
+  },
+  "17407": {
+   "reseaux": [
+    "R. DE ST-MEDARD-STE-SOULLE"
+   ],
+   "nb_prelevements": 66,
+   "dernier_prelevement": "2026-08-04",
+   "nb_depassements": 0,
+   "nb_microbiologiques": 0,
+   "nb_physico_chimiques": 0,
+   "parametres_physico_chimiques": [],
+   "dernier_depassement": null,
+   "depassements": []
+  },
+  "17413": {
+   "reseaux": [
+    "R. D'ANGOULINS"
+   ],
+   "nb_prelevements": 117,
+   "dernier_prelevement": "2026-08-25",
+   "nb_depassements": 12,
+   "nb_microbiologiques": 0,
+   "nb_physico_chimiques": 12,
+   "parametres_physico_chimiques": [
+    "Propiconazole",
+    "Chlorothalonil R471811",
+    "Total des pesticides analysés",
+    "Fosetyl"
+   ],
+   "dernier_depassement": "2024-06-25",
+   "depassements": [
+    {
+     "date": "2019-08-21",
+     "parametre": "Propiconazole",
+     "valeur": 0.12,
+     "resultat": "0,12",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE CHATELAILLON"
+    },
+    {
+     "date": "2023-08-28",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 1.6,
+     "resultat": "1,6",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE CHATELAILLON"
+    },
+    {
+     "date": "2023-08-28",
+     "parametre": "Total des pesticides analysés",
+     "valeur": 1.6,
+     "resultat": "1,6",
+     "unite": "µg/L",
+     "limite": "<=0,5 µg/L",
+     "reseau": "R. DE CHATELAILLON"
+    },
+    {
+     "date": "2023-09-29",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 1.6,
+     "resultat": "1,6",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE CHATELAILLON"
+    },
+    {
+     "date": "2023-10-20",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.89,
+     "resultat": "0,89",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE CHATELAILLON"
+    },
+    {
+     "date": "2023-10-20",
+     "parametre": "Total des pesticides analysés",
+     "valeur": 0.89,
+     "resultat": "0,89",
+     "unite": "µg/L",
+     "limite": "<=0,5 µg/L",
+     "reseau": "R. DE CHATELAILLON"
+    },
+    {
+     "date": "2023-11-06",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.14,
+     "resultat": "0,14",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE CHATELAILLON"
+    },
+    {
+     "date": "2023-12-12",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.18,
+     "resultat": "0,18",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE CHATELAILLON"
+    },
+    {
+     "date": "2024-01-22",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.17,
+     "resultat": "0,17",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE CHATELAILLON"
+    },
+    {
+     "date": "2024-02-09",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.21,
+     "resultat": "0,21",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE CHATELAILLON"
+    },
+    {
+     "date": "2024-03-28",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.13,
+     "resultat": "0,13",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE CHATELAILLON"
+    },
+    {
+     "date": "2024-06-25",
+     "parametre": "Fosetyl",
+     "valeur": 0.43,
+     "resultat": "0,43",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE CHATELAILLON"
+    }
+   ]
+  },
+  "17414": {
+   "reseaux": [
+    "R. D'ANDILLY-PUILBOREAU"
+   ],
+   "nb_prelevements": 61,
+   "dernier_prelevement": "2026-08-05",
+   "nb_depassements": 0,
+   "nb_microbiologiques": 0,
+   "nb_physico_chimiques": 0,
+   "parametres_physico_chimiques": [],
+   "dernier_depassement": null,
+   "depassements": []
+  },
+  "17420": {
+   "reseaux": [
+    "R. DE LA JARRIE",
+    "R. D'ANGOULINS"
+   ],
+   "nb_prelevements": 77,
+   "dernier_prelevement": "2026-06-09",
+   "nb_depassements": 2,
+   "nb_microbiologiques": 0,
+   "nb_physico_chimiques": 2,
+   "parametres_physico_chimiques": [
+    "Nitrates (en NO3)",
+    "ESA metolachlore"
+   ],
+   "dernier_depassement": "2021-01-12",
+   "depassements": [
+    {
+     "date": "2016-07-01",
+     "parametre": "Nitrates (en NO3)",
+     "valeur": 51,
+     "resultat": "51",
+     "unite": "mg/L",
+     "limite": "<=50 mg/L",
+     "reseau": "R. DE LA JARRIE"
+    },
+    {
+     "date": "2021-01-12",
+     "parametre": "ESA metolachlore",
+     "valeur": 0.11,
+     "resultat": "0,11",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE LA JARRIE"
+    }
+   ]
+  },
+  "17443": {
+   "reseaux": [
+    "R. DE AIGREFEUILLE-LE THOU"
+   ],
+   "nb_prelevements": 30,
+   "dernier_prelevement": "2026-04-29",
+   "nb_depassements": 0,
+   "nb_microbiologiques": 0,
+   "nb_physico_chimiques": 0,
+   "parametres_physico_chimiques": [],
+   "dernier_depassement": null,
+   "depassements": []
+  },
+  "17466": {
+   "reseaux": [
+    "R. DE ST-MEDARD-STE-SOULLE"
+   ],
+   "nb_prelevements": 100,
+   "dernier_prelevement": "2026-07-08",
+   "nb_depassements": 8,
+   "nb_microbiologiques": 1,
+   "nb_physico_chimiques": 7,
+   "parametres_physico_chimiques": [
+    "Chlorothalonil R471811",
+    "Total des pesticides analysés"
+   ],
+   "dernier_depassement": "2024-03-06",
+   "depassements": [
+    {
+     "date": "2021-06-18",
+     "parametre": "Entérocoques /100ml-MS",
+     "valeur": 1,
+     "resultat": "1",
+     "unite": "n/(100mL)",
+     "limite": "<=0 n/(100mL)",
+     "reseau": "R. DE BOURGNEUF"
+    },
+    {
+     "date": "2023-08-25",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 1.9,
+     "resultat": "1,9",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE BOURGNEUF"
+    },
+    {
+     "date": "2023-08-25",
+     "parametre": "Total des pesticides analysés",
+     "valeur": 1.9,
+     "resultat": "1,9",
+     "unite": "µg/L",
+     "limite": "<=0,5 µg/L",
+     "reseau": "R. DE BOURGNEUF"
+    },
+    {
+     "date": "2023-09-19",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 1.9,
+     "resultat": "1,9",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE BOURGNEUF"
+    },
+    {
+     "date": "2023-10-03",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 2.2,
+     "resultat": "2,2",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE BOURGNEUF"
+    },
+    {
+     "date": "2023-11-10",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.16,
+     "resultat": "0,16",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE BOURGNEUF"
+    },
+    {
+     "date": "2023-12-06",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.13,
+     "resultat": "0,13",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE BOURGNEUF"
+    },
+    {
+     "date": "2024-03-06",
+     "parametre": "Chlorothalonil R471811",
+     "valeur": 0.11,
+     "resultat": "0,11",
+     "unite": "µg/L",
+     "limite": "<=0,1 µg/L",
+     "reseau": "R. DE BOURGNEUF"
+    }
+   ]
+  },
+  "17483": {
+   "reseaux": [
+    "R. DE ST-LAURENT-YVES"
+   ],
+   "nb_prelevements": 39,
+   "dernier_prelevement": "2026-08-20",
+   "nb_depassements": 0,
+   "nb_microbiologiques": 0,
+   "nb_physico_chimiques": 0,
+   "parametres_physico_chimiques": [],
+   "dernier_depassement": null,
+   "depassements": []
+  }
+ }
+}
