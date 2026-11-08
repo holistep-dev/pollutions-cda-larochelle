@@ -295,6 +295,71 @@
       "statut": "correction",
       "consequence": "Pas de signal sanitaire publié pour Périgny ni pour L'Houmeau.",
       "ou_chercher_ensuite": "Registre général des cancers de Poitou-Charentes pour L'Houmeau."
+    },
+    {
+      "id": "RI-17",
+      "objet": "Contamination chimique des sédiments du port de commerce de La Rochelle",
+      "volet": "sediment_marin",
+      "date": "2026-11-08",
+      "bases_interrogees": [
+        "Port Atlantique La Rochelle, suivi de la qualité des sédiments portuaires 2023 et 2024"
+      ],
+      "requetes": [
+        "https://www.larochelle.port.fr/media/2024-suivi-de-la-qualite-des-sediments-portuaires.pdf"
+      ],
+      "resultat": "En 2024, neuf échantillons analysés sur vingt-six stations : tous sous le seuil N1 pour les métaux, HAP, PCB et TBT. Les sédiments sont jugés compatibles avec une immersion au site du Lavardin.",
+      "statut": "resolu",
+      "consequence": "Pas d'entrée pour les sédiments portuaires dragués en 2024.",
+      "ou_chercher_ensuite": "Valeurs détaillées par station dans le rapport complet de suivi, à demander au port."
+    },
+    {
+      "id": "RI-18",
+      "objet": "Non-conformité des stations d'épuration de la CDA",
+      "volet": "transverse",
+      "date": "2026-11-08",
+      "bases_interrogees": [
+        "Rapport annuel sur le prix et la qualité du service d'assainissement 2024 de la CDA"
+      ],
+      "requetes": [
+        "https://www.agglo-larochelle.fr/documents/10839/10879475/RPQS+2024.pdf/791e9bc6-0e17-42b7-89e9-890f63883732"
+      ],
+      "resultat": "Le rapport ne signale aucune non-conformité réglementaire. Thairé fonctionne à 107 % de sa capacité hydraulique. Les rendements en phosphore sont de 12,2 % à Saint-Médard-d'Aunis et de 44,3 % à Saint-Christophe. Les volumes déversés par les déversoirs d'orage ne sont pas publiés.",
+      "statut": "partiellement_resolu",
+      "consequence": "Pas d'entrée. Les rendements faibles ne valent pas non-conformité sans la décision du service de police de l'eau.",
+      "ou_chercher_ensuite": "Portail ministériel de l'assainissement collectif (conformité ERU par station), DDTM de Charente-Maritime pour les déversements."
+    },
+    {
+      "id": "RI-19",
+      "objet": "Contaminants chimiques dans les coquillages des pertuis",
+      "volet": "sediment_marin",
+      "date": "2026-11-08",
+      "bases_interrogees": [
+        "Ifremer, bulletins de la surveillance du LER des Pertuis Charentais 2020 et 2022, réseau ROCCH"
+      ],
+      "requetes": [
+        "https://archimer.ifremer.fr/doc/00882/99431/109524.pdf",
+        "https://archimer.ifremer.fr/doc/00747/85927/91263.pdf"
+      ],
+      "resultat": "Au point Châtelaillon, le cadmium et le plomb des huîtres sont sous les seuils sanitaires réglementaires mais au-dessus de la médiane nationale sur 2020-2022 ; le cuivre est 2,5 fois la médiane nationale. Le cadmium a été divisé par trois depuis les années 1980. Aucun dépassement de seuil sanitaire dans la CDA.",
+      "statut": "resolu",
+      "consequence": "Pas d'entrée au titre d'un dépassement. Information de contexte possible.",
+      "ou_chercher_ensuite": "Bulletins 2023 à 2025 du LER des Pertuis Charentais, données Quadrige."
+    },
+    {
+      "id": "RI-20",
+      "objet": "Résultats d'analyses des piézomètres industriels déclarés dans ADES",
+      "volet": "sols",
+      "date": "2026-11-08",
+      "bases_interrogees": [
+        "ADES via Hub'Eau qualite_nappes, 90 points sur les 28 communes"
+      ],
+      "requetes": [
+        "https://hubeau.eaufrance.fr/api/v1/qualite_nappes/stations?code_commune=17300"
+      ],
+      "resultat": "77 points de La Rochelle, Aytré et Périgny, pour la plupart des piézomètres (codes PZ), sont enregistrés sans aucune analyse publiée. Seuls neuf points ont des analyses depuis 2015, presque tous des captages d'eau potable et une station de référence à Marsilly.",
+      "statut": "identifie_non_recupere",
+      "consequence": "Les suivis de nappe des sites industriels ne sont pas publics par cette voie.",
+      "ou_chercher_ensuite": "DREAL Nouvelle-Aquitaine, rapports de surveillance des exploitants, sur demande."
     }
   ]
 }

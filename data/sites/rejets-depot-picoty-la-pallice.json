@@ -1,0 +1,106 @@
+{
+  "commune": "La Rochelle",
+  "code_insee": "17300",
+  "precision_geo": "localisation_indicative",
+  "origine_trace": "Coordonnées de l'installation publiées par Géorisques.",
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": true,
+  "statut_preuve": "diagnostic_administratif",
+  "statut_traitement": "sous_surveillance",
+  "id": "rejets-depot-picoty-la-pallice",
+  "nom": "Rejets d'eaux du dépôt pétrolier Picoty",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -1.20994,
+      46.168699
+    ]
+  },
+  "rayon_m": 150,
+  "categorie": "ressource_eau",
+  "pictogramme": "usine",
+  "milieux": [
+    "eau_superficielle"
+  ],
+  "substances": [
+    {
+      "libelle": "benzène au point de rejet du bâtiment administratif, maximum",
+      "milieu": "eau_superficielle",
+      "valeur": 2600,
+      "unite": "µg/L",
+      "source": "dreal-inspection-picoty-2025-11-17",
+      "depassement_constate": true,
+      "reference_reglementaire": {
+        "libelle": "Valeur limite d'émission fixée par l'arrêté préfectoral, non citée dans le rapport",
+        "nature": "valeur_limite_emission"
+      }
+    },
+    {
+      "libelle": "toluène au point de rejet du bâtiment administratif, maximum",
+      "milieu": "eau_superficielle",
+      "valeur": 15000,
+      "unite": "µg/L",
+      "source": "dreal-inspection-picoty-2025-11-17",
+      "depassement_constate": true,
+      "reference_reglementaire": {
+        "libelle": "Valeur limite d'émission fixée par l'arrêté préfectoral, non citée dans le rapport",
+        "nature": "valeur_limite_emission"
+      }
+    },
+    {
+      "libelle": "demande chimique en oxygène au point de rejet du bâtiment administratif, maximum",
+      "milieu": "eau_superficielle",
+      "valeur": 2000,
+      "unite": "mg/L",
+      "source": "dreal-inspection-picoty-2025-11-17",
+      "depassement_constate": true,
+      "reference_reglementaire": {
+        "libelle": "Valeur limite d'émission fixée par l'arrêté préfectoral, non citée dans le rapport",
+        "nature": "valeur_limite_emission"
+      }
+    },
+    {
+      "libelle": "hydrocarbures totaux, zinc, matières en suspension, dépassements sur plusieurs points de rejet",
+      "milieu": "eau_superficielle",
+      "source": "dreal-inspection-picoty-2025-11-17",
+      "depassement_constate": true,
+      "reference_reglementaire": {
+        "libelle": "Valeur limite d'émission fixée par l'arrêté préfectoral, non citée dans le rapport",
+        "nature": "valeur_limite_emission"
+      }
+    }
+  ],
+  "periode": {
+    "debut": "2024",
+    "debut_statut": "datee",
+    "fin": null,
+    "fin_statut": "en_cours",
+    "note": "Dépassements relevés lors des campagnes d'analyses examinées en décembre 2024 et novembre 2025."
+  },
+  "resume": "Le dépôt d'hydrocarbures Picoty, classé Seveso seuil haut, analyse les eaux de cinq points de rejet. L'inspection du 17 novembre 2025 constate des dépassements récurrents des valeurs limites sur plusieurs points : demande chimique en oxygène jusqu'à 2 000 mg/l, benzène jusqu'à 2 600 µg/l, toluène jusqu'à 15 000 µg/l, xylènes jusqu'à 9 300 µg/l. Une partie de ces eaux rejoint le réseau pluvial communal après un séparateur d'hydrocarbures. L'inspection propose au préfet un arrêté de mise en demeure. La pollution des sols du dépôt fait l'objet d'une fiche distincte.",
+  "accroche": "Benzène et toluène au-dessus des limites dans les rejets du dépôt Picoty",
+  "resume_court": "L'inspection de novembre 2025 relève des dépassements récurrents dans les eaux rejetées par le dépôt. Une mise en demeure est proposée au préfet.",
+  "procedure_en_cours": true,
+  "exploitants": [
+    {
+      "nom": "Picoty",
+      "source": "dreal-inspection-picoty-2025-11-17"
+    }
+  ],
+  "sources": [
+    "dreal-inspection-picoty-2025-11-17",
+    "dreal-inspection-picoty-2025-12-15"
+  ],
+  "liens": [
+    {
+      "site": "depots-hydrocarbures-la-pallice",
+      "relation": "voisin"
+    }
+  ],
+  "ce_qui_manque": [
+    {
+      "piece": "L'arrêté de mise en demeure, s'il a été signé, et les résultats des campagnes de 2026",
+      "ou_chercher": "Recueil des actes administratifs de la préfecture de Charente-Maritime, prochains rapports d'inspection sur Géorisques"
+    }
+  ]
+}

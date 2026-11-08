@@ -1,0 +1,90 @@
+{
+  "commune": "La Rochelle",
+  "code_insee": "17300",
+  "precision_geo": "localisation_indicative",
+  "origine_trace": "Coordonnées de l'installation publiées par Géorisques.",
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": true,
+  "statut_preuve": "diagnostic_administratif",
+  "statut_traitement": "sous_surveillance",
+  "id": "rejets-innovia-agrocean-la-rochelle",
+  "nom": "Rejets d'eaux industrielles d'Innov'ia, site Agrocéan",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -1.207765,
+      46.150005
+    ]
+  },
+  "rayon_m": 100,
+  "categorie": "ressource_eau",
+  "pictogramme": "usine",
+  "milieux": [
+    "eau_superficielle"
+  ],
+  "substances": [
+    {
+      "libelle": "demande chimique en oxygène des effluents rejetés au réseau communal les 10 au 12 janvier 2026, moyenne sur 218,5 m³",
+      "milieu": "eau_superficielle",
+      "valeur": 6157,
+      "unite": "mg/L",
+      "source": "dreal-inspection-innovia-2026-01-30",
+      "depassement_constate": true,
+      "reference_reglementaire": {
+        "libelle": "Valeur limite de rejet au réseau, non citée dans le rapport",
+        "nature": "valeur_limite_emission"
+      }
+    },
+    {
+      "libelle": "chlorures, rejets de septembre 2024 et mars 2025, maximum",
+      "milieu": "eau_superficielle",
+      "valeur": 546,
+      "unite": "mg/L",
+      "source": "dreal-inspection-innovia-2025-08-05",
+      "depassement_constate": true,
+      "reference_reglementaire": {
+        "libelle": "Valeur limite de la convention de rejet",
+        "valeur": 500,
+        "unite": "mg/L",
+        "nature": "valeur_limite_emission"
+      }
+    },
+    {
+      "libelle": "température des rejets, dépassements de la limite de 30 °C répétés d'août 2024 à juin 2025",
+      "milieu": "eau_superficielle",
+      "source": "dreal-inspection-innovia-2025-08-05",
+      "depassement_constate": true,
+      "reference_reglementaire": {
+        "libelle": "Température maximale des rejets : 30 °C",
+        "nature": "valeur_limite_emission"
+      }
+    }
+  ],
+  "periode": {
+    "debut": "2024-08",
+    "debut_statut": "datee",
+    "fin": null,
+    "fin_statut": "en_cours",
+    "note": "Dépassements relevés d'août 2024 à juin 2025, puis rejet non conforme en janvier 2026."
+  },
+  "resume": "L'usine de production de poudres du site Agrocéan rejette ses eaux industrielles dans le réseau communal d'assainissement, qui aboutit à une station d'épuration. L'inspection du 5 août 2025 relève des dépassements répétés des valeurs limites d'août 2024 à juin 2025 sur la température, les chlorures, le pH et un flux, et propose un arrêté de mise en demeure. L'inspection du 30 janvier 2026 rapporte un rejet de 218,5 m³ d'effluents non conformes entre le 10 et le 12 janvier 2026, à 6 157 mg/l de DCO en moyenne. Les rejets passent par le réseau et la station d'épuration avant le milieu naturel.",
+  "accroche": "Rejets non conformes de l'usine Innov'ia dans le réseau d'eaux usées",
+  "resume_court": "Dépassements répétés des limites de rejet en 2024 et 2025, et un rejet de 218,5 m³ non conformes en janvier 2026. Une mise en demeure est proposée au préfet.",
+  "procedure_en_cours": true,
+  "exploitants": [
+    {
+      "nom": "Innov'ia",
+      "source": "dreal-inspection-innovia-2025-08-05"
+    }
+  ],
+  "sources": [
+    "dreal-inspection-innovia-2025-08-05",
+    "dreal-inspection-innovia-2026-01-30"
+  ],
+  "ce_qui_manque": [
+    {
+      "piece": "L'arrêté de mise en demeure, s'il a été signé, et l'effet du rejet de janvier 2026 sur la station d'épuration",
+      "ou_chercher": "Recueil des actes administratifs de la préfecture, service assainissement de la CDA"
+    }
+  ]
+}

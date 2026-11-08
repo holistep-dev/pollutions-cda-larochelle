@@ -266,7 +266,7 @@
       "code_insee": "17300",
       "nom": "La Rochelle",
       "slug": "la-rochelle",
-      "nb_sites": 24,
+      "nb_sites": 28,
       "nb_sans_localisation": 2,
       "sans_localisation": [
         {
@@ -394,6 +394,14 @@
           "localise": true
         },
         {
+          "id": "poussieres-scierie-atlantique-la-rochelle",
+          "nom": "Émissions de poussières de la Scierie de l'Atlantique",
+          "categorie": "air",
+          "statut_preuve": "diagnostic_administratif",
+          "statut_traitement": "inconnu",
+          "localise": true
+        },
+        {
           "id": "radioactivite-avenue-wilson-la-rochelle",
           "nom": "Rayonnement gamma le long de l'avenue du Président-Wilson",
           "categorie": "friche_sol_pollue",
@@ -415,6 +423,30 @@
           "categorie": "sediment_marin",
           "statut_preuve": "signalement_non_instruit",
           "statut_traitement": "inconnu",
+          "localise": true
+        },
+        {
+          "id": "rejets-depot-picoty-la-pallice",
+          "nom": "Rejets d'eaux du dépôt pétrolier Picoty",
+          "categorie": "ressource_eau",
+          "statut_preuve": "diagnostic_administratif",
+          "statut_traitement": "sous_surveillance",
+          "localise": true
+        },
+        {
+          "id": "rejets-galva-atlantique-la-rochelle",
+          "nom": "Rejets d'eaux pluviales de Galva Atlantique",
+          "categorie": "ressource_eau",
+          "statut_preuve": "diagnostic_administratif",
+          "statut_traitement": "sous_surveillance",
+          "localise": true
+        },
+        {
+          "id": "rejets-innovia-agrocean-la-rochelle",
+          "nom": "Rejets d'eaux industrielles d'Innov'ia, site Agrocéan",
+          "categorie": "ressource_eau",
+          "statut_preuve": "diagnostic_administratif",
+          "statut_traitement": "sous_surveillance",
           "localise": true
         },
         {

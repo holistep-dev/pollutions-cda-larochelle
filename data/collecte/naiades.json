@@ -1,0 +1,5914 @@
+{
+ "genere_le": "2026-11-08",
+ "source": "Naïades, Hub'Eau qualite_rivieres",
+ "stations": [
+  {
+   "code_station": "04161110",
+   "libelle": "CANAL PRINCIPAL à AYTRE",
+   "commune": "Aytré",
+   "code_insee": "17028",
+   "lon": -1.118937355,
+   "lat": 46.116951074,
+   "cours_eau": null,
+   "mesures_depuis_2015": 288,
+   "premiere": "2024-01-15",
+   "derniere": "2025-10-03",
+   "quantifies": [
+    {
+     "param": "Ammonium",
+     "code": "1335",
+     "unite": "mg(NH4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 5,
+     "max": 0.22,
+     "date_max": "2025-10-03",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Azote Kjeldahl",
+     "code": "1319",
+     "unite": "mg(N)/L",
+     "fraction": "Eau brute",
+     "n": 15,
+     "max": 4.3,
+     "date_max": "2024-09-24",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Azote global (N.GL.)",
+     "code": "1551",
+     "unite": "mg(N)/L",
+     "fraction": "Eau brute",
+     "n": 15,
+     "max": 18.5,
+     "date_max": "2024-01-15",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Carbone Organique",
+     "code": "1841",
+     "unite": "mg/L",
+     "fraction": "Eau brute",
+     "n": 15,
+     "max": 8.5,
+     "date_max": "2024-09-24",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Chlorures",
+     "code": "1337",
+     "unite": "mg/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 10,
+     "max": 53000.0,
+     "date_max": "2024-07-11",
+     "derniere": "2024-11-20"
+    },
+    {
+     "param": "Conductivité à 25°C",
+     "code": "1303",
+     "unite": "µS/cm",
+     "fraction": "Eau brute",
+     "n": 15,
+     "max": 15900.0,
+     "date_max": "2024-07-11",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Demande Biochimique en oxygène en 5 jours (D.B.O.5)",
+     "code": "1313",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 15,
+     "max": 22.0,
+     "date_max": "2024-09-24",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Enterocoques",
+     "code": "6455",
+     "unite": "n/(100mL)",
+     "fraction": "Eau brute",
+     "n": 3,
+     "max": 1500.0,
+     "date_max": "2025-10-03",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Escherichia coli (E. coli)",
+     "code": "1449",
+     "unite": "n/(100mL)",
+     "fraction": "Eau brute",
+     "n": 3,
+     "max": 1600.0,
+     "date_max": "2025-10-03",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Nitrates",
+     "code": "1340",
+     "unite": "mg(NO3)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 13,
+     "max": 78.5,
+     "date_max": "2024-01-15",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Nitrites",
+     "code": "1339",
+     "unite": "mg(NO2)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 13,
+     "max": 0.46,
+     "date_max": "2025-05-22",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Orthophosphates (PO4)",
+     "code": "1433",
+     "unite": "mg(PO4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 8,
+     "max": 0.16,
+     "date_max": "2024-03-18",
+     "derniere": "2024-09-24"
+    },
+    {
+     "param": "Oxygène dissous",
+     "code": "1311",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 15,
+     "max": 11.93,
+     "date_max": "2025-03-25",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Phosphore total",
+     "code": "1350",
+     "unite": "mg(P2O5)/L",
+     "fraction": "Eau brute",
+     "n": 11,
+     "max": 0.19,
+     "date_max": "2025-05-22",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Potentiel en Hydrogène (pH)",
+     "code": "1302",
+     "unite": "unité pH",
+     "fraction": "Eau brute",
+     "n": 15,
+     "max": 8.5,
+     "date_max": "2024-09-24",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Salinité",
+     "code": "1842",
+     "unite": "X",
+     "fraction": "Eau brute",
+     "n": 15,
+     "max": 23.5,
+     "date_max": "2024-07-11",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Sulfates",
+     "code": "1338",
+     "unite": "mg/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 12,
+     "max": 755.0,
+     "date_max": "2024-07-11",
+     "derniere": "2024-11-20"
+    },
+    {
+     "param": "Taux de saturation en oxygène",
+     "code": "1312",
+     "unite": "%",
+     "fraction": "Eau brute",
+     "n": 11,
+     "max": 125.5,
+     "date_max": "2025-03-25",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Température de l'Eau",
+     "code": "1301",
+     "unite": "°C",
+     "fraction": "Eau brute",
+     "n": 7,
+     "max": 22.7,
+     "date_max": "2024-07-11",
+     "derniere": "2025-10-03"
+    }
+   ]
+  },
+  {
+   "code_station": "04782000",
+   "libelle": "CANAL DE MARANS LA ROCHELLE À LA ROCHELLE",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.147241678,
+   "lat": 46.158788107,
+   "cours_eau": null,
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "quantifies": []
+  },
+  {
+   "code_station": "04782003",
+   "libelle": "CANAL DE MARANS LA ROCHELLE À PERIGNY",
+   "commune": "Périgny",
+   "code_insee": "17274",
+   "lon": -1.108831948,
+   "lat": 46.166974575,
+   "cours_eau": null,
+   "mesures_depuis_2015": 1543,
+   "premiere": "2015-01-19",
+   "derniere": "2026-06-18",
+   "quantifies": [
+    {
+     "param": "Ammonium",
+     "code": "1335",
+     "unite": "mg(NH4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 45,
+     "max": 0.9,
+     "date_max": "2022-08-18",
+     "derniere": "2026-06-18"
+    },
+    {
+     "param": "Azote Kjeldahl",
+     "code": "1319",
+     "unite": "mg(N)/L",
+     "fraction": "Eau brute",
+     "n": 30,
+     "max": 0.99,
+     "date_max": "2017-10-25",
+     "derniere": "2026-06-18"
+    },
+    {
+     "param": "Carbone Organique",
+     "code": "1841",
+     "unite": "mg(C)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 75,
+     "max": 4.1,
+     "date_max": "2016-08-25",
+     "derniere": "2026-06-18"
+    },
+    {
+     "param": "Chlorophylle a",
+     "code": "1439",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 38,
+     "max": 17.7,
+     "date_max": "2018-05-16",
+     "derniere": "2026-06-18"
+    },
+    {
+     "param": "Conductivité à 25°C",
+     "code": "1303",
+     "unite": "µS/cm",
+     "fraction": "Eau brute",
+     "n": 75,
+     "max": 799.0,
+     "date_max": "2020-10-15",
+     "derniere": "2026-06-18"
+    },
+    {
+     "param": "Demande Biochimique en oxygène en 5 jours (D.B.O.5)",
+     "code": "1313",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 72,
+     "max": 5.4,
+     "date_max": "2018-05-16",
+     "derniere": "2026-06-18"
+    },
+    {
+     "param": "Demande Chimique en Oxygène (DCO)",
+     "code": "1314",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 50,
+     "max": 29.0,
+     "date_max": "2020-05-18",
+     "derniere": "2026-06-18"
+    },
+    {
+     "param": "Enterocoques",
+     "code": "6455",
+     "unite": "n/(100mL)",
+     "fraction": "Eau brute",
+     "n": 67,
+     "max": 5710.0,
+     "date_max": "2019-10-17",
+     "derniere": "2026-06-18"
+    },
+    {
+     "param": "Escherichia coli (E. coli)",
+     "code": "1449",
+     "unite": "n/(100mL)",
+     "fraction": "Eau brute",
+     "n": 67,
+     "max": 7680.0,
+     "date_max": "2023-12-13",
+     "derniere": "2026-06-18"
+    },
+    {
+     "param": "Indice ST-DCO",
+     "code": "6396",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 19,
+     "max": 23.6,
+     "date_max": "2016-10-25",
+     "derniere": "2020-02-20"
+    },
+    {
+     "param": "Matières en suspension",
+     "code": "1305",
+     "unite": "mg/L",
+     "fraction": "Eau brute",
+     "n": 40,
+     "max": 24.0,
+     "date_max": "2026-06-18",
+     "derniere": "2026-06-18"
+    },
+    {
+     "param": "Nitrates",
+     "code": "1340",
+     "unite": "mg(NO3)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 74,
+     "max": 77.4,
+     "date_max": "2020-02-20",
+     "derniere": "2026-06-18"
+    },
+    {
+     "param": "Nitrites",
+     "code": "1339",
+     "unite": "mg(NO2)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 73,
+     "max": 0.35,
+     "date_max": "2015-10-09",
+     "derniere": "2026-06-18"
+    },
+    {
+     "param": "Orthophosphates (PO4)",
+     "code": "1433",
+     "unite": "mg(PO4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 24,
+     "max": 0.15,
+     "date_max": "2023-12-13",
+     "derniere": "2026-06-18"
+    },
+    {
+     "param": "Oxygène dissous",
+     "code": "1311",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 75,
+     "max": 19.8,
+     "date_max": "2015-06-22",
+     "derniere": "2026-06-18"
+    },
+    {
+     "param": "Phosphore total",
+     "code": "1350",
+     "unite": "mg(P)/L",
+     "fraction": "Eau brute",
+     "n": 65,
+     "max": 0.05,
+     "date_max": "2023-12-13",
+     "derniere": "2026-06-18"
+    },
+    {
+     "param": "Phéopigments",
+     "code": "1436",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 16,
+     "max": 31.5,
+     "date_max": "2015-01-19",
+     "derniere": "2026-06-18"
+    },
+    {
+     "param": "Potentiel en Hydrogène (pH)",
+     "code": "1302",
+     "unite": "unité pH",
+     "fraction": "Eau brute",
+     "n": 75,
+     "max": 8.0,
+     "date_max": "2015-05-15",
+     "derniere": "2026-06-18"
+    },
+    {
+     "param": "Salinité",
+     "code": "1842",
+     "unite": "X",
+     "fraction": "Eau brute",
+     "n": 41,
+     "max": 0.3,
+     "date_max": "2020-02-20",
+     "derniere": "2026-06-18"
+    },
+    {
+     "param": "Taux de saturation en oxygène",
+     "code": "1312",
+     "unite": "%",
+     "fraction": "Eau brute",
+     "n": 75,
+     "max": 222.0,
+     "date_max": "2015-06-22",
+     "derniere": "2026-06-18"
+    },
+    {
+     "param": "Teinte de l'eau",
+     "code": "1739",
+     "unite": "X",
+     "fraction": "Eau brute",
+     "n": 37,
+     "max": 6.0,
+     "date_max": "2018-10-17",
+     "derniere": "2022-12-08"
+    },
+    {
+     "param": "Température de l'Eau",
+     "code": "1301",
+     "unite": "°C",
+     "fraction": "Eau brute",
+     "n": 75,
+     "max": 24.7,
+     "date_max": "2023-08-23",
+     "derniere": "2026-06-18"
+    },
+    {
+     "param": "Turbidité Formazine Néphélométrique",
+     "code": "1295",
+     "unite": "NFU",
+     "fraction": "Eau brute",
+     "n": 75,
+     "max": 29.0,
+     "date_max": "2021-08-13",
+     "derniere": "2026-06-18"
+    }
+   ]
+  },
+  {
+   "code_station": "04782005",
+   "libelle": "CANAUX DE MARANS A DOMPIERRE-SUR-MER",
+   "commune": "Dompierre-sur-Mer",
+   "code_insee": "17142",
+   "lon": -1.048526669,
+   "lat": 46.207398556,
+   "cours_eau": null,
+   "mesures_depuis_2015": 5376,
+   "premiere": "2022-02-24",
+   "derniere": "2022-12-01",
+   "quantifies": [
+    {
+     "param": "2,4-MCPA",
+     "code": "1212",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 1,
+     "max": 0.057,
+     "date_max": "2022-04-01",
+     "derniere": "2022-04-01"
+    },
+    {
+     "param": "4-tert-butylphénol",
+     "code": "2610",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 4,
+     "max": 0.033,
+     "date_max": "2022-10-03",
+     "derniere": "2022-10-03"
+    },
+    {
+     "param": "AMPA",
+     "code": "1907",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 1,
+     "max": 0.22,
+     "date_max": "2022-04-01",
+     "derniere": "2022-04-01"
+    },
+    {
+     "param": "Acide niflumique",
+     "code": "6870",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 1,
+     "max": 0.02,
+     "date_max": "2022-04-01",
+     "derniere": "2022-04-01"
+    },
+    {
+     "param": "Alpha-cyperméthrine",
+     "code": "1812",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 1,
+     "max": 0.016,
+     "date_max": "2022-12-01",
+     "derniere": "2022-12-01"
+    },
+    {
+     "param": "Ammonium",
+     "code": "1335",
+     "unite": "mg(NH4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 6,
+     "max": 0.06,
+     "date_max": "2022-08-01",
+     "derniere": "2022-12-01"
+    },
+    {
+     "param": "Azote Kjeldahl",
+     "code": "1319",
+     "unite": "mg(N)/L",
+     "fraction": "Eau brute",
+     "n": 2,
+     "max": 0.67,
+     "date_max": "2022-10-03",
+     "derniere": "2022-10-03"
+    },
+    {
+     "param": "Benzotriazole",
+     "code": "7543",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 1,
+     "max": 0.051,
+     "date_max": "2022-04-01",
+     "derniere": "2022-04-01"
+    },
+    {
+     "param": "Bisphenol A",
+     "code": "2766",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 4,
+     "max": 0.181,
+     "date_max": "2022-11-02",
+     "derniere": "2022-12-01"
+    },
+    {
+     "param": "Bisphenol S",
+     "code": "7594",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 1,
+     "max": 0.022,
+     "date_max": "2022-11-02",
+     "derniere": "2022-11-02"
+    },
+    {
+     "param": "Calcium",
+     "code": "1374",
+     "unite": "mg(Ca)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 2,
+     "max": 107.8,
+     "date_max": "2022-04-01",
+     "derniere": "2022-10-03"
+    },
+    {
+     "param": "Carbendazime",
+     "code": "1129",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 1,
+     "max": 0.008,
+     "date_max": "2022-06-01",
+     "derniere": "2022-06-01"
+    },
+    {
+     "param": "Carbonates",
+     "code": "1328",
+     "unite": "mg(CO3)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 2,
+     "max": 0.0,
+     "date_max": "2022-04-01",
+     "derniere": "2022-10-03"
+    },
+    {
+     "param": "Carbone Organique",
+     "code": "1841",
+     "unite": "mg(C)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 6,
+     "max": 3.7,
+     "date_max": "2022-02-24",
+     "derniere": "2022-12-01"
+    },
+    {
+     "param": "Chloridazone méthyl desphényl",
+     "code": "6379",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 7,
+     "max": 0.029,
+     "date_max": "2022-04-01",
+     "derniere": "2022-12-01"
+    },
+    {
+     "param": "Chlorures",
+     "code": "1337",
+     "unite": "mg(Cl)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 2,
+     "max": 54.0,
+     "date_max": "2022-04-01",
+     "derniere": "2022-10-03"
+    },
+    {
+     "param": "Conductivité à 25°C",
+     "code": "1303",
+     "unite": "µS/cm",
+     "fraction": "Eau brute",
+     "n": 10,
+     "max": 1581.0,
+     "date_max": "2022-10-03",
+     "derniere": "2022-12-01"
+    },
+    {
+     "param": "Conductivité électrique de l'eau non ramenée à une température conventionnelle",
+     "code": "1798",
+     "unite": "µS/cm",
+     "fraction": "Eau brute",
+     "n": 1,
+     "max": 705.0,
+     "date_max": "2022-05-11",
+     "derniere": "2022-05-11"
+    },
+    {
+     "param": "Cyperméthrine total",
+     "code": "1140",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 1,
+     "max": 0.01,
+     "date_max": "2022-12-01",
+     "derniere": "2022-12-01"
+    },
+    {
+     "param": "Demande Biochimique en oxygène en 5 jours (D.B.O.5)",
+     "code": "1313",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 2.3,
+     "date_max": "2022-08-01",
+     "derniere": "2022-12-01"
+    },
+    {
+     "param": "Dichlorprop total",
+     "code": "1169",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 1,
+     "max": 0.113,
+     "date_max": "2022-04-01",
+     "derniere": "2022-04-01"
+    },
+    {
+     "param": "Diflufenicanil",
+     "code": "1814",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 1,
+     "max": 0.002,
+     "date_max": "2022-04-01",
+     "derniere": "2022-04-01"
+    },
+    {
+     "param": "Diméthachlore CGA 369873",
+     "code": "7727",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 0.058,
+     "date_max": "2022-12-01",
+     "derniere": "2022-12-01"
+    },
+    {
+     "param": "Dureté totale",
+     "code": "1345",
+     "unite": "°f",
+     "fraction": "Eau brute",
+     "n": 2,
+     "max": 30.94,
+     "date_max": "2022-04-01",
+     "derniere": "2022-10-03"
+    },
+    {
+     "param": "Glyphosate",
+     "code": "1506",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 1,
+     "max": 0.031,
+     "date_max": "2022-04-01",
+     "derniere": "2022-04-01"
+    },
+    {
+     "param": "Hydrogénocarbonates",
+     "code": "1327",
+     "unite": "mg(HCO3)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 2,
+     "max": 329.0,
+     "date_max": "2022-04-01",
+     "derniere": "2022-10-03"
+    },
+    {
+     "param": "Magnésium",
+     "code": "1372",
+     "unite": "mg(Mg)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 2,
+     "max": 12.9,
+     "date_max": "2022-10-03",
+     "derniere": "2022-10-03"
+    },
+    {
+     "param": "Matières en suspension",
+     "code": "1305",
+     "unite": "mg/L",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 9.2,
+     "date_max": "2022-02-24",
+     "derniere": "2022-12-01"
+    },
+    {
+     "param": "Metformine",
+     "code": "6755",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 0.2231,
+     "date_max": "2022-04-01",
+     "derniere": "2022-10-03"
+    },
+    {
+     "param": "Monobutylétain cation",
+     "code": "2542",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 2,
+     "max": 0.086,
+     "date_max": "2022-06-01",
+     "derniere": "2022-06-01"
+    },
+    {
+     "param": "Monooctylétain cation",
+     "code": "7496",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 1,
+     "max": 0.036,
+     "date_max": "2022-12-01",
+     "derniere": "2022-12-01"
+    },
+    {
+     "param": "Mécoprop total",
+     "code": "1214",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 1,
+     "max": 0.047,
+     "date_max": "2022-04-01",
+     "derniere": "2022-04-01"
+    },
+    {
+     "param": "Métolachlore total",
+     "code": "1221",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 1,
+     "max": 0.007,
+     "date_max": "2022-07-01",
+     "derniere": "2022-07-01"
+    },
+    {
+     "param": "N-Butylbenzenesulfonamide",
+     "code": "5299",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 2,
+     "max": 0.151,
+     "date_max": "2022-10-03",
+     "derniere": "2022-11-02"
+    },
+    {
+     "param": "Naphtalène",
+     "code": "1517",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 3,
+     "max": 0.0052,
+     "date_max": "2022-05-02",
+     "derniere": "2022-07-01"
+    },
+    {
+     "param": "Nicosulfuron ASDM",
+     "code": "7716",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 1,
+     "max": 0.007,
+     "date_max": "2022-04-01",
+     "derniere": "2022-04-01"
+    },
+    {
+     "param": "Nitrates",
+     "code": "1340",
+     "unite": "mg(NO3)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 6,
+     "max": 38.0,
+     "date_max": "2022-06-01",
+     "derniere": "2022-12-01"
+    },
+    {
+     "param": "Nitrites",
+     "code": "1339",
+     "unite": "mg(NO2)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 6,
+     "max": 0.32,
+     "date_max": "2022-02-24",
+     "derniere": "2022-12-01"
+    },
+    {
+     "param": "Nitrophénol-2",
+     "code": "1637",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 1,
+     "max": 0.026,
+     "date_max": "2022-04-01",
+     "derniere": "2022-04-01"
+    },
+    {
+     "param": "Orthophosphates (PO4)",
+     "code": "1433",
+     "unite": "mg(PO4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 5,
+     "max": 0.07,
+     "date_max": "2022-10-03",
+     "derniere": "2022-10-03"
+    },
+    {
+     "param": "Oxygène dissous",
+     "code": "1311",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 10,
+     "max": 17.0,
+     "date_max": "2022-05-11",
+     "derniere": "2022-12-01"
+    },
+    {
+     "param": "Phosphate de tributyle",
+     "code": "1847",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 1,
+     "max": 0.014,
+     "date_max": "2022-12-01",
+     "derniere": "2022-12-01"
+    },
+    {
+     "param": "Phosphore total",
+     "code": "1350",
+     "unite": "mg(P)/L",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 0.044,
+     "date_max": "2022-02-24",
+     "derniere": "2022-10-03"
+    },
+    {
+     "param": "Potassium",
+     "code": "1367",
+     "unite": "mg(K)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 2,
+     "max": 7.2,
+     "date_max": "2022-04-01",
+     "derniere": "2022-10-03"
+    },
+    {
+     "param": "Potentiel en Hydrogène (pH)",
+     "code": "1302",
+     "unite": "unité pH",
+     "fraction": "Eau brute",
+     "n": 10,
+     "max": 8.0,
+     "date_max": "2022-05-02",
+     "derniere": "2022-12-01"
+    },
+    {
+     "param": "Propazine 2-hydroxy",
+     "code": "5968",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 1,
+     "max": 0.006,
+     "date_max": "2022-07-01",
+     "derniere": "2022-07-01"
+    },
+    {
+     "param": "Propiconazole",
+     "code": "1257",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 1,
+     "max": 0.007,
+     "date_max": "2022-07-01",
+     "derniere": "2022-07-01"
+    },
+    {
+     "param": "Prosulfocarbe",
+     "code": "1092",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 2,
+     "max": 0.015,
+     "date_max": "2022-11-02",
+     "derniere": "2022-12-01"
+    },
+    {
+     "param": "Silicates",
+     "code": "1342",
+     "unite": "mg(SiO3)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 6,
+     "max": 11.81,
+     "date_max": "2022-10-03",
+     "derniere": "2022-12-01"
+    },
+    {
+     "param": "Sodium",
+     "code": "1375",
+     "unite": "mg(Na)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 2,
+     "max": 32.3,
+     "date_max": "2022-04-01",
+     "derniere": "2022-10-03"
+    },
+    {
+     "param": "Sulfates",
+     "code": "1338",
+     "unite": "mg(SO4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 2,
+     "max": 46.0,
+     "date_max": "2022-04-01",
+     "derniere": "2022-10-03"
+    },
+    {
+     "param": "Taux de saturation en oxygène",
+     "code": "1312",
+     "unite": "%",
+     "fraction": "Eau brute",
+     "n": 10,
+     "max": 178.0,
+     "date_max": "2022-05-11",
+     "derniere": "2022-12-01"
+    },
+    {
+     "param": "Teinte de l'eau",
+     "code": "1739",
+     "unite": "X",
+     "fraction": "Eau brute",
+     "n": 8,
+     "max": 6.0,
+     "date_max": "2022-10-03",
+     "derniere": "2022-12-01"
+    },
+    {
+     "param": "Température de l'Eau",
+     "code": "1301",
+     "unite": "°C",
+     "fraction": "Eau brute",
+     "n": 10,
+     "max": 22.0,
+     "date_max": "2022-08-01",
+     "derniere": "2022-12-01"
+    },
+    {
+     "param": "Température de réception de l'échantillon au laboratoire",
+     "code": "8727",
+     "unite": "°C",
+     "fraction": "Eau brute",
+     "n": 9,
+     "max": 9.0,
+     "date_max": "2022-10-03",
+     "derniere": "2022-12-01"
+    },
+    {
+     "param": "Titre alcalimétrique (T.A.)",
+     "code": "1346",
+     "unite": "°f",
+     "fraction": "Eau brute",
+     "n": 2,
+     "max": 0.0,
+     "date_max": "2022-04-01",
+     "derniere": "2022-10-03"
+    },
+    {
+     "param": "Titre alcalimétrique complet (T.A.C.)",
+     "code": "1347",
+     "unite": "°f",
+     "fraction": "Eau brute",
+     "n": 2,
+     "max": 26.95,
+     "date_max": "2022-04-01",
+     "derniere": "2022-10-03"
+    },
+    {
+     "param": "Tolyltriazole",
+     "code": "6660",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 0.127,
+     "date_max": "2022-04-01",
+     "derniere": "2022-12-01"
+    },
+    {
+     "param": "Tributylétain cation",
+     "code": "2879",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 1,
+     "max": 0.00059,
+     "date_max": "2022-12-01",
+     "derniere": "2022-12-01"
+    },
+    {
+     "param": "Turbidité Formazine Néphélométrique",
+     "code": "1295",
+     "unite": "NFU",
+     "fraction": "Eau brute",
+     "n": 9,
+     "max": 12.9,
+     "date_max": "2022-11-02",
+     "derniere": "2022-12-01"
+    }
+   ]
+  },
+  {
+   "code_station": "04782006",
+   "libelle": "CANAL DE SALLES A CHATELAILLON A CHATELAILLON-PLAGE",
+   "commune": "Châtelaillon-Plage",
+   "code_insee": "17094",
+   "lon": -1.098884052,
+   "lat": 46.094512646,
+   "cours_eau": null,
+   "mesures_depuis_2015": 125,
+   "premiere": "2015-01-19",
+   "derniere": "2015-11-10",
+   "quantifies": [
+    {
+     "param": "Ammonium",
+     "code": "1335",
+     "unite": "mg(NH4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 5,
+     "max": 0.32,
+     "date_max": "2015-11-10",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Azote Kjeldahl",
+     "code": "1319",
+     "unite": "mg(N)/L",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 1.7,
+     "date_max": "2015-05-15",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Carbone Organique",
+     "code": "1841",
+     "unite": "mg(C)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 7,
+     "max": 6.9,
+     "date_max": "2015-03-03",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Chlorophylle a",
+     "code": "1439",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 29.7,
+     "date_max": "2015-11-10",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Conductivité à 25°C",
+     "code": "1303",
+     "unite": "µS/cm",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 1670.0,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Demande Biochimique en oxygène en 5 jours (D.B.O.5)",
+     "code": "1313",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 3.1,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Demande Chimique en Oxygène (DCO)",
+     "code": "1314",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 25.4,
+     "date_max": "2015-03-03",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Enterocoques",
+     "code": "6455",
+     "unite": "n/(100mL)",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 213.0,
+     "date_max": "2015-10-09",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Escherichia coli (E. coli)",
+     "code": "1449",
+     "unite": "n/(100mL)",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 197.0,
+     "date_max": "2015-01-19",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Matières en suspension",
+     "code": "1305",
+     "unite": "mg/L",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 66.0,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Nitrates",
+     "code": "1340",
+     "unite": "mg(NO3)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 6,
+     "max": 34.0,
+     "date_max": "2015-01-19",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Nitrites",
+     "code": "1339",
+     "unite": "mg(NO2)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 6,
+     "max": 0.42,
+     "date_max": "2015-11-10",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Orthophosphates (PO4)",
+     "code": "1433",
+     "unite": "mg(PO4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 5,
+     "max": 0.35,
+     "date_max": "2015-11-10",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Oxygène dissous",
+     "code": "1311",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 9.4,
+     "date_max": "2015-01-19",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Phosphore total",
+     "code": "1350",
+     "unite": "mg(P)/L",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 0.432,
+     "date_max": "2015-05-15",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Phéopigments",
+     "code": "1436",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 4,
+     "max": 20.0,
+     "date_max": "2015-05-15",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Potentiel en Hydrogène (pH)",
+     "code": "1302",
+     "unite": "unité pH",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 7.9,
+     "date_max": "2015-05-15",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Salinité",
+     "code": "1842",
+     "unite": "X",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 0.7,
+     "date_max": "2015-05-15",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Taux de saturation en oxygène",
+     "code": "1312",
+     "unite": "%",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 78.1,
+     "date_max": "2015-01-19",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Température de l'Eau",
+     "code": "1301",
+     "unite": "°C",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 20.3,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Turbidité Formazine Néphélométrique",
+     "code": "1295",
+     "unite": "NFU",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 50.0,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    }
+   ]
+  },
+  {
+   "code_station": "04782007",
+   "libelle": "FOSSÉ A SAINT-VIVIEN",
+   "commune": "Saint-Vivien",
+   "code_insee": "17413",
+   "lon": -1.062071083,
+   "lat": 46.066830176,
+   "cours_eau": null,
+   "mesures_depuis_2015": 104,
+   "premiere": "2015-01-19",
+   "derniere": "2015-11-10",
+   "quantifies": [
+    {
+     "param": "Ammonium",
+     "code": "1335",
+     "unite": "mg(NH4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 5,
+     "max": 0.33,
+     "date_max": "2015-05-15",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Azote Kjeldahl",
+     "code": "1319",
+     "unite": "mg(N)/L",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 1.7,
+     "date_max": "2015-05-15",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Carbone Organique",
+     "code": "1841",
+     "unite": "mg(C)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 5,
+     "max": 7.2,
+     "date_max": "2015-11-10",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Chlorophylle a",
+     "code": "1439",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 18.9,
+     "date_max": "2015-05-15",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Conductivité à 25°C",
+     "code": "1303",
+     "unite": "µS/cm",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 1940.0,
+     "date_max": "2015-11-10",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Demande Biochimique en oxygène en 5 jours (D.B.O.5)",
+     "code": "1313",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 2.8,
+     "date_max": "2015-05-15",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Demande Chimique en Oxygène (DCO)",
+     "code": "1314",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 22.5,
+     "date_max": "2015-05-15",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Enterocoques",
+     "code": "6455",
+     "unite": "n/(100mL)",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 426.0,
+     "date_max": "2015-11-10",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Escherichia coli (E. coli)",
+     "code": "1449",
+     "unite": "n/(100mL)",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 457.0,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Matières en suspension",
+     "code": "1305",
+     "unite": "mg/L",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 69.0,
+     "date_max": "2015-11-10",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Nitrates",
+     "code": "1340",
+     "unite": "mg(NO3)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 4,
+     "max": 35.0,
+     "date_max": "2015-01-19",
+     "derniere": "2015-08-27"
+    },
+    {
+     "param": "Nitrites",
+     "code": "1339",
+     "unite": "mg(NO2)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 5,
+     "max": 0.43,
+     "date_max": "2015-05-15",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Orthophosphates (PO4)",
+     "code": "1433",
+     "unite": "mg(PO4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 3,
+     "max": 0.07,
+     "date_max": "2015-01-19",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Oxygène dissous",
+     "code": "1311",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 11.7,
+     "date_max": "2015-01-19",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Phosphore total",
+     "code": "1350",
+     "unite": "mg(P)/L",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 0.106,
+     "date_max": "2015-05-15",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Phéopigments",
+     "code": "1436",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 15.1,
+     "date_max": "2015-05-15",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Potentiel en Hydrogène (pH)",
+     "code": "1302",
+     "unite": "unité pH",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 7.9,
+     "date_max": "2015-05-15",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Salinité",
+     "code": "1842",
+     "unite": "X",
+     "fraction": "Eau brute",
+     "n": 4,
+     "max": 0.8,
+     "date_max": "2015-11-10",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Taux de saturation en oxygène",
+     "code": "1312",
+     "unite": "%",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 97.1,
+     "date_max": "2015-01-19",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Température de l'Eau",
+     "code": "1301",
+     "unite": "°C",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 19.8,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Turbidité Formazine Néphélométrique",
+     "code": "1295",
+     "unite": "NFU",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 67.0,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    }
+   ]
+  },
+  {
+   "code_station": "04782008",
+   "libelle": "CANAL DE MARANS A LA ROCHELLE A LA ROCHELLE",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.150466139,
+   "lat": 46.158237437,
+   "cours_eau": null,
+   "mesures_depuis_2015": 125,
+   "premiere": "2015-01-19",
+   "derniere": "2015-11-10",
+   "quantifies": [
+    {
+     "param": "Ammonium",
+     "code": "1335",
+     "unite": "mg(NH4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 5,
+     "max": 0.15,
+     "date_max": "2015-10-09",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Azote Kjeldahl",
+     "code": "1319",
+     "unite": "mg(N)/L",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 1.1,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Carbone Organique",
+     "code": "1841",
+     "unite": "mg(C)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 7,
+     "max": 4.7,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Chlorophylle a",
+     "code": "1439",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 27.0,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Conductivité à 25°C",
+     "code": "1303",
+     "unite": "µS/cm",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 1370.0,
+     "date_max": "2015-11-10",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Demande Biochimique en oxygène en 5 jours (D.B.O.5)",
+     "code": "1313",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 3.1,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Demande Chimique en Oxygène (DCO)",
+     "code": "1314",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 18.1,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Enterocoques",
+     "code": "6455",
+     "unite": "n/(100mL)",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 1500.0,
+     "date_max": "2015-01-19",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Escherichia coli (E. coli)",
+     "code": "1449",
+     "unite": "n/(100mL)",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 10700.0,
+     "date_max": "2015-01-19",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Matières en suspension",
+     "code": "1305",
+     "unite": "mg/L",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 140.0,
+     "date_max": "2015-05-15",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Nitrates",
+     "code": "1340",
+     "unite": "mg(NO3)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 6,
+     "max": 53.0,
+     "date_max": "2015-03-03",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Nitrites",
+     "code": "1339",
+     "unite": "mg(NO2)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 6,
+     "max": 0.38,
+     "date_max": "2015-10-09",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Orthophosphates (PO4)",
+     "code": "1433",
+     "unite": "mg(PO4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 2,
+     "max": 0.04,
+     "date_max": "2015-11-10",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Oxygène dissous",
+     "code": "1311",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 10.9,
+     "date_max": "2015-03-03",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Phosphore total",
+     "code": "1350",
+     "unite": "mg(P)/L",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 0.086,
+     "date_max": "2015-05-15",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Phéopigments",
+     "code": "1436",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 17.6,
+     "date_max": "2015-05-15",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Potentiel en Hydrogène (pH)",
+     "code": "1302",
+     "unite": "unité pH",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 8.2,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Salinité",
+     "code": "1842",
+     "unite": "X",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 0.6,
+     "date_max": "2015-10-09",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Taux de saturation en oxygène",
+     "code": "1312",
+     "unite": "%",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 99.4,
+     "date_max": "2015-03-03",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Température de l'Eau",
+     "code": "1301",
+     "unite": "°C",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 20.8,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Turbidité Formazine Néphélométrique",
+     "code": "1295",
+     "unite": "NFU",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 58.0,
+     "date_max": "2015-01-19",
+     "derniere": "2015-11-10"
+    }
+   ]
+  },
+  {
+   "code_station": "04782009",
+   "libelle": "CANAL DE LA MOULINETTE A LA ROCHELLE",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.140242433,
+   "lat": 46.154237383,
+   "cours_eau": null,
+   "mesures_depuis_2015": 124,
+   "premiere": "2015-01-19",
+   "derniere": "2015-11-10",
+   "quantifies": [
+    {
+     "param": "Ammonium",
+     "code": "1335",
+     "unite": "mg(NH4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 6,
+     "max": 0.11,
+     "date_max": "2015-01-19",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Azote Kjeldahl",
+     "code": "1319",
+     "unite": "mg(N)/L",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 0.9,
+     "date_max": "2015-10-09",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Carbone Organique",
+     "code": "1841",
+     "unite": "mg(C)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 7,
+     "max": 4.7,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Chlorophylle a",
+     "code": "1439",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 26.3,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Conductivité à 25°C",
+     "code": "1303",
+     "unite": "µS/cm",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 4500.0,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Demande Biochimique en oxygène en 5 jours (D.B.O.5)",
+     "code": "1313",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 2.8,
+     "date_max": "2015-05-15",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Demande Chimique en Oxygène (DCO)",
+     "code": "1314",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 13.1,
+     "date_max": "2015-05-15",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Enterocoques",
+     "code": "6455",
+     "unite": "n/(100mL)",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 1530.0,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Escherichia coli (E. coli)",
+     "code": "1449",
+     "unite": "n/(100mL)",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 16700.0,
+     "date_max": "2015-01-19",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Matières en suspension",
+     "code": "1305",
+     "unite": "mg/L",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 54.0,
+     "date_max": "2015-01-19",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Nitrates",
+     "code": "1340",
+     "unite": "mg(NO3)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 6,
+     "max": 59.0,
+     "date_max": "2015-03-03",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Nitrites",
+     "code": "1339",
+     "unite": "mg(NO2)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 6,
+     "max": 0.39,
+     "date_max": "2015-11-10",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Orthophosphates (PO4)",
+     "code": "1433",
+     "unite": "mg(PO4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 2,
+     "max": 0.03,
+     "date_max": "2015-11-10",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Oxygène dissous",
+     "code": "1311",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 10.7,
+     "date_max": "2015-10-09",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Phosphore total",
+     "code": "1350",
+     "unite": "mg(P)/L",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 0.08,
+     "date_max": "2015-10-09",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Phéopigments",
+     "code": "1436",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 9.0,
+     "date_max": "2015-11-10",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Potentiel en Hydrogène (pH)",
+     "code": "1302",
+     "unite": "unité pH",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 8.2,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Salinité",
+     "code": "1842",
+     "unite": "X",
+     "fraction": "Eau brute",
+     "n": 4,
+     "max": 2.3,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Taux de saturation en oxygène",
+     "code": "1312",
+     "unite": "%",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 100.0,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Température de l'Eau",
+     "code": "1301",
+     "unite": "°C",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 21.0,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Turbidité Formazine Néphélométrique",
+     "code": "1295",
+     "unite": "NFU",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 30.0,
+     "date_max": "2015-01-19",
+     "derniere": "2015-11-10"
+    }
+   ]
+  },
+  {
+   "code_station": "04782010",
+   "libelle": "CANAL DE MARANS À LA ROCHELLE À LA ROCHELLE",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.139707512,
+   "lat": 46.156844843,
+   "cours_eau": null,
+   "mesures_depuis_2015": 124,
+   "premiere": "2015-01-19",
+   "derniere": "2015-11-10",
+   "quantifies": [
+    {
+     "param": "Ammonium",
+     "code": "1335",
+     "unite": "mg(NH4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 5,
+     "max": 0.1,
+     "date_max": "2015-10-09",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Azote Kjeldahl",
+     "code": "1319",
+     "unite": "mg(N)/L",
+     "fraction": "Eau brute",
+     "n": 4,
+     "max": 0.97,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Carbone Organique",
+     "code": "1841",
+     "unite": "mg(C)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 6,
+     "max": 3.2,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Chlorophylle a",
+     "code": "1439",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 43.2,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Conductivité à 25°C",
+     "code": "1303",
+     "unite": "µS/cm",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 1420.0,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Demande Biochimique en oxygène en 5 jours (D.B.O.5)",
+     "code": "1313",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 4.5,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Demande Chimique en Oxygène (DCO)",
+     "code": "1314",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 15.6,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Enterocoques",
+     "code": "6455",
+     "unite": "n/(100mL)",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 1320.0,
+     "date_max": "2015-01-19",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Escherichia coli (E. coli)",
+     "code": "1449",
+     "unite": "n/(100mL)",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 3550.0,
+     "date_max": "2015-01-19",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Matières en suspension",
+     "code": "1305",
+     "unite": "mg/L",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 180.0,
+     "date_max": "2015-01-19",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Nitrates",
+     "code": "1340",
+     "unite": "mg(NO3)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 6,
+     "max": 50.0,
+     "date_max": "2015-03-03",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Nitrites",
+     "code": "1339",
+     "unite": "mg(NO2)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 6,
+     "max": 0.39,
+     "date_max": "2015-11-10",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Orthophosphates (PO4)",
+     "code": "1433",
+     "unite": "mg(PO4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 3,
+     "max": 0.03,
+     "date_max": "2015-01-19",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Oxygène dissous",
+     "code": "1311",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 12.3,
+     "date_max": "2015-01-19",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Phosphore total",
+     "code": "1350",
+     "unite": "mg(P)/L",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 0.092,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Phéopigments",
+     "code": "1436",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 9.7,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Potentiel en Hydrogène (pH)",
+     "code": "1302",
+     "unite": "unité pH",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 7.8,
+     "date_max": "2015-05-15",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Salinité",
+     "code": "1842",
+     "unite": "X",
+     "fraction": "Eau brute",
+     "n": 4,
+     "max": 0.5,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Taux de saturation en oxygène",
+     "code": "1312",
+     "unite": "%",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 114.0,
+     "date_max": "2015-05-15",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Température de l'Eau",
+     "code": "1301",
+     "unite": "°C",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 20.2,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Turbidité Formazine Néphélométrique",
+     "code": "1295",
+     "unite": "NFU",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 82.0,
+     "date_max": "2015-01-19",
+     "derniere": "2015-11-10"
+    }
+   ]
+  },
+  {
+   "code_station": "04782012",
+   "libelle": "FOSSÉ À ESNANDES",
+   "commune": "Esnandes",
+   "code_insee": "17153",
+   "lon": -1.111710087,
+   "lat": 46.251657698,
+   "cours_eau": null,
+   "mesures_depuis_2015": 124,
+   "premiere": "2015-01-19",
+   "derniere": "2015-11-10",
+   "quantifies": [
+    {
+     "param": "Ammonium",
+     "code": "1335",
+     "unite": "mg(NH4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 6,
+     "max": 0.82,
+     "date_max": "2015-05-15",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Azote Kjeldahl",
+     "code": "1319",
+     "unite": "mg(N)/L",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 2.4,
+     "date_max": "2015-05-15",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Carbone Organique",
+     "code": "1841",
+     "unite": "mg(C)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 6,
+     "max": 8.1,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Chlorophylle a",
+     "code": "1439",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 51.3,
+     "date_max": "2015-01-19",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Conductivité à 25°C",
+     "code": "1303",
+     "unite": "µS/cm",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 1250.0,
+     "date_max": "2015-03-03",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Demande Biochimique en oxygène en 5 jours (D.B.O.5)",
+     "code": "1313",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 3.8,
+     "date_max": "2015-03-03",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Demande Chimique en Oxygène (DCO)",
+     "code": "1314",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 27.5,
+     "date_max": "2015-03-03",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Enterocoques",
+     "code": "6455",
+     "unite": "n/(100mL)",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 16700.0,
+     "date_max": "2015-01-19",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Escherichia coli (E. coli)",
+     "code": "1449",
+     "unite": "n/(100mL)",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 34700.0,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Matières en suspension",
+     "code": "1305",
+     "unite": "mg/L",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 94.0,
+     "date_max": "2015-10-09",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Nitrates",
+     "code": "1340",
+     "unite": "mg(NO3)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 6,
+     "max": 23.0,
+     "date_max": "2015-10-09",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Nitrites",
+     "code": "1339",
+     "unite": "mg(NO2)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 6,
+     "max": 0.4,
+     "date_max": "2015-01-19",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Orthophosphates (PO4)",
+     "code": "1433",
+     "unite": "mg(PO4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 6,
+     "max": 7.16,
+     "date_max": "2015-11-10",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Oxygène dissous",
+     "code": "1311",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 9.8,
+     "date_max": "2015-03-03",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Phosphore total",
+     "code": "1350",
+     "unite": "mg(P)/L",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 2.92,
+     "date_max": "2015-11-10",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Phéopigments",
+     "code": "1436",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 24.4,
+     "date_max": "2015-03-03",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Potentiel en Hydrogène (pH)",
+     "code": "1302",
+     "unite": "unité pH",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 8.0,
+     "date_max": "2015-05-15",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Salinité",
+     "code": "1842",
+     "unite": "X",
+     "fraction": "Eau brute",
+     "n": 4,
+     "max": 0.3,
+     "date_max": "2015-11-10",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Taux de saturation en oxygène",
+     "code": "1312",
+     "unite": "%",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 89.7,
+     "date_max": "2015-03-03",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Température de l'Eau",
+     "code": "1301",
+     "unite": "°C",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 19.8,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Turbidité Formazine Néphélométrique",
+     "code": "1295",
+     "unite": "NFU",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 82.0,
+     "date_max": "2015-01-19",
+     "derniere": "2015-11-10"
+    }
+   ]
+  },
+  {
+   "code_station": "04782013",
+   "libelle": "CHENAUE A SAINT-XANDRE",
+   "commune": "Saint-Xandre",
+   "code_insee": "17414",
+   "lon": -1.068348831,
+   "lat": 46.217871411,
+   "cours_eau": null,
+   "mesures_depuis_2015": 124,
+   "premiere": "2015-01-19",
+   "derniere": "2015-11-10",
+   "quantifies": [
+    {
+     "param": "Ammonium",
+     "code": "1335",
+     "unite": "mg(NH4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 6,
+     "max": 0.04,
+     "date_max": "2015-11-10",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Azote Kjeldahl",
+     "code": "1319",
+     "unite": "mg(N)/L",
+     "fraction": "Eau brute",
+     "n": 2,
+     "max": 0.67,
+     "date_max": "2015-08-27",
+     "derniere": "2015-08-27"
+    },
+    {
+     "param": "Carbone Organique",
+     "code": "1841",
+     "unite": "mg(C)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 6,
+     "max": 3.2,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Chlorophylle a",
+     "code": "1439",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 7.4,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Conductivité à 25°C",
+     "code": "1303",
+     "unite": "µS/cm",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 813.0,
+     "date_max": "2015-11-10",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Demande Biochimique en oxygène en 5 jours (D.B.O.5)",
+     "code": "1313",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 1.4,
+     "date_max": "2015-05-15",
+     "derniere": "2015-10-09"
+    },
+    {
+     "param": "Demande Chimique en Oxygène (DCO)",
+     "code": "1314",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 8.0,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Enterocoques",
+     "code": "6455",
+     "unite": "n/(100mL)",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 4070.0,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Escherichia coli (E. coli)",
+     "code": "1449",
+     "unite": "n/(100mL)",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 4070.0,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Matières en suspension",
+     "code": "1305",
+     "unite": "mg/L",
+     "fraction": "Eau brute",
+     "n": 3,
+     "max": 11.0,
+     "date_max": "2015-05-15",
+     "derniere": "2015-08-27"
+    },
+    {
+     "param": "Nitrates",
+     "code": "1340",
+     "unite": "mg(NO3)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 6,
+     "max": 54.0,
+     "date_max": "2015-03-03",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Nitrites",
+     "code": "1339",
+     "unite": "mg(NO2)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 6,
+     "max": 0.32,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Orthophosphates (PO4)",
+     "code": "1433",
+     "unite": "mg(PO4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 6,
+     "max": 0.09,
+     "date_max": "2015-01-19",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Oxygène dissous",
+     "code": "1311",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 10.0,
+     "date_max": "2015-03-03",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Phosphore total",
+     "code": "1350",
+     "unite": "mg(P)/L",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 0.05,
+     "date_max": "2015-03-03",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Phéopigments",
+     "code": "1436",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 4,
+     "max": 2.3,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Potentiel en Hydrogène (pH)",
+     "code": "1302",
+     "unite": "unité pH",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 7.8,
+     "date_max": "2015-05-15",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Salinité",
+     "code": "1842",
+     "unite": "X",
+     "fraction": "Eau brute",
+     "n": 4,
+     "max": 0.2,
+     "date_max": "2015-11-10",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Taux de saturation en oxygène",
+     "code": "1312",
+     "unite": "%",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 92.9,
+     "date_max": "2015-03-03",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Température de l'Eau",
+     "code": "1301",
+     "unite": "°C",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 17.7,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Turbidité Formazine Néphélométrique",
+     "code": "1295",
+     "unite": "NFU",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 11.0,
+     "date_max": "2015-01-19",
+     "derniere": "2015-11-10"
+    }
+   ]
+  },
+  {
+   "code_station": "04782014",
+   "libelle": "LE GO A NIEUL-SUR-MER",
+   "commune": "Nieul-sur-Mer",
+   "code_insee": "17264",
+   "lon": -1.174633268,
+   "lat": 46.208795831,
+   "cours_eau": null,
+   "mesures_depuis_2015": 124,
+   "premiere": "2015-01-19",
+   "derniere": "2015-11-10",
+   "quantifies": [
+    {
+     "param": "Ammonium",
+     "code": "1335",
+     "unite": "mg(NH4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 5,
+     "max": 0.04,
+     "date_max": "2015-01-19",
+     "derniere": "2015-10-09"
+    },
+    {
+     "param": "Azote Kjeldahl",
+     "code": "1319",
+     "unite": "mg(N)/L",
+     "fraction": "Eau brute",
+     "n": 1,
+     "max": 0.56,
+     "date_max": "2015-01-19",
+     "derniere": "2015-01-19"
+    },
+    {
+     "param": "Carbone Organique",
+     "code": "1841",
+     "unite": "mg(C)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 6,
+     "max": 3.0,
+     "date_max": "2015-05-15",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Chlorophylle a",
+     "code": "1439",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 5.4,
+     "date_max": "2015-05-15",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Conductivité à 25°C",
+     "code": "1303",
+     "unite": "µS/cm",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 885.0,
+     "date_max": "2015-10-09",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Demande Biochimique en oxygène en 5 jours (D.B.O.5)",
+     "code": "1313",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 1.7,
+     "date_max": "2015-05-15",
+     "derniere": "2015-10-09"
+    },
+    {
+     "param": "Demande Chimique en Oxygène (DCO)",
+     "code": "1314",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 4,
+     "max": 8.2,
+     "date_max": "2015-08-27",
+     "derniere": "2015-10-09"
+    },
+    {
+     "param": "Enterocoques",
+     "code": "6455",
+     "unite": "n/(100mL)",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 4180.0,
+     "date_max": "2015-11-10",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Escherichia coli (E. coli)",
+     "code": "1449",
+     "unite": "n/(100mL)",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 2430.0,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Matières en suspension",
+     "code": "1305",
+     "unite": "mg/L",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 15.0,
+     "date_max": "2015-11-10",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Nitrates",
+     "code": "1340",
+     "unite": "mg(NO3)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 6,
+     "max": 36.0,
+     "date_max": "2015-03-03",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Nitrites",
+     "code": "1339",
+     "unite": "mg(NO2)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 6,
+     "max": 0.3,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Orthophosphates (PO4)",
+     "code": "1433",
+     "unite": "mg(PO4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 6,
+     "max": 0.19,
+     "date_max": "2015-11-10",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Oxygène dissous",
+     "code": "1311",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 9.6,
+     "date_max": "2015-03-03",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Phosphore total",
+     "code": "1350",
+     "unite": "mg(P)/L",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 0.104,
+     "date_max": "2015-11-10",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Phéopigments",
+     "code": "1436",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 7.1,
+     "date_max": "2015-11-10",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Potentiel en Hydrogène (pH)",
+     "code": "1302",
+     "unite": "unité pH",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 7.7,
+     "date_max": "2015-01-19",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Salinité",
+     "code": "1842",
+     "unite": "X",
+     "fraction": "Eau brute",
+     "n": 4,
+     "max": 0.3,
+     "date_max": "2015-05-15",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Taux de saturation en oxygène",
+     "code": "1312",
+     "unite": "%",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 88.6,
+     "date_max": "2015-05-15",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Température de l'Eau",
+     "code": "1301",
+     "unite": "°C",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 17.2,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Turbidité Formazine Néphélométrique",
+     "code": "1295",
+     "unite": "NFU",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 8.1,
+     "date_max": "2015-01-19",
+     "derniere": "2015-11-10"
+    }
+   ]
+  },
+  {
+   "code_station": "04782015",
+   "libelle": "GRAND CANAL A ANGOULINS",
+   "commune": "Angoulins",
+   "code_insee": "17010",
+   "lon": -1.12314873,
+   "lat": 46.111946845,
+   "cours_eau": null,
+   "mesures_depuis_2015": 124,
+   "premiere": "2015-01-19",
+   "derniere": "2015-11-10",
+   "quantifies": [
+    {
+     "param": "Ammonium",
+     "code": "1335",
+     "unite": "mg(NH4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 5,
+     "max": 0.1,
+     "date_max": "2015-11-10",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Azote Kjeldahl",
+     "code": "1319",
+     "unite": "mg(N)/L",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 1.3,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Carbone Organique",
+     "code": "1841",
+     "unite": "mg(C)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 6,
+     "max": 9.2,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Chlorophylle a",
+     "code": "1439",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 27.0,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Conductivité à 25°C",
+     "code": "1303",
+     "unite": "µS/cm",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 3040.0,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Demande Biochimique en oxygène en 5 jours (D.B.O.5)",
+     "code": "1313",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 3.6,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Demande Chimique en Oxygène (DCO)",
+     "code": "1314",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 31.7,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Enterocoques",
+     "code": "6455",
+     "unite": "n/(100mL)",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 2320.0,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Escherichia coli (E. coli)",
+     "code": "1449",
+     "unite": "n/(100mL)",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 1280.0,
+     "date_max": "2015-05-15",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Matières en suspension",
+     "code": "1305",
+     "unite": "mg/L",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 68.0,
+     "date_max": "2015-05-15",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Nitrates",
+     "code": "1340",
+     "unite": "mg(NO3)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 5,
+     "max": 53.0,
+     "date_max": "2015-03-03",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Nitrites",
+     "code": "1339",
+     "unite": "mg(NO2)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 5,
+     "max": 0.55,
+     "date_max": "2015-11-10",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Orthophosphates (PO4)",
+     "code": "1433",
+     "unite": "mg(PO4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 5,
+     "max": 0.3,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Oxygène dissous",
+     "code": "1311",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 9.6,
+     "date_max": "2015-01-19",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Phosphore total",
+     "code": "1350",
+     "unite": "mg(P)/L",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 0.195,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Phéopigments",
+     "code": "1436",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 17.3,
+     "date_max": "2015-05-15",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Potentiel en Hydrogène (pH)",
+     "code": "1302",
+     "unite": "unité pH",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 8.4,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Salinité",
+     "code": "1842",
+     "unite": "X",
+     "fraction": "Eau brute",
+     "n": 4,
+     "max": 1.5,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Taux de saturation en oxygène",
+     "code": "1312",
+     "unite": "%",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 83.6,
+     "date_max": "2015-05-15",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Température de l'Eau",
+     "code": "1301",
+     "unite": "°C",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 19.0,
+     "date_max": "2015-08-27",
+     "derniere": "2015-11-10"
+    },
+    {
+     "param": "Turbidité Formazine Néphélométrique",
+     "code": "1295",
+     "unite": "NFU",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 35.0,
+     "date_max": "2015-05-15",
+     "derniere": "2015-11-10"
+    }
+   ]
+  },
+  {
+   "code_station": "04782017",
+   "libelle": "CANAL MARANS LA ROCHELLE A SAINTE SOULLE",
+   "commune": "Sainte-Soulle",
+   "code_insee": "17407",
+   "lon": -1.049149284,
+   "lat": 46.206474703,
+   "cours_eau": null,
+   "mesures_depuis_2015": 368,
+   "premiere": "2019-02-21",
+   "derniere": "2021-12-08",
+   "quantifies": [
+    {
+     "param": "Ammonium",
+     "code": "1335",
+     "unite": "mg(NH4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 12,
+     "max": 0.77,
+     "date_max": "2020-12-10",
+     "derniere": "2021-10-14"
+    },
+    {
+     "param": "Azote Kjeldahl",
+     "code": "1319",
+     "unite": "mg(N)/L",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 1.3,
+     "date_max": "2020-12-10",
+     "derniere": "2021-12-08"
+    },
+    {
+     "param": "Carbone Organique",
+     "code": "1841",
+     "unite": "mg(C)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 18,
+     "max": 3.9,
+     "date_max": "2020-10-15",
+     "derniere": "2021-12-08"
+    },
+    {
+     "param": "Chlorophylle a",
+     "code": "1439",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 12,
+     "max": 17.0,
+     "date_max": "2021-08-13",
+     "derniere": "2021-10-14"
+    },
+    {
+     "param": "Conductivité à 25°C",
+     "code": "1303",
+     "unite": "µS/cm",
+     "fraction": "Eau brute",
+     "n": 18,
+     "max": 918.0,
+     "date_max": "2021-12-08",
+     "derniere": "2021-12-08"
+    },
+    {
+     "param": "Demande Biochimique en oxygène en 5 jours (D.B.O.5)",
+     "code": "1313",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 18,
+     "max": 2.4,
+     "date_max": "2020-06-12",
+     "derniere": "2021-12-08"
+    },
+    {
+     "param": "Demande Chimique en Oxygène (DCO)",
+     "code": "1314",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 11,
+     "max": 16.2,
+     "date_max": "2020-10-15",
+     "derniere": "2021-12-08"
+    },
+    {
+     "param": "Enterocoques",
+     "code": "6455",
+     "unite": "n/(100mL)",
+     "fraction": "Eau brute",
+     "n": 14,
+     "max": 885.0,
+     "date_max": "2020-12-10",
+     "derniere": "2021-12-08"
+    },
+    {
+     "param": "Escherichia coli (E. coli)",
+     "code": "1449",
+     "unite": "n/(100mL)",
+     "fraction": "Eau brute",
+     "n": 16,
+     "max": 648.0,
+     "date_max": "2019-12-11",
+     "derniere": "2021-12-08"
+    },
+    {
+     "param": "Indice ST-DCO",
+     "code": "6396",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 7,
+     "max": 12.0,
+     "date_max": "2019-05-22",
+     "derniere": "2020-02-20"
+    },
+    {
+     "param": "Matières en suspension",
+     "code": "1305",
+     "unite": "mg/L",
+     "fraction": "Eau brute",
+     "n": 16,
+     "max": 33.0,
+     "date_max": "2021-08-13",
+     "derniere": "2021-12-08"
+    },
+    {
+     "param": "Nitrates",
+     "code": "1340",
+     "unite": "mg(NO3)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 18,
+     "max": 59.3,
+     "date_max": "2021-04-20",
+     "derniere": "2021-12-08"
+    },
+    {
+     "param": "Nitrites",
+     "code": "1339",
+     "unite": "mg(NO2)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 17,
+     "max": 1.2,
+     "date_max": "2020-12-10",
+     "derniere": "2021-12-08"
+    },
+    {
+     "param": "Orthophosphates (PO4)",
+     "code": "1433",
+     "unite": "mg(PO4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 6,
+     "max": 0.14,
+     "date_max": "2019-12-11",
+     "derniere": "2021-02-18"
+    },
+    {
+     "param": "Oxygène dissous",
+     "code": "1311",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 18,
+     "max": 14.2,
+     "date_max": "2021-04-20",
+     "derniere": "2021-12-08"
+    },
+    {
+     "param": "Phosphore total",
+     "code": "1350",
+     "unite": "mg(P)/L",
+     "fraction": "Eau brute",
+     "n": 17,
+     "max": 0.056,
+     "date_max": "2019-12-11",
+     "derniere": "2021-12-08"
+    },
+    {
+     "param": "Phéopigments",
+     "code": "1436",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 4,
+     "max": 2.7,
+     "date_max": "2020-10-15",
+     "derniere": "2021-10-14"
+    },
+    {
+     "param": "Potentiel en Hydrogène (pH)",
+     "code": "1302",
+     "unite": "unité pH",
+     "fraction": "Eau brute",
+     "n": 18,
+     "max": 8.0,
+     "date_max": "2020-08-20",
+     "derniere": "2021-12-08"
+    },
+    {
+     "param": "Salinité",
+     "code": "1842",
+     "unite": "X",
+     "fraction": "Eau brute",
+     "n": 12,
+     "max": 0.4,
+     "date_max": "2020-10-15",
+     "derniere": "2021-12-08"
+    },
+    {
+     "param": "Taux de saturation en oxygène",
+     "code": "1312",
+     "unite": "%",
+     "fraction": "Eau brute",
+     "n": 18,
+     "max": 147.0,
+     "date_max": "2020-08-20",
+     "derniere": "2021-12-08"
+    },
+    {
+     "param": "Teinte de l'eau",
+     "code": "1739",
+     "unite": "X",
+     "fraction": "Eau brute",
+     "n": 7,
+     "max": 6.0,
+     "date_max": "2019-05-22",
+     "derniere": "2021-08-13"
+    },
+    {
+     "param": "Température de l'Eau",
+     "code": "1301",
+     "unite": "°C",
+     "fraction": "Eau brute",
+     "n": 18,
+     "max": 22.1,
+     "date_max": "2019-06-19",
+     "derniere": "2021-12-08"
+    },
+    {
+     "param": "Turbidité Formazine Néphélométrique",
+     "code": "1295",
+     "unite": "NFU",
+     "fraction": "Eau brute",
+     "n": 18,
+     "max": 15.0,
+     "date_max": "2019-12-11",
+     "derniere": "2021-12-08"
+    }
+   ]
+  },
+  {
+   "code_station": "04782018",
+   "libelle": "CANAL MARANS LA ROCHELLE A DOMPIERRE SUR MER",
+   "commune": "Dompierre-sur-Mer",
+   "code_insee": "17142",
+   "lon": -1.056277457,
+   "lat": 46.183128619,
+   "cours_eau": null,
+   "mesures_depuis_2015": 5372,
+   "premiere": "2019-02-21",
+   "derniere": "2026-06-18",
+   "quantifies": [
+    {
+     "param": "2-hydroxy atrazine",
+     "code": "1832",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 10,
+     "max": 0.017,
+     "date_max": "2026-04-16",
+     "derniere": "2026-06-18"
+    },
+    {
+     "param": "AMPA",
+     "code": "1907",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 3,
+     "max": 0.17,
+     "date_max": "2024-12-11",
+     "derniere": "2024-12-11"
+    },
+    {
+     "param": "Aclonifène",
+     "code": "1688",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 1,
+     "max": 0.096,
+     "date_max": "2023-12-13",
+     "derniere": "2023-12-13"
+    },
+    {
+     "param": "Ammonium",
+     "code": "1335",
+     "unite": "mg(NH4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 12,
+     "max": 0.46,
+     "date_max": "2020-12-10",
+     "derniere": "2026-06-18"
+    },
+    {
+     "param": "Azote Kjeldahl",
+     "code": "1319",
+     "unite": "mg(N)/L",
+     "fraction": "Eau brute",
+     "n": 8,
+     "max": 1.4,
+     "date_max": "2021-04-20",
+     "derniere": "2022-08-18"
+    },
+    {
+     "param": "Bentazone",
+     "code": "1113",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 1,
+     "max": 0.021,
+     "date_max": "2023-04-26",
+     "derniere": "2023-04-26"
+    },
+    {
+     "param": "Benzotriazole",
+     "code": "7543",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 0.056,
+     "date_max": "2024-12-11",
+     "derniere": "2024-12-11"
+    },
+    {
+     "param": "Bromuconazole",
+     "code": "1860",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 1,
+     "max": 0.014,
+     "date_max": "2023-12-13",
+     "derniere": "2023-12-13"
+    },
+    {
+     "param": "Carbone Organique",
+     "code": "1841",
+     "unite": "mg(C)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 39,
+     "max": 2.6,
+     "date_max": "2023-12-13",
+     "derniere": "2026-06-18"
+    },
+    {
+     "param": "Chlorophylle a",
+     "code": "1439",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 20,
+     "max": 5.4,
+     "date_max": "2022-10-13",
+     "derniere": "2026-06-18"
+    },
+    {
+     "param": "Chlorothalonil Sulfonique Acide (R417888)",
+     "code": "7717",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 4,
+     "max": 0.054,
+     "date_max": "2024-08-20",
+     "derniere": "2026-06-18"
+    },
+    {
+     "param": "Chlorothalonil-R471811",
+     "code": "8865",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 9,
+     "max": 1.8,
+     "date_max": "2024-08-20",
+     "derniere": "2026-06-18"
+    },
+    {
+     "param": "Chlortoluron",
+     "code": "1136",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 1,
+     "max": 0.021,
+     "date_max": "2023-12-13",
+     "derniere": "2023-12-13"
+    },
+    {
+     "param": "Conductivité à 25°C",
+     "code": "1303",
+     "unite": "µS/cm",
+     "fraction": "Eau brute",
+     "n": 39,
+     "max": 813.0,
+     "date_max": "2020-02-20",
+     "derniere": "2026-06-18"
+    },
+    {
+     "param": "Demande Biochimique en oxygène en 5 jours (D.B.O.5)",
+     "code": "1313",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 37,
+     "max": 2.8,
+     "date_max": "2020-06-12",
+     "derniere": "2026-06-18"
+    },
+    {
+     "param": "Demande Chimique en Oxygène (DCO)",
+     "code": "1314",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 22,
+     "max": 12.7,
+     "date_max": "2021-06-16",
+     "derniere": "2026-06-18"
+    },
+    {
+     "param": "Dieldrine",
+     "code": "1173",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 2,
+     "max": 0.0043,
+     "date_max": "2024-10-14",
+     "derniere": "2024-10-14"
+    },
+    {
+     "param": "Diméthachlore CGA 369873",
+     "code": "7727",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 11,
+     "max": 0.087,
+     "date_max": "2024-08-20",
+     "derniere": "2026-06-18"
+    },
+    {
+     "param": "Diéthyl phtalate",
+     "code": "1527",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 1,
+     "max": 0.086,
+     "date_max": "2023-10-18",
+     "derniere": "2023-10-18"
+    },
+    {
+     "param": "Enterocoques",
+     "code": "6455",
+     "unite": "n/(100mL)",
+     "fraction": "Eau brute",
+     "n": 32,
+     "max": 1520.0,
+     "date_max": "2023-12-13",
+     "derniere": "2026-06-18"
+    },
+    {
+     "param": "Escherichia coli (E. coli)",
+     "code": "1449",
+     "unite": "n/(100mL)",
+     "fraction": "Eau brute",
+     "n": 33,
+     "max": 3300.0,
+     "date_max": "2023-12-13",
+     "derniere": "2026-06-18"
+    },
+    {
+     "param": "Ethidimuron",
+     "code": "1763",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 1,
+     "max": 0.016,
+     "date_max": "2024-10-14",
+     "derniere": "2024-10-14"
+    },
+    {
+     "param": "Flufénacet ESA",
+     "code": "6864",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 1,
+     "max": 0.057,
+     "date_max": "2023-12-13",
+     "derniere": "2023-12-13"
+    },
+    {
+     "param": "Galaxolide",
+     "code": "6618",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 1,
+     "max": 0.045,
+     "date_max": "2024-12-11",
+     "derniere": "2024-12-11"
+    },
+    {
+     "param": "Glyphosate",
+     "code": "1506",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 1,
+     "max": 0.24,
+     "date_max": "2023-12-13",
+     "derniere": "2023-12-13"
+    },
+    {
+     "param": "Indice ST-DCO",
+     "code": "6396",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 8.4,
+     "date_max": "2019-10-17",
+     "derniere": "2020-02-20"
+    },
+    {
+     "param": "Matières en suspension",
+     "code": "1305",
+     "unite": "mg/L",
+     "fraction": "Eau brute",
+     "n": 14,
+     "max": 10.0,
+     "date_max": "2024-12-11",
+     "derniere": "2026-06-18"
+    },
+    {
+     "param": "Metolachlor ESA",
+     "code": "6854",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 0.046,
+     "date_max": "2023-12-13",
+     "derniere": "2026-04-16"
+    },
+    {
+     "param": "Metolachlor OXA",
+     "code": "6853",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 1,
+     "max": 0.029,
+     "date_max": "2024-10-14",
+     "derniere": "2024-10-14"
+    },
+    {
+     "param": "Métazachlore OXA",
+     "code": "6894",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 1,
+     "max": 0.064,
+     "date_max": "2024-10-14",
+     "derniere": "2024-10-14"
+    },
+    {
+     "param": "Métolachlore total",
+     "code": "1221",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 1,
+     "max": 0.033,
+     "date_max": "2024-10-14",
+     "derniere": "2024-10-14"
+    },
+    {
+     "param": "Nitrates",
+     "code": "1340",
+     "unite": "mg(NO3)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 39,
+     "max": 64.4,
+     "date_max": "2021-06-16",
+     "derniere": "2026-06-18"
+    },
+    {
+     "param": "Nitrites",
+     "code": "1339",
+     "unite": "mg(NO2)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 39,
+     "max": 0.55,
+     "date_max": "2020-12-10",
+     "derniere": "2026-06-18"
+    },
+    {
+     "param": "Orthophosphates (PO4)",
+     "code": "1433",
+     "unite": "mg(PO4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 10,
+     "max": 0.14,
+     "date_max": "2023-12-13",
+     "derniere": "2026-02-16"
+    },
+    {
+     "param": "Oxygène dissous",
+     "code": "1311",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 39,
+     "max": 16.0,
+     "date_max": "2023-06-19",
+     "derniere": "2026-06-18"
+    },
+    {
+     "param": "Phosphore total",
+     "code": "1350",
+     "unite": "mg(P)/L",
+     "fraction": "Eau brute",
+     "n": 27,
+     "max": 0.05,
+     "date_max": "2023-12-13",
+     "derniere": "2026-04-16"
+    },
+    {
+     "param": "Phéopigments",
+     "code": "1436",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 4,
+     "max": 1.9,
+     "date_max": "2021-10-14",
+     "derniere": "2026-06-18"
+    },
+    {
+     "param": "Potentiel en Hydrogène (pH)",
+     "code": "1302",
+     "unite": "unité pH",
+     "fraction": "Eau brute",
+     "n": 39,
+     "max": 8.0,
+     "date_max": "2021-06-16",
+     "derniere": "2026-06-18"
+    },
+    {
+     "param": "Propyzamide",
+     "code": "1414",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 1,
+     "max": 0.076,
+     "date_max": "2023-12-13",
+     "derniere": "2023-12-13"
+    },
+    {
+     "param": "Salinité",
+     "code": "1842",
+     "unite": "X",
+     "fraction": "Eau brute",
+     "n": 33,
+     "max": 0.3,
+     "date_max": "2020-02-20",
+     "derniere": "2026-06-18"
+    },
+    {
+     "param": "Taux de saturation en oxygène",
+     "code": "1312",
+     "unite": "%",
+     "fraction": "Eau brute",
+     "n": 39,
+     "max": 186.0,
+     "date_max": "2023-06-19",
+     "derniere": "2026-06-18"
+    },
+    {
+     "param": "Teinte de l'eau",
+     "code": "1739",
+     "unite": "X",
+     "fraction": "Eau brute",
+     "n": 13,
+     "max": 6.0,
+     "date_max": "2019-06-19",
+     "derniere": "2022-12-08"
+    },
+    {
+     "param": "Température de l'Eau",
+     "code": "1301",
+     "unite": "°C",
+     "fraction": "Eau brute",
+     "n": 39,
+     "max": 22.5,
+     "date_max": "2023-08-23",
+     "derniere": "2026-06-18"
+    },
+    {
+     "param": "Terbuthylazine hydroxy",
+     "code": "1954",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 2,
+     "max": 0.01,
+     "date_max": "2023-06-19",
+     "derniere": "2023-12-13"
+    },
+    {
+     "param": "Thiafluamide",
+     "code": "1940",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 1,
+     "max": 0.093,
+     "date_max": "2023-12-13",
+     "derniere": "2023-12-13"
+    },
+    {
+     "param": "Tolyltriazole",
+     "code": "6660",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 3,
+     "max": 0.032,
+     "date_max": "2024-10-14",
+     "derniere": "2024-12-11"
+    },
+    {
+     "param": "Turbidité Formazine Néphélométrique",
+     "code": "1295",
+     "unite": "NFU",
+     "fraction": "Eau brute",
+     "n": 39,
+     "max": 5.4,
+     "date_max": "2023-12-13",
+     "derniere": "2026-06-18"
+    },
+    {
+     "param": "Tétrachloroéthylène",
+     "code": "1272",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 1,
+     "max": 0.58,
+     "date_max": "2023-06-19",
+     "derniere": "2023-06-19"
+    }
+   ]
+  },
+  {
+   "code_station": "04782019",
+   "libelle": "LE GO DANS LE MARAIS GATINEAU A NIEUL-SUR-MER",
+   "commune": "Nieul-sur-Mer",
+   "code_insee": "17264",
+   "lon": -1.186860524,
+   "lat": 46.209049317,
+   "cours_eau": null,
+   "mesures_depuis_2015": 180,
+   "premiere": "2024-01-15",
+   "derniere": "2025-10-03",
+   "quantifies": [
+    {
+     "param": "Ammonium",
+     "code": "1335",
+     "unite": "mg(NH4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 8,
+     "max": 0.26,
+     "date_max": "2025-10-03",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Azote Kjeldahl",
+     "code": "1319",
+     "unite": "mg(N)/L",
+     "fraction": "Eau brute",
+     "n": 10,
+     "max": 1.3,
+     "date_max": "2024-09-24",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Azote global (N.GL.)",
+     "code": "1551",
+     "unite": "mg(N)/L",
+     "fraction": "Eau brute",
+     "n": 10,
+     "max": 6.6,
+     "date_max": "2024-03-18",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Carbone Organique",
+     "code": "1841",
+     "unite": "mg/L",
+     "fraction": "Eau brute",
+     "n": 10,
+     "max": 8.2,
+     "date_max": "2025-10-03",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Chlorures",
+     "code": "1337",
+     "unite": "mg/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 6,
+     "max": 14700.0,
+     "date_max": "2024-11-20",
+     "derniere": "2024-11-20"
+    },
+    {
+     "param": "Conductivité à 25°C",
+     "code": "1303",
+     "unite": "µS/cm",
+     "fraction": "Eau brute",
+     "n": 10,
+     "max": 43670.0,
+     "date_max": "2025-07-24",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Demande Biochimique en oxygène en 5 jours (D.B.O.5)",
+     "code": "1313",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 10,
+     "max": 3.2,
+     "date_max": "2025-10-03",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Enterocoques",
+     "code": "6455",
+     "unite": "n/(100mL)",
+     "fraction": "Eau brute",
+     "n": 4,
+     "max": 880.0,
+     "date_max": "2025-03-25",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Escherichia coli (E. coli)",
+     "code": "1449",
+     "unite": "n/(100mL)",
+     "fraction": "Eau brute",
+     "n": 4,
+     "max": 810.0,
+     "date_max": "2025-10-03",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Nitrates",
+     "code": "1340",
+     "unite": "mg(NO3)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 10,
+     "max": 26.6,
+     "date_max": "2024-03-18",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Nitrites",
+     "code": "1339",
+     "unite": "mg(NO2)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 10,
+     "max": 0.45,
+     "date_max": "2024-07-11",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Orthophosphates (PO4)",
+     "code": "1433",
+     "unite": "mg(PO4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 10,
+     "max": 0.26,
+     "date_max": "2025-07-24",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Oxygène dissous",
+     "code": "1311",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 10,
+     "max": 11.93,
+     "date_max": "2025-03-25",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Phosphore total",
+     "code": "1350",
+     "unite": "mg(P2O5)/L",
+     "fraction": "Eau brute",
+     "n": 9,
+     "max": 0.18,
+     "date_max": "2024-09-24",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Potentiel en Hydrogène (pH)",
+     "code": "1302",
+     "unite": "unité pH",
+     "fraction": "Eau brute",
+     "n": 10,
+     "max": 7.9,
+     "date_max": "2024-03-18",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Salinité",
+     "code": "1842",
+     "unite": "X",
+     "fraction": "Eau brute",
+     "n": 10,
+     "max": 28.1,
+     "date_max": "2025-07-24",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Sulfates",
+     "code": "1338",
+     "unite": "mg/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 6,
+     "max": 1360.0,
+     "date_max": "2024-01-15",
+     "derniere": "2024-11-20"
+    },
+    {
+     "param": "Taux de saturation en oxygène",
+     "code": "1312",
+     "unite": "%",
+     "fraction": "Eau brute",
+     "n": 8,
+     "max": 111.2,
+     "date_max": "2025-03-25",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Température de l'Eau",
+     "code": "1301",
+     "unite": "°C",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 22.2,
+     "date_max": "2024-07-11",
+     "derniere": "2025-10-03"
+    }
+   ]
+  },
+  {
+   "code_station": "04782020",
+   "libelle": "LE GO A NIEUL-SUR-MER",
+   "commune": "Nieul-sur-Mer",
+   "code_insee": "17264",
+   "lon": -1.165417538,
+   "lat": 46.208277383,
+   "cours_eau": null,
+   "mesures_depuis_2015": 180,
+   "premiere": "2024-01-15",
+   "derniere": "2025-10-03",
+   "quantifies": [
+    {
+     "param": "Ammonium",
+     "code": "1335",
+     "unite": "mg(NH4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 10,
+     "max": 0.17,
+     "date_max": "2025-10-03",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Azote Kjeldahl",
+     "code": "1319",
+     "unite": "mg(N)/L",
+     "fraction": "Eau brute",
+     "n": 7,
+     "max": 0.84,
+     "date_max": "2024-05-15",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Azote global (N.GL.)",
+     "code": "1551",
+     "unite": "mg(N)/L",
+     "fraction": "Eau brute",
+     "n": 10,
+     "max": 17.0,
+     "date_max": "2025-03-25",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Conductivité à 25°C",
+     "code": "1303",
+     "unite": "µS/cm",
+     "fraction": "Eau brute",
+     "n": 10,
+     "max": 792.0,
+     "date_max": "2024-07-11",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Demande Biochimique en oxygène en 5 jours (D.B.O.5)",
+     "code": "1313",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 8,
+     "max": 2.8,
+     "date_max": "2024-05-15",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Demande Chimique en Oxygène (DCO)",
+     "code": "1314",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 8,
+     "max": 55.0,
+     "date_max": "2025-10-03",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Enterocoques",
+     "code": "6455",
+     "unite": "n/(100mL)",
+     "fraction": "Eau brute",
+     "n": 4,
+     "max": 2200.0,
+     "date_max": "2025-07-24",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Escherichia coli (E. coli)",
+     "code": "1449",
+     "unite": "n/(100mL)",
+     "fraction": "Eau brute",
+     "n": 4,
+     "max": 11000.0,
+     "date_max": "2025-07-24",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Nitrates",
+     "code": "1340",
+     "unite": "mg(NO3)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 10,
+     "max": 75.0,
+     "date_max": "2025-03-25",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Nitrites",
+     "code": "1339",
+     "unite": "mg(NO2)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 10,
+     "max": 0.19,
+     "date_max": "2025-07-24",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Orthophosphates (PO4)",
+     "code": "1433",
+     "unite": "mg(PO4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 9,
+     "max": 0.5,
+     "date_max": "2025-10-03",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Oxygène dissous",
+     "code": "1311",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 10,
+     "max": 9.4,
+     "date_max": "2024-03-18",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Phosphore total",
+     "code": "1350",
+     "unite": "mg(P2O5)/L",
+     "fraction": "Eau brute",
+     "n": 10,
+     "max": 0.53,
+     "date_max": "2025-10-03",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Potentiel en Hydrogène (pH)",
+     "code": "1302",
+     "unite": "unité pH",
+     "fraction": "Eau brute",
+     "n": 10,
+     "max": 7.7,
+     "date_max": "2024-03-18",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Salinité",
+     "code": "1842",
+     "unite": "X",
+     "fraction": "Eau brute",
+     "n": 4,
+     "max": 0.41,
+     "date_max": "2025-07-24",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Sulfates",
+     "code": "1338",
+     "unite": "mg/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 6,
+     "max": 40.7,
+     "date_max": "2024-09-24",
+     "derniere": "2024-11-20"
+    },
+    {
+     "param": "Taux de saturation en oxygène",
+     "code": "1312",
+     "unite": "%",
+     "fraction": "Eau brute",
+     "n": 8,
+     "max": 80.5,
+     "date_max": "2024-05-15",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Température de l'Eau",
+     "code": "1301",
+     "unite": "°C",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 22.0,
+     "date_max": "2024-07-11",
+     "derniere": "2025-10-03"
+    }
+   ]
+  },
+  {
+   "code_station": "04782021",
+   "libelle": "LE GO DANS LE MARAIS DE LAUZIERES A NIEUL-SUR-MER",
+   "commune": "Nieul-sur-Mer",
+   "code_insee": "17264",
+   "lon": -1.200012155,
+   "lat": 46.201503189,
+   "cours_eau": null,
+   "mesures_depuis_2015": 180,
+   "premiere": "2024-01-15",
+   "derniere": "2025-10-03",
+   "quantifies": [
+    {
+     "param": "Ammonium",
+     "code": "1335",
+     "unite": "mg(NH4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 8,
+     "max": 0.16,
+     "date_max": "2025-07-24",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Azote Kjeldahl",
+     "code": "1319",
+     "unite": "mg(N)/L",
+     "fraction": "Eau brute",
+     "n": 10,
+     "max": 1.6,
+     "date_max": "2024-09-24",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Azote global (N.GL.)",
+     "code": "1551",
+     "unite": "mg(N)/L",
+     "fraction": "Eau brute",
+     "n": 9,
+     "max": 10.2,
+     "date_max": "2024-03-18",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Carbone Organique",
+     "code": "1841",
+     "unite": "mg/L",
+     "fraction": "Eau brute",
+     "n": 9,
+     "max": 6.0,
+     "date_max": "2025-05-22",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Chlorures",
+     "code": "1337",
+     "unite": "mg/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 6,
+     "max": 19000.0,
+     "date_max": "2024-07-11",
+     "derniere": "2024-11-20"
+    },
+    {
+     "param": "Conductivité à 25°C",
+     "code": "1303",
+     "unite": "µS/cm",
+     "fraction": "Eau brute",
+     "n": 10,
+     "max": 50820.0,
+     "date_max": "2025-07-24",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Demande Biochimique en oxygène en 5 jours (D.B.O.5)",
+     "code": "1313",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 10,
+     "max": 3.6,
+     "date_max": "2025-03-25",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Enterocoques",
+     "code": "6455",
+     "unite": "n/(100mL)",
+     "fraction": "Eau brute",
+     "n": 4,
+     "max": 210.0,
+     "date_max": "2025-05-22",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Escherichia coli (E. coli)",
+     "code": "1449",
+     "unite": "n/(100mL)",
+     "fraction": "Eau brute",
+     "n": 4,
+     "max": 94.0,
+     "date_max": "2025-07-24",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Nitrates",
+     "code": "1340",
+     "unite": "mg(NO3)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 9,
+     "max": 41.4,
+     "date_max": "2024-03-18",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Nitrites",
+     "code": "1339",
+     "unite": "mg(NO2)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 10,
+     "max": 0.49,
+     "date_max": "2025-10-03",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Orthophosphates (PO4)",
+     "code": "1433",
+     "unite": "mg(PO4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 9,
+     "max": 0.27,
+     "date_max": "2024-09-24",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Oxygène dissous",
+     "code": "1311",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 10,
+     "max": 15.13,
+     "date_max": "2025-03-25",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Phosphore total",
+     "code": "1350",
+     "unite": "mg(P2O5)/L",
+     "fraction": "Eau brute",
+     "n": 10,
+     "max": 0.22,
+     "date_max": "2025-10-03",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Potentiel en Hydrogène (pH)",
+     "code": "1302",
+     "unite": "unité pH",
+     "fraction": "Eau brute",
+     "n": 10,
+     "max": 8.02,
+     "date_max": "2025-03-25",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Salinité",
+     "code": "1842",
+     "unite": "X",
+     "fraction": "Eau brute",
+     "n": 10,
+     "max": 33.3,
+     "date_max": "2024-07-11",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Sulfates",
+     "code": "1338",
+     "unite": "mg/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 6,
+     "max": 2420.0,
+     "date_max": "2024-11-20",
+     "derniere": "2024-11-20"
+    },
+    {
+     "param": "Taux de saturation en oxygène",
+     "code": "1312",
+     "unite": "%",
+     "fraction": "Eau brute",
+     "n": 8,
+     "max": 142.6,
+     "date_max": "2025-03-25",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Température de l'Eau",
+     "code": "1301",
+     "unite": "°C",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 22.0,
+     "date_max": "2024-07-11",
+     "derniere": "2025-10-03"
+    }
+   ]
+  },
+  {
+   "code_station": "04782022",
+   "libelle": "MARAIS DE PAMPIN A LA ROCHELLE",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.202876737,
+   "lat": 46.187636385,
+   "cours_eau": null,
+   "mesures_depuis_2015": 180,
+   "premiere": "2024-01-15",
+   "derniere": "2025-10-03",
+   "quantifies": [
+    {
+     "param": "Ammonium",
+     "code": "1335",
+     "unite": "mg(NH4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 8,
+     "max": 0.56,
+     "date_max": "2025-10-03",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Azote Kjeldahl",
+     "code": "1319",
+     "unite": "mg(N)/L",
+     "fraction": "Eau brute",
+     "n": 10,
+     "max": 1.3,
+     "date_max": "2025-07-24",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Azote global (N.GL.)",
+     "code": "1551",
+     "unite": "mg(N)/L",
+     "fraction": "Eau brute",
+     "n": 9,
+     "max": 14.7,
+     "date_max": "2024-01-15",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Carbone Organique",
+     "code": "1841",
+     "unite": "mg/L",
+     "fraction": "Eau brute",
+     "n": 9,
+     "max": 7.8,
+     "date_max": "2025-07-24",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Chlorures",
+     "code": "1337",
+     "unite": "mg/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 6,
+     "max": 19600.0,
+     "date_max": "2024-09-24",
+     "derniere": "2024-11-20"
+    },
+    {
+     "param": "Conductivité à 25°C",
+     "code": "1303",
+     "unite": "µS/cm",
+     "fraction": "Eau brute",
+     "n": 10,
+     "max": 51900.0,
+     "date_max": "2024-09-24",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Demande Biochimique en oxygène en 5 jours (D.B.O.5)",
+     "code": "1313",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 8,
+     "max": 2.7,
+     "date_max": "2025-05-22",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Enterocoques",
+     "code": "6455",
+     "unite": "n/(100mL)",
+     "fraction": "Eau brute",
+     "n": 4,
+     "max": 870.0,
+     "date_max": "2025-10-03",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Escherichia coli (E. coli)",
+     "code": "1449",
+     "unite": "n/(100mL)",
+     "fraction": "Eau brute",
+     "n": 4,
+     "max": 390.0,
+     "date_max": "2025-10-03",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Nitrates",
+     "code": "1340",
+     "unite": "mg(NO3)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 9,
+     "max": 62.2,
+     "date_max": "2024-01-15",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Nitrites",
+     "code": "1339",
+     "unite": "mg(NO2)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 10,
+     "max": 0.34,
+     "date_max": "2025-07-24",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Orthophosphates (PO4)",
+     "code": "1433",
+     "unite": "mg(PO4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 5,
+     "max": 0.1,
+     "date_max": "2024-11-20",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Oxygène dissous",
+     "code": "1311",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 10,
+     "max": 9.7,
+     "date_max": "2024-03-18",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Phosphore total",
+     "code": "1350",
+     "unite": "mg(P2O5)/L",
+     "fraction": "Eau brute",
+     "n": 9,
+     "max": 0.31,
+     "date_max": "2024-11-20",
+     "derniere": "2025-07-24"
+    },
+    {
+     "param": "Potentiel en Hydrogène (pH)",
+     "code": "1302",
+     "unite": "unité pH",
+     "fraction": "Eau brute",
+     "n": 10,
+     "max": 8.2,
+     "date_max": "2024-05-15",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Salinité",
+     "code": "1842",
+     "unite": "X",
+     "fraction": "Eau brute",
+     "n": 10,
+     "max": 31.1,
+     "date_max": "2024-11-20",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Sulfates",
+     "code": "1338",
+     "unite": "mg/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 6,
+     "max": 24250.0,
+     "date_max": "2024-11-20",
+     "derniere": "2024-11-20"
+    },
+    {
+     "param": "Taux de saturation en oxygène",
+     "code": "1312",
+     "unite": "%",
+     "fraction": "Eau brute",
+     "n": 8,
+     "max": 106.0,
+     "date_max": "2024-05-15",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Température de l'Eau",
+     "code": "1301",
+     "unite": "°C",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 22.2,
+     "date_max": "2024-07-11",
+     "derniere": "2025-10-03"
+    }
+   ]
+  },
+  {
+   "code_station": "04782023",
+   "libelle": "LA MOULINETTE A PERIGNY",
+   "commune": "Périgny",
+   "code_insee": "17274",
+   "lon": -1.107964892,
+   "lat": 46.149413661,
+   "cours_eau": null,
+   "mesures_depuis_2015": 180,
+   "premiere": "2024-01-15",
+   "derniere": "2025-10-03",
+   "quantifies": [
+    {
+     "param": "Ammonium",
+     "code": "1335",
+     "unite": "mg(NH4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 10,
+     "max": 0.11,
+     "date_max": "2024-05-15",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Azote Kjeldahl",
+     "code": "1319",
+     "unite": "mg(N)/L",
+     "fraction": "Eau brute",
+     "n": 4,
+     "max": 0.8,
+     "date_max": "2024-05-15",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Azote global (N.GL.)",
+     "code": "1551",
+     "unite": "mg(N)/L",
+     "fraction": "Eau brute",
+     "n": 10,
+     "max": 15.0,
+     "date_max": "2024-01-15",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Conductivité à 25°C",
+     "code": "1303",
+     "unite": "µS/cm",
+     "fraction": "Eau brute",
+     "n": 10,
+     "max": 733.0,
+     "date_max": "2024-05-15",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Demande Biochimique en oxygène en 5 jours (D.B.O.5)",
+     "code": "1313",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 9,
+     "max": 3.2,
+     "date_max": "2024-07-11",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Demande Chimique en Oxygène (DCO)",
+     "code": "1314",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 10,
+     "max": 13.4,
+     "date_max": "2024-09-24",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Enterocoques",
+     "code": "6455",
+     "unite": "n/(100mL)",
+     "fraction": "Eau brute",
+     "n": 4,
+     "max": 21000.0,
+     "date_max": "2025-10-03",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Escherichia coli (E. coli)",
+     "code": "1449",
+     "unite": "n/(100mL)",
+     "fraction": "Eau brute",
+     "n": 4,
+     "max": 19000.0,
+     "date_max": "2025-10-03",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Nitrates",
+     "code": "1340",
+     "unite": "mg(NO3)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 9,
+     "max": 67.3,
+     "date_max": "2024-01-15",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Nitrites",
+     "code": "1339",
+     "unite": "mg(NO2)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 10,
+     "max": 0.23,
+     "date_max": "2025-07-24",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Orthophosphates (PO4)",
+     "code": "1433",
+     "unite": "mg(PO4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 7,
+     "max": 0.09,
+     "date_max": "2024-05-15",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Oxygène dissous",
+     "code": "1311",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 10,
+     "max": 9.0,
+     "date_max": "2024-05-15",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Phosphore total",
+     "code": "1350",
+     "unite": "mg(P2O5)/L",
+     "fraction": "Eau brute",
+     "n": 10,
+     "max": 0.09,
+     "date_max": "2024-01-15",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Potentiel en Hydrogène (pH)",
+     "code": "1302",
+     "unite": "unité pH",
+     "fraction": "Eau brute",
+     "n": 10,
+     "max": 7.6,
+     "date_max": "2024-07-11",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Salinité",
+     "code": "1842",
+     "unite": "X",
+     "fraction": "Eau brute",
+     "n": 4,
+     "max": 0.38,
+     "date_max": "2025-10-03",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Sulfates",
+     "code": "1338",
+     "unite": "mg/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 6,
+     "max": 43.8,
+     "date_max": "2024-07-11",
+     "derniere": "2024-11-20"
+    },
+    {
+     "param": "Taux de saturation en oxygène",
+     "code": "1312",
+     "unite": "%",
+     "fraction": "Eau brute",
+     "n": 8,
+     "max": 86.1,
+     "date_max": "2024-07-11",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Température de l'Eau",
+     "code": "1301",
+     "unite": "°C",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 21.6,
+     "date_max": "2024-07-11",
+     "derniere": "2025-10-03"
+    }
+   ]
+  },
+  {
+   "code_station": "04782024",
+   "libelle": "L'OTUS A LA JARNE",
+   "commune": "La Jarne",
+   "code_insee": "17193",
+   "lon": -1.086143297,
+   "lat": 46.124521034,
+   "cours_eau": null,
+   "mesures_depuis_2015": 180,
+   "premiere": "2024-01-15",
+   "derniere": "2025-10-03",
+   "quantifies": [
+    {
+     "param": "Ammonium",
+     "code": "1335",
+     "unite": "mg(NH4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 6,
+     "max": 0.04,
+     "date_max": "2025-03-25",
+     "derniere": "2025-05-22"
+    },
+    {
+     "param": "Azote Kjeldahl",
+     "code": "1319",
+     "unite": "mg(N)/L",
+     "fraction": "Eau brute",
+     "n": 1,
+     "max": 0.75,
+     "date_max": "2025-03-25",
+     "derniere": "2025-03-25"
+    },
+    {
+     "param": "Azote global (N.GL.)",
+     "code": "1551",
+     "unite": "mg(N)/L",
+     "fraction": "Eau brute",
+     "n": 7,
+     "max": 18.0,
+     "date_max": "2024-01-15",
+     "derniere": "2025-05-22"
+    },
+    {
+     "param": "Conductivité à 25°C",
+     "code": "1303",
+     "unite": "µS/cm",
+     "fraction": "Eau brute",
+     "n": 7,
+     "max": 736.0,
+     "date_max": "2024-07-11",
+     "derniere": "2025-05-22"
+    },
+    {
+     "param": "Demande Biochimique en oxygène en 5 jours (D.B.O.5)",
+     "code": "1313",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 2.2,
+     "date_max": "2025-03-25",
+     "derniere": "2025-05-22"
+    },
+    {
+     "param": "Demande Chimique en Oxygène (DCO)",
+     "code": "1314",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 2,
+     "max": 9.2,
+     "date_max": "2024-01-15",
+     "derniere": "2024-07-11"
+    },
+    {
+     "param": "Enterocoques",
+     "code": "6455",
+     "unite": "n/(100mL)",
+     "fraction": "Eau brute",
+     "n": 2,
+     "max": 270.0,
+     "date_max": "2025-03-25",
+     "derniere": "2025-05-22"
+    },
+    {
+     "param": "Escherichia coli (E. coli)",
+     "code": "1449",
+     "unite": "n/(100mL)",
+     "fraction": "Eau brute",
+     "n": 2,
+     "max": 160.0,
+     "date_max": "2025-03-25",
+     "derniere": "2025-05-22"
+    },
+    {
+     "param": "Nitrates",
+     "code": "1340",
+     "unite": "mg(NO3)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 7,
+     "max": 80.0,
+     "date_max": "2024-05-15",
+     "derniere": "2025-05-22"
+    },
+    {
+     "param": "Nitrites",
+     "code": "1339",
+     "unite": "mg(NO2)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 7,
+     "max": 0.11,
+     "date_max": "2024-07-11",
+     "derniere": "2025-05-22"
+    },
+    {
+     "param": "Orthophosphates (PO4)",
+     "code": "1433",
+     "unite": "mg(PO4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 7,
+     "max": 0.09,
+     "date_max": "2024-01-15",
+     "derniere": "2025-05-22"
+    },
+    {
+     "param": "Oxygène dissous",
+     "code": "1311",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 7,
+     "max": 8.3,
+     "date_max": "2024-05-15",
+     "derniere": "2025-05-22"
+    },
+    {
+     "param": "Phosphore total",
+     "code": "1350",
+     "unite": "mg(P2O5)/L",
+     "fraction": "Eau brute",
+     "n": 7,
+     "max": 0.09,
+     "date_max": "2024-01-15",
+     "derniere": "2025-05-22"
+    },
+    {
+     "param": "Potentiel en Hydrogène (pH)",
+     "code": "1302",
+     "unite": "unité pH",
+     "fraction": "Eau brute",
+     "n": 7,
+     "max": 7.73,
+     "date_max": "2025-05-22",
+     "derniere": "2025-05-22"
+    },
+    {
+     "param": "Salinité",
+     "code": "1842",
+     "unite": "X",
+     "fraction": "Eau brute",
+     "n": 2,
+     "max": 0.38,
+     "date_max": "2025-03-25",
+     "derniere": "2025-05-22"
+    },
+    {
+     "param": "Sulfates",
+     "code": "1338",
+     "unite": "mg/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 5,
+     "max": 29.8,
+     "date_max": "2024-01-15",
+     "derniere": "2024-11-20"
+    },
+    {
+     "param": "Taux de saturation en oxygène",
+     "code": "1312",
+     "unite": "%",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 81.6,
+     "date_max": "2024-05-15",
+     "derniere": "2025-05-22"
+    },
+    {
+     "param": "Température de l'Eau",
+     "code": "1301",
+     "unite": "°C",
+     "fraction": "Eau brute",
+     "n": 3,
+     "max": 21.4,
+     "date_max": "2024-07-11",
+     "derniere": "2025-05-22"
+    }
+   ]
+  },
+  {
+   "code_station": "04782025",
+   "libelle": "MARAIS DU CHAY A ANGOULINS",
+   "commune": "Angoulins",
+   "code_insee": "17010",
+   "lon": -1.126273909,
+   "lat": 46.107937774,
+   "cours_eau": null,
+   "mesures_depuis_2015": 180,
+   "premiere": "2024-01-15",
+   "derniere": "2025-10-03",
+   "quantifies": [
+    {
+     "param": "Ammonium",
+     "code": "1335",
+     "unite": "mg(NH4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 9,
+     "max": 3.5,
+     "date_max": "2024-03-18",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Azote Kjeldahl",
+     "code": "1319",
+     "unite": "mg(N)/L",
+     "fraction": "Eau brute",
+     "n": 10,
+     "max": 4.7,
+     "date_max": "2024-03-18",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Azote global (N.GL.)",
+     "code": "1551",
+     "unite": "mg(N)/L",
+     "fraction": "Eau brute",
+     "n": 10,
+     "max": 4.8,
+     "date_max": "2024-03-18",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Carbone Organique",
+     "code": "1841",
+     "unite": "mg/L",
+     "fraction": "Eau brute",
+     "n": 10,
+     "max": 8.0,
+     "date_max": "2025-05-22",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Chlorures",
+     "code": "1337",
+     "unite": "mg/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 6,
+     "max": 20600.0,
+     "date_max": "2024-07-11",
+     "derniere": "2024-11-20"
+    },
+    {
+     "param": "Conductivité à 25°C",
+     "code": "1303",
+     "unite": "µS/cm",
+     "fraction": "Eau brute",
+     "n": 10,
+     "max": 440000.0,
+     "date_max": "2024-09-24",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Demande Biochimique en oxygène en 5 jours (D.B.O.5)",
+     "code": "1313",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 9,
+     "max": 6.3,
+     "date_max": "2025-07-24",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Enterocoques",
+     "code": "6455",
+     "unite": "n/(100mL)",
+     "fraction": "Eau brute",
+     "n": 3,
+     "max": 250.0,
+     "date_max": "2025-05-22",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Escherichia coli (E. coli)",
+     "code": "1449",
+     "unite": "n/(100mL)",
+     "fraction": "Eau brute",
+     "n": 3,
+     "max": 930.0,
+     "date_max": "2025-07-24",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Nitrates",
+     "code": "1340",
+     "unite": "mg(NO3)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 6,
+     "max": 2.3,
+     "date_max": "2024-01-15",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Nitrites",
+     "code": "1339",
+     "unite": "mg(NO2)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 9,
+     "max": 0.21,
+     "date_max": "2024-05-15",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Orthophosphates (PO4)",
+     "code": "1433",
+     "unite": "mg(PO4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 10,
+     "max": 0.78,
+     "date_max": "2024-03-18",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Oxygène dissous",
+     "code": "1311",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 10,
+     "max": 12.29,
+     "date_max": "2025-10-03",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Phosphore total",
+     "code": "1350",
+     "unite": "mg(P2O5)/L",
+     "fraction": "Eau brute",
+     "n": 7,
+     "max": 0.32,
+     "date_max": "2025-05-22",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Potentiel en Hydrogène (pH)",
+     "code": "1302",
+     "unite": "unité pH",
+     "fraction": "Eau brute",
+     "n": 10,
+     "max": 8.26,
+     "date_max": "2025-05-22",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Salinité",
+     "code": "1842",
+     "unite": "X",
+     "fraction": "Eau brute",
+     "n": 10,
+     "max": 35.6,
+     "date_max": "2024-07-11",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Sulfates",
+     "code": "1338",
+     "unite": "mg/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 6,
+     "max": 2830.0,
+     "date_max": "2024-07-11",
+     "derniere": "2024-11-20"
+    },
+    {
+     "param": "Taux de saturation en oxygène",
+     "code": "1312",
+     "unite": "%",
+     "fraction": "Eau brute",
+     "n": 8,
+     "max": 126.4,
+     "date_max": "2025-05-22",
+     "derniere": "2025-10-03"
+    },
+    {
+     "param": "Température de l'Eau",
+     "code": "1301",
+     "unite": "°C",
+     "fraction": "Eau brute",
+     "n": 6,
+     "max": 22.4,
+     "date_max": "2024-07-11",
+     "derniere": "2025-10-03"
+    }
+   ]
+  },
+  {
+   "code_station": "05000210",
+   "libelle": "Le Canal des Roseaux à Yves",
+   "commune": "Yves",
+   "code_insee": "17483",
+   "lon": -0.99910129,
+   "lat": 46.025249363,
+   "cours_eau": null,
+   "mesures_depuis_2015": 496,
+   "premiere": "2015-03-30",
+   "derniere": "2025-12-10",
+   "quantifies": [
+    {
+     "param": "Abondance Bactérienne",
+     "code": "7728",
+     "unite": "n(cellules)/mL",
+     "fraction": "Eau brute",
+     "n": 24,
+     "max": 10861600.0,
+     "date_max": "2024-08-06",
+     "derniere": "2025-12-10"
+    },
+    {
+     "param": "Ammonium",
+     "code": "1335",
+     "unite": "mg(NH4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 22,
+     "max": 0.6,
+     "date_max": "2023-01-19",
+     "derniere": "2025-12-10"
+    },
+    {
+     "param": "Anhydride carbonique libre",
+     "code": "1344",
+     "unite": "mg(CO2)/L",
+     "fraction": "Eau brute",
+     "n": 12,
+     "max": 91.0,
+     "date_max": "2024-06-06",
+     "derniere": "2025-12-10"
+    },
+    {
+     "param": "Azote Kjeldahl",
+     "code": "1319",
+     "unite": "mg(N)/L",
+     "fraction": "Eau brute",
+     "n": 29,
+     "max": 4.0,
+     "date_max": "2024-02-01",
+     "derniere": "2025-12-10"
+    },
+    {
+     "param": "Carbone Organique",
+     "code": "1841",
+     "unite": "mg(C)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 29,
+     "max": 16.0,
+     "date_max": "2023-01-19",
+     "derniere": "2025-12-10"
+    },
+    {
+     "param": "Chlorophylle a",
+     "code": "1439",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 55,
+     "max": 140.0,
+     "date_max": "2024-02-01",
+     "derniere": "2025-12-10"
+    },
+    {
+     "param": "Conductivité à 25°C",
+     "code": "1303",
+     "unite": "µS/cm",
+     "fraction": "Eau brute",
+     "n": 29,
+     "max": 11500.0,
+     "date_max": "2025-02-18",
+     "derniere": "2025-12-10"
+    },
+    {
+     "param": "Demande Biochimique en oxygène en 5 jours (D.B.O.5)",
+     "code": "1313",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 6.5,
+     "date_max": "2015-09-23",
+     "derniere": "2015-12-09"
+    },
+    {
+     "param": "Enterocoques",
+     "code": "6455",
+     "unite": "n/(100mL)",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 213.0,
+     "date_max": "2015-09-23",
+     "derniere": "2015-12-09"
+    },
+    {
+     "param": "Escherichia coli (E. coli)",
+     "code": "1449",
+     "unite": "n/(100mL)",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 728.0,
+     "date_max": "2015-09-23",
+     "derniere": "2015-12-09"
+    },
+    {
+     "param": "Matières en suspension",
+     "code": "1305",
+     "unite": "mg/L",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 82.0,
+     "date_max": "2015-09-23",
+     "derniere": "2015-12-09"
+    },
+    {
+     "param": "Nitrates",
+     "code": "1340",
+     "unite": "mg(NO3)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 26,
+     "max": 30.8,
+     "date_max": "2024-06-06",
+     "derniere": "2025-12-10"
+    },
+    {
+     "param": "Nitrites",
+     "code": "1339",
+     "unite": "mg(NO2)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 28,
+     "max": 0.69,
+     "date_max": "2015-06-04",
+     "derniere": "2025-12-10"
+    },
+    {
+     "param": "Orthophosphates (PO4)",
+     "code": "1433",
+     "unite": "mg(PO4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 13,
+     "max": 0.33,
+     "date_max": "2023-12-11",
+     "derniere": "2025-12-10"
+    },
+    {
+     "param": "Oxygène dissous",
+     "code": "1311",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 28,
+     "max": 11.53,
+     "date_max": "2021-04-15",
+     "derniere": "2025-12-10"
+    },
+    {
+     "param": "Phéopigments",
+     "code": "1436",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 17.8,
+     "date_max": "2015-03-30",
+     "derniere": "2015-12-09"
+    },
+    {
+     "param": "Potentiel en Hydrogène (pH)",
+     "code": "1302",
+     "unite": "unité pH",
+     "fraction": "Eau brute",
+     "n": 29,
+     "max": 8.5,
+     "date_max": "2015-03-30",
+     "derniere": "2025-12-10"
+    },
+    {
+     "param": "Salinité",
+     "code": "1842",
+     "unite": "X",
+     "fraction": "Eau brute",
+     "n": 29,
+     "max": 0.8,
+     "date_max": "2015-12-09",
+     "derniere": "2025-12-10"
+    },
+    {
+     "param": "Taux de saturation en oxygène",
+     "code": "1312",
+     "unite": "%",
+     "fraction": "Eau brute",
+     "n": 29,
+     "max": 119.6,
+     "date_max": "2024-06-06",
+     "derniere": "2025-12-10"
+    },
+    {
+     "param": "Température de l'Eau",
+     "code": "1301",
+     "unite": "°C",
+     "fraction": "Eau brute",
+     "n": 28,
+     "max": 25.2,
+     "date_max": "2021-06-16",
+     "derniere": "2025-12-10"
+    },
+    {
+     "param": "Titre alcalimétrique complet (T.A.C.)",
+     "code": "1347",
+     "unite": "°f",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 6,
+     "max": 26.5,
+     "date_max": "2025-04-09",
+     "derniere": "2025-12-10"
+    }
+   ]
+  },
+  {
+   "code_station": "05000220",
+   "libelle": "Le Canal d'amenée de l'UNIMA à Yves",
+   "commune": "Thairé",
+   "code_insee": "17443",
+   "lon": -1.016050386,
+   "lat": 46.057920773,
+   "cours_eau": null,
+   "mesures_depuis_2015": 3229,
+   "premiere": "2015-01-19",
+   "derniere": "2025-12-09",
+   "quantifies": [
+    {
+     "param": "4-nonylphenol diethoxylate (mélange d'isomères)",
+     "code": "6369",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 1,
+     "max": 0.1,
+     "date_max": "2015-02-17",
+     "derniere": "2015-02-17"
+    },
+    {
+     "param": "Ammonium",
+     "code": "1335",
+     "unite": "mg(NH4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 133,
+     "max": 0.53,
+     "date_max": "2015-02-17",
+     "derniere": "2025-12-09"
+    },
+    {
+     "param": "Arsenic",
+     "code": "1369",
+     "unite": "µg(As)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 12,
+     "max": 2.1,
+     "date_max": "2015-09-14",
+     "derniere": "2015-12-08"
+    },
+    {
+     "param": "Azote Kjeldahl",
+     "code": "1319",
+     "unite": "mg(N)/L",
+     "fraction": "Eau brute",
+     "n": 108,
+     "max": 2.9,
+     "date_max": "2017-02-21",
+     "derniere": "2025-11-17"
+    },
+    {
+     "param": "Benzo(b)fluoranthène",
+     "code": "1116",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 2,
+     "max": 0.019,
+     "date_max": "2015-08-17",
+     "derniere": "2015-08-17"
+    },
+    {
+     "param": "Cadmium",
+     "code": "1388",
+     "unite": "µg(Cd)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 1,
+     "max": 0.059,
+     "date_max": "2015-04-14",
+     "derniere": "2015-04-14"
+    },
+    {
+     "param": "Calcium",
+     "code": "1374",
+     "unite": "mg(Ca)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 10,
+     "max": 128.8,
+     "date_max": "2023-03-23",
+     "derniere": "2025-09-15"
+    },
+    {
+     "param": "Carbone Organique",
+     "code": "1841",
+     "unite": "mg(C)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 135,
+     "max": 10.3,
+     "date_max": "2024-10-17",
+     "derniere": "2025-12-09"
+    },
+    {
+     "param": "Chlorophylle a",
+     "code": "1439",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 50,
+     "max": 71.5,
+     "date_max": "2015-09-30",
+     "derniere": "2025-11-17"
+    },
+    {
+     "param": "Chlorures",
+     "code": "1337",
+     "unite": "mg(Cl)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 10,
+     "max": 92.5,
+     "date_max": "2022-09-21",
+     "derniere": "2025-09-15"
+    },
+    {
+     "param": "Chrome",
+     "code": "1389",
+     "unite": "µg(Cr)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 3,
+     "max": 0.2,
+     "date_max": "2015-04-14",
+     "derniere": "2015-08-17"
+    },
+    {
+     "param": "Conductivité à 25°C",
+     "code": "1303",
+     "unite": "µS/cm",
+     "fraction": "Eau brute",
+     "n": 135,
+     "max": 1713.0,
+     "date_max": "2025-10-13",
+     "derniere": "2025-12-09"
+    },
+    {
+     "param": "Cuivre",
+     "code": "1392",
+     "unite": "µg(Cu)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 12,
+     "max": 0.76,
+     "date_max": "2015-03-16",
+     "derniere": "2015-12-08"
+    },
+    {
+     "param": "Demande Biochimique en oxygène en 5 jours (D.B.O.5)",
+     "code": "1313",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 130,
+     "max": 10.0,
+     "date_max": "2017-02-21",
+     "derniere": "2025-12-09"
+    },
+    {
+     "param": "Dureté totale",
+     "code": "1345",
+     "unite": "°f",
+     "fraction": "Eau brute",
+     "n": 10,
+     "max": 36.37,
+     "date_max": "2023-03-23",
+     "derniere": "2025-09-15"
+    },
+    {
+     "param": "Enterocoques",
+     "code": "6455",
+     "unite": "n/(100mL)",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 371.0,
+     "date_max": "2015-08-17",
+     "derniere": "2015-12-09"
+    },
+    {
+     "param": "Escherichia coli (E. coli)",
+     "code": "1449",
+     "unite": "n/(100mL)",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 705.0,
+     "date_max": "2015-12-09",
+     "derniere": "2015-12-09"
+    },
+    {
+     "param": "Hydrogénocarbonates",
+     "code": "1327",
+     "unite": "mg(HCO3)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 10,
+     "max": 390.4,
+     "date_max": "2023-03-23",
+     "derniere": "2025-09-15"
+    },
+    {
+     "param": "Isoproturon",
+     "code": "1208",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 1,
+     "max": 0.05,
+     "date_max": "2015-01-19",
+     "derniere": "2015-01-19"
+    },
+    {
+     "param": "Magnésium",
+     "code": "1372",
+     "unite": "mg(Mg)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 10,
+     "max": 11.4,
+     "date_max": "2025-03-17",
+     "derniere": "2025-09-15"
+    },
+    {
+     "param": "Matières en suspension",
+     "code": "1305",
+     "unite": "mg/L",
+     "fraction": "Eau brute",
+     "n": 134,
+     "max": 190.0,
+     "date_max": "2019-08-20",
+     "derniere": "2025-12-09"
+    },
+    {
+     "param": "Mercure",
+     "code": "1387",
+     "unite": "µg(Hg)/L",
+     "fraction": "Eau brute",
+     "n": 1,
+     "max": 0.02,
+     "date_max": "2015-05-18",
+     "derniere": "2015-05-18"
+    },
+    {
+     "param": "Naphtalène",
+     "code": "1517",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 1,
+     "max": 0.013,
+     "date_max": "2015-04-14",
+     "derniere": "2015-04-14"
+    },
+    {
+     "param": "Nickel",
+     "code": "1386",
+     "unite": "µg(Ni)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 11,
+     "max": 0.8,
+     "date_max": "2015-01-19",
+     "derniere": "2015-12-08"
+    },
+    {
+     "param": "Nitrates",
+     "code": "1340",
+     "unite": "mg(NO3)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 134,
+     "max": 68.5,
+     "date_max": "2020-01-22",
+     "derniere": "2025-12-09"
+    },
+    {
+     "param": "Nitrites",
+     "code": "1339",
+     "unite": "mg(NO2)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 135,
+     "max": 0.98,
+     "date_max": "2024-10-17",
+     "derniere": "2025-12-09"
+    },
+    {
+     "param": "Orthophosphates (PO4)",
+     "code": "1433",
+     "unite": "mg(PO4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 104,
+     "max": 0.64,
+     "date_max": "2020-05-13",
+     "derniere": "2025-12-09"
+    },
+    {
+     "param": "Oxygène dissous",
+     "code": "1311",
+     "unite": "mg(O2)/L",
+     "fraction": "Eau brute",
+     "n": 135,
+     "max": 19.95,
+     "date_max": "2017-01-26",
+     "derniere": "2025-12-09"
+    },
+    {
+     "param": "Phosphore total",
+     "code": "1350",
+     "unite": "mg(P)/L",
+     "fraction": "Eau brute",
+     "n": 129,
+     "max": 0.36,
+     "date_max": "2017-02-21",
+     "derniere": "2025-12-09"
+    },
+    {
+     "param": "Phéopigments",
+     "code": "1436",
+     "unite": "µg/L",
+     "fraction": "Eau brute",
+     "n": 46,
+     "max": 12.6,
+     "date_max": "2015-09-30",
+     "derniere": "2025-11-17"
+    },
+    {
+     "param": "Plomb",
+     "code": "1382",
+     "unite": "µg(Pb)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 6,
+     "max": 0.4,
+     "date_max": "2015-03-16",
+     "derniere": "2015-11-16"
+    },
+    {
+     "param": "Potassium",
+     "code": "1367",
+     "unite": "mg(K)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 10,
+     "max": 7.0,
+     "date_max": "2015-03-16",
+     "derniere": "2025-09-15"
+    },
+    {
+     "param": "Potentiel en Hydrogène (pH)",
+     "code": "1302",
+     "unite": "unité pH",
+     "fraction": "Eau brute",
+     "n": 135,
+     "max": 8.4,
+     "date_max": "2019-02-19",
+     "derniere": "2025-12-09"
+    },
+    {
+     "param": "Salinité",
+     "code": "1842",
+     "unite": "X",
+     "fraction": "Eau brute",
+     "n": 5,
+     "max": 0.3,
+     "date_max": "2015-03-30",
+     "derniere": "2015-12-09"
+    },
+    {
+     "param": "Silicates",
+     "code": "1342",
+     "unite": "mg(SiO3)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 120,
+     "max": 17.8,
+     "date_max": "2024-10-17",
+     "derniere": "2025-12-09"
+    },
+    {
+     "param": "Sodium",
+     "code": "1375",
+     "unite": "mg(Na)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 10,
+     "max": 47.9,
+     "date_max": "2022-09-21",
+     "derniere": "2025-09-15"
+    },
+    {
+     "param": "Sulfates",
+     "code": "1338",
+     "unite": "mg(SO4)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 10,
+     "max": 46.9,
+     "date_max": "2023-03-23",
+     "derniere": "2025-09-15"
+    },
+    {
+     "param": "Taux de saturation en oxygène",
+     "code": "1312",
+     "unite": "%",
+     "fraction": "Eau brute",
+     "n": 135,
+     "max": 168.8,
+     "date_max": "2019-02-19",
+     "derniere": "2025-12-09"
+    },
+    {
+     "param": "Teinte de l'eau",
+     "code": "1739",
+     "unite": "X",
+     "fraction": "Eau brute",
+     "n": 87,
+     "max": 11.0,
+     "date_max": "2018-12-11",
+     "derniere": "2025-12-09"
+    },
+    {
+     "param": "Température de l'Eau",
+     "code": "1301",
+     "unite": "°C",
+     "fraction": "Eau brute",
+     "n": 135,
+     "max": 24.0,
+     "date_max": "2019-07-24",
+     "derniere": "2025-12-09"
+    },
+    {
+     "param": "Titre alcalimétrique complet (T.A.C.)",
+     "code": "1347",
+     "unite": "°f",
+     "fraction": "Eau brute",
+     "n": 10,
+     "max": 32.0,
+     "date_max": "2023-03-23",
+     "derniere": "2025-09-15"
+    },
+    {
+     "param": "Turbidité Formazine Néphélométrique",
+     "code": "1295",
+     "unite": "NFU",
+     "fraction": "Eau brute",
+     "n": 120,
+     "max": 203.0,
+     "date_max": "2019-08-20",
+     "derniere": "2025-12-09"
+    },
+    {
+     "param": "Zinc",
+     "code": "1383",
+     "unite": "µg(Zn)/L",
+     "fraction": "Phase aqueuse de l'eau (filtrée, centrifugée...)",
+     "n": 7,
+     "max": 4.0,
+     "date_max": "2015-01-19",
+     "derniere": "2015-11-16"
+    }
+   ]
+  },
+  {
+   "code_station": "05000230",
+   "libelle": "Le Canal de Soucheneau à Voutron",
+   "commune": "Yves",
+   "code_insee": "17483",
+   "lon": -1.019424144,
+   "lat": 46.054645356,
+   "cours_eau": null,
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "quantifies": []
+  }
+ ]
+}

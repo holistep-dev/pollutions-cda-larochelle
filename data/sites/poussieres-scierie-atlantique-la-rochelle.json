@@ -1,0 +1,67 @@
+{
+  "commune": "La Rochelle",
+  "code_insee": "17300",
+  "precision_geo": "localisation_indicative",
+  "origine_trace": "Coordonnées de l'installation publiées par Géorisques.",
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": true,
+  "statut_preuve": "diagnostic_administratif",
+  "statut_traitement": "inconnu",
+  "id": "poussieres-scierie-atlantique-la-rochelle",
+  "nom": "Émissions de poussières de la Scierie de l'Atlantique",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -1.214362,
+      46.153458
+    ]
+  },
+  "rayon_m": 100,
+  "categorie": "air",
+  "pictogramme": "cheminee",
+  "milieux": [
+    "air"
+  ],
+  "substances": [
+    {
+      "libelle": "poussières à l'émission, mesure du 8 décembre 2021, pour une valeur limite de 50 mg/m³",
+      "milieu": "air",
+      "valeur": 93,
+      "unite": "mg/m³",
+      "source": "dreal-inspection-scierie-atlantique-2022-10-10",
+      "depassement_constate": true,
+      "reference_reglementaire": {
+        "libelle": "Valeur limite d'émission en poussières",
+        "valeur": 50,
+        "unite": "mg/m³",
+        "nature": "valeur_limite_emission"
+      }
+    }
+  ],
+  "periode": {
+    "debut": "2021-12-08",
+    "debut_statut": "datee",
+    "fin": "2022-10-10",
+    "fin_statut": "datee",
+    "note": "Dépassement mesuré en décembre 2021, rapporté à l'inspection d'octobre 2022. Pas de rapport plus récent publié."
+  },
+  "resume": "La scierie de la zone de Chef-de-Baie a fait l'objet d'un arrêté préfectoral de mise en demeure le 9 novembre 2021, portant sur la protection contre la foudre, la détection incendie et les installations électriques. Le rapport d'inspection du 10 octobre 2022 relève aussi une mesure de poussières à l'émission de 93 mg/m³ le 8 décembre 2021, pour une valeur limite de 50 mg/m³, que l'exploitant attribue à un problème de régulation. Aucun rapport plus récent n'est publié.",
+  "accroche": "Poussières au-dessus de la limite d'émission à la Scierie de l'Atlantique",
+  "resume_court": "Une mesure de décembre 2021 relève 93 mg/m³ de poussières pour une limite de 50. Aucune mesure plus récente n'est publiée.",
+  "procedure_en_cours": false,
+  "exploitants": [
+    {
+      "nom": "Scierie de l'Atlantique",
+      "source": "dreal-inspection-scierie-atlantique-2022-10-10"
+    }
+  ],
+  "sources": [
+    "dreal-inspection-scierie-atlantique-2022-10-10"
+  ],
+  "ce_qui_manque": [
+    {
+      "piece": "Les mesures de poussières postérieures à 2021",
+      "ou_chercher": "Rapports d'autosurveillance de l'exploitant, DREAL Nouvelle-Aquitaine sur demande"
+    }
+  ]
+}

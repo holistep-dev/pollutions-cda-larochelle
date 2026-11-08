@@ -146,7 +146,7 @@ function Substances({ liste, libelles }) {
                 <li key={j} className={r.rapport > 1.05 ? "au-dessus" : ""}>
                   <span className={`nature ${r.nature}`} tabIndex={0}>
                     {libelles?.natures_reference?.[r.nature] ? <Definition>{libelles.natures_reference[r.nature]}</Definition> : null}
-                    {{ fond_geochimique: "fond", valeur_de_gestion: "gestion", limite_de_qualite: "qualité", seuil_sanitaire: "sanitaire" }[r.nature]}
+                    {{ fond_geochimique: "fond", valeur_de_gestion: "gestion", limite_de_qualite: "qualité", seuil_sanitaire: "sanitaire", valeur_limite_emission: "rejet" }[r.nature]}
                   </span>
                   <span>
                     {r.libelle}

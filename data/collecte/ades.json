@@ -1,0 +1,5308 @@
+{
+ "genere_le": "2026-11-08",
+ "source": "ADES, Hub'Eau qualite_nappes",
+ "stations": [
+  {
+   "bss_id": "BSS001QFDA",
+   "code_bss": "06337X0070/P",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.19369051700505,
+   "lat": 46.1595572052758,
+   "nature": "Puits",
+   "profondeur": null,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFEA",
+   "code_bss": "06337X0094/PZH",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.1915123954141,
+   "lat": 46.1571395553704,
+   "nature": "Forage",
+   "profondeur": 7.6,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFKA",
+   "code_bss": "06338X0112/PZ9",
+   "commune": "Périgny",
+   "code_insee": "17274",
+   "lon": -1.11635740523185,
+   "lat": 46.1581189849436,
+   "nature": "Forage",
+   "profondeur": null,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFLA",
+   "code_bss": "06338X0136/PZ11",
+   "commune": "Aytré",
+   "code_insee": "17028",
+   "lon": -1.12119735023363,
+   "lat": 46.1369427246408,
+   "nature": "Forage",
+   "profondeur": 17.8,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QGTA",
+   "code_bss": "06345X0026/F",
+   "commune": "Salles-sur-Mer",
+   "code_insee": "17420",
+   "lon": -1.0551415675440154,
+   "lat": 46.104539451189865,
+   "nature": "Forage",
+   "profondeur": 29.75,
+   "masse_eau": "Calcaires du Jurassique supérieur des bassins versants de la Devise et des fleuves côtiers charentais",
+   "mesures_depuis_2015": 4786,
+   "premiere": "2015-03-30",
+   "derniere": "2025-10-23",
+   "reseaux": [
+    "0000000028",
+    "0400003229",
+    "0500000051",
+    "0500000054"
+   ],
+   "quantifies": [
+    {
+     "param": "Anhydride carbonique libre",
+     "code": 1344,
+     "unite": "mg(CO2)/L",
+     "n": 1,
+     "max": 36.0,
+     "date_max": "2024-08-27",
+     "derniere": "2024-08-27"
+    },
+    {
+     "param": "Aspect de l'eau potable",
+     "code": 6489,
+     "unite": "X",
+     "n": 17,
+     "max": 0.0,
+     "date_max": "2016-11-08",
+     "derniere": "2025-10-23"
+    },
+    {
+     "param": "Bore",
+     "code": 1362,
+     "unite": "µg(B)/L",
+     "n": 5,
+     "max": 66.4,
+     "date_max": "2022-12-19",
+     "derniere": "2024-08-27"
+    },
+    {
+     "param": "Calcium",
+     "code": 1374,
+     "unite": "mg(Ca)/L",
+     "n": 5,
+     "max": 145.0,
+     "date_max": "2016-11-08",
+     "derniere": "2024-08-27"
+    },
+    {
+     "param": "Carbone Organique",
+     "code": 1841,
+     "unite": "mg(C)/L",
+     "n": 5,
+     "max": 1.7,
+     "date_max": "2016-11-08",
+     "derniere": "2024-08-27"
+    },
+    {
+     "param": "Chloridazone desphényl",
+     "code": 6378,
+     "unite": "µg/L",
+     "n": 2,
+     "max": 0.054,
+     "date_max": "2025-08-22",
+     "derniere": "2025-10-23"
+    },
+    {
+     "param": "Chlorothalonil-R471811",
+     "code": 8865,
+     "unite": "µg/L",
+     "n": 8,
+     "max": 3.5,
+     "date_max": "2025-01-29",
+     "derniere": "2025-10-23"
+    },
+    {
+     "param": "Chlorures",
+     "code": 1337,
+     "unite": "mg(Cl)/L",
+     "n": 5,
+     "max": 153.0,
+     "date_max": "2016-11-08",
+     "derniere": "2024-08-27"
+    },
+    {
+     "param": "Conductivité à 25°C",
+     "code": 1303,
+     "unite": "µS/cm",
+     "n": 29,
+     "max": 1140.0,
+     "date_max": "2017-12-07",
+     "derniere": "2025-10-23"
+    },
+    {
+     "param": "Couleur de l’eau destinée à la consommation humaine",
+     "code": 5900,
+     "unite": "X",
+     "n": 5,
+     "max": 0.0,
+     "date_max": "2016-11-08",
+     "derniere": "2024-08-27"
+    },
+    {
+     "param": "Dureté totale",
+     "code": 1345,
+     "unite": "°f",
+     "n": 5,
+     "max": 42.4,
+     "date_max": "2016-11-08",
+     "derniere": "2024-08-27"
+    },
+    {
+     "param": "Enterocoques",
+     "code": 6455,
+     "unite": "n/(100mL)",
+     "n": 1,
+     "max": 1.0,
+     "date_max": "2016-11-08",
+     "derniere": "2016-11-08"
+    },
+    {
+     "param": "Equilibre calcocarbonique de l’eau destinée à la consommation humaine",
+     "code": 5907,
+     "unite": "X",
+     "n": 5,
+     "max": 2.0,
+     "date_max": "2016-11-08",
+     "derniere": "2024-08-27"
+    },
+    {
+     "param": "Escherichia coli (E. coli)",
+     "code": 1449,
+     "unite": "n/(100mL)",
+     "n": 1,
+     "max": 4.0,
+     "date_max": "2016-11-08",
+     "derniere": "2016-11-08"
+    },
+    {
+     "param": "Fer",
+     "code": 1393,
+     "unite": "µg(Fe)/L",
+     "n": 1,
+     "max": 3.0,
+     "date_max": "2024-08-27",
+     "derniere": "2024-08-27"
+    },
+    {
+     "param": "Fluorure anion",
+     "code": 7073,
+     "unite": "mg/L",
+     "n": 5,
+     "max": 0.17,
+     "date_max": "2022-12-19",
+     "derniere": "2024-08-27"
+    },
+    {
+     "param": "Hydrogénocarbonates",
+     "code": 1327,
+     "unite": "mg(HCO3)/L",
+     "n": 2,
+     "max": 342.0,
+     "date_max": "2022-12-19",
+     "derniere": "2024-08-27"
+    },
+    {
+     "param": "Magnésium",
+     "code": 1372,
+     "unite": "mg(Mg)/L",
+     "n": 5,
+     "max": 15.0,
+     "date_max": "2016-11-08",
+     "derniere": "2024-08-27"
+    },
+    {
+     "param": "Manganèse",
+     "code": 1394,
+     "unite": "µg(Mn)/L",
+     "n": 2,
+     "max": 3.43,
+     "date_max": "2022-12-19",
+     "derniere": "2024-08-27"
+    },
+    {
+     "param": "Metolachlor OXA",
+     "code": 6853,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.03,
+     "date_max": "2021-09-01",
+     "derniere": "2021-09-01"
+    },
+    {
+     "param": "Métolachlore NOA 413173",
+     "code": 7729,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.067,
+     "date_max": "2025-01-29",
+     "derniere": "2025-01-29"
+    },
+    {
+     "param": "Nickel",
+     "code": 1386,
+     "unite": "µg(Ni)/L",
+     "n": 4,
+     "max": 0.74,
+     "date_max": "2020-07-17",
+     "derniere": "2022-12-19"
+    },
+    {
+     "param": "Nitrates",
+     "code": 1340,
+     "unite": "mg(NO3)/L",
+     "n": 29,
+     "max": 62.0,
+     "date_max": "2024-06-25",
+     "derniere": "2025-10-23"
+    },
+    {
+     "param": "Odeur de l’eau destinée à la consommation humaine",
+     "code": 5901,
+     "unite": "X",
+     "n": 5,
+     "max": 0.0,
+     "date_max": "2016-11-08",
+     "derniere": "2024-08-27"
+    },
+    {
+     "param": "Oxygène dissous",
+     "code": 1311,
+     "unite": "mg(O2)/L",
+     "n": 1,
+     "max": 3.9,
+     "date_max": "2015-12-01",
+     "derniere": "2015-12-01"
+    },
+    {
+     "param": "Potassium",
+     "code": 1367,
+     "unite": "mg(K)/L",
+     "n": 5,
+     "max": 3.9,
+     "date_max": "2016-11-08",
+     "derniere": "2024-08-27"
+    },
+    {
+     "param": "Potentiel REDOX",
+     "code": 1330,
+     "unite": "mV",
+     "n": 1,
+     "max": 150.0,
+     "date_max": "2015-12-01",
+     "derniere": "2015-12-01"
+    },
+    {
+     "param": "Potentiel en Hydrogène (pH)",
+     "code": 1302,
+     "unite": "unité pH",
+     "n": 7,
+     "max": 7.2,
+     "date_max": "2015-12-01",
+     "derniere": "2024-08-27"
+    },
+    {
+     "param": "Saveur de l’eau destinée à la consommation humaine",
+     "code": 5902,
+     "unite": "X",
+     "n": 4,
+     "max": 0.0,
+     "date_max": "2016-11-08",
+     "derniere": "2022-12-19"
+    },
+    {
+     "param": "Silicates",
+     "code": 1342,
+     "unite": "mg(SiO2)/L",
+     "n": 4,
+     "max": 8.0,
+     "date_max": "2022-12-19",
+     "derniere": "2024-08-27"
+    },
+    {
+     "param": "Silice",
+     "code": 1348,
+     "unite": "mg(SiO2)/L",
+     "n": 1,
+     "max": 8.0,
+     "date_max": "2016-11-08",
+     "derniere": "2016-11-08"
+    },
+    {
+     "param": "Sodium",
+     "code": 1375,
+     "unite": "mg(Na)/L",
+     "n": 5,
+     "max": 77.0,
+     "date_max": "2016-11-08",
+     "derniere": "2024-08-27"
+    },
+    {
+     "param": "Somme des pesticides totaux",
+     "code": 6276,
+     "unite": "µg/L",
+     "n": 8,
+     "max": 2.8,
+     "date_max": "2023-08-28",
+     "derniere": "2025-10-23"
+    },
+    {
+     "param": "Somme du tetrachloroéthylène et du trichloroéthylène",
+     "code": 2963,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.0,
+     "date_max": "2016-11-08",
+     "derniere": "2016-11-08"
+    },
+    {
+     "param": "Sulfates",
+     "code": 1338,
+     "unite": "mg(SO4)/L",
+     "n": 5,
+     "max": 53.3,
+     "date_max": "2022-12-19",
+     "derniere": "2024-08-27"
+    },
+    {
+     "param": "Taux de saturation en oxygène",
+     "code": 1312,
+     "unite": "%",
+     "n": 2,
+     "max": 37.0,
+     "date_max": "2015-12-01",
+     "derniere": "2016-11-08"
+    },
+    {
+     "param": "Température de l'Eau",
+     "code": 1301,
+     "unite": "°C",
+     "n": 2,
+     "max": 14.0,
+     "date_max": "2015-12-01",
+     "derniere": "2016-11-08"
+    },
+    {
+     "param": "Température de l'air",
+     "code": 1409,
+     "unite": "°C",
+     "n": 1,
+     "max": 5.9,
+     "date_max": "2016-11-08",
+     "derniere": "2016-11-08"
+    },
+    {
+     "param": "Titre alcalimétrique complet (T.A.C.)",
+     "code": 1347,
+     "unite": "°f",
+     "n": 5,
+     "max": 28.3,
+     "date_max": "2016-11-08",
+     "derniere": "2024-08-27"
+    },
+    {
+     "param": "Turbidité Formazine Néphélométrique",
+     "code": 1295,
+     "unite": "NFU",
+     "n": 2,
+     "max": 0.31,
+     "date_max": "2024-08-27",
+     "derniere": "2024-08-27"
+    },
+    {
+     "param": "pH d'equilibre",
+     "code": 6488,
+     "unite": "unité pH",
+     "n": 5,
+     "max": 7.27,
+     "date_max": "2024-08-27",
+     "derniere": "2024-08-27"
+    }
+   ]
+  },
+  {
+   "bss_id": "BSS001QFCB",
+   "code_bss": "06337X0046/SPZL",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.21135062396417,
+   "lat": 46.1610755697305,
+   "nature": "Forage",
+   "profondeur": 14.2,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QGCB",
+   "code_bss": "06342X0171/PV",
+   "commune": "Saint-Médard-d'Aunis",
+   "code_insee": "17373",
+   "lon": -0.9700033869596763,
+   "lat": 46.15856451364067,
+   "nature": "Puits",
+   "profondeur": 17.0,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 223,
+   "premiere": "2018-04-13",
+   "derniere": "2020-04-28",
+   "reseaux": [
+    "0000000028",
+    "0400003229"
+   ],
+   "quantifies": [
+    {
+     "param": "2-hydroxy atrazine",
+     "code": 1832,
+     "unite": "µg/L",
+     "n": 2,
+     "max": 0.022,
+     "date_max": "2018-04-13",
+     "derniere": "2020-04-28"
+    },
+    {
+     "param": "Bentazone",
+     "code": 1113,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.022,
+     "date_max": "2018-04-13",
+     "derniere": "2018-04-13"
+    },
+    {
+     "param": "Calcium",
+     "code": 1374,
+     "unite": "mg(Ca)/L",
+     "n": 1,
+     "max": 133.0,
+     "date_max": "2020-04-28",
+     "derniere": "2020-04-28"
+    },
+    {
+     "param": "Carbone Organique",
+     "code": 1841,
+     "unite": "mg(C)/L",
+     "n": 1,
+     "max": 3.4,
+     "date_max": "2020-04-28",
+     "derniere": "2020-04-28"
+    },
+    {
+     "param": "Chlorures",
+     "code": 1337,
+     "unite": "mg(Cl)/L",
+     "n": 1,
+     "max": 32.3,
+     "date_max": "2020-04-28",
+     "derniere": "2020-04-28"
+    },
+    {
+     "param": "Fluorure anion",
+     "code": 7073,
+     "unite": "mg/L",
+     "n": 1,
+     "max": 0.2,
+     "date_max": "2020-04-28",
+     "derniere": "2020-04-28"
+    },
+    {
+     "param": "Hydrogénocarbonates",
+     "code": 1327,
+     "unite": "mg(HCO3)/L",
+     "n": 1,
+     "max": 376.0,
+     "date_max": "2020-04-28",
+     "derniere": "2020-04-28"
+    },
+    {
+     "param": "Magnésium",
+     "code": 1372,
+     "unite": "mg(Mg)/L",
+     "n": 1,
+     "max": 10.0,
+     "date_max": "2020-04-28",
+     "derniere": "2020-04-28"
+    },
+    {
+     "param": "Metolachlor ESA",
+     "code": 6854,
+     "unite": "µg/L",
+     "n": 2,
+     "max": 0.13,
+     "date_max": "2020-04-28",
+     "derniere": "2020-04-28"
+    },
+    {
+     "param": "Métazachlore ESA",
+     "code": 6895,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.058,
+     "date_max": "2018-04-13",
+     "derniere": "2018-04-13"
+    },
+    {
+     "param": "Nitrates",
+     "code": 1340,
+     "unite": "mg(NO3)/L",
+     "n": 2,
+     "max": 32.5,
+     "date_max": "2020-04-28",
+     "derniere": "2020-04-28"
+    },
+    {
+     "param": "Nitrites",
+     "code": 1339,
+     "unite": "mg(NO2)/L",
+     "n": 2,
+     "max": 0.16,
+     "date_max": "2018-04-13",
+     "derniere": "2020-04-28"
+    },
+    {
+     "param": "Potassium",
+     "code": 1367,
+     "unite": "mg(K)/L",
+     "n": 1,
+     "max": 2.7,
+     "date_max": "2020-04-28",
+     "derniere": "2020-04-28"
+    },
+    {
+     "param": "Silicates",
+     "code": 1342,
+     "unite": "mg(SiO2)/L",
+     "n": 1,
+     "max": 8.9,
+     "date_max": "2020-04-28",
+     "derniere": "2020-04-28"
+    },
+    {
+     "param": "Sodium",
+     "code": 1375,
+     "unite": "mg(Na)/L",
+     "n": 1,
+     "max": 17.0,
+     "date_max": "2020-04-28",
+     "derniere": "2020-04-28"
+    },
+    {
+     "param": "Somme des pesticides totaux",
+     "code": 6276,
+     "unite": "µg/L",
+     "n": 2,
+     "max": 0.184,
+     "date_max": "2018-04-13",
+     "derniere": "2020-04-28"
+    },
+    {
+     "param": "Sulfates",
+     "code": 1338,
+     "unite": "mg(SO4)/L",
+     "n": 1,
+     "max": 43.0,
+     "date_max": "2020-04-28",
+     "derniere": "2020-04-28"
+    },
+    {
+     "param": "Titre alcalimétrique complet (T.A.C.)",
+     "code": 1347,
+     "unite": "°f",
+     "n": 1,
+     "max": 30.8,
+     "date_max": "2020-04-28",
+     "derniere": "2020-04-28"
+    }
+   ]
+  },
+  {
+   "bss_id": "BSS001QFDB",
+   "code_bss": "06337X0071/P1",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.19612464983853,
+   "lat": 46.157517818257,
+   "nature": "Forage",
+   "profondeur": 16.0,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFKB",
+   "code_bss": "06338X0113/PZ10",
+   "commune": "Périgny",
+   "code_insee": "17274",
+   "lon": -1.11650381152029,
+   "lat": 46.1583846815397,
+   "nature": "Forage",
+   "profondeur": 19.6,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFLB",
+   "code_bss": "06338X0137/PZ13",
+   "commune": "Aytré",
+   "code_insee": "17028",
+   "lon": -1.11910960122017,
+   "lat": 46.1348632576585,
+   "nature": "Forage",
+   "profondeur": null,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QGTB",
+   "code_bss": "06345X0027/F2",
+   "commune": "Salles-sur-Mer",
+   "code_insee": "17420",
+   "lon": -1.0551415675440154,
+   "lat": 46.104539451189865,
+   "nature": "Forage",
+   "profondeur": 26.5,
+   "masse_eau": "Calcaires du Jurassique supérieur des bassins versants de la Devise et des fleuves côtiers charentais",
+   "mesures_depuis_2015": 2061,
+   "premiere": "2015-04-30",
+   "derniere": "2025-12-08",
+   "reseaux": [
+    "0000000028",
+    "0000000029",
+    "0000000073",
+    "0400000002",
+    "0400003243"
+   ],
+   "quantifies": [
+    {
+     "param": "2-hydroxy atrazine",
+     "code": 1832,
+     "unite": "µg/L",
+     "n": 4,
+     "max": 0.012,
+     "date_max": "2016-12-30",
+     "derniere": "2017-09-29"
+    },
+    {
+     "param": "AMPA",
+     "code": 1907,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.064,
+     "date_max": "2015-12-29",
+     "derniere": "2015-12-29"
+    },
+    {
+     "param": "Anhydride carbonique libre",
+     "code": 1344,
+     "unite": "mg(CO2)/L",
+     "n": 2,
+     "max": 73.0,
+     "date_max": "2025-12-08",
+     "derniere": "2025-12-08"
+    },
+    {
+     "param": "Aspect de l'eau potable",
+     "code": 6489,
+     "unite": "X",
+     "n": 5,
+     "max": 0.0,
+     "date_max": "2016-03-04",
+     "derniere": "2025-12-08"
+    },
+    {
+     "param": "Bore",
+     "code": 1362,
+     "unite": "µg(B)/L",
+     "n": 4,
+     "max": 70.4,
+     "date_max": "2023-06-27",
+     "derniere": "2025-12-08"
+    },
+    {
+     "param": "Calcium",
+     "code": 1374,
+     "unite": "mg(Ca)/L",
+     "n": 4,
+     "max": 161.0,
+     "date_max": "2023-06-27",
+     "derniere": "2025-12-08"
+    },
+    {
+     "param": "Carbone Organique",
+     "code": 1841,
+     "unite": "mg(C)/L",
+     "n": 4,
+     "max": 1.8,
+     "date_max": "2016-03-04",
+     "derniere": "2025-12-08"
+    },
+    {
+     "param": "Chlorothalonil-R471811",
+     "code": 8865,
+     "unite": "µg/L",
+     "n": 2,
+     "max": 2.2,
+     "date_max": "2025-12-08",
+     "derniere": "2025-12-08"
+    },
+    {
+     "param": "Chlortoluron",
+     "code": 1136,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.11,
+     "date_max": "2025-12-08",
+     "derniere": "2025-12-08"
+    },
+    {
+     "param": "Chlorures",
+     "code": 1337,
+     "unite": "mg(Cl)/L",
+     "n": 4,
+     "max": 67.0,
+     "date_max": "2023-06-27",
+     "derniere": "2025-12-08"
+    },
+    {
+     "param": "Conductivité à 25°C",
+     "code": 1303,
+     "unite": "µS/cm",
+     "n": 15,
+     "max": 1510.0,
+     "date_max": "2017-09-29",
+     "derniere": "2025-12-08"
+    },
+    {
+     "param": "Couleur de l’eau destinée à la consommation humaine",
+     "code": 5900,
+     "unite": "X",
+     "n": 4,
+     "max": 0.0,
+     "date_max": "2016-03-04",
+     "derniere": "2025-12-08"
+    },
+    {
+     "param": "Dureté totale",
+     "code": 1345,
+     "unite": "°f",
+     "n": 4,
+     "max": 39.6,
+     "date_max": "2021-02-08",
+     "derniere": "2025-12-08"
+    },
+    {
+     "param": "Enterocoques",
+     "code": 6455,
+     "unite": "n/(100mL)",
+     "n": 1,
+     "max": 2.0,
+     "date_max": "2023-06-27",
+     "derniere": "2023-06-27"
+    },
+    {
+     "param": "Equilibre calcocarbonique de l’eau destinée à la consommation humaine",
+     "code": 5907,
+     "unite": "X",
+     "n": 4,
+     "max": 4.0,
+     "date_max": "2025-12-08",
+     "derniere": "2025-12-08"
+    },
+    {
+     "param": "Escherichia coli (E. coli)",
+     "code": 1449,
+     "unite": "n/(100mL)",
+     "n": 1,
+     "max": 3.0,
+     "date_max": "2023-06-27",
+     "derniere": "2023-06-27"
+    },
+    {
+     "param": "Fluorure anion",
+     "code": 7073,
+     "unite": "mg/L",
+     "n": 4,
+     "max": 0.16,
+     "date_max": "2021-02-08",
+     "derniere": "2025-12-08"
+    },
+    {
+     "param": "Hydrogénocarbonates",
+     "code": 1327,
+     "unite": "mg(HCO3)/L",
+     "n": 2,
+     "max": 351.0,
+     "date_max": "2023-06-27",
+     "derniere": "2025-12-08"
+    },
+    {
+     "param": "Magnésium",
+     "code": 1372,
+     "unite": "mg(Mg)/L",
+     "n": 4,
+     "max": 16.0,
+     "date_max": "2023-06-27",
+     "derniere": "2025-12-08"
+    },
+    {
+     "param": "Métaldéhyde",
+     "code": 1796,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.022,
+     "date_max": "2016-12-30",
+     "derniere": "2016-12-30"
+    },
+    {
+     "param": "Métolachlore NOA 413173",
+     "code": 7729,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.055,
+     "date_max": "2025-06-20",
+     "derniere": "2025-06-20"
+    },
+    {
+     "param": "Nickel",
+     "code": 1386,
+     "unite": "µg(Ni)/L",
+     "n": 2,
+     "max": 0.64,
+     "date_max": "2016-03-04",
+     "derniere": "2023-06-27"
+    },
+    {
+     "param": "Nitrates",
+     "code": 1340,
+     "unite": "mg(NO3)/L",
+     "n": 16,
+     "max": 72.0,
+     "date_max": "2025-12-08",
+     "derniere": "2025-12-08"
+    },
+    {
+     "param": "Odeur de l’eau destinée à la consommation humaine",
+     "code": 5901,
+     "unite": "X",
+     "n": 3,
+     "max": 0.0,
+     "date_max": "2021-02-08",
+     "derniere": "2025-12-08"
+    },
+    {
+     "param": "Oxygène dissous",
+     "code": 1311,
+     "unite": "mg(O2)/L",
+     "n": 1,
+     "max": 6.3,
+     "date_max": "2016-09-28",
+     "derniere": "2016-09-28"
+    },
+    {
+     "param": "Potassium",
+     "code": 1367,
+     "unite": "mg(K)/L",
+     "n": 4,
+     "max": 5.0,
+     "date_max": "2021-02-08",
+     "derniere": "2025-12-08"
+    },
+    {
+     "param": "Potentiel en Hydrogène (pH)",
+     "code": 1302,
+     "unite": "unité pH",
+     "n": 4,
+     "max": 7.4,
+     "date_max": "2016-03-04",
+     "derniere": "2025-12-08"
+    },
+    {
+     "param": "Saveur de l’eau destinée à la consommation humaine",
+     "code": 5902,
+     "unite": "X",
+     "n": 1,
+     "max": 0.0,
+     "date_max": "2021-02-08",
+     "derniere": "2021-02-08"
+    },
+    {
+     "param": "Silicates",
+     "code": 1342,
+     "unite": "mg(SiO2)/L",
+     "n": 3,
+     "max": 8.8,
+     "date_max": "2023-06-27",
+     "derniere": "2025-12-08"
+    },
+    {
+     "param": "Silice",
+     "code": 1348,
+     "unite": "mg(SiO2)/L",
+     "n": 1,
+     "max": 8.3,
+     "date_max": "2016-03-04",
+     "derniere": "2016-03-04"
+    },
+    {
+     "param": "Sodium",
+     "code": 1375,
+     "unite": "mg(Na)/L",
+     "n": 4,
+     "max": 50.5,
+     "date_max": "2023-06-27",
+     "derniere": "2025-12-08"
+    },
+    {
+     "param": "Somme des pesticides totaux",
+     "code": 6276,
+     "unite": "µg/L",
+     "n": 9,
+     "max": 0.11,
+     "date_max": "2025-12-08",
+     "derniere": "2025-12-08"
+    },
+    {
+     "param": "Somme du tetrachloroéthylène et du trichloroéthylène",
+     "code": 2963,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.0,
+     "date_max": "2016-03-04",
+     "derniere": "2016-03-04"
+    },
+    {
+     "param": "Sulfates",
+     "code": 1338,
+     "unite": "mg(SO4)/L",
+     "n": 4,
+     "max": 46.0,
+     "date_max": "2023-06-27",
+     "derniere": "2025-12-08"
+    },
+    {
+     "param": "Sélénium",
+     "code": 1385,
+     "unite": "µg(Se)/L",
+     "n": 1,
+     "max": 0.56,
+     "date_max": "2023-06-27",
+     "derniere": "2023-06-27"
+    },
+    {
+     "param": "Taux de saturation en oxygène",
+     "code": 1312,
+     "unite": "%",
+     "n": 2,
+     "max": 63.4,
+     "date_max": "2016-03-04",
+     "derniere": "2016-09-28"
+    },
+    {
+     "param": "Température de l'Eau",
+     "code": 1301,
+     "unite": "°C",
+     "n": 2,
+     "max": 14.9,
+     "date_max": "2016-09-28",
+     "derniere": "2016-09-28"
+    },
+    {
+     "param": "Température de l'air",
+     "code": 1409,
+     "unite": "°C",
+     "n": 1,
+     "max": 10.0,
+     "date_max": "2016-03-04",
+     "derniere": "2016-03-04"
+    },
+    {
+     "param": "Titre alcalimétrique complet (T.A.C.)",
+     "code": 1347,
+     "unite": "°f",
+     "n": 4,
+     "max": 28.8,
+     "date_max": "2021-02-08",
+     "derniere": "2025-12-08"
+    },
+    {
+     "param": "Titre alcalimétrique complet (TAC) à l'équilibre",
+     "code": 7971,
+     "unite": "°f",
+     "n": 1,
+     "max": 26.7,
+     "date_max": "2025-12-08",
+     "derniere": "2025-12-08"
+    },
+    {
+     "param": "Turbidité Formazine Néphélométrique",
+     "code": 1295,
+     "unite": "NFU",
+     "n": 1,
+     "max": 0.2,
+     "date_max": "2016-03-04",
+     "derniere": "2016-03-04"
+    },
+    {
+     "param": "pH d'equilibre",
+     "code": 6488,
+     "unite": "unité pH",
+     "n": 4,
+     "max": 7.26,
+     "date_max": "2025-12-08",
+     "derniere": "2025-12-08"
+    }
+   ]
+  },
+  {
+   "bss_id": "BSS001QFCC",
+   "code_bss": "06337X0047/SPZN",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.21410674122091,
+   "lat": 46.1697700221539,
+   "nature": "Forage",
+   "profondeur": 15.44,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QGCC",
+   "code_bss": "06342X0172/F3",
+   "commune": "Saint-Médard-d'Aunis",
+   "code_insee": "17373",
+   "lon": -0.9700033869596763,
+   "lat": 46.15856451364067,
+   "nature": "Forage",
+   "profondeur": 24.0,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 223,
+   "premiere": "2018-09-18",
+   "derniere": "2020-03-13",
+   "reseaux": [
+    "0000000028",
+    "0400003229"
+   ],
+   "quantifies": [
+    {
+     "param": "Calcium",
+     "code": 1374,
+     "unite": "mg(Ca)/L",
+     "n": 1,
+     "max": 127.0,
+     "date_max": "2020-03-13",
+     "derniere": "2020-03-13"
+    },
+    {
+     "param": "Carbone Organique",
+     "code": 1841,
+     "unite": "mg(C)/L",
+     "n": 1,
+     "max": 3.6,
+     "date_max": "2020-03-13",
+     "derniere": "2020-03-13"
+    },
+    {
+     "param": "Chlorures",
+     "code": 1337,
+     "unite": "mg(Cl)/L",
+     "n": 1,
+     "max": 29.5,
+     "date_max": "2020-03-13",
+     "derniere": "2020-03-13"
+    },
+    {
+     "param": "Fluorure anion",
+     "code": 7073,
+     "unite": "mg/L",
+     "n": 1,
+     "max": 0.22,
+     "date_max": "2020-03-13",
+     "derniere": "2020-03-13"
+    },
+    {
+     "param": "Hydrogénocarbonates",
+     "code": 1327,
+     "unite": "mg(HCO3)/L",
+     "n": 1,
+     "max": 364.0,
+     "date_max": "2020-03-13",
+     "derniere": "2020-03-13"
+    },
+    {
+     "param": "Magnésium",
+     "code": 1372,
+     "unite": "mg(Mg)/L",
+     "n": 1,
+     "max": 9.0,
+     "date_max": "2020-03-13",
+     "derniere": "2020-03-13"
+    },
+    {
+     "param": "Metolachlor ESA",
+     "code": 6854,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.07,
+     "date_max": "2020-03-13",
+     "derniere": "2020-03-13"
+    },
+    {
+     "param": "Nitrates",
+     "code": 1340,
+     "unite": "mg(NO3)/L",
+     "n": 2,
+     "max": 47.4,
+     "date_max": "2018-09-18",
+     "derniere": "2020-03-13"
+    },
+    {
+     "param": "Potassium",
+     "code": 1367,
+     "unite": "mg(K)/L",
+     "n": 1,
+     "max": 2.7,
+     "date_max": "2020-03-13",
+     "derniere": "2020-03-13"
+    },
+    {
+     "param": "Silicates",
+     "code": 1342,
+     "unite": "mg(SiO2)/L",
+     "n": 1,
+     "max": 8.7,
+     "date_max": "2020-03-13",
+     "derniere": "2020-03-13"
+    },
+    {
+     "param": "Sodium",
+     "code": 1375,
+     "unite": "mg(Na)/L",
+     "n": 1,
+     "max": 16.0,
+     "date_max": "2020-03-13",
+     "derniere": "2020-03-13"
+    },
+    {
+     "param": "Somme des pesticides totaux",
+     "code": 6276,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.07,
+     "date_max": "2020-03-13",
+     "derniere": "2020-03-13"
+    },
+    {
+     "param": "Sulfates",
+     "code": 1338,
+     "unite": "mg(SO4)/L",
+     "n": 1,
+     "max": 34.0,
+     "date_max": "2020-03-13",
+     "derniere": "2020-03-13"
+    },
+    {
+     "param": "Titre alcalimétrique complet (T.A.C.)",
+     "code": 1347,
+     "unite": "°f",
+     "n": 1,
+     "max": 29.8,
+     "date_max": "2020-03-13",
+     "derniere": "2020-03-13"
+    }
+   ]
+  },
+  {
+   "bss_id": "BSS001QFDC",
+   "code_bss": "06337X0072/P2",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.19769602047688,
+   "lat": 46.1557665363615,
+   "nature": "Forage",
+   "profondeur": 15.0,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFKC",
+   "code_bss": "06338X0114/PZ11",
+   "commune": "Périgny",
+   "code_insee": "17274",
+   "lon": -1.11355727930274,
+   "lat": 46.1589249563721,
+   "nature": "Forage",
+   "profondeur": 19.3,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFLC",
+   "code_bss": "06338X0138/PZ14",
+   "commune": "Aytré",
+   "code_insee": "17028",
+   "lon": -1.12764852153356,
+   "lat": 46.1379608515009,
+   "nature": "Forage",
+   "profondeur": 17.6,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QGSC",
+   "code_bss": "06345X0001/S.POMP",
+   "commune": "Clavette",
+   "code_insee": "17109",
+   "lon": -1.0276996323256196,
+   "lat": 46.139085200114316,
+   "nature": "Puits",
+   "profondeur": 18.2,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 5259,
+   "premiere": "2015-02-13",
+   "derniere": "2025-12-08",
+   "reseaux": [
+    "0000000028",
+    "0000000078",
+    "0400001003",
+    "0400003229",
+    "0500000051",
+    "0500000054"
+   ],
+   "quantifies": [
+    {
+     "param": "2-hydroxy atrazine",
+     "code": 1832,
+     "unite": "µg/L",
+     "n": 9,
+     "max": 0.02,
+     "date_max": "2016-03-04",
+     "derniere": "2025-06-20"
+    },
+    {
+     "param": "Anhydride carbonique libre",
+     "code": 1344,
+     "unite": "mg(CO2)/L",
+     "n": 1,
+     "max": 33.0,
+     "date_max": "2024-05-31",
+     "derniere": "2024-05-31"
+    },
+    {
+     "param": "Antimoine",
+     "code": 1376,
+     "unite": "µg(Sb)/L",
+     "n": 1,
+     "max": 1.93,
+     "date_max": "2019-10-07",
+     "derniere": "2019-10-07"
+    },
+    {
+     "param": "Aspect de l'eau potable",
+     "code": 6489,
+     "unite": "X",
+     "n": 20,
+     "max": 0.0,
+     "date_max": "2015-11-30",
+     "derniere": "2025-12-08"
+    },
+    {
+     "param": "Atrazine déisopropyl déséthyl",
+     "code": 1830,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.026,
+     "date_max": "2016-09-23",
+     "derniere": "2016-09-23"
+    },
+    {
+     "param": "Atrazine déséthyl",
+     "code": 1108,
+     "unite": "µg/L",
+     "n": 2,
+     "max": 0.011,
+     "date_max": "2016-09-23",
+     "derniere": "2016-09-23"
+    },
+    {
+     "param": "Bore",
+     "code": 1362,
+     "unite": "µg(B)/L",
+     "n": 4,
+     "max": 29.1,
+     "date_max": "2019-10-07",
+     "derniere": "2024-05-31"
+    },
+    {
+     "param": "Calcium",
+     "code": 1374,
+     "unite": "mg(Ca)/L",
+     "n": 6,
+     "max": 130.0,
+     "date_max": "2024-05-31",
+     "derniere": "2024-05-31"
+    },
+    {
+     "param": "Carbone Organique",
+     "code": 1841,
+     "unite": "mg(C)/L",
+     "n": 6,
+     "max": 1.3,
+     "date_max": "2017-03-23",
+     "derniere": "2024-05-31"
+    },
+    {
+     "param": "Chloridazone desphényl",
+     "code": 6378,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.057,
+     "date_max": "2025-12-08",
+     "derniere": "2025-12-08"
+    },
+    {
+     "param": "Chloridazone méthyl desphényl",
+     "code": 6379,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.056,
+     "date_max": "2025-12-08",
+     "derniere": "2025-12-08"
+    },
+    {
+     "param": "Chlorothalonil SA",
+     "code": 7717,
+     "unite": "µg/L",
+     "n": 2,
+     "max": 0.067,
+     "date_max": "2025-12-08",
+     "derniere": "2025-12-08"
+    },
+    {
+     "param": "Chlorothalonil-R471811",
+     "code": 8865,
+     "unite": "µg/L",
+     "n": 4,
+     "max": 2.5,
+     "date_max": "2025-12-08",
+     "derniere": "2025-12-08"
+    },
+    {
+     "param": "Chlortoluron",
+     "code": 1136,
+     "unite": "µg/L",
+     "n": 3,
+     "max": 0.03,
+     "date_max": "2015-02-13",
+     "derniere": "2021-10-26"
+    },
+    {
+     "param": "Chlorures",
+     "code": 1337,
+     "unite": "mg(Cl)/L",
+     "n": 6,
+     "max": 39.0,
+     "date_max": "2015-11-30",
+     "derniere": "2024-05-31"
+    },
+    {
+     "param": "Conductivité à 25°C",
+     "code": 1303,
+     "unite": "µS/cm",
+     "n": 29,
+     "max": 732.0,
+     "date_max": "2016-09-23",
+     "derniere": "2025-12-08"
+    },
+    {
+     "param": "Couleur de l’eau destinée à la consommation humaine",
+     "code": 5900,
+     "unite": "X",
+     "n": 6,
+     "max": 0.0,
+     "date_max": "2015-11-30",
+     "derniere": "2024-05-31"
+    },
+    {
+     "param": "Diméthachlore CGA 369873",
+     "code": 7727,
+     "unite": "µg/L",
+     "n": 2,
+     "max": 0.042,
+     "date_max": "2020-10-15",
+     "derniere": "2025-06-20"
+    },
+    {
+     "param": "Diméthénamide",
+     "code": 1678,
+     "unite": "µg/L",
+     "n": 2,
+     "max": 0.033,
+     "date_max": "2015-11-30",
+     "derniere": "2015-11-30"
+    },
+    {
+     "param": "Dureté totale",
+     "code": 1345,
+     "unite": "°f",
+     "n": 6,
+     "max": 35.6,
+     "date_max": "2022-10-31",
+     "derniere": "2024-05-31"
+    },
+    {
+     "param": "Enterocoques",
+     "code": 6455,
+     "unite": "n/(100mL)",
+     "n": 2,
+     "max": 10.0,
+     "date_max": "2022-10-31",
+     "derniere": "2022-10-31"
+    },
+    {
+     "param": "Equilibre calcocarbonique de l’eau destinée à la consommation humaine",
+     "code": 5907,
+     "unite": "X",
+     "n": 6,
+     "max": 2.0,
+     "date_max": "2015-11-30",
+     "derniere": "2024-05-31"
+    },
+    {
+     "param": "Fer",
+     "code": 1393,
+     "unite": "µg(Fe)/L",
+     "n": 1,
+     "max": 3.0,
+     "date_max": "2024-05-31",
+     "derniere": "2024-05-31"
+    },
+    {
+     "param": "Fluorure anion",
+     "code": 7073,
+     "unite": "mg/L",
+     "n": 6,
+     "max": 0.26,
+     "date_max": "2021-11-29",
+     "derniere": "2024-05-31"
+    },
+    {
+     "param": "Hydrogénocarbonates",
+     "code": 1327,
+     "unite": "mg(HCO3)/L",
+     "n": 3,
+     "max": 295.0,
+     "date_max": "2022-10-31",
+     "derniere": "2024-05-31"
+    },
+    {
+     "param": "Magnésium",
+     "code": 1372,
+     "unite": "mg(Mg)/L",
+     "n": 6,
+     "max": 5.6,
+     "date_max": "2021-11-29",
+     "derniere": "2024-05-31"
+    },
+    {
+     "param": "Metolachlor ESA",
+     "code": 6854,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.068,
+     "date_max": "2019-03-04",
+     "derniere": "2019-03-04"
+    },
+    {
+     "param": "Métazachlore",
+     "code": 1670,
+     "unite": "µg/L",
+     "n": 2,
+     "max": 0.088,
+     "date_max": "2015-11-30",
+     "derniere": "2016-09-23"
+    },
+    {
+     "param": "Métazachlore ESA",
+     "code": 6895,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.22,
+     "date_max": "2018-05-31",
+     "derniere": "2018-05-31"
+    },
+    {
+     "param": "Métazachlore OXA",
+     "code": 6894,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.098,
+     "date_max": "2018-05-31",
+     "derniere": "2018-05-31"
+    },
+    {
+     "param": "Nitrates",
+     "code": 1340,
+     "unite": "mg(NO3)/L",
+     "n": 30,
+     "max": 83.0,
+     "date_max": "2018-05-31",
+     "derniere": "2025-12-08"
+    },
+    {
+     "param": "Nitrites",
+     "code": 1339,
+     "unite": "mg(NO2)/L",
+     "n": 1,
+     "max": 0.02,
+     "date_max": "2024-05-31",
+     "derniere": "2024-05-31"
+    },
+    {
+     "param": "Odeur de l’eau destinée à la consommation humaine",
+     "code": 5901,
+     "unite": "X",
+     "n": 5,
+     "max": 0.0,
+     "date_max": "2017-03-23",
+     "derniere": "2024-05-31"
+    },
+    {
+     "param": "Oxygène dissous",
+     "code": 1311,
+     "unite": "mg(O2)/L",
+     "n": 1,
+     "max": 8.8,
+     "date_max": "2015-03-23",
+     "derniere": "2015-03-23"
+    },
+    {
+     "param": "Potassium",
+     "code": 1367,
+     "unite": "mg(K)/L",
+     "n": 6,
+     "max": 4.0,
+     "date_max": "2015-11-30",
+     "derniere": "2024-05-31"
+    },
+    {
+     "param": "Potentiel REDOX",
+     "code": 1330,
+     "unite": "mV",
+     "n": 1,
+     "max": 182.0,
+     "date_max": "2015-03-23",
+     "derniere": "2015-03-23"
+    },
+    {
+     "param": "Potentiel en Hydrogène (pH)",
+     "code": 1302,
+     "unite": "unité pH",
+     "n": 8,
+     "max": 7.3,
+     "date_max": "2015-03-23",
+     "derniere": "2024-05-31"
+    },
+    {
+     "param": "Saveur de l’eau destinée à la consommation humaine",
+     "code": 5902,
+     "unite": "X",
+     "n": 4,
+     "max": 0.0,
+     "date_max": "2017-03-23",
+     "derniere": "2022-10-31"
+    },
+    {
+     "param": "Silicates",
+     "code": 1342,
+     "unite": "mg(SiO2)/L",
+     "n": 4,
+     "max": 7.0,
+     "date_max": "2022-10-31",
+     "derniere": "2024-05-31"
+    },
+    {
+     "param": "Silice",
+     "code": 1348,
+     "unite": "mg(SiO2)/L",
+     "n": 2,
+     "max": 11.0,
+     "date_max": "2017-03-23",
+     "derniere": "2017-03-23"
+    },
+    {
+     "param": "Sodium",
+     "code": 1375,
+     "unite": "mg(Na)/L",
+     "n": 6,
+     "max": 17.0,
+     "date_max": "2015-11-30",
+     "derniere": "2024-05-31"
+    },
+    {
+     "param": "Somme des pesticides totaux",
+     "code": 6276,
+     "unite": "µg/L",
+     "n": 28,
+     "max": 0.368,
+     "date_max": "2018-05-31",
+     "derniere": "2025-12-08"
+    },
+    {
+     "param": "Somme du tetrachloroéthylène et du trichloroéthylène",
+     "code": 2963,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.0,
+     "date_max": "2015-11-30",
+     "derniere": "2015-11-30"
+    },
+    {
+     "param": "Sulfates",
+     "code": 1338,
+     "unite": "mg(SO4)/L",
+     "n": 6,
+     "max": 30.4,
+     "date_max": "2022-10-31",
+     "derniere": "2024-05-31"
+    },
+    {
+     "param": "Taux de saturation en oxygène",
+     "code": 1312,
+     "unite": "%",
+     "n": 3,
+     "max": 98.1,
+     "date_max": "2017-03-23",
+     "derniere": "2017-03-23"
+    },
+    {
+     "param": "Température de l'Eau",
+     "code": 1301,
+     "unite": "°C",
+     "n": 3,
+     "max": 13.4,
+     "date_max": "2017-03-23",
+     "derniere": "2017-03-23"
+    },
+    {
+     "param": "Température de l'air",
+     "code": 1409,
+     "unite": "°C",
+     "n": 2,
+     "max": 14.0,
+     "date_max": "2015-11-30",
+     "derniere": "2017-03-23"
+    },
+    {
+     "param": "Terbuthylazine hydroxy",
+     "code": 1954,
+     "unite": "µg/L",
+     "n": 27,
+     "max": 0.049,
+     "date_max": "2016-03-04",
+     "derniere": "2025-12-08"
+    },
+    {
+     "param": "Titre alcalimétrique complet (T.A.C.)",
+     "code": 1347,
+     "unite": "°f",
+     "n": 6,
+     "max": 24.2,
+     "date_max": "2022-10-31",
+     "derniere": "2024-05-31"
+    },
+    {
+     "param": "Turbidité Formazine Néphélométrique",
+     "code": 1295,
+     "unite": "NFU",
+     "n": 2,
+     "max": 0.3,
+     "date_max": "2015-11-30",
+     "derniere": "2022-10-31"
+    },
+    {
+     "param": "pH d'equilibre",
+     "code": 6488,
+     "unite": "unité pH",
+     "n": 6,
+     "max": 7.3,
+     "date_max": "2017-03-23",
+     "derniere": "2024-05-31"
+    }
+   ]
+  },
+  {
+   "bss_id": "BSS001QFCD",
+   "code_bss": "06337X0048/SPZO",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.21409662390258,
+   "lat": 46.1684194152205,
+   "nature": "Forage",
+   "profondeur": 15.31,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFDD",
+   "code_bss": "06337X0073/P3",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.18658275969868,
+   "lat": 46.156059526039,
+   "nature": "Forage",
+   "profondeur": 16.0,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFKD",
+   "code_bss": "06338X0115/PZ12",
+   "commune": "Périgny",
+   "code_insee": "17274",
+   "lon": -1.11969506143119,
+   "lat": 46.1617092870372,
+   "nature": "Forage",
+   "profondeur": 15.2,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFLD",
+   "code_bss": "06338X0139/PZ15",
+   "commune": "Aytré",
+   "code_insee": "17028",
+   "lon": -1.12658146846926,
+   "lat": 46.1372731107112,
+   "nature": "Forage",
+   "profondeur": 19.0,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QGSD",
+   "code_bss": "06345X0002/P",
+   "commune": "Salles-sur-Mer",
+   "code_insee": "17420",
+   "lon": -1.0551415675440154,
+   "lat": 46.104539451189865,
+   "nature": "Puits",
+   "profondeur": 12.0,
+   "masse_eau": "Calcaires du Jurassique supérieur des bassins versants de la Devise et des fleuves côtiers charentais",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFDE",
+   "code_bss": "06337X0074/P4",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.19806536503231,
+   "lat": 46.1582676806932,
+   "nature": "Forage",
+   "profondeur": 13.0,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFKE",
+   "code_bss": "06338X0116/PA",
+   "commune": "Périgny",
+   "code_insee": "17274",
+   "lon": -1.1134222503537,
+   "lat": 46.1588390220212,
+   "nature": "Forage",
+   "profondeur": 31.0,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFGF",
+   "code_bss": "06338X0045/PIEZO",
+   "commune": "Aytré",
+   "code_insee": "17028",
+   "lon": -1.09831012394107,
+   "lat": 46.1295809571776,
+   "nature": "Forage",
+   "profondeur": 18.0,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFCG",
+   "code_bss": "06337X0052/P3",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.21807347268596,
+   "lat": 46.163404059193,
+   "nature": "Forage",
+   "profondeur": 23.5,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFFG",
+   "code_bss": "06338X0012/P",
+   "commune": "Périgny",
+   "code_insee": "17274",
+   "lon": -1.096359409528933,
+   "lat": 46.152689658723574,
+   "nature": "Puits",
+   "profondeur": 11.0,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 6187,
+   "premiere": "2015-02-24",
+   "derniere": "2025-11-03",
+   "reseaux": [
+    "0000000028",
+    "0000000077",
+    "0400001001",
+    "0400001002",
+    "0400003229",
+    "0400003269",
+    "0500000051",
+    "0500000054"
+   ],
+   "quantifies": [
+    {
+     "param": "2-hydroxy atrazine",
+     "code": 1832,
+     "unite": "µg/L",
+     "n": 18,
+     "max": 0.021,
+     "date_max": "2018-03-21",
+     "derniere": "2025-11-03"
+    },
+    {
+     "param": "Anhydride carbonique libre",
+     "code": 1344,
+     "unite": "mg(CO2)/L",
+     "n": 2,
+     "max": 52.0,
+     "date_max": "2025-05-19",
+     "derniere": "2025-05-19"
+    },
+    {
+     "param": "Antimoine",
+     "code": 1376,
+     "unite": "µg(Sb)/L",
+     "n": 1,
+     "max": 0.6,
+     "date_max": "2021-01-05",
+     "derniere": "2021-01-05"
+    },
+    {
+     "param": "Aspect de l'eau potable",
+     "code": 6489,
+     "unite": "X",
+     "n": 25,
+     "max": 0.0,
+     "date_max": "2015-09-02",
+     "derniere": "2025-11-03"
+    },
+    {
+     "param": "Atrazine déisopropyl déséthyl",
+     "code": 1830,
+     "unite": "µg/L",
+     "n": 16,
+     "max": 0.046,
+     "date_max": "2017-04-14",
+     "derniere": "2022-01-05"
+    },
+    {
+     "param": "Atrazine déséthyl",
+     "code": 1108,
+     "unite": "µg/L",
+     "n": 2,
+     "max": 0.011,
+     "date_max": "2019-10-24",
+     "derniere": "2019-10-24"
+    },
+    {
+     "param": "Bore",
+     "code": 1362,
+     "unite": "µg(B)/L",
+     "n": 7,
+     "max": 30.0,
+     "date_max": "2024-10-23",
+     "derniere": "2025-05-19"
+    },
+    {
+     "param": "Calcium",
+     "code": 1374,
+     "unite": "mg(Ca)/L",
+     "n": 12,
+     "max": 130.0,
+     "date_max": "2024-10-23",
+     "derniere": "2025-05-19"
+    },
+    {
+     "param": "Carbone Organique",
+     "code": 1841,
+     "unite": "mg(C)/L",
+     "n": 12,
+     "max": 1.8,
+     "date_max": "2025-05-19",
+     "derniere": "2025-05-19"
+    },
+    {
+     "param": "Chlorothalonil SA",
+     "code": 7717,
+     "unite": "µg/L",
+     "n": 2,
+     "max": 0.066,
+     "date_max": "2025-11-03",
+     "derniere": "2025-11-03"
+    },
+    {
+     "param": "Chlorothalonil-R471811",
+     "code": 8865,
+     "unite": "µg/L",
+     "n": 4,
+     "max": 2.2,
+     "date_max": "2024-10-23",
+     "derniere": "2025-11-03"
+    },
+    {
+     "param": "Chlortoluron",
+     "code": 1136,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.05,
+     "date_max": "2021-01-05",
+     "derniere": "2021-01-05"
+    },
+    {
+     "param": "Chlorures",
+     "code": 1337,
+     "unite": "mg(Cl)/L",
+     "n": 12,
+     "max": 41.0,
+     "date_max": "2016-09-06",
+     "derniere": "2025-05-19"
+    },
+    {
+     "param": "Conductivité à 25°C",
+     "code": 1303,
+     "unite": "µS/cm",
+     "n": 36,
+     "max": 740.0,
+     "date_max": "2015-09-02",
+     "derniere": "2025-11-03"
+    },
+    {
+     "param": "Couleur de l’eau destinée à la consommation humaine",
+     "code": 5900,
+     "unite": "X",
+     "n": 11,
+     "max": 0.0,
+     "date_max": "2015-09-02",
+     "derniere": "2025-05-19"
+    },
+    {
+     "param": "Diméthachlore CGA 369873",
+     "code": 7727,
+     "unite": "µg/L",
+     "n": 2,
+     "max": 0.067,
+     "date_max": "2021-01-05",
+     "derniere": "2025-11-03"
+    },
+    {
+     "param": "Dureté totale",
+     "code": 1345,
+     "unite": "°f",
+     "n": 11,
+     "max": 34.2,
+     "date_max": "2017-09-28",
+     "derniere": "2025-05-19"
+    },
+    {
+     "param": "Enterocoques",
+     "code": 6455,
+     "unite": "n/(100mL)",
+     "n": 3,
+     "max": 7.0,
+     "date_max": "2019-10-24",
+     "derniere": "2019-10-24"
+    },
+    {
+     "param": "Equilibre calcocarbonique de l’eau destinée à la consommation humaine",
+     "code": 5907,
+     "unite": "X",
+     "n": 11,
+     "max": 4.0,
+     "date_max": "2025-05-19",
+     "derniere": "2025-05-19"
+    },
+    {
+     "param": "Escherichia coli (E. coli)",
+     "code": 1449,
+     "unite": "n/(100mL)",
+     "n": 3,
+     "max": 9.0,
+     "date_max": "2021-01-05",
+     "derniere": "2024-10-23"
+    },
+    {
+     "param": "Fer",
+     "code": 1393,
+     "unite": "µg(Fe)/L",
+     "n": 1,
+     "max": 1.0,
+     "date_max": "2025-05-19",
+     "derniere": "2025-05-19"
+    },
+    {
+     "param": "Fluorure anion",
+     "code": 7073,
+     "unite": "mg/L",
+     "n": 12,
+     "max": 0.25,
+     "date_max": "2015-09-02",
+     "derniere": "2025-05-19"
+    },
+    {
+     "param": "Hydrogénocarbonates",
+     "code": 1327,
+     "unite": "mg(HCO3)/L",
+     "n": 5,
+     "max": 293.0,
+     "date_max": "2020-03-13",
+     "derniere": "2025-05-19"
+    },
+    {
+     "param": "Magnésium",
+     "code": 1372,
+     "unite": "mg(Mg)/L",
+     "n": 12,
+     "max": 5.1,
+     "date_max": "2024-10-23",
+     "derniere": "2025-05-19"
+    },
+    {
+     "param": "Metolachlor ESA",
+     "code": 6854,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.021,
+     "date_max": "2023-11-27",
+     "derniere": "2023-11-27"
+    },
+    {
+     "param": "Métazachlore ESA",
+     "code": 6895,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.18,
+     "date_max": "2018-03-21",
+     "derniere": "2018-03-21"
+    },
+    {
+     "param": "Métazachlore OXA",
+     "code": 6894,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.02,
+     "date_max": "2023-11-27",
+     "derniere": "2023-11-27"
+    },
+    {
+     "param": "Nickel",
+     "code": 1386,
+     "unite": "µg(Ni)/L",
+     "n": 1,
+     "max": 0.68,
+     "date_max": "2020-01-21",
+     "derniere": "2020-01-21"
+    },
+    {
+     "param": "Nitrates",
+     "code": 1340,
+     "unite": "mg(NO3)/L",
+     "n": 37,
+     "max": 88.0,
+     "date_max": "2015-07-10",
+     "derniere": "2025-11-03"
+    },
+    {
+     "param": "Odeur de l’eau destinée à la consommation humaine",
+     "code": 5901,
+     "unite": "X",
+     "n": 10,
+     "max": 0.0,
+     "date_max": "2016-09-06",
+     "derniere": "2025-05-19"
+    },
+    {
+     "param": "Oxygène dissous",
+     "code": 1311,
+     "unite": "mg(O2)/L",
+     "n": 1,
+     "max": 9.0,
+     "date_max": "2015-02-24",
+     "derniere": "2015-02-24"
+    },
+    {
+     "param": "Phosphore total",
+     "code": 1350,
+     "unite": "mg(P2O5)/L",
+     "n": 1,
+     "max": 0.137,
+     "date_max": "2017-09-28",
+     "derniere": "2017-09-28"
+    },
+    {
+     "param": "Potassium",
+     "code": 1367,
+     "unite": "mg(K)/L",
+     "n": 12,
+     "max": 2.9,
+     "date_max": "2021-01-05",
+     "derniere": "2025-05-19"
+    },
+    {
+     "param": "Potentiel REDOX",
+     "code": 1330,
+     "unite": "mV",
+     "n": 1,
+     "max": 158.0,
+     "date_max": "2015-02-24",
+     "derniere": "2015-02-24"
+    },
+    {
+     "param": "Potentiel en Hydrogène (pH)",
+     "code": 1302,
+     "unite": "unité pH",
+     "n": 12,
+     "max": 7.3,
+     "date_max": "2015-02-24",
+     "derniere": "2025-05-19"
+    },
+    {
+     "param": "Saveur de l’eau destinée à la consommation humaine",
+     "code": 5902,
+     "unite": "X",
+     "n": 8,
+     "max": 0.0,
+     "date_max": "2016-09-06",
+     "derniere": "2023-05-12"
+    },
+    {
+     "param": "Silicates",
+     "code": 1342,
+     "unite": "mg(SiO2)/L",
+     "n": 9,
+     "max": 7.3,
+     "date_max": "2020-03-13",
+     "derniere": "2025-05-19"
+    },
+    {
+     "param": "Silice",
+     "code": 1348,
+     "unite": "mg(SiO2)/L",
+     "n": 3,
+     "max": 7.4,
+     "date_max": "2017-09-28",
+     "derniere": "2017-09-28"
+    },
+    {
+     "param": "Sodium",
+     "code": 1375,
+     "unite": "mg(Na)/L",
+     "n": 12,
+     "max": 19.0,
+     "date_max": "2024-10-23",
+     "derniere": "2025-05-19"
+    },
+    {
+     "param": "Somme des pesticides totaux",
+     "code": 6276,
+     "unite": "µg/L",
+     "n": 36,
+     "max": 1.165,
+     "date_max": "2023-11-27",
+     "derniere": "2025-11-03"
+    },
+    {
+     "param": "Somme du tetrachloroéthylène et du trichloroéthylène",
+     "code": 2963,
+     "unite": "µg/L",
+     "n": 2,
+     "max": 0.0,
+     "date_max": "2015-09-02",
+     "derniere": "2016-09-06"
+    },
+    {
+     "param": "Sulfates",
+     "code": 1338,
+     "unite": "mg(SO4)/L",
+     "n": 12,
+     "max": 29.0,
+     "date_max": "2022-01-28",
+     "derniere": "2025-05-19"
+    },
+    {
+     "param": "Taux de saturation en oxygène",
+     "code": 1312,
+     "unite": "%",
+     "n": 3,
+     "max": 83.9,
+     "date_max": "2015-02-24",
+     "derniere": "2016-09-06"
+    },
+    {
+     "param": "Température de l'Eau",
+     "code": 1301,
+     "unite": "°C",
+     "n": 3,
+     "max": 15.2,
+     "date_max": "2016-09-06",
+     "derniere": "2016-09-06"
+    },
+    {
+     "param": "Température de l'air",
+     "code": 1409,
+     "unite": "°C",
+     "n": 2,
+     "max": 19.0,
+     "date_max": "2016-09-06",
+     "derniere": "2016-09-06"
+    },
+    {
+     "param": "Terbuthylazine hydroxy",
+     "code": 1954,
+     "unite": "µg/L",
+     "n": 34,
+     "max": 0.048,
+     "date_max": "2023-05-12",
+     "derniere": "2025-11-03"
+    },
+    {
+     "param": "Titre alcalimétrique complet (T.A.C.)",
+     "code": 1347,
+     "unite": "°f",
+     "n": 12,
+     "max": 24.3,
+     "date_max": "2015-09-02",
+     "derniere": "2025-05-19"
+    },
+    {
+     "param": "Titre alcalimétrique complet (TAC) à l'équilibre",
+     "code": 7971,
+     "unite": "°f",
+     "n": 1,
+     "max": 23.1,
+     "date_max": "2025-05-19",
+     "derniere": "2025-05-19"
+    },
+    {
+     "param": "Turbidité Formazine Néphélométrique",
+     "code": 1295,
+     "unite": "NFU",
+     "n": 3,
+     "max": 0.54,
+     "date_max": "2017-09-28",
+     "derniere": "2017-09-28"
+    },
+    {
+     "param": "pH d'equilibre",
+     "code": 6488,
+     "unite": "unité pH",
+     "n": 11,
+     "max": 7.34,
+     "date_max": "2025-05-19",
+     "derniere": "2025-05-19"
+    }
+   ]
+  },
+  {
+   "bss_id": "BSS001QFGG",
+   "code_bss": "06338X0046/PIEZO",
+   "commune": "Aytré",
+   "code_insee": "17028",
+   "lon": -1.09822682588223,
+   "lat": 46.129286306496,
+   "nature": "Forage",
+   "profondeur": 13.0,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFKG",
+   "code_bss": "06338X0118/PC",
+   "commune": "Périgny",
+   "code_insee": "17274",
+   "lon": -1.11055267655965,
+   "lat": 46.1564950644229,
+   "nature": "Forage",
+   "profondeur": 30.0,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFCH",
+   "code_bss": "06337X0053/P4",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.21342640602341,
+   "lat": 46.166486130211,
+   "nature": "Forage",
+   "profondeur": 20.0,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFDH",
+   "code_bss": "06337X0077/P5",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.19438708059178,
+   "lat": 46.1597065590733,
+   "nature": "Forage",
+   "profondeur": 19.0,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFGH",
+   "code_bss": "06338X0047/PIEZO",
+   "commune": "Aytré",
+   "code_insee": "17028",
+   "lon": -1.09755578683343,
+   "lat": 46.1295318493002,
+   "nature": "Forage",
+   "profondeur": 13.0,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFKH",
+   "code_bss": "06338X0119/P-CA",
+   "commune": "Périgny",
+   "code_insee": "17274",
+   "lon": -1.12104796597091,
+   "lat": 46.1585159145699,
+   "nature": "Forage",
+   "profondeur": null,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFDJ",
+   "code_bss": "06337X0078/P7",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.19889908034002,
+   "lat": 46.1581335281006,
+   "nature": "Forage",
+   "profondeur": 19.2,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFGJ",
+   "code_bss": "06338X0048/PIEZO",
+   "commune": "Aytré",
+   "code_insee": "17028",
+   "lon": -1.0981769643726,
+   "lat": 46.1297290955133,
+   "nature": "Forage",
+   "profondeur": 13.0,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFDK",
+   "code_bss": "06337X0079/P9",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.19435216642006,
+   "lat": 46.15836574676,
+   "nature": "Forage",
+   "profondeur": 19.2,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFGK",
+   "code_bss": "06338X0049/PIEZO",
+   "commune": "Aytré",
+   "code_insee": "17028",
+   "lon": -1.09773903774977,
+   "lat": 46.1295623000264,
+   "nature": "Forage",
+   "profondeur": 12.0,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFGL",
+   "code_bss": "06338X0050/PIEZO",
+   "commune": "Aytré",
+   "code_insee": "17028",
+   "lon": -1.09797230408519,
+   "lat": 46.1295642129712,
+   "nature": "Forage",
+   "profondeur": 12.0,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFDN",
+   "code_bss": "06337X0082/P12",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.19813656464287,
+   "lat": 46.1581663868385,
+   "nature": "Forage",
+   "profondeur": null,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFBP",
+   "code_bss": "06337X0018/23",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.19377198341414,
+   "lat": 46.1648232049333,
+   "nature": "Puits",
+   "profondeur": 10.0,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFBQ",
+   "code_bss": "06337X0019/15",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.19132156141902,
+   "lat": 46.1630084490558,
+   "nature": "Puits",
+   "profondeur": 8.0,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFCQ",
+   "code_bss": "06337X0060/P1",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.2147000223468,
+   "lat": 46.1663380462178,
+   "nature": "Forage",
+   "profondeur": 18.3,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFDQ",
+   "code_bss": "06337X0084/P",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.20189006713043,
+   "lat": 46.1584902206435,
+   "nature": "Puits",
+   "profondeur": null,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFKQ",
+   "code_bss": "06338X0126/MW6",
+   "commune": "Aytré",
+   "code_insee": "17028",
+   "lon": -1.12483659776555,
+   "lat": 46.1367232057785,
+   "nature": "Forage",
+   "profondeur": 22.9,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001RLAR",
+   "code_bss": "06581X0003/P",
+   "commune": "Thairé",
+   "code_insee": "17443",
+   "lon": -1.003064648884216,
+   "lat": 46.07370915542288,
+   "nature": "Forage",
+   "profondeur": 6.23,
+   "masse_eau": "Calcaires du Jurassique supérieur des bassins versants de la Devise et des fleuves côtiers charentais",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFDR",
+   "code_bss": "06337X0085/P",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.18929577355826,
+   "lat": 46.1531199967611,
+   "nature": "Puits",
+   "profondeur": null,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFKR",
+   "code_bss": "06338X0127/MW10",
+   "commune": "Aytré",
+   "code_insee": "17028",
+   "lon": -1.12568112045744,
+   "lat": 46.1381922731558,
+   "nature": "Forage",
+   "profondeur": 16.85,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QGXR",
+   "code_bss": "06345X0137/F",
+   "commune": "Montroy",
+   "code_insee": "17245",
+   "lon": -1.014479,
+   "lat": 46.153974,
+   "nature": "Forage",
+   "profondeur": 27.0,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFDS",
+   "code_bss": "06337X0086/P",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.19275590290013,
+   "lat": 46.1617388436357,
+   "nature": "Puits",
+   "profondeur": null,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFJS",
+   "code_bss": "06338X0104/PZ1",
+   "commune": "Périgny",
+   "code_insee": "17274",
+   "lon": -1.11466615627643,
+   "lat": 46.1553518760439,
+   "nature": "Forage",
+   "profondeur": null,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFKS",
+   "code_bss": "06338X0128/MW11",
+   "commune": "Aytré",
+   "code_insee": "17028",
+   "lon": -1.12261895308914,
+   "lat": 46.1375025839878,
+   "nature": "Forage",
+   "profondeur": 18.9,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QEVS",
+   "code_bss": "06334X0021/F",
+   "commune": "Marsilly",
+   "code_insee": "17222",
+   "lon": -1.15156736545725,
+   "lat": 46.2244014142151,
+   "nature": "Forage",
+   "profondeur": 40.0,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 17823,
+   "premiere": "2015-04-29",
+   "derniere": "2026-09-15",
+   "reseaux": [
+    "0000000030",
+    "0400000005",
+    "0400000082",
+    "0400000124",
+    "0400000128"
+   ],
+   "quantifies": [
+    {
+     "param": "2-Aminosulfonyl-N,N-dimethylnicotinamide",
+     "code": 7716,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.035,
+     "date_max": "2026-04-01",
+     "derniere": "2026-04-01"
+    },
+    {
+     "param": "4-tert-butylphénol",
+     "code": 2610,
+     "unite": "µg/L",
+     "n": 2,
+     "max": 0.022,
+     "date_max": "2025-03-13",
+     "derniere": "2025-03-13"
+    },
+    {
+     "param": "Acide perfluoro-n-butanoïque",
+     "code": 5980,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.0015,
+     "date_max": "2025-03-13",
+     "derniere": "2025-03-13"
+    },
+    {
+     "param": "Acide perfluoro-n-heptanoïque",
+     "code": 5977,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.001,
+     "date_max": "2025-09-18",
+     "derniere": "2025-09-18"
+    },
+    {
+     "param": "Acide perfluoro-n-hexanoïque",
+     "code": 5978,
+     "unite": "µg/L",
+     "n": 2,
+     "max": 0.0033,
+     "date_max": "2025-09-18",
+     "derniere": "2025-09-18"
+    },
+    {
+     "param": "Acide perfluoro-n-pentanoïque",
+     "code": 5979,
+     "unite": "µg/L",
+     "n": 2,
+     "max": 0.0017,
+     "date_max": "2025-09-18",
+     "derniere": "2025-09-18"
+    },
+    {
+     "param": "Acide perfluoro-octanoïque",
+     "code": 5347,
+     "unite": "µg/L",
+     "n": 5,
+     "max": 0.0035,
+     "date_max": "2018-10-04",
+     "derniere": "2025-09-18"
+    },
+    {
+     "param": "Acide sulfonique de perfluorobutane",
+     "code": 6025,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.001,
+     "date_max": "2025-09-18",
+     "derniere": "2025-09-18"
+    },
+    {
+     "param": "Acide trifluoroacétique",
+     "code": 8858,
+     "unite": "µg/L",
+     "n": 2,
+     "max": 3.21,
+     "date_max": "2026-09-15",
+     "derniere": "2026-09-15"
+    },
+    {
+     "param": "Aluminium",
+     "code": 1370,
+     "unite": "µg(Al)/L",
+     "n": 3,
+     "max": 1.52,
+     "date_max": "2026-04-01",
+     "derniere": "2026-04-01"
+    },
+    {
+     "param": "Ammonium",
+     "code": 1335,
+     "unite": "mg(NH4)/L",
+     "n": 13,
+     "max": 0.04,
+     "date_max": "2017-10-04",
+     "derniere": "2026-09-15"
+    },
+    {
+     "param": "Arsenic",
+     "code": 1369,
+     "unite": "µg(As)/L",
+     "n": 4,
+     "max": 0.09,
+     "date_max": "2026-04-01",
+     "derniere": "2026-09-15"
+    },
+    {
+     "param": "Baryum",
+     "code": 1396,
+     "unite": "µg(Ba)/L",
+     "n": 4,
+     "max": 11.0,
+     "date_max": "2024-09-17",
+     "derniere": "2026-09-15"
+    },
+    {
+     "param": "Benzotriazole",
+     "code": 7543,
+     "unite": "µg/L",
+     "n": 7,
+     "max": 0.398,
+     "date_max": "2023-03-24",
+     "derniere": "2025-09-18"
+    },
+    {
+     "param": "Bisphenol A",
+     "code": 2766,
+     "unite": "µg/L",
+     "n": 2,
+     "max": 0.168,
+     "date_max": "2018-04-25",
+     "derniere": "2024-03-11"
+    },
+    {
+     "param": "Bore",
+     "code": 1362,
+     "unite": "µg(B)/L",
+     "n": 4,
+     "max": 33.5,
+     "date_max": "2024-09-17",
+     "derniere": "2026-09-15"
+    },
+    {
+     "param": "Bromure",
+     "code": 6505,
+     "unite": "µg/L",
+     "n": 6,
+     "max": 200.0,
+     "date_max": "2017-04-20",
+     "derniere": "2024-09-17"
+    },
+    {
+     "param": "Cafeine",
+     "code": 6519,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.028,
+     "date_max": "2017-04-20",
+     "derniere": "2017-04-20"
+    },
+    {
+     "param": "Calcium",
+     "code": 1374,
+     "unite": "mg(Ca)/L",
+     "n": 42,
+     "max": 133.7,
+     "date_max": "2017-10-04",
+     "derniere": "2026-09-15"
+    },
+    {
+     "param": "Carbonates",
+     "code": 1328,
+     "unite": "mg(CO3)/L",
+     "n": 42,
+     "max": 0.0,
+     "date_max": "2015-04-29",
+     "derniere": "2026-09-15"
+    },
+    {
+     "param": "Carbone Organique",
+     "code": 1841,
+     "unite": "mg(C)/L",
+     "n": 34,
+     "max": 1.4,
+     "date_max": "2021-09-17",
+     "derniere": "2026-09-15"
+    },
+    {
+     "param": "Chloridazone desphényl",
+     "code": 6378,
+     "unite": "µg/L",
+     "n": 2,
+     "max": 0.184,
+     "date_max": "2023-09-18",
+     "derniere": "2026-09-15"
+    },
+    {
+     "param": "Chloridazone méthyl desphényl",
+     "code": 6379,
+     "unite": "µg/L",
+     "n": 9,
+     "max": 0.035,
+     "date_max": "2024-03-11",
+     "derniere": "2026-09-15"
+    },
+    {
+     "param": "Chlorothalonil SA",
+     "code": 7717,
+     "unite": "µg/L",
+     "n": 2,
+     "max": 0.017,
+     "date_max": "2026-09-15",
+     "derniere": "2026-09-15"
+    },
+    {
+     "param": "Chlorothalonil-R471811",
+     "code": 8865,
+     "unite": "µg/L",
+     "n": 6,
+     "max": 2.302,
+     "date_max": "2024-03-11",
+     "derniere": "2026-09-15"
+    },
+    {
+     "param": "Chlorures",
+     "code": 1337,
+     "unite": "mg(Cl)/L",
+     "n": 42,
+     "max": 73.0,
+     "date_max": "2019-10-03",
+     "derniere": "2026-09-15"
+    },
+    {
+     "param": "Chrome",
+     "code": 1389,
+     "unite": "µg(Cr)/L",
+     "n": 2,
+     "max": 0.3,
+     "date_max": "2024-03-11",
+     "derniere": "2024-09-17"
+    },
+    {
+     "param": "Conductivité à 25°C",
+     "code": 1303,
+     "unite": "µS/cm",
+     "n": 42,
+     "max": 2240.0,
+     "date_max": "2021-09-17",
+     "derniere": "2026-09-15"
+    },
+    {
+     "param": "Cotinine",
+     "code": 6520,
+     "unite": "µg/L",
+     "n": 3,
+     "max": 0.022,
+     "date_max": "2025-09-18",
+     "derniere": "2026-04-01"
+    },
+    {
+     "param": "Cuivre",
+     "code": 1392,
+     "unite": "µg(Cu)/L",
+     "n": 7,
+     "max": 0.32,
+     "date_max": "2016-12-13",
+     "derniere": "2026-09-15"
+    },
+    {
+     "param": "Di(2-ethylhexyl)phtalate",
+     "code": 6616,
+     "unite": "µg/L",
+     "n": 2,
+     "max": 0.53,
+     "date_max": "2019-10-03",
+     "derniere": "2023-03-24"
+    },
+    {
+     "param": "Diméthachlore CGA 369873",
+     "code": 7727,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.032,
+     "date_max": "2020-10-05",
+     "derniere": "2020-10-05"
+    },
+    {
+     "param": "EDTA",
+     "code": 1493,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 170.0,
+     "date_max": "2023-09-18",
+     "derniere": "2023-09-18"
+    },
+    {
+     "param": "Fer",
+     "code": 1393,
+     "unite": "µg(Fe)/L",
+     "n": 30,
+     "max": 14.7,
+     "date_max": "2018-12-13",
+     "derniere": "2026-04-01"
+    },
+    {
+     "param": "Fluorure anion",
+     "code": 7073,
+     "unite": "mg/L",
+     "n": 27,
+     "max": 0.27,
+     "date_max": "2021-09-17",
+     "derniere": "2021-11-30"
+    },
+    {
+     "param": "Glyphosate",
+     "code": 1506,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.093,
+     "date_max": "2017-04-20",
+     "derniere": "2017-04-20"
+    },
+    {
+     "param": "Hydrogénocarbonates",
+     "code": 1327,
+     "unite": "mg(HCO3)/L",
+     "n": 42,
+     "max": 343.0,
+     "date_max": "2026-06-15",
+     "derniere": "2026-09-15"
+    },
+    {
+     "param": "Imazalil",
+     "code": 1704,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.022,
+     "date_max": "2015-12-01",
+     "derniere": "2015-12-01"
+    },
+    {
+     "param": "Magnésium",
+     "code": 1372,
+     "unite": "mg(Mg)/L",
+     "n": 42,
+     "max": 9.98,
+     "date_max": "2016-07-18",
+     "derniere": "2026-09-15"
+    },
+    {
+     "param": "Manganèse",
+     "code": 1394,
+     "unite": "µg(Mn)/L",
+     "n": 3,
+     "max": 2.7,
+     "date_max": "2021-11-30",
+     "derniere": "2025-09-18"
+    },
+    {
+     "param": "Matière sèche à 180°C",
+     "code": 1750,
+     "unite": "mg/L",
+     "n": 4,
+     "max": 525.0,
+     "date_max": "2015-07-08",
+     "derniere": "2015-12-01"
+    },
+    {
+     "param": "Molybdène",
+     "code": 1395,
+     "unite": "µg(Mo)/L",
+     "n": 1,
+     "max": 0.1,
+     "date_max": "2024-09-17",
+     "derniere": "2024-09-17"
+    },
+    {
+     "param": "N-Butylbenzenesulfonamide",
+     "code": 5299,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.853,
+     "date_max": "2025-03-13",
+     "derniere": "2025-03-13"
+    },
+    {
+     "param": "Nickel",
+     "code": 1386,
+     "unite": "µg(Ni)/L",
+     "n": 6,
+     "max": 1.1,
+     "date_max": "2024-09-17",
+     "derniere": "2026-09-15"
+    },
+    {
+     "param": "Nitrates",
+     "code": 1340,
+     "unite": "mg(NO3)/L",
+     "n": 42,
+     "max": 68.0,
+     "date_max": "2024-03-11",
+     "derniere": "2026-09-15"
+    },
+    {
+     "param": "Nitrites",
+     "code": 1339,
+     "unite": "mg(NO2)/L",
+     "n": 4,
+     "max": 0.16,
+     "date_max": "2021-09-17",
+     "derniere": "2026-09-15"
+    },
+    {
+     "param": "Nitrophénol-2",
+     "code": 1637,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.028,
+     "date_max": "2021-09-17",
+     "derniere": "2021-09-17"
+    },
+    {
+     "param": "Orthophosphates (PO4)",
+     "code": 1433,
+     "unite": "mg(PO4)/L",
+     "n": 30,
+     "max": 1.0,
+     "date_max": "2024-12-02",
+     "derniere": "2026-04-01"
+    },
+    {
+     "param": "Oxydabilité au KMnO4 à chaud en milieu acide",
+     "code": 1315,
+     "unite": "mg(O2)/L",
+     "n": 1,
+     "max": 0.8,
+     "date_max": "2015-09-23",
+     "derniere": "2015-09-23"
+    },
+    {
+     "param": "Oxygène dissous",
+     "code": 1311,
+     "unite": "mg(O2)/L",
+     "n": 42,
+     "max": 12.74,
+     "date_max": "2019-04-15",
+     "derniere": "2026-09-15"
+    },
+    {
+     "param": "Paracetamol",
+     "code": 5354,
+     "unite": "ng/L",
+     "n": 1,
+     "max": 60.0,
+     "date_max": "2023-03-24",
+     "derniere": "2023-03-24"
+    },
+    {
+     "param": "Perchlorate",
+     "code": 6219,
+     "unite": "µg/L",
+     "n": 6,
+     "max": 0.46,
+     "date_max": "2023-03-24",
+     "derniere": "2026-09-15"
+    },
+    {
+     "param": "Phosphate de tributyle",
+     "code": 1847,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.006,
+     "date_max": "2025-09-18",
+     "derniere": "2025-09-18"
+    },
+    {
+     "param": "Phosphore total",
+     "code": 1350,
+     "unite": "mg(P)/L",
+     "n": 5,
+     "max": 0.203,
+     "date_max": "2025-09-18",
+     "derniere": "2025-12-01"
+    },
+    {
+     "param": "Phénol",
+     "code": 5515,
+     "unite": "µg/L",
+     "n": 2,
+     "max": 0.1,
+     "date_max": "2021-09-17",
+     "derniere": "2024-09-17"
+    },
+    {
+     "param": "Piperonyl butoxyde",
+     "code": 1709,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.025,
+     "date_max": "2025-09-18",
+     "derniere": "2025-09-18"
+    },
+    {
+     "param": "Potassium",
+     "code": 1367,
+     "unite": "mg(K)/L",
+     "n": 42,
+     "max": 1.9,
+     "date_max": "2018-12-13",
+     "derniere": "2026-09-15"
+    },
+    {
+     "param": "Potentiel REDOX",
+     "code": 1330,
+     "unite": "mV",
+     "n": 34,
+     "max": 450.0,
+     "date_max": "2026-09-15",
+     "derniere": "2026-09-15"
+    },
+    {
+     "param": "Potentiel en Hydrogène (pH)",
+     "code": 1302,
+     "unite": "unité pH",
+     "n": 42,
+     "max": 7.5,
+     "date_max": "2026-06-15",
+     "derniere": "2026-09-15"
+    },
+    {
+     "param": "Silicates",
+     "code": 1342,
+     "unite": "mg(SiO3)/L",
+     "n": 42,
+     "max": 13.34,
+     "date_max": "2021-04-02",
+     "derniere": "2026-09-15"
+    },
+    {
+     "param": "Sodium",
+     "code": 1375,
+     "unite": "mg(Na)/L",
+     "n": 42,
+     "max": 32.6,
+     "date_max": "2019-10-03",
+     "derniere": "2026-09-15"
+    },
+    {
+     "param": "Sulfamethoxazole",
+     "code": 5356,
+     "unite": "ng/L",
+     "n": 8,
+     "max": 21.0,
+     "date_max": "2023-09-18",
+     "derniere": "2026-09-15"
+    },
+    {
+     "param": "Sulfates",
+     "code": 1338,
+     "unite": "mg(SO4)/L",
+     "n": 42,
+     "max": 37.6,
+     "date_max": "2019-10-03",
+     "derniere": "2026-09-15"
+    },
+    {
+     "param": "Sélénium",
+     "code": 1385,
+     "unite": "µg(Se)/L",
+     "n": 11,
+     "max": 0.38,
+     "date_max": "2024-09-17",
+     "derniere": "2026-09-15"
+    },
+    {
+     "param": "Taux de saturation en oxygène",
+     "code": 1312,
+     "unite": "%",
+     "n": 15,
+     "max": 123.2,
+     "date_max": "2026-09-15",
+     "derniere": "2026-09-15"
+    },
+    {
+     "param": "Température de l'Eau",
+     "code": 1301,
+     "unite": "°C",
+     "n": 42,
+     "max": 18.2,
+     "date_max": "2021-09-17",
+     "derniere": "2026-09-15"
+    },
+    {
+     "param": "Température de réception de l'échantillon au laboratoire",
+     "code": 8727,
+     "unite": "°C",
+     "n": 1,
+     "max": 5.0,
+     "date_max": "2024-03-11",
+     "derniere": "2024-03-11"
+    },
+    {
+     "param": "Titre alcalimétrique (T.A.)",
+     "code": 1346,
+     "unite": "°f",
+     "n": 1,
+     "max": 0.0,
+     "date_max": "2024-03-11",
+     "derniere": "2024-03-11"
+    },
+    {
+     "param": "Titre alcalimétrique complet (T.A.C.)",
+     "code": 1347,
+     "unite": "°f",
+     "n": 34,
+     "max": 28.15,
+     "date_max": "2026-06-15",
+     "derniere": "2026-09-15"
+    },
+    {
+     "param": "Turbidité Formazine Néphélométrique",
+     "code": 1295,
+     "unite": "NFU",
+     "n": 39,
+     "max": 10.0,
+     "date_max": "2019-12-10",
+     "derniere": "2026-06-15"
+    },
+    {
+     "param": "Zinc",
+     "code": 1383,
+     "unite": "µg(Zn)/L",
+     "n": 3,
+     "max": 1.6,
+     "date_max": "2026-04-01",
+     "derniere": "2026-04-01"
+    }
+   ]
+  },
+  {
+   "bss_id": "BSS001QFBT",
+   "code_bss": "06337X0038/SPZA",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.22100638334051,
+   "lat": 46.1650499724567,
+   "nature": "Forage",
+   "profondeur": 14.61,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFDT",
+   "code_bss": "06337X0087/PZA",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.19655408006135,
+   "lat": 46.155342935768,
+   "nature": "Forage",
+   "profondeur": 14.0,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFJT",
+   "code_bss": "06338X0105/PZ2",
+   "commune": "Périgny",
+   "code_insee": "17274",
+   "lon": -1.11529422177225,
+   "lat": 46.1577011811843,
+   "nature": "Forage",
+   "profondeur": null,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFKT",
+   "code_bss": "06338X0129/MW12",
+   "commune": "Aytré",
+   "code_insee": "17028",
+   "lon": -1.12174866500609,
+   "lat": 46.1360342853899,
+   "nature": "Forage",
+   "profondeur": 11.8,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFVT",
+   "code_bss": "06342X0019/P",
+   "commune": "Vérines",
+   "code_insee": "17466",
+   "lon": -0.9669069947119215,
+   "lat": 46.19390003923568,
+   "nature": "Forage",
+   "profondeur": 27.0,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 20000,
+   "premiere": "2015-03-13",
+   "derniere": "2024-09-17",
+   "reseaux": [
+    "0000000028",
+    "0000000030",
+    "0000000077",
+    "0000000078",
+    "0000000101",
+    "0400000005",
+    "0400000082",
+    "0400000120",
+    "0400000124",
+    "0400000128",
+    "0400001001",
+    "0400003006",
+    "0400003229",
+    "0400003269",
+    "0500000051",
+    "0500000054"
+   ],
+   "quantifies": [
+    {
+     "param": "10,11-dihydro-10,11-dihydroxy-carbamazépine",
+     "code": 7597,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.368,
+     "date_max": "2023-09-18",
+     "derniere": "2023-09-18"
+    },
+    {
+     "param": "2-Aminosulfonyl-N,N-dimethylnicotinamide",
+     "code": 7716,
+     "unite": "µg/L",
+     "n": 14,
+     "max": 0.014,
+     "date_max": "2024-03-11",
+     "derniere": "2024-03-11"
+    },
+    {
+     "param": "2-hydroxy atrazine",
+     "code": 1832,
+     "unite": "µg/L",
+     "n": 19,
+     "max": 0.03,
+     "date_max": "2015-12-01",
+     "derniere": "2024-09-02"
+    },
+    {
+     "param": "4-tert-butylphénol",
+     "code": 2610,
+     "unite": "µg/L",
+     "n": 2,
+     "max": 0.028,
+     "date_max": "2022-09-19",
+     "derniere": "2023-09-18"
+    },
+    {
+     "param": "AMPA",
+     "code": 1907,
+     "unite": "µg/L",
+     "n": 2,
+     "max": 0.073,
+     "date_max": "2015-12-29",
+     "derniere": "2017-12-18"
+    },
+    {
+     "param": "Alachlor ESA",
+     "code": 6800,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.057,
+     "date_max": "2022-09-20",
+     "derniere": "2022-09-20"
+    },
+    {
+     "param": "Aluminium",
+     "code": 1370,
+     "unite": "µg(Al)/L",
+     "n": 2,
+     "max": 1.7,
+     "date_max": "2024-09-17",
+     "derniere": "2024-09-17"
+    },
+    {
+     "param": "Ammonium",
+     "code": 1335,
+     "unite": "mg(NH4)/L",
+     "n": 19,
+     "max": 0.07,
+     "date_max": "2016-07-18",
+     "derniere": "2024-09-02"
+    },
+    {
+     "param": "Anhydride carbonique libre",
+     "code": 1344,
+     "unite": "mg(CO2)/L",
+     "n": 1,
+     "max": 78.0,
+     "date_max": "2024-09-02",
+     "derniere": "2024-09-02"
+    },
+    {
+     "param": "Aniline",
+     "code": 2605,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.04,
+     "date_max": "2021-09-17",
+     "derniere": "2021-09-17"
+    },
+    {
+     "param": "Arsenic",
+     "code": 1369,
+     "unite": "µg(As)/L",
+     "n": 2,
+     "max": 0.24,
+     "date_max": "2024-09-17",
+     "derniere": "2024-09-17"
+    },
+    {
+     "param": "Aspect de l'eau potable",
+     "code": 6489,
+     "unite": "X",
+     "n": 13,
+     "max": 1.0,
+     "date_max": "2021-03-12",
+     "derniere": "2024-09-02"
+    },
+    {
+     "param": "Baryum",
+     "code": 1396,
+     "unite": "µg(Ba)/L",
+     "n": 2,
+     "max": 19.8,
+     "date_max": "2024-09-17",
+     "derniere": "2024-09-17"
+    },
+    {
+     "param": "Bentazone",
+     "code": 1113,
+     "unite": "µg/L",
+     "n": 4,
+     "max": 0.026,
+     "date_max": "2018-04-25",
+     "derniere": "2022-09-20"
+    },
+    {
+     "param": "Bisphenol A",
+     "code": 2766,
+     "unite": "µg/L",
+     "n": 2,
+     "max": 0.127,
+     "date_max": "2018-04-25",
+     "derniere": "2023-09-18"
+    },
+    {
+     "param": "Bore",
+     "code": 1362,
+     "unite": "µg(B)/L",
+     "n": 7,
+     "max": 41.7,
+     "date_max": "2024-09-17",
+     "derniere": "2024-09-17"
+    },
+    {
+     "param": "Bromure",
+     "code": 6505,
+     "unite": "µg/L",
+     "n": 4,
+     "max": 160.0,
+     "date_max": "2024-09-17",
+     "derniere": "2024-09-17"
+    },
+    {
+     "param": "Cafeine",
+     "code": 6519,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.013,
+     "date_max": "2022-09-19",
+     "derniere": "2022-09-19"
+    },
+    {
+     "param": "Calcium",
+     "code": 1374,
+     "unite": "mg(Ca)/L",
+     "n": 42,
+     "max": 162.2,
+     "date_max": "2019-12-10",
+     "derniere": "2024-09-02"
+    },
+    {
+     "param": "Carbamazepine",
+     "code": 5296,
+     "unite": "ng/L",
+     "n": 1,
+     "max": 368.0,
+     "date_max": "2023-09-18",
+     "derniere": "2023-09-18"
+    },
+    {
+     "param": "Carbamazepine epoxide",
+     "code": 6725,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.047,
+     "date_max": "2023-09-18",
+     "derniere": "2023-09-18"
+    },
+    {
+     "param": "Carbonates",
+     "code": 1328,
+     "unite": "mg(CO3)/L",
+     "n": 37,
+     "max": 0.0,
+     "date_max": "2015-04-29",
+     "derniere": "2024-06-19"
+    },
+    {
+     "param": "Carbone Organique",
+     "code": 1841,
+     "unite": "mg(C)/L",
+     "n": 35,
+     "max": 5.5,
+     "date_max": "2019-12-10",
+     "derniere": "2024-09-17"
+    },
+    {
+     "param": "Chloridazone méthyl desphényl",
+     "code": 6379,
+     "unite": "µg/L",
+     "n": 5,
+     "max": 0.023,
+     "date_max": "2024-03-11",
+     "derniere": "2024-09-17"
+    },
+    {
+     "param": "Chlorothalonil-R471811",
+     "code": 8865,
+     "unite": "µg/L",
+     "n": 5,
+     "max": 1.9,
+     "date_max": "2023-07-04",
+     "derniere": "2024-09-02"
+    },
+    {
+     "param": "Chlorures",
+     "code": 1337,
+     "unite": "mg(Cl)/L",
+     "n": 42,
+     "max": 40.3,
+     "date_max": "2019-12-10",
+     "derniere": "2024-09-02"
+    },
+    {
+     "param": "Chrome",
+     "code": 1389,
+     "unite": "µg(Cr)/L",
+     "n": 2,
+     "max": 0.3,
+     "date_max": "2024-03-11",
+     "derniere": "2024-09-17"
+    },
+    {
+     "param": "Conductivité à 25°C",
+     "code": 1303,
+     "unite": "µS/cm",
+     "n": 63,
+     "max": 952.0,
+     "date_max": "2019-12-10",
+     "derniere": "2024-09-17"
+    },
+    {
+     "param": "Couleur de l’eau destinée à la consommation humaine",
+     "code": 5900,
+     "unite": "X",
+     "n": 5,
+     "max": 1.0,
+     "date_max": "2016-05-04",
+     "derniere": "2024-09-02"
+    },
+    {
+     "param": "Cuivre",
+     "code": 1392,
+     "unite": "µg(Cu)/L",
+     "n": 5,
+     "max": 1.5,
+     "date_max": "2016-12-13",
+     "derniere": "2024-09-17"
+    },
+    {
+     "param": "Cyanures totaux",
+     "code": 1390,
+     "unite": "µg(CN)/L",
+     "n": 1,
+     "max": 0.23,
+     "date_max": "2024-09-17",
+     "derniere": "2024-09-17"
+    },
+    {
+     "param": "Diclofenac",
+     "code": 5349,
+     "unite": "ng/L",
+     "n": 2,
+     "max": 7.0,
+     "date_max": "2023-09-18",
+     "derniere": "2023-09-18"
+    },
+    {
+     "param": "Diméthachlore CGA 369873",
+     "code": 7727,
+     "unite": "µg/L",
+     "n": 2,
+     "max": 0.044,
+     "date_max": "2021-04-02",
+     "derniere": "2024-09-17"
+    },
+    {
+     "param": "Diméthénamide ESA",
+     "code": 6865,
+     "unite": "µg/L",
+     "n": 2,
+     "max": 0.045,
+     "date_max": "2020-06-04",
+     "derniere": "2023-03-24"
+    },
+    {
+     "param": "Dureté totale",
+     "code": 1345,
+     "unite": "°f",
+     "n": 5,
+     "max": 42.0,
+     "date_max": "2022-12-22",
+     "derniere": "2024-09-02"
+    },
+    {
+     "param": "Enterocoques",
+     "code": 6455,
+     "unite": "n/(100mL)",
+     "n": 1,
+     "max": 1.0,
+     "date_max": "2024-09-02",
+     "derniere": "2024-09-02"
+    },
+    {
+     "param": "Equilibre calcocarbonique de l’eau destinée à la consommation humaine",
+     "code": 5907,
+     "unite": "X",
+     "n": 5,
+     "max": 3.0,
+     "date_max": "2024-09-02",
+     "derniere": "2024-09-02"
+    },
+    {
+     "param": "Escherichia coli (E. coli)",
+     "code": 1449,
+     "unite": "n/(100mL)",
+     "n": 1,
+     "max": 1.0,
+     "date_max": "2022-12-22",
+     "derniere": "2022-12-22"
+    },
+    {
+     "param": "Fer",
+     "code": 1393,
+     "unite": "µg(Fe)/L",
+     "n": 34,
+     "max": 11.5,
+     "date_max": "2019-12-10",
+     "derniere": "2024-09-17"
+    },
+    {
+     "param": "Fluorure anion",
+     "code": 7073,
+     "unite": "mg/L",
+     "n": 13,
+     "max": 0.87,
+     "date_max": "2022-12-22",
+     "derniere": "2024-09-02"
+    },
+    {
+     "param": "Galaxolide",
+     "code": 6618,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.028,
+     "date_max": "2022-09-19",
+     "derniere": "2022-09-19"
+    },
+    {
+     "param": "Hydrogénocarbonates",
+     "code": 1327,
+     "unite": "mg(HCO3)/L",
+     "n": 40,
+     "max": 432.0,
+     "date_max": "2020-10-05",
+     "derniere": "2024-09-17"
+    },
+    {
+     "param": "Imazamox",
+     "code": 2986,
+     "unite": "µg/L",
+     "n": 7,
+     "max": 0.028,
+     "date_max": "2018-04-25",
+     "derniere": "2023-03-24"
+    },
+    {
+     "param": "Magnésium",
+     "code": 1372,
+     "unite": "mg(Mg)/L",
+     "n": 43,
+     "max": 21.8,
+     "date_max": "2019-10-03",
+     "derniere": "2024-09-17"
+    },
+    {
+     "param": "Manganèse",
+     "code": 1394,
+     "unite": "µg(Mn)/L",
+     "n": 10,
+     "max": 5.6,
+     "date_max": "2024-09-02",
+     "derniere": "2024-09-02"
+    },
+    {
+     "param": "Matière sèche à 180°C",
+     "code": 1750,
+     "unite": "mg/L",
+     "n": 4,
+     "max": 549.0,
+     "date_max": "2015-09-23",
+     "derniere": "2015-12-01"
+    },
+    {
+     "param": "Metolachlor ESA",
+     "code": 6854,
+     "unite": "µg/L",
+     "n": 26,
+     "max": 0.356,
+     "date_max": "2020-06-04",
+     "derniere": "2024-09-17"
+    },
+    {
+     "param": "Metolachlor OXA",
+     "code": 6853,
+     "unite": "µg/L",
+     "n": 2,
+     "max": 0.079,
+     "date_max": "2020-06-04",
+     "derniere": "2022-09-20"
+    },
+    {
+     "param": "Molybdène",
+     "code": 1395,
+     "unite": "µg(Mo)/L",
+     "n": 2,
+     "max": 0.2,
+     "date_max": "2024-09-17",
+     "derniere": "2024-09-17"
+    },
+    {
+     "param": "Métazachlore ESA",
+     "code": 6895,
+     "unite": "µg/L",
+     "n": 4,
+     "max": 0.076,
+     "date_max": "2017-04-20",
+     "derniere": "2018-04-25"
+    },
+    {
+     "param": "Métazachlore OXA",
+     "code": 6894,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.081,
+     "date_max": "2020-06-04",
+     "derniere": "2020-06-04"
+    },
+    {
+     "param": "Métolachlore NOA 413173",
+     "code": 7729,
+     "unite": "µg/L",
+     "n": 8,
+     "max": 0.19,
+     "date_max": "2020-06-04",
+     "derniere": "2023-03-24"
+    },
+    {
+     "param": "Nickel",
+     "code": 1386,
+     "unite": "µg(Ni)/L",
+     "n": 10,
+     "max": 2.4,
+     "date_max": "2024-09-17",
+     "derniere": "2024-09-17"
+    },
+    {
+     "param": "Nitrates",
+     "code": 1340,
+     "unite": "mg(NO3)/L",
+     "n": 64,
+     "max": 81.0,
+     "date_max": "2023-11-20",
+     "derniere": "2024-09-17"
+    },
+    {
+     "param": "Nitrites",
+     "code": 1339,
+     "unite": "mg(NO2)/L",
+     "n": 22,
+     "max": 0.19,
+     "date_max": "2022-06-14",
+     "derniere": "2024-09-17"
+    },
+    {
+     "param": "Odeur de l’eau destinée à la consommation humaine",
+     "code": 5901,
+     "unite": "X",
+     "n": 5,
+     "max": 1.0,
+     "date_max": "2016-05-04",
+     "derniere": "2024-09-02"
+    },
+    {
+     "param": "Orthophosphates (PO4)",
+     "code": 1433,
+     "unite": "mg(PO4)/L",
+     "n": 35,
+     "max": 0.06,
+     "date_max": "2020-10-05",
+     "derniere": "2024-09-17"
+    },
+    {
+     "param": "Oxydabilité au KMnO4 à chaud en milieu acide",
+     "code": 1315,
+     "unite": "mg(O2)/L",
+     "n": 4,
+     "max": 4.0,
+     "date_max": "2015-09-23",
+     "derniere": "2015-12-01"
+    },
+    {
+     "param": "Oxygène dissous",
+     "code": 1311,
+     "unite": "mg(O2)/L",
+     "n": 39,
+     "max": 5.33,
+     "date_max": "2017-10-04",
+     "derniere": "2024-09-17"
+    },
+    {
+     "param": "Paracetamol",
+     "code": 5354,
+     "unite": "ng/L",
+     "n": 1,
+     "max": 71.0,
+     "date_max": "2023-03-24",
+     "derniere": "2023-03-24"
+    },
+    {
+     "param": "Perchlorate",
+     "code": 6219,
+     "unite": "µg/L",
+     "n": 3,
+     "max": 0.22,
+     "date_max": "2023-03-24",
+     "derniere": "2023-09-18"
+    },
+    {
+     "param": "Phosphore total",
+     "code": 1350,
+     "unite": "mg(P)/L",
+     "n": 18,
+     "max": 0.024,
+     "date_max": "2021-11-30",
+     "derniere": "2024-06-19"
+    },
+    {
+     "param": "Phénanthrène",
+     "code": 1524,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.00142,
+     "date_max": "2023-09-18",
+     "derniere": "2023-09-18"
+    },
+    {
+     "param": "Potassium",
+     "code": 1367,
+     "unite": "mg(K)/L",
+     "n": 43,
+     "max": 3.4,
+     "date_max": "2017-12-06",
+     "derniere": "2024-09-17"
+    },
+    {
+     "param": "Potentiel REDOX",
+     "code": 1330,
+     "unite": "mV",
+     "n": 19,
+     "max": 267.0,
+     "date_max": "2021-06-02",
+     "derniere": "2024-06-19"
+    },
+    {
+     "param": "Potentiel en Hydrogène (pH)",
+     "code": 1302,
+     "unite": "unité pH",
+     "n": 43,
+     "max": 7.4,
+     "date_max": "2017-04-20",
+     "derniere": "2024-09-02"
+    },
+    {
+     "param": "Propazine 2-hydroxy",
+     "code": 5968,
+     "unite": "µg/L",
+     "n": 11,
+     "max": 0.011,
+     "date_max": "2024-09-17",
+     "derniere": "2024-09-17"
+    },
+    {
+     "param": "Saveur de l’eau destinée à la consommation humaine",
+     "code": 5902,
+     "unite": "X",
+     "n": 4,
+     "max": 0.0,
+     "date_max": "2016-05-04",
+     "derniere": "2022-12-22"
+    },
+    {
+     "param": "Silicates",
+     "code": 1342,
+     "unite": "mg(SiO3)/L",
+     "n": 42,
+     "max": 14.61,
+     "date_max": "2021-04-02",
+     "derniere": "2024-09-17"
+    },
+    {
+     "param": "Silice",
+     "code": 1348,
+     "unite": "mg(SiO2)/L",
+     "n": 1,
+     "max": 6.2,
+     "date_max": "2016-05-04",
+     "derniere": "2016-05-04"
+    },
+    {
+     "param": "Sodium",
+     "code": 1375,
+     "unite": "mg(Na)/L",
+     "n": 43,
+     "max": 19.7,
+     "date_max": "2019-12-10",
+     "derniere": "2024-09-17"
+    },
+    {
+     "param": "Somme des pesticides totaux",
+     "code": 6276,
+     "unite": "µg/L",
+     "n": 22,
+     "max": 1.9,
+     "date_max": "2023-07-04",
+     "derniere": "2024-09-02"
+    },
+    {
+     "param": "Somme du tetrachloroéthylène et du trichloroéthylène",
+     "code": 2963,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.0,
+     "date_max": "2016-05-04",
+     "derniere": "2016-05-04"
+    },
+    {
+     "param": "Sotalol",
+     "code": 5424,
+     "unite": "ng/L",
+     "n": 3,
+     "max": 86.0,
+     "date_max": "2023-09-18",
+     "derniere": "2024-09-17"
+    },
+    {
+     "param": "Sulfamethoxazole",
+     "code": 5356,
+     "unite": "ng/L",
+     "n": 1,
+     "max": 37.0,
+     "date_max": "2023-09-18",
+     "derniere": "2023-09-18"
+    },
+    {
+     "param": "Sulfates",
+     "code": 1338,
+     "unite": "mg(SO4)/L",
+     "n": 43,
+     "max": 76.1,
+     "date_max": "2022-12-22",
+     "derniere": "2024-09-17"
+    },
+    {
+     "param": "Sélénium",
+     "code": 1385,
+     "unite": "µg(Se)/L",
+     "n": 13,
+     "max": 5.41,
+     "date_max": "2022-12-22",
+     "derniere": "2024-09-17"
+    },
+    {
+     "param": "Taux de saturation en oxygène",
+     "code": 1312,
+     "unite": "%",
+     "n": 13,
+     "max": 44.4,
+     "date_max": "2023-11-20",
+     "derniere": "2024-09-17"
+    },
+    {
+     "param": "Température de l'Eau",
+     "code": 1301,
+     "unite": "°C",
+     "n": 40,
+     "max": 16.6,
+     "date_max": "2024-09-17",
+     "derniere": "2024-09-17"
+    },
+    {
+     "param": "Température de l'air",
+     "code": 1409,
+     "unite": "°C",
+     "n": 1,
+     "max": 19.4,
+     "date_max": "2016-05-04",
+     "derniere": "2016-05-04"
+    },
+    {
+     "param": "Température de réception de l'échantillon au laboratoire",
+     "code": 8727,
+     "unite": "°C",
+     "n": 1,
+     "max": 6.0,
+     "date_max": "2024-03-11",
+     "derniere": "2024-03-11"
+    },
+    {
+     "param": "Terbuthylazine hydroxy",
+     "code": 1954,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.01,
+     "date_max": "2015-11-17",
+     "derniere": "2015-11-17"
+    },
+    {
+     "param": "Titre alcalimétrique (T.A.)",
+     "code": 1346,
+     "unite": "°f",
+     "n": 1,
+     "max": 0.0,
+     "date_max": "2024-03-11",
+     "derniere": "2024-03-11"
+    },
+    {
+     "param": "Titre alcalimétrique complet (T.A.C.)",
+     "code": 1347,
+     "unite": "°f",
+     "n": 34,
+     "max": 35.45,
+     "date_max": "2020-10-05",
+     "derniere": "2024-09-02"
+    },
+    {
+     "param": "Tramadol",
+     "code": 6720,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.346,
+     "date_max": "2023-09-18",
+     "derniere": "2023-09-18"
+    },
+    {
+     "param": "Turbidité Formazine Néphélométrique",
+     "code": 1295,
+     "unite": "NFU",
+     "n": 37,
+     "max": 1.1,
+     "date_max": "2015-12-01",
+     "derniere": "2024-09-17"
+    },
+    {
+     "param": "Zinc",
+     "code": 1383,
+     "unite": "µg(Zn)/L",
+     "n": 4,
+     "max": 2.93,
+     "date_max": "2024-03-11",
+     "derniere": "2024-09-17"
+    },
+    {
+     "param": "pH d'equilibre",
+     "code": 6488,
+     "unite": "unité pH",
+     "n": 5,
+     "max": 7.19,
+     "date_max": "2016-05-04",
+     "derniere": "2024-09-02"
+    }
+   ]
+  },
+  {
+   "bss_id": "BSS001QFBU",
+   "code_bss": "06337X0039/SPZB",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.21994835981097,
+   "lat": 46.1637323414694,
+   "nature": "Forage",
+   "profondeur": 15.15,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFDU",
+   "code_bss": "06337X0088/PZB",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.1946466884066,
+   "lat": 46.1567084346905,
+   "nature": "Forage",
+   "profondeur": 11.9,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFJU",
+   "code_bss": "06338X0106/PZ3",
+   "commune": "Périgny",
+   "code_insee": "17274",
+   "lon": -1.11622806064904,
+   "lat": 46.1581229368254,
+   "nature": "Forage",
+   "profondeur": null,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFKU",
+   "code_bss": "06338X0130/MW13",
+   "commune": "Aytré",
+   "code_insee": "17028",
+   "lon": -1.13179299792957,
+   "lat": 46.1346816765455,
+   "nature": "Forage",
+   "profondeur": 10.95,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QETU",
+   "code_bss": "06333X0019/SPZK",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.21203738417585,
+   "lat": 46.171636238679,
+   "nature": "Forage",
+   "profondeur": 14.37,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFBV",
+   "code_bss": "06337X0040/SPZC",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.21912465030771,
+   "lat": 46.1660098067074,
+   "nature": "Forage",
+   "profondeur": 14.0,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFCV",
+   "code_bss": "06337X0065/PZS4",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.19888631137629,
+   "lat": 46.1503346587523,
+   "nature": "Forage",
+   "profondeur": null,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFDV",
+   "code_bss": "06337X0089/PZC",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.1925443567351,
+   "lat": 46.1528564764387,
+   "nature": "Forage",
+   "profondeur": 7.2,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFJV",
+   "code_bss": "06338X0107/PZ4",
+   "commune": "Périgny",
+   "code_insee": "17274",
+   "lon": -1.11611008923701,
+   "lat": 46.158306654349,
+   "nature": "Forage",
+   "profondeur": null,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFKV",
+   "code_bss": "06338X0131/MW14",
+   "commune": "Aytré",
+   "code_insee": "17028",
+   "lon": -1.11954032753754,
+   "lat": 46.1379840556875,
+   "nature": "Forage",
+   "profondeur": 18.57,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QETV",
+   "code_bss": "06333X0020/SPZM",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.21458089615531,
+   "lat": 46.170880897505,
+   "nature": "Forage",
+   "profondeur": 12.01,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QGWV",
+   "code_bss": "06345X0117/F",
+   "commune": "Saint-Rogatien",
+   "code_insee": "17391",
+   "lon": -1.045381,
+   "lat": 46.152608,
+   "nature": "Forage",
+   "profondeur": null,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFBW",
+   "code_bss": "06337X0041/SPZD",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.21084796396928,
+   "lat": 46.1682962669236,
+   "nature": "Forage",
+   "profondeur": 11.06,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFCW",
+   "code_bss": "06337X0066/F2",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.19112575144011,
+   "lat": 46.1553684289442,
+   "nature": "Forage",
+   "profondeur": null,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFDW",
+   "code_bss": "06337X0090/PZD",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.19260536811926,
+   "lat": 46.1562048222007,
+   "nature": "Forage",
+   "profondeur": 6.82,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFJW",
+   "code_bss": "06338X0108/PZ5",
+   "commune": "Périgny",
+   "code_insee": "17274",
+   "lon": -1.10970404692814,
+   "lat": 46.1574215101798,
+   "nature": "Forage",
+   "profondeur": null,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFKW",
+   "code_bss": "06338X0132/MW2",
+   "commune": "Aytré",
+   "code_insee": "17028",
+   "lon": -1.11934512717123,
+   "lat": 46.1363329830859,
+   "nature": "Forage",
+   "profondeur": 15.4,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QETW",
+   "code_bss": "06333X0022/F",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.21364280522645,
+   "lat": 46.1714057041092,
+   "nature": "Forage",
+   "profondeur": 16.0,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFBX",
+   "code_bss": "06337X0042/SPZE",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.21014273075425,
+   "lat": 46.1674177839816,
+   "nature": "Forage",
+   "profondeur": 15.18,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFCX",
+   "code_bss": "06337X0067/F3",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.18969175873615,
+   "lat": 46.1578448156953,
+   "nature": "Forage",
+   "profondeur": null,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFDX",
+   "code_bss": "06337X0091/PZE",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.19297259182205,
+   "lat": 46.1572740795969,
+   "nature": "Forage",
+   "profondeur": null,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFJX",
+   "code_bss": "06338X0109/PZ6",
+   "commune": "Périgny",
+   "code_insee": "17274",
+   "lon": -1.11317492101328,
+   "lat": 46.1590266850111,
+   "nature": "Forage",
+   "profondeur": null,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFKX",
+   "code_bss": "06338X0133/PZ2",
+   "commune": "Aytré",
+   "code_insee": "17028",
+   "lon": -1.12131395545358,
+   "lat": 46.136533899654,
+   "nature": "Forage",
+   "profondeur": 14.0,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFBY",
+   "code_bss": "06337X0043/SPZF",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.20687662850994,
+   "lat": 46.1670248872942,
+   "nature": "Forage",
+   "profondeur": 15.32,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFCY",
+   "code_bss": "06337X0068/F4",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.19127949310313,
+   "lat": 46.1603529786047,
+   "nature": "Forage",
+   "profondeur": null,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFDY",
+   "code_bss": "06337X0092/PZF",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.19051479439752,
+   "lat": 46.1563421402891,
+   "nature": "Forage",
+   "profondeur": 5.9,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFJY",
+   "code_bss": "06338X0110/PZ7",
+   "commune": "Périgny",
+   "code_insee": "17274",
+   "lon": -1.11596368507301,
+   "lat": 46.1580409572437,
+   "nature": "Forage",
+   "profondeur": null,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFKY",
+   "code_bss": "06338X0134/PZ3",
+   "commune": "Aytré",
+   "code_insee": "17028",
+   "lon": -1.12102381811648,
+   "lat": 46.1364527234584,
+   "nature": "Forage",
+   "profondeur": 16.0,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFCZ",
+   "code_bss": "06337X0069/F5",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.19272059222566,
+   "lat": 46.1601909051373,
+   "nature": "Forage",
+   "profondeur": null,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFDZ",
+   "code_bss": "06337X0093/PZG",
+   "commune": "La Rochelle",
+   "code_insee": "17300",
+   "lon": -1.19080434462342,
+   "lat": 46.1582153655564,
+   "nature": "Forage",
+   "profondeur": 7.8,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFJZ",
+   "code_bss": "06338X0111/PZ8",
+   "commune": "Périgny",
+   "code_insee": "17274",
+   "lon": -1.11634603126745,
+   "lat": 46.1579392191793,
+   "nature": "Forage",
+   "profondeur": null,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFKZ",
+   "code_bss": "06338X0135/PZ6",
+   "commune": "Aytré",
+   "code_insee": "17028",
+   "lon": -1.12620859055589,
+   "lat": 46.1377258208046,
+   "nature": "Forage",
+   "profondeur": 15.0,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 0,
+   "premiere": null,
+   "derniere": null,
+   "reseaux": [],
+   "quantifies": []
+  },
+  {
+   "bss_id": "BSS001QFUZ",
+   "code_bss": "06342X0001/S.POMP",
+   "commune": "Vérines",
+   "code_insee": "17466",
+   "lon": -0.9669069947119215,
+   "lat": 46.19390003923568,
+   "nature": "Puits",
+   "profondeur": null,
+   "masse_eau": "Calcaires et marnes du Jurassique supérieur de l'Aunis libres",
+   "mesures_depuis_2015": 4742,
+   "premiere": "2015-02-20",
+   "derniere": "2025-12-05",
+   "reseaux": [
+    "0000000028",
+    "0000000077",
+    "0400001001",
+    "0400003229",
+    "0400003269",
+    "0500000051",
+    "0500000054"
+   ],
+   "quantifies": [
+    {
+     "param": "2-hydroxy atrazine",
+     "code": 1832,
+     "unite": "µg/L",
+     "n": 14,
+     "max": 0.017,
+     "date_max": "2015-10-07",
+     "derniere": "2025-12-05"
+    },
+    {
+     "param": "Anhydride carbonique libre",
+     "code": 1344,
+     "unite": "mg(CO2)/L",
+     "n": 1,
+     "max": 64.0,
+     "date_max": "2024-01-23",
+     "derniere": "2024-01-23"
+    },
+    {
+     "param": "Aspect de l'eau potable",
+     "code": 6489,
+     "unite": "X",
+     "n": 16,
+     "max": 1.0,
+     "date_max": "2021-10-27",
+     "derniere": "2025-12-05"
+    },
+    {
+     "param": "Bore",
+     "code": 1362,
+     "unite": "µg(B)/L",
+     "n": 4,
+     "max": 36.0,
+     "date_max": "2024-01-23",
+     "derniere": "2024-01-23"
+    },
+    {
+     "param": "Calcium",
+     "code": 1374,
+     "unite": "mg(Ca)/L",
+     "n": 6,
+     "max": 138.0,
+     "date_max": "2022-12-09",
+     "derniere": "2024-01-23"
+    },
+    {
+     "param": "Carbone Organique",
+     "code": 1841,
+     "unite": "mg(C)/L",
+     "n": 6,
+     "max": 3.3,
+     "date_max": "2016-02-03",
+     "derniere": "2024-01-23"
+    },
+    {
+     "param": "Chloridazone desphényl",
+     "code": 6378,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.47,
+     "date_max": "2025-09-05",
+     "derniere": "2025-09-05"
+    },
+    {
+     "param": "Chlorothalonil SA",
+     "code": 7717,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.043,
+     "date_max": "2025-06-11",
+     "derniere": "2025-06-11"
+    },
+    {
+     "param": "Chlorothalonil-R471811",
+     "code": 8865,
+     "unite": "µg/L",
+     "n": 8,
+     "max": 2.5,
+     "date_max": "2023-11-10",
+     "derniere": "2025-12-05"
+    },
+    {
+     "param": "Chlorures",
+     "code": 1337,
+     "unite": "mg(Cl)/L",
+     "n": 6,
+     "max": 37.0,
+     "date_max": "2018-06-21",
+     "derniere": "2024-01-23"
+    },
+    {
+     "param": "Conductivité à 25°C",
+     "code": 1303,
+     "unite": "µS/cm",
+     "n": 29,
+     "max": 831.0,
+     "date_max": "2022-12-09",
+     "derniere": "2025-12-05"
+    },
+    {
+     "param": "Couleur de l’eau destinée à la consommation humaine",
+     "code": 5900,
+     "unite": "X",
+     "n": 6,
+     "max": 1.0,
+     "date_max": "2016-02-03",
+     "derniere": "2024-01-23"
+    },
+    {
+     "param": "Dureté totale",
+     "code": 1345,
+     "unite": "°f",
+     "n": 6,
+     "max": 43.3,
+     "date_max": "2022-12-09",
+     "derniere": "2024-01-23"
+    },
+    {
+     "param": "Enterocoques",
+     "code": 6455,
+     "unite": "n/(100mL)",
+     "n": 4,
+     "max": 3.0,
+     "date_max": "2020-05-15",
+     "derniere": "2022-12-09"
+    },
+    {
+     "param": "Equilibre calcocarbonique de l’eau destinée à la consommation humaine",
+     "code": 5907,
+     "unite": "X",
+     "n": 6,
+     "max": 2.0,
+     "date_max": "2016-02-03",
+     "derniere": "2024-01-23"
+    },
+    {
+     "param": "Escherichia coli (E. coli)",
+     "code": 1449,
+     "unite": "n/(100mL)",
+     "n": 4,
+     "max": 2.0,
+     "date_max": "2016-02-03",
+     "derniere": "2022-12-09"
+    },
+    {
+     "param": "Fer",
+     "code": 1393,
+     "unite": "µg(Fe)/L",
+     "n": 1,
+     "max": 16.0,
+     "date_max": "2024-01-23",
+     "derniere": "2024-01-23"
+    },
+    {
+     "param": "Fluorure anion",
+     "code": 7073,
+     "unite": "mg/L",
+     "n": 6,
+     "max": 0.36,
+     "date_max": "2020-05-15",
+     "derniere": "2024-01-23"
+    },
+    {
+     "param": "Hydrocarbures dissous",
+     "code": 2962,
+     "unite": "µg/L",
+     "n": 2,
+     "max": 370.0,
+     "date_max": "2022-12-09",
+     "derniere": "2022-12-09"
+    },
+    {
+     "param": "Hydrogénocarbonates",
+     "code": 1327,
+     "unite": "mg(HCO3)/L",
+     "n": 3,
+     "max": 405.0,
+     "date_max": "2022-12-09",
+     "derniere": "2024-01-23"
+    },
+    {
+     "param": "Magnésium",
+     "code": 1372,
+     "unite": "mg(Mg)/L",
+     "n": 6,
+     "max": 16.0,
+     "date_max": "2022-12-09",
+     "derniere": "2024-01-23"
+    },
+    {
+     "param": "Manganèse",
+     "code": 1394,
+     "unite": "µg(Mn)/L",
+     "n": 1,
+     "max": 1.0,
+     "date_max": "2024-01-23",
+     "derniere": "2024-01-23"
+    },
+    {
+     "param": "Metolachlor ESA",
+     "code": 6854,
+     "unite": "µg/L",
+     "n": 2,
+     "max": 0.035,
+     "date_max": "2025-03-28",
+     "derniere": "2025-03-28"
+    },
+    {
+     "param": "Métazachlore OXA",
+     "code": 6894,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.029,
+     "date_max": "2020-10-02",
+     "derniere": "2020-10-02"
+    },
+    {
+     "param": "Nickel",
+     "code": 1386,
+     "unite": "µg(Ni)/L",
+     "n": 6,
+     "max": 2.22,
+     "date_max": "2018-06-21",
+     "derniere": "2024-01-23"
+    },
+    {
+     "param": "Nitrates",
+     "code": 1340,
+     "unite": "mg(NO3)/L",
+     "n": 28,
+     "max": 66.0,
+     "date_max": "2024-01-23",
+     "derniere": "2025-12-05"
+    },
+    {
+     "param": "Nitrites",
+     "code": 1339,
+     "unite": "mg(NO2)/L",
+     "n": 1,
+     "max": 0.02,
+     "date_max": "2024-01-23",
+     "derniere": "2024-01-23"
+    },
+    {
+     "param": "Odeur de l’eau destinée à la consommation humaine",
+     "code": 5901,
+     "unite": "X",
+     "n": 5,
+     "max": 0.0,
+     "date_max": "2018-06-21",
+     "derniere": "2024-01-23"
+    },
+    {
+     "param": "Oxygène dissous",
+     "code": 1311,
+     "unite": "mg(O2)/L",
+     "n": 1,
+     "max": 0.8,
+     "date_max": "2015-10-07",
+     "derniere": "2015-10-07"
+    },
+    {
+     "param": "Potassium",
+     "code": 1367,
+     "unite": "mg(K)/L",
+     "n": 6,
+     "max": 2.8,
+     "date_max": "2018-06-21",
+     "derniere": "2024-01-23"
+    },
+    {
+     "param": "Potentiel REDOX",
+     "code": 1330,
+     "unite": "mV",
+     "n": 1,
+     "max": 202.0,
+     "date_max": "2015-10-07",
+     "derniere": "2015-10-07"
+    },
+    {
+     "param": "Potentiel en Hydrogène (pH)",
+     "code": 1302,
+     "unite": "unité pH",
+     "n": 7,
+     "max": 7.3,
+     "date_max": "2020-05-15",
+     "derniere": "2024-01-23"
+    },
+    {
+     "param": "Saveur de l’eau destinée à la consommation humaine",
+     "code": 5902,
+     "unite": "X",
+     "n": 4,
+     "max": 0.0,
+     "date_max": "2018-06-21",
+     "derniere": "2022-12-09"
+    },
+    {
+     "param": "Silicates",
+     "code": 1342,
+     "unite": "mg(SiO2)/L",
+     "n": 5,
+     "max": 7.8,
+     "date_max": "2024-01-23",
+     "derniere": "2024-01-23"
+    },
+    {
+     "param": "Silice",
+     "code": 1348,
+     "unite": "mg(SiO2)/L",
+     "n": 1,
+     "max": 7.7,
+     "date_max": "2016-02-03",
+     "derniere": "2016-02-03"
+    },
+    {
+     "param": "Sodium",
+     "code": 1375,
+     "unite": "mg(Na)/L",
+     "n": 6,
+     "max": 18.0,
+     "date_max": "2020-05-15",
+     "derniere": "2024-01-23"
+    },
+    {
+     "param": "Somme des pesticides totaux",
+     "code": 6276,
+     "unite": "µg/L",
+     "n": 18,
+     "max": 2.5,
+     "date_max": "2023-11-10",
+     "derniere": "2025-12-05"
+    },
+    {
+     "param": "Somme du tetrachloroéthylène et du trichloroéthylène",
+     "code": 2963,
+     "unite": "µg/L",
+     "n": 1,
+     "max": 0.0,
+     "date_max": "2016-02-03",
+     "derniere": "2016-02-03"
+    },
+    {
+     "param": "Sulfates",
+     "code": 1338,
+     "unite": "mg(SO4)/L",
+     "n": 6,
+     "max": 68.8,
+     "date_max": "2022-12-09",
+     "derniere": "2024-01-23"
+    },
+    {
+     "param": "Sélénium",
+     "code": 1385,
+     "unite": "µg(Se)/L",
+     "n": 5,
+     "max": 4.05,
+     "date_max": "2022-12-09",
+     "derniere": "2022-12-09"
+    },
+    {
+     "param": "Taux de saturation en oxygène",
+     "code": 1312,
+     "unite": "%",
+     "n": 2,
+     "max": 36.1,
+     "date_max": "2016-02-03",
+     "derniere": "2016-02-03"
+    },
+    {
+     "param": "Température de l'Eau",
+     "code": 1301,
+     "unite": "°C",
+     "n": 2,
+     "max": 14.9,
+     "date_max": "2015-10-07",
+     "derniere": "2016-02-03"
+    },
+    {
+     "param": "Température de l'air",
+     "code": 1409,
+     "unite": "°C",
+     "n": 1,
+     "max": 9.4,
+     "date_max": "2016-02-03",
+     "derniere": "2016-02-03"
+    },
+    {
+     "param": "Titre alcalimétrique complet (T.A.C.)",
+     "code": 1347,
+     "unite": "°f",
+     "n": 6,
+     "max": 33.2,
+     "date_max": "2022-12-09",
+     "derniere": "2024-01-23"
+    },
+    {
+     "param": "Turbidité Formazine Néphélométrique",
+     "code": 1295,
+     "unite": "NFU",
+     "n": 5,
+     "max": 0.73,
+     "date_max": "2022-12-09",
+     "derniere": "2024-01-23"
+    },
+    {
+     "param": "pH d'equilibre",
+     "code": 6488,
+     "unite": "unité pH",
+     "n": 6,
+     "max": 7.2,
+     "date_max": "2024-01-23",
+     "derniere": "2024-01-23"
+    }
+   ]
+  }
+ ]
+}

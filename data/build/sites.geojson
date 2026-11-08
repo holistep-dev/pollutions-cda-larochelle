@@ -4427,6 +4427,31 @@
     },
     {
       "type": "Feature",
+      "id": "poussieres-scierie-atlantique-la-rochelle",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.214362,
+          46.153458
+        ]
+      },
+      "properties": {
+        "id": "poussieres-scierie-atlantique-la-rochelle",
+        "nom": "Émissions de poussières de la Scierie de l'Atlantique",
+        "commune": "La Rochelle",
+        "code_insee": "17300",
+        "categorie": "air",
+        "theme": "air",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 100,
+        "statut_preuve": "diagnostic_administratif",
+        "procedure_en_cours": false,
+        "statut_traitement": "inconnu",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
       "id": "projet-decharge-trou-rizzo-aytre",
       "geometry": {
         "type": "Polygon",
@@ -4786,6 +4811,81 @@
         "statut_preuve": "signalement_non_instruit",
         "procedure_en_cours": false,
         "statut_traitement": "inconnu",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rejets-depot-picoty-la-pallice",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.20994,
+          46.168699
+        ]
+      },
+      "properties": {
+        "id": "rejets-depot-picoty-la-pallice",
+        "nom": "Rejets d'eaux du dépôt pétrolier Picoty",
+        "commune": "La Rochelle",
+        "code_insee": "17300",
+        "categorie": "ressource_eau",
+        "theme": "ressource_eau",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 150,
+        "statut_preuve": "diagnostic_administratif",
+        "procedure_en_cours": true,
+        "statut_traitement": "sous_surveillance",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rejets-galva-atlantique-la-rochelle",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.201516,
+          46.156504
+        ]
+      },
+      "properties": {
+        "id": "rejets-galva-atlantique-la-rochelle",
+        "nom": "Rejets d'eaux pluviales de Galva Atlantique",
+        "commune": "La Rochelle",
+        "code_insee": "17300",
+        "categorie": "ressource_eau",
+        "theme": "ressource_eau",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 100,
+        "statut_preuve": "diagnostic_administratif",
+        "procedure_en_cours": true,
+        "statut_traitement": "sous_surveillance",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rejets-innovia-agrocean-la-rochelle",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.207765,
+          46.150005
+        ]
+      },
+      "properties": {
+        "id": "rejets-innovia-agrocean-la-rochelle",
+        "nom": "Rejets d'eaux industrielles d'Innov'ia, site Agrocéan",
+        "commune": "La Rochelle",
+        "code_insee": "17300",
+        "categorie": "ressource_eau",
+        "theme": "ressource_eau",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 100,
+        "statut_preuve": "diagnostic_administratif",
+        "procedure_en_cours": true,
+        "statut_traitement": "sous_surveillance",
         "visible_par_defaut": true
       }
     },

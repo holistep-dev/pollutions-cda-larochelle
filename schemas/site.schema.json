@@ -108,14 +108,25 @@
                   "valeur_indicative",
                   "seuil_sanitaire",
                   "valeur_de_gestion",
-                  "aucune"
+                  "aucune",
+                  "valeur_limite_emission"
                 ],
                 "description": "Ne jamais présenter un dépassement de limite de qualité comme un dépassement de seuil sanitaire."
+              },
+              "unite": {
+                "type": "string"
+              },
+              "source": {
+                "type": "string"
               }
             }
           },
           "source": {
             "$ref": "defs.schema.json#/$defs/slug"
+          },
+          "depassement_constate": {
+            "type": "boolean",
+            "description": "Dépassement d'une valeur limite constaté par l'administration, même si la valeur limite n'est pas publiée."
           }
         }
       }

@@ -1,0 +1,67 @@
+{
+  "commune": "La Rochelle",
+  "code_insee": "17300",
+  "precision_geo": "localisation_indicative",
+  "origine_trace": "Coordonnées de l'installation publiées par Géorisques.",
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": true,
+  "statut_preuve": "diagnostic_administratif",
+  "statut_traitement": "sous_surveillance",
+  "id": "rejets-galva-atlantique-la-rochelle",
+  "nom": "Rejets d'eaux pluviales de Galva Atlantique",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -1.201516,
+      46.156504
+    ]
+  },
+  "rayon_m": 100,
+  "categorie": "ressource_eau",
+  "pictogramme": "usine",
+  "milieux": [
+    "eau_superficielle"
+  ],
+  "substances": [
+    {
+      "libelle": "zinc au point de rejet des eaux pluviales du parc de stockage",
+      "milieu": "eau_superficielle",
+      "valeur": 6.8,
+      "unite": "mg/L",
+      "source": "dreal-inspection-galva-2025-07-01",
+      "depassement_constate": true,
+      "reference_reglementaire": {
+        "libelle": "Valeur limite d'émission au point de rejet",
+        "valeur": 3,
+        "unite": "mg/L",
+        "nature": "valeur_limite_emission"
+      }
+    }
+  ],
+  "periode": {
+    "debut": "2024",
+    "debut_statut": "datee",
+    "fin": null,
+    "fin_statut": "en_cours",
+    "note": "Arrêté de mise en demeure du 19 novembre 2024 ; dépassement en zinc qualifié de récurrent en juillet 2025."
+  },
+  "resume": "L'atelier de galvanisation à chaud de la zone de Chef-de-Baie est sous arrêté préfectoral de mise en demeure depuis le 19 novembre 2024. L'inspection du 1er juillet 2025 relève une concentration en zinc de 6,8 mg/l au point de rejet des eaux pluviales du parc de stockage, pour une valeur limite de 3 mg/l, et note que ce dépassement est récurrent. L'exploitant suit les eaux souterraines par quatre piézomètres, deux fois par an ; le rapport ne publie pas de résultat chiffré de ce suivi.",
+  "accroche": "Zinc au-dessus de la limite dans les rejets de Galva Atlantique",
+  "resume_court": "Zinc à 6,8 mg/l dans les eaux pluviales rejetées, pour une limite de 3 mg/l, de façon récurrente. L'exploitant est sous mise en demeure depuis novembre 2024.",
+  "procedure_en_cours": true,
+  "exploitants": [
+    {
+      "nom": "Galva Atlantique",
+      "source": "dreal-inspection-galva-2025-07-01"
+    }
+  ],
+  "sources": [
+    "dreal-inspection-galva-2025-07-01"
+  ],
+  "ce_qui_manque": [
+    {
+      "piece": "Le texte de l'arrêté de mise en demeure du 19 novembre 2024 et les résultats du suivi des eaux souterraines",
+      "ou_chercher": "Recueil des actes administratifs de la préfecture, DREAL Nouvelle-Aquitaine sur demande"
+    }
+  ]
+}

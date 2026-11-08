@@ -723,6 +723,72 @@
       "url": "https://www.georisques.gouv.fr/webappReport/ws/installations/inspection/ib7aObCR3ZXiDloocu5o9caBpyBdunrM",
       "acces": "libre",
       "consulte_le": "2026-11-08"
+    },
+    {
+      "id": "dreal-inspection-picoty-2025-11-17",
+      "type": "avis_administratif",
+      "auteur": "Inspection des installations classées, DREAL Nouvelle-Aquitaine",
+      "titre": "Rapport de l'inspection des installations classées, visite du 2025-11-17, Picoty, La Rochelle, partie publiable",
+      "date": "2025-11-17",
+      "url": "https://www.georisques.gouv.fr/webappReport/ws/installations/inspection/OYhFyEvoa6HTyFKOoGRMLL2eXke08G8S",
+      "reference": "Code AIOT 0007201452",
+      "acces": "libre",
+      "consulte_le": "2026-11-08"
+    },
+    {
+      "id": "dreal-inspection-picoty-2025-12-15",
+      "type": "avis_administratif",
+      "auteur": "Inspection des installations classées, DREAL Nouvelle-Aquitaine",
+      "titre": "Rapport de l'inspection des installations classées, visite du 2025-12-15, Picoty, La Rochelle, partie publiable",
+      "date": "2025-12-15",
+      "url": "https://www.georisques.gouv.fr/webappReport/ws/installations/inspection/vfgroFcA2IaPTymSequCEBRYyQMxSZJN",
+      "reference": "Code AIOT 0007201452",
+      "acces": "libre",
+      "consulte_le": "2026-11-08"
+    },
+    {
+      "id": "dreal-inspection-galva-2025-07-01",
+      "type": "avis_administratif",
+      "auteur": "Inspection des installations classées, DREAL Nouvelle-Aquitaine",
+      "titre": "Rapport de l'inspection des installations classées, visite du 2025-07-01, Galva Atlantique, La Rochelle, partie publiable",
+      "date": "2025-07-01",
+      "url": "https://www.georisques.gouv.fr/webappReport/ws/installations/inspection/JGj4LlzInJeNfnT35EqfOIwEsldjLuzn",
+      "reference": "Code AIOT 0007201431",
+      "acces": "libre",
+      "consulte_le": "2026-11-08"
+    },
+    {
+      "id": "dreal-inspection-innovia-2025-08-05",
+      "type": "avis_administratif",
+      "auteur": "Inspection des installations classées, DREAL Nouvelle-Aquitaine",
+      "titre": "Rapport de l'inspection des installations classées, visite du 2025-08-05, Innov'ia, site Agrocéan, La Rochelle, partie publiable",
+      "date": "2025-08-05",
+      "url": "https://www.georisques.gouv.fr/webappReport/ws/installations/inspection/vMPNst0qvMnVxM0cTbenK99WaRpAaART",
+      "reference": "Code AIOT 0007204476",
+      "acces": "libre",
+      "consulte_le": "2026-11-08"
+    },
+    {
+      "id": "dreal-inspection-innovia-2026-01-30",
+      "type": "avis_administratif",
+      "auteur": "Inspection des installations classées, DREAL Nouvelle-Aquitaine",
+      "titre": "Rapport de l'inspection des installations classées, visite du 2026-01-30, Innov'ia, La Rochelle, partie publiable",
+      "date": "2026-01-30",
+      "url": "https://www.georisques.gouv.fr/webappReport/ws/installations/inspection/3VUa3xO9N8ut4uqCCmuaKHwhj3fCNlKU",
+      "reference": "Code AIOT 0007204476",
+      "acces": "libre",
+      "consulte_le": "2026-11-08"
+    },
+    {
+      "id": "dreal-inspection-scierie-atlantique-2022-10-10",
+      "type": "avis_administratif",
+      "auteur": "Inspection des installations classées, DREAL Nouvelle-Aquitaine",
+      "titre": "Rapport de l'inspection des installations classées, visite du 2022-10-10, Scierie de l'Atlantique, La Rochelle, partie publiable",
+      "date": "2022-10-10",
+      "url": "https://www.georisques.gouv.fr/webappReport/ws/installations/inspection/lkAiaWYhx4cZAedRr30qlaxRNgoyW6pa",
+      "reference": "Code AIOT 0007203864",
+      "acces": "libre",
+      "consulte_le": "2026-11-08"
     }
   ]
 }

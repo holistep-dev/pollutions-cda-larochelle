@@ -11,12 +11,26 @@ export function comparer(sub, references) {
   const ref = referenceDe(sub.libelle, references);
   const out = { cle: ref?.cle ?? null, circ: ref?.circ ?? null, effets: ref?.effets ?? null, effets_source: references.sources[ref?.effets_source]?.titre ?? null, reperes: [], verdict: "sans_repere" };
   // Air ambiant : aucune valeur réglementaire pour les pesticides, on le dit pour chaque molécule.
-  if (sub.milieu === "air" && !(ref?.valeurs ?? []).some((v) => v.milieu === "air")) {
+  if (sub.milieu === "air" && sub.reference_reglementaire?.nature !== "valeur_limite_emission" && !(ref?.valeurs ?? []).some((v) => v.milieu === "air")) {
     const air = references.substances.find((r) => r.cle === "pesticides dans l'air")?.valeurs[0];
     if (air) out.reperes.push({ libelle: air.libelle, nature: "aucune", source: references.sources[air.source]?.titre ?? null, source_url: references.sources[air.source]?.url ?? null });
   }
-  if (!ref) return out;
-  const fin = () => { out.verdict = verdictDe(out.reperes); return out; };
+  const fin = () => {
+    out.verdict = verdictDe(out.reperes);
+    if (sub.depassement_constate && out.verdict !== "au_dessus_seuil") out.verdict = "au_dessus_seuil";
+    return out;
+  };
+  // Valeur limite propre à l'installation, citée par l'administration.
+  const rr = sub.reference_reglementaire;
+  if (rr?.nature === "valeur_limite_emission") {
+    const rep = { libelle: rr.libelle, nature: "valeur_limite_emission", valeur: rr.valeur ?? null, unite: rr.unite ?? sub.unite, source: null };
+    if (rr.valeur != null && sub.valeur != null && (rr.unite ?? sub.unite) === sub.unite) {
+      rep.rapport = sub.valeur / rr.valeur;
+      rep.texte = rep.rapport >= 1.05 ? `${nombre(Math.round(rep.rapport * 10) / 10)} fois cette valeur` : "en dessous de cette valeur";
+    } else if (sub.depassement_constate) rep.texte = "dépassement constaté par l'inspection";
+    out.reperes.push(rep);
+  }
+  if (!ref) return fin();
   const u = UNITES[sub.unite];
   for (const v of ref.valeurs.filter((x) => x.milieu === sub.milieu)) {
     const repere = { libelle: v.libelle, nature: v.nature, source: references.sources[v.source]?.titre ?? null, source_url: references.sources[v.source]?.url ?? null };
