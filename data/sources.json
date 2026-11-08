@@ -703,6 +703,26 @@
       "date": "2025-03",
       "acces": "libre",
       "consulte_le": "2026-11-08"
+    },
+    {
+      "id": "dreal-inspection-alstom-2023-12-07",
+      "type": "avis_administratif",
+      "auteur": "Inspection des installations classées, DREAL Nouvelle-Aquitaine",
+      "titre": "Rapport de l'inspection des installations classées, visite du 7 décembre 2023, Alstom Transport à Aytré, partie publiable",
+      "date": "2023-12-07",
+      "url": "https://www.georisques.gouv.fr/webappReport/ws/installations/inspection/CIwWodNQCo0kMFGVWa8zwLfdX5AhRk8k",
+      "acces": "libre",
+      "consulte_le": "2026-11-08"
+    },
+    {
+      "id": "dreal-inspection-alstom-2026-05-20",
+      "type": "avis_administratif",
+      "auteur": "Inspection des installations classées, DREAL Nouvelle-Aquitaine",
+      "titre": "Rapport de l'inspection des installations classées, visite du 20 mai 2026, Alstom Transport à Aytré, partie publiable",
+      "date": "2026-05-20",
+      "url": "https://www.georisques.gouv.fr/webappReport/ws/installations/inspection/ib7aObCR3ZXiDloocu5o9caBpyBdunrM",
+      "acces": "libre",
+      "consulte_le": "2026-11-08"
     }
   ]
 }

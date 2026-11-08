@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
-import { COULEURS, cleIcone, iconeSite, svgIcone, urlIcone } from "../lib/icones";
+import { COULEURS, cleIcone, iconeSite, svgGrappe, svgIcone, urlIcone } from "../lib/icones";
 import {
   Definition, ETATS_EAU, ETATS_PLAGE, PanneauAgri, PanneauCaptage, PanneauCommune, PanneauNature, PanneauRobinet, PanneauSignal, PanneauSite, nb,
 } from "./Panneaux";
@@ -16,10 +16,10 @@ const GROUPES = [
     def: "Eau du robinet par commune sur douze mois, captages d'eau potable, qualité des plages." },
   { id: "air", libelle: "Air", types: ["air"], icone: { glyphe: "vent", fond: COULEURS.air },
     def: "Pesticides mesurés dans l'air par Atmo Nouvelle-Aquitaine, émissions de l'incinérateur." },
-  { id: "agriculture", libelle: "Agriculture", types: [], bicolore: true,
-    def: "Parcelles conventionnelles, où les pesticides de synthèse sont autorisés, et parcelles bio, d'après les déclarations PAC 2023." },
   { id: "sante", libelle: "Santé", types: [], hachure: true,
     def: "Signaux sanitaires issus d'études épidémiologiques. Ce ne sont pas des pollutions. Aucun lien de cause à effet n'est établi avec la carte." },
+  { id: "agriculture", libelle: "Agriculture", types: [], bicolore: true,
+    def: "Parcelles conventionnelles, où les pesticides de synthèse sont autorisés, et parcelles bio, d'après les déclarations PAC 2023." },
   { id: "nature", libelle: "Nature protégée", types: [], icone: { glyphe: "feuille", fond: COULEURS.nature },
     def: "Réserves naturelles, Natura 2000, arrêtés de biotope, Conservatoire du littoral, parc naturel régional. Contexte, pas pollution." },
 ];
@@ -56,12 +56,47 @@ function hachures(couleur, pas = 8, epaisseur = 1.5) {
   return x.getImageData(0, 0, t, t);
 }
 
-async function chargerIcone(m, cle, o) {
+async function chargerSvg(m, cle, svg) {
   if (m.hasImage(cle)) return;
-  const img = new Image(64, 64);
-  img.src = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(svgIcone(o));
+  const img = new Image(96, 96);
+  img.src = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(svg);
   await img.decode();
   if (!m.hasImage(cle)) m.addImage(cle, img, { pixelRatio: 2 });
+}
+const chargerIcone = (m, cle, o) => chargerSvg(m, cle, svgIcone(o));
+
+// Repères presque superposés (moins de 50 m) : écartés en cercle autour de leur position moyenne.
+function ecarter(features) {
+  const groupes = [];
+  for (const f of features) {
+    const [x, y] = f.geometry.coordinates;
+    const g = groupes.find((g) => Math.hypot((g.x - x) * 77000, (g.y - y) * 111000) < 50);
+    if (g) g.f.push(f);
+    else groupes.push({ x, y, f: [f] });
+  }
+  for (const g of groupes) {
+    if (g.f.length < 2) continue;
+    const r = 30 + 6 * g.f.length;
+    g.f.forEach((f, i) => {
+      const a = (2 * Math.PI * i) / g.f.length - Math.PI / 2;
+      f.geometry = { type: "Point", coordinates: [g.x + (r * Math.cos(a)) / 77000, g.y + (r * Math.sin(a)) / 111000] };
+    });
+  }
+  return features;
+}
+
+// Monde moins la commune : voile blanc qui isole la commune choisie.
+function masqueHors(geom) {
+  const polys = geom.type === "Polygon" ? [geom.coordinates] : geom.coordinates;
+  return { type: "Feature", properties: {}, geometry: { type: "Polygon", coordinates: [[[-10, 40], [10, 40], [10, 52], [-10, 52], [-10, 40]], ...polys.map((p) => p[0])] } };
+}
+
+// Captages reliés à une commune : par les réseaux qui la desservent, ou situés sur son territoire.
+function captagesDe(donnees, code, nom) {
+  const reseaux = donnees.robinets?.communes[code]?.reseaux ?? [];
+  const codes = new Set(reseaux.flatMap((k) => (donnees.installations?.[k]?.installations ?? []).flatMap((i) => i.captages)));
+  for (const f of donnees.captages?.features ?? []) if (f.properties.commune === nom) codes.add(f.properties.code);
+  return [...codes];
 }
 
 export default function Carte({ bandeau }) {
@@ -70,7 +105,10 @@ export default function Carte({ bandeau }) {
   const survol = useRef(null);
   const [donnees, setDonnees] = useState(null);
   const [agri, setAgri] = useState(null);
-  const [actifs, setActifs] = useState({ sol: true, eau: true, air: true, agriculture: true, sante: true, nature: false });
+  const [actifs, setActifs] = useState({ sol: true, eau: true, air: true, sante: true, agriculture: false, nature: false });
+  const [focus, setFocus] = useState(null);
+  const focusRef = useRef(null);
+  focusRef.current = focus;
   const [nature, setNature] = useState(null);
   const [recherche, setRecherche] = useState("");
   const [messageRecherche, setMessageRecherche] = useState("");
@@ -97,6 +135,13 @@ export default function Carte({ bandeau }) {
           f.properties.icone = cleIcone(o);
           f.properties.iconeDef = o;
         }
+        // Une seule source pour tous les pictogrammes, regroupés quand ils se chevauchent.
+        const pt = (f, couche, extra) => ({ type: "Feature", geometry: f.geometry, properties: { ...f.properties, iconeDef: undefined, couche, ...extra } });
+        d.points = ecarter([
+          ...d.reperes.features.map((f) => pt(f, "site")),
+          ...(d.robinets?.points.features ?? []).map((f) => pt(f, "robinet", { communes: f.properties.code_insee })),
+          ...(d.captages?.features ?? []).map((f) => pt(f, "captage", { icone: "captage" })),
+        ]);
         setDonnees(d);
       })
       .catch(() => setDonnees({ erreur: true }));
@@ -139,9 +184,18 @@ export default function Carte({ bandeau }) {
       m.addSource("communes", { type: "geojson", data: donnees.communes });
       m.addSource("signaux", { type: "geojson", data: donnees.signaux });
       m.addSource("surfaces", { type: "geojson", data: donnees.surfaces });
-      m.addSource("reperes", { type: "geojson", data: donnees.reperes });
-      m.addSource("robinets", { type: "geojson", data: donnees.robinets?.points ?? { type: "FeatureCollection", features: [] } });
+      m.addSource("points", { type: "geojson", data: { type: "FeatureCollection", features: [] }, cluster: true, clusterRadius: 40, clusterMaxZoom: 15 });
       m.addSource("captages", { type: "geojson", data: donnees.captages ?? { type: "FeatureCollection", features: [] } });
+      m.addSource("masque", { type: "geojson", data: { type: "FeatureCollection", features: [] } });
+      m.on("styleimagemissing", (e) => {
+        const n = /^grappe-(\d+)$/.exec(e.id);
+        if (!n) return;
+        // Image provisoire synchrone, remplacée dès que le SVG est décodé.
+        m.addImage(e.id, { width: 1, height: 1, data: new Uint8Array(4) });
+        const img = new Image(96, 96);
+        img.src = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(svgGrappe(+n[1]));
+        img.decode().then(() => { m.removeImage(e.id); m.addImage(e.id, img, { pixelRatio: 2 }); });
+      });
 
       const famille = ["get", "famille"];
       m.addLayer({
@@ -170,6 +224,9 @@ export default function Carte({ bandeau }) {
         paint: { "line-color": COULEURS.signaux, "line-width": ["case", ["==", ["get", "niveau_source"], "presse"], 1.2, 2.2], "line-dasharray": [2, 1.5] },
       });
 
+      m.addLayer({ id: "masque", type: "fill", source: "masque", paint: { "fill-color": "#f4f7fa", "fill-opacity": 0.82 } });
+      m.addLayer({ id: "commune-focus", type: "line", source: "communes", filter: ["==", ["get", "code_insee"], ""], paint: { "line-color": "#0d2b45", "line-width": 2.6 } });
+
       const couleurSurface = ["case", ["==", ["get", "type"], "baignade"],
         ["match", ["coalesce", ["get", "baignade_couleur"], "gris"], "vert", COULEURS.vert, "orange", COULEURS.orange, "rouge", COULEURS.rouge, COULEURS.gris],
         ["match", ["get", "type"], "projets", COULEURS.projets, "air", COULEURS.air, "eau", COULEURS.eau, COULEURS.sols]];
@@ -177,42 +234,40 @@ export default function Carte({ bandeau }) {
       m.addLayer({ id: "surfaces-trait", type: "line", source: "surfaces", minzoom: 11.5, paint: { "line-color": couleurSurface, "line-width": 1.2, "line-dasharray": [2, 1.5] } });
 
       m.addLayer({
-        id: "captages", type: "symbol", source: "captages",
-        layout: { "icon-image": "captage", "icon-size": ["interpolate", ["linear"], ["zoom"], 9, 0.45, 10.5, 0.65, 14, 0.9], "icon-allow-overlap": true },
+        id: "captages-selection", type: "circle", source: "captages", filter: ["in", ["get", "code"], ["literal", []]],
+        paint: { "circle-radius": 34, "circle-color": "rgba(3,105,161,0.18)", "circle-stroke-color": COULEURS.eau, "circle-stroke-width": 3 },
+      });
+      const taille = ["interpolate", ["linear"], ["zoom"], 9, 0.62, 12, 0.72, 15, 0.85];
+      m.addLayer({
+        id: "points", type: "symbol", source: "points", filter: ["!", ["has", "point_count"]],
+        layout: { "icon-image": ["get", "icone"], "icon-size": taille, "icon-allow-overlap": true, "icon-ignore-placement": true },
+        paint: { "icon-opacity": ["case", ["==", ["get", "preuve"], "procedure_en_cours"], 0.8, 1] },
       });
       m.addLayer({
-        id: "captages-selection", type: "circle", source: "captages", filter: ["in", ["get", "code"], ["literal", []]],
-        paint: { "circle-radius": 26, "circle-color": "rgba(3,105,161,0.18)", "circle-stroke-color": COULEURS.eau, "circle-stroke-width": 3 },
+        id: "grappes", type: "symbol", source: "points", filter: ["has", "point_count"],
+        layout: { "icon-image": ["concat", "grappe-", ["to-string", ["get", "point_count"]]], "icon-size": taille, "icon-allow-overlap": true, "icon-ignore-placement": true },
       });
       m.addLayer({
         id: "captages-grands", type: "symbol", source: "captages", filter: ["in", ["get", "code"], ["literal", []]],
-        layout: { "icon-image": "captage", "icon-size": 1.5, "icon-allow-overlap": true },
+        layout: { "icon-image": "captage", "icon-size": 1.05, "icon-allow-overlap": true },
       });
       m.addLayer({
-        id: "reperes", type: "symbol", source: "reperes",
-        layout: { "icon-image": ["get", "icone"], "icon-size": ["interpolate", ["linear"], ["zoom"], 9, 0.5, 10.5, 0.75, 14, 1], "icon-allow-overlap": true, "symbol-sort-key": ["case", ["==", ["get", "type"], "baignade"], 1, 2] },
-        paint: { "icon-opacity": ["case", ["==", ["get", "preuve"], "procedure_en_cours"], 0.7, 1] },
-      });
-      m.addLayer({
-        id: "robinets", type: "symbol", source: "robinets",
-        layout: { "icon-image": ["get", "icone"], "icon-size": ["interpolate", ["linear"], ["zoom"], 9, 0.5, 10.5, 0.75, 14, 1], "icon-allow-overlap": true },
-      });
-      m.addLayer({
-        id: "selection", type: "circle", source: "reperes", filter: ["==", ["get", "id"], ""],
-        paint: { "circle-radius": 20, "circle-color": "rgba(0,0,0,0)", "circle-stroke-color": "#0d2b45", "circle-stroke-width": 3 },
+        id: "selection", type: "circle", source: "points", filter: ["==", ["get", "id"], ""],
+        paint: { "circle-radius": ["interpolate", ["linear"], ["zoom"], 9, 17, 15, 23], "circle-color": "rgba(0,0,0,0)", "circle-stroke-color": "#0d2b45", "circle-stroke-width": 3 },
       });
 
       survol.current = new maplibregl.Popup({ closeButton: false, closeOnClick: false, className: "survol", offset: 16 });
       const visibles = (ids) => ids.filter((id) => m.getLayer(id) && m.getLayoutProperty(id, "visibility") !== "none");
-      const cliquables = () => visibles(["robinets", "captages", "reperes", "surfaces-fond"]);
+      const cliquables = () => visibles(["grappes", "points", "surfaces-fond"]);
 
       m.on("mousemove", (e) => {
         const f = m.queryRenderedFeatures(e.point, { layers: cliquables() });
         m.getCanvas().style.cursor = f.length ? "pointer" : "";
         if (!f.length) return survol.current.remove();
         const p = f[0].properties;
-        const titre = f[0].layer.id === "robinets" ? `Eau du robinet, ${p.nom}` : p.nom;
-        const sous = f[0].layer.id === "robinets" ? ETATS_EAU[p.etat]?.libelle : f[0].layer.id === "captages" ? "captage d'eau potable" : p.type === "baignade" ? ETATS_PLAGE[p.baignade_couleur]?.libelle : p.preuve_libelle;
+        const grappe = f[0].layer.id === "grappes";
+        const titre = grappe ? `${p.point_count} éléments proches` : p.couche === "robinet" ? `Eau du robinet, ${p.nom}` : p.accroche ?? p.nom;
+        const sous = grappe ? "cliquer pour zoomer" : p.couche === "robinet" ? ETATS_EAU[p.etat]?.libelle : p.couche === "captage" ? "captage d'eau potable" : p.type === "baignade" ? ETATS_PLAGE[p.baignade_couleur]?.libelle : p.preuve_libelle;
         survol.current.setLngLat(e.lngLat).setHTML("<b></b><span></span>").addTo(m);
         const el = survol.current.getElement();
         el.querySelector("b").textContent = titre;
@@ -224,19 +279,33 @@ export default function Carte({ bandeau }) {
         survol.current?.remove();
         const f = m.queryRenderedFeatures(e.point, { layers: cliquables() });
         if (f.length) {
-          const l = f[0].layer.id;
-          if (l === "robinets") return setSelection({ genre: "robinet", code: f[0].properties.code_insee });
-          if (l === "captages") return setSelection({ genre: "captage", props: f[0].properties });
-          return setSelection({ genre: "site", id: f[0].properties.id });
+          const p = f[0].properties;
+          if (f[0].layer.id === "grappes") {
+            const geo = f[0].geometry.coordinates;
+            m.getSource("points").getClusterExpansionZoom(p.cluster_id).then((z) => m.easeTo({ center: geo, zoom: Math.min(z + 0.3, 17), duration: 600 }));
+            return;
+          }
+          if (p.couche === "robinet") return setSelection({ genre: "robinet", code: p.code_insee });
+          if (p.couche === "captage") return setSelection({ genre: "captage", props: p });
+          return setSelection({ genre: "site", id: p.id });
+        }
+        const com = m.queryRenderedFeatures(e.point, { layers: ["communes-fond"] });
+        // En mode commune, un clic hors de la commune revient à l'agglomération entière.
+        if (focusRef.current && com[0]?.properties.code_insee !== focusRef.current) {
+          setFocus(null);
+          setSelection(null);
+          return;
         }
         const sig = m.queryRenderedFeatures(e.point, { layers: visibles(["signaux-fond"]) });
         if (sig.length) return setSelection({ genre: "signal", id: sig[0].properties.id });
         const nat = m.queryRenderedFeatures(e.point, { layers: visibles(["nature-fond"]) });
         if (nat.length) return setSelection({ genre: "nature", props: nat[0].properties });
-        const com = m.queryRenderedFeatures(e.point, { layers: ["communes-fond"] });
         const ag = m.queryRenderedFeatures(e.point, { layers: visibles(["agri-bio", "agri-conv"]) });
         if (ag.length) return setSelection({ genre: "agri", props: ag[0].properties, commune: com[0]?.properties?.nom });
-        if (com.length) return setSelection({ genre: "commune", code: com[0].properties.code_insee });
+        if (com.length) {
+          setFocus(com[0].properties.code_insee);
+          return setSelection({ genre: "commune", code: com[0].properties.code_insee });
+        }
         setSelection(null);
       });
       setPret(true);
@@ -261,20 +330,45 @@ export default function Carte({ bandeau }) {
     if (carte.current && pret && nature) carte.current.getSource("nature").setData(nature);
   }, [nature, pret]);
 
+  const nomFocus = focus ? donnees?.communes.features.find((f) => f.properties.code_insee === focus)?.properties.nom : null;
+  const dansFocus = (p) => !focus || (p.communes ?? "").split(",").includes(focus) || (p.couche === "captage" && captagesFocus.includes(p.code));
+  const captagesFocus = useMemo(() => (focus && donnees ? captagesDe(donnees, focus, nomFocus) : []), [focus, donnees, nomFocus]);
+
   useEffect(() => {
     const m = carte.current;
     if (!m || !pret) return;
     const types = GROUPES.filter((g) => actifs[g.id]).flatMap((g) => g.types);
     const niv = PREUVES.filter((p) => preuves[p]);
+    const garde = (p) => {
+      if (!dansFocus(p)) return false;
+      if (p.couche === "robinet" || p.couche === "captage") return actifs.eau;
+      return types.includes(p.type) && niv.includes(p.preuve) && (rehabilites || !p.rehabilite);
+    };
+    m.getSource("points").setData({ type: "FeatureCollection", features: donnees.points.filter((f) => garde(f.properties)) });
     const filtre = ["all", ["in", ["get", "type"], ["literal", types]], ["in", ["get", "preuve"], ["literal", niv]]];
     if (!rehabilites) filtre.push(["!", ["get", "rehabilite"]]);
-    for (const id of ["surfaces-fond", "surfaces-trait", "reperes"]) m.setFilter(id, filtre);
+    if (focus) filtre.push(["in", focus, ["get", "communes"]]);
+    for (const id of ["surfaces-fond", "surfaces-trait"]) m.setFilter(id, filtre);
     const vis = (ids, on) => ids.forEach((id) => m.setLayoutProperty(id, "visibility", on ? "visible" : "none"));
     vis(["signaux-fond", "signaux-trait"], actifs.sante);
-    vis(["robinets", "captages", "captages-selection", "captages-grands"], actifs.eau);
+    vis(["captages-selection", "captages-grands"], actifs.eau);
     vis(["agri-conv", "agri-bio-fond", "agri-bio"], actifs.agriculture);
     vis(["nature-fond", "nature-trait"], actifs.nature);
-  }, [actifs, preuves, rehabilites, pret]);
+    // Commune choisie : voile autour, contour appuyé, cadrage.
+    const com = focus ? donnees.communes.features.find((f) => f.properties.code_insee === focus) : null;
+    m.getSource("masque").setData({ type: "FeatureCollection", features: com ? [masqueHors(com.geometry)] : [] });
+    m.setFilter("commune-focus", ["==", ["get", "code_insee"], focus ?? ""]);
+    m.setPaintProperty("communes-trait", "line-opacity", focus ? 0 : 0.45);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [actifs, preuves, rehabilites, pret, focus, captagesFocus]);
+
+  useEffect(() => {
+    const m = carte.current;
+    if (!m || !pret) return;
+    const com = focus ? donnees.communes.features.find((f) => f.properties.code_insee === focus) : null;
+    if (com) m.fitBounds(emprise([com.geometry]), { padding: 50, maxZoom: 14, duration: 800 });
+    else m.fitBounds([-1.26, 46.03, -0.93, 46.27], { padding: 20, duration: 800 });
+  }, [focus, pret, donnees]);
 
   useEffect(() => {
     const m = carte.current;
@@ -306,18 +400,24 @@ export default function Carte({ bandeau }) {
     if (!trouvees.length && !/^\d/.test(q)) trouvees = toutes.filter((f) => sansAccent(f.properties.nom).includes(q));
     if (!trouvees.length) return setMessageRecherche("Hors des 28 communes ou introuvable.");
     setMessageRecherche(trouvees.length > 1 ? `${trouvees.length} communes : ${trouvees.map((f) => f.properties.nom).join(", ")}` : "");
-    carte.current?.fitBounds(emprise(trouvees.map((f) => f.geometry)), { padding: 50, duration: 900 });
-    if (trouvees.length === 1) setSelection({ genre: "commune", code: trouvees[0].properties.code_insee });
+    if (trouvees.length === 1) {
+      setFocus(trouvees[0].properties.code_insee);
+      setSelection({ genre: "commune", code: trouvees[0].properties.code_insee });
+    } else {
+      setFocus(null);
+      carte.current?.fitBounds(emprise(trouvees.map((f) => f.geometry)), { padding: 50, duration: 900 });
+    }
   };
 
   const proprietes = useMemo(() => (donnees?.reperes?.features ?? []).map((f) => f.properties), [donnees]);
   const compte = (g) => {
     if (g.id === "sante") return donnees?.signaux_liste?.length ?? 0;
     if (g.id === "agriculture" || g.id === "nature") return null;
-    const n = proprietes.filter((p) => g.types.includes(p.type) && (rehabilites || !p.rehabilite)).length;
-    return g.id === "eau" ? n + (donnees?.robinets?.points.features.length ?? 0) + (donnees?.captages?.features.length ?? 0) : n;
+    const n = proprietes.filter((p) => g.types.includes(p.type) && (rehabilites || !p.rehabilite) && dansFocus(p)).length;
+    if (g.id !== "eau") return n;
+    return n + (donnees?.points ?? []).filter((f) => (f.properties.couche === "robinet" || f.properties.couche === "captage") && dansFocus(f.properties)).length;
   };
-  const comptePreuve = (id) => proprietes.filter((p) => p.preuve === id && (rehabilites || !p.rehabilite)).length;
+  const comptePreuve = (id) => proprietes.filter((p) => p.preuve === id && (rehabilites || !p.rehabilite) && dansFocus(p)).length;
   const nbRehabilites = proprietes.filter((p) => p.rehabilite).length;
   const lib = donnees?.libelles;
 
@@ -329,6 +429,11 @@ export default function Carte({ bandeau }) {
 
   let panneau = null;
   const fermer = () => setSelection(null);
+  const quitterCommune = () => {
+    setFocus(null);
+    setSelection(null);
+    setRecherche("");
+  };
   if (selection?.genre === "site") {
     const p = proprietes.find((x) => x.id === selection.id);
     if (p) panneau = <PanneauSite p={p} d={donnees.details[p.id]} libelles={lib} fermer={fermer} icone={p.iconeUrl} />;
@@ -337,9 +442,10 @@ export default function Carte({ bandeau }) {
     if (c) panneau = <PanneauRobinet key={c.code_insee} commune={c} robinets={donnees.robinets} eau={donnees.eau} installations={donnees.installations} captages={donnees.captages} fermer={fermer} />;
   } else if (selection?.genre === "captage") {
     panneau = <PanneauCaptage p={selection.props} fermer={fermer} />;
-  } else if (selection?.genre === "commune") {
-    const c = donnees.communes.features.find((f) => f.properties.code_insee === selection.code)?.properties;
-    if (c) panneau = <PanneauCommune key={c.code_insee} c={c} donnees={donnees} actifs={actifs} fermer={fermer} />;
+  } else if (selection?.genre === "commune" || (!selection && focus)) {
+    const code = selection?.code ?? focus;
+    const c = donnees.communes.features.find((f) => f.properties.code_insee === code)?.properties;
+    if (c) panneau = <PanneauCommune key={c.code_insee} c={c} donnees={donnees} actifs={actifs} fermer={quitterCommune} />;
   } else if (selection?.genre === "signal") {
     const s = donnees.signaux_liste.find((x) => x.id === selection.id);
     if (s) panneau = <PanneauSignal s={s} bandeau={bandeau} fermer={fermer} />;
@@ -362,22 +468,27 @@ export default function Carte({ bandeau }) {
           <a href="/restrictions">Restrictions d&apos;usage</a>
           <a href="/mentions-legales">Méthode</a>
         </nav>
-        <form className="recherche" onSubmit={chercher} role="search">
-          <input
-            type="search" list="liste-communes" value={recherche} onChange={(e) => { setRecherche(e.target.value); setMessageRecherche(""); }}
-            placeholder="Commune ou code postal" aria-label="Rechercher une commune ou un code postal"
-          />
-          <datalist id="liste-communes">
-            {(donnees?.communes?.features ?? []).map((f) => (
-              <option key={f.properties.code_insee} value={`${f.properties.nom} (${(donnees.codes_postaux?.[f.properties.code_insee] ?? []).join(", ")})`} />
-            ))}
-          </datalist>
-          <button type="submit">Aller</button>
-          {messageRecherche ? <span className="recherche-message">{messageRecherche}</span> : null}
-        </form>
       </header>
 
       <div className="filtres" role="group" aria-label="Filtres de la carte">
+      <form className="recherche" onSubmit={chercher} role="search">
+        <input
+          type="search" list="liste-communes" value={recherche} onChange={(e) => { setRecherche(e.target.value); setMessageRecherche(""); }}
+          placeholder="Commune ou code postal" aria-label="Rechercher une commune ou un code postal"
+        />
+        <datalist id="liste-communes">
+          {(donnees?.communes?.features ?? []).map((f) => (
+            <option key={f.properties.code_insee} value={`${f.properties.nom} (${(donnees.codes_postaux?.[f.properties.code_insee] ?? []).join(", ")})`} />
+          ))}
+        </datalist>
+        <button type="submit">Aller</button>
+        {nomFocus ? (
+          <button type="button" className="quitter-commune" onClick={quitterCommune}>
+            {nomFocus} <span aria-hidden="true">×</span> <span className="sr">revenir à toute l&apos;agglomération</span>
+          </button>
+        ) : null}
+        {messageRecherche ? <span className="recherche-message">{messageRecherche}</span> : null}
+      </form>
         <div className="filtres-ligne">
           {GROUPES.map((g) => {
             const n = compte(g);
@@ -427,7 +538,7 @@ export default function Carte({ bandeau }) {
             <div className="pan-accueil">
               <h1>Ce qui est documenté sous l&apos;agglomération de La Rochelle</h1>
               <p>
-                Pollutions mesurées, diagnostiquées ou instruites par l&apos;administration sur les 28 communes. Cliquez un pictogramme pour lire ce
+                Pollutions mesurées, diagnostiquées ou instruites par l&apos;administration sur les 28 communes. Cherchez votre commune pour n&apos;afficher qu&apos;elle, ou cliquez un pictogramme pour lire ce
                 qui est mesuré, à quelle date et par qui.
               </p>
               <h3>Plages</h3>
@@ -442,6 +553,9 @@ export default function Carte({ bandeau }) {
                   <li key={k}><img src={urlIcone({ glyphe: "robinet", fond: COULEURS[k] ?? COULEURS.gris, carre: true })} alt="" width="24" height="24" />{e.libelle}</li>
                 ))}
                 <li><img src={urlIcone({ glyphe: "captage", fond: COULEURS.eau })} alt="" width="24" height="24" />Captage d&apos;eau potable</li>
+              </ul>
+              <ul className="legende">
+                <li><img src={"data:image/svg+xml;charset=utf-8," + encodeURIComponent(svgGrappe(5))} alt="" width="30" height="30" />Plusieurs éléments proches : cliquer pour zoomer</li>
               </ul>
               <h3>Sol et air</h3>
               <ul className="legende">

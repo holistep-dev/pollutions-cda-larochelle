@@ -1,4 +1,5 @@
 "use client";
+import { VERDICTS } from "../lib/comparaison";
 
 import { useState } from "react";
 import { COULEURS, urlIcone } from "../lib/icones";
@@ -75,6 +76,49 @@ function Fermer({ fermer }) {
   );
 }
 
+const RANG = ["au_dessus_seuil", "au_dessus_habituel", "dans_la_norme", "non_comparable", "sans_repere"];
+
+function Verdict({ v }) {
+  const x = VERDICTS[v] ?? VERDICTS.sans_repere;
+  return <span className="verdict" style={{ "--c": x.couleur }}>{x.libelle}</span>;
+}
+
+// Repère mis en avant sous le résumé : la mesure chiffrée la plus éloignée de la normale.
+function RepereCle({ liste }) {
+  const chiffrees = (liste ?? []).filter((s) => s.valeur != null && s.comparaison);
+  if (!chiffrees.length) return null;
+  const rang = (s) => RANG.indexOf(s.comparaison.verdict ?? "sans_repere");
+  const max = (s) => Math.max(0, ...(s.comparaison.reperes ?? []).map((r) => r.rapport ?? 0));
+  const s = [...chiffrees].sort((a, b) => rang(a) - rang(b) || max(b) - max(a))[0];
+  const c = s.comparaison;
+  const r = [...(c.reperes ?? [])].filter((x) => x.texte).sort((a, b) => (a.nature === "fond_geochimique") - (b.nature === "fond_geochimique"))[0] ?? (c.reperes ?? []).find((x) => x.note);
+  return (
+    <section className="repere-cle">
+      <p className="rc-tete">
+        <b>
+          {nb(s.valeur)} {s.unite}
+        </b>{" "}
+        <span>{s.libelle}</span>
+      </p>
+      <Verdict v={c.verdict} />
+      {r ? (
+        <p className="rc-ref">
+          {r.libelle}
+          {r.valeur != null ? ` : ${nb(r.valeur)} ${r.unite}` : r.max != null ? ` : ${nb(r.min)} à ${nb(r.max)} ${r.unite}` : ""}
+          {r.texte ? `. Mesure : ${r.texte}.` : "."}
+          {r.note ? ` ${r.note}` : ""}
+        </p>
+      ) : null}
+      {c.effets ? (
+        <p className="rc-effets">
+          <span>Effets possibles sur la santé : </span>
+          {c.effets} L'effet dépend de l'exposition réelle, pas de la seule teneur.
+        </p>
+      ) : null}
+    </section>
+  );
+}
+
 function Substances({ liste, libelles }) {
   if (!liste?.length) return null;
   const chiffrees = liste.filter((s) => s.valeur != null);
@@ -88,6 +132,7 @@ function Substances({ liste, libelles }) {
       {chiffrees.map((s, i) => (
         <div className="teneur" key={i}>
           <p className="teneur-nom">{s.libelle}</p>
+          {s.comparaison?.verdict ? <Verdict v={s.comparaison.verdict} /> : null}
           <p className="teneur-val">
             <b>
               {nb(s.valeur)} {s.unite}
@@ -115,6 +160,7 @@ function Substances({ liste, libelles }) {
           ) : aucunes.length ? null : (
             <p className="note">Aucune valeur de comparaison retenue pour ce milieu.</p>
           )}
+          {s.comparaison?.effets && (i === 0 || chiffrees[i - 1].comparaison?.cle !== s.comparaison.cle) ? <p className="effets">Effets possibles : {s.comparaison.effets}</p> : null}
         </div>
       ))}
       {aucunes.map((a) => (
@@ -197,6 +243,7 @@ export function PanneauSite({ p, d, libelles, fermer, icone }) {
         </p>
       ) : null}
       {d?.resume_court ? <p className="pan-court">{d.resume_court}</p> : null}
+      <RepereCle liste={d?.substances} />
       <Statuts p={p} libelles={libelles} />
       <Restrictions liste={d?.restrictions} />
       <details className="pan-detail">

@@ -18,7 +18,7 @@
   ],
   "substances": [
     {
-      "libelle": "hydrocarbures, phase flottante jusqu'à 2 m d'épaisseur dans les piézomètres",
+      "libelle": "hydrocarbures, phase flottante dans plusieurs piézomètres (jusqu'à 2 m d'épaisseur avant 2009, de nouveau observée en 2022 et 2023)",
       "milieu": "eau_souterraine",
       "source": "georisques-ssp001060801"
     },
@@ -35,9 +35,9 @@
     "debut_statut": "datee",
     "fin": null,
     "fin_statut": "en_cours",
-    "note": "Le site est en activité. La période est celle de la pollution de nappe détectée et suivie."
+    "note": "Le site est en activité. Pollution de nappe détectée en 2005, toujours présente selon l'inspection de décembre 2023."
   },
-  "resume": "La surveillance de la nappe sous l'usine Alstom a détecté une pollution localisée aux hydrocarbures, attribuée à d'anciennes cuves de fioul enterrées. Un écrémage installé dès 2005 a récupéré plus de 1 200 litres d'hydrocarbures. La même surveillance a relevé, en amont du site, des solvants chlorés dont du chlorure de vinyle à 35 µg/L, que l'administration attribue a priori à d'anciennes fabrications de peinture dans la zone. Les puits en aval testés en 2006 étaient sous la limite de quantification en hydrocarbures.",
+  "resume": "Une pollution de la nappe aux hydrocarbures, dissous et en phase flottante, a été détectée en 2005 sous l'usine Alstom, attribuée à d'anciennes cuves de fioul. L'écrémage de 2005 à 2009 a récupéré plus de 1 200 litres. En décembre 2023, l'inspection relève que la phase flottante est réapparue dans plusieurs des dix piézomètres suivis et qu'un nouvel écrémage est recommandé. Le bilan 2014-2023 n'est pas publié. Du chlorure de vinyle à 35 µg/L a été mesuré en amont, attribué a priori à d'anciennes fabrications de peinture.",
   "chronologie": [
     {
       "date": "2005",
@@ -59,6 +59,41 @@
       "sources": [
         "georisques-ssp001060801"
       ]
+    },
+    {
+      "date": "2011-05-16",
+      "fait": "Dernier résultat de surveillance publié dans la fiche Infosols : la situation s'améliore. Aucune teneur chiffrée.",
+      "sources": [
+        "georisques-ssp001060801"
+      ]
+    },
+    {
+      "date": "2021-03",
+      "fait": "Trois piézomètres ajoutés au réseau de surveillance, porté à dix ouvrages suivis deux fois par an.",
+      "sources": [
+        "dreal-inspection-alstom-2023-12-07"
+      ]
+    },
+    {
+      "date": "2022",
+      "fait": "Les rapports de surveillance relèvent une phase flottante d'hydrocarbures dans plusieurs piézomètres et recommandent un nouvel écrémage.",
+      "sources": [
+        "dreal-inspection-alstom-2023-12-07"
+      ]
+    },
+    {
+      "date": "2023",
+      "fait": "Écrémage réalisé en début d'année. Après la campagne d'octobre, le bureau d'études recommande un nouvel écrémage.",
+      "sources": [
+        "dreal-inspection-alstom-2023-12-07"
+      ]
+    },
+    {
+      "date": "2024-04-12",
+      "fait": "Transmission à l'inspection du bilan décennal de la surveillance de la nappe sur 2014-2023.",
+      "sources": [
+        "dreal-inspection-alstom-2026-05-20"
+      ]
     }
   ],
   "exploitants": [
@@ -71,7 +106,9 @@
   "procedure_en_cours": true,
   "statut_traitement": "sous_surveillance",
   "sources": [
-    "georisques-ssp001060801"
+    "georisques-ssp001060801",
+    "dreal-inspection-alstom-2023-12-07",
+    "dreal-inspection-alstom-2026-05-20"
   ],
   "liens": [
     {
@@ -82,5 +119,11 @@
   "derniere_verification": "2026-11-08",
   "visible_par_defaut": true,
   "accroche": "Hydrocarbures dans la nappe sous l'usine Alstom",
-  "resume_court": "Plus de 1 200 litres d'hydrocarbures récupérés depuis 2005. Du chlorure de vinyle à 35 µg/L a été mesuré en amont du site."
+  "resume_court": "Hydrocarbures toujours présents dans la nappe en 2023, avec un nouvel écrémage recommandé. Aucune teneur publiée depuis 2011.",
+  "ce_qui_manque": [
+    {
+      "piece": "Les teneurs mesurées dans la nappe depuis 2011, dont le bilan décennal 2014-2023 remis en avril 2024.",
+      "ou_chercher": "Rapports de surveillance détenus par l'exploitant et la DREAL Nouvelle-Aquitaine, communicables sur demande au titre du code de l'environnement."
+    }
+  ]
 }

@@ -151,6 +151,7 @@ for (const s of sites.filter((x) => x.geometry)) {
     id: s.id,
     nom: s.nom,
     commune: s.commune,
+    communes: [s.code_insee, ...(s.communes_secondaires ?? [])].join(","),
     categorie: s.categorie,
     categorie_libelle: libelles.categorie[s.categorie],
     theme: THEME[s.categorie],

@@ -54,6 +54,29 @@
       "auteur": "Centre international de recherche sur le cancer",
       "date": "2026",
       "url": "https://monographs.iarc.who.int/list-of-classifications"
+    },
+    "unscear-2000": {
+      "titre": "Sources and Effects of Ionizing Radiation, rapport 2000, volume I, annexe B, médianes mondiales des radionucléides naturels dans les sols",
+      "auteur": "UNSCEAR, comité scientifique des Nations unies",
+      "date": "2000"
+    },
+    "irsn-radon": {
+      "titre": "Le radon, livret d'information",
+      "auteur": "IRSN (aujourd'hui ASNR)",
+      "date": "2016",
+      "url": "https://recherche-expertise.asnr.fr/sites/default/files/documents/connaissances/environnement/expertises-radioactivite-naturelle/radon/irsn_livret_radon.pdf"
+    },
+    "ineris": {
+      "titre": "Portail substances chimiques, fiches de données toxicologiques et environnementales",
+      "auteur": "INERIS",
+      "date": "2026",
+      "url": "https://substances.ineris.fr"
+    },
+    "criirad-fond-local": {
+      "titre": "Trait d'Union n° 108, niveau naturel local mesuré avec le même appareil",
+      "auteur": "CRIIRAD",
+      "date": "2026-04",
+      "url": "https://www.criirad.org/tu-n108-04-2026-extractivisme-quels-risques-radiologiques/"
     }
   },
   "circ_groupes": {
@@ -63,6 +86,168 @@
     "3": "inclassable quant à sa cancérogénicité"
   },
   "substances": [
+    {
+      "cle": "thorium 228",
+      "motifs": [
+        "^thorium 228"
+      ],
+      "effets": "Le risque vient de l'irradiation externe et de l'inhalation ou l'ingestion de poussières. Il augmente avec la dose reçue, donc avec le temps passé sur place.",
+      "effets_source": "irsn-radon",
+      "valeurs": [
+        {
+          "milieu": "sol",
+          "nature": "fond_geochimique",
+          "libelle": "Sols ordinaires, médiane mondiale de la chaîne du thorium 232",
+          "valeur": 30,
+          "unite": "Bq/kg",
+          "source": "unscear-2000"
+        },
+        {
+          "milieu": "sediment_marin",
+          "nature": "fond_geochimique",
+          "libelle": "Sols ordinaires, médiane mondiale de la chaîne du thorium 232",
+          "valeur": 30,
+          "unite": "Bq/kg",
+          "source": "unscear-2000"
+        }
+      ]
+    },
+    {
+      "cle": "thorium 232",
+      "motifs": [
+        "thorium 232"
+      ],
+      "effets": "Le risque vient de l'irradiation externe et de l'inhalation ou l'ingestion de poussières. Il augmente avec la dose reçue, donc avec le temps passé sur place.",
+      "effets_source": "irsn-radon",
+      "valeurs": [
+        {
+          "milieu": "sol",
+          "nature": "fond_geochimique",
+          "libelle": "Sols ordinaires, médiane mondiale",
+          "valeur": 30,
+          "unite": "Bq/kg",
+          "source": "unscear-2000"
+        },
+        {
+          "milieu": "sol",
+          "nature": "valeur_de_gestion",
+          "libelle": "Valeur d'exemption pour chaque radionucléide de la chaîne",
+          "valeur": 1,
+          "unite": "Bq/g",
+          "source": "euratom-2013"
+        }
+      ]
+    },
+    {
+      "cle": "uranium 238",
+      "motifs": [
+        "uranium 238"
+      ],
+      "effets": "Le risque vient de l'irradiation externe et de l'inhalation ou l'ingestion de poussières. Il augmente avec la dose reçue, donc avec le temps passé sur place.",
+      "effets_source": "irsn-radon",
+      "valeurs": [
+        {
+          "milieu": "sol",
+          "nature": "fond_geochimique",
+          "libelle": "Sols ordinaires, médiane mondiale",
+          "valeur": 35,
+          "unite": "Bq/kg",
+          "source": "unscear-2000"
+        },
+        {
+          "milieu": "sol",
+          "nature": "valeur_de_gestion",
+          "libelle": "Valeur d'exemption pour chaque radionucléide de la chaîne",
+          "valeur": 1,
+          "unite": "Bq/g",
+          "source": "euratom-2013"
+        }
+      ]
+    },
+    {
+      "cle": "activité totale",
+      "motifs": [
+        "^activité totale",
+        "thorium et uranium"
+      ],
+      "effets": "Le risque vient de l'irradiation externe et de l'inhalation ou l'ingestion de poussières. Il augmente avec la dose reçue, donc avec le temps passé sur place.",
+      "effets_source": "irsn-radon",
+      "valeurs": [
+        {
+          "milieu": "sol",
+          "nature": "fond_geochimique",
+          "libelle": "Ordre de grandeur pour un sol ordinaire, somme des descendants de l'uranium 238 et du thorium 232 et du potassium 40, calculée par ce site à partir des médianes UNSCEAR",
+          "valeur": 1000,
+          "unite": "Bq/kg",
+          "source": "unscear-2000"
+        },
+        {
+          "milieu": "sediment_marin",
+          "nature": "fond_geochimique",
+          "libelle": "Ordre de grandeur pour un sol ordinaire, somme des descendants de l'uranium 238 et du thorium 232 et du potassium 40, calculée par ce site à partir des médianes UNSCEAR",
+          "valeur": 1000,
+          "unite": "Bq/kg",
+          "source": "unscear-2000"
+        }
+      ]
+    },
+    {
+      "cle": "radon",
+      "motifs": [
+        "^radon"
+      ],
+      "effets": "Seconde cause de cancer du poumon en France après le tabac selon l'IRSN, par accumulation dans l'air des bâtiments.",
+      "effets_source": "irsn-radon",
+      "valeurs": [
+        {
+          "milieu": "air",
+          "nature": "valeur_de_gestion",
+          "libelle": "Niveau de référence pour l'air des bâtiments, en moyenne annuelle",
+          "valeur": 300,
+          "unite": "Bq/m³",
+          "source": "irsn-radon",
+          "non_comparable": true,
+          "note": "La mesure a été faite dans un trou de sondage, pas dans l'air d'un bâtiment : elle ne se compare pas directement à ce niveau."
+        }
+      ]
+    },
+    {
+      "cle": "flux gamma",
+      "motifs": [
+        "^flux gamma"
+      ],
+      "effets": "Le risque vient de l'irradiation externe et de l'inhalation ou l'ingestion de poussières. Il augmente avec la dose reçue, donc avec le temps passé sur place.",
+      "effets_source": "irsn-radon",
+      "valeurs": [
+        {
+          "milieu": "sol",
+          "nature": "fond_geochimique",
+          "libelle": "Niveau naturel local mesuré avec le même appareil",
+          "min": 60,
+          "max": 75,
+          "unite": "coups/s",
+          "source": "criirad-fond-local"
+        }
+      ]
+    },
+    {
+      "cle": "oxydes d'azote",
+      "motifs": [
+        "^oxydes d'azote"
+      ],
+      "effets": "Irritants pour les voies respiratoires ; ils contribuent à la formation d'ozone et de particules.",
+      "effets_source": "ineris",
+      "valeurs": []
+    },
+    {
+      "cle": "ammoniac",
+      "motifs": [
+        "^ammoniac"
+      ],
+      "effets": "Irritant pour les yeux et les voies respiratoires ; il contribue à la formation de particules fines.",
+      "effets_source": "ineris",
+      "valeurs": []
+    },
     {
       "cle": "plomb",
       "motifs": [
@@ -106,7 +291,9 @@
           "unite": "µg/L",
           "source": "eau-potable-2007"
         }
-      ]
+      ],
+      "effets": "Toxique pour le système nerveux, surtout chez le jeune enfant, par ingestion de terre ou de poussières.",
+      "effets_source": "hcsp-plomb-2014"
     },
     {
       "cle": "cadmium",
@@ -126,7 +313,9 @@
           "unite": "mg/kg",
           "source": "aspitet"
         }
-      ]
+      ],
+      "effets": "S'accumule dans le rein et fragilise les os ; cancérogène. Exposition surtout par l'alimentation et la terre ingérée.",
+      "effets_source": "ineris"
     },
     {
       "cle": "chrome",
@@ -155,7 +344,9 @@
           "unite": "µg/L",
           "source": "eau-potable-2007"
         }
-      ]
+      ],
+      "effets": "Le chrome hexavalent est cancérogène par inhalation ; le chrome trivalent, forme la plus courante, est peu toxique.",
+      "effets_source": "ineris"
     },
     {
       "cle": "chrome hexavalent",
@@ -165,7 +356,9 @@
       "circ": {
         "groupe": "1"
       },
-      "valeurs": []
+      "valeurs": [],
+      "effets": "Cancérogène par inhalation, irritant pour la peau et les voies respiratoires.",
+      "effets_source": "ineris"
     },
     {
       "cle": "cuivre",
@@ -182,7 +375,9 @@
           "unite": "mg/kg",
           "source": "aspitet"
         }
-      ]
+      ],
+      "effets": "Peu toxique pour l'homme aux teneurs rencontrées dans les sols ; toxique pour la vie du sol et les milieux aquatiques.",
+      "effets_source": "ineris"
     },
     {
       "cle": "zinc",
@@ -199,7 +394,9 @@
           "unite": "mg/kg",
           "source": "aspitet"
         }
-      ]
+      ],
+      "effets": "Peu toxique pour l'homme aux teneurs rencontrées dans les sols ; toxique pour la vie du sol et les milieux aquatiques.",
+      "effets_source": "ineris"
     },
     {
       "cle": "nickel",
@@ -220,7 +417,9 @@
           "unite": "mg/kg",
           "source": "aspitet"
         }
-      ]
+      ],
+      "effets": "Allergisant par contact ; certains composés sont cancérogènes par inhalation.",
+      "effets_source": "ineris"
     },
     {
       "cle": "arsenic",
@@ -240,7 +439,9 @@
           "unite": "µg/L",
           "source": "eau-potable-2007"
         }
-      ]
+      ],
+      "effets": "Cancérogène pour la peau, le poumon et la vessie en cas d'ingestion répétée, par l'eau ou la terre.",
+      "effets_source": "ineris"
     },
     {
       "cle": "mercure",
@@ -256,7 +457,9 @@
           "unite": "µg/L",
           "source": "eau-potable-2007"
         }
-      ]
+      ],
+      "effets": "Toxique pour le système nerveux et le rein ; sous forme de méthylmercure, il s'accumule dans les poissons.",
+      "effets_source": "ineris"
     },
     {
       "cle": "hydrocarbures",
@@ -272,7 +475,9 @@
           "unite": "mg/kg",
           "source": "isdi-2014"
         }
-      ]
+      ],
+      "effets": "Exposition par contact, ingestion de terre ou vapeurs. La toxicité dépend des fractions ; certaines contiennent des composés cancérogènes.",
+      "effets_source": "ineris"
     },
     {
       "cle": "BTEX",
@@ -292,7 +497,9 @@
           "unite": "mg/kg",
           "source": "isdi-2014"
         }
-      ]
+      ],
+      "effets": "Le benzène, l'un des quatre composés, est cancérogène (leucémies). Exposition surtout par inhalation de vapeurs.",
+      "effets_source": "ineris"
     },
     {
       "cle": "PCB",
@@ -311,7 +518,9 @@
           "unite": "mg/kg",
           "source": "isdi-2014"
         }
-      ]
+      ],
+      "effets": "Persistants, ils s'accumulent dans les graisses et la chaîne alimentaire ; cancérogènes.",
+      "effets_source": "ineris"
     },
     {
       "cle": "HAP",
@@ -331,7 +540,9 @@
           "unite": "mg/kg",
           "source": "isdi-2014"
         }
-      ]
+      ],
+      "effets": "Plusieurs HAP, dont le benzo[a]pyrène, sont cancérogènes. Exposition par contact, terre ingérée ou poussières.",
+      "effets_source": "ineris"
     },
     {
       "cle": "chlorure de vinyle",
@@ -350,7 +561,9 @@
           "unite": "µg/L",
           "source": "eau-potable-2007"
         }
-      ]
+      ],
+      "effets": "Cancérogène pour le foie. Exposition par l'eau ou par inhalation de vapeurs.",
+      "effets_source": "ineris"
     },
     {
       "cle": "trichloroéthylène",
@@ -360,7 +573,9 @@
       "circ": {
         "groupe": "1"
       },
-      "valeurs": []
+      "valeurs": [],
+      "effets": "Cancérogène pour le rein. Volatil, il peut passer de la nappe à l'air des bâtiments.",
+      "effets_source": "ineris"
     },
     {
       "cle": "tétrachloroéthylène",
@@ -370,24 +585,9 @@
       "circ": {
         "groupe": "2A"
       },
-      "valeurs": []
-    },
-    {
-      "cle": "thorium et uranium",
-      "motifs": [
-        "thorium",
-        "uranium"
-      ],
-      "valeurs": [
-        {
-          "milieu": "sol",
-          "nature": "valeur_de_gestion",
-          "libelle": "Valeur d'exemption pour chaque radionucléide des chaînes de l'uranium 238 et du thorium 232",
-          "valeur": 1,
-          "unite": "Bq/g",
-          "source": "euratom-2013"
-        }
-      ]
+      "valeurs": [],
+      "effets": "Probablement cancérogène, toxique pour le système nerveux. Volatil, il peut passer de la nappe à l'air des bâtiments.",
+      "effets_source": "ineris"
     },
     {
       "cle": "Escherichia coli",
@@ -404,7 +604,9 @@
           "source": "baignade-2006",
           "serie": true
         }
-      ]
+      ],
+      "effets": "Indicateur de contamination fécale. En baignade : risque de gastro-entérite et d'infections de la peau, des oreilles ou des yeux.",
+      "effets_source": "baignade-2006"
     },
     {
       "cle": "entérocoques intestinaux",
@@ -421,7 +623,9 @@
           "source": "baignade-2006",
           "serie": true
         }
-      ]
+      ],
+      "effets": "Indicateur de contamination fécale. En baignade : risque de gastro-entérite et d'infections de la peau, des oreilles ou des yeux.",
+      "effets_source": "baignade-2006"
     },
     {
       "cle": "lindane",
@@ -431,7 +635,9 @@
       "circ": {
         "groupe": "1"
       },
-      "valeurs": []
+      "valeurs": [],
+      "effets": "Insecticide persistant, classé cancérogène par le CIRC.",
+      "effets_source": "circ"
     },
     {
       "cle": "chlorothalonil",
@@ -441,7 +647,9 @@
       "circ": {
         "groupe": "2B"
       },
-      "valeurs": []
+      "valeurs": [],
+      "effets": "Fongicide classé peut-être cancérogène par le CIRC.",
+      "effets_source": "circ"
     },
     {
       "cle": "pesticides dans l'air",
@@ -453,7 +661,16 @@
           "libelle": "Il n'existe pas de valeur sanitaire sur l'exposition aux pesticides dans l'air ambiant",
           "source": "atmo-pesticides"
         }
-      ]
+      ],
+      "effets": "Les effets d'une exposition prolongée à de faibles doses de pesticides dans l'air restent étudiés ; il n'existe pas de valeur de référence.",
+      "effets_source": "atmo-pesticides"
     }
-  ]
+  ],
+  "verdicts": {
+    "au_dessus_seuil": "Au-dessus d'un seuil",
+    "au_dessus_habituel": "Au-dessus du niveau habituel",
+    "dans_la_norme": "Dans les valeurs habituelles",
+    "sans_repere": "Pas de repère publié",
+    "non_comparable": "Pas directement comparable"
+  }
 }

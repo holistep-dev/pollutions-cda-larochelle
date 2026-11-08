@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import Statuts from "../../../components/Statuts";
 import Source from "../../../components/Source";
-import { comparer } from "../../../lib/comparaison";
+import { comparer, VERDICTS } from "../../../lib/comparaison";
 import {
   references,
   sites,
@@ -172,7 +172,14 @@ export default async function FicheSite({ params }) {
                 const c = comparer(m, refs);
                 return (
                   <tr key={i}>
-                    <td>{m.libelle}</td>
+                    <td>
+                      {m.libelle}
+                      {m.valeur !== undefined ? (
+                        <span className="verdict" style={{ "--c": VERDICTS[c.verdict].couleur, display: "flex", width: "fit-content" }}>
+                          {VERDICTS[c.verdict].libelle}
+                        </span>
+                      ) : null}
+                    </td>
                     <td>{m.valeur !== undefined ? `${m.valeur.toLocaleString("fr-FR")} ${m.unite ?? ""}` : "non chiffré"}</td>
                     <td>
                       {c.reperes.length
@@ -194,6 +201,20 @@ export default async function FicheSite({ params }) {
               })}
             </tbody>
           </table>
+          {(() => {
+            const eff = [...new Map(s.substances.map((m) => comparer(m, refs)).filter((c) => c.effets).map((c) => [c.cle, c])).values()];
+            return eff.length ? (
+              <section className="effets-fiche">
+                <h3>Effets possibles sur la santé</h3>
+                {eff.map((c) => (
+                  <p key={c.cle}>
+                    <b>{c.cle.charAt(0).toUpperCase() + c.cle.slice(1)}</b> : {c.effets} <span className="note">Source : {c.effets_source}.</span>
+                  </p>
+                ))}
+                <p className="note">Ces effets décrivent la substance en général. Ils dépendent de l'exposition réelle (contact, ingestion, inhalation, durée), que ce site ne mesure pas. Ils ne valent pas constat d'un effet chez les riverains.</p>
+              </section>
+            ) : null;
+          })()}
           {(() => {
             const circ = [...new Map(s.substances.map((m) => comparer(m, refs)).filter((c) => c.circ).map((c) => [c.cle, c])).values()];
             return circ.length ? (
