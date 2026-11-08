@@ -76,6 +76,7 @@ const ADMINISTRATIVES = new Set([
   "arrete_municipal",
   "deliberation",
   "decision_justice",
+  "avis_administratif",
   "base_publique",
 ]);
 const BBOX = { minLon: -1.42, maxLon: -0.85, minLat: 46.0, maxLat: 46.35 };

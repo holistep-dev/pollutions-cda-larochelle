@@ -122,7 +122,7 @@ export default async function FicheSite({ params }) {
       <p className="categorie">{L.categorie[s.categorie]}</p>
       <h1>{s.nom}</h1>
       <p className="sous-titre">
-        {s.commune}. {periodeLisible(s.periode)}. Dernière vérification le {dateLisible(s.derniere_verification)}.
+        {s.commune}. Période : {periodeLisible(s.periode)}. Dernière vérification le {dateLisible(s.derniere_verification)}.
       </p>
       {s.periode?.note ? <p className="note">{s.periode.note}</p> : null}
 

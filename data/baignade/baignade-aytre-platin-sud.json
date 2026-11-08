@@ -20,34 +20,34 @@
   "motif_absence_classement": "Site retiré du contrôle sanitaire réglementaire après l'arrêté municipal d'interdiction de baignade du 27 avril 2018. Aucun classement annuel n'est produit depuis la saison 2018.",
   "evenements_declares": [
     {
-      "saison": 2014,
-      "type": "pollution à court terme",
       "debut": "2014-07-28",
-      "fin": "2014-07-29"
+      "fin": "2014-07-29",
+      "saison": 2014,
+      "type": "pollution à court terme"
     },
     {
-      "saison": 2016,
-      "type": "pollution à court terme",
       "debut": "2016-07-27",
-      "fin": "2016-08-01"
+      "fin": "2016-08-01",
+      "saison": 2016,
+      "type": "pollution à court terme"
     },
     {
-      "saison": 2016,
-      "type": "pollution à court terme",
       "debut": "2016-08-10",
-      "fin": "2016-08-19"
-    },
-    {
+      "fin": "2016-08-19",
       "saison": 2016,
-      "type": "pollution à court terme",
-      "debut": "2016-08-23",
-      "fin": "2016-08-25"
+      "type": "pollution à court terme"
     },
     {
-      "saison": 2017,
-      "type": "situation anormale",
+      "debut": "2016-08-23",
+      "fin": "2016-08-25",
+      "saison": 2016,
+      "type": "pollution à court terme"
+    },
+    {
       "debut": "2017-07-10",
-      "fin": "2017-09-12"
+      "fin": "2017-09-12",
+      "saison": 2017,
+      "type": "situation anormale"
     }
   ],
   "prelevements": [

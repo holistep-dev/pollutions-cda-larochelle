@@ -1,0 +1,126 @@
+{
+  "id": "station-lanidis-la-pallice",
+  "nom": "Ancienne station-service, boulevard Émile-Delmas",
+  "commune": "La Rochelle",
+  "code_insee": "17300",
+  "geometry": {
+    "type": "MultiPolygon",
+    "coordinates": [
+      [
+        [
+          [
+            -1.2082,
+            46.161403
+          ],
+          [
+            -1.208175,
+            46.161405
+          ],
+          [
+            -1.208083,
+            46.161411
+          ],
+          [
+            -1.208102,
+            46.161575
+          ],
+          [
+            -1.208108,
+            46.16162
+          ],
+          [
+            -1.208133,
+            46.161834
+          ],
+          [
+            -1.208154,
+            46.16185
+          ],
+          [
+            -1.208189,
+            46.161857
+          ],
+          [
+            -1.208399,
+            46.161843
+          ],
+          [
+            -1.208433,
+            46.161811
+          ],
+          [
+            -1.20853,
+            46.161717
+          ],
+          [
+            -1.208473,
+            46.161685
+          ],
+          [
+            -1.208446,
+            46.161668
+          ],
+          [
+            -1.208416,
+            46.161652
+          ],
+          [
+            -1.208322,
+            46.161595
+          ],
+          [
+            -1.208313,
+            46.16159
+          ],
+          [
+            -1.208288,
+            46.161575
+          ],
+          [
+            -1.208218,
+            46.161533
+          ],
+          [
+            -1.208212,
+            46.161484
+          ],
+          [
+            -1.208212,
+            46.161482
+          ],
+          [
+            -1.2082,
+            46.161403
+          ]
+        ]
+      ]
+    ]
+  },
+  "precision_geo": "emprise_cadastrale",
+  "categorie": "friche_sol_pollue",
+  "milieux": [
+    "sol"
+  ],
+  "periode": {
+    "debut": "1983",
+    "debut_statut": "datee",
+    "fin": "2013-02",
+    "fin_statut": "datee"
+  },
+  "resume": "Station-service exploitée de 1983 à 2013 sur la parcelle BI 1076. Des travaux de dépollution et de mise en sécurité sont décrits dans un rapport de 2015 joint à la cessation. L'instruction a été close en juin 2026. La fiche administrative rappelle que la nappe du quartier de La Pallice est polluée aux hydrocarbures depuis les bombardements des stockages de carburant pendant la Seconde Guerre mondiale.",
+  "exploitants": [
+    {
+      "nom": "Lanidis",
+      "fin": "2013",
+      "source": "georisques-ssp402937001"
+    }
+  ],
+  "statut_preuve": "diagnostic_administratif",
+  "procedure_en_cours": false,
+  "statut_traitement": "rehabilite",
+  "sources": [
+    "georisques-ssp402937001"
+  ],
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": false
+}

@@ -3,11 +3,19 @@
   "nom": "Plage du Platin Nord",
   "commune": "Aytré",
   "code_insee": "17028",
-  "geometry": { "type": "Point", "coordinates": [-1.127114, 46.125193] },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -1.127114,
+      46.125193
+    ]
+  },
   "precision_geo": "localisation_indicative",
   "rayon_m": 150,
   "categorie": "eau_baignade",
-  "milieux": ["eau_superficielle"],
+  "milieux": [
+    "eau_superficielle"
+  ],
   "substances": [
     {
       "libelle": "entérocoques intestinaux",
@@ -45,23 +53,81 @@
   },
   "resume": "Le site de baignade du Platin Nord a été classé en qualité insuffisante cinq saisons de suite, de 2013 à 2017, sur le critère bactériologique de la directive 2006/7/CE. Le maire d'Aytré a interdit la baignade par arrêté du 27 avril 2018, jusqu'à nouvel ordre. Le site est sorti du contrôle sanitaire réglementaire après 2017 et ne figure plus dans la consultation publique du ministère. La commune indique en juillet 2026 que la réouverture suppose trois saisons consécutives sous les seuils.",
   "chronologie": [
-    { "date": "2013", "fait": "Premier classement en qualité insuffisante.", "sources": ["rapportage-baignade-datagouv"] },
-    { "date": "2016", "fait": "Six pollutions à court terme déclarées à l'Union européenne sur ce site.", "sources": ["rapportage-baignade-datagouv"] },
-    { "date": "2017-11", "fait": "Le bilan de saison de l'ARS écrit que les dispositions pour interdire ou déconseiller la baignade de manière permanente seront à l'étude avant la saison 2018.", "sources": ["ars17-bilan-baignade-2017"] },
-    { "date": "2018-03-28", "fait": "Courrier de la préfecture au maire sur la qualité insuffisante des eaux de baignade, visé par l'arrêté. Document non publié.", "sources": ["aytre-arrete-35-2018"] },
-    { "date": "2018-04-27", "fait": "Arrêté municipal n° 35 : interdiction de baignade jusqu'à nouvel ordre, non-surveillance de la plage, activités nautiques hors du champ de l'arrêté.", "sources": ["aytre-arrete-35-2018"] },
-    { "date": "2019", "fait": "Surveillance maintenue hors contrôle réglementaire par l'ARS : dix prélèvements l'été, 40 % de résultats de mauvaise qualité.", "sources": ["ars17-bilan-baignade-2019"] },
-    { "date": "2022-01-21", "fait": "Soutenance de la thèse de Méry Ndione sur les sources de contamination fécale de la baie d'Aytré : entérocoques d'origine environnementale, contamination principalement animale, faible contribution humaine, sédiment écarté comme source diffuse. Attribution d'origine par des auteurs identifiés, pas acte administratif.", "sources": ["these-ndione-2022"] },
-    { "date": "2026-07", "fait": "La municipalité indique poursuivre les échanges avec l'ARS, la CDA et le Département.", "sources": ["aytre-page-baignade-2026"] }
+    {
+      "date": "2013",
+      "fait": "Premier classement en qualité insuffisante.",
+      "sources": [
+        "rapportage-baignade-datagouv"
+      ]
+    },
+    {
+      "date": "2016",
+      "fait": "Six pollutions à court terme déclarées à l'Union européenne sur ce site.",
+      "sources": [
+        "rapportage-baignade-datagouv"
+      ]
+    },
+    {
+      "date": "2017-11",
+      "fait": "Le bilan de saison de l'ARS écrit que les dispositions pour interdire ou déconseiller la baignade de manière permanente seront à l'étude avant la saison 2018.",
+      "sources": [
+        "ars17-bilan-baignade-2017"
+      ]
+    },
+    {
+      "date": "2018-03-28",
+      "fait": "Courrier de la préfecture au maire sur la qualité insuffisante des eaux de baignade, visé par l'arrêté. Document non publié.",
+      "sources": [
+        "aytre-arrete-35-2018"
+      ]
+    },
+    {
+      "date": "2018-04-27",
+      "fait": "Arrêté municipal n° 35 : interdiction de baignade jusqu'à nouvel ordre, non-surveillance de la plage, activités nautiques hors du champ de l'arrêté.",
+      "sources": [
+        "aytre-arrete-35-2018"
+      ]
+    },
+    {
+      "date": "2019",
+      "fait": "Surveillance maintenue hors contrôle réglementaire par l'ARS : dix prélèvements l'été, 40 % de résultats de mauvaise qualité.",
+      "sources": [
+        "ars17-bilan-baignade-2019"
+      ]
+    },
+    {
+      "date": "2022-01-21",
+      "fait": "Soutenance de la thèse de Méry Ndione sur les sources de contamination fécale de la baie d'Aytré : entérocoques d'origine environnementale, contamination principalement animale, faible contribution humaine, sédiment écarté comme source diffuse. Attribution d'origine par des auteurs identifiés, pas acte administratif.",
+      "sources": [
+        "these-ndione-2022"
+      ]
+    },
+    {
+      "date": "2026-07",
+      "fait": "La municipalité indique poursuivre les échanges avec l'ARS, la CDA et le Département.",
+      "sources": [
+        "aytre-page-baignade-2026"
+      ]
+    }
   ],
   "statut_preuve": "mesure_publiee",
   "procedure_en_cours": true,
   "statut_traitement": "sous_surveillance",
   "visible_par_defaut": true,
   "derniere_verification": "2026-09-13",
-  "sources": ["rapportage-baignade-datagouv", "aytre-arrete-35-2018", "ars17-bilan-baignade-2017", "ars17-bilan-baignade-2019", "these-ndione-2022", "aytre-page-baignade-2026"],
+  "sources": [
+    "rapportage-baignade-datagouv",
+    "aytre-arrete-35-2018",
+    "ars17-bilan-baignade-2017",
+    "ars17-bilan-baignade-2019",
+    "these-ndione-2022",
+    "aytre-page-baignade-2026"
+  ],
   "revue_presse": [
-    { "source": "reflets-2023-baignade-aytre", "angle": "Rapporte un arrêté municipal du 3 mai 2022 interdisant chevaux et animaux domestiques sur la plage, pour poursuivre les investigations sur les sources de contamination. L'acte n'a pas été retrouvé." }
+    {
+      "source": "reflets-2023-baignade-aytre",
+      "angle": "Rapporte un arrêté municipal du 3 mai 2022 interdisant chevaux et animaux domestiques sur la plage, pour poursuivre les investigations sur les sources de contamination. L'acte n'a pas été retrouvé."
+    }
   ],
   "baignade": {
     "id_site_sise": "017000589",
@@ -75,9 +141,24 @@
     }
   },
   "ce_qui_manque": [
-    { "piece": "Profil de vulnérabilité révisé du Platin Nord, rendu par un bureau d'études, échéance 31/12/2015", "ou_chercher": "Mairie d'Aytré, personne responsable de l'eau de baignade, ou ARS Nouvelle-Aquitaine unité Eaux de loisirs, ARS-DD17-Baignades@ars.sante.fr", "statut_vise": "diagnostic_administratif" },
-    { "piece": "Arrêté municipal du 3 mai 2022 sur les chevaux et animaux domestiques", "ou_chercher": "Registre des arrêtés du maire d'Aytré, années 2022 et 2023" },
-    { "piece": "Résultats de la surveillance non réglementaire depuis 2018, hors 2019", "ou_chercher": "ARS Nouvelle-Aquitaine, délégation Charente-Maritime" }
+    {
+      "piece": "Profil de vulnérabilité révisé du Platin Nord, rendu par un bureau d'études, échéance 31/12/2015",
+      "ou_chercher": "Mairie d'Aytré, personne responsable de l'eau de baignade, ou ARS Nouvelle-Aquitaine unité Eaux de loisirs, ARS-DD17-Baignades@ars.sante.fr",
+      "statut_vise": "diagnostic_administratif"
+    },
+    {
+      "piece": "Arrêté municipal du 3 mai 2022 sur les chevaux et animaux domestiques",
+      "ou_chercher": "Registre des arrêtés du maire d'Aytré, années 2022 et 2023"
+    },
+    {
+      "piece": "Résultats de la surveillance non réglementaire depuis 2018, hors 2019",
+      "ou_chercher": "ARS Nouvelle-Aquitaine, délégation Charente-Maritime"
+    }
   ],
-  "liens": [{ "site": "baignade-aytre-platin-sud", "relation": "meme_dossier" }]
+  "liens": [
+    {
+      "site": "baignade-aytre-platin-sud",
+      "relation": "meme_dossier"
+    }
+  ]
 }

@@ -4,7 +4,7 @@ import { sites, indexCommunes, recherches, signaux, restrictions } from "../lib/
 
 export default function Accueil() {
   const communes = indexCommunes();
-  const liste = sites().filter((s) => s.visible_par_defaut !== false);
+  const liste = sites();
   const nbLocalises = liste.filter((s) => s.geometry).length;
   const sig = signaux();
   const res = restrictions();

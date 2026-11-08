@@ -217,6 +217,84 @@
       "statut": "resolu",
       "consequence": "Le point publié est le point de contrôle sanitaire, pas l'emprise de la plage. precision_geo reste localisation_indicative.",
       "ou_chercher_ensuite": "Sans objet."
+    },
+    {
+      "id": "RI-13",
+      "objet": "Source institutionnelle de la fermeture en 1969 de la décharge de la butte de Pampin, L'Houmeau",
+      "volet": "sols",
+      "date": "2026-11-08",
+      "bases_interrogees": [
+        "Géorisques, API sites et sols pollués, code INSEE 17190",
+        "recherche web"
+      ],
+      "requetes": [
+        "https://www.georisques.gouv.fr/api/v1/ssp?code_insee=17190",
+        "butte de Pampin L'Houmeau ancienne décharge 1969"
+      ],
+      "resultat": "Aucune instruction ni secteur d'information sur les sols à L'Houmeau. Aucune page institutionnelle retrouvée donnant la date de 1969. La seule source versée est un article de presse de 2026 citant des agriculteurs.",
+      "statut": "non_trouve",
+      "consequence": "La date de 1969 ne peut pas être affichée comme fait établi.",
+      "ou_chercher_ensuite": "Plan de gestion de la réserve naturelle régionale du marais de Pampin, archives municipales, photographies aériennes IGN.",
+      "sites_lies": [
+        "butte-de-pampin-lhoumeau"
+      ]
+    },
+    {
+      "id": "RI-14",
+      "objet": "Résultats d'analyse de la nappe sous le groupe scolaire de L'Houmeau, dont 64,2 mg/L de nitrates",
+      "volet": "eau_potable",
+      "date": "2026-11-08",
+      "bases_interrogees": [
+        "recherche web",
+        "Hub'Eau, ADES non interrogés à ce stade"
+      ],
+      "requetes": [
+        "L'Houmeau forage géothermie nitrates 64 mg ARS consommation déconseillée"
+      ],
+      "resultat": "Aucune publication des analyses retrouvée. La presse de septembre 2026 confirme la pollution aux nitrates et aux pesticides et l'avis de l'ARS, sans chiffre.",
+      "statut": "non_trouve",
+      "consequence": "La fiche est déclassée de mesure publiée à signalement non instruit, ses seules sources étant de presse.",
+      "ou_chercher_ensuite": "Mairie de L'Houmeau, laboratoire Qualyse, ARS Nouvelle-Aquitaine.",
+      "sites_lies": [
+        "nappe-lhoumeau"
+      ]
+    },
+    {
+      "id": "RI-15",
+      "objet": "Motion d'Aytré du 20 mai 2021 et jugement du 20 juillet 2021 sur le projet de remblaiement du trou Rizzo",
+      "volet": "sols",
+      "date": "2026-11-08",
+      "bases_interrogees": [
+        "recherche web"
+      ],
+      "requetes": [
+        "Aytré trou Rizzo Fonciroc Rochevalor carrière remblaiement décision",
+        "\"Rizzo\" Aytré carrière déchets inertes projet"
+      ],
+      "resultat": "Ni la motion ni le jugement n'ont été retrouvés en ligne. Seule une source de presse de mai 2021 décrit le projet.",
+      "statut": "non_trouve",
+      "consequence": "La fiche ne mentionne la motion et le jugement que dans ce qui manque, pas dans la chronologie. L'entreprise porteuse n'est pas nommée.",
+      "ou_chercher_ensuite": "Registre des délibérations d'Aytré, tribunal administratif de Poitiers, délibérations de la CDA sur le PLUi.",
+      "sites_lies": [
+        "projet-decharge-trou-rizzo-aytre"
+      ]
+    },
+    {
+      "id": "RI-16",
+      "objet": "Source primaire des foyers de cancers pédiatriques à Périgny et L'Houmeau mentionnés dans l'inventaire",
+      "volet": "sante",
+      "date": "2026-11-08",
+      "bases_interrogees": [
+        "registre-cancers-poitou-charentes.fr, rapports de 2022 à 2026"
+      ],
+      "requetes": [
+        "https://www.registre-cancers-poitou-charentes.fr/obj/2025_KpediaAJA.pdf",
+        "https://www.registre-cancers-poitou-charentes.fr/obj/Incidence%20StRogatien%20Perigny%202008-22.pdf"
+      ],
+      "resultat": "Le rapport de mars 2025 ne relève un excès en ratio brut qu'à Saint-Rogatien et Saint-Vivien, non confirmé en ratio lissé. Périgny ne présente pas d'excès dans les rapports de 2022 à 2026. Le rapport ne publie pas les communes de moins de cinq cas et ne cite pas L'Houmeau ; les cinq cas à L'Houmeau viennent de la presse.",
+      "statut": "correction",
+      "consequence": "Pas de signal sanitaire publié pour Périgny ni pour L'Houmeau.",
+      "ou_chercher_ensuite": "Registre général des cancers de Poitou-Charentes pour L'Houmeau."
     }
   ]
 }

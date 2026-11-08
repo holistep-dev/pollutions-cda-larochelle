@@ -1,0 +1,219 @@
+{
+  "id": "friche-cottes-mailles-aytre",
+  "nom": "Ancien site de produits chimiques des Cottes Mailles",
+  "commune": "Aytré",
+  "code_insee": "17028",
+  "geometry": {
+    "type": "MultiPolygon",
+    "coordinates": [
+      [
+        [
+          [
+            -1.119436,
+            46.138271
+          ],
+          [
+            -1.119665,
+            46.138293
+          ],
+          [
+            -1.120016,
+            46.138327
+          ],
+          [
+            -1.120032,
+            46.138329
+          ],
+          [
+            -1.120077,
+            46.138333
+          ],
+          [
+            -1.120065,
+            46.138352
+          ],
+          [
+            -1.119753,
+            46.138768
+          ],
+          [
+            -1.119655,
+            46.138902
+          ],
+          [
+            -1.119457,
+            46.13917
+          ],
+          [
+            -1.11941,
+            46.139155
+          ],
+          [
+            -1.119385,
+            46.139188
+          ],
+          [
+            -1.119345,
+            46.139163
+          ],
+          [
+            -1.119297,
+            46.139131
+          ],
+          [
+            -1.119084,
+            46.138992
+          ],
+          [
+            -1.118889,
+            46.138864
+          ],
+          [
+            -1.118842,
+            46.138834
+          ],
+          [
+            -1.118744,
+            46.138768
+          ],
+          [
+            -1.118678,
+            46.138721
+          ],
+          [
+            -1.118609,
+            46.138674
+          ],
+          [
+            -1.118571,
+            46.138646
+          ],
+          [
+            -1.118277,
+            46.138408
+          ],
+          [
+            -1.118251,
+            46.138385
+          ],
+          [
+            -1.118341,
+            46.138164
+          ],
+          [
+            -1.119372,
+            46.138265
+          ],
+          [
+            -1.119436,
+            46.138271
+          ]
+        ]
+      ]
+    ]
+  },
+  "precision_geo": "emprise_cadastrale",
+  "categorie": "friche_sol_pollue",
+  "milieux": [
+    "sol",
+    "eau_souterraine"
+  ],
+  "substances": [
+    {
+      "libelle": "hydrocarbures",
+      "milieu": "sol",
+      "source": "georisques-ssp000382401"
+    },
+    {
+      "libelle": "trichloroéthylène",
+      "milieu": "sol",
+      "source": "georisques-ssp000382401"
+    },
+    {
+      "libelle": "solvants",
+      "milieu": "eau_souterraine",
+      "source": "georisques-ssp000382401"
+    }
+  ],
+  "periode": {
+    "debut": "1976",
+    "debut_statut": "datee",
+    "fin": "1994",
+    "fin_statut": "datee",
+    "note": "Autorisation préfectorale de 1976, cessation non déclarée en 1992 ou 1993 selon l'administration."
+  },
+  "resume": "Parcelles d'environ 8 500 m² en zone industrielle, exploitées par des entreprises de la chimie jusqu'en 1994. Une reconnaissance de 1998 a mis en évidence huit zones potentiellement polluées par des solvants et des hydrocarbures, dont deux contaminées par hydrocarbures et trichloroéthylène, et une nappe qui paraît impactée par des solvants. L'administration n'a pas réussi à faire reconnaître la responsabilité du dernier exploitant. Elle indique qu'aucune surveillance ni réhabilitation n'a pu être mise en place.",
+  "chronologie": [
+    {
+      "date": "1976-10-13",
+      "fait": "Arrêté préfectoral autorisant la Rolland's Company à fabriquer et stocker des produits chimiques sur le site.",
+      "sources": [
+        "georisques-ssp000382401"
+      ]
+    },
+    {
+      "date": "1998-01",
+      "fait": "Reconnaissance de sols réalisée pour un projet d'usine de peinture : huit zones potentiellement polluées.",
+      "sources": [
+        "georisques-ssp000382401"
+      ]
+    },
+    {
+      "date": "2000-06-02",
+      "fait": "Arrêté refusant l'autorisation du nouveau projet. Les recherches sur la pollution sont abandonnées par le demandeur.",
+      "sources": [
+        "georisques-ssp000382401"
+      ]
+    },
+    {
+      "date": "2003-08",
+      "fait": "Proposition de mise en demeure de la Rolland's Company, qui conteste.",
+      "sources": [
+        "georisques-ssp000382401"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "fait": "Dernière mise à jour de la fiche administrative. Instruction en cours.",
+      "sources": [
+        "georisques-ssp000382401"
+      ]
+    }
+  ],
+  "exploitants": [
+    {
+      "nom": "Atlantide Distribution",
+      "source": "georisques-ssp000382401"
+    },
+    {
+      "nom": "Rolland's Company",
+      "debut": "1976",
+      "fin": "1993",
+      "source": "georisques-ssp000382401"
+    },
+    {
+      "nom": "Rol-Eco",
+      "source": "georisques-ssp000382401"
+    },
+    {
+      "nom": "NCH",
+      "role": "groupe auquel l'administration rattache le dernier exploitant, qui le conteste",
+      "source": "georisques-ssp000382401"
+    }
+  ],
+  "statut_preuve": "diagnostic_administratif",
+  "procedure_en_cours": true,
+  "statut_traitement": "non_traite",
+  "sources": [
+    "georisques-ssp000382401"
+  ],
+  "ce_qui_manque": [
+    {
+      "piece": "Mesures chiffrées dans les sols et la nappe",
+      "ou_chercher": "Étude de sols de 1998 et contre-expertise commandée par la CDA, alors propriétaire, archives de la CDA ou de la DREAL",
+      "statut_vise": "mesure_publiee"
+    }
+  ],
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": true
+}

@@ -3,6 +3,31 @@
   "features": [
     {
       "type": "Feature",
+      "id": "baignade-angoulins-platerre",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.135011,
+          46.105365
+        ]
+      },
+      "properties": {
+        "id": "baignade-angoulins-platerre",
+        "nom": "Plage de la Platerre",
+        "commune": "Angoulins",
+        "code_insee": "17010",
+        "categorie": "eau_baignade",
+        "theme": "eaux_baignade",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 150,
+        "statut_preuve": "mesure_publiee",
+        "procedure_en_cours": false,
+        "statut_traitement": "sous_surveillance",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
       "id": "baignade-aytre-platin-nord",
       "geometry": {
         "type": "Point",
@@ -48,6 +73,2949 @@
         "statut_preuve": "mesure_publiee",
         "procedure_en_cours": true,
         "statut_traitement": "sous_surveillance",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "baignade-chatelaillon-boucholeurs",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.08908,
+          46.054191
+        ]
+      },
+      "properties": {
+        "id": "baignade-chatelaillon-boucholeurs",
+        "nom": "Plage des Boucholeurs",
+        "commune": "Châtelaillon-Plage",
+        "code_insee": "17094",
+        "categorie": "eau_baignade",
+        "theme": "eaux_baignade",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 150,
+        "statut_preuve": "mesure_publiee",
+        "procedure_en_cours": false,
+        "statut_traitement": "sous_surveillance",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "baignade-chatelaillon-casino",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.094106,
+          46.076444
+        ]
+      },
+      "properties": {
+        "id": "baignade-chatelaillon-casino",
+        "nom": "Plage Casino",
+        "commune": "Châtelaillon-Plage",
+        "code_insee": "17094",
+        "categorie": "eau_baignade",
+        "theme": "eaux_baignade",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 150,
+        "statut_preuve": "mesure_publiee",
+        "procedure_en_cours": false,
+        "statut_traitement": "sous_surveillance",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "baignade-chatelaillon-nord",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.096611,
+          46.08189
+        ]
+      },
+      "properties": {
+        "id": "baignade-chatelaillon-nord",
+        "nom": "Plage Nord",
+        "commune": "Châtelaillon-Plage",
+        "code_insee": "17094",
+        "categorie": "eau_baignade",
+        "theme": "eaux_baignade",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 150,
+        "statut_preuve": "mesure_publiee",
+        "procedure_en_cours": false,
+        "statut_traitement": "sous_surveillance",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "baignade-chatelaillon-sud",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.093629,
+          46.063972
+        ]
+      },
+      "properties": {
+        "id": "baignade-chatelaillon-sud",
+        "nom": "Plage Sud",
+        "commune": "Châtelaillon-Plage",
+        "code_insee": "17094",
+        "categorie": "eau_baignade",
+        "theme": "eaux_baignade",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 150,
+        "statut_preuve": "mesure_publiee",
+        "procedure_en_cours": false,
+        "statut_traitement": "sous_surveillance",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "baignade-chef-de-baie-la-rochelle",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.210514,
+          46.147441
+        ]
+      },
+      "properties": {
+        "id": "baignade-chef-de-baie-la-rochelle",
+        "nom": "Plage de Chef de Baie",
+        "commune": "La Rochelle",
+        "code_insee": "17300",
+        "categorie": "eau_baignade",
+        "theme": "eaux_baignade",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 150,
+        "statut_preuve": "mesure_publiee",
+        "procedure_en_cours": false,
+        "statut_traitement": "sous_surveillance",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "baignade-concurrence-la-rochelle",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.160816,
+          46.154865
+        ]
+      },
+      "properties": {
+        "id": "baignade-concurrence-la-rochelle",
+        "nom": "Plage de la Concurrence",
+        "commune": "La Rochelle",
+        "code_insee": "17300",
+        "categorie": "eau_baignade",
+        "theme": "eaux_baignade",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 150,
+        "statut_preuve": "mesure_publiee",
+        "procedure_en_cours": false,
+        "statut_traitement": "sous_surveillance",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "baignade-lhoumeau-pampin",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.201637,
+          46.191434
+        ]
+      },
+      "properties": {
+        "id": "baignade-lhoumeau-pampin",
+        "nom": "La Plage (Pampin)",
+        "commune": "L'Houmeau",
+        "code_insee": "17190",
+        "categorie": "eau_baignade",
+        "theme": "eaux_baignade",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 150,
+        "statut_preuve": "mesure_publiee",
+        "procedure_en_cours": false,
+        "statut_traitement": "sous_surveillance",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "baignade-minimes-la-rochelle",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.171325,
+          46.141043
+        ]
+      },
+      "properties": {
+        "id": "baignade-minimes-la-rochelle",
+        "nom": "Plage des Minimes",
+        "commune": "La Rochelle",
+        "code_insee": "17300",
+        "categorie": "eau_baignade",
+        "theme": "eaux_baignade",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 150,
+        "statut_preuve": "mesure_publiee",
+        "procedure_en_cours": false,
+        "statut_traitement": "sous_surveillance",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bongraine-aytre",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1213,
+          46.1375
+        ]
+      },
+      "properties": {
+        "id": "bongraine-aytre",
+        "nom": "Secteur de Bongraine, futur écoquartier",
+        "commune": "Aytré",
+        "code_insee": "17028",
+        "categorie": "friche_sol_pollue",
+        "theme": "pollution_chimique",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 450,
+        "statut_preuve": "diagnostic_administratif",
+        "procedure_en_cours": false,
+        "statut_traitement": "travaux_en_cours",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "butte-de-pampin-lhoumeau",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1975,
+          46.1935
+        ]
+      },
+      "properties": {
+        "id": "butte-de-pampin-lhoumeau",
+        "nom": "Butte de Pampin, ancienne décharge",
+        "commune": "L'Houmeau",
+        "code_insee": "17190",
+        "categorie": "decharge",
+        "theme": "pollution_chimique",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 300,
+        "statut_preuve": "signalement_non_instruit",
+        "procedure_en_cours": false,
+        "statut_traitement": "inconnu",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "chrome-merle-aytre",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.097744,
+          46.129531
+        ]
+      },
+      "properties": {
+        "id": "chrome-merle-aytre",
+        "nom": "Atelier de traitement de surfaces Merle, ZAC de Belle-Aire",
+        "commune": "Aytré",
+        "code_insee": "17028",
+        "categorie": "friche_sol_pollue",
+        "theme": "pollution_chimique",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 100,
+        "statut_preuve": "mesure_publiee",
+        "procedure_en_cours": true,
+        "statut_traitement": "sous_surveillance",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "compin-composites-aytre",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -1.100344,
+                46.127828
+              ],
+              [
+                -1.10032,
+                46.128013
+              ],
+              [
+                -1.100299,
+                46.128194
+              ],
+              [
+                -1.100253,
+                46.128192
+              ],
+              [
+                -1.099831,
+                46.128162
+              ],
+              [
+                -1.099358,
+                46.128129
+              ],
+              [
+                -1.098886,
+                46.128097
+              ],
+              [
+                -1.098869,
+                46.128096
+              ],
+              [
+                -1.098847,
+                46.128092
+              ],
+              [
+                -1.098826,
+                46.128086
+              ],
+              [
+                -1.098811,
+                46.128079
+              ],
+              [
+                -1.098771,
+                46.128056
+              ],
+              [
+                -1.098757,
+                46.128048
+              ],
+              [
+                -1.09875,
+                46.128039
+              ],
+              [
+                -1.098742,
+                46.128021
+              ],
+              [
+                -1.098736,
+                46.127998
+              ],
+              [
+                -1.098725,
+                46.127968
+              ],
+              [
+                -1.098718,
+                46.127954
+              ],
+              [
+                -1.098749,
+                46.12772
+              ],
+              [
+                -1.098824,
+                46.127727
+              ],
+              [
+                -1.099378,
+                46.127765
+              ],
+              [
+                -1.099888,
+                46.127799
+              ],
+              [
+                -1.100338,
+                46.127828
+              ],
+              [
+                -1.100344,
+                46.127828
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "compin-composites-aytre",
+        "nom": "Ancien atelier de matériaux composites, 19 rue Galilée",
+        "commune": "Aytré",
+        "code_insee": "17028",
+        "categorie": "friche_sol_pollue",
+        "theme": "pollution_chimique",
+        "precision_geo": "emprise_cadastrale",
+        "rayon_m": null,
+        "statut_preuve": "diagnostic_administratif",
+        "procedure_en_cours": true,
+        "statut_traitement": "inconnu",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "decharge-chef-de-baie-la-rochelle",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2125,
+          46.1505
+        ]
+      },
+      "properties": {
+        "id": "decharge-chef-de-baie-la-rochelle",
+        "nom": "Ancienne décharge de Chef-de-Baie",
+        "commune": "La Rochelle",
+        "code_insee": "17300",
+        "categorie": "decharge",
+        "theme": "pollution_chimique",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 400,
+        "statut_preuve": "signalement_non_instruit",
+        "procedure_en_cours": false,
+        "statut_traitement": "inconnu",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "delphi-perigny",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.095807,
+          46.161431
+        ]
+      },
+      "properties": {
+        "id": "delphi-perigny",
+        "nom": "Ancienne usine Delphi, avenue Paul-Langevin",
+        "commune": "Périgny",
+        "code_insee": "17274",
+        "categorie": "friche_sol_pollue",
+        "theme": "pollution_chimique",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 150,
+        "statut_preuve": "mesure_publiee",
+        "procedure_en_cours": true,
+        "statut_traitement": "rehabilite",
+        "visible_par_defaut": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "depots-hydrocarbures-la-pallice",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.209674,
+          46.16861
+        ]
+      },
+      "properties": {
+        "id": "depots-hydrocarbures-la-pallice",
+        "nom": "Dépôts portuaires d'hydrocarbures de La Pallice",
+        "commune": "La Rochelle",
+        "code_insee": "17300",
+        "categorie": "friche_sol_pollue",
+        "theme": "pollution_chimique",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 400,
+        "statut_preuve": "diagnostic_administratif",
+        "procedure_en_cours": true,
+        "statut_traitement": "sous_surveillance",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ex-parc-ddtm-laleu-la-rochelle",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -1.204541,
+                46.176011
+              ],
+              [
+                -1.20402,
+                46.175798
+              ],
+              [
+                -1.203761,
+                46.17569
+              ],
+              [
+                -1.203822,
+                46.175594
+              ],
+              [
+                -1.203924,
+                46.175432
+              ],
+              [
+                -1.204026,
+                46.175273
+              ],
+              [
+                -1.204275,
+                46.174877
+              ],
+              [
+                -1.204338,
+                46.174776
+              ],
+              [
+                -1.205194,
+                46.175014
+              ],
+              [
+                -1.205834,
+                46.175193
+              ],
+              [
+                -1.205841,
+                46.175185
+              ],
+              [
+                -1.206263,
+                46.175364
+              ],
+              [
+                -1.205889,
+                46.175803
+              ],
+              [
+                -1.205561,
+                46.17567
+              ],
+              [
+                -1.205283,
+                46.175557
+              ],
+              [
+                -1.204792,
+                46.176118
+              ],
+              [
+                -1.204657,
+                46.176057
+              ],
+              [
+                -1.204541,
+                46.176011
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ex-parc-ddtm-laleu-la-rochelle",
+        "nom": "Ancien parc routier de la DDTM, rue Élie-Barreau",
+        "commune": "La Rochelle",
+        "code_insee": "17300",
+        "categorie": "friche_sol_pollue",
+        "theme": "pollution_chimique",
+        "precision_geo": "emprise_cadastrale",
+        "rayon_m": null,
+        "statut_preuve": "mesure_publiee",
+        "procedure_en_cours": true,
+        "statut_traitement": "sous_surveillance",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "friche-cottes-mailles-aytre",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -1.119436,
+                46.138271
+              ],
+              [
+                -1.119665,
+                46.138293
+              ],
+              [
+                -1.120016,
+                46.138327
+              ],
+              [
+                -1.120032,
+                46.138329
+              ],
+              [
+                -1.120077,
+                46.138333
+              ],
+              [
+                -1.120065,
+                46.138352
+              ],
+              [
+                -1.119753,
+                46.138768
+              ],
+              [
+                -1.119655,
+                46.138902
+              ],
+              [
+                -1.119457,
+                46.13917
+              ],
+              [
+                -1.11941,
+                46.139155
+              ],
+              [
+                -1.119385,
+                46.139188
+              ],
+              [
+                -1.119345,
+                46.139163
+              ],
+              [
+                -1.119297,
+                46.139131
+              ],
+              [
+                -1.119084,
+                46.138992
+              ],
+              [
+                -1.118889,
+                46.138864
+              ],
+              [
+                -1.118842,
+                46.138834
+              ],
+              [
+                -1.118744,
+                46.138768
+              ],
+              [
+                -1.118678,
+                46.138721
+              ],
+              [
+                -1.118609,
+                46.138674
+              ],
+              [
+                -1.118571,
+                46.138646
+              ],
+              [
+                -1.118277,
+                46.138408
+              ],
+              [
+                -1.118251,
+                46.138385
+              ],
+              [
+                -1.118341,
+                46.138164
+              ],
+              [
+                -1.119372,
+                46.138265
+              ],
+              [
+                -1.119436,
+                46.138271
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "friche-cottes-mailles-aytre",
+        "nom": "Ancien site de produits chimiques des Cottes Mailles",
+        "commune": "Aytré",
+        "code_insee": "17028",
+        "categorie": "friche_sol_pollue",
+        "theme": "pollution_chimique",
+        "precision_geo": "emprise_cadastrale",
+        "rayon_m": null,
+        "statut_preuve": "diagnostic_administratif",
+        "procedure_en_cours": true,
+        "statut_traitement": "non_traite",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "friche-delfau-aytre",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -1.148627,
+                46.132455
+              ],
+              [
+                -1.148636,
+                46.132474
+              ],
+              [
+                -1.148649,
+                46.132501
+              ],
+              [
+                -1.148684,
+                46.132561
+              ],
+              [
+                -1.148719,
+                46.132615
+              ],
+              [
+                -1.148746,
+                46.132656
+              ],
+              [
+                -1.148809,
+                46.132738
+              ],
+              [
+                -1.148845,
+                46.132786
+              ],
+              [
+                -1.148887,
+                46.132832
+              ],
+              [
+                -1.14893,
+                46.132874
+              ],
+              [
+                -1.148971,
+                46.132914
+              ],
+              [
+                -1.149012,
+                46.132952
+              ],
+              [
+                -1.149054,
+                46.132984
+              ],
+              [
+                -1.149135,
+                46.133038
+              ],
+              [
+                -1.149183,
+                46.133067
+              ],
+              [
+                -1.149066,
+                46.133263
+              ],
+              [
+                -1.148912,
+                46.133243
+              ],
+              [
+                -1.148225,
+                46.133158
+              ],
+              [
+                -1.147989,
+                46.133096
+              ],
+              [
+                -1.14765,
+                46.133901
+              ],
+              [
+                -1.147546,
+                46.133879
+              ],
+              [
+                -1.147411,
+                46.133851
+              ],
+              [
+                -1.147139,
+                46.133794
+              ],
+              [
+                -1.147116,
+                46.133826
+              ],
+              [
+                -1.146586,
+                46.134587
+              ],
+              [
+                -1.146507,
+                46.134702
+              ],
+              [
+                -1.146457,
+                46.134679
+              ],
+              [
+                -1.146389,
+                46.134648
+              ],
+              [
+                -1.146136,
+                46.134532
+              ],
+              [
+                -1.145918,
+                46.134428
+              ],
+              [
+                -1.14571,
+                46.134314
+              ],
+              [
+                -1.146251,
+                46.133514
+              ],
+              [
+                -1.146527,
+                46.132986
+              ],
+              [
+                -1.145526,
+                46.13311
+              ],
+              [
+                -1.145466,
+                46.132844
+              ],
+              [
+                -1.14545,
+                46.132805
+              ],
+              [
+                -1.145366,
+                46.132625
+              ],
+              [
+                -1.145329,
+                46.132628
+              ],
+              [
+                -1.145223,
+                46.132477
+              ],
+              [
+                -1.145148,
+                46.132369
+              ],
+              [
+                -1.145075,
+                46.132266
+              ],
+              [
+                -1.145065,
+                46.132256
+              ],
+              [
+                -1.14511,
+                46.132002
+              ],
+              [
+                -1.146073,
+                46.132008
+              ],
+              [
+                -1.146783,
+                46.132012
+              ],
+              [
+                -1.147045,
+                46.132449
+              ],
+              [
+                -1.147271,
+                46.13245
+              ],
+              [
+                -1.147714,
+                46.132452
+              ],
+              [
+                -1.147871,
+                46.132452
+              ],
+              [
+                -1.148031,
+                46.132453
+              ],
+              [
+                -1.148199,
+                46.132454
+              ],
+              [
+                -1.148627,
+                46.132455
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "friche-delfau-aytre",
+        "nom": "Ancien dépôt de vidanges et usine d'engrais Chignard-Delfau",
+        "commune": "Aytré",
+        "code_insee": "17028",
+        "categorie": "friche_sol_pollue",
+        "theme": "pollution_chimique",
+        "precision_geo": "emprise_cadastrale",
+        "rayon_m": null,
+        "statut_preuve": "mesure_publiee",
+        "procedure_en_cours": true,
+        "statut_traitement": "non_traite",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gazometre-1-la-rochelle",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -1.148611,
+                46.168055
+              ],
+              [
+                -1.148601,
+                46.168054
+              ],
+              [
+                -1.148221,
+                46.168061
+              ],
+              [
+                -1.147907,
+                46.168031
+              ],
+              [
+                -1.147228,
+                46.167929
+              ],
+              [
+                -1.147222,
+                46.167927
+              ],
+              [
+                -1.147185,
+                46.167717
+              ],
+              [
+                -1.147212,
+                46.167236
+              ],
+              [
+                -1.147253,
+                46.167234
+              ],
+              [
+                -1.147407,
+                46.167228
+              ],
+              [
+                -1.14751,
+                46.167226
+              ],
+              [
+                -1.147526,
+                46.167288
+              ],
+              [
+                -1.147527,
+                46.167293
+              ],
+              [
+                -1.147529,
+                46.167299
+              ],
+              [
+                -1.147541,
+                46.167353
+              ],
+              [
+                -1.14756,
+                46.16743
+              ],
+              [
+                -1.147604,
+                46.167456
+              ],
+              [
+                -1.1477,
+                46.167514
+              ],
+              [
+                -1.147804,
+                46.167576
+              ],
+              [
+                -1.148012,
+                46.167699
+              ],
+              [
+                -1.148611,
+                46.168055
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "gazometre-1-la-rochelle",
+        "nom": "Ancienne station gazométrique, rue du Rempart des Voiliers",
+        "commune": "La Rochelle",
+        "code_insee": "17300",
+        "categorie": "friche_sol_pollue",
+        "theme": "pollution_chimique",
+        "precision_geo": "emprise_cadastrale",
+        "rayon_m": null,
+        "statut_preuve": "diagnostic_administratif",
+        "procedure_en_cours": false,
+        "statut_traitement": "inconnu",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gazometre-2-la-rochelle",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -1.145931,
+                46.164611
+              ],
+              [
+                -1.146099,
+                46.16464
+              ],
+              [
+                -1.146037,
+                46.164712
+              ],
+              [
+                -1.14598,
+                46.164779
+              ],
+              [
+                -1.145911,
+                46.16486
+              ],
+              [
+                -1.145887,
+                46.164889
+              ],
+              [
+                -1.145885,
+                46.164893
+              ],
+              [
+                -1.145745,
+                46.164852
+              ],
+              [
+                -1.145714,
+                46.164892
+              ],
+              [
+                -1.145545,
+                46.165115
+              ],
+              [
+                -1.145331,
+                46.165013
+              ],
+              [
+                -1.145267,
+                46.164983
+              ],
+              [
+                -1.145176,
+                46.164942
+              ],
+              [
+                -1.14517,
+                46.164938
+              ],
+              [
+                -1.145253,
+                46.164838
+              ],
+              [
+                -1.145037,
+                46.164751
+              ],
+              [
+                -1.145045,
+                46.164735
+              ],
+              [
+                -1.145069,
+                46.164681
+              ],
+              [
+                -1.145069,
+                46.164678
+              ],
+              [
+                -1.145109,
+                46.164589
+              ],
+              [
+                -1.145113,
+                46.164581
+              ],
+              [
+                -1.145116,
+                46.164574
+              ],
+              [
+                -1.14515,
+                46.164501
+              ],
+              [
+                -1.145159,
+                46.164479
+              ],
+              [
+                -1.145163,
+                46.16448
+              ],
+              [
+                -1.1454,
+                46.16452
+              ],
+              [
+                -1.145453,
+                46.164529
+              ],
+              [
+                -1.145638,
+                46.16456
+              ],
+              [
+                -1.145801,
+                46.164589
+              ],
+              [
+                -1.145931,
+                46.164611
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "gazometre-2-la-rochelle",
+        "nom": "Ancienne station gazométrique n° 2, rue des Voiliers",
+        "commune": "La Rochelle",
+        "code_insee": "17300",
+        "categorie": "friche_sol_pollue",
+        "theme": "pollution_chimique",
+        "precision_geo": "emprise_cadastrale",
+        "rayon_m": null,
+        "statut_preuve": "diagnostic_administratif",
+        "procedure_en_cours": false,
+        "statut_traitement": "inconnu",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "gazometre-4-la-rochelle",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -1.200603,
+                46.163233
+              ],
+              [
+                -1.200672,
+                46.163153
+              ],
+              [
+                -1.200984,
+                46.163276
+              ],
+              [
+                -1.201158,
+                46.163347
+              ],
+              [
+                -1.201159,
+                46.163347
+              ],
+              [
+                -1.200963,
+                46.163567
+              ],
+              [
+                -1.200909,
+                46.163545
+              ],
+              [
+                -1.200845,
+                46.163518
+              ],
+              [
+                -1.200839,
+                46.163516
+              ],
+              [
+                -1.200836,
+                46.163515
+              ],
+              [
+                -1.200813,
+                46.163505
+              ],
+              [
+                -1.20072,
+                46.163467
+              ],
+              [
+                -1.200656,
+                46.163441
+              ],
+              [
+                -1.200572,
+                46.163406
+              ],
+              [
+                -1.200539,
+                46.163392
+              ],
+              [
+                -1.20049,
+                46.163372
+              ],
+              [
+                -1.200482,
+                46.163369
+              ],
+              [
+                -1.200496,
+                46.163353
+              ],
+              [
+                -1.200522,
+                46.163323
+              ],
+              [
+                -1.200537,
+                46.163305
+              ],
+              [
+                -1.200317,
+                46.163199
+              ],
+              [
+                -1.200159,
+                46.163127
+              ],
+              [
+                -1.200199,
+                46.163102
+              ],
+              [
+                -1.200389,
+                46.163189
+              ],
+              [
+                -1.200568,
+                46.163273
+              ],
+              [
+                -1.200603,
+                46.163233
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "gazometre-4-la-rochelle",
+        "nom": "Ancienne station gazométrique n° 4, rue Alphonse-de-Saintonge",
+        "commune": "La Rochelle",
+        "code_insee": "17300",
+        "categorie": "friche_sol_pollue",
+        "theme": "pollution_chimique",
+        "precision_geo": "emprise_cadastrale",
+        "rayon_m": null,
+        "statut_preuve": "diagnostic_administratif",
+        "procedure_en_cours": false,
+        "statut_traitement": "inconnu",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "laboratoire-fujifilm-aytre",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.093678,
+          46.129795
+        ]
+      },
+      "properties": {
+        "id": "laboratoire-fujifilm-aytre",
+        "nom": "Ancien laboratoire photographique Fujifilm, ZAC de Belle-Aire",
+        "commune": "Aytré",
+        "code_insee": "17028",
+        "categorie": "friche_sol_pollue",
+        "theme": "pollution_chimique",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 80,
+        "statut_preuve": "diagnostic_administratif",
+        "procedure_en_cours": true,
+        "statut_traitement": "rehabilite",
+        "visible_par_defaut": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "marchand-metaux-protection-la-rochelle",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -1.217232,
+                46.161352
+              ],
+              [
+                -1.217241,
+                46.161418
+              ],
+              [
+                -1.217245,
+                46.161454
+              ],
+              [
+                -1.217129,
+                46.161461
+              ],
+              [
+                -1.217077,
+                46.161464
+              ],
+              [
+                -1.217096,
+                46.161614
+              ],
+              [
+                -1.216988,
+                46.161621
+              ],
+              [
+                -1.216985,
+                46.161621
+              ],
+              [
+                -1.21687,
+                46.161629
+              ],
+              [
+                -1.216787,
+                46.161633
+              ],
+              [
+                -1.216777,
+                46.161631
+              ],
+              [
+                -1.216772,
+                46.161631
+              ],
+              [
+                -1.21673,
+                46.161625
+              ],
+              [
+                -1.216604,
+                46.161607
+              ],
+              [
+                -1.216553,
+                46.161599
+              ],
+              [
+                -1.216544,
+                46.161598
+              ],
+              [
+                -1.216545,
+                46.161594
+              ],
+              [
+                -1.216563,
+                46.161522
+              ],
+              [
+                -1.216583,
+                46.161443
+              ],
+              [
+                -1.216593,
+                46.161398
+              ],
+              [
+                -1.216593,
+                46.161394
+              ],
+              [
+                -1.216588,
+                46.161366
+              ],
+              [
+                -1.216588,
+                46.161363
+              ],
+              [
+                -1.216674,
+                46.161361
+              ],
+              [
+                -1.216745,
+                46.161376
+              ],
+              [
+                -1.216752,
+                46.161359
+              ],
+              [
+                -1.216792,
+                46.161317
+              ],
+              [
+                -1.216863,
+                46.161286
+              ],
+              [
+                -1.216881,
+                46.161278
+              ],
+              [
+                -1.216896,
+                46.161273
+              ],
+              [
+                -1.21697,
+                46.161246
+              ],
+              [
+                -1.216974,
+                46.16127
+              ],
+              [
+                -1.216982,
+                46.161322
+              ],
+              [
+                -1.217226,
+                46.161308
+              ],
+              [
+                -1.217232,
+                46.161352
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "marchand-metaux-protection-la-rochelle",
+        "nom": "Ancien atelier de traitement de surface, rue de la Mare-à-la-Besse",
+        "commune": "La Rochelle",
+        "code_insee": "17300",
+        "categorie": "friche_sol_pollue",
+        "theme": "pollution_chimique",
+        "precision_geo": "emprise_cadastrale",
+        "rayon_m": null,
+        "statut_preuve": "diagnostic_administratif",
+        "procedure_en_cours": true,
+        "statut_traitement": "rehabilite",
+        "visible_par_defaut": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "phospho-guano-la-rochelle",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -1.214306,
+                46.165267
+              ],
+              [
+                -1.214464,
+                46.165096
+              ],
+              [
+                -1.214657,
+                46.165062
+              ],
+              [
+                -1.215279,
+                46.164381
+              ],
+              [
+                -1.215579,
+                46.164058
+              ],
+              [
+                -1.216156,
+                46.163431
+              ],
+              [
+                -1.21764,
+                46.163337
+              ],
+              [
+                -1.218003,
+                46.163315
+              ],
+              [
+                -1.218081,
+                46.163309
+              ],
+              [
+                -1.218161,
+                46.163411
+              ],
+              [
+                -1.218075,
+                46.163506
+              ],
+              [
+                -1.217879,
+                46.163716
+              ],
+              [
+                -1.217754,
+                46.163847
+              ],
+              [
+                -1.217053,
+                46.164622
+              ],
+              [
+                -1.216602,
+                46.165113
+              ],
+              [
+                -1.216622,
+                46.165122
+              ],
+              [
+                -1.216564,
+                46.165185
+              ],
+              [
+                -1.216546,
+                46.165178
+              ],
+              [
+                -1.216384,
+                46.165356
+              ],
+              [
+                -1.215763,
+                46.165887
+              ],
+              [
+                -1.215536,
+                46.166029
+              ],
+              [
+                -1.215353,
+                46.166107
+              ],
+              [
+                -1.214707,
+                46.166386
+              ],
+              [
+                -1.21419,
+                46.166611
+              ],
+              [
+                -1.213816,
+                46.166698
+              ],
+              [
+                -1.213652,
+                46.166812
+              ],
+              [
+                -1.213595,
+                46.166773
+              ],
+              [
+                -1.213374,
+                46.166628
+              ],
+              [
+                -1.213179,
+                46.166499
+              ],
+              [
+                -1.213718,
+                46.165906
+              ],
+              [
+                -1.214306,
+                46.165267
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "phospho-guano-la-rochelle",
+        "nom": "Ancienne usine d'engrais du Phospho-Guano, rue Montcalm",
+        "commune": "La Rochelle",
+        "code_insee": "17300",
+        "categorie": "friche_sol_pollue",
+        "theme": "pollution_chimique",
+        "precision_geo": "emprise_cadastrale",
+        "rayon_m": null,
+        "statut_preuve": "diagnostic_administratif",
+        "procedure_en_cours": true,
+        "statut_traitement": "rehabilite",
+        "visible_par_defaut": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "projet-decharge-trou-rizzo-aytre",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.144126,
+          46.128708
+        ]
+      },
+      "properties": {
+        "id": "projet-decharge-trou-rizzo-aytre",
+        "nom": "Projet de remblaiement de l'ancienne carrière du trou Rizzo",
+        "commune": "Aytré",
+        "code_insee": "17028",
+        "categorie": "projet_decharge",
+        "theme": "pollution_chimique",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 150,
+        "statut_preuve": "signalement_non_instruit",
+        "procedure_en_cours": false,
+        "statut_traitement": "inconnu",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "spimec-perigny",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -1.109848,
+                46.158293
+              ],
+              [
+                -1.108886,
+                46.15758
+              ],
+              [
+                -1.108956,
+                46.157534
+              ],
+              [
+                -1.110262,
+                46.156684
+              ],
+              [
+                -1.110098,
+                46.156563
+              ],
+              [
+                -1.11102,
+                46.155966
+              ],
+              [
+                -1.111183,
+                46.156087
+              ],
+              [
+                -1.112517,
+                46.155223
+              ],
+              [
+                -1.112918,
+                46.154963
+              ],
+              [
+                -1.112945,
+                46.154948
+              ],
+              [
+                -1.113135,
+                46.1548
+              ],
+              [
+                -1.113124,
+                46.154747
+              ],
+              [
+                -1.113083,
+                46.154712
+              ],
+              [
+                -1.113224,
+                46.154621
+              ],
+              [
+                -1.113514,
+                46.154438
+              ],
+              [
+                -1.116541,
+                46.156686
+              ],
+              [
+                -1.111803,
+                46.159746
+              ],
+              [
+                -1.111574,
+                46.159577
+              ],
+              [
+                -1.111129,
+                46.159244
+              ],
+              [
+                -1.110719,
+                46.15894
+              ],
+              [
+                -1.110451,
+                46.158741
+              ],
+              [
+                -1.110361,
+                46.158674
+              ],
+              [
+                -1.109848,
+                46.158293
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "spimec-perigny",
+        "nom": "Ancienne usine d'équipement automobile Spimec, zone des Quatre-Chevaliers",
+        "commune": "Périgny",
+        "code_insee": "17274",
+        "categorie": "friche_sol_pollue",
+        "theme": "pollution_chimique",
+        "precision_geo": "emprise_cadastrale",
+        "rayon_m": null,
+        "statut_preuve": "diagnostic_administratif",
+        "procedure_en_cours": true,
+        "statut_traitement": "inconnu",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "station-esso-porte-royale-la-rochelle",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -1.139138,
+                46.161778
+              ],
+              [
+                -1.138996,
+                46.16182
+              ],
+              [
+                -1.138942,
+                46.161733
+              ],
+              [
+                -1.138927,
+                46.161708
+              ],
+              [
+                -1.138894,
+                46.161656
+              ],
+              [
+                -1.138879,
+                46.161634
+              ],
+              [
+                -1.138908,
+                46.161573
+              ],
+              [
+                -1.139064,
+                46.161609
+              ],
+              [
+                -1.139114,
+                46.161621
+              ],
+              [
+                -1.139194,
+                46.16164
+              ],
+              [
+                -1.139179,
+                46.161663
+              ],
+              [
+                -1.139136,
+                46.161664
+              ],
+              [
+                -1.139112,
+                46.161659
+              ],
+              [
+                -1.139106,
+                46.161677
+              ],
+              [
+                -1.139105,
+                46.16169
+              ],
+              [
+                -1.139089,
+                46.161693
+              ],
+              [
+                -1.139138,
+                46.161778
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                -1.13923,
+                46.162041
+              ],
+              [
+                -1.139204,
+                46.162032
+              ],
+              [
+                -1.139116,
+                46.162005
+              ],
+              [
+                -1.139112,
+                46.162006
+              ],
+              [
+                -1.139057,
+                46.161914
+              ],
+              [
+                -1.139046,
+                46.161896
+              ],
+              [
+                -1.139051,
+                46.161893
+              ],
+              [
+                -1.139117,
+                46.161875
+              ],
+              [
+                -1.139404,
+                46.161794
+              ],
+              [
+                -1.139421,
+                46.161826
+              ],
+              [
+                -1.139433,
+                46.16185
+              ],
+              [
+                -1.139237,
+                46.162043
+              ],
+              [
+                -1.13923,
+                46.162041
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "station-esso-porte-royale-la-rochelle",
+        "nom": "Ancienne station-service Esso de la Porte Royale",
+        "commune": "La Rochelle",
+        "code_insee": "17300",
+        "categorie": "friche_sol_pollue",
+        "theme": "pollution_chimique",
+        "precision_geo": "emprise_cadastrale",
+        "rayon_m": null,
+        "statut_preuve": "diagnostic_administratif",
+        "procedure_en_cours": true,
+        "statut_traitement": "rehabilite",
+        "visible_par_defaut": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "station-lanidis-la-pallice",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -1.2082,
+                46.161403
+              ],
+              [
+                -1.208175,
+                46.161405
+              ],
+              [
+                -1.208083,
+                46.161411
+              ],
+              [
+                -1.208102,
+                46.161575
+              ],
+              [
+                -1.208108,
+                46.16162
+              ],
+              [
+                -1.208133,
+                46.161834
+              ],
+              [
+                -1.208154,
+                46.16185
+              ],
+              [
+                -1.208189,
+                46.161857
+              ],
+              [
+                -1.208399,
+                46.161843
+              ],
+              [
+                -1.208433,
+                46.161811
+              ],
+              [
+                -1.20853,
+                46.161717
+              ],
+              [
+                -1.208473,
+                46.161685
+              ],
+              [
+                -1.208446,
+                46.161668
+              ],
+              [
+                -1.208416,
+                46.161652
+              ],
+              [
+                -1.208322,
+                46.161595
+              ],
+              [
+                -1.208313,
+                46.16159
+              ],
+              [
+                -1.208288,
+                46.161575
+              ],
+              [
+                -1.208218,
+                46.161533
+              ],
+              [
+                -1.208212,
+                46.161484
+              ],
+              [
+                -1.208212,
+                46.161482
+              ],
+              [
+                -1.2082,
+                46.161403
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "station-lanidis-la-pallice",
+        "nom": "Ancienne station-service, boulevard Émile-Delmas",
+        "commune": "La Rochelle",
+        "code_insee": "17300",
+        "categorie": "friche_sol_pollue",
+        "theme": "pollution_chimique",
+        "precision_geo": "emprise_cadastrale",
+        "rayon_m": null,
+        "statut_preuve": "diagnostic_administratif",
+        "procedure_en_cours": false,
+        "statut_traitement": "rehabilite",
+        "visible_par_defaut": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "triaxe-perigny",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -1.116541,
+                46.156686
+              ],
+              [
+                -1.117027,
+                46.157048
+              ],
+              [
+                -1.117199,
+                46.156935
+              ],
+              [
+                -1.117627,
+                46.157245
+              ],
+              [
+                -1.117882,
+                46.157441
+              ],
+              [
+                -1.118528,
+                46.157944
+              ],
+              [
+                -1.118978,
+                46.158268
+              ],
+              [
+                -1.119395,
+                46.158597
+              ],
+              [
+                -1.119805,
+                46.158965
+              ],
+              [
+                -1.120206,
+                46.159349
+              ],
+              [
+                -1.120751,
+                46.160013
+              ],
+              [
+                -1.121007,
+                46.160414
+              ],
+              [
+                -1.121214,
+                46.160827
+              ],
+              [
+                -1.121483,
+                46.161504
+              ],
+              [
+                -1.121495,
+                46.161557
+              ],
+              [
+                -1.115644,
+                46.163166
+              ],
+              [
+                -1.115012,
+                46.163341
+              ],
+              [
+                -1.114988,
+                46.163302
+              ],
+              [
+                -1.114643,
+                46.163397
+              ],
+              [
+                -1.114558,
+                46.16324
+              ],
+              [
+                -1.114418,
+                46.16328
+              ],
+              [
+                -1.114396,
+                46.163244
+              ],
+              [
+                -1.114538,
+                46.163205
+              ],
+              [
+                -1.114492,
+                46.163124
+              ],
+              [
+                -1.115118,
+                46.162946
+              ],
+              [
+                -1.115824,
+                46.162746
+              ],
+              [
+                -1.115827,
+                46.162741
+              ],
+              [
+                -1.115809,
+                46.162727
+              ],
+              [
+                -1.115655,
+                46.162607
+              ],
+              [
+                -1.115262,
+                46.162315
+              ],
+              [
+                -1.114999,
+                46.16212
+              ],
+              [
+                -1.113215,
+                46.160795
+              ],
+              [
+                -1.112454,
+                46.160229
+              ],
+              [
+                -1.112285,
+                46.160103
+              ],
+              [
+                -1.112156,
+                46.160007
+              ],
+              [
+                -1.111803,
+                46.159746
+              ],
+              [
+                -1.116541,
+                46.156686
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "triaxe-perigny",
+        "nom": "Ancien site de l'équipementier Triaxe, zone des Quatre-Chevaliers",
+        "commune": "Périgny",
+        "code_insee": "17274",
+        "categorie": "friche_sol_pollue",
+        "theme": "pollution_chimique",
+        "precision_geo": "emprise_cadastrale",
+        "rayon_m": null,
+        "statut_preuve": "diagnostic_administratif",
+        "procedure_en_cours": true,
+        "statut_traitement": "sous_surveillance",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "usine-a-gaz-chatelaillon",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -1.076813,
+                46.0802
+              ],
+              [
+                -1.07683,
+                46.080192
+              ],
+              [
+                -1.07711,
+                46.080057
+              ],
+              [
+                -1.077156,
+                46.080034
+              ],
+              [
+                -1.077222,
+                46.080002
+              ],
+              [
+                -1.077423,
+                46.079906
+              ],
+              [
+                -1.077579,
+                46.079831
+              ],
+              [
+                -1.07766,
+                46.079826
+              ],
+              [
+                -1.078043,
+                46.08013
+              ],
+              [
+                -1.077833,
+                46.080222
+              ],
+              [
+                -1.077604,
+                46.080326
+              ],
+              [
+                -1.077663,
+                46.080376
+              ],
+              [
+                -1.077948,
+                46.080617
+              ],
+              [
+                -1.078156,
+                46.080794
+              ],
+              [
+                -1.078217,
+                46.080847
+              ],
+              [
+                -1.078426,
+                46.081023
+              ],
+              [
+                -1.078499,
+                46.081035
+              ],
+              [
+                -1.078344,
+                46.081123
+              ],
+              [
+                -1.078333,
+                46.081113
+              ],
+              [
+                -1.07772,
+                46.08055
+              ],
+              [
+                -1.077696,
+                46.080563
+              ],
+              [
+                -1.077654,
+                46.080585
+              ],
+              [
+                -1.077287,
+                46.080786
+              ],
+              [
+                -1.076813,
+                46.0802
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "usine-a-gaz-chatelaillon",
+        "nom": "Ancienne usine à gaz de Châtelaillon-Plage, la Grande Borde",
+        "commune": "Saint-Vivien",
+        "code_insee": "17413",
+        "categorie": "friche_sol_pollue",
+        "theme": "pollution_chimique",
+        "precision_geo": "emprise_cadastrale",
+        "rayon_m": null,
+        "statut_preuve": "diagnostic_administratif",
+        "procedure_en_cours": false,
+        "statut_traitement": "rehabilite",
+        "visible_par_defaut": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "usine-a-gaz-marcel-paul-la-rochelle",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -1.147755,
+                46.165981
+              ],
+              [
+                -1.14792,
+                46.165836
+              ],
+              [
+                -1.147934,
+                46.165808
+              ],
+              [
+                -1.147951,
+                46.165764
+              ],
+              [
+                -1.148124,
+                46.165808
+              ],
+              [
+                -1.148308,
+                46.165852
+              ],
+              [
+                -1.148456,
+                46.165888
+              ],
+              [
+                -1.148473,
+                46.165893
+              ],
+              [
+                -1.148552,
+                46.165754
+              ],
+              [
+                -1.148585,
+                46.165762
+              ],
+              [
+                -1.148627,
+                46.165773
+              ],
+              [
+                -1.148639,
+                46.165751
+              ],
+              [
+                -1.148668,
+                46.165701
+              ],
+              [
+                -1.148694,
+                46.165659
+              ],
+              [
+                -1.148721,
+                46.165615
+              ],
+              [
+                -1.148774,
+                46.165523
+              ],
+              [
+                -1.148792,
+                46.165494
+              ],
+              [
+                -1.148861,
+                46.165513
+              ],
+              [
+                -1.149055,
+                46.165566
+              ],
+              [
+                -1.148993,
+                46.16568
+              ],
+              [
+                -1.148969,
+                46.165725
+              ],
+              [
+                -1.14895,
+                46.165759
+              ],
+              [
+                -1.149528,
+                46.165957
+              ],
+              [
+                -1.149508,
+                46.166009
+              ],
+              [
+                -1.149485,
+                46.166071
+              ],
+              [
+                -1.149467,
+                46.166117
+              ],
+              [
+                -1.149466,
+                46.16612
+              ],
+              [
+                -1.149464,
+                46.166129
+              ],
+              [
+                -1.149462,
+                46.166133
+              ],
+              [
+                -1.149454,
+                46.166155
+              ],
+              [
+                -1.149399,
+                46.166302
+              ],
+              [
+                -1.149422,
+                46.166412
+              ],
+              [
+                -1.149439,
+                46.166492
+              ],
+              [
+                -1.149457,
+                46.166575
+              ],
+              [
+                -1.149107,
+                46.16662
+              ],
+              [
+                -1.148979,
+                46.166614
+              ],
+              [
+                -1.148957,
+                46.166608
+              ],
+              [
+                -1.148901,
+                46.166594
+              ],
+              [
+                -1.148351,
+                46.166455
+              ],
+              [
+                -1.148231,
+                46.166426
+              ],
+              [
+                -1.147604,
+                46.166188
+              ],
+              [
+                -1.147587,
+                46.166133
+              ],
+              [
+                -1.147592,
+                46.166129
+              ],
+              [
+                -1.147755,
+                46.165981
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "usine-a-gaz-marcel-paul-la-rochelle",
+        "nom": "Ancienne usine à gaz de la rue Marcel-Paul (ex-site Enedis)",
+        "commune": "La Rochelle",
+        "code_insee": "17300",
+        "categorie": "friche_sol_pollue",
+        "theme": "pollution_chimique",
+        "precision_geo": "emprise_cadastrale",
+        "rayon_m": null,
+        "statut_preuve": "diagnostic_administratif",
+        "procedure_en_cours": true,
+        "statut_traitement": "travaux_en_cours",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "usine-alstom-aytre",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.123407,
+          46.137429
+        ]
+      },
+      "properties": {
+        "id": "usine-alstom-aytre",
+        "nom": "Usine de matériel ferroviaire Alstom",
+        "commune": "Aytré",
+        "code_insee": "17028",
+        "categorie": "friche_sol_pollue",
+        "theme": "pollution_chimique",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 250,
+        "statut_preuve": "mesure_publiee",
+        "procedure_en_cours": true,
+        "statut_traitement": "sous_surveillance",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "usine-chef-de-baie-la-rochelle",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.193571,
+          46.156789
+        ]
+      },
+      "properties": {
+        "id": "usine-chef-de-baie-la-rochelle",
+        "nom": "Usine de terres rares de Chef-de-Baie",
+        "commune": "La Rochelle",
+        "code_insee": "17300",
+        "categorie": "friche_sol_pollue",
+        "theme": "pollution_chimique",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 350,
+        "statut_preuve": "mesure_publiee",
+        "procedure_en_cours": true,
+        "statut_traitement": "sous_surveillance",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "usine-engrais-socofer-la-rochelle",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -1.199317,
+                46.155562
+              ],
+              [
+                -1.199923,
+                46.15557
+              ],
+              [
+                -1.200202,
+                46.155428
+              ],
+              [
+                -1.200375,
+                46.155343
+              ],
+              [
+                -1.200421,
+                46.155318
+              ],
+              [
+                -1.200432,
+                46.155313
+              ],
+              [
+                -1.200782,
+                46.154843
+              ],
+              [
+                -1.201022,
+                46.154923
+              ],
+              [
+                -1.199631,
+                46.156767
+              ],
+              [
+                -1.199072,
+                46.157505
+              ],
+              [
+                -1.198725,
+                46.157967
+              ],
+              [
+                -1.198391,
+                46.158408
+              ],
+              [
+                -1.198387,
+                46.158413
+              ],
+              [
+                -1.198276,
+                46.158528
+              ],
+              [
+                -1.197709,
+                46.159115
+              ],
+              [
+                -1.197681,
+                46.159123
+              ],
+              [
+                -1.197314,
+                46.159507
+              ],
+              [
+                -1.197253,
+                46.159571
+              ],
+              [
+                -1.197247,
+                46.159574
+              ],
+              [
+                -1.197135,
+                46.159682
+              ],
+              [
+                -1.19708,
+                46.159704
+              ],
+              [
+                -1.197037,
+                46.159721
+              ],
+              [
+                -1.196748,
+                46.159755
+              ],
+              [
+                -1.196594,
+                46.159774
+              ],
+              [
+                -1.196213,
+                46.159819
+              ],
+              [
+                -1.19621,
+                46.159821
+              ],
+              [
+                -1.196202,
+                46.159821
+              ],
+              [
+                -1.19605,
+                46.15984
+              ],
+              [
+                -1.1959,
+                46.159858
+              ],
+              [
+                -1.194706,
+                46.159998
+              ],
+              [
+                -1.194567,
+                46.160014
+              ],
+              [
+                -1.194565,
+                46.160006
+              ],
+              [
+                -1.194512,
+                46.160011
+              ],
+              [
+                -1.194437,
+                46.160019
+              ],
+              [
+                -1.194441,
+                46.160029
+              ],
+              [
+                -1.194301,
+                46.160046
+              ],
+              [
+                -1.19424,
+                46.159779
+              ],
+              [
+                -1.194096,
+                46.15973
+              ],
+              [
+                -1.194073,
+                46.159721
+              ],
+              [
+                -1.194055,
+                46.159715
+              ],
+              [
+                -1.19397,
+                46.159685
+              ],
+              [
+                -1.193766,
+                46.159611
+              ],
+              [
+                -1.193839,
+                46.159498
+              ],
+              [
+                -1.193648,
+                46.159431
+              ],
+              [
+                -1.193873,
+                46.15906
+              ],
+              [
+                -1.194211,
+                46.158505
+              ],
+              [
+                -1.194211,
+                46.158504
+              ],
+              [
+                -1.194365,
+                46.158258
+              ],
+              [
+                -1.19458,
+                46.157911
+              ],
+              [
+                -1.194898,
+                46.15756
+              ],
+              [
+                -1.1949,
+                46.157557
+              ],
+              [
+                -1.195284,
+                46.157467
+              ],
+              [
+                -1.195295,
+                46.157467
+              ],
+              [
+                -1.19601,
+                46.157481
+              ],
+              [
+                -1.196029,
+                46.157483
+              ],
+              [
+                -1.19656,
+                46.157259
+              ],
+              [
+                -1.196653,
+                46.15712
+              ],
+              [
+                -1.19745,
+                46.155937
+              ],
+              [
+                -1.197657,
+                46.155628
+              ],
+              [
+                -1.197713,
+                46.15554
+              ],
+              [
+                -1.197893,
+                46.155542
+              ],
+              [
+                -1.197938,
+                46.155543
+              ],
+              [
+                -1.198002,
+                46.155544
+              ],
+              [
+                -1.198513,
+                46.15555
+              ],
+              [
+                -1.198932,
+                46.155556
+              ],
+              [
+                -1.199159,
+                46.15556
+              ],
+              [
+                -1.199317,
+                46.155562
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "usine-engrais-socofer-la-rochelle",
+        "nom": "Ancienne usine d'engrais Socofer, Chef-de-Baie",
+        "commune": "La Rochelle",
+        "code_insee": "17300",
+        "categorie": "friche_sol_pollue",
+        "theme": "pollution_chimique",
+        "precision_geo": "emprise_cadastrale",
+        "rayon_m": null,
+        "statut_preuve": "diagnostic_administratif",
+        "procedure_en_cours": true,
+        "statut_traitement": "sous_surveillance",
+        "visible_par_defaut": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "z-diffusion-perigny",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.103345,
+          46.160717
+        ]
+      },
+      "properties": {
+        "id": "z-diffusion-perigny",
+        "nom": "Atelier de traitement de surface Z Diffusion",
+        "commune": "Périgny",
+        "code_insee": "17274",
+        "categorie": "friche_sol_pollue",
+        "theme": "pollution_chimique",
+        "precision_geo": "localisation_indicative",
+        "rayon_m": 100,
+        "statut_preuve": "diagnostic_administratif",
+        "procedure_en_cours": true,
+        "statut_traitement": "inconnu",
         "visible_par_defaut": true
       }
     }

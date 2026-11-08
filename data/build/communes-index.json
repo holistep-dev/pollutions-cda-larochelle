@@ -5,16 +5,25 @@
       "code_insee": "17010",
       "nom": "Angoulins",
       "slug": "angoulins",
-      "nb_sites": 0,
+      "nb_sites": 1,
       "nb_sans_localisation": 0,
       "sans_localisation": [],
-      "sites": []
+      "sites": [
+        {
+          "id": "baignade-angoulins-platerre",
+          "nom": "Plage de la Platerre",
+          "categorie": "eau_baignade",
+          "statut_preuve": "mesure_publiee",
+          "statut_traitement": "sous_surveillance",
+          "localise": true
+        }
+      ]
     },
     {
       "code_insee": "17028",
       "nom": "Aytré",
       "slug": "aytre",
-      "nb_sites": 2,
+      "nb_sites": 10,
       "nb_sans_localisation": 0,
       "sans_localisation": [],
       "sites": [
@@ -30,6 +39,70 @@
           "id": "baignade-aytre-platin-sud",
           "nom": "Plage du Platin Sud",
           "categorie": "eau_baignade",
+          "statut_preuve": "mesure_publiee",
+          "statut_traitement": "sous_surveillance",
+          "localise": true
+        },
+        {
+          "id": "bongraine-aytre",
+          "nom": "Secteur de Bongraine, futur écoquartier",
+          "categorie": "friche_sol_pollue",
+          "statut_preuve": "diagnostic_administratif",
+          "statut_traitement": "travaux_en_cours",
+          "localise": true
+        },
+        {
+          "id": "chrome-merle-aytre",
+          "nom": "Atelier de traitement de surfaces Merle, ZAC de Belle-Aire",
+          "categorie": "friche_sol_pollue",
+          "statut_preuve": "mesure_publiee",
+          "statut_traitement": "sous_surveillance",
+          "localise": true
+        },
+        {
+          "id": "compin-composites-aytre",
+          "nom": "Ancien atelier de matériaux composites, 19 rue Galilée",
+          "categorie": "friche_sol_pollue",
+          "statut_preuve": "diagnostic_administratif",
+          "statut_traitement": "inconnu",
+          "localise": true
+        },
+        {
+          "id": "friche-cottes-mailles-aytre",
+          "nom": "Ancien site de produits chimiques des Cottes Mailles",
+          "categorie": "friche_sol_pollue",
+          "statut_preuve": "diagnostic_administratif",
+          "statut_traitement": "non_traite",
+          "localise": true
+        },
+        {
+          "id": "friche-delfau-aytre",
+          "nom": "Ancien dépôt de vidanges et usine d'engrais Chignard-Delfau",
+          "categorie": "friche_sol_pollue",
+          "statut_preuve": "mesure_publiee",
+          "statut_traitement": "non_traite",
+          "localise": true
+        },
+        {
+          "id": "laboratoire-fujifilm-aytre",
+          "nom": "Ancien laboratoire photographique Fujifilm, ZAC de Belle-Aire",
+          "categorie": "friche_sol_pollue",
+          "statut_preuve": "diagnostic_administratif",
+          "statut_traitement": "rehabilite",
+          "localise": true
+        },
+        {
+          "id": "projet-decharge-trou-rizzo-aytre",
+          "nom": "Projet de remblaiement de l'ancienne carrière du trou Rizzo",
+          "categorie": "projet_decharge",
+          "statut_preuve": "signalement_non_instruit",
+          "statut_traitement": "inconnu",
+          "localise": true
+        },
+        {
+          "id": "usine-alstom-aytre",
+          "nom": "Usine de matériel ferroviaire Alstom",
+          "categorie": "friche_sol_pollue",
           "statut_preuve": "mesure_publiee",
           "statut_traitement": "sous_surveillance",
           "localise": true
@@ -49,10 +122,51 @@
       "code_insee": "17094",
       "nom": "Châtelaillon-Plage",
       "slug": "chatelaillon-plage",
-      "nb_sites": 0,
+      "nb_sites": 5,
       "nb_sans_localisation": 0,
       "sans_localisation": [],
-      "sites": []
+      "sites": [
+        {
+          "id": "baignade-chatelaillon-boucholeurs",
+          "nom": "Plage des Boucholeurs",
+          "categorie": "eau_baignade",
+          "statut_preuve": "mesure_publiee",
+          "statut_traitement": "sous_surveillance",
+          "localise": true
+        },
+        {
+          "id": "baignade-chatelaillon-casino",
+          "nom": "Plage Casino",
+          "categorie": "eau_baignade",
+          "statut_preuve": "mesure_publiee",
+          "statut_traitement": "sous_surveillance",
+          "localise": true
+        },
+        {
+          "id": "baignade-chatelaillon-nord",
+          "nom": "Plage Nord",
+          "categorie": "eau_baignade",
+          "statut_preuve": "mesure_publiee",
+          "statut_traitement": "sous_surveillance",
+          "localise": true
+        },
+        {
+          "id": "baignade-chatelaillon-sud",
+          "nom": "Plage Sud",
+          "categorie": "eau_baignade",
+          "statut_preuve": "mesure_publiee",
+          "statut_traitement": "sous_surveillance",
+          "localise": true
+        },
+        {
+          "id": "usine-a-gaz-chatelaillon",
+          "nom": "Ancienne usine à gaz de Châtelaillon-Plage, la Grande Borde",
+          "categorie": "friche_sol_pollue",
+          "statut_preuve": "diagnostic_administratif",
+          "statut_traitement": "rehabilite",
+          "localise": true
+        }
+      ]
     },
     {
       "code_insee": "17109",
@@ -94,10 +208,41 @@
       "code_insee": "17190",
       "nom": "L'Houmeau",
       "slug": "l-houmeau",
-      "nb_sites": 0,
-      "nb_sans_localisation": 0,
-      "sans_localisation": [],
-      "sites": []
+      "nb_sites": 3,
+      "nb_sans_localisation": 1,
+      "sans_localisation": [
+        {
+          "id": "nappe-lhoumeau",
+          "nom": "Nappe sous le groupe scolaire de L'Houmeau",
+          "motif": "L'emplacement exact des forages de géothermie n'est pas publié. La mairie peut le fournir."
+        }
+      ],
+      "sites": [
+        {
+          "id": "baignade-lhoumeau-pampin",
+          "nom": "La Plage (Pampin)",
+          "categorie": "eau_baignade",
+          "statut_preuve": "mesure_publiee",
+          "statut_traitement": "sous_surveillance",
+          "localise": true
+        },
+        {
+          "id": "butte-de-pampin-lhoumeau",
+          "nom": "Butte de Pampin, ancienne décharge",
+          "categorie": "decharge",
+          "statut_preuve": "signalement_non_instruit",
+          "statut_traitement": "inconnu",
+          "localise": true
+        },
+        {
+          "id": "nappe-lhoumeau",
+          "nom": "Nappe sous le groupe scolaire de L'Houmeau",
+          "categorie": "ressource_eau",
+          "statut_preuve": "signalement_non_instruit",
+          "statut_traitement": "inconnu",
+          "localise": false
+        }
+      ]
     },
     {
       "code_insee": "17193",
@@ -121,10 +266,153 @@
       "code_insee": "17300",
       "nom": "La Rochelle",
       "slug": "la-rochelle",
-      "nb_sites": 0,
-      "nb_sans_localisation": 0,
-      "sans_localisation": [],
-      "sites": []
+      "nb_sites": 17,
+      "nb_sans_localisation": 1,
+      "sans_localisation": [
+        {
+          "id": "remblai-radioactif-la-pallice",
+          "nom": "Remblai contenant des résidus radioactifs, port de La Pallice",
+          "motif": "L'Andra situe le remblai dans les installations du port de La Pallice sans en publier l'emprise. Le Grand Port maritime ou l'Andra pourraient la fournir."
+        }
+      ],
+      "sites": [
+        {
+          "id": "baignade-chef-de-baie-la-rochelle",
+          "nom": "Plage de Chef de Baie",
+          "categorie": "eau_baignade",
+          "statut_preuve": "mesure_publiee",
+          "statut_traitement": "sous_surveillance",
+          "localise": true
+        },
+        {
+          "id": "baignade-concurrence-la-rochelle",
+          "nom": "Plage de la Concurrence",
+          "categorie": "eau_baignade",
+          "statut_preuve": "mesure_publiee",
+          "statut_traitement": "sous_surveillance",
+          "localise": true
+        },
+        {
+          "id": "baignade-minimes-la-rochelle",
+          "nom": "Plage des Minimes",
+          "categorie": "eau_baignade",
+          "statut_preuve": "mesure_publiee",
+          "statut_traitement": "sous_surveillance",
+          "localise": true
+        },
+        {
+          "id": "decharge-chef-de-baie-la-rochelle",
+          "nom": "Ancienne décharge de Chef-de-Baie",
+          "categorie": "decharge",
+          "statut_preuve": "signalement_non_instruit",
+          "statut_traitement": "inconnu",
+          "localise": true
+        },
+        {
+          "id": "depots-hydrocarbures-la-pallice",
+          "nom": "Dépôts portuaires d'hydrocarbures de La Pallice",
+          "categorie": "friche_sol_pollue",
+          "statut_preuve": "diagnostic_administratif",
+          "statut_traitement": "sous_surveillance",
+          "localise": true
+        },
+        {
+          "id": "ex-parc-ddtm-laleu-la-rochelle",
+          "nom": "Ancien parc routier de la DDTM, rue Élie-Barreau",
+          "categorie": "friche_sol_pollue",
+          "statut_preuve": "mesure_publiee",
+          "statut_traitement": "sous_surveillance",
+          "localise": true
+        },
+        {
+          "id": "gazometre-1-la-rochelle",
+          "nom": "Ancienne station gazométrique, rue du Rempart des Voiliers",
+          "categorie": "friche_sol_pollue",
+          "statut_preuve": "diagnostic_administratif",
+          "statut_traitement": "inconnu",
+          "localise": true
+        },
+        {
+          "id": "gazometre-2-la-rochelle",
+          "nom": "Ancienne station gazométrique n° 2, rue des Voiliers",
+          "categorie": "friche_sol_pollue",
+          "statut_preuve": "diagnostic_administratif",
+          "statut_traitement": "inconnu",
+          "localise": true
+        },
+        {
+          "id": "gazometre-4-la-rochelle",
+          "nom": "Ancienne station gazométrique n° 4, rue Alphonse-de-Saintonge",
+          "categorie": "friche_sol_pollue",
+          "statut_preuve": "diagnostic_administratif",
+          "statut_traitement": "inconnu",
+          "localise": true
+        },
+        {
+          "id": "marchand-metaux-protection-la-rochelle",
+          "nom": "Ancien atelier de traitement de surface, rue de la Mare-à-la-Besse",
+          "categorie": "friche_sol_pollue",
+          "statut_preuve": "diagnostic_administratif",
+          "statut_traitement": "rehabilite",
+          "localise": true
+        },
+        {
+          "id": "phospho-guano-la-rochelle",
+          "nom": "Ancienne usine d'engrais du Phospho-Guano, rue Montcalm",
+          "categorie": "friche_sol_pollue",
+          "statut_preuve": "diagnostic_administratif",
+          "statut_traitement": "rehabilite",
+          "localise": true
+        },
+        {
+          "id": "remblai-radioactif-la-pallice",
+          "nom": "Remblai contenant des résidus radioactifs, port de La Pallice",
+          "categorie": "friche_sol_pollue",
+          "statut_preuve": "mesure_publiee",
+          "statut_traitement": "inconnu",
+          "localise": false
+        },
+        {
+          "id": "station-esso-porte-royale-la-rochelle",
+          "nom": "Ancienne station-service Esso de la Porte Royale",
+          "categorie": "friche_sol_pollue",
+          "statut_preuve": "diagnostic_administratif",
+          "statut_traitement": "rehabilite",
+          "localise": true
+        },
+        {
+          "id": "station-lanidis-la-pallice",
+          "nom": "Ancienne station-service, boulevard Émile-Delmas",
+          "categorie": "friche_sol_pollue",
+          "statut_preuve": "diagnostic_administratif",
+          "statut_traitement": "rehabilite",
+          "localise": true
+        },
+        {
+          "id": "usine-a-gaz-marcel-paul-la-rochelle",
+          "nom": "Ancienne usine à gaz de la rue Marcel-Paul (ex-site Enedis)",
+          "categorie": "friche_sol_pollue",
+          "statut_preuve": "diagnostic_administratif",
+          "statut_traitement": "travaux_en_cours",
+          "localise": true
+        },
+        {
+          "id": "usine-chef-de-baie-la-rochelle",
+          "nom": "Usine de terres rares de Chef-de-Baie",
+          "categorie": "friche_sol_pollue",
+          "statut_preuve": "mesure_publiee",
+          "statut_traitement": "sous_surveillance",
+          "localise": true
+        },
+        {
+          "id": "usine-engrais-socofer-la-rochelle",
+          "nom": "Ancienne usine d'engrais Socofer, Chef-de-Baie",
+          "categorie": "friche_sol_pollue",
+          "statut_preuve": "diagnostic_administratif",
+          "statut_traitement": "sous_surveillance",
+          "localise": true
+        }
+      ]
     },
     {
       "code_insee": "17200",
@@ -175,10 +463,43 @@
       "code_insee": "17274",
       "nom": "Périgny",
       "slug": "perigny",
-      "nb_sites": 0,
+      "nb_sites": 4,
       "nb_sans_localisation": 0,
       "sans_localisation": [],
-      "sites": []
+      "sites": [
+        {
+          "id": "delphi-perigny",
+          "nom": "Ancienne usine Delphi, avenue Paul-Langevin",
+          "categorie": "friche_sol_pollue",
+          "statut_preuve": "mesure_publiee",
+          "statut_traitement": "rehabilite",
+          "localise": true
+        },
+        {
+          "id": "spimec-perigny",
+          "nom": "Ancienne usine d'équipement automobile Spimec, zone des Quatre-Chevaliers",
+          "categorie": "friche_sol_pollue",
+          "statut_preuve": "diagnostic_administratif",
+          "statut_traitement": "inconnu",
+          "localise": true
+        },
+        {
+          "id": "triaxe-perigny",
+          "nom": "Ancien site de l'équipementier Triaxe, zone des Quatre-Chevaliers",
+          "categorie": "friche_sol_pollue",
+          "statut_preuve": "diagnostic_administratif",
+          "statut_traitement": "sous_surveillance",
+          "localise": true
+        },
+        {
+          "id": "z-diffusion-perigny",
+          "nom": "Atelier de traitement de surface Z Diffusion",
+          "categorie": "friche_sol_pollue",
+          "statut_preuve": "diagnostic_administratif",
+          "statut_traitement": "inconnu",
+          "localise": true
+        }
+      ]
     },
     {
       "code_insee": "17315",
@@ -211,10 +532,19 @@
       "code_insee": "17413",
       "nom": "Saint-Vivien",
       "slug": "saint-vivien",
-      "nb_sites": 0,
+      "nb_sites": 1,
       "nb_sans_localisation": 0,
       "sans_localisation": [],
-      "sites": []
+      "sites": [
+        {
+          "id": "usine-a-gaz-chatelaillon",
+          "nom": "Ancienne usine à gaz de Châtelaillon-Plage, la Grande Borde",
+          "categorie": "friche_sol_pollue",
+          "statut_preuve": "diagnostic_administratif",
+          "statut_traitement": "rehabilite",
+          "localise": true
+        }
+      ]
     },
     {
       "code_insee": "17414",

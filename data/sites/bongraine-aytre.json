@@ -1,0 +1,74 @@
+{
+  "id": "bongraine-aytre",
+  "nom": "Secteur de Bongraine, futur écoquartier",
+  "commune": "Aytré",
+  "code_insee": "17028",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -1.1213,
+      46.1375
+    ]
+  },
+  "precision_geo": "localisation_indicative",
+  "rayon_m": 450,
+  "categorie": "friche_sol_pollue",
+  "milieux": [
+    "sol",
+    "eau_souterraine"
+  ],
+  "substances": [
+    {
+      "libelle": "hydrocarbures",
+      "milieu": "sol",
+      "source": "mrae-2019apna45-bongraine"
+    },
+    {
+      "libelle": "métaux dans des remblais de mâchefers",
+      "milieu": "sol",
+      "source": "mrae-2019apna45-bongraine"
+    },
+    {
+      "libelle": "amiante dans des canalisations",
+      "milieu": "sol",
+      "source": "mrae-2019apna45-bongraine"
+    }
+  ],
+  "periode": {
+    "debut": null,
+    "debut_statut": "inconnue",
+    "fin": null,
+    "fin_statut": "inconnue",
+    "note": "Secteur historiquement industriel et ferroviaire. Diagnostics de 2013 à 2017."
+  },
+  "resume": "L'avis de l'autorité environnementale du 7 mars 2019 sur le projet d'écoquartier de Bongraine relève, au terme d'investigations menées de 2013 à 2017, une pollution aux hydrocarbures sur plusieurs zones, des remblais de mâchefers chargés en hydrocarbures et métaux, et des vestiges industriels dont une ancienne cuve. Le plan de gestion prévoit le déplacement et le confinement d'environ 48 000 m³ de mâchefers, l'évacuation de terres et un traitement de la nappe, sous maîtrise d'ouvrage de la CDA. Le site ne figure pas dans les bases nationales de sites pollués.",
+  "chronologie": [
+    {
+      "date": "2019-03-07",
+      "fait": "Avis de l'autorité environnementale n° 2019APNA45 sur le dossier de l'écoquartier.",
+      "sources": [
+        "mrae-2019apna45-bongraine"
+      ]
+    }
+  ],
+  "statut_preuve": "diagnostic_administratif",
+  "procedure_en_cours": false,
+  "statut_traitement": "travaux_en_cours",
+  "sources": [
+    "mrae-2019apna45-bongraine"
+  ],
+  "ce_qui_manque": [
+    {
+      "piece": "Les mesures chiffrées du diagnostic et le plan de gestion, annexes 6 et 7 du dossier",
+      "ou_chercher": "Dossier d'étude d'impact de la ZAC de Bongraine, CDA de La Rochelle",
+      "statut_vise": "mesure_publiee"
+    },
+    {
+      "piece": "L'état réel d'avancement des travaux de dépollution en 2026",
+      "ou_chercher": "CDA de La Rochelle, direction de l'aménagement"
+    }
+  ],
+  "notes_internes": "Point placé au centre approximatif du secteur. Remplacer par le périmètre de la ZAC.",
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": true
+}

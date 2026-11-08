@@ -1,0 +1,527 @@
+{
+ "site": "baignade-lhoumeau-pampin",
+ "id_site_sise": "017000779",
+ "code_rapportage_ue": "FR253203024M017009",
+ "classements": {
+  "2013": "Excellent",
+  "2014": "Excellent",
+  "2015": "Bon",
+  "2016": "Bon",
+  "2017": "Bon",
+  "2018": "Bon",
+  "2019": "Excellent",
+  "2020": "Excellent",
+  "2021": "Bon",
+  "2022": "Excellent",
+  "2023": "Excellent",
+  "2024": "Excellent",
+  "2025": "Excellent"
+ },
+ "evenements_declares": [
+  {
+   "debut": "2015-07-30",
+   "fin": "2015-08-03",
+   "saison": 2015,
+   "type": "situation anormale"
+  }
+ ],
+ "prelevements": [
+  {
+   "date": "2013-06-06",
+   "saison": 2013,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2013-07-04",
+   "saison": 2013,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2013-07-18",
+   "saison": 2013,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2013-08-01",
+   "saison": 2013,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 30
+  },
+  {
+   "date": "2013-08-14",
+   "saison": 2013,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2013-08-26",
+   "saison": 2013,
+   "enterocoques_ufc_100ml": 110,
+   "escherichia_coli_ufc_100ml": 434
+  },
+  {
+   "date": "2014-06-03",
+   "saison": 2014,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2014-06-30",
+   "saison": 2014,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2014-07-16",
+   "saison": 2014,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2014-07-28",
+   "saison": 2014,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 127
+  },
+  {
+   "date": "2014-08-11",
+   "saison": 2014,
+   "enterocoques_ufc_100ml": 30,
+   "escherichia_coli_ufc_100ml": 46
+  },
+  {
+   "date": "2014-08-26",
+   "saison": 2014,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 46
+  },
+  {
+   "date": "2015-06-11",
+   "saison": 2015,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2015-06-24",
+   "saison": 2015,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2015-07-15",
+   "saison": 2015,
+   "enterocoques_ufc_100ml": 46,
+   "escherichia_coli_ufc_100ml": 213
+  },
+  {
+   "date": "2015-07-30",
+   "saison": 2015,
+   "enterocoques_ufc_100ml": 1930,
+   "escherichia_coli_ufc_100ml": 215
+  },
+  {
+   "date": "2015-08-03",
+   "saison": 2015,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2015-08-13",
+   "saison": 2015,
+   "enterocoques_ufc_100ml": 30,
+   "escherichia_coli_ufc_100ml": 30
+  },
+  {
+   "date": "2015-08-27",
+   "saison": 2015,
+   "enterocoques_ufc_100ml": 30,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2016-06-07",
+   "saison": 2016,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 30
+  },
+  {
+   "date": "2016-06-27",
+   "saison": 2016,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2016-07-19",
+   "saison": 2016,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2016-08-02",
+   "saison": 2016,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 30
+  },
+  {
+   "date": "2016-08-17",
+   "saison": 2016,
+   "enterocoques_ufc_100ml": 61,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2016-08-31",
+   "saison": 2016,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2017-06-21",
+   "saison": 2017,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2017-06-26",
+   "saison": 2017,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2017-07-05",
+   "saison": 2017,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2017-07-18",
+   "saison": 2017,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2017-08-04",
+   "saison": 2017,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2017-08-21",
+   "saison": 2017,
+   "enterocoques_ufc_100ml": 46,
+   "escherichia_coli_ufc_100ml": 332
+  },
+  {
+   "date": "2018-06-12",
+   "saison": 2018,
+   "enterocoques_ufc_100ml": 30,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2018-07-02",
+   "saison": 2018,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2018-07-20",
+   "saison": 2018,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2018-07-27",
+   "saison": 2018,
+   "enterocoques_ufc_100ml": 61,
+   "escherichia_coli_ufc_100ml": 30
+  },
+  {
+   "date": "2018-08-10",
+   "saison": 2018,
+   "enterocoques_ufc_100ml": 30,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2018-08-24",
+   "saison": 2018,
+   "enterocoques_ufc_100ml": 77,
+   "escherichia_coli_ufc_100ml": 61
+  },
+  {
+   "date": "2020-06-15",
+   "saison": 2020,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2020-07-03",
+   "saison": 2020,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 46
+  },
+  {
+   "date": "2020-07-17",
+   "saison": 2020,
+   "enterocoques_ufc_100ml": 61,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2020-07-29",
+   "saison": 2020,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2020-08-14",
+   "saison": 2020,
+   "enterocoques_ufc_100ml": 194,
+   "escherichia_coli_ufc_100ml": 251
+  },
+  {
+   "date": "2020-08-26",
+   "saison": 2020,
+   "enterocoques_ufc_100ml": 61,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2021-06-22",
+   "saison": 2021,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2021-07-02",
+   "saison": 2021,
+   "enterocoques_ufc_100ml": 344,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2021-07-16",
+   "saison": 2021,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2021-07-21",
+   "saison": 2021,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2021-07-28",
+   "saison": 2021,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 61
+  },
+  {
+   "date": "2021-08-13",
+   "saison": 2021,
+   "enterocoques_ufc_100ml": 30,
+   "escherichia_coli_ufc_100ml": 46
+  },
+  {
+   "date": "2021-08-18",
+   "saison": 2021,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2021-08-25",
+   "saison": 2021,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2022-06-13",
+   "saison": 2022,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 94
+  },
+  {
+   "date": "2022-07-01",
+   "saison": 2022,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2022-07-11",
+   "saison": 2022,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2022-07-29",
+   "saison": 2022,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2022-08-08",
+   "saison": 2022,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2022-08-26",
+   "saison": 2022,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 110
+  },
+  {
+   "date": "2023-05-23",
+   "saison": 2023,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2023-06-20",
+   "saison": 2023,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2023-07-05",
+   "saison": 2023,
+   "enterocoques_ufc_100ml": 61,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2023-07-31",
+   "saison": 2023,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 159
+  },
+  {
+   "date": "2023-08-28",
+   "saison": 2023,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 30
+  },
+  {
+   "date": "2023-09-15",
+   "saison": 2023,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2024-05-24",
+   "saison": 2024,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2024-06-19",
+   "saison": 2024,
+   "enterocoques_ufc_100ml": 61,
+   "escherichia_coli_ufc_100ml": 77
+  },
+  {
+   "date": "2024-07-08",
+   "saison": 2024,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2024-07-31",
+   "saison": 2024,
+   "enterocoques_ufc_100ml": 61,
+   "escherichia_coli_ufc_100ml": 46
+  },
+  {
+   "date": "2024-08-21",
+   "saison": 2024,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2024-09-11",
+   "saison": 2024,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 93
+  },
+  {
+   "date": "2025-05-27",
+   "saison": 2025,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 30
+  },
+  {
+   "date": "2025-06-25",
+   "saison": 2025,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2025-07-08",
+   "saison": 2025,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2025-07-29",
+   "saison": 2025,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2025-08-27",
+   "saison": 2025,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 30
+  },
+  {
+   "date": "2025-09-05",
+   "saison": 2025,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 30
+  },
+  {
+   "date": "2026-05-29",
+   "saison": 2026,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2026-06-26",
+   "saison": 2026,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 30
+  },
+  {
+   "date": "2026-07-21",
+   "saison": 2026,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 15
+  },
+  {
+   "date": "2026-08-05",
+   "saison": 2026,
+   "enterocoques_ufc_100ml": 61,
+   "escherichia_coli_ufc_100ml": 30
+  },
+  {
+   "date": "2026-08-25",
+   "saison": 2026,
+   "enterocoques_ufc_100ml": 15,
+   "escherichia_coli_ufc_100ml": 30
+  },
+  {
+   "date": "2026-09-08",
+   "saison": 2026,
+   "enterocoques_ufc_100ml": 130,
+   "escherichia_coli_ufc_100ml": 290
+  }
+ ],
+ "sources": [
+  "rapportage-baignade-datagouv",
+  "sise-baignades-2026"
+ ],
+ "classements_source_alternative": {
+  "source": "Annexe 5 du bilan ARS Charente-Maritime de la saison 2017",
+  "classements": {
+   "2014": "Bon"
+  },
+  "note": "Valeurs divergentes de l'annexe du bilan ARS 2017. Le rapportage européen sert de série de référence. Divergence non arbitrée."
+ }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "baignade-lhoumeau-pampin",
+  "nom": "La Plage (Pampin)",
+  "commune": "L'Houmeau",
+  "code_insee": "17190",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -1.201637,
+      46.191434
+    ]
+  },
+  "precision_geo": "localisation_indicative",
+  "rayon_m": 150,
+  "categorie": "eau_baignade",
+  "milieux": [
+    "eau_superficielle"
+  ],
+  "substances": [
+    {
+      "libelle": "entérocoques intestinaux",
+      "valeur": 1930,
+      "unite": "UFC/100 mL",
+      "milieu": "eau_superficielle",
+      "date_mesure": "2015-07-30",
+      "reference_reglementaire": {
+        "libelle": "directive 2006/7/CE, eau de mer, bornes de classe 100 puis 370 UFC/100 mL",
+        "valeur": 370,
+        "nature": "valeur_de_gestion"
+      },
+      "source": "rapportage-baignade-datagouv"
+    },
+    {
+      "libelle": "Escherichia coli",
+      "valeur": 434,
+      "unite": "UFC/100 mL",
+      "milieu": "eau_superficielle",
+      "date_mesure": "2013-08-26",
+      "reference_reglementaire": {
+        "libelle": "directive 2006/7/CE, eau de mer, bornes de classe 100 puis 1 000 UFC/100 mL",
+        "valeur": 1000,
+        "nature": "valeur_de_gestion"
+      },
+      "source": "rapportage-baignade-datagouv"
+    }
+  ],
+  "periode": {
+    "debut": "2013",
+    "debut_statut": "datee",
+    "fin": null,
+    "fin_statut": "en_cours",
+    "note": "Période couverte par les données publiées du contrôle sanitaire."
+  },
+  "resume": "Site de baignade en mer sous contrôle sanitaire de l'ARS. Classement excellent pour la saison 2025, calculé sur les quatre dernières saisons de prélèvements. Le site n'a jamais été classé insuffisant depuis 2013. Sur 81 prélèvements publiés de 2013 à 2026, la valeur la plus haute est de 1930 UFC/100 mL en entérocoques, le 30/07/2015.",
+  "statut_preuve": "mesure_publiee",
+  "procedure_en_cours": false,
+  "statut_traitement": "sous_surveillance",
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": true,
+  "sources": [
+    "rapportage-baignade-datagouv",
+    "sise-baignades-2026"
+  ],
+  "baignade": {
+    "id_site_sise": "017000779",
+    "code_rapportage_ue": "FR253203024M017009",
+    "sous_controle_sanitaire": true
+  }
+}

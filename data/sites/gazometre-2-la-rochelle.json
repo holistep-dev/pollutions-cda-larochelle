@@ -1,0 +1,179 @@
+{
+  "id": "gazometre-2-la-rochelle",
+  "nom": "Ancienne station gazométrique n° 2, rue des Voiliers",
+  "commune": "La Rochelle",
+  "code_insee": "17300",
+  "geometry": {
+    "type": "MultiPolygon",
+    "coordinates": [
+      [
+        [
+          [
+            -1.145931,
+            46.164611
+          ],
+          [
+            -1.146099,
+            46.16464
+          ],
+          [
+            -1.146037,
+            46.164712
+          ],
+          [
+            -1.14598,
+            46.164779
+          ],
+          [
+            -1.145911,
+            46.16486
+          ],
+          [
+            -1.145887,
+            46.164889
+          ],
+          [
+            -1.145885,
+            46.164893
+          ],
+          [
+            -1.145745,
+            46.164852
+          ],
+          [
+            -1.145714,
+            46.164892
+          ],
+          [
+            -1.145545,
+            46.165115
+          ],
+          [
+            -1.145331,
+            46.165013
+          ],
+          [
+            -1.145267,
+            46.164983
+          ],
+          [
+            -1.145176,
+            46.164942
+          ],
+          [
+            -1.14517,
+            46.164938
+          ],
+          [
+            -1.145253,
+            46.164838
+          ],
+          [
+            -1.145037,
+            46.164751
+          ],
+          [
+            -1.145045,
+            46.164735
+          ],
+          [
+            -1.145069,
+            46.164681
+          ],
+          [
+            -1.145069,
+            46.164678
+          ],
+          [
+            -1.145109,
+            46.164589
+          ],
+          [
+            -1.145113,
+            46.164581
+          ],
+          [
+            -1.145116,
+            46.164574
+          ],
+          [
+            -1.14515,
+            46.164501
+          ],
+          [
+            -1.145159,
+            46.164479
+          ],
+          [
+            -1.145163,
+            46.16448
+          ],
+          [
+            -1.1454,
+            46.16452
+          ],
+          [
+            -1.145453,
+            46.164529
+          ],
+          [
+            -1.145638,
+            46.16456
+          ],
+          [
+            -1.145801,
+            46.164589
+          ],
+          [
+            -1.145931,
+            46.164611
+          ]
+        ]
+      ]
+    ]
+  },
+  "precision_geo": "emprise_cadastrale",
+  "categorie": "friche_sol_pollue",
+  "milieux": [
+    "sol"
+  ],
+  "substances": [
+    {
+      "libelle": "cyanures libres",
+      "milieu": "sol",
+      "source": "georisques-ssp000355101"
+    },
+    {
+      "libelle": "HAP",
+      "milieu": "sol",
+      "source": "georisques-ssp000355101"
+    },
+    {
+      "libelle": "BTEX",
+      "milieu": "sol",
+      "source": "georisques-ssp000355101"
+    }
+  ],
+  "periode": {
+    "debut": null,
+    "debut_statut": "inconnue",
+    "fin": null,
+    "fin_statut": "inconnue",
+    "note": "Site lié à l'ancienne usine à gaz de la rue Marcel-Paul."
+  },
+  "resume": "Terrain d'environ 3 184 m² au 42 rue des Voiliers, lié à l'ancienne usine à gaz de la ville. La fiche administrative identifie des cyanures et des hydrocarbures aromatiques polycycliques, ainsi que des BTEX. L'instruction est close et le terrain est classé en secteur d'information sur les sols, ce qui impose une étude de sols avant tout projet de construction.",
+  "statut_preuve": "diagnostic_administratif",
+  "procedure_en_cours": false,
+  "statut_traitement": "inconnu",
+  "sources": [
+    "georisques-ssp000355101"
+  ],
+  "liens": [
+    {
+      "site": "usine-a-gaz-marcel-paul-la-rochelle",
+      "relation": "meme_dossier"
+    }
+  ],
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": true
+}

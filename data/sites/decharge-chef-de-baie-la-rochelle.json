@@ -1,0 +1,66 @@
+{
+  "id": "decharge-chef-de-baie-la-rochelle",
+  "nom": "Ancienne décharge de Chef-de-Baie",
+  "commune": "La Rochelle",
+  "code_insee": "17300",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -1.2125,
+      46.1505
+    ]
+  },
+  "precision_geo": "localisation_indicative",
+  "rayon_m": 400,
+  "categorie": "decharge",
+  "milieux": [
+    "sol"
+  ],
+  "periode": {
+    "debut": null,
+    "debut_statut": "inconnue",
+    "fin": null,
+    "fin_statut": "inconnue",
+    "note": "Décharge en activité en 1992 selon une vidéo amateur. Dates d'ouverture et de fermeture non documentées."
+  },
+  "resume": "Ancienne décharge située à l'emplacement de l'actuel port de pêche, près du port de commerce de La Pallice. Une vidéo amateur tournée en 1992, publiée en 2017, montre des camions déversant des déchets dans une grande fosse. Selon l'auteur de la vidéo, cité par la presse, des déchets toxiques voire radioactifs de l'usine voisine y auraient été rejetés. Aucun document administratif sur cette décharge n'a été retrouvé.",
+  "temoignages": [
+    {
+      "auteur": "Jean-Claude Godefroy, auteur de la vidéo",
+      "propos": "Des déchets toxiques, voire radioactifs, auraient été rejetés dans la décharge par l'usine de Chef-de-Baie.",
+      "date": "2017-11",
+      "source": "sudouest-2017-11-22-decharge-chef-de-baie"
+    }
+  ],
+  "statut_preuve": "signalement_non_instruit",
+  "procedure_en_cours": false,
+  "statut_traitement": "inconnu",
+  "sources": [
+    "sudouest-2017-11-22-decharge-chef-de-baie"
+  ],
+  "revue_presse": [
+    {
+      "source": "sudouest-2017-11-22-decharge-chef-de-baie",
+      "angle": "Publication de la vidéo de 1992."
+    }
+  ],
+  "ce_qui_manque": [
+    {
+      "piece": "Dates d'exploitation, nature des déchets, arrêté de fermeture ou de réhabilitation",
+      "ou_chercher": "Archives départementales, série W ; Grand Port maritime ; enquête publique du port de pêche ; inventaire départemental des décharges"
+    },
+    {
+      "piece": "Datation du remblaiement",
+      "ou_chercher": "Photographies aériennes IGN, remonterletemps.ign.fr"
+    }
+  ],
+  "liens": [
+    {
+      "site": "usine-chef-de-baie-la-rochelle",
+      "relation": "voisin"
+    }
+  ],
+  "notes_internes": "Point placé sur le port de pêche, rayon large. À remplacer par un contour quand la photographie aérienne aura été lue.",
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": true
+}

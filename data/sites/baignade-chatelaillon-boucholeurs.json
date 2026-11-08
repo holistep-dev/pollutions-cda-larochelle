@@ -1,0 +1,69 @@
+{
+  "id": "baignade-chatelaillon-boucholeurs",
+  "nom": "Plage des Boucholeurs",
+  "commune": "Châtelaillon-Plage",
+  "code_insee": "17094",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -1.08908,
+      46.054191
+    ]
+  },
+  "precision_geo": "localisation_indicative",
+  "rayon_m": 150,
+  "categorie": "eau_baignade",
+  "milieux": [
+    "eau_superficielle"
+  ],
+  "substances": [
+    {
+      "libelle": "entérocoques intestinaux",
+      "valeur": 365,
+      "unite": "UFC/100 mL",
+      "milieu": "eau_superficielle",
+      "date_mesure": "2020-08-19",
+      "reference_reglementaire": {
+        "libelle": "directive 2006/7/CE, eau de mer, bornes de classe 100 puis 370 UFC/100 mL",
+        "valeur": 370,
+        "nature": "valeur_de_gestion"
+      },
+      "source": "rapportage-baignade-datagouv"
+    },
+    {
+      "libelle": "Escherichia coli",
+      "valeur": 750,
+      "unite": "UFC/100 mL",
+      "milieu": "eau_superficielle",
+      "date_mesure": "2016-07-19",
+      "reference_reglementaire": {
+        "libelle": "directive 2006/7/CE, eau de mer, bornes de classe 100 puis 1 000 UFC/100 mL",
+        "valeur": 1000,
+        "nature": "valeur_de_gestion"
+      },
+      "source": "rapportage-baignade-datagouv"
+    }
+  ],
+  "periode": {
+    "debut": "2013",
+    "debut_statut": "datee",
+    "fin": null,
+    "fin_statut": "en_cours",
+    "note": "Période couverte par les données publiées du contrôle sanitaire."
+  },
+  "resume": "Site de baignade en mer sous contrôle sanitaire de l'ARS. Classement excellent pour la saison 2025, calculé sur les quatre dernières saisons de prélèvements. Le site n'a jamais été classé insuffisant depuis 2013. Sur 130 prélèvements publiés de 2013 à 2026, la valeur la plus haute est de 365 UFC/100 mL en entérocoques, le 19/08/2020.",
+  "statut_preuve": "mesure_publiee",
+  "procedure_en_cours": false,
+  "statut_traitement": "sous_surveillance",
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": true,
+  "sources": [
+    "rapportage-baignade-datagouv",
+    "sise-baignades-2026"
+  ],
+  "baignade": {
+    "id_site_sise": "017000595",
+    "code_rapportage_ue": "FRFR5321709M017060",
+    "sous_controle_sanitaire": true
+  }
+}

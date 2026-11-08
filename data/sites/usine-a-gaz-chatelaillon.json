@@ -1,0 +1,135 @@
+{
+  "id": "usine-a-gaz-chatelaillon",
+  "nom": "Ancienne usine à gaz de Châtelaillon-Plage, la Grande Borde",
+  "commune": "Saint-Vivien",
+  "code_insee": "17413",
+  "communes_secondaires": [
+    "17094"
+  ],
+  "geometry": {
+    "type": "MultiPolygon",
+    "coordinates": [
+      [
+        [
+          [
+            -1.076813,
+            46.0802
+          ],
+          [
+            -1.07683,
+            46.080192
+          ],
+          [
+            -1.07711,
+            46.080057
+          ],
+          [
+            -1.077156,
+            46.080034
+          ],
+          [
+            -1.077222,
+            46.080002
+          ],
+          [
+            -1.077423,
+            46.079906
+          ],
+          [
+            -1.077579,
+            46.079831
+          ],
+          [
+            -1.07766,
+            46.079826
+          ],
+          [
+            -1.078043,
+            46.08013
+          ],
+          [
+            -1.077833,
+            46.080222
+          ],
+          [
+            -1.077604,
+            46.080326
+          ],
+          [
+            -1.077663,
+            46.080376
+          ],
+          [
+            -1.077948,
+            46.080617
+          ],
+          [
+            -1.078156,
+            46.080794
+          ],
+          [
+            -1.078217,
+            46.080847
+          ],
+          [
+            -1.078426,
+            46.081023
+          ],
+          [
+            -1.078499,
+            46.081035
+          ],
+          [
+            -1.078344,
+            46.081123
+          ],
+          [
+            -1.078333,
+            46.081113
+          ],
+          [
+            -1.07772,
+            46.08055
+          ],
+          [
+            -1.077696,
+            46.080563
+          ],
+          [
+            -1.077654,
+            46.080585
+          ],
+          [
+            -1.077287,
+            46.080786
+          ],
+          [
+            -1.076813,
+            46.0802
+          ]
+        ]
+      ]
+    ]
+  },
+  "precision_geo": "emprise_cadastrale",
+  "categorie": "friche_sol_pollue",
+  "milieux": [
+    "sol"
+  ],
+  "periode": {
+    "debut": "1932-07-04",
+    "debut_statut": "datee",
+    "fin": "196X",
+    "fin_statut": "datee"
+  },
+  "resume": "Petite usine à gaz mise en service en 1932 et arrêtée à l'arrivée du gaz naturel, sur un terrain d'environ 6 000 m². La base nationale la rattache à Saint-Vivien, sa description la situe à 400 m à l'est du centre de Châtelaillon-Plage. Le site, rangé en classe 2 du protocole Gaz de France, a fait l'objet de travaux de dépollution et l'instruction est close. Il reste en secteur d'information sur les sols.",
+  "statut_preuve": "diagnostic_administratif",
+  "procedure_en_cours": false,
+  "statut_traitement": "rehabilite",
+  "sources": [
+    "georisques-ssp000354801"
+  ],
+  "notes_internes": "Commune de rattachement et description divergent. Polygone situé vers la Grande Borde. À vérifier sur le cadastre.",
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": false
+}

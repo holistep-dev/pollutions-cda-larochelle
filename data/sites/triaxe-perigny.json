@@ -1,0 +1,261 @@
+{
+  "id": "triaxe-perigny",
+  "nom": "Ancien site de l'équipementier Triaxe, zone des Quatre-Chevaliers",
+  "commune": "Périgny",
+  "code_insee": "17274",
+  "geometry": {
+    "type": "MultiPolygon",
+    "coordinates": [
+      [
+        [
+          [
+            -1.116541,
+            46.156686
+          ],
+          [
+            -1.117027,
+            46.157048
+          ],
+          [
+            -1.117199,
+            46.156935
+          ],
+          [
+            -1.117627,
+            46.157245
+          ],
+          [
+            -1.117882,
+            46.157441
+          ],
+          [
+            -1.118528,
+            46.157944
+          ],
+          [
+            -1.118978,
+            46.158268
+          ],
+          [
+            -1.119395,
+            46.158597
+          ],
+          [
+            -1.119805,
+            46.158965
+          ],
+          [
+            -1.120206,
+            46.159349
+          ],
+          [
+            -1.120751,
+            46.160013
+          ],
+          [
+            -1.121007,
+            46.160414
+          ],
+          [
+            -1.121214,
+            46.160827
+          ],
+          [
+            -1.121483,
+            46.161504
+          ],
+          [
+            -1.121495,
+            46.161557
+          ],
+          [
+            -1.115644,
+            46.163166
+          ],
+          [
+            -1.115012,
+            46.163341
+          ],
+          [
+            -1.114988,
+            46.163302
+          ],
+          [
+            -1.114643,
+            46.163397
+          ],
+          [
+            -1.114558,
+            46.16324
+          ],
+          [
+            -1.114418,
+            46.16328
+          ],
+          [
+            -1.114396,
+            46.163244
+          ],
+          [
+            -1.114538,
+            46.163205
+          ],
+          [
+            -1.114492,
+            46.163124
+          ],
+          [
+            -1.115118,
+            46.162946
+          ],
+          [
+            -1.115824,
+            46.162746
+          ],
+          [
+            -1.115827,
+            46.162741
+          ],
+          [
+            -1.115809,
+            46.162727
+          ],
+          [
+            -1.115655,
+            46.162607
+          ],
+          [
+            -1.115262,
+            46.162315
+          ],
+          [
+            -1.114999,
+            46.16212
+          ],
+          [
+            -1.113215,
+            46.160795
+          ],
+          [
+            -1.112454,
+            46.160229
+          ],
+          [
+            -1.112285,
+            46.160103
+          ],
+          [
+            -1.112156,
+            46.160007
+          ],
+          [
+            -1.111803,
+            46.159746
+          ],
+          [
+            -1.116541,
+            46.156686
+          ]
+        ]
+      ]
+    ]
+  },
+  "precision_geo": "emprise_cadastrale",
+  "categorie": "friche_sol_pollue",
+  "milieux": [
+    "sol",
+    "eau_souterraine"
+  ],
+  "substances": [
+    {
+      "libelle": "chrome",
+      "milieu": "sol",
+      "source": "georisques-ssp000382301"
+    },
+    {
+      "libelle": "cuivre",
+      "milieu": "sol",
+      "source": "georisques-ssp000382301"
+    },
+    {
+      "libelle": "zinc",
+      "milieu": "sol",
+      "source": "georisques-ssp000382301"
+    },
+    {
+      "libelle": "plomb",
+      "milieu": "sol",
+      "source": "georisques-ssp000382301"
+    },
+    {
+      "libelle": "hydrocarbures",
+      "milieu": "sol",
+      "source": "georisques-ssp000382301"
+    },
+    {
+      "libelle": "PCB",
+      "milieu": "sol",
+      "source": "georisques-ssp000382301"
+    },
+    {
+      "libelle": "BTEX",
+      "milieu": "sol",
+      "source": "georisques-ssp000382301"
+    },
+    {
+      "libelle": "COHV",
+      "milieu": "sol",
+      "source": "georisques-ssp000382301"
+    },
+    {
+      "libelle": "HAP",
+      "milieu": "sol",
+      "source": "georisques-ssp000382301"
+    }
+  ],
+  "periode": {
+    "debut": null,
+    "debut_statut": "inconnue",
+    "fin": "1996",
+    "fin_statut": "datee",
+    "note": "Liquidation judiciaire en 1996."
+  },
+  "resume": "Site d'environ 30 ha d'un fabricant d'amortisseurs, en liquidation en 1996, cédé ensuite à la CDA. Les diagnostics ont relevé chrome, cuivre, zinc, plomb, hydrocarbures et PCB dans les sols, et une pollution de la nappe. Par délibération du 21 juin 2002, la CDA a pris la dépollution à sa charge. Plusieurs phases de travaux ont été réalisées et un arrêté du 23 mai 2003 prescrit aussi la surveillance des eaux souterraines.",
+  "chronologie": [
+    {
+      "date": "2002-06-21",
+      "fait": "Délibération de la CDA prenant à sa charge les travaux de dépollution.",
+      "sources": [
+        "georisques-ssp000382301"
+      ]
+    },
+    {
+      "date": "2003-05-23",
+      "fait": "Arrêté préfectoral fixant les prescriptions de dépollution et de surveillance de la nappe.",
+      "sources": [
+        "georisques-ssp000382301"
+      ]
+    }
+  ],
+  "exploitants": [
+    {
+      "nom": "Triaxe Industries",
+      "fin": "1996",
+      "source": "georisques-ssp000382301"
+    }
+  ],
+  "statut_preuve": "diagnostic_administratif",
+  "procedure_en_cours": true,
+  "statut_traitement": "sous_surveillance",
+  "sources": [
+    "georisques-ssp000382301"
+  ],
+  "liens": [
+    {
+      "site": "spimec-perigny",
+      "relation": "voisin"
+    }
+  ],
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": true
+}

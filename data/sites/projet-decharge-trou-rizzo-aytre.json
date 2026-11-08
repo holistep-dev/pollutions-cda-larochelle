@@ -1,0 +1,66 @@
+{
+  "id": "projet-decharge-trou-rizzo-aytre",
+  "nom": "Projet de remblaiement de l'ancienne carrière du trou Rizzo",
+  "commune": "Aytré",
+  "code_insee": "17028",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -1.144126,
+      46.128708
+    ]
+  },
+  "precision_geo": "localisation_indicative",
+  "rayon_m": 150,
+  "categorie": "projet_decharge",
+  "milieux": [
+    "eau_superficielle"
+  ],
+  "periode": {
+    "debut": "2018",
+    "debut_statut": "datee",
+    "fin": null,
+    "fin_statut": "inconnue",
+    "note": "Premier courrier connu de 2018, projet présenté en 2020. Aucun acte d'abandon retrouvé."
+  },
+  "resume": "Ancienne carrière de calcaire en eau, entre l'hôtel du Département et la plage d'Aytré. En 2020, un projet porté par une entreprise de travaux et de déchets proposait de la combler avec environ 750 000 tonnes ou mètres cubes de déchets présentés comme inertes, les sources divergeant sur l'unité. Le site est classé en zone naturelle. Il s'agit d'un projet, pas d'un site pollué : aucune pollution n'y est documentée.",
+  "chronologie": [
+    {
+      "date": "2018-12-20",
+      "fait": "Courrier de l'avocate des propriétaires au maire de La Rochelle demandant un changement de zonage, selon la presse.",
+      "sources": [
+        "nicolino-2021-05-28-trou-rizzo"
+      ]
+    },
+    {
+      "date": "2021-05",
+      "fait": "La presse rapporte l'opposition du maire d'Aytré et les réserves du président de la CDA.",
+      "sources": [
+        "nicolino-2021-05-28-trou-rizzo"
+      ]
+    }
+  ],
+  "statut_preuve": "signalement_non_instruit",
+  "procedure_en_cours": false,
+  "statut_traitement": "inconnu",
+  "sources": [
+    "nicolino-2021-05-28-trou-rizzo"
+  ],
+  "ce_qui_manque": [
+    {
+      "piece": "La motion du conseil municipal d'Aytré du 20 mai 2021",
+      "ou_chercher": "Registre des délibérations de la commune d'Aytré"
+    },
+    {
+      "piece": "Le jugement du 20 juillet 2021 rejetant le recours contre le zonage, cité dans l'inventaire du projet",
+      "ou_chercher": "Tribunal administratif de Poitiers, ou délibérations de la CDA sur le PLUi"
+    },
+    {
+      "piece": "Tout acte actant l'abandon ou le refus définitif du projet",
+      "ou_chercher": "Préfecture, CDA de La Rochelle, commune d'Aytré"
+    }
+  ],
+  "notes_internes": "La motion et le jugement figurent dans l'inventaire du projet sans source primaire retrouvée. Ne pas les afficher comme faits tant qu'ils ne sont pas sourcés. Le nom de l'entreprise n'est pas affiché : aucun document administratif public le nommant n'a été retrouvé.",
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": true
+}

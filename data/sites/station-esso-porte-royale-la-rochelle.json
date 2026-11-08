@@ -1,0 +1,184 @@
+{
+  "id": "station-esso-porte-royale-la-rochelle",
+  "nom": "Ancienne station-service Esso de la Porte Royale",
+  "commune": "La Rochelle",
+  "code_insee": "17300",
+  "geometry": {
+    "type": "MultiPolygon",
+    "coordinates": [
+      [
+        [
+          [
+            -1.139138,
+            46.161778
+          ],
+          [
+            -1.138996,
+            46.16182
+          ],
+          [
+            -1.138942,
+            46.161733
+          ],
+          [
+            -1.138927,
+            46.161708
+          ],
+          [
+            -1.138894,
+            46.161656
+          ],
+          [
+            -1.138879,
+            46.161634
+          ],
+          [
+            -1.138908,
+            46.161573
+          ],
+          [
+            -1.139064,
+            46.161609
+          ],
+          [
+            -1.139114,
+            46.161621
+          ],
+          [
+            -1.139194,
+            46.16164
+          ],
+          [
+            -1.139179,
+            46.161663
+          ],
+          [
+            -1.139136,
+            46.161664
+          ],
+          [
+            -1.139112,
+            46.161659
+          ],
+          [
+            -1.139106,
+            46.161677
+          ],
+          [
+            -1.139105,
+            46.16169
+          ],
+          [
+            -1.139089,
+            46.161693
+          ],
+          [
+            -1.139138,
+            46.161778
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            -1.13923,
+            46.162041
+          ],
+          [
+            -1.139204,
+            46.162032
+          ],
+          [
+            -1.139116,
+            46.162005
+          ],
+          [
+            -1.139112,
+            46.162006
+          ],
+          [
+            -1.139057,
+            46.161914
+          ],
+          [
+            -1.139046,
+            46.161896
+          ],
+          [
+            -1.139051,
+            46.161893
+          ],
+          [
+            -1.139117,
+            46.161875
+          ],
+          [
+            -1.139404,
+            46.161794
+          ],
+          [
+            -1.139421,
+            46.161826
+          ],
+          [
+            -1.139433,
+            46.16185
+          ],
+          [
+            -1.139237,
+            46.162043
+          ],
+          [
+            -1.13923,
+            46.162041
+          ]
+        ]
+      ]
+    ]
+  },
+  "precision_geo": "emprise_cadastrale",
+  "categorie": "friche_sol_pollue",
+  "milieux": [
+    "sol"
+  ],
+  "substances": [
+    {
+      "libelle": "hydrocarbures",
+      "milieu": "sol",
+      "source": "georisques-ssp000383801"
+    },
+    {
+      "libelle": "BTEX",
+      "milieu": "sol",
+      "source": "georisques-ssp000383801"
+    },
+    {
+      "libelle": "plomb",
+      "milieu": "sol",
+      "source": "georisques-ssp000383801"
+    }
+  ],
+  "periode": {
+    "debut": "1955",
+    "debut_statut": "datee",
+    "fin": "2008-12",
+    "fin_statut": "datee"
+  },
+  "resume": "Station-service de 765 m² exploitée de 1955 à 2008, boulevard Arthur-Verdier. Les terres impactées par les hydrocarbures, les BTEX et le plomb ont été excavées et évacuées. La cessation a été finalisée en 2012, avec des propositions de restrictions d'usage portées à la connaissance du maire. Le terrain reste en secteur d'information sur les sols.",
+  "exploitants": [
+    {
+      "nom": "Esso SAF",
+      "debut": "1962",
+      "fin": "2008",
+      "source": "georisques-ssp000383801"
+    }
+  ],
+  "statut_preuve": "diagnostic_administratif",
+  "procedure_en_cours": true,
+  "statut_traitement": "rehabilite",
+  "sources": [
+    "georisques-ssp000383801"
+  ],
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": false
+}

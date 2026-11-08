@@ -1,0 +1,379 @@
+{
+  "id": "usine-engrais-socofer-la-rochelle",
+  "nom": "Ancienne usine d'engrais Socofer, Chef-de-Baie",
+  "commune": "La Rochelle",
+  "code_insee": "17300",
+  "geometry": {
+    "type": "MultiPolygon",
+    "coordinates": [
+      [
+        [
+          [
+            -1.199317,
+            46.155562
+          ],
+          [
+            -1.199923,
+            46.15557
+          ],
+          [
+            -1.200202,
+            46.155428
+          ],
+          [
+            -1.200375,
+            46.155343
+          ],
+          [
+            -1.200421,
+            46.155318
+          ],
+          [
+            -1.200432,
+            46.155313
+          ],
+          [
+            -1.200782,
+            46.154843
+          ],
+          [
+            -1.201022,
+            46.154923
+          ],
+          [
+            -1.199631,
+            46.156767
+          ],
+          [
+            -1.199072,
+            46.157505
+          ],
+          [
+            -1.198725,
+            46.157967
+          ],
+          [
+            -1.198391,
+            46.158408
+          ],
+          [
+            -1.198387,
+            46.158413
+          ],
+          [
+            -1.198276,
+            46.158528
+          ],
+          [
+            -1.197709,
+            46.159115
+          ],
+          [
+            -1.197681,
+            46.159123
+          ],
+          [
+            -1.197314,
+            46.159507
+          ],
+          [
+            -1.197253,
+            46.159571
+          ],
+          [
+            -1.197247,
+            46.159574
+          ],
+          [
+            -1.197135,
+            46.159682
+          ],
+          [
+            -1.19708,
+            46.159704
+          ],
+          [
+            -1.197037,
+            46.159721
+          ],
+          [
+            -1.196748,
+            46.159755
+          ],
+          [
+            -1.196594,
+            46.159774
+          ],
+          [
+            -1.196213,
+            46.159819
+          ],
+          [
+            -1.19621,
+            46.159821
+          ],
+          [
+            -1.196202,
+            46.159821
+          ],
+          [
+            -1.19605,
+            46.15984
+          ],
+          [
+            -1.1959,
+            46.159858
+          ],
+          [
+            -1.194706,
+            46.159998
+          ],
+          [
+            -1.194567,
+            46.160014
+          ],
+          [
+            -1.194565,
+            46.160006
+          ],
+          [
+            -1.194512,
+            46.160011
+          ],
+          [
+            -1.194437,
+            46.160019
+          ],
+          [
+            -1.194441,
+            46.160029
+          ],
+          [
+            -1.194301,
+            46.160046
+          ],
+          [
+            -1.19424,
+            46.159779
+          ],
+          [
+            -1.194096,
+            46.15973
+          ],
+          [
+            -1.194073,
+            46.159721
+          ],
+          [
+            -1.194055,
+            46.159715
+          ],
+          [
+            -1.19397,
+            46.159685
+          ],
+          [
+            -1.193766,
+            46.159611
+          ],
+          [
+            -1.193839,
+            46.159498
+          ],
+          [
+            -1.193648,
+            46.159431
+          ],
+          [
+            -1.193873,
+            46.15906
+          ],
+          [
+            -1.194211,
+            46.158505
+          ],
+          [
+            -1.194211,
+            46.158504
+          ],
+          [
+            -1.194365,
+            46.158258
+          ],
+          [
+            -1.19458,
+            46.157911
+          ],
+          [
+            -1.194898,
+            46.15756
+          ],
+          [
+            -1.1949,
+            46.157557
+          ],
+          [
+            -1.195284,
+            46.157467
+          ],
+          [
+            -1.195295,
+            46.157467
+          ],
+          [
+            -1.19601,
+            46.157481
+          ],
+          [
+            -1.196029,
+            46.157483
+          ],
+          [
+            -1.19656,
+            46.157259
+          ],
+          [
+            -1.196653,
+            46.15712
+          ],
+          [
+            -1.19745,
+            46.155937
+          ],
+          [
+            -1.197657,
+            46.155628
+          ],
+          [
+            -1.197713,
+            46.15554
+          ],
+          [
+            -1.197893,
+            46.155542
+          ],
+          [
+            -1.197938,
+            46.155543
+          ],
+          [
+            -1.198002,
+            46.155544
+          ],
+          [
+            -1.198513,
+            46.15555
+          ],
+          [
+            -1.198932,
+            46.155556
+          ],
+          [
+            -1.199159,
+            46.15556
+          ],
+          [
+            -1.199317,
+            46.155562
+          ]
+        ]
+      ]
+    ]
+  },
+  "precision_geo": "emprise_cadastrale",
+  "categorie": "friche_sol_pollue",
+  "milieux": [
+    "sol",
+    "eau_souterraine"
+  ],
+  "substances": [
+    {
+      "libelle": "arsenic",
+      "milieu": "sol",
+      "source": "georisques-ssp000382601"
+    },
+    {
+      "libelle": "cuivre",
+      "milieu": "sol",
+      "source": "georisques-ssp000382601"
+    },
+    {
+      "libelle": "plomb",
+      "milieu": "sol",
+      "source": "georisques-ssp000382601"
+    },
+    {
+      "libelle": "zinc",
+      "milieu": "sol",
+      "source": "georisques-ssp000382601"
+    },
+    {
+      "libelle": "pesticides",
+      "milieu": "sol",
+      "source": "georisques-ssp000382601"
+    },
+    {
+      "libelle": "solvants halogénés",
+      "milieu": "sol",
+      "source": "georisques-ssp000382601"
+    }
+  ],
+  "periode": {
+    "debut": null,
+    "debut_statut": "inconnue",
+    "fin": "2000-07-01",
+    "fin_statut": "datee"
+  },
+  "resume": "Usine d'engrais d'environ 13 ha dans la zone industrielle de Chef-de-Baie, qui a aussi produit de l'acide sulfurique, du phénol et de l'acide nitrique. Des déversements accidentels sont rapportés en 1964, 1968, 1974 et 1990. Après l'arrêt de 2000, les diagnostics ont relevé arsenic, cuivre, plomb, zinc, pesticides et solvants dans les sols et une pollution des eaux souterraines. Des travaux ont été récolés en 2005 et des servitudes inscrites en 2006.",
+  "chronologie": [
+    {
+      "date": "1998-04-17",
+      "fait": "Arrêté préfectoral imposant un diagnostic des sols.",
+      "sources": [
+        "georisques-ssp000382601"
+      ]
+    },
+    {
+      "date": "2000-07-01",
+      "fait": "Arrêt des activités.",
+      "sources": [
+        "georisques-ssp000382601"
+      ]
+    },
+    {
+      "date": "2005-08-23",
+      "fait": "Procès-verbal de récolement des travaux : excavation et confinement de terres, traitement de la nappe par pompage.",
+      "sources": [
+        "georisques-ssp000382601"
+      ]
+    },
+    {
+      "date": "2006-01-23",
+      "fait": "Servitudes conventionnelles au profit de l'État inscrites au registre des hypothèques.",
+      "sources": [
+        "georisques-ssp000382601"
+      ]
+    }
+  ],
+  "exploitants": [
+    {
+      "nom": "Socofer",
+      "fin": "2000",
+      "source": "georisques-ssp000382601"
+    }
+  ],
+  "statut_preuve": "diagnostic_administratif",
+  "procedure_en_cours": true,
+  "statut_traitement": "sous_surveillance",
+  "sources": [
+    "georisques-ssp000382601"
+  ],
+  "liens": [
+    {
+      "site": "usine-chef-de-baie-la-rochelle",
+      "relation": "voisin"
+    }
+  ],
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": true
+}

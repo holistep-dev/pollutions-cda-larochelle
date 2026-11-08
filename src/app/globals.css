@@ -149,3 +149,4 @@ h3 { font-size: 0.95rem; font-weight: 600; margin: 1.6rem 0 0.5rem; color: var(-
   .chronologie li, .sources li { grid-template-columns: 1fr; gap: 0.1rem; }
   h1 { font-size: 1.7rem; }
 }
+.liste-sites .traitement { font-size: 0.8rem; color: var(--encre-pale); white-space: nowrap; }

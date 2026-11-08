@@ -1,0 +1,70 @@
+{
+  "id": "remblai-radioactif-la-pallice",
+  "nom": "Remblai contenant des résidus radioactifs, port de La Pallice",
+  "commune": "La Rochelle",
+  "code_insee": "17300",
+  "geometry": null,
+  "precision_geo": null,
+  "motif_absence_geometrie": "L'Andra situe le remblai dans les installations du port de La Pallice sans en publier l'emprise. Le Grand Port maritime ou l'Andra pourraient la fournir.",
+  "categorie": "friche_sol_pollue",
+  "milieux": [
+    "sol"
+  ],
+  "substances": [
+    {
+      "libelle": "thorium 232 dans le résidu sec, moyenne",
+      "milieu": "sol",
+      "valeur": 48,
+      "unite": "Bq/g",
+      "date_mesure": "2024",
+      "source": "andra-la-pallice"
+    },
+    {
+      "libelle": "uranium 238 dans le résidu sec, moyenne",
+      "milieu": "sol",
+      "valeur": 6,
+      "unite": "Bq/g",
+      "date_mesure": "2024",
+      "source": "andra-la-pallice"
+    }
+  ],
+  "periode": {
+    "debut": null,
+    "debut_statut": "inconnue",
+    "fin": "1993",
+    "fin_statut": "datee",
+    "note": "Apports de résidus cessés en 1993."
+  },
+  "resume": "L'inventaire national de l'Andra recense un remblai d'environ 50 000 m³ dans les installations portuaires de La Pallice, constitué en partie de résidus solides de l'usine de Chef-de-Baie mélangés à d'autres matériaux. Les apports ont cessé en 1993. Le résidu sec présente en moyenne 48 Bq/g en thorium 232 et 6 Bq/g en uranium 238, et ne représente que quelques pour cent du volume total du remblai.",
+  "exploitants": [
+    {
+      "nom": "Rhodia Opérations",
+      "role": "producteur des résidus",
+      "source": "andra-la-pallice"
+    }
+  ],
+  "statut_preuve": "mesure_publiee",
+  "procedure_en_cours": false,
+  "statut_traitement": "inconnu",
+  "sources": [
+    "andra-la-pallice"
+  ],
+  "ce_qui_manque": [
+    {
+      "piece": "L'emprise exacte du remblai et l'usage actuel des terrains",
+      "ou_chercher": "Grand Port maritime de La Rochelle, Andra"
+    },
+    {
+      "piece": "Le dispositif de surveillance éventuel",
+      "ou_chercher": "ASNR, DREAL Nouvelle-Aquitaine"
+    }
+  ],
+  "liens": [
+    {
+      "site": "usine-chef-de-baie-la-rochelle",
+      "relation": "objet_distinct_du_meme_site"
+    }
+  ],
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": true
+}

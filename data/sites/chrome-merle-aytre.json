@@ -1,0 +1,108 @@
+{
+  "id": "chrome-merle-aytre",
+  "nom": "Atelier de traitement de surfaces Merle, ZAC de Belle-Aire",
+  "commune": "Aytré",
+  "code_insee": "17028",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -1.097744,
+      46.129531
+    ]
+  },
+  "precision_geo": "localisation_indicative",
+  "rayon_m": 100,
+  "categorie": "friche_sol_pollue",
+  "milieux": [
+    "sol",
+    "eau_souterraine"
+  ],
+  "substances": [
+    {
+      "libelle": "chrome",
+      "milieu": "eau_souterraine",
+      "valeur": 4,
+      "unite": "mg/L",
+      "date_mesure": "1999-02",
+      "source": "georisques-ssp000868101"
+    },
+    {
+      "libelle": "hydrocarbures",
+      "milieu": "eau_souterraine",
+      "valeur": 0.14,
+      "unite": "mg/L",
+      "date_mesure": "1999-02",
+      "source": "georisques-ssp000868101"
+    },
+    {
+      "libelle": "chrome hexavalent",
+      "milieu": "sol",
+      "source": "georisques-ssp000868101"
+    }
+  ],
+  "periode": {
+    "debut": "1981",
+    "debut_statut": "datee",
+    "fin": null,
+    "fin_statut": "inconnue",
+    "note": "Un débordement important est rapporté en 1981. L'activité était exploitée au moins jusqu'au début des années 2000."
+  },
+  "resume": "Atelier de traitement de surfaces dans la ZAC de Belle-Aire. En février 1999, un forage en aval relève 4 mg/L de chrome dans la nappe. Un diagnostic de 1999 attribue la pollution principalement à ce site, classé ensuite en priorité 1 par une évaluation simplifiée des risques. Des terres ont été excavées. Un puits industriel situé 250 m en aval présente des teneurs anormales en chrome, le puits d'eau potable situé 1,5 km au nord n'est pas touché selon l'administration.",
+  "chronologie": [
+    {
+      "date": "1981",
+      "fait": "Débordement important rapporté par l'étude historique.",
+      "sources": [
+        "georisques-ssp000868101"
+      ]
+    },
+    {
+      "date": "1998-12",
+      "fait": "Teneur significative en chrome mesurée par la CDA dans le forage d'une usine voisine.",
+      "sources": [
+        "georisques-ssp000868101"
+      ]
+    },
+    {
+      "date": "1999-02",
+      "fait": "Forage en aval de l'atelier : 4 mg/L de chrome, 0,14 mg/L d'hydrocarbures.",
+      "sources": [
+        "georisques-ssp000868101"
+      ]
+    },
+    {
+      "date": "2001-07-19",
+      "fait": "Arrêté préfectoral imposant un diagnostic approfondi, une évaluation détaillée des risques et une surveillance de la nappe.",
+      "sources": [
+        "georisques-ssp000868101"
+      ]
+    },
+    {
+      "date": "2003",
+      "fait": "Dépôt de l'étude : excavation des terres sources et poursuite de la surveillance du chrome recommandées.",
+      "sources": [
+        "georisques-ssp000868101"
+      ]
+    }
+  ],
+  "exploitants": [
+    {
+      "nom": "Établissements Merle",
+      "source": "georisques-ssp000868101"
+    }
+  ],
+  "statut_preuve": "mesure_publiee",
+  "procedure_en_cours": true,
+  "statut_traitement": "sous_surveillance",
+  "sources": [
+    "georisques-ssp000868101"
+  ],
+  "liens": [
+    {
+      "site": "friche-cottes-mailles-aytre",
+      "relation": "voisin"
+    }
+  ],
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": true
+}

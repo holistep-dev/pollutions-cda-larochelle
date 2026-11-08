@@ -1,0 +1,138 @@
+{
+  "id": "gazometre-1-la-rochelle",
+  "nom": "Ancienne station gazométrique, rue du Rempart des Voiliers",
+  "commune": "La Rochelle",
+  "code_insee": "17300",
+  "geometry": {
+    "type": "MultiPolygon",
+    "coordinates": [
+      [
+        [
+          [
+            -1.148611,
+            46.168055
+          ],
+          [
+            -1.148601,
+            46.168054
+          ],
+          [
+            -1.148221,
+            46.168061
+          ],
+          [
+            -1.147907,
+            46.168031
+          ],
+          [
+            -1.147228,
+            46.167929
+          ],
+          [
+            -1.147222,
+            46.167927
+          ],
+          [
+            -1.147185,
+            46.167717
+          ],
+          [
+            -1.147212,
+            46.167236
+          ],
+          [
+            -1.147253,
+            46.167234
+          ],
+          [
+            -1.147407,
+            46.167228
+          ],
+          [
+            -1.14751,
+            46.167226
+          ],
+          [
+            -1.147526,
+            46.167288
+          ],
+          [
+            -1.147527,
+            46.167293
+          ],
+          [
+            -1.147529,
+            46.167299
+          ],
+          [
+            -1.147541,
+            46.167353
+          ],
+          [
+            -1.14756,
+            46.16743
+          ],
+          [
+            -1.147604,
+            46.167456
+          ],
+          [
+            -1.1477,
+            46.167514
+          ],
+          [
+            -1.147804,
+            46.167576
+          ],
+          [
+            -1.148012,
+            46.167699
+          ],
+          [
+            -1.148611,
+            46.168055
+          ]
+        ]
+      ]
+    ]
+  },
+  "precision_geo": "emprise_cadastrale",
+  "categorie": "friche_sol_pollue",
+  "milieux": [
+    "sol"
+  ],
+  "substances": [
+    {
+      "libelle": "cyanures libres",
+      "milieu": "sol",
+      "source": "georisques-ssp000355001"
+    },
+    {
+      "libelle": "HAP",
+      "milieu": "sol",
+      "source": "georisques-ssp000355001"
+    }
+  ],
+  "periode": {
+    "debut": null,
+    "debut_statut": "inconnue",
+    "fin": null,
+    "fin_statut": "inconnue",
+    "note": "Site lié à l'ancienne usine à gaz de la rue Marcel-Paul."
+  },
+  "resume": "Terrain d'environ 4 845 m² au 68 rue du Rempart des Voiliers, lié à l'ancienne usine à gaz de la ville. La fiche administrative identifie des cyanures et des hydrocarbures aromatiques polycycliques. L'instruction est close et le terrain est classé en secteur d'information sur les sols, ce qui impose une étude de sols avant tout projet de construction. Un audit de 1997 y décrivait des remblais présentant une légère présence de HAP, vraisemblablement issus de l'usine à gaz.",
+  "statut_preuve": "diagnostic_administratif",
+  "procedure_en_cours": false,
+  "statut_traitement": "inconnu",
+  "sources": [
+    "georisques-ssp000355001"
+  ],
+  "liens": [
+    {
+      "site": "usine-a-gaz-marcel-paul-la-rochelle",
+      "relation": "meme_dossier"
+    }
+  ],
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": true
+}

@@ -1,0 +1,164 @@
+{
+  "id": "ex-parc-ddtm-laleu-la-rochelle",
+  "nom": "Ancien parc routier de la DDTM, rue Élie-Barreau",
+  "commune": "La Rochelle",
+  "code_insee": "17300",
+  "geometry": {
+    "type": "MultiPolygon",
+    "coordinates": [
+      [
+        [
+          [
+            -1.204541,
+            46.176011
+          ],
+          [
+            -1.20402,
+            46.175798
+          ],
+          [
+            -1.203761,
+            46.17569
+          ],
+          [
+            -1.203822,
+            46.175594
+          ],
+          [
+            -1.203924,
+            46.175432
+          ],
+          [
+            -1.204026,
+            46.175273
+          ],
+          [
+            -1.204275,
+            46.174877
+          ],
+          [
+            -1.204338,
+            46.174776
+          ],
+          [
+            -1.205194,
+            46.175014
+          ],
+          [
+            -1.205834,
+            46.175193
+          ],
+          [
+            -1.205841,
+            46.175185
+          ],
+          [
+            -1.206263,
+            46.175364
+          ],
+          [
+            -1.205889,
+            46.175803
+          ],
+          [
+            -1.205561,
+            46.17567
+          ],
+          [
+            -1.205283,
+            46.175557
+          ],
+          [
+            -1.204792,
+            46.176118
+          ],
+          [
+            -1.204657,
+            46.176057
+          ],
+          [
+            -1.204541,
+            46.176011
+          ]
+        ]
+      ]
+    ]
+  },
+  "precision_geo": "emprise_cadastrale",
+  "categorie": "friche_sol_pollue",
+  "milieux": [
+    "sol",
+    "eau_souterraine",
+    "air"
+  ],
+  "substances": [
+    {
+      "libelle": "tétrachloroéthylène",
+      "milieu": "eau_souterraine",
+      "source": "georisques-ssp000383601"
+    },
+    {
+      "libelle": "COHV dans l'air des sols",
+      "milieu": "air",
+      "source": "georisques-ssp000383601"
+    },
+    {
+      "libelle": "HAP",
+      "milieu": "sol",
+      "source": "georisques-ssp000383601"
+    },
+    {
+      "libelle": "hydrocarbures",
+      "milieu": "sol",
+      "source": "georisques-ssp000383601"
+    }
+  ],
+  "periode": {
+    "debut": "1980",
+    "debut_statut": "datee",
+    "fin": "2011",
+    "fin_statut": "datee"
+  },
+  "resume": "Ancien parc routier de l'État d'environ 1,5 ha à Laleu, transféré au Département en 2011. Les diagnostics de 2009 à 2011 ont montré une pollution des sols et de la nappe aux solvants chlorés, qui atteignait des puits et piézomètres privés et industriels autour du site. Des travaux de dépollution ont eu lieu de 2013 à 2015. La concentration en tétrachloroéthylène dans la nappe restait ensuite significative selon l'administration, qui a demandé une analyse des risques résiduels.",
+  "chronologie": [
+    {
+      "date": "2011-10",
+      "fait": "Étude montrant que la pollution de la nappe atteint les puits et piézomètres voisins.",
+      "sources": [
+        "georisques-ssp000383601"
+      ]
+    },
+    {
+      "date": "2013-05",
+      "fait": "Début des travaux de dépollution des sols et des eaux souterraines, jusqu'en avril 2015.",
+      "sources": [
+        "georisques-ssp000383601"
+      ]
+    },
+    {
+      "date": "2015-12-30",
+      "fait": "La DREAL demande une analyse des risques résiduels et de nouveaux piézomètres.",
+      "sources": [
+        "georisques-ssp000383601"
+      ]
+    }
+  ],
+  "statut_preuve": "mesure_publiee",
+  "procedure_en_cours": true,
+  "statut_traitement": "sous_surveillance",
+  "sources": [
+    "georisques-ssp000383601"
+  ],
+  "ce_qui_manque": [
+    {
+      "piece": "L'unité exacte de la valeur de 22 000 en tétrachloroéthylène, que la fiche donne en mg/l, ce qui paraît incompatible avec la solubilité du produit et pourrait être une erreur de saisie pour µg/l",
+      "ou_chercher": "Fiche BASOL 17.0033 et rapports de la DREAL"
+    },
+    {
+      "piece": "L'analyse des risques résiduels et une éventuelle interprétation de l'état des milieux hors site",
+      "ou_chercher": "DREAL Nouvelle-Aquitaine, Département de la Charente-Maritime"
+    }
+  ],
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": true
+}

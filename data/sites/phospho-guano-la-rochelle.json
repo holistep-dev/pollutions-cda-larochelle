@@ -1,0 +1,238 @@
+{
+  "id": "phospho-guano-la-rochelle",
+  "nom": "Ancienne usine d'engrais du Phospho-Guano, rue Montcalm",
+  "commune": "La Rochelle",
+  "code_insee": "17300",
+  "geometry": {
+    "type": "MultiPolygon",
+    "coordinates": [
+      [
+        [
+          [
+            -1.214306,
+            46.165267
+          ],
+          [
+            -1.214464,
+            46.165096
+          ],
+          [
+            -1.214657,
+            46.165062
+          ],
+          [
+            -1.215279,
+            46.164381
+          ],
+          [
+            -1.215579,
+            46.164058
+          ],
+          [
+            -1.216156,
+            46.163431
+          ],
+          [
+            -1.21764,
+            46.163337
+          ],
+          [
+            -1.218003,
+            46.163315
+          ],
+          [
+            -1.218081,
+            46.163309
+          ],
+          [
+            -1.218161,
+            46.163411
+          ],
+          [
+            -1.218075,
+            46.163506
+          ],
+          [
+            -1.217879,
+            46.163716
+          ],
+          [
+            -1.217754,
+            46.163847
+          ],
+          [
+            -1.217053,
+            46.164622
+          ],
+          [
+            -1.216602,
+            46.165113
+          ],
+          [
+            -1.216622,
+            46.165122
+          ],
+          [
+            -1.216564,
+            46.165185
+          ],
+          [
+            -1.216546,
+            46.165178
+          ],
+          [
+            -1.216384,
+            46.165356
+          ],
+          [
+            -1.215763,
+            46.165887
+          ],
+          [
+            -1.215536,
+            46.166029
+          ],
+          [
+            -1.215353,
+            46.166107
+          ],
+          [
+            -1.214707,
+            46.166386
+          ],
+          [
+            -1.21419,
+            46.166611
+          ],
+          [
+            -1.213816,
+            46.166698
+          ],
+          [
+            -1.213652,
+            46.166812
+          ],
+          [
+            -1.213595,
+            46.166773
+          ],
+          [
+            -1.213374,
+            46.166628
+          ],
+          [
+            -1.213179,
+            46.166499
+          ],
+          [
+            -1.213718,
+            46.165906
+          ],
+          [
+            -1.214306,
+            46.165267
+          ]
+        ]
+      ]
+    ]
+  },
+  "precision_geo": "emprise_cadastrale",
+  "categorie": "friche_sol_pollue",
+  "milieux": [
+    "sol",
+    "eau_souterraine"
+  ],
+  "substances": [
+    {
+      "libelle": "arsenic",
+      "milieu": "sol",
+      "source": "georisques-ssp000383501"
+    },
+    {
+      "libelle": "plomb",
+      "milieu": "sol",
+      "source": "georisques-ssp000383501"
+    },
+    {
+      "libelle": "cuivre",
+      "milieu": "sol",
+      "source": "georisques-ssp000383501"
+    },
+    {
+      "libelle": "nickel",
+      "milieu": "sol",
+      "source": "georisques-ssp000383501"
+    },
+    {
+      "libelle": "arsenic et plomb",
+      "milieu": "eau_souterraine",
+      "source": "georisques-ssp000383501"
+    },
+    {
+      "libelle": "fer, mercure et soufre ponctuels sur l'ancienne aire de brûlage des pyrites",
+      "milieu": "sol",
+      "source": "georisques-ssp000383501"
+    }
+  ],
+  "periode": {
+    "debut": "1897",
+    "debut_statut": "datee",
+    "fin": "2011",
+    "fin_statut": "datee",
+    "note": "Engrais et acide sulfurique jusqu'au début des années 1970, puis unité pilote de biocarburants de 2007 à 2011."
+  },
+  "resume": "Ancienne usine d'engrais chimiques et d'acide sulfurique d'environ 5,4 ha, autorisée à partir de 1897. Une évaluation de 2003 a relevé arsenic, plomb, cuivre et nickel dans les sols, arsenic et plomb dans la nappe. Des travaux d'évacuation et d'excavation ont été menés et le procès-verbal de récolement a été délivré le 3 août 2017, pour un usage industriel ou artisanal avec restrictions d'usage. Le site reste en secteur d'information sur les sols.",
+  "chronologie": [
+    {
+      "date": "1897",
+      "fait": "Première autorisation des activités.",
+      "sources": [
+        "georisques-ssp000383501"
+      ]
+    },
+    {
+      "date": "2003-05",
+      "fait": "Évaluation simplifiée des risques : pollution des sols et de la nappe.",
+      "sources": [
+        "georisques-ssp000383501"
+      ]
+    },
+    {
+      "date": "2007-06-07",
+      "fait": "Restrictions d'usage conventionnelles au profit de l'État, révisées en 2012.",
+      "sources": [
+        "georisques-ssp000383501"
+      ]
+    },
+    {
+      "date": "2017-08-03",
+      "fait": "Procès-verbal de récolement des travaux, actant la cessation d'activité.",
+      "sources": [
+        "georisques-ssp000383501"
+      ]
+    }
+  ],
+  "exploitants": [
+    {
+      "nom": "Phospho-Guano",
+      "debut": "1897",
+      "fin": "197X",
+      "source": "georisques-ssp000383501"
+    },
+    {
+      "nom": "Bioenergy Pilot, filiale de SICA Atlantique",
+      "debut": "2007",
+      "fin": "2011",
+      "source": "georisques-ssp000383501"
+    }
+  ],
+  "statut_preuve": "diagnostic_administratif",
+  "procedure_en_cours": true,
+  "statut_traitement": "rehabilite",
+  "sources": [
+    "georisques-ssp000383501"
+  ],
+  "notes_internes": "Contredit l'inventaire du projet, qui donnait la dépollution comme abandonnée et l'adresse au 336 avenue Denfert-Rochereau. L'adresse relève d'un objet CASIAS distinct, à 136 m hors du SIS (arbitrage 3.2).",
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": false
+}

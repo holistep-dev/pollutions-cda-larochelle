@@ -1,0 +1,83 @@
+{
+  "note": "Signaux épidémiologiques. Aucun lien causal avec un site n'est enregistré ni affiché. Le validateur interdit qu'un signal référence un site.",
+  "signaux": [
+    {
+      "id": "cancers-0-24-ans-saint-rogatien",
+      "libelle": "Cancers chez les 0 à 24 ans à Saint-Rogatien",
+      "communes": [
+        "17391"
+      ],
+      "population": "Résidents de Saint-Rogatien âgés de 0 à 24 ans, comparés à ceux de la Charente-Maritime. Environ 2 400 habitants tous âges.",
+      "periode": {
+        "debut": "2008",
+        "debut_statut": "datee",
+        "fin": "2022",
+        "fin_statut": "datee"
+      },
+      "auteur_etude": "Registre général des cancers de Poitou-Charentes, Nolwenn Le Stang et Thomas Systchenko, mars 2026, étude financée par la Ligue contre le cancer",
+      "resultat": "7 cancers observés chez les 0 à 24 ans pour 1,8 attendus de 2008 à 2022, soit un ratio standardisé d'incidence de 3,89, intervalle de confiance à 95 % de 1,55 à 8,01. Tous âges confondus, l'étude ne montre pas de différence significative avec le département, ni pour Saint-Rogatien ni pour Périgny. Les auteurs écrivent qu'un excès de risque ne peut être écarté chez les plus jeunes, sous réserve de la faiblesse des effectifs.",
+      "facteurs_de_risque_connus": "L'étude n'ajuste que sur l'âge et le sexe et n'utilise aucune mesure d'exposition. Les auteurs écrivent qu'elle n'apporte pas une preuve de causalité.",
+      "enquetes_en_cours": [
+        {
+          "nom": "EXPOSCAN, expositions environnementales et spatialisation du sur-risque de cancers pédiatriques",
+          "pilote": "Laboratoire public Qualyse, comité de pilotage présidé par le préfet de la Charente-Maritime",
+          "echeance": "2028",
+          "source": "prefecture17-2026-03-exposcan"
+        }
+      ],
+      "sources": [
+        "rgcpc-2026-03-st-rogatien-perigny",
+        "rgcpc-2025-03-pediatrie-aja-17"
+      ]
+    },
+    {
+      "id": "cancers-0-24-ans-saint-vivien",
+      "libelle": "Cancers chez les 0 à 24 ans à Saint-Vivien",
+      "communes": [
+        "17413"
+      ],
+      "population": "Résidents de Saint-Vivien âgés de 0 à 24 ans, comparés à ceux de Poitou-Charentes.",
+      "periode": {
+        "debut": "2008",
+        "debut_statut": "datee",
+        "fin": "2022",
+        "fin_statut": "datee"
+      },
+      "auteur_etude": "Registre général des cancers de Poitou-Charentes, Nolwenn Le Stang et Thomas Systchenko, mars 2025",
+      "resultat": "5 cancers observés pour 1,1 attendus de 2008 à 2022, soit un ratio standardisé d'incidence brut de 4,55, intervalle de 1,46 à 10,61. Le ratio lissé, qui tient compte des communes voisines, n'est pas significatif : 1,04, intervalle de 0,80 à 1,46. Les auteurs qualifient les résultats sur l'agglomération de discordants et ne relèvent pas d'excès à l'échelle du département ni des intercommunalités.",
+      "facteurs_de_risque_connus": "Ajustement sur l'âge et le sexe seulement. Les auteurs écrivent que l'étude ne prétend pas établir de relation de causalité.",
+      "enquetes_en_cours": [
+        {
+          "nom": "EXPOSCAN, expositions environnementales et spatialisation du sur-risque de cancers pédiatriques",
+          "pilote": "Laboratoire public Qualyse, comité de pilotage présidé par le préfet de la Charente-Maritime",
+          "echeance": "2028",
+          "source": "prefecture17-2026-03-exposcan"
+        }
+      ],
+      "sources": [
+        "rgcpc-2025-03-pediatrie-aja-17"
+      ]
+    },
+    {
+      "id": "cancers-quartiers-ouest-la-rochelle",
+      "libelle": "Cancers chez les adultes des quartiers ouest de La Rochelle",
+      "communes": [
+        "17300"
+      ],
+      "zone_libelle": "Zone 5a de l'étude : Laleu, La Pallice, Chef-de-Baie, Port-Neuf, Mireuil, Rossignolette, 23 027 habitants en 2018",
+      "population": "Résidents de la zone 5a, comparés à la Charente-Maritime.",
+      "periode": {
+        "debut": "2008",
+        "debut_statut": "datee",
+        "fin": "2019",
+        "fin_statut": "datee"
+      },
+      "auteur_etude": "Registre général des cancers de Poitou-Charentes, Nolwenn Le Stang et Gautier Defossez, 2023, étude commandée par la CDA de La Rochelle et la Ligue contre le cancer",
+      "resultat": "Ratios standardisés d'incidence lissés significativement supérieurs à 1 : tous cancers 1,09 chez les hommes et 1,07 chez les femmes, cancers solides 1,11 et 1,07, cancer du poumon 1,27 chez les hommes, cancers des voies aérodigestives supérieures 1,33 chez les hommes. Le cancer du poumon chez les femmes, à 1,14, n'est pas significatif.",
+      "facteurs_de_risque_connus": "Les auteurs rattachent l'excès de cancers du poumon et des voies aérodigestives supérieures principalement à la consommation de tabac et d'alcool, et écrivent que des facteurs professionnels ou environnementaux peuvent coexister sans que leur part soit mesurable.",
+      "sources": [
+        "rgcpc-2023-cartographie-cda"
+      ]
+    }
+  ]
+}

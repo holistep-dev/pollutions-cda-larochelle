@@ -1,0 +1,86 @@
+{
+  "note": "Décisions ou recommandations d'une autorité. Une restriction n'est pas un site pollué.",
+  "restrictions": [
+    {
+      "id": "coquillages-17-06-01-la-pallice",
+      "libelle": "Pêche, production et récolte de coquillages interdites, zone 17.06.01 La Pallice",
+      "nature": "classement_sanitaire",
+      "objet": "peche_coquillages",
+      "autorite": "Préfet de la Charente-Maritime",
+      "portee": {
+        "communes": [
+          "17300"
+        ],
+        "libelle_zone": "Limites administratives du Grand Port maritime, étendues jusqu'à la jetée sud du port de Chef-de-Baie."
+      },
+      "statut": "en_vigueur",
+      "date_debut": "2026-02-10",
+      "date_fin": null,
+      "sources": [
+        "ap-26-008-classement-conchylicole"
+      ]
+    },
+    {
+      "id": "coquillages-17-06-02-baie-la-rochelle",
+      "libelle": "Pêche, production et récolte de coquillages interdites, zone 17.06.02 baie de La Rochelle",
+      "nature": "classement_sanitaire",
+      "objet": "peche_coquillages",
+      "autorite": "Préfet de la Charente-Maritime",
+      "portee": {
+        "communes": [
+          "17300"
+        ],
+        "libelle_zone": "Du phare du Bout du Monde à la pointe des Minimes et à la jetée sud du port de Chef-de-Baie."
+      },
+      "statut": "en_vigueur",
+      "date_debut": "2026-02-10",
+      "date_fin": null,
+      "sources": [
+        "ap-26-008-classement-conchylicole"
+      ]
+    },
+    {
+      "id": "baignade-interdite-aytre",
+      "libelle": "Baignade interdite sur les plages du Platin Nord et du Platin Sud",
+      "nature": "interdiction",
+      "objet": "baignade",
+      "autorite": "Maire d'Aytré, arrêté n° 35",
+      "portee": {
+        "communes": [
+          "17028"
+        ],
+        "libelle_zone": "Plages du Platin Nord et du Platin Sud"
+      },
+      "motif_declare": "Qualité insuffisante des eaux de baignade, au titre de la directive 2006/7/CE.",
+      "statut": "en_vigueur",
+      "date_debut": "2018-04-27",
+      "date_fin": null,
+      "sources": [
+        "aytre-arrete-35-2018"
+      ],
+      "sites_lies": [
+        "baignade-aytre-platin-nord",
+        "baignade-aytre-platin-sud"
+      ]
+    },
+    {
+      "id": "potagers-quartiers-ouest-la-rochelle",
+      "libelle": "Potagers en pleine terre déconseillés dans les quartiers ouest, propos rapportés",
+      "nature": "recommandation",
+      "objet": "culture_potagere",
+      "autorite": "Une conseillère municipale de La Rochelle, lors d'une réunion publique du 2 décembre 2025, selon la presse. Aucun acte écrit retrouvé.",
+      "portee": {
+        "communes": [
+          "17300"
+        ],
+        "libelle_zone": "Quartiers ouest de La Rochelle, dont La Rossignolette et La Pallice"
+      },
+      "statut": "inconnue",
+      "date_debut": "2025-12-02",
+      "date_fin": null,
+      "sources": [
+        "france3-2025-12-06-potagers"
+      ]
+    }
+  ]
+}

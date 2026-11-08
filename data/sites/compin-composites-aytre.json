@@ -1,0 +1,179 @@
+{
+  "id": "compin-composites-aytre",
+  "nom": "Ancien atelier de matériaux composites, 19 rue Galilée",
+  "commune": "Aytré",
+  "code_insee": "17028",
+  "geometry": {
+    "type": "MultiPolygon",
+    "coordinates": [
+      [
+        [
+          [
+            -1.100344,
+            46.127828
+          ],
+          [
+            -1.10032,
+            46.128013
+          ],
+          [
+            -1.100299,
+            46.128194
+          ],
+          [
+            -1.100253,
+            46.128192
+          ],
+          [
+            -1.099831,
+            46.128162
+          ],
+          [
+            -1.099358,
+            46.128129
+          ],
+          [
+            -1.098886,
+            46.128097
+          ],
+          [
+            -1.098869,
+            46.128096
+          ],
+          [
+            -1.098847,
+            46.128092
+          ],
+          [
+            -1.098826,
+            46.128086
+          ],
+          [
+            -1.098811,
+            46.128079
+          ],
+          [
+            -1.098771,
+            46.128056
+          ],
+          [
+            -1.098757,
+            46.128048
+          ],
+          [
+            -1.09875,
+            46.128039
+          ],
+          [
+            -1.098742,
+            46.128021
+          ],
+          [
+            -1.098736,
+            46.127998
+          ],
+          [
+            -1.098725,
+            46.127968
+          ],
+          [
+            -1.098718,
+            46.127954
+          ],
+          [
+            -1.098749,
+            46.12772
+          ],
+          [
+            -1.098824,
+            46.127727
+          ],
+          [
+            -1.099378,
+            46.127765
+          ],
+          [
+            -1.099888,
+            46.127799
+          ],
+          [
+            -1.100338,
+            46.127828
+          ],
+          [
+            -1.100344,
+            46.127828
+          ]
+        ]
+      ]
+    ]
+  },
+  "precision_geo": "emprise_cadastrale",
+  "categorie": "friche_sol_pollue",
+  "milieux": [
+    "sol"
+  ],
+  "substances": [
+    {
+      "libelle": "o-xylène",
+      "milieu": "sol",
+      "source": "georisques-ssp001249801"
+    }
+  ],
+  "periode": {
+    "debut": "1987",
+    "debut_statut": "datee",
+    "fin": "2014-01",
+    "fin_statut": "datee"
+  },
+  "resume": "Atelier de moulage de composites exploité de 1987 à 2014 dans la zone de Belle-Aire. Un diagnostic de 2015 a détecté de l'o-xylène dans un sondage de sol. Une mesure de l'air intérieur ne l'a pas retrouvé. Des servitudes d'utilité publique limitent les parcelles AP 281 et 282 à un usage industriel ou artisanal et y interdisent potagers, arbres fruitiers et captage d'eau potable.",
+  "chronologie": [
+    {
+      "date": "2015-09-08",
+      "fait": "Récépissé de cessation d'activité.",
+      "sources": [
+        "georisques-ssp001249801"
+      ]
+    },
+    {
+      "date": "2015-10-30",
+      "fait": "Diagnostic de l'état des sols.",
+      "sources": [
+        "georisques-ssp001249801"
+      ]
+    },
+    {
+      "date": "2015-12-03",
+      "fait": "La préfecture demande une mesure de l'o-xylène dans l'air du bâtiment.",
+      "sources": [
+        "georisques-ssp001249801"
+      ]
+    }
+  ],
+  "exploitants": [
+    {
+      "nom": "SA Defi 22 Polyester",
+      "debut": "1987",
+      "fin": "2006",
+      "source": "georisques-ssp001249801"
+    },
+    {
+      "nom": "SA Pasymbo",
+      "source": "georisques-ssp001249801"
+    },
+    {
+      "nom": "Compin Composites & Front Ends",
+      "debut": "2006",
+      "fin": "2014",
+      "source": "georisques-ssp001249801"
+    }
+  ],
+  "statut_preuve": "diagnostic_administratif",
+  "procedure_en_cours": true,
+  "statut_traitement": "inconnu",
+  "sources": [
+    "georisques-ssp001249801"
+  ],
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": true
+}

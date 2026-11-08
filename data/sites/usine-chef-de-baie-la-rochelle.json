@@ -1,0 +1,149 @@
+{
+  "id": "usine-chef-de-baie-la-rochelle",
+  "nom": "Usine de terres rares de Chef-de-Baie",
+  "commune": "La Rochelle",
+  "code_insee": "17300",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -1.193571,
+      46.156789
+    ]
+  },
+  "precision_geo": "localisation_indicative",
+  "rayon_m": 350,
+  "categorie": "friche_sol_pollue",
+  "milieux": [
+    "sol",
+    "eau_souterraine"
+  ],
+  "substances": [
+    {
+      "libelle": "arsenic",
+      "milieu": "sol",
+      "source": "georisques-ssp000868601"
+    },
+    {
+      "libelle": "mercure",
+      "milieu": "sol",
+      "source": "georisques-ssp000868601"
+    },
+    {
+      "libelle": "nickel",
+      "milieu": "sol",
+      "source": "georisques-ssp000868601"
+    },
+    {
+      "libelle": "plomb",
+      "milieu": "sol",
+      "source": "georisques-ssp000868601"
+    },
+    {
+      "libelle": "ammonium",
+      "milieu": "eau_souterraine",
+      "source": "georisques-ssp000868601"
+    },
+    {
+      "libelle": "résidus solides banalisés (RSB) entreposés, thorium et uranium",
+      "milieu": "sol",
+      "valeur": 75,
+      "unite": "Bq/g",
+      "date_mesure": "2024",
+      "source": "andra-chef-de-baie"
+    },
+    {
+      "libelle": "remblais contaminés, uranium et thorium naturels, 35 000 m³",
+      "milieu": "sol",
+      "date_mesure": "2024",
+      "source": "andra-chef-de-baie"
+    }
+  ],
+  "periode": {
+    "debut": null,
+    "debut_statut": "inconnue",
+    "fin": null,
+    "fin_statut": "en_cours",
+    "note": "Monazite traitée jusqu'en juillet 1994. Usine en activité."
+  },
+  "resume": "Usine de 41 ha en bord de mer, spécialisée dans l'extraction et la purification de terres rares. Jusqu'en juillet 1994, elle traitait de la monazite, un minerai faiblement radioactif. L'inventaire national de l'Andra recense sur le site 10 003 m³ de résidus solides, 329 m³ de résidus radifères et 35 000 m³ de remblais contaminés en uranium et thorium. L'instruction administrative des sols, en cours, relève arsenic, mercure, nickel, plomb et ammonium, et une surveillance des eaux souterraines est imposée depuis 2003.",
+  "chronologie": [
+    {
+      "date": "1994-07",
+      "fait": "Fin du traitement de la monazite.",
+      "sources": [
+        "andra-chef-de-baie"
+      ]
+    },
+    {
+      "date": "1998-04-17",
+      "fait": "Arrêté préfectoral imposant une étude des sols à titre préventif.",
+      "sources": [
+        "georisques-ssp000868601"
+      ]
+    },
+    {
+      "date": "2003-10-17",
+      "fait": "Arrêté préfectoral imposant une surveillance au moins semestrielle des eaux souterraines.",
+      "sources": [
+        "georisques-ssp000868601"
+      ]
+    },
+    {
+      "date": "2024-12-31",
+      "fait": "Situation de l'inventaire Andra : RSB, résidus radifères et remblais contaminés entreposés sur site.",
+      "sources": [
+        "andra-chef-de-baie"
+      ]
+    }
+  ],
+  "exploitants": [
+    {
+      "nom": "Rhodia Opérations (ex Rhodia Electronics & Catalysis, ex Rhône-Poulenc)",
+      "source": "georisques-ssp000868601"
+    }
+  ],
+  "statut_preuve": "mesure_publiee",
+  "procedure_en_cours": true,
+  "statut_traitement": "sous_surveillance",
+  "sources": [
+    "georisques-ssp000868601",
+    "andra-chef-de-baie"
+  ],
+  "revue_presse": [
+    {
+      "source": "sudouest-2026-04-16-dechets-radioactifs",
+      "angle": "Mesures de la CRIIRAD et découvertes de résidus radioactifs hors du site, rapportées par la presse."
+    },
+    {
+      "source": "sudouest-2026-04-27-pollution-heritage",
+      "angle": "Témoignages d'habitants sur les rejets passés."
+    }
+  ],
+  "ce_qui_manque": [
+    {
+      "piece": "Les mesures de radioactivité de la CRIIRAD, de 1988 à 2025, dans leurs publications originales",
+      "ou_chercher": "Site et bulletins de la CRIIRAD, à verser comme publication associative"
+    },
+    {
+      "piece": "Le rapport IRSN de 2004 cité par la CRIIRAD",
+      "ou_chercher": "ASNR, anciennement IRSN"
+    },
+    {
+      "piece": "Les résultats de la surveillance des eaux souterraines",
+      "ou_chercher": "DREAL Nouvelle-Aquitaine, rapports d'inspection"
+    }
+  ],
+  "liens": [
+    {
+      "site": "remblai-radioactif-la-pallice",
+      "relation": "objet_distinct_du_meme_site"
+    },
+    {
+      "site": "decharge-chef-de-baie-la-rochelle",
+      "relation": "voisin"
+    }
+  ],
+  "notes_internes": "L'inventaire du projet nomme aussi Péchiney-Saint-Gobain et Solvay. Seuls les noms portés par la fiche Infosols et l'Andra sont affichés.",
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": true
+}

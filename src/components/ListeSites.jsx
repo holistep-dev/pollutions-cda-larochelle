@@ -15,6 +15,7 @@ export default function ListeSites({ sites, avecCommune = true }) {
             <a href={`/sites/${s.id}`}>{s.nom}</a>
             {avecCommune ? <span className="commune">{s.commune}</span> : null}
             <span className={`preuve ${s.statut_preuve}`}>{L.statut_preuve[s.statut_preuve].libelle}</span>
+            <span className="traitement">{L.statut_traitement[s.statut_traitement].libelle}</span>
           </li>
         ))}
       </ul>

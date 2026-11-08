@@ -1,0 +1,82 @@
+{
+  "id": "laboratoire-fujifilm-aytre",
+  "nom": "Ancien laboratoire photographique Fujifilm, ZAC de Belle-Aire",
+  "commune": "Aytré",
+  "code_insee": "17028",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -1.093678,
+      46.129795
+    ]
+  },
+  "precision_geo": "localisation_indicative",
+  "rayon_m": 80,
+  "categorie": "friche_sol_pollue",
+  "milieux": [
+    "sol"
+  ],
+  "substances": [
+    {
+      "libelle": "argent",
+      "milieu": "sol",
+      "source": "georisques-ssp001034101"
+    },
+    {
+      "libelle": "soufre",
+      "milieu": "sol",
+      "source": "georisques-ssp001034101"
+    },
+    {
+      "libelle": "sulfates",
+      "milieu": "sol",
+      "source": "georisques-ssp001034101"
+    }
+  ],
+  "periode": {
+    "debut": "1989",
+    "debut_statut": "datee",
+    "fin": "2006-12-15",
+    "fin_statut": "datee"
+  },
+  "resume": "Laboratoire de développement photographique exploité de 1989 à 2006. Les investigations de cessation ont montré une pollution superficielle en argent, soufre et sulfates dans les bétons du caniveau technique et au droit d'une ancienne développeuse. Environ 90 m³ de bétons et de terres ont été excavés en 2007. Selon l'administration, la visite de récolement n'a fait apparaître aucune mesure particulière nécessaire.",
+  "chronologie": [
+    {
+      "date": "2007-06-07",
+      "fait": "Dépôt du dossier de cessation d'activité.",
+      "sources": [
+        "georisques-ssp001034101"
+      ]
+    },
+    {
+      "date": "2007-09",
+      "fait": "Excavation des bétons et terres polluées, environ 90 m³, envoyés en centre de stockage de classe 1.",
+      "sources": [
+        "georisques-ssp001034101"
+      ]
+    }
+  ],
+  "exploitants": [
+    {
+      "nom": "Laboratoire Jonchery",
+      "debut": "1989",
+      "fin": "1994",
+      "source": "georisques-ssp001034101"
+    },
+    {
+      "nom": "Laboratoires Fujifilm",
+      "debut": "1994",
+      "fin": "2006",
+      "source": "georisques-ssp001034101"
+    }
+  ],
+  "statut_preuve": "diagnostic_administratif",
+  "procedure_en_cours": true,
+  "statut_traitement": "rehabilite",
+  "sources": [
+    "georisques-ssp001034101"
+  ],
+  "notes_internes": "Instruction affichée en cours par Géorisques malgré le récolement : statut réhabilité retenu sur la foi du texte de la fiche.",
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": false
+}

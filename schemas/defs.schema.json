@@ -28,24 +28,58 @@
       "description": "Bornes floues autorisées. Une borne nulle doit être qualifiée par son statut.",
       "properties": {
         "debut": {
-          "oneOf": [{ "$ref": "#/$defs/date_floue" }, { "type": "null" }]
+          "oneOf": [
+            {
+              "$ref": "#/$defs/date_floue"
+            },
+            {
+              "type": "null"
+            }
+          ]
         },
         "debut_statut": {
-          "enum": ["datee", "inconnue"]
+          "enum": [
+            "datee",
+            "inconnue"
+          ]
         },
         "fin": {
-          "oneOf": [{ "$ref": "#/$defs/date_floue" }, { "type": "null" }]
+          "oneOf": [
+            {
+              "$ref": "#/$defs/date_floue"
+            },
+            {
+              "type": "null"
+            }
+          ]
         },
         "fin_statut": {
-          "enum": ["datee", "en_cours", "inconnue"]
+          "enum": [
+            "datee",
+            "en_cours",
+            "inconnue"
+          ]
         },
-        "note": { "type": "string", "maxLength": 300 }
+        "note": {
+          "type": "string",
+          "maxLength": 300
+        }
       },
-      "required": ["debut", "debut_statut", "fin", "fin_statut"],
+      "required": [
+        "debut",
+        "debut_statut",
+        "fin",
+        "fin_statut"
+      ],
       "additionalProperties": false
     },
     "precision_geo": {
-      "enum": ["emprise_cadastrale", "perimetre_approximatif", "localisation_indicative", null],
+      "enum": [
+        "emprise_cadastrale",
+        "perimetre_approximatif",
+        "localisation_indicative",
+        null
+      ],
       "description": "null seulement si geometry est null."
     },
     "categorie": {
@@ -61,14 +95,32 @@
       ]
     },
     "milieu": {
-      "enum": ["sol", "eau_souterraine", "eau_superficielle", "eau_distribuee", "sediment_marin", "air"]
+      "enum": [
+        "sol",
+        "eau_souterraine",
+        "eau_superficielle",
+        "eau_distribuee",
+        "sediment_marin",
+        "air"
+      ]
     },
     "statut_preuve": {
-      "enum": ["mesure_publiee", "diagnostic_administratif", "procedure_en_cours", "signalement_non_instruit"],
+      "enum": [
+        "mesure_publiee",
+        "diagnostic_administratif",
+        "procedure_en_cours",
+        "signalement_non_instruit"
+      ],
       "description": "Valeur unique, la plus forte que les sources justifient."
     },
     "statut_traitement": {
-      "enum": ["non_traite", "sous_surveillance", "travaux_en_cours", "rehabilite", "inconnu"]
+      "enum": [
+        "non_traite",
+        "sous_surveillance",
+        "travaux_en_cours",
+        "rehabilite",
+        "inconnu"
+      ]
     },
     "type_source": {
       "enum": [
@@ -76,6 +128,7 @@
         "arrete_municipal",
         "decision_justice",
         "deliberation",
+        "avis_administratif",
         "base_publique",
         "etude_scientifique",
         "communication_institutionnelle",
@@ -87,25 +140,40 @@
     "geometry": {
       "description": "GeoJSON restreint. null accepté pour un site connu sans localisation.",
       "oneOf": [
-        { "type": "null" },
+        {
+          "type": "null"
+        },
         {
           "type": "object",
           "properties": {
-            "type": { "enum": ["Point"] },
+            "type": {
+              "enum": [
+                "Point"
+              ]
+            },
             "coordinates": {
               "type": "array",
-              "items": { "type": "number" },
+              "items": {
+                "type": "number"
+              },
               "minItems": 2,
               "maxItems": 2
             }
           },
-          "required": ["type", "coordinates"],
+          "required": [
+            "type",
+            "coordinates"
+          ],
           "additionalProperties": false
         },
         {
           "type": "object",
           "properties": {
-            "type": { "enum": ["Polygon"] },
+            "type": {
+              "enum": [
+                "Polygon"
+              ]
+            },
             "coordinates": {
               "type": "array",
               "items": {
@@ -113,23 +181,37 @@
                 "minItems": 4,
                 "items": {
                   "type": "array",
-                  "items": { "type": "number" },
+                  "items": {
+                    "type": "number"
+                  },
                   "minItems": 2,
                   "maxItems": 2
                 }
               }
             }
           },
-          "required": ["type", "coordinates"],
+          "required": [
+            "type",
+            "coordinates"
+          ],
           "additionalProperties": false
         },
         {
           "type": "object",
           "properties": {
-            "type": { "enum": ["MultiPolygon"] },
-            "coordinates": { "type": "array" }
+            "type": {
+              "enum": [
+                "MultiPolygon"
+              ]
+            },
+            "coordinates": {
+              "type": "array"
+            }
           },
-          "required": ["type", "coordinates"],
+          "required": [
+            "type",
+            "coordinates"
+          ],
           "additionalProperties": false
         }
       ]

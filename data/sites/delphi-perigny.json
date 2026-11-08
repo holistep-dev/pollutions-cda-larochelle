@@ -1,0 +1,72 @@
+{
+  "id": "delphi-perigny",
+  "nom": "Ancienne usine Delphi, avenue Paul-Langevin",
+  "commune": "Périgny",
+  "code_insee": "17274",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -1.095807,
+      46.161431
+    ]
+  },
+  "precision_geo": "localisation_indicative",
+  "rayon_m": 150,
+  "categorie": "friche_sol_pollue",
+  "milieux": [
+    "sol"
+  ],
+  "substances": [
+    {
+      "libelle": "hydrocarbures totaux, atelier de maintenance",
+      "milieu": "sol",
+      "valeur": 3600,
+      "unite": "mg/kg MS",
+      "source": "georisques-ssp001254101"
+    },
+    {
+      "libelle": "hydrocarbures totaux, zone de lavage",
+      "milieu": "sol",
+      "valeur": 1900,
+      "unite": "mg/kg MS",
+      "source": "georisques-ssp001254101"
+    },
+    {
+      "libelle": "cadmium et arsenic, anomalies ponctuelles",
+      "milieu": "sol",
+      "source": "georisques-ssp001254101"
+    }
+  ],
+  "periode": {
+    "debut": "1977",
+    "debut_statut": "datee",
+    "fin": "2016",
+    "fin_statut": "datee"
+  },
+  "resume": "Unité de production de systèmes d'injection diesel exploitée de 1977 à 2016. Vingt-huit sondages ont révélé deux zones de pollution concentrée en hydrocarbures, jusqu'à 3 600 mg/kg, et des anomalies ponctuelles en cadmium et arsenic. De juin à septembre 2017, 894 tonnes de terres polluées ont été évacuées. Les eaux souterraines analysées en 2016 étaient sous les limites de quantification.",
+  "chronologie": [
+    {
+      "date": "2017-06-06",
+      "fait": "Début des travaux de dépollution, jusqu'au 25 septembre 2017 : 894 tonnes de terres et 147 tonnes de béton évacuées.",
+      "sources": [
+        "georisques-ssp001254101"
+      ]
+    }
+  ],
+  "exploitants": [
+    {
+      "nom": "Delphi France SAS",
+      "debut": "1977",
+      "fin": "2016",
+      "source": "georisques-ssp001254101"
+    }
+  ],
+  "statut_preuve": "mesure_publiee",
+  "procedure_en_cours": true,
+  "statut_traitement": "rehabilite",
+  "sources": [
+    "georisques-ssp001254101"
+  ],
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": false
+}

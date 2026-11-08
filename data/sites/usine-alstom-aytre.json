@@ -1,0 +1,84 @@
+{
+  "id": "usine-alstom-aytre",
+  "nom": "Usine de matériel ferroviaire Alstom",
+  "commune": "Aytré",
+  "code_insee": "17028",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -1.123407,
+      46.137429
+    ]
+  },
+  "precision_geo": "localisation_indicative",
+  "rayon_m": 250,
+  "categorie": "friche_sol_pollue",
+  "milieux": [
+    "eau_souterraine"
+  ],
+  "substances": [
+    {
+      "libelle": "hydrocarbures, phase flottante jusqu'à 2 m d'épaisseur dans les piézomètres",
+      "milieu": "eau_souterraine",
+      "source": "georisques-ssp001060801"
+    },
+    {
+      "libelle": "chlorure de vinyle, en amont hydraulique du site",
+      "milieu": "eau_souterraine",
+      "valeur": 35,
+      "unite": "µg/L",
+      "source": "georisques-ssp001060801"
+    }
+  ],
+  "periode": {
+    "debut": "2005",
+    "debut_statut": "datee",
+    "fin": null,
+    "fin_statut": "en_cours",
+    "note": "Le site est en activité. La période est celle de la pollution de nappe détectée et suivie."
+  },
+  "resume": "La surveillance de la nappe sous l'usine Alstom a détecté une pollution localisée aux hydrocarbures, attribuée à d'anciennes cuves de fioul enterrées. Un écrémage installé dès 2005 a récupéré plus de 1 200 litres d'hydrocarbures. La même surveillance a relevé, en amont du site, des solvants chlorés dont du chlorure de vinyle à 35 µg/L, que l'administration attribue a priori à d'anciennes fabrications de peinture dans la zone. Les puits en aval testés en 2006 étaient sous la limite de quantification en hydrocarbures.",
+  "chronologie": [
+    {
+      "date": "2005",
+      "fait": "Installation d'un dispositif d'écrémage de la nappe.",
+      "sources": [
+        "georisques-ssp001060801"
+      ]
+    },
+    {
+      "date": "2006",
+      "fait": "Huit puits en aval testés : hydrocarbures sous la limite de quantification.",
+      "sources": [
+        "georisques-ssp001060801"
+      ]
+    },
+    {
+      "date": "2009-04",
+      "fait": "Écrémage suspendu, la pollution résiduelle ayant diminué. Surveillance maintenue.",
+      "sources": [
+        "georisques-ssp001060801"
+      ]
+    }
+  ],
+  "exploitants": [
+    {
+      "nom": "Alstom Transport",
+      "source": "georisques-ssp001060801"
+    }
+  ],
+  "statut_preuve": "mesure_publiee",
+  "procedure_en_cours": true,
+  "statut_traitement": "sous_surveillance",
+  "sources": [
+    "georisques-ssp001060801"
+  ],
+  "liens": [
+    {
+      "site": "friche-cottes-mailles-aytre",
+      "relation": "voisin"
+    }
+  ],
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": true
+}

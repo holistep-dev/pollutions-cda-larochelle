@@ -1,0 +1,54 @@
+{
+  "id": "nappe-lhoumeau",
+  "nom": "Nappe sous le groupe scolaire de L'Houmeau",
+  "commune": "L'Houmeau",
+  "code_insee": "17190",
+  "geometry": null,
+  "precision_geo": null,
+  "motif_absence_geometrie": "L'emplacement exact des forages de géothermie n'est pas publié. La mairie peut le fournir.",
+  "categorie": "ressource_eau",
+  "milieux": [
+    "eau_souterraine"
+  ],
+  "substances": [
+    {
+      "libelle": "nitrates",
+      "milieu": "eau_souterraine",
+      "date_mesure": "2023",
+      "source": "lemonde-2026-09-10-lhoumeau"
+    },
+    {
+      "libelle": "pesticides",
+      "milieu": "eau_souterraine",
+      "date_mesure": "2023",
+      "source": "lemonde-2026-09-10-lhoumeau"
+    }
+  ],
+  "periode": {
+    "debut": "2023",
+    "debut_statut": "datee",
+    "fin": null,
+    "fin_statut": "inconnue"
+  },
+  "resume": "En 2023, deux forages de géothermie réalisés à 14 m de profondeur pour chauffer le restaurant scolaire et le gymnase ont trouvé une eau polluée aux nitrates et aux pesticides, selon la presse. L'Agence régionale de santé en aurait déconseillé la consommation sans traitement. Ni les analyses ni l'avis de l'ARS n'ont été retrouvés publiés. Il ne s'agit pas de l'eau du robinet.",
+  "statut_preuve": "signalement_non_instruit",
+  "procedure_en_cours": false,
+  "statut_traitement": "inconnu",
+  "sources": [
+    "lemonde-2026-09-10-lhoumeau"
+  ],
+  "ce_qui_manque": [
+    {
+      "piece": "Les bulletins d'analyse du laboratoire, dont les valeurs de nitrates citées dans l'inventaire du projet",
+      "ou_chercher": "Mairie de L'Houmeau, laboratoire Qualyse",
+      "statut_vise": "mesure_publiee"
+    },
+    {
+      "piece": "L'avis écrit de l'ARS",
+      "ou_chercher": "ARS Nouvelle-Aquitaine, délégation de la Charente-Maritime"
+    }
+  ],
+  "notes_internes": "L'inventaire donnait mesure_publiee avec 64,2 mg/L de nitrates. Aucune source publiée de ce chiffre retrouvée le 08/11/2026 : déclassé en signalement.",
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": true
+}

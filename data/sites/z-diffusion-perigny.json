@@ -1,0 +1,49 @@
+{
+  "id": "z-diffusion-perigny",
+  "nom": "Atelier de traitement de surface Z Diffusion",
+  "commune": "Périgny",
+  "code_insee": "17274",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -1.103345,
+      46.160717
+    ]
+  },
+  "precision_geo": "localisation_indicative",
+  "rayon_m": 100,
+  "categorie": "friche_sol_pollue",
+  "milieux": [
+    "sol"
+  ],
+  "substances": [
+    {
+      "libelle": "fer et aluminium",
+      "milieu": "sol",
+      "date_mesure": "2008-10",
+      "source": "georisques-ssp001227301"
+    }
+  ],
+  "periode": {
+    "debut": "1975",
+    "debut_statut": "datee",
+    "fin": null,
+    "fin_statut": "en_cours"
+  },
+  "resume": "Fabricant de mâts de voiliers exploitant un atelier de traitement de surface depuis 1975. Deux sondages de sol d'octobre 2008 n'ont détecté ni hydrocarbures, ni solvants, ni cyanures, mais des marquages en fer et aluminium plus élevés au droit du stockage de produits dangereux. Le site figure dans la base des instructions administratives de sites et sols pollués.",
+  "exploitants": [
+    {
+      "nom": "Z Diffusion",
+      "debut": "1975",
+      "source": "georisques-ssp001227301"
+    }
+  ],
+  "statut_preuve": "diagnostic_administratif",
+  "procedure_en_cours": true,
+  "statut_traitement": "inconnu",
+  "sources": [
+    "georisques-ssp001227301"
+  ],
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": true
+}

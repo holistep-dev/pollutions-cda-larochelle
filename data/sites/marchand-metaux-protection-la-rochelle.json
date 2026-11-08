@@ -1,0 +1,213 @@
+{
+  "id": "marchand-metaux-protection-la-rochelle",
+  "nom": "Ancien atelier de traitement de surface, rue de la Mare-à-la-Besse",
+  "commune": "La Rochelle",
+  "code_insee": "17300",
+  "geometry": {
+    "type": "MultiPolygon",
+    "coordinates": [
+      [
+        [
+          [
+            -1.217232,
+            46.161352
+          ],
+          [
+            -1.217241,
+            46.161418
+          ],
+          [
+            -1.217245,
+            46.161454
+          ],
+          [
+            -1.217129,
+            46.161461
+          ],
+          [
+            -1.217077,
+            46.161464
+          ],
+          [
+            -1.217096,
+            46.161614
+          ],
+          [
+            -1.216988,
+            46.161621
+          ],
+          [
+            -1.216985,
+            46.161621
+          ],
+          [
+            -1.21687,
+            46.161629
+          ],
+          [
+            -1.216787,
+            46.161633
+          ],
+          [
+            -1.216777,
+            46.161631
+          ],
+          [
+            -1.216772,
+            46.161631
+          ],
+          [
+            -1.21673,
+            46.161625
+          ],
+          [
+            -1.216604,
+            46.161607
+          ],
+          [
+            -1.216553,
+            46.161599
+          ],
+          [
+            -1.216544,
+            46.161598
+          ],
+          [
+            -1.216545,
+            46.161594
+          ],
+          [
+            -1.216563,
+            46.161522
+          ],
+          [
+            -1.216583,
+            46.161443
+          ],
+          [
+            -1.216593,
+            46.161398
+          ],
+          [
+            -1.216593,
+            46.161394
+          ],
+          [
+            -1.216588,
+            46.161366
+          ],
+          [
+            -1.216588,
+            46.161363
+          ],
+          [
+            -1.216674,
+            46.161361
+          ],
+          [
+            -1.216745,
+            46.161376
+          ],
+          [
+            -1.216752,
+            46.161359
+          ],
+          [
+            -1.216792,
+            46.161317
+          ],
+          [
+            -1.216863,
+            46.161286
+          ],
+          [
+            -1.216881,
+            46.161278
+          ],
+          [
+            -1.216896,
+            46.161273
+          ],
+          [
+            -1.21697,
+            46.161246
+          ],
+          [
+            -1.216974,
+            46.16127
+          ],
+          [
+            -1.216982,
+            46.161322
+          ],
+          [
+            -1.217226,
+            46.161308
+          ],
+          [
+            -1.217232,
+            46.161352
+          ]
+        ]
+      ]
+    ]
+  },
+  "precision_geo": "emprise_cadastrale",
+  "categorie": "friche_sol_pollue",
+  "milieux": [
+    "sol"
+  ],
+  "periode": {
+    "debut": "1977",
+    "debut_statut": "datee",
+    "fin": "2018-12-31",
+    "fin_statut": "datee"
+  },
+  "resume": "Atelier de nickelage, chromage et polissage autorisé en 1977, arrêté fin 2018. Les sols de l'emprise et d'une parcelle voisine appartenant à un particulier ont été impactés. Une partie des terres polluées a été excavée. Un arrêté du 30 janvier 2023 institue des servitudes d'utilité publique, qui restreignent l'usage des terres restantes.",
+  "chronologie": [
+    {
+      "date": "1977-10-04",
+      "fait": "Arrêté préfectoral d'autorisation.",
+      "sources": [
+        "georisques-ssp42136501"
+      ]
+    },
+    {
+      "date": "2018-12-31",
+      "fait": "Arrêt définitif des activités.",
+      "sources": [
+        "georisques-ssp42136501"
+      ]
+    },
+    {
+      "date": "2023-01-30",
+      "fait": "Arrêté instituant des servitudes d'utilité publique.",
+      "sources": [
+        "georisques-ssp42136501"
+      ]
+    }
+  ],
+  "exploitants": [
+    {
+      "nom": "Marchand Métaux Protection",
+      "debut": "1977",
+      "fin": "2018",
+      "source": "georisques-ssp42136501"
+    }
+  ],
+  "statut_preuve": "diagnostic_administratif",
+  "procedure_en_cours": true,
+  "statut_traitement": "rehabilite",
+  "sources": [
+    "georisques-ssp42136501"
+  ],
+  "ce_qui_manque": [
+    {
+      "piece": "Les substances et concentrations relevées, non renseignées dans la fiche",
+      "ou_chercher": "Arrêté de servitudes du 30 janvier 2023, téléchargeable depuis la fiche Infosols",
+      "statut_vise": "mesure_publiee"
+    }
+  ],
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": false
+}

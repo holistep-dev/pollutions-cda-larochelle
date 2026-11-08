@@ -1,0 +1,163 @@
+{
+  "id": "gazometre-4-la-rochelle",
+  "nom": "Ancienne station gazométrique n° 4, rue Alphonse-de-Saintonge",
+  "commune": "La Rochelle",
+  "code_insee": "17300",
+  "geometry": {
+    "type": "MultiPolygon",
+    "coordinates": [
+      [
+        [
+          [
+            -1.200603,
+            46.163233
+          ],
+          [
+            -1.200672,
+            46.163153
+          ],
+          [
+            -1.200984,
+            46.163276
+          ],
+          [
+            -1.201158,
+            46.163347
+          ],
+          [
+            -1.201159,
+            46.163347
+          ],
+          [
+            -1.200963,
+            46.163567
+          ],
+          [
+            -1.200909,
+            46.163545
+          ],
+          [
+            -1.200845,
+            46.163518
+          ],
+          [
+            -1.200839,
+            46.163516
+          ],
+          [
+            -1.200836,
+            46.163515
+          ],
+          [
+            -1.200813,
+            46.163505
+          ],
+          [
+            -1.20072,
+            46.163467
+          ],
+          [
+            -1.200656,
+            46.163441
+          ],
+          [
+            -1.200572,
+            46.163406
+          ],
+          [
+            -1.200539,
+            46.163392
+          ],
+          [
+            -1.20049,
+            46.163372
+          ],
+          [
+            -1.200482,
+            46.163369
+          ],
+          [
+            -1.200496,
+            46.163353
+          ],
+          [
+            -1.200522,
+            46.163323
+          ],
+          [
+            -1.200537,
+            46.163305
+          ],
+          [
+            -1.200317,
+            46.163199
+          ],
+          [
+            -1.200159,
+            46.163127
+          ],
+          [
+            -1.200199,
+            46.163102
+          ],
+          [
+            -1.200389,
+            46.163189
+          ],
+          [
+            -1.200568,
+            46.163273
+          ],
+          [
+            -1.200603,
+            46.163233
+          ]
+        ]
+      ]
+    ]
+  },
+  "precision_geo": "emprise_cadastrale",
+  "categorie": "friche_sol_pollue",
+  "milieux": [
+    "sol"
+  ],
+  "substances": [
+    {
+      "libelle": "cyanures libres",
+      "milieu": "sol",
+      "source": "georisques-ssp000355201"
+    },
+    {
+      "libelle": "HAP",
+      "milieu": "sol",
+      "source": "georisques-ssp000355201"
+    },
+    {
+      "libelle": "BTEX",
+      "milieu": "sol",
+      "source": "georisques-ssp000355201"
+    }
+  ],
+  "periode": {
+    "debut": null,
+    "debut_statut": "inconnue",
+    "fin": null,
+    "fin_statut": "inconnue",
+    "note": "Site lié à l'ancienne usine à gaz de la rue Marcel-Paul."
+  },
+  "resume": "Terrain d'environ 1 383 m² au 54 rue Alphonse-de-Saintonge, lié à l'ancienne usine à gaz de la ville. La fiche administrative identifie des cyanures et des hydrocarbures aromatiques polycycliques, ainsi que des BTEX. L'instruction est close et le terrain est classé en secteur d'information sur les sols, ce qui impose une étude de sols avant tout projet de construction.",
+  "statut_preuve": "diagnostic_administratif",
+  "procedure_en_cours": false,
+  "statut_traitement": "inconnu",
+  "sources": [
+    "georisques-ssp000355201"
+  ],
+  "liens": [
+    {
+      "site": "usine-a-gaz-marcel-paul-la-rochelle",
+      "relation": "meme_dossier"
+    }
+  ],
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": true
+}

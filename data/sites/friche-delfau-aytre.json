@@ -1,0 +1,419 @@
+{
+  "id": "friche-delfau-aytre",
+  "nom": "Ancien dépôt de vidanges et usine d'engrais Chignard-Delfau",
+  "commune": "Aytré",
+  "code_insee": "17028",
+  "geometry": {
+    "type": "MultiPolygon",
+    "coordinates": [
+      [
+        [
+          [
+            -1.148627,
+            46.132455
+          ],
+          [
+            -1.148636,
+            46.132474
+          ],
+          [
+            -1.148649,
+            46.132501
+          ],
+          [
+            -1.148684,
+            46.132561
+          ],
+          [
+            -1.148719,
+            46.132615
+          ],
+          [
+            -1.148746,
+            46.132656
+          ],
+          [
+            -1.148809,
+            46.132738
+          ],
+          [
+            -1.148845,
+            46.132786
+          ],
+          [
+            -1.148887,
+            46.132832
+          ],
+          [
+            -1.14893,
+            46.132874
+          ],
+          [
+            -1.148971,
+            46.132914
+          ],
+          [
+            -1.149012,
+            46.132952
+          ],
+          [
+            -1.149054,
+            46.132984
+          ],
+          [
+            -1.149135,
+            46.133038
+          ],
+          [
+            -1.149183,
+            46.133067
+          ],
+          [
+            -1.149066,
+            46.133263
+          ],
+          [
+            -1.148912,
+            46.133243
+          ],
+          [
+            -1.148225,
+            46.133158
+          ],
+          [
+            -1.147989,
+            46.133096
+          ],
+          [
+            -1.14765,
+            46.133901
+          ],
+          [
+            -1.147546,
+            46.133879
+          ],
+          [
+            -1.147411,
+            46.133851
+          ],
+          [
+            -1.147139,
+            46.133794
+          ],
+          [
+            -1.147116,
+            46.133826
+          ],
+          [
+            -1.146586,
+            46.134587
+          ],
+          [
+            -1.146507,
+            46.134702
+          ],
+          [
+            -1.146457,
+            46.134679
+          ],
+          [
+            -1.146389,
+            46.134648
+          ],
+          [
+            -1.146136,
+            46.134532
+          ],
+          [
+            -1.145918,
+            46.134428
+          ],
+          [
+            -1.14571,
+            46.134314
+          ],
+          [
+            -1.146251,
+            46.133514
+          ],
+          [
+            -1.146527,
+            46.132986
+          ],
+          [
+            -1.145526,
+            46.13311
+          ],
+          [
+            -1.145466,
+            46.132844
+          ],
+          [
+            -1.14545,
+            46.132805
+          ],
+          [
+            -1.145366,
+            46.132625
+          ],
+          [
+            -1.145329,
+            46.132628
+          ],
+          [
+            -1.145223,
+            46.132477
+          ],
+          [
+            -1.145148,
+            46.132369
+          ],
+          [
+            -1.145075,
+            46.132266
+          ],
+          [
+            -1.145065,
+            46.132256
+          ],
+          [
+            -1.14511,
+            46.132002
+          ],
+          [
+            -1.146073,
+            46.132008
+          ],
+          [
+            -1.146783,
+            46.132012
+          ],
+          [
+            -1.147045,
+            46.132449
+          ],
+          [
+            -1.147271,
+            46.13245
+          ],
+          [
+            -1.147714,
+            46.132452
+          ],
+          [
+            -1.147871,
+            46.132452
+          ],
+          [
+            -1.148031,
+            46.132453
+          ],
+          [
+            -1.148199,
+            46.132454
+          ],
+          [
+            -1.148627,
+            46.132455
+          ]
+        ]
+      ]
+    ]
+  },
+  "precision_geo": "emprise_cadastrale",
+  "categorie": "friche_sol_pollue",
+  "milieux": [
+    "sol",
+    "eau_souterraine"
+  ],
+  "substances": [
+    {
+      "libelle": "hydrocarbures",
+      "milieu": "sol",
+      "valeur": 120000,
+      "unite": "mg/kg",
+      "date_mesure": "2004-11",
+      "source": "georisques-ssp000383701"
+    },
+    {
+      "libelle": "plomb",
+      "milieu": "sol",
+      "valeur": 2400,
+      "unite": "mg/kg",
+      "date_mesure": "2004-11",
+      "source": "georisques-ssp000383701"
+    },
+    {
+      "libelle": "chrome",
+      "milieu": "sol",
+      "valeur": 1100,
+      "unite": "mg/kg",
+      "date_mesure": "2004-11",
+      "source": "georisques-ssp000383701"
+    },
+    {
+      "libelle": "arsenic",
+      "milieu": "sol",
+      "valeur": 56,
+      "unite": "mg/kg",
+      "date_mesure": "2004-11",
+      "source": "georisques-ssp000383701"
+    },
+    {
+      "libelle": "cadmium",
+      "milieu": "sol",
+      "valeur": 18,
+      "unite": "mg/kg",
+      "date_mesure": "2004-11",
+      "source": "georisques-ssp000383701"
+    },
+    {
+      "libelle": "mercure",
+      "milieu": "sol",
+      "valeur": 16,
+      "unite": "mg/kg",
+      "date_mesure": "2004-11",
+      "source": "georisques-ssp000383701"
+    },
+    {
+      "libelle": "BTEX",
+      "milieu": "sol",
+      "valeur": 62,
+      "unite": "mg/kg",
+      "date_mesure": "2004-11",
+      "source": "georisques-ssp000383701"
+    },
+    {
+      "libelle": "PCB",
+      "milieu": "sol",
+      "valeur": 1.13,
+      "unite": "mg/kg",
+      "date_mesure": "2004-11",
+      "source": "georisques-ssp000383701"
+    },
+    {
+      "libelle": "COHV et composés organiques",
+      "milieu": "sol",
+      "date_mesure": "2004-11",
+      "source": "georisques-ssp000383701"
+    },
+    {
+      "libelle": "hydrocarbures totaux et métaux lourds",
+      "milieu": "eau_souterraine",
+      "source": "georisques-ssp000383701"
+    }
+  ],
+  "periode": {
+    "debut": "1899",
+    "debut_statut": "datee",
+    "fin": "1992",
+    "fin_statut": "datee",
+    "note": "Période d'exploitation. Le site est une friche depuis, des bâtiments sont loués."
+  },
+  "resume": "Terrain d'environ 4 ha, chemin du Puits Doux, exploité de 1899 à 1992 comme dépôt de vidanges et usine d'engrais. Une étude de sols de novembre 2004 relève une pollution sur l'ensemble du terrain, notamment 120 000 mg/kg d'hydrocarbures et 2 400 mg/kg de plomb, et une pollution des eaux souterraines en hydrocarbures et métaux. L'instruction administrative est en cours et le site est classé en secteur d'information sur les sols. La fiche de l'administration ne mentionne pas de travaux de dépollution datés.",
+  "chronologie": [
+    {
+      "date": "1899",
+      "fait": "Début de l'exploitation : dépôt de vidanges puis fabrication d'engrais.",
+      "sources": [
+        "georisques-ssp000383701"
+      ]
+    },
+    {
+      "date": "1992",
+      "fait": "Fin de l'exploitation. Le terrain devient une friche, des bâtiments sont loués.",
+      "sources": [
+        "georisques-ssp000383701"
+      ]
+    },
+    {
+      "date": "2004-11",
+      "fait": "Étude de qualité des sols : pollution sur l'ensemble du terrain, métaux, hydrocarbures, PCB, BTEX, COHV.",
+      "sources": [
+        "georisques-ssp000383701"
+      ]
+    },
+    {
+      "date": "2014-11-21",
+      "fait": "Arrêté préfectoral de mise en demeure demandant notamment un mémoire de réhabilitation.",
+      "sources": [
+        "georisques-ssp000383701"
+      ]
+    },
+    {
+      "date": "2015-06-05",
+      "fait": "Courrier de l'ARS demandant des mesures de gestion des risques en urgence : selon l'administration, des habitants locataires du site sont exposés aux métaux lourds et à d'autres produits toxiques.",
+      "sources": [
+        "georisques-ssp000383701"
+      ]
+    },
+    {
+      "date": "2015-09-03",
+      "fait": "Visite de l'inspection des installations classées : dépôt illégal de déchets non inertes, sans lien avec l'activité historique, pouvant atteindre plusieurs mètres de hauteur.",
+      "sources": [
+        "georisques-ssp000383701"
+      ]
+    },
+    {
+      "date": "2016-06-19",
+      "fait": "Abrogation de la mise en demeure, le propriétaire n'étant pas le dernier exploitant. La société DAR est considérée comme dernier exploitant.",
+      "sources": [
+        "georisques-ssp000383701"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "fait": "Dernière mise à jour de la fiche administrative. Instruction toujours en cours.",
+      "sources": [
+        "georisques-ssp000383701"
+      ]
+    }
+  ],
+  "exploitants": [
+    {
+      "nom": "Chignard-Delfau",
+      "debut": "1941",
+      "fin": null,
+      "source": "georisques-ssp000383701"
+    },
+    {
+      "nom": "SNC Delfau & Cie",
+      "debut": "1986",
+      "fin": null,
+      "source": "georisques-ssp000383701"
+    },
+    {
+      "nom": "SARL DAR (Delfau Assainissement Rochelais)",
+      "role": "dépôt de vidanges, dernier exploitant retenu par l'administration",
+      "debut": "1987",
+      "fin": "1989",
+      "source": "georisques-ssp000383701"
+    },
+    {
+      "nom": "STAR (Société Terreaux et Amendements Rochelais)",
+      "role": "activité engrais et terreau",
+      "debut": null,
+      "fin": "1994",
+      "source": "georisques-ssp000383701"
+    }
+  ],
+  "statut_preuve": "mesure_publiee",
+  "procedure_en_cours": true,
+  "statut_traitement": "non_traite",
+  "sources": [
+    "georisques-ssp000383701"
+  ],
+  "ce_qui_manque": [
+    {
+      "piece": "L'analyse des risques résiduels demandée par l'administration et l'état des travaux, que la fiche liste sans date",
+      "ou_chercher": "DREAL Nouvelle-Aquitaine, unité départementale de la Charente-Maritime, rapports de l'inspection des installations classées"
+    },
+    {
+      "piece": "Les arrêtés préfectoraux du 21 novembre 2014 et du 19 juin 2016",
+      "ou_chercher": "Recueil des actes administratifs de la préfecture de la Charente-Maritime"
+    }
+  ],
+  "notes_internes": "Fiche Infosols lue le 08/11/2026. Mise à jour de la fiche administrative le 11/08/2026, à lire en détail pour voir ce qui a changé.",
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": true
+}

@@ -1,0 +1,173 @@
+{
+  "id": "spimec-perigny",
+  "nom": "Ancienne usine d'équipement automobile Spimec, zone des Quatre-Chevaliers",
+  "commune": "Périgny",
+  "code_insee": "17274",
+  "geometry": {
+    "type": "MultiPolygon",
+    "coordinates": [
+      [
+        [
+          [
+            -1.109848,
+            46.158293
+          ],
+          [
+            -1.108886,
+            46.15758
+          ],
+          [
+            -1.108956,
+            46.157534
+          ],
+          [
+            -1.110262,
+            46.156684
+          ],
+          [
+            -1.110098,
+            46.156563
+          ],
+          [
+            -1.11102,
+            46.155966
+          ],
+          [
+            -1.111183,
+            46.156087
+          ],
+          [
+            -1.112517,
+            46.155223
+          ],
+          [
+            -1.112918,
+            46.154963
+          ],
+          [
+            -1.112945,
+            46.154948
+          ],
+          [
+            -1.113135,
+            46.1548
+          ],
+          [
+            -1.113124,
+            46.154747
+          ],
+          [
+            -1.113083,
+            46.154712
+          ],
+          [
+            -1.113224,
+            46.154621
+          ],
+          [
+            -1.113514,
+            46.154438
+          ],
+          [
+            -1.116541,
+            46.156686
+          ],
+          [
+            -1.111803,
+            46.159746
+          ],
+          [
+            -1.111574,
+            46.159577
+          ],
+          [
+            -1.111129,
+            46.159244
+          ],
+          [
+            -1.110719,
+            46.15894
+          ],
+          [
+            -1.110451,
+            46.158741
+          ],
+          [
+            -1.110361,
+            46.158674
+          ],
+          [
+            -1.109848,
+            46.158293
+          ]
+        ]
+      ]
+    ]
+  },
+  "precision_geo": "emprise_cadastrale",
+  "categorie": "friche_sol_pollue",
+  "milieux": [
+    "sol",
+    "eau_souterraine"
+  ],
+  "substances": [
+    {
+      "libelle": "chrome",
+      "milieu": "sol",
+      "source": "georisques-ssp000383401"
+    },
+    {
+      "libelle": "cuivre",
+      "milieu": "sol",
+      "source": "georisques-ssp000383401"
+    },
+    {
+      "libelle": "plomb",
+      "milieu": "sol",
+      "source": "georisques-ssp000383401"
+    },
+    {
+      "libelle": "zinc",
+      "milieu": "sol",
+      "source": "georisques-ssp000383401"
+    },
+    {
+      "libelle": "hydrocarbures",
+      "milieu": "sol",
+      "source": "georisques-ssp000383401"
+    }
+  ],
+  "periode": {
+    "debut": "1965",
+    "debut_statut": "datee",
+    "fin": null,
+    "fin_statut": "inconnue"
+  },
+  "resume": "Usine d'équipement automobile exploitée à partir de 1965, aujourd'hui occupée par le SDIS, un centre de tri postal et d'autres entreprises. Les investigations ont relevé chrome, cuivre, plomb, zinc et hydrocarbures dans les sols. Une évaluation des risques de mars 2008, fondée sur les eaux souterraines au droit du secteur de La Poste, conclut à un niveau de risque acceptable.",
+  "exploitants": [
+    {
+      "nom": "Simca",
+      "debut": "1965",
+      "source": "georisques-ssp000383401"
+    },
+    {
+      "nom": "Spimec, filiale du groupe Spiral",
+      "debut": "1996",
+      "source": "georisques-ssp000383401"
+    }
+  ],
+  "statut_preuve": "diagnostic_administratif",
+  "procedure_en_cours": true,
+  "statut_traitement": "inconnu",
+  "sources": [
+    "georisques-ssp000383401"
+  ],
+  "liens": [
+    {
+      "site": "triaxe-perigny",
+      "relation": "voisin"
+    }
+  ],
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": true
+}

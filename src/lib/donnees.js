@@ -36,10 +36,13 @@ export function dateLisible(d) {
 
 export function periodeLisible(p) {
   if (!p) return "";
-  const debut = p.debut ? dateLisible(p.debut) : "début inconnu";
-  const fin =
-    p.fin_statut === "en_cours" ? "en cours" : p.fin ? dateLisible(p.fin) : "fin inconnue";
-  return `${debut} à ${fin}`;
+  const debut = p.debut ? dateLisible(p.debut) : null;
+  if (p.fin_statut === "en_cours") return debut ? `depuis ${debut}, en cours` : "date de début inconnue, en cours";
+  const fin = p.fin ? dateLisible(p.fin) : null;
+  if (debut && fin) return `de ${debut} à ${fin}`;
+  if (fin) return `début inconnu, jusqu'en ${fin}`;
+  if (debut) return `depuis ${debut}, fin inconnue`;
+  return "dates inconnues";
 }
 
 export const ORDRE_CATEGORIES = [

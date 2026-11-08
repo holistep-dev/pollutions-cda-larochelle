@@ -1,0 +1,55 @@
+{
+  "id": "butte-de-pampin-lhoumeau",
+  "nom": "Butte de Pampin, ancienne décharge",
+  "commune": "L'Houmeau",
+  "code_insee": "17190",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -1.1975,
+      46.1935
+    ]
+  },
+  "precision_geo": "localisation_indicative",
+  "rayon_m": 300,
+  "categorie": "decharge",
+  "milieux": [
+    "sol"
+  ],
+  "periode": {
+    "debut": null,
+    "debut_statut": "inconnue",
+    "fin": "1969",
+    "fin_statut": "datee",
+    "note": "Fermeture en 1969 selon l'inventaire du projet. Date à confirmer par photographie aérienne."
+  },
+  "resume": "Relief sec dans la réserve naturelle régionale du marais de Pampin, présenté comme une ancienne décharge fermée en 1969 et recouverte de remblais calcaires. La nature des déchets n'est pas documentée. Des agriculteurs cités par la presse en 2026 la décrivent comme l'ancienne décharge de La Rochelle où la zone industrielle venait vider ses déchets. Aucun document administratif n'a été retrouvé.",
+  "temoignages": [
+    {
+      "auteur": "Exploitants agricoles de L'Houmeau, anonymes",
+      "propos": "La butte de Pampin serait l'ancienne décharge de La Rochelle, où toute la zone industrielle venait vider ses déchets.",
+      "date": "2026-09",
+      "source": "lemonde-2026-09-10-lhoumeau",
+      "anonymise": true
+    }
+  ],
+  "statut_preuve": "signalement_non_instruit",
+  "procedure_en_cours": false,
+  "statut_traitement": "inconnu",
+  "sources": [
+    "lemonde-2026-09-10-lhoumeau"
+  ],
+  "ce_qui_manque": [
+    {
+      "piece": "Dates d'exploitation et de fermeture, nature des déchets, acte de fermeture",
+      "ou_chercher": "Archives municipales de L'Houmeau et de La Rochelle, archives départementales, plan de gestion de la réserve naturelle régionale"
+    },
+    {
+      "piece": "Datation par photographie aérienne",
+      "ou_chercher": "remonterletemps.ign.fr"
+    }
+  ],
+  "notes_internes": "La date de 1969 vient de l'inventaire du projet, qui la dit institutionnelle sans citer l'acte. Source institutionnelle à retrouver.",
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": true
+}

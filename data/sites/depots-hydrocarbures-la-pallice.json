@@ -1,0 +1,100 @@
+{
+  "id": "depots-hydrocarbures-la-pallice",
+  "nom": "Dépôts portuaires d'hydrocarbures de La Pallice",
+  "commune": "La Rochelle",
+  "code_insee": "17300",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -1.209674,
+      46.16861
+    ]
+  },
+  "precision_geo": "localisation_indicative",
+  "rayon_m": 400,
+  "categorie": "friche_sol_pollue",
+  "milieux": [
+    "sol",
+    "eau_souterraine"
+  ],
+  "substances": [
+    {
+      "libelle": "hydrocarbures, avec phase flottante sur la nappe",
+      "milieu": "eau_souterraine",
+      "source": "georisques-ssp000868501"
+    },
+    {
+      "libelle": "hydrocarbures",
+      "milieu": "sol",
+      "source": "georisques-ssp000868501"
+    }
+  ],
+  "periode": {
+    "debut": null,
+    "debut_statut": "inconnue",
+    "fin": null,
+    "fin_statut": "en_cours",
+    "note": "Ancienne raffinerie bombardée pendant la Seconde Guerre mondiale, dépôts en exploitation."
+  },
+  "resume": "Emplacement d'une ancienne raffinerie bombardée pendant la Seconde Guerre mondiale, occupé par des dépôts d'hydrocarbures en activité en bord de mer. Une étude de la zone portuaire a mis en évidence une pollution des sols et de la nappe par les hydrocarbures, avec une phase flottante. Des arrêtés préfectoraux du 17 octobre 2003 imposent aux exploitants une surveillance semestrielle de la nappe.",
+  "chronologie": [
+    {
+      "date": "1997",
+      "fait": "Trois piézomètres et un contrôle annuel de la nappe demandés à chaque exploitant.",
+      "sources": [
+        "georisques-ssp000868501"
+      ]
+    },
+    {
+      "date": "2003-10-17",
+      "fait": "Arrêtés préfectoraux imposant une surveillance au moins semestrielle de la nappe aux quatre exploitants.",
+      "sources": [
+        "georisques-ssp000868501"
+      ]
+    },
+    {
+      "date": "2010-07",
+      "fait": "Étude hydrogéologique commune des exploitants des dépôts.",
+      "sources": [
+        "georisques-ssp000868501"
+      ]
+    }
+  ],
+  "exploitants": [
+    {
+      "nom": "Société du Dépôt de La Pallice (SDLP)",
+      "source": "georisques-ssp000868501"
+    },
+    {
+      "nom": "Picoty",
+      "source": "georisques-ssp000868501"
+    },
+    {
+      "nom": "Raffinerie du Midi",
+      "source": "georisques-ssp000868501"
+    },
+    {
+      "nom": "Total Raffinage Distribution",
+      "source": "georisques-ssp000868501"
+    },
+    {
+      "nom": "SISP (ex Stocks Atlantique)",
+      "source": "georisques-ssp000868501"
+    }
+  ],
+  "statut_preuve": "diagnostic_administratif",
+  "procedure_en_cours": true,
+  "statut_traitement": "sous_surveillance",
+  "sources": [
+    "georisques-ssp000868501"
+  ],
+  "ce_qui_manque": [
+    {
+      "piece": "Les résultats de la surveillance semestrielle de la nappe depuis 2003",
+      "ou_chercher": "DREAL Nouvelle-Aquitaine, rapports d'inspection, base GIDAF",
+      "statut_vise": "mesure_publiee"
+    }
+  ],
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": true
+}

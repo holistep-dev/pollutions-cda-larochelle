@@ -1,0 +1,112 @@
+{
+  "id": "baignade-chef-de-baie-la-rochelle",
+  "nom": "Plage de Chef de Baie",
+  "commune": "La Rochelle",
+  "code_insee": "17300",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -1.210514,
+      46.147441
+    ]
+  },
+  "precision_geo": "localisation_indicative",
+  "rayon_m": 150,
+  "categorie": "eau_baignade",
+  "milieux": [
+    "eau_superficielle"
+  ],
+  "substances": [
+    {
+      "libelle": "entérocoques intestinaux",
+      "valeur": 330,
+      "unite": "UFC/100 mL",
+      "milieu": "eau_superficielle",
+      "date_mesure": "2023-07-05",
+      "reference_reglementaire": {
+        "libelle": "directive 2006/7/CE, eau de mer, bornes de classe 100 puis 370 UFC/100 mL",
+        "valeur": 370,
+        "nature": "valeur_de_gestion"
+      },
+      "source": "rapportage-baignade-datagouv"
+    },
+    {
+      "libelle": "Escherichia coli",
+      "valeur": 814,
+      "unite": "UFC/100 mL",
+      "milieu": "eau_superficielle",
+      "date_mesure": "2017-08-21",
+      "reference_reglementaire": {
+        "libelle": "directive 2006/7/CE, eau de mer, bornes de classe 100 puis 1 000 UFC/100 mL",
+        "valeur": 1000,
+        "nature": "valeur_de_gestion"
+      },
+      "source": "rapportage-baignade-datagouv"
+    }
+  ],
+  "periode": {
+    "debut": "2013",
+    "debut_statut": "datee",
+    "fin": null,
+    "fin_statut": "en_cours",
+    "note": "Période couverte par les données publiées du contrôle sanitaire."
+  },
+  "resume": "Site de baignade en mer sous contrôle sanitaire de l'ARS, classé excellent chaque saison de 2013 à 2025. Ce classement porte sur deux bactéries d'origine fécale et ne mesure ni les substances chimiques ni les hydrocarbures. La plage a été fermée par la mairie du 13 au 18 août 2026 après l'observation d'un panache d'origine non déterminée, selon la presse. Le rapportage européen ne déclare aucun événement de pollution sur ce site.",
+  "chronologie": [
+    {
+      "date": "2026-08-13",
+      "fait": "Panache blanchâtre et malodorant, interdiction de baignade, prélèvements confiés au laboratoire Qualyse, selon la presse.",
+      "sources": [
+        "sudouest-2026-08-14-chef-de-baie"
+      ]
+    },
+    {
+      "date": "2026-08-17",
+      "fait": "Premiers résultats bactériologiques jugés rassurants, les autres causes possibles restent à examiner. Le Grand Port maritime dit n'avoir observé aucun incident.",
+      "sources": [
+        "sudouest-2026-08-17-chef-de-baie"
+      ]
+    }
+  ],
+  "statut_preuve": "mesure_publiee",
+  "procedure_en_cours": false,
+  "statut_traitement": "sous_surveillance",
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": true,
+  "sources": [
+    "rapportage-baignade-datagouv",
+    "sise-baignades-2026",
+    "sudouest-2026-08-14-chef-de-baie"
+  ],
+  "baignade": {
+    "id_site_sise": "017000584",
+    "code_rapportage_ue": "FR253203001M017015",
+    "sous_controle_sanitaire": true
+  },
+  "revue_presse": [
+    {
+      "source": "sudouest-2026-08-17-chef-de-baie",
+      "angle": "Réouverture suspendue aux résultats des analyses chimiques."
+    }
+  ],
+  "ce_qui_manque": [
+    {
+      "piece": "Les arrêtés municipaux de fermeture et de réouverture d'août 2026 et les résultats d'analyse chimique",
+      "ou_chercher": "Mairie de La Rochelle, ARS Nouvelle-Aquitaine"
+    },
+    {
+      "piece": "L'arrêté et les analyses de la fermeture du 20 au 24 juillet 2025, connue par l'inventaire du projet sans source versée",
+      "ou_chercher": "Mairie de La Rochelle, presse locale de juillet 2025"
+    }
+  ],
+  "liens": [
+    {
+      "site": "usine-chef-de-baie-la-rochelle",
+      "relation": "voisin"
+    },
+    {
+      "site": "decharge-chef-de-baie-la-rochelle",
+      "relation": "voisin"
+    }
+  ]
+}

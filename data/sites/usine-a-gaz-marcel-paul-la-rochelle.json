@@ -1,0 +1,303 @@
+{
+  "id": "usine-a-gaz-marcel-paul-la-rochelle",
+  "nom": "Ancienne usine à gaz de la rue Marcel-Paul (ex-site Enedis)",
+  "commune": "La Rochelle",
+  "code_insee": "17300",
+  "geometry": {
+    "type": "MultiPolygon",
+    "coordinates": [
+      [
+        [
+          [
+            -1.147755,
+            46.165981
+          ],
+          [
+            -1.14792,
+            46.165836
+          ],
+          [
+            -1.147934,
+            46.165808
+          ],
+          [
+            -1.147951,
+            46.165764
+          ],
+          [
+            -1.148124,
+            46.165808
+          ],
+          [
+            -1.148308,
+            46.165852
+          ],
+          [
+            -1.148456,
+            46.165888
+          ],
+          [
+            -1.148473,
+            46.165893
+          ],
+          [
+            -1.148552,
+            46.165754
+          ],
+          [
+            -1.148585,
+            46.165762
+          ],
+          [
+            -1.148627,
+            46.165773
+          ],
+          [
+            -1.148639,
+            46.165751
+          ],
+          [
+            -1.148668,
+            46.165701
+          ],
+          [
+            -1.148694,
+            46.165659
+          ],
+          [
+            -1.148721,
+            46.165615
+          ],
+          [
+            -1.148774,
+            46.165523
+          ],
+          [
+            -1.148792,
+            46.165494
+          ],
+          [
+            -1.148861,
+            46.165513
+          ],
+          [
+            -1.149055,
+            46.165566
+          ],
+          [
+            -1.148993,
+            46.16568
+          ],
+          [
+            -1.148969,
+            46.165725
+          ],
+          [
+            -1.14895,
+            46.165759
+          ],
+          [
+            -1.149528,
+            46.165957
+          ],
+          [
+            -1.149508,
+            46.166009
+          ],
+          [
+            -1.149485,
+            46.166071
+          ],
+          [
+            -1.149467,
+            46.166117
+          ],
+          [
+            -1.149466,
+            46.16612
+          ],
+          [
+            -1.149464,
+            46.166129
+          ],
+          [
+            -1.149462,
+            46.166133
+          ],
+          [
+            -1.149454,
+            46.166155
+          ],
+          [
+            -1.149399,
+            46.166302
+          ],
+          [
+            -1.149422,
+            46.166412
+          ],
+          [
+            -1.149439,
+            46.166492
+          ],
+          [
+            -1.149457,
+            46.166575
+          ],
+          [
+            -1.149107,
+            46.16662
+          ],
+          [
+            -1.148979,
+            46.166614
+          ],
+          [
+            -1.148957,
+            46.166608
+          ],
+          [
+            -1.148901,
+            46.166594
+          ],
+          [
+            -1.148351,
+            46.166455
+          ],
+          [
+            -1.148231,
+            46.166426
+          ],
+          [
+            -1.147604,
+            46.166188
+          ],
+          [
+            -1.147587,
+            46.166133
+          ],
+          [
+            -1.147592,
+            46.166129
+          ],
+          [
+            -1.147755,
+            46.165981
+          ]
+        ]
+      ]
+    ]
+  },
+  "precision_geo": "emprise_cadastrale",
+  "categorie": "friche_sol_pollue",
+  "milieux": [
+    "sol",
+    "air"
+  ],
+  "periode": {
+    "debut": "1840",
+    "debut_statut": "datee",
+    "fin": null,
+    "fin_statut": "en_cours",
+    "note": "Usine à gaz de 1840 à 1961, puis locaux EDF et Enedis. Chantier de dépollution en cours en 2026."
+  },
+  "resume": "Usine produisant du gaz par distillation de la houille de 1840 à 1961, sur environ 10 400 m² en centre-ville, voisine d'écoles. L'instruction administrative ancienne, close, classait le site en sensibilité faible et concluait en 2003 à l'absence d'ouvrages enterrés. Un chantier de dépollution engagé en 2024 a pourtant mis au jour, selon la presse, une citerne souterraine de goudrons. Il a été interrompu après des plaintes de riverains et d'élèves, puis a repris le 6 juillet 2026 avec une tente de confinement, pour une fin annoncée en mars 2027.",
+  "chronologie": [
+    {
+      "date": "1840",
+      "fait": "Début de la production de gaz par distillation de la houille.",
+      "sources": [
+        "georisques-ssp000392401"
+      ]
+    },
+    {
+      "date": "1961",
+      "fait": "Fin de la production de gaz.",
+      "sources": [
+        "georisques-ssp000392401"
+      ]
+    },
+    {
+      "date": "1996-04-25",
+      "fait": "Protocole entre l'État et Gaz de France : le site est rangé en classe 3, sensibilité faible.",
+      "sources": [
+        "georisques-ssp000392401"
+      ]
+    },
+    {
+      "date": "2003-10-24",
+      "fait": "Rapport parcellaire de Gaz de France concluant à l'absence d'ouvrages enterrés sur le site.",
+      "sources": [
+        "georisques-ssp000392401"
+      ]
+    },
+    {
+      "date": "2025-09",
+      "fait": "Arrêt du chantier sur mise en demeure préfectorale, selon la presse.",
+      "sources": [
+        "lhebdo17-2026-02-19-marcel-paul"
+      ]
+    },
+    {
+      "date": "2026-07-06",
+      "fait": "Reprise du chantier.",
+      "sources": [
+        "sudouest-2026-08-28-ex-site-enedis"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "fait": "Début du montage de la tente de confinement. Inspections de juillet et août sans non-conformité selon la préfecture, citée par la presse.",
+      "sources": [
+        "sudouest-2026-08-28-ex-site-enedis",
+        "helenefm-2026-08-28-usine-a-gaz"
+      ]
+    },
+    {
+      "date": "2026-11",
+      "fait": "Premières opérations de dépollution sous confinement annoncées pour ce mois. Fin des travaux envisagée en mars 2027.",
+      "sources": [
+        "helenefm-2026-08-28-usine-a-gaz"
+      ]
+    }
+  ],
+  "statut_preuve": "diagnostic_administratif",
+  "procedure_en_cours": true,
+  "statut_traitement": "travaux_en_cours",
+  "sources": [
+    "georisques-ssp000392401",
+    "georisques-ssp000917501"
+  ],
+  "revue_presse": [
+    {
+      "source": "sudouest-2026-08-28-ex-site-enedis",
+      "angle": "Bilan de la phase préparatoire de l'été 2026, préfecture citée."
+    },
+    {
+      "source": "helenefm-2026-08-28-usine-a-gaz",
+      "angle": "Calendrier : tente à partir du 7 septembre, dépollution sous confinement en novembre, fin envisagée en mars 2027."
+    },
+    {
+      "source": "lhebdo17-2026-02-19-marcel-paul",
+      "angle": "Calendrier de reprise annoncé en conseil municipal le 2 février 2026."
+    }
+  ],
+  "ce_qui_manque": [
+    {
+      "piece": "Les arrêtés préfectoraux du chantier, dont ceux du 2 mai 2024 et du 2 juillet 2026 cités par la presse, et la mise en demeure de septembre 2025",
+      "ou_chercher": "Recueil des actes administratifs de la préfecture de la Charente-Maritime"
+    },
+    {
+      "piece": "Les résultats publiés de la surveillance de l'air autour du chantier",
+      "ou_chercher": "Préfecture de la Charente-Maritime, DREAL Nouvelle-Aquitaine, ARS",
+      "statut_vise": "mesure_publiee"
+    },
+    {
+      "piece": "Le diagnostic de sols du projet immobilier et l'analyse de la citerne découverte",
+      "ou_chercher": "DREAL Nouvelle-Aquitaine, dossier tiers demandeur"
+    }
+  ],
+  "notes_internes": "Deux enregistrements Infosols clos (SSP000392401 avec SIS 17SIS06156, SSP000917501 ex-BASOL 17.0016). Arbitrage 3.3 : afficher la clôture ancienne sans la faire passer pour l'état actuel. Ne pas nommer l'aménageur sans acte public. Symptômes rapportés par la presse : à verser en revue de presse avec l'article source quand il est versé au projet.",
+  "derniere_verification": "2026-11-08",
+  "visible_par_defaut": true
+}

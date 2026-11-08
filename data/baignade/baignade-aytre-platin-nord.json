@@ -20,58 +20,58 @@
   "motif_absence_classement": "Site retiré du contrôle sanitaire réglementaire après l'arrêté municipal d'interdiction de baignade du 27 avril 2018. Aucun classement annuel n'est produit depuis la saison 2018.",
   "evenements_declares": [
     {
-      "saison": 2013,
-      "type": "pollution à court terme",
       "debut": "2013-07-22",
-      "fin": "2013-07-23"
+      "fin": "2013-07-23",
+      "saison": 2013,
+      "type": "pollution à court terme"
     },
     {
-      "saison": 2014,
-      "type": "pollution à court terme",
       "debut": "2014-07-10",
-      "fin": "2014-07-10"
+      "fin": "2014-07-10",
+      "saison": 2014,
+      "type": "pollution à court terme"
     },
     {
-      "saison": 2016,
-      "type": "pollution à court terme",
       "debut": "2016-07-12",
-      "fin": "2016-07-15"
+      "fin": "2016-07-15",
+      "saison": 2016,
+      "type": "pollution à court terme"
     },
     {
-      "saison": 2016,
-      "type": "pollution à court terme",
       "debut": "2016-07-26",
-      "fin": "2016-07-30"
+      "fin": "2016-07-30",
+      "saison": 2016,
+      "type": "pollution à court terme"
     },
     {
-      "saison": 2016,
-      "type": "pollution à court terme",
       "debut": "2016-08-02",
-      "fin": "2016-08-03"
+      "fin": "2016-08-03",
+      "saison": 2016,
+      "type": "pollution à court terme"
     },
     {
-      "saison": 2016,
-      "type": "pollution à court terme",
       "debut": "2016-08-04",
-      "fin": "2016-08-05"
+      "fin": "2016-08-05",
+      "saison": 2016,
+      "type": "pollution à court terme"
     },
     {
-      "saison": 2016,
-      "type": "pollution à court terme",
       "debut": "2016-08-09",
-      "fin": "2016-08-12"
-    },
-    {
+      "fin": "2016-08-12",
       "saison": 2016,
-      "type": "pollution à court terme",
-      "debut": "2016-08-25",
-      "fin": "2016-08-26"
+      "type": "pollution à court terme"
     },
     {
-      "saison": 2017,
-      "type": "situation anormale",
+      "debut": "2016-08-25",
+      "fin": "2016-08-26",
+      "saison": 2016,
+      "type": "pollution à court terme"
+    },
+    {
       "debut": "2017-06-16",
-      "fin": "2017-07-17"
+      "fin": "2017-07-17",
+      "saison": 2017,
+      "type": "situation anormale"
     }
   ],
   "prelevements": [

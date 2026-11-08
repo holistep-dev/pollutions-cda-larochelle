@@ -3,6 +3,38 @@
   "methode": "Moyenne des cinq derniers classements annuels disponibles, Excellent 4 à Insuffisant 1. Un site sans classement récent est en état hors_controle_sanitaire et n'est pas moyenné.",
   "sites": [
     {
+      "site": "baignade-angoulins-platerre",
+      "id_site_sise": "017000586",
+      "classements": {
+        "2013": "Excellent",
+        "2014": "Excellent",
+        "2015": "Excellent",
+        "2016": "Suffisant",
+        "2017": "Bon",
+        "2018": "Bon",
+        "2019": "Bon",
+        "2020": "Excellent",
+        "2021": "Excellent",
+        "2022": "Excellent",
+        "2023": "Excellent",
+        "2024": "Excellent",
+        "2025": "Excellent"
+      },
+      "saisons_retenues": [
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "moyenne_5_saisons": 4,
+      "etat": "excellent",
+      "motif_absence_classement": null,
+      "nb_prelevements": 79,
+      "nb_evenements_declares": 0,
+      "nb_fermetures": 0
+    },
+    {
       "site": "baignade-aytre-platin-nord",
       "id_site_sise": "017000589",
       "classements": {
@@ -64,6 +96,262 @@
       "motif_absence_classement": "Site retiré du contrôle sanitaire réglementaire après l'arrêté municipal d'interdiction de baignade du 27 avril 2018. Aucun classement annuel n'est produit depuis la saison 2018.",
       "nb_prelevements": 112,
       "nb_evenements_declares": 5,
+      "nb_fermetures": 0
+    },
+    {
+      "site": "baignade-chatelaillon-boucholeurs",
+      "id_site_sise": "017000595",
+      "classements": {
+        "2013": "Bon",
+        "2014": "Bon",
+        "2015": "Excellent",
+        "2016": "Bon",
+        "2017": "Excellent",
+        "2018": "Bon",
+        "2019": "Bon",
+        "2020": "Excellent",
+        "2021": "Bon",
+        "2022": "Excellent",
+        "2023": "Bon",
+        "2024": "Excellent",
+        "2025": "Excellent"
+      },
+      "saisons_retenues": [
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "moyenne_5_saisons": 3.6,
+      "etat": "excellent",
+      "motif_absence_classement": null,
+      "nb_prelevements": 130,
+      "nb_evenements_declares": 3,
+      "nb_fermetures": 0
+    },
+    {
+      "site": "baignade-chatelaillon-casino",
+      "id_site_sise": "017000592",
+      "classements": {
+        "2013": "Bon",
+        "2014": "Bon",
+        "2015": "Excellent",
+        "2016": "Excellent",
+        "2017": "Excellent",
+        "2018": "Excellent",
+        "2019": "Excellent",
+        "2020": "Excellent",
+        "2021": "Excellent",
+        "2022": "Bon",
+        "2023": "Bon",
+        "2024": "Bon",
+        "2025": "Bon"
+      },
+      "saisons_retenues": [
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "moyenne_5_saisons": 3.2,
+      "etat": "bon",
+      "motif_absence_classement": null,
+      "nb_prelevements": 131,
+      "nb_evenements_declares": 1,
+      "nb_fermetures": 0
+    },
+    {
+      "site": "baignade-chatelaillon-nord",
+      "id_site_sise": "017000755",
+      "classements": {
+        "2013": "Bon",
+        "2014": "Bon",
+        "2015": "Excellent",
+        "2016": "Excellent",
+        "2017": "Excellent",
+        "2018": "Excellent",
+        "2019": "Bon",
+        "2020": "Bon",
+        "2021": "Excellent",
+        "2022": "Bon",
+        "2023": "Bon",
+        "2024": "Bon",
+        "2025": "Insuffisant"
+      },
+      "saisons_retenues": [
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "moyenne_5_saisons": 2.8,
+      "etat": "insuffisant",
+      "motif_absence_classement": null,
+      "nb_prelevements": 131,
+      "nb_evenements_declares": 3,
+      "nb_fermetures": 0
+    },
+    {
+      "site": "baignade-chatelaillon-sud",
+      "id_site_sise": "017000594",
+      "classements": {
+        "2013": "Bon",
+        "2014": "Bon",
+        "2015": "Excellent",
+        "2016": "Excellent",
+        "2017": "Excellent",
+        "2018": "Excellent",
+        "2019": "Excellent",
+        "2020": "Excellent",
+        "2021": "Bon",
+        "2022": "Bon",
+        "2023": "Bon",
+        "2024": "Suffisant",
+        "2025": "Bon"
+      },
+      "saisons_retenues": [
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "moyenne_5_saisons": 2.8,
+      "etat": "bon",
+      "motif_absence_classement": null,
+      "nb_prelevements": 131,
+      "nb_evenements_declares": 1,
+      "nb_fermetures": 0
+    },
+    {
+      "site": "baignade-chef-de-baie-la-rochelle",
+      "id_site_sise": "017000584",
+      "classements": {
+        "2013": "Excellent",
+        "2014": "Excellent",
+        "2015": "Excellent",
+        "2016": "Excellent",
+        "2017": "Excellent",
+        "2018": "Excellent",
+        "2019": "Excellent",
+        "2020": "Excellent",
+        "2021": "Excellent",
+        "2022": "Excellent",
+        "2023": "Excellent",
+        "2024": "Excellent",
+        "2025": "Excellent"
+      },
+      "saisons_retenues": [
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "moyenne_5_saisons": 4,
+      "etat": "excellent",
+      "motif_absence_classement": null,
+      "nb_prelevements": 117,
+      "nb_evenements_declares": 0,
+      "nb_fermetures": 1
+    },
+    {
+      "site": "baignade-concurrence-la-rochelle",
+      "id_site_sise": "017000613",
+      "classements": {
+        "2013": "Bon",
+        "2014": "Bon",
+        "2015": "Bon",
+        "2016": "Bon",
+        "2017": "Bon",
+        "2018": "Excellent",
+        "2019": "Excellent",
+        "2020": "Excellent",
+        "2021": "Bon",
+        "2022": "Bon",
+        "2023": "Insuffisant",
+        "2024": "Insuffisant",
+        "2025": "Suffisant"
+      },
+      "saisons_retenues": [
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "moyenne_5_saisons": 2,
+      "etat": "suffisant",
+      "motif_absence_classement": null,
+      "nb_prelevements": 142,
+      "nb_evenements_declares": 4,
+      "nb_fermetures": 0
+    },
+    {
+      "site": "baignade-lhoumeau-pampin",
+      "id_site_sise": "017000779",
+      "classements": {
+        "2013": "Excellent",
+        "2014": "Excellent",
+        "2015": "Bon",
+        "2016": "Bon",
+        "2017": "Bon",
+        "2018": "Bon",
+        "2019": "Excellent",
+        "2020": "Excellent",
+        "2021": "Bon",
+        "2022": "Excellent",
+        "2023": "Excellent",
+        "2024": "Excellent",
+        "2025": "Excellent"
+      },
+      "saisons_retenues": [
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "moyenne_5_saisons": 3.8,
+      "etat": "excellent",
+      "motif_absence_classement": null,
+      "nb_prelevements": 81,
+      "nb_evenements_declares": 1,
+      "nb_fermetures": 0
+    },
+    {
+      "site": "baignade-minimes-la-rochelle",
+      "id_site_sise": "017000585",
+      "classements": {
+        "2013": "Excellent",
+        "2014": "Excellent",
+        "2015": "Bon",
+        "2016": "Excellent",
+        "2017": "Excellent",
+        "2018": "Excellent",
+        "2019": "Excellent",
+        "2020": "Bon",
+        "2021": "Excellent",
+        "2022": "Excellent",
+        "2023": "Bon",
+        "2024": "Bon",
+        "2025": "Bon"
+      },
+      "saisons_retenues": [
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "moyenne_5_saisons": 3.4,
+      "etat": "bon",
+      "motif_absence_classement": null,
+      "nb_prelevements": 132,
+      "nb_evenements_declares": 4,
       "nb_fermetures": 0
     }
   ]
